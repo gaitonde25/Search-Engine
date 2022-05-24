@@ -1,0 +1,16 @@
+b'Chanek Jones is back, helping his long-lost relative Indiana Jones, to find a secret treasure in a maze buried below a desert full of illusions.'
+b'The map of the labyrinth forms a tree with nn rooms numbered from 11 to nn and n\xe2\x88\x921n\xe2\x88\x921 tunnels connecting them such that it is possible to travel between each pair of rooms through several tunnels.'
+b'The ii-th room (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) has aiai illusion rate. To go from the xx-th room to the yy-th room, there must exist a tunnel between xx and yy, and it takes max(|ax+ay|,|ax\xe2\x88\x92ay|)max(|ax+ay|,|ax\xe2\x88\x92ay|) energy. |z||z| denotes the absolute value of zz.'
+b'To prevent grave robbers, the maze can change the illusion rate of any room in it. Chanek and Indiana would ask qq queries.'
+b'There are two types of queries to be done:'
+b'  1\xc2\xa0u\xc2\xa0c1\xc2\xa0u\xc2\xa0c \xe2\x80\x94 The illusion rate of the xx-th room is changed to cc (1\xe2\x89\xa4u\xe2\x89\xa4n1\xe2\x89\xa4u\xe2\x89\xa4n, 0\xe2\x89\xa4|c|\xe2\x89\xa41090\xe2\x89\xa4|c|\xe2\x89\xa4109).  2\xc2\xa0u\xc2\xa0v2\xc2\xa0u\xc2\xa0v \xe2\x80\x94 Chanek and Indiana ask you the minimum sum of energy needed to take the secret treasure at room vv if they are initially at room uu (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n). '
+b'Help them, so you can get a portion of the treasure!'
+b'Input'
+b'The first line contains two integers nn and qq (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105) \xe2\x80\x94 the number of rooms in the maze and the number of queries.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4|ai|\xe2\x89\xa41090\xe2\x89\xa4|ai|\xe2\x89\xa4109) \xe2\x80\x94 inital illusion rate of each room.'
+b'The ii-th of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers sisi and titi (1\xe2\x89\xa4si,ti\xe2\x89\xa4n1\xe2\x89\xa4si,ti\xe2\x89\xa4n), meaning there is a tunnel connecting sisi-th room and titi-th room. The given edges form a tree.'
+b'The next qq lines contain the query as described. The given queries are valid.'
+b'Output'
+b'For each type 22 query, output a line containing an integer \xe2\x80\x94 the minimum sum of energy needed for Chanek and Indiana to take the secret treasure.'
+Tags
+data structures, trees, *2300

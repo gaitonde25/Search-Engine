@@ -1,0 +1,13 @@
+b'You are given a sequence a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an consisting of different integers. It is required to split this sequence into the maximum number of subsequences such that after sorting integers in each of them in increasing order, the total sequence also will be sorted in increasing order.'
+b"Sorting integers in a subsequence is a process such that the numbers included in a subsequence are ordered in increasing order, and the numbers which are not included in a subsequence don't change their places."
+b'Every element of the sequence must appear in exactly one subsequence.'
+b'Input'
+b'The first line of input data contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the length of the sequence.'
+b'The second line of input data contains n different integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the elements of the sequence. It is guaranteed that all elements of the sequence are distinct.'
+b'Output'
+b'In the first line print the maximum number of subsequences k, which the original sequence can be split into while fulfilling the requirements.'
+b'In the next k lines print the description of subsequences in the following format: the number of elements in subsequence ci (0\xe2\x80\x89<\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), then ci integers l1,\xe2\x80\x89l2,\xe2\x80\x89...,\xe2\x80\x89lci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89lj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 indices of these elements in the original sequence. '
+b'Indices could be printed in any order. Every index from 1 to n must appear in output exactly once.'
+b'If there are several possible answers, print any of them.'
+Tags
+dfs and similar, dsu, implementation, math, sortings, *1400

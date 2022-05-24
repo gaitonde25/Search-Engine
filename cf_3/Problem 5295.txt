@@ -1,0 +1,10 @@
+b'Duff is in love with lovely numbers! A positive integer x is called lovely if and only if there is no such positive integer a\xe2\x80\x89>\xe2\x80\x891 such that a2 is a divisor of x.'
+b'  '
+b'Malek has a number store! In his store, he has only divisors of positive integer n (and he has all of them). As a birthday present, Malek wants to give her a lovely number from his store. He wants this number to be as big as possible.'
+b'Malek always had issues in math, so he asked for your help. Please tell him what is the biggest lovely number in his store.'
+b'Input'
+b'The first and only line of input contains one integer, n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012).'
+b'Output'
+b'Print the answer in one line.'
+Tags
+math, *1300

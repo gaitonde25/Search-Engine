@@ -1,0 +1,11 @@
+b'There is an infinite 2-dimensional grid. The robot stands in cell (0,0)(0,0) and wants to reach cell (x,y)(x,y). Here is a list of possible commands the robot can execute:'
+b'  move north from cell (i,j)(i,j) to (i,j+1)(i,j+1);  move east from cell (i,j)(i,j) to (i+1,j)(i+1,j);  move south from cell (i,j)(i,j) to (i,j\xe2\x88\x921)(i,j\xe2\x88\x921);  move west from cell (i,j)(i,j) to (i\xe2\x88\x921,j)(i\xe2\x88\x921,j);  stay in cell (i,j)(i,j). '
+b"The robot wants to reach cell (x,y)(x,y) in as few commands as possible. However, he can't execute the same command two or more times in a row."
+b'What is the minimum number of commands required to reach (x,y)(x,y) from (0,0)(0,0)?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Each of the next tt lines contains two integers xx and yy (0\xe2\x89\xa4x,y\xe2\x89\xa41040\xe2\x89\xa4x,y\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the destination coordinates of the robot.'
+b'Output'
+b'For each testcase print a single integer\xc2\xa0\xe2\x80\x94 the minimum number of commands required for the robot to reach (x,y)(x,y) from (0,0)(0,0) if no command is allowed to be executed two or more times in a row.'
+Tags
+math, *800

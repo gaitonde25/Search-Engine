@@ -1,0 +1,16 @@
+b'You are given a tree with nn vertices. You are allowed to modify the structure of the tree through the following multi-step operation:'
+b'  Choose three vertices aa, bb, and cc such that bb is adjacent to both aa and cc.  For every vertex dd other than bb that is adjacent to aa, remove the edge connecting dd and aa and add the edge connecting dd and cc.  Delete the edge connecting aa and bb and add the edge connecting aa and cc. '
+b'As an example, consider the following tree:'
+b'  '
+b'The following diagram illustrates the sequence of steps that happen when we apply an operation to vertices 22, 44, and 55:'
+b'  '
+b'It can be proven that after each operation, the resulting graph is still a tree.'
+b'Find the minimum number of operations that must be performed to transform the tree into a star. A star is a tree with one vertex of degree n\xe2\x88\x921n\xe2\x88\x921, called its center, and n\xe2\x88\x921n\xe2\x88\x921 vertices of degree 11.'
+b'Input'
+b'The first line contains an integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The ii-th of the following n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi) denoting that there exists an edge connecting vertices uiui and vivi. It is guaranteed that the given edges form a tree.'
+b'Output'
+b'Print a single integer \xc2\xa0\xe2\x80\x94 the minimum number of operations needed to transform the tree into a star.'
+b'It can be proven that under the given constraints, it is always possible to transform the tree into a star using at most 10181018 operations.'
+Tags
+brute force, constructive algorithms, dfs and similar, graph matchings, graphs, trees, *2800

@@ -1,0 +1,12 @@
+b'Vasya has got nn books, numbered from 11 to nn, arranged in a stack. The topmost book has number a1a1, the next one \xe2\x80\x94 a2a2, and so on. The book at the bottom of the stack has number anan. All numbers are distinct.'
+b'Vasya wants to move all the books to his backpack in nn steps. During ii-th step he wants to move the book number bibi into his backpack. If the book with number bibi is in the stack, he takes this book and all the books above the book bibi, and puts them into the backpack; otherwise he does nothing and begins the next step. For example, if books are arranged in the order [1,2,3][1,2,3] (book 11 is the topmost), and Vasya moves the books in the order [2,1,3][2,1,3], then during the first step he will move two books (11 and 22), during the second step he will do nothing (since book 11 is already in the backpack), and during the third step \xe2\x80\x94 one book (the book number 33). Note that b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn are distinct.'
+b'Help Vasya! Tell him the number of books he will put into his backpack during each step.'
+b'Input'
+b'The first line contains one integer n\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)n\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of books in the stack.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,an\xc2\xa0(1\xe2\x89\xa4ai\xe2\x89\xa4n)a1,a2,\xe2\x80\xa6,an\xc2\xa0(1\xe2\x89\xa4ai\xe2\x89\xa4n) denoting the stack of books.'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bn\xc2\xa0(1\xe2\x89\xa4bi\xe2\x89\xa4n)b1,b2,\xe2\x80\xa6,bn\xc2\xa0(1\xe2\x89\xa4bi\xe2\x89\xa4n) denoting the steps Vasya is going to perform.'
+b'All numbers a1\xe2\x80\xa6ana1\xe2\x80\xa6an are distinct, the same goes for b1\xe2\x80\xa6bnb1\xe2\x80\xa6bn.'
+b'Output'
+b'Print nn integers. The ii-th of them should be equal to the number of books Vasya moves to his backpack during the ii-th step.'
+Tags
+implementation, math, *1000

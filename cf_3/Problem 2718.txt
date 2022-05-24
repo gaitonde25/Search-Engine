@@ -1,0 +1,12 @@
+b'This problem is same as the next one, but has smaller constraints.'
+b"Shiro's just moved to the new house. She wants to invite all friends of her to the house so they can play monopoly. However, her house is too small, so she can only invite one friend at a time."
+b"For each of the nn days since the day Shiro moved to the new house, there will be exactly one cat coming to the Shiro's house. The cat coming in the ii-th day has a ribbon with color uiui. Shiro wants to know the largest number xx, such that if we consider the streak of the first xx days, it is possible to remove exactly one day from this streak so that every ribbon color that has appeared among the remaining x\xe2\x88\x921x\xe2\x88\x921 will have the same number of occurrences."
+b"For example, consider the following sequence of uiui: [2,2,1,1,5,4,4,5][2,2,1,1,5,4,4,5]. Then x=7x=7 makes a streak, since if we remove the leftmost ui=5ui=5, each ribbon color will appear exactly twice in the prefix of x\xe2\x88\x921x\xe2\x88\x921 days. Note that x=8x=8 doesn't form a streak, since you must remove exactly one day. "
+b'Since Shiro is just a cat, she is not very good at counting and needs your help finding the longest streak.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the total number of days.'
+b'The second line contains nn integers u1,u2,\xe2\x80\xa6,unu1,u2,\xe2\x80\xa6,un (1\xe2\x89\xa4ui\xe2\x89\xa4101\xe2\x89\xa4ui\xe2\x89\xa410)\xc2\xa0\xe2\x80\x94 the colors of the ribbons the cats wear. '
+b'Output'
+b'Print a single integer xx\xc2\xa0\xe2\x80\x94 the largest possible streak of days.'
+Tags
+data structures, implementation, *1500

@@ -1,0 +1,13 @@
+b'  '
+b'William owns a flat in central London. He decided to rent his flat out for the next nn days to earn some money.'
+b"Since his flat is in the center of the city, he instantly got mm offers in the form (li,ri)(li,ri), which means that someone wants to book the flat from day lili until day riri inclusive. To avoid spending a lot of time figuring out whether it's profitable for him to accept an offer, William decided to develop an algorithm. The algorithm processes all offers as they arrive and will only accept offer ii if the following two conditions are satisfied:"
+b'  ri\xe2\x88\x92li+1\xe2\x89\xa5xri\xe2\x88\x92li+1\xe2\x89\xa5x.  None of the days between lili and riri are occupied by a previously accepted offer '
+b' '
+b"William isn't sure what value xx should have and he asks you for help. For all xx from 11 to nn he wants you to calculate the total number of days for which the flat would be occupied if the corresponding value will be assigned to xx."
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85104,1\xe2\x89\xa4m\xe2\x89\xa4105)(1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85104,1\xe2\x89\xa4m\xe2\x89\xa4105), which are the number of days and the number of offers, respectively.'
+b'Each of the next mm lines contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n)(1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n), which describe the ii-th renting offer. All offers are given in chronological order.'
+b'Output'
+b'Print nn integers. The number in ii-th line must be equal to the number of days the flat would be occupied if the algorithm will use the value of xx equal to ii.'
+Tags
+data structures, divide and conquer, *3200

@@ -1,0 +1,10 @@
+b'You are given an array aa of nn integers.'
+b'You need to find the maximum value of ai|(aj&ak)ai|(aj&ak) over all triplets (i,j,k)(i,j,k) such that i<j<ki<j<k.'
+b'Here && denotes the bitwise AND operation, and || denotes the bitwise OR operation.'
+b'Input'
+b'The first line of input contains the integer nn (3\xe2\x89\xa4n\xe2\x89\xa41063\xe2\x89\xa4n\xe2\x89\xa4106), the size of the array aa.'
+b'Next line contains nn space separated integers a1a1, a2a2, ..., anan (0\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851060\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85106), representing the elements of the array aa.'
+b'Output'
+b'Output a single integer, the maximum value of the expression given in the statement. '
+Tags
+bitmasks, dfs and similar, dp, greedy, *2600

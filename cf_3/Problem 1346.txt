@@ -1,0 +1,12 @@
+b'You are a paparazzi working in Manhattan.'
+b'Manhattan has rr south-to-north streets, denoted by numbers 1,2,\xe2\x80\xa6,r1,2,\xe2\x80\xa6,r in order from west to east, and rr west-to-east streets, denoted by numbers 1,2,\xe2\x80\xa6,r1,2,\xe2\x80\xa6,r in order from south to north. Each of the rr south-to-north streets intersects each of the rr west-to-east streets; the intersection between the xx-th south-to-north street and the yy-th west-to-east street is denoted by (x,y)(x,y). In order to move from the intersection (x,y)(x,y) to the intersection (x\xe2\x80\xb2,y\xe2\x80\xb2)(x\xe2\x80\xb2,y\xe2\x80\xb2) you need |x\xe2\x88\x92x\xe2\x80\xb2|+|y\xe2\x88\x92y\xe2\x80\xb2||x\xe2\x88\x92x\xe2\x80\xb2|+|y\xe2\x88\x92y\xe2\x80\xb2| minutes.'
+b'You know about the presence of nn celebrities in the city and you want to take photos of as many of them as possible. More precisely, for each i=1,\xe2\x80\xa6,ni=1,\xe2\x80\xa6,n, you know that the ii-th celebrity will be at the intersection (xi,yi)(xi,yi) in exactly titi minutes from now (and he will stay there for a very short time, so you may take a photo of him only if at the titi-th minute from now you are at the intersection (xi,yi)(xi,yi)). You are very good at your job, so you are able to take photos instantaneously. You know that ti<ti+1ti<ti+1 for any i=1,2,\xe2\x80\xa6,n\xe2\x88\x921i=1,2,\xe2\x80\xa6,n\xe2\x88\x921.'
+b'Currently you are at your office, which is located at the intersection (1,1)(1,1). If you plan your working day optimally, what is the maximum number of celebrities you can take a photo of?'
+b'Input'
+b'The first line of the input contains two positive integers r,nr,n (1\xe2\x89\xa4r\xe2\x89\xa45001\xe2\x89\xa4r\xe2\x89\xa4500, 1\xe2\x89\xa4n\xe2\x89\xa4100,0001\xe2\x89\xa4n\xe2\x89\xa4100,000) \xe2\x80\x93 the number of south-to-north/west-to-east streets and the number of celebrities.'
+b'Then nn lines follow, each describing the appearance of a celebrity. The ii-th of these lines contains 33 positive integers ti,xi,yiti,xi,yi (1\xe2\x89\xa4ti\xe2\x89\xa41,000,0001\xe2\x89\xa4ti\xe2\x89\xa41,000,000, 1\xe2\x89\xa4xi,yi\xe2\x89\xa4r1\xe2\x89\xa4xi,yi\xe2\x89\xa4r) \xc2\xa0\xe2\x80\x94 denoting that the ii-th celebrity will appear at the intersection (xi,yi)(xi,yi) in titi minutes from now.'
+b'It is guaranteed that ti<ti+1ti<ti+1 for any i=1,2,\xe2\x80\xa6,n\xe2\x88\x921i=1,2,\xe2\x80\xa6,n\xe2\x88\x921.'
+b'Output'
+b'Print a single integer, the maximum number of celebrities you can take a photo of.'
+Tags
+dp, *2000

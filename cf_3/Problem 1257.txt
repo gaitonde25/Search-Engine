@@ -1,0 +1,16 @@
+b'A patient has been infected with an unknown disease. His body can be seen as an infinite grid of triangular cells which looks as follows:'
+b'  '
+b'Two cells are neighboring if they share a side. Therefore, each cell (xx, yy) has exactly three neighbors: '
+b'  (x+1x+1, yy)  (x\xe2\x88\x921x\xe2\x88\x921, yy)  (x+1x+1, y\xe2\x88\x921y\xe2\x88\x921) if xx is even and (x\xe2\x88\x921x\xe2\x88\x921, y+1y+1) otherwise. '
+b' '
+b'Initially some cells are infected, all the others are healthy. The process of recovery begins. Each second, for exactly one cell (even though there might be multiple cells that could change its state) one of the following happens:'
+b'  A healthy cell with at least 22 infected neighbors also becomes infected.  An infected cell with at least 22 healthy neighbors also becomes healthy. '
+b'If no such cell exists, the process of recovery stops. Patient is considered recovered if the process of recovery has stopped and all the cells are healthy.'
+b"We're interested in a worst-case scenario: is it possible that the patient never recovers, or if it's not possible, what is the maximum possible duration of the recovery process?"
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4250000)(1\xe2\x89\xa4n\xe2\x89\xa4250000) \xc2\xa0\xe2\x80\x94 the number of infected cells. '
+b'The ii-th of the next nn lines contains two space-separated integers xixi and yiyi (0\xe2\x89\xa4xi,yi<500)(0\xe2\x89\xa4xi,yi<500), meaning that cell (xi,yi)(xi,yi) is infected. All cells (xi,yi)(xi,yi) are distinct, and all other cells are considered healthy. '
+b'Output'
+b'If it is possible that the organism never fully recovers from the disease, print SICK. Otherwise, you should print RECOVERED and in the next line an integer kk \xc2\xa0\xe2\x80\x94 the longest possible recovery period, modulo 998244353998244353. '
+Tags
+constructive algorithms, dfs and similar, *3500

@@ -1,0 +1,11 @@
+b"Phoenix's homeland, the Fire Nation had nn cities that were connected by mm roads, but the roads were all destroyed by an earthquake. The Fire Nation wishes to repair n\xe2\x88\x921n\xe2\x88\x921 of these roads so that all the cities are connected again. "
+b'The ii-th city has aiai tons of asphalt. xx tons of asphalt are used up when repairing a road, and to repair a road between ii and jj, cities ii and jj must have at least xx tons of asphalt between them. In other words, if city ii had aiai tons of asphalt and city jj had ajaj tons, there would remain ai+aj\xe2\x88\x92xai+aj\xe2\x88\x92x tons after repairing the road between them. Asphalt can be moved between cities if the road between them is already repaired.'
+b'Please determine if it is possible to connect all the cities, and if so, output any sequence of roads to repair.'
+b'Input'
+b'The first line contains integers nn, mm, and xx (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105; n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x85105n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x85105; 1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of cities, number of roads, and amount of asphalt needed to repair one road.'
+b'The next line contains nn space-separated integer aiai (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the amount of asphalt initially at city ii.'
+b'The next mm lines contains two integers xixi and yiyi (xi\xe2\x89\xa0yixi\xe2\x89\xa0yi; 1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the cities connected by the ii-th road. It is guaranteed that there is at most one road between each pair of cities, and that the city was originally connected before the earthquake.'
+b'Output'
+b'If it is not possible to connect all the cities, print NO. Otherwise, print YES followed by n\xe2\x88\x921n\xe2\x88\x921 integers e1,e2,\xe2\x80\xa6,en\xe2\x88\x921e1,e2,\xe2\x80\xa6,en\xe2\x88\x921, the order in which the roads should be repaired. eiei is the index of the ii-th road to repair. If there are multiple solutions, print any.'
+Tags
+constructive algorithms, dfs and similar, dsu, graphs, greedy, trees, *2600

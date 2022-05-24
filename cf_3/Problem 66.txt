@@ -1,0 +1,11 @@
+b'You are given a string ss. You have to determine whether it is possible to build the string ss out of strings aa, aaa, bb and/or bbb by concatenating them. You can use the strings aa, aaa, bb and/or bbb any number of times and in any order.'
+b'For example:'
+b'  aaaabbb can be built as aa ++ aa ++ bbb;  bbaaaaabbb can be built as bb ++ aaa ++ aa ++ bbb;  aaaaaa can be built as aa ++ aa ++ aa;  abab cannot be built from aa, aaa, bb and/or bbb. '
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of one line containing the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa4501\xe2\x89\xa4|s|\xe2\x89\xa450), consisting of characters a and/or b.'
+b'Output'
+b'For each test case, print YES if it is possible to build the string ss. Otherwise, print NO.'
+b'You may print each letter in any case (for example, YES, yes, Yes will all be recognized as positive answer, NO, no and nO will all be recognized as negative answer).'
+Tags
+implementation, *800

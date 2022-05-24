@@ -1,0 +1,11 @@
+b"In some social network, there are nn users communicating with each other in mm groups of friends. Let's analyze the process of distributing some news between users."
+b"Initially, some user xx receives the news from some source. Then he or she sends the news to his or her friends (two users are friends if there is at least one group such that both of them belong to this group). Friends continue sending the news to their friends, and so on. The process ends when there is no pair of friends such that one of them knows the news, and another one doesn't know."
+b'For each user xx you have to determine what is the number of users that will know the news if initially only user xx starts distributing it. '
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the number of users and the number of groups of friends, respectively.'
+b'Then mm lines follow, each describing a group of friends. The ii-th line begins with integer kiki (0\xe2\x89\xa4ki\xe2\x89\xa4n0\xe2\x89\xa4ki\xe2\x89\xa4n) \xe2\x80\x94 the number of users in the ii-th group. Then kiki distinct integers follow, denoting the users belonging to the ii-th group.'
+b'It is guaranteed that \xe2\x88\x91i=1mki\xe2\x89\xa45\xe2\x8b\x85105\xe2\x88\x91i=1mki\xe2\x89\xa45\xe2\x8b\x85105.'
+b'Output'
+b'Print nn integers. The ii-th integer should be equal to the number of users that will know the news if user ii starts distributing it.'
+Tags
+dfs and similar, dsu, graphs, *1400

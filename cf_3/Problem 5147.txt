@@ -1,0 +1,10 @@
+b'Tree is a connected graph without cycles. A leaf of a tree is any vertex connected with exactly one other vertex.'
+b'You are given a tree with n vertices and a root in the vertex 1. There is an ant in each leaf of the tree. In one second some ants can simultaneously go to the parent vertex from the vertex they were in. No two ants can be in the same vertex simultaneously except for the root of the tree.'
+b'Find the minimal time required for all ants to be in the root of the tree. Note that at start the ants are only in the leaves of the tree.'
+b'Input'
+b'The first line contains integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105) \xe2\x80\x94 the number of vertices in the tree.'
+b'Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contains two integers xi,\xe2\x80\x89yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the ends of the i-th edge. It is guaranteed that you are given the correct undirected tree.'
+b'Output'
+b'Print the only integer t \xe2\x80\x94 the minimal time required for all ants to be in the root of the tree.'
+Tags
+dfs and similar, greedy, sortings, trees, *2200

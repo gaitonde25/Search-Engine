@@ -1,0 +1,11 @@
+b"You are given two integers ll and rr in binary representation. Let g(x,y)g(x,y) be equal to the bitwise XOR of all integers from xx to yy inclusive (that is x\xe2\x8a\x95(x+1)\xe2\x8a\x95\xe2\x8b\xaf\xe2\x8a\x95(y\xe2\x88\x921)\xe2\x8a\x95yx\xe2\x8a\x95(x+1)\xe2\x8a\x95\xe2\x8b\xaf\xe2\x8a\x95(y\xe2\x88\x921)\xe2\x8a\x95y). Let's define f(l,r)f(l,r) as the maximum of all values of g(x,y)g(x,y) satisfying l\xe2\x89\xa4x\xe2\x89\xa4y\xe2\x89\xa4rl\xe2\x89\xa4x\xe2\x89\xa4y\xe2\x89\xa4r."
+b'Output f(l,r)f(l,r).'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106) \xe2\x80\x94 the length of the binary representation of rr.'
+b'The second line contains the binary representation of ll \xe2\x80\x94 a string of length nn consisting of digits 00 and 11 (0\xe2\x89\xa4l<2n0\xe2\x89\xa4l<2n).'
+b'The third line contains the binary representation of rr \xe2\x80\x94 a string of length nn consisting of digits 00 and 11 (0\xe2\x89\xa4r<2n0\xe2\x89\xa4r<2n).'
+b'It is guaranteed that l\xe2\x89\xa4rl\xe2\x89\xa4r. The binary representation of rr does not contain any extra leading zeros (if r=0r=0, the binary representation of it consists of a single zero). The binary representation of ll is preceded with leading zeros so that its length is equal to nn.'
+b'Output'
+b'In a single line output the value of f(l,r)f(l,r) for the given pair of ll and rr in binary representation without extra leading zeros.'
+Tags
+bitmasks, constructive algorithms, greedy, math, strings, two pointers, *2600

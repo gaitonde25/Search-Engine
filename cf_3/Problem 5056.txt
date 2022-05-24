@@ -1,0 +1,9 @@
+b'Little Artem found a grasshopper. He brought it to his house and constructed a jumping area for him.'
+b'The area looks like a strip of cells 1\xe2\x80\x89\xc3\x97\xe2\x80\x89n. Each cell contains the direction for the next jump and the length of that jump. Grasshopper starts in the first cell and follows the instructions written on the cells. Grasshopper stops immediately if it jumps out of the strip. Now Artem wants to find out if this will ever happen.'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 length of the strip. '
+b'Next line contains a string of length n which consists of characters "<" and ">" only, that provide the direction of the jump from the corresponding cell. Next line contains n integers di (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the length of the jump from the i-th cell.'
+b'Output'
+b'Print "INFINITE" (without quotes) if grasshopper will continue his jumps forever. Otherwise print "FINITE" (without quotes).'
+Tags
+implementation, *1000

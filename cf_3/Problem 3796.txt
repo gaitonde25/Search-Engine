@@ -1,0 +1,11 @@
+b'Two friends are on the coordinate axis Ox in points with integer coordinates. One of them is in the point x1\xe2\x80\x89=\xe2\x80\x89a, another one is in the point x2\xe2\x80\x89=\xe2\x80\x89b. '
+b'Each of the friends can move by one along the line in any direction unlimited number of times. When a friend moves, the tiredness of a friend changes according to the following rules: the first move increases the tiredness by 1, the second move increases the tiredness by 2, the third\xc2\xa0\xe2\x80\x94 by 3 and so on. For example, if a friend moves first to the left, then to the right (returning to the same point), and then again to the left his tiredness becomes equal to 1\xe2\x80\x89+\xe2\x80\x892\xe2\x80\x89+\xe2\x80\x893\xe2\x80\x89=\xe2\x80\x896.'
+b'The friends want to meet in a integer point. Determine the minimum total tiredness they should gain, if they meet in the same point.'
+b'Input'
+b'The first line contains a single integer a (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the initial position of the first friend. '
+b'The second line contains a single integer b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the initial position of the second friend.'
+b'It is guaranteed that a\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89b.'
+b'Output'
+b'Print the minimum possible total tiredness if the friends meet in the same point.'
+Tags
+brute force, greedy, implementation, math, *800

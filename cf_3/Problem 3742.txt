@@ -1,0 +1,12 @@
+b'You are given a binary string s (each character of this string is either 0 or 1).'
+b"Let's denote the cost of string t as the number of occurences of s in t. For example, if s is 11 and t is 111011, then the cost of t is 3."
+b"Let's also denote the Fibonacci strings sequence as follows:"
+b' F(0) is 0; F(1) is 1; F(i)\xe2\x80\x89=\xe2\x80\x89F(i\xe2\x80\x89-\xe2\x80\x891)\xe2\x80\x89+\xe2\x80\x89F(i\xe2\x80\x89-\xe2\x80\x892) if i\xe2\x80\x89>\xe2\x80\x891, where \xe2\x80\x89+\xe2\x80\x89 means the concatenation of two strings.'
+b'Your task is to calculate the sum of costs of all subsequences of the string F(x). Since answer may be large, calculate it modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'The first line contains two integers n and x (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the length of s and the index of a Fibonacci string you are interested in, respectively.'
+b'The second line contains s \xe2\x80\x94 a string consisting of n characters. Each of these characters is either 0 or 1.'
+b'Output'
+b'Print the only integer \xe2\x80\x94 the sum of costs of all subsequences of the string F(x), taken modulo 109\xe2\x80\x89+\xe2\x80\x897. '
+Tags
+combinatorics, dp, matrices, *2400

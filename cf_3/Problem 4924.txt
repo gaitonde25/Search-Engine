@@ -1,0 +1,11 @@
+b'Limak is a little polar bear. He plays by building towers from blocks. Every block is a cube with positive integer length of side. Limak has infinitely many blocks of each side length.'
+b'A block with side a has volume a3. A tower consisting of blocks with sides a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89ak has the total volume a13\xe2\x80\x89+\xe2\x80\x89a23\xe2\x80\x89+\xe2\x80\x89...\xe2\x80\x89+\xe2\x80\x89ak3.'
+b"Limak is going to build a tower. First, he asks you to tell him a positive integer X\xc2\xa0\xe2\x80\x94 the required total volume of the tower. Then, Limak adds new blocks greedily, one by one. Each time he adds the biggest block such that the total volume doesn't exceed X."
+b'Limak asks you to choose X not greater than m. Also, he wants to maximize the number of blocks in the tower at the end (however, he still behaves greedily). Secondarily, he wants to maximize X.'
+b'Can you help Limak? Find the maximum number of blocks his tower can have and the maximum X\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m that results this number of blocks.'
+b'Input'
+b'The only line of the input contains one integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891015), meaning that Limak wants you to choose X between 1 and m, inclusive.'
+b'Output'
+b'Print two integers\xc2\xa0\xe2\x80\x94 the maximum number of blocks in the tower and the maximum required total volume X, resulting in the maximum number of blocks.'
+Tags
+binary search, dp, greedy, *2200

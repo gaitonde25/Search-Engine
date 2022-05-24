@@ -1,0 +1,11 @@
+b'Little D is a friend of Little C who loves intervals very much instead of number "33".'
+b'Now he has nn intervals on the number axis, the ii-th of which is [ai,bi][ai,bi].'
+b'Only the nn intervals can not satisfy him. He defines the value of an interval of intervals [l,r][l,r] (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n, ll and rr are both integers) as the total length of the union of intervals from the ll-th to the rr-th.'
+b'He wants to select exactly kk different intervals of intervals such that the sum of their values is maximal. Please help him calculate the maximal sum.'
+b'Input'
+b'First line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa4min{n(n+1)2,109}1\xe2\x89\xa4k\xe2\x89\xa4min{n(n+1)2,109}) \xe2\x80\x94 the number of intervals Little D has and the number of intervals of intervals he will select.'
+b'Each of the next nn lines contains two integers aiai and bibi, the ii-th line of the nn lines describing the ii-th interval (1\xe2\x89\xa4ai<bi\xe2\x89\xa41091\xe2\x89\xa4ai<bi\xe2\x89\xa4109).'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximal sum of values Little D can get.'
+Tags
+binary search, data structures, two pointers, *3500

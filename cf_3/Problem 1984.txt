@@ -1,0 +1,16 @@
+b'Gildong owns a bulgogi restaurant. The restaurant has a lot of customers, so many of them like to make a reservation before visiting it.'
+b"Gildong tries so hard to satisfy the customers that he even memorized all customers' preferred temperature ranges! Looking through the reservation list, he wants to satisfy all customers by controlling the temperature of the restaurant."
+b"The restaurant has an air conditioner that has 3 states: off, heating, and cooling. When it's off, the restaurant's temperature remains the same. When it's heating, the temperature increases by 1 in one minute. Lastly, when it's cooling, the temperature decreases by 1 in one minute. Gildong can change the state as many times as he wants, at any integer minutes. The air conditioner is off initially."
+b'Each customer is characterized by three values: titi \xe2\x80\x94 the time (in minutes) when the ii-th customer visits the restaurant, lili \xe2\x80\x94 the lower bound of their preferred temperature range, and hihi \xe2\x80\x94 the upper bound of their preferred temperature range.'
+b'A customer is satisfied if the temperature is within the preferred range at the instant they visit the restaurant. Formally, the ii-th customer is satisfied if and only if the temperature is between lili and hihi (inclusive) in the titi-th minute.'
+b"Given the initial temperature, the list of reserved customers' visit times and their preferred temperature ranges, you're going to help him find if it's possible to satisfy all customers."
+b'Input'
+b'Each test contains one or more test cases. The first line contains the number of test cases qq (1\xe2\x89\xa4q\xe2\x89\xa45001\xe2\x89\xa4q\xe2\x89\xa4500). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, \xe2\x88\x92109\xe2\x89\xa4m\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4m\xe2\x89\xa4109), where nn is the number of reserved customers and mm is the initial temperature of the restaurant.'
+b'Next, nn lines follow. The ii-th line of them contains three integers titi, lili, and hihi (1\xe2\x89\xa4ti\xe2\x89\xa41091\xe2\x89\xa4ti\xe2\x89\xa4109, \xe2\x88\x92109\xe2\x89\xa4li\xe2\x89\xa4hi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4li\xe2\x89\xa4hi\xe2\x89\xa4109), where titi is the time when the ii-th customer visits, lili is the lower bound of their preferred temperature range, and hihi is the upper bound of their preferred temperature range. The preferred temperature ranges are inclusive.'
+b'The customers are given in non-decreasing order of their visit time, and the current time is 00.'
+b'Output'
+b'For each test case, print "YES" if it is possible to satisfy all customers. Otherwise, print "NO".'
+b'You can print each letter in any case (upper or lower).'
+Tags
+dp, greedy, implementation, sortings, two pointers, *1500

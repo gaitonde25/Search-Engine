@@ -1,0 +1,13 @@
+b'This is the hard version of the problem. The difference is constraints on the number of wise men and the time limit. You can make hacks only if all versions of this task are solved.'
+b'nn wise men live in a beautiful city. Some of them know each other.'
+b"For each of the n!n! possible permutations p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn of the wise men, let's generate a binary string of length n\xe2\x88\x921n\xe2\x88\x921: for each 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n set si=1si=1 if pipi and pi+1pi+1 know each other, and si=0si=0 otherwise. "
+b'For all possible 2n\xe2\x88\x9212n\xe2\x88\x921 binary strings, find the number of permutations that produce this binary string.'
+b'Input'
+b'The first line of input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa418)2\xe2\x89\xa4n\xe2\x89\xa418) \xc2\xa0\xe2\x80\x94 the number of wise men in the city.'
+b"The next nn lines contain a binary string of length nn each, such that the jj-th character of the ii-th string is equal to '1' if wise man ii knows wise man jj, and equals '0' otherwise."
+b'It is guaranteed that if the ii-th man knows the jj-th man, then the jj-th man knows ii-th man and no man knows himself.'
+b'Output'
+b'Print 2n\xe2\x88\x9212n\xe2\x88\x921 space-separated integers. For each 0\xe2\x89\xa4x<2n\xe2\x88\x9210\xe2\x89\xa4x<2n\xe2\x88\x921:'
+b"  Let's consider a string ss of length n\xe2\x88\x921n\xe2\x88\x921, such that si=\xe2\x8c\x8ax2i\xe2\x88\x921\xe2\x8c\x8bmod2si=\xe2\x8c\x8ax2i\xe2\x88\x921\xe2\x8c\x8bmod2 for all 1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921.  The (x+1)(x+1)-th number should be equal to the required answer for ss. "
+Tags
+bitmasks, dp, math, *3200

@@ -1,0 +1,14 @@
+b"Let's define a number ebne (even but not even) if and only if its sum of digits is divisible by 22 but the number itself is not divisible by 22. For example, 1313, 12271227, 185217185217 are ebne numbers, while 1212, 22, 177013177013, 265918265918 are not. If you're still unsure what ebne numbers are, you can look at the sample notes for more clarification."
+b"You are given a non-negative integer ss, consisting of nn digits. You can delete some digits (they are not necessary consecutive/successive) to make the given number ebne. You cannot change the order of the digits, that is, after deleting the digits the remaining digits collapse. The resulting number shouldn't contain leading zeros. You can delete any number of digits between 00 (do not delete any digits at all) and n\xe2\x88\x921n\xe2\x88\x921."
+b'For example, if you are given s=s=222373204424185217171912 then one of possible ways to make it ebne is: 222373204424185217171912 \xe2\x86\x92\xe2\x86\x92 2237344218521717191. The sum of digits of 2237344218521717191 is equal to 7070 and is divisible by 22, but number itself is not divisible by 22: it means that the resulting number is ebne.'
+b"Find any resulting number that is ebne. If it's impossible to create an ebne number from the given number report about it."
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa430001\xe2\x89\xa4n\xe2\x89\xa43000) \xc2\xa0\xe2\x80\x94 the number of digits in the original number.'
+b'The second line of each test case contains a non-negative integer number ss, consisting of nn digits.'
+b'It is guaranteed that ss does not contain leading zeros and the sum of nn over all test cases does not exceed 30003000.'
+b'Output'
+b'For each test case given in the input print the answer in the following format:'
+b' If it is impossible to create an ebne number, print "-1" (without quotes); Otherwise, print the resulting number after deleting some, possibly zero, but not all digits. This number should be ebne. If there are multiple answers, you can print any of them. Note that answers with leading zeros or empty strings are not accepted. It\'s not necessary to minimize or maximize the number of deleted digits.'
+Tags
+greedy, math, strings, *900

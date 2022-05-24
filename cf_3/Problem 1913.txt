@@ -1,0 +1,13 @@
+b'You are given an array aa consisting of nn integers.'
+b'Your task is to determine if aa has some subsequence of length at least 33 that is a palindrome.'
+b'Recall that an array bb is called a subsequence of the array aa if bb can be obtained by removing some (possibly, zero) elements from aa (not necessarily consecutive) without changing the order of remaining elements. For example, [2][2], [1,2,1,3][1,2,1,3] and [2,3][2,3] are subsequences of [1,2,1,3][1,2,1,3], but [1,1,2][1,1,2] and [4][4] are not.'
+b'Also, recall that a palindrome is an array that reads the same backward as forward. In other words, the array aa of length nn is the palindrome if ai=an\xe2\x88\x92i\xe2\x88\x921ai=an\xe2\x88\x92i\xe2\x88\x921 for all ii from 11 to nn. For example, arrays [1234][1234], [1,2,1][1,2,1], [1,3,2,2,3,1][1,3,2,2,3,1] and [10,100,10][10,100,10] are palindromes, but arrays [1,2][1,2] and [1,2,3,1][1,2,3,1] are not.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'Next 2t2t lines describe test cases. The first line of the test case contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa450003\xe2\x89\xa4n\xe2\x89\xa45000) \xe2\x80\x94 the length of aa. The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n), where aiai is the ii-th element of aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 50005000 (\xe2\x88\x91n\xe2\x89\xa45000\xe2\x88\x91n\xe2\x89\xa45000).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 "YES" (without quotes) if aa has some subsequence of length at least 33 that is a palindrome and "NO" otherwise.'
+Tags
+brute force, strings, *1100

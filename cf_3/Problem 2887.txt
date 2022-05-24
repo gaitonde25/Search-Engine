@@ -1,0 +1,12 @@
+b'This is an interactive problem.'
+b'A legendary tree rests deep in the forest. Legend has it that individuals who realize this tree would eternally become a Legendary Grandmaster.'
+b'To help you determine the tree, Mikaela the Goddess has revealed to you that the tree contains nn vertices, enumerated from 11 through nn. She also allows you to ask her some questions as follows. For each question, you should tell Mikaela some two disjoint non-empty sets of vertices SS and TT, along with any vertex vv that you like. Then, Mikaela will count and give you the number of pairs of vertices (s,t)(s,t) where s\xe2\x88\x88Ss\xe2\x88\x88S and t\xe2\x88\x88Tt\xe2\x88\x88T such that the simple path from ss to tt contains vv.'
+b'Mikaela the Goddess is busy and will be available to answer at most 1111111111 questions.'
+b'This is your only chance. Your task is to determine the tree and report its edges.'
+b'Input'
+b'The first line contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa45002\xe2\x89\xa4n\xe2\x89\xa4500) \xe2\x80\x94 the number of vertices in the tree.'
+b'Output'
+b'When program has realized the tree and is ready to report the edges, print "ANSWER" in a separate line. Make sure that all letters are capitalized.'
+b'Then, print n\xe2\x88\x921n\xe2\x88\x921 lines, each containing two space-separated integers, denoting the vertices that are the endpoints of a certain edge. Each edge should be reported exactly once. Your program should then immediately terminate.'
+Tags
+binary search, interactive, trees, *3100

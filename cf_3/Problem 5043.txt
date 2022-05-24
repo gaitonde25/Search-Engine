@@ -1,0 +1,14 @@
+b'One social network developer recently suggested a new algorithm of choosing ads for users.'
+b'There are n slots which advertisers can buy. It is possible to buy a segment of consecutive slots at once. The more slots you own, the bigger are the chances your ad will be shown to users.'
+b'Every time it is needed to choose ads to show, some segment of slots is picked by a secret algorithm. Then some advertisers are chosen. The only restriction is that it should be guaranteed for advertisers which own at least p% of slots composing this segment that their ad will be shown.'
+b"From the other side, users don't like ads. So it was decided to show no more than  ads at once. You are asked to develop a system to sell segments of slots and choose ads in accordance with the rules described above."
+b'Input'
+b'The first line of the input contains three integers n, m and p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89150\xe2\x80\x89000,\xe2\x80\x8920\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the number of slots, the number of queries to your system and threshold for which display of the ad is guaranteed.'
+b'Next line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89150\xe2\x80\x89000), where the i-th number means id of advertiser who currently owns the i-th slot.'
+b'Next m lines contain queries descriptions. Each description is of one of the following forms: '
+b'  1 l r id (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89id\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89150 000)\xc2\xa0\xe2\x80\x94 advertiser id bought all slots in a range from l to r inclusive;  2 l r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r)\xc2\xa0\xe2\x80\x94 you need to choose advertisers for segment [l,\xe2\x80\x89r]. '
+b'Output'
+b"For each query of the second type answer should be printed in a separate line. First integer of the answer should be the number of advertisements that will be shown . Next cnt integers should be advertisers' ids. "
+b'It is allowed to print one advertiser more than once, but each advertiser that owns at least  slots of the segment from l to r should be in your answer.'
+Tags
+data structures, *3200

@@ -1,0 +1,9 @@
+b"There's a chip in the point (0,0)(0,0) of the coordinate plane. In one operation, you can move the chip from some point (x1,y1)(x1,y1) to some point (x2,y2)(x2,y2) if the Euclidean distance between these two points is an integer (i.e. (x1\xe2\x88\x92x2)2+(y1\xe2\x88\x92y2)2\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x92\xe2\x88\x9a(x1\xe2\x88\x92x2)2+(y1\xe2\x88\x92y2)2 is integer)."
+b'Your task is to determine the minimum number of operations required to move the chip from the point (0,0)(0,0) to the point (x,y)(x,y).'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa430001\xe2\x89\xa4t\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 number of test cases.'
+b'The single line of each test case contains two integers xx and yy (0\xe2\x89\xa4x,y\xe2\x89\xa4500\xe2\x89\xa4x,y\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the coordinates of the destination point.'
+b'Output'
+b'For each test case, print one integer\xc2\xa0\xe2\x80\x94 the minimum number of operations required to move the chip from the point (0,0)(0,0) to the point (x,y)(x,y).'
+Tags
+brute force, math, *800

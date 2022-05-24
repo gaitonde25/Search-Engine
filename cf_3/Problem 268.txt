@@ -1,0 +1,14 @@
+b'This version of the problem differs from the previous one only in the constraint on nn.'
+b'A tree is a connected undirected graph without cycles. A weighted tree has a weight assigned to each edge. The distance between two vertices is the minimum sum of weights on the path connecting them.'
+b'You are given a weighted tree with nn vertices, each edge has a weight of 11. Denote d(v)d(v) as the distance between vertex 11 and vertex vv.'
+b'Let f(x)f(x) be the minimum possible value of max1\xe2\x89\xa4v\xe2\x89\xa4n\xc2\xa0d(v)max1\xe2\x89\xa4v\xe2\x89\xa4n\xc2\xa0d(v) if you can temporarily add an edge with weight xx between any two vertices aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n)(1\xe2\x89\xa4a,b\xe2\x89\xa4n). Note that after this operation, the graph is no longer a tree.'
+b'For each integer xx from 11 to nn, find f(x)f(x).'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105).'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n) indicating that there is an edge between vertices uu and vv. It is guaranteed that the given edges form a tree.'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 3\xe2\x8b\x851053\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print nn integers in a single line, xx-th of which is equal to f(x)f(x) for all xx from 11 to nn.'
+Tags
+binary search, dfs and similar, shortest paths, trees, *2700

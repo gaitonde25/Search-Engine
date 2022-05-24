@@ -1,0 +1,12 @@
+b'Fox Ciel is playing a game. In this game there is an infinite long tape with cells indexed by integers (positive, negative and zero). At the beginning she is standing at the cell 0.'
+b'There are also n cards, each card has 2 attributes: length li and cost ci. If she pays ci dollars then she can apply i-th card. After applying i-th card she becomes able to make jumps of length li, i. e. from cell x to cell (x\xe2\x80\x89-\xe2\x80\x89li) or cell (x\xe2\x80\x89+\xe2\x80\x89li).'
+b'She wants to be able to jump to any cell on the tape (possibly, visiting some intermediate cells). For achieving this goal, she wants to buy some cards, paying as little money as possible. '
+b'If this is possible, calculate the minimal cost.'
+b'Input'
+b'The first line contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300), number of cards.'
+b'The second line contains n numbers li (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), the jump lengths of cards.'
+b'The third line contains n numbers ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), the costs of cards.'
+b'Output'
+b'If it is impossible to buy some cards and become able to jump to any cell, output -1. Otherwise output the minimal cost of buying such set of cards.'
+Tags
+bitmasks, brute force, dp, math, *1900

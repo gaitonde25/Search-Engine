@@ -1,0 +1,18 @@
+b'This is the hard version of the problem. You can find the easy version in the Div. 2 contest. Both versions only differ in the number of times you can ask your friend to taste coffee.'
+b'This is an interactive problem.'
+b"You're considering moving to another city, where one of your friends already lives. There are nn caf\xc3\xa9s in this city, where nn is a power of two. The ii-th caf\xc3\xa9 produces a single variety of coffee aiai. "
+b"As you're a coffee-lover, before deciding to move or not, you want to know the number dd of distinct varieties of coffees produced in this city."
+b"You don't know the values a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an. Fortunately, your friend has a memory of size kk, where kk is a power of two."
+b'Once per day, you can ask him to taste a cup of coffee produced by the caf\xc3\xa9 cc, and he will tell you if he tasted a similar coffee during the last kk days.'
+b'You can also ask him to take a medication that will reset his memory. He will forget all previous cups of coffee tasted. You can reset his memory at most 30\xc2\xa000030\xc2\xa0000 times.'
+b'More formally, the memory of your friend is a queue SS. Doing a query on caf\xc3\xa9 cc will: '
+b'  Tell you if acac is in SS;  Add acac at the back of SS;  If |S|>k|S|>k, pop the front element of SS. '
+b'Doing a reset request will pop all elements out of SS.'
+b'Your friend can taste at most 3n22k3n22k cups of coffee in total. Find the diversity dd (number of distinct values in the array aa).'
+b'Note that asking your friend to reset his memory does not count towards the number of times you ask your friend to taste a cup of coffee.'
+b'In some test cases the behavior of the interactor is adaptive. It means that the array aa may be not fixed before the start of the interaction and may depend on your queries. It is guaranteed that at any moment of the interaction, there is at least one array aa consistent with all the answers given so far.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa410241\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41024, kk and nn are powers of two).'
+b'It is guaranteed that 3n22k\xe2\x89\xa415\xc2\xa00003n22k\xe2\x89\xa415\xc2\xa0000.'
+Tags
+constructive algorithms, graphs, interactive, *3000

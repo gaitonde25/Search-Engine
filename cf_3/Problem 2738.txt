@@ -1,0 +1,10 @@
+b"Let's denote a function f(x)f(x) in such a way: we add 11 to xx, then, while there is at least one trailing zero in the resulting number, we remove that zero. For example, "
+b'  f(599)=6f(599)=6: 599+1=600\xe2\x86\x9260\xe2\x86\x926599+1=600\xe2\x86\x9260\xe2\x86\x926;  f(7)=8f(7)=8: 7+1=87+1=8;  f(9)=1f(9)=1: 9+1=10\xe2\x86\x9219+1=10\xe2\x86\x921;  f(10099)=101f(10099)=101: 10099+1=10100\xe2\x86\x921010\xe2\x86\x9210110099+1=10100\xe2\x86\x921010\xe2\x86\x92101. '
+b'We say that some number yy is reachable from xx if we can apply function ff to xx some (possibly zero) times so that we get yy as a result. For example, 102102 is reachable from 1009810098 because f(f(f(10098)))=f(f(10099))=f(101)=102f(f(f(10098)))=f(f(10099))=f(101)=102; and any number is reachable from itself.'
+b'You are given a number nn; your task is to count how many different numbers are reachable from nn.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109).'
+b'Output'
+b'Print one integer: the number of different numbers that are reachable from nn.'
+Tags
+implementation, *1100

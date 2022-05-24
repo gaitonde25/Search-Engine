@@ -1,0 +1,13 @@
+b'Warning: This problem has an unusual memory limit!'
+b'Bob decided that he will not waste his prime years implementing GUI forms for a large corporation and instead will earn his supper on the Stock Exchange Reykjavik. The Stock Exchange Reykjavik is the only actual stock exchange in the world. The only type of transaction is to take a single share of stock xx and exchange it for a single share of stock yy, provided that the current price of share xx is at least the current price of share yy. '
+b'There are 2n2n stocks listed on the SER that are of interest to Bob, numbered from 11 to 2n2n. Bob owns a single share of stocks 11 through nn and would like to own a single share of each of n+1n+1 through 2n2n some time in the future.'
+b'Bob managed to forecast the price of each stock\xc2\xa0\xe2\x80\x94 in time t\xe2\x89\xa50t\xe2\x89\xa50, the stock ii will cost ai\xe2\x8b\x85\xe2\x8c\x8at\xe2\x8c\x8b+biai\xe2\x8b\x85\xe2\x8c\x8at\xe2\x8c\x8b+bi. The time is currently t=0t=0. Help Bob find the earliest moment in time in which he can own a single share of each of n+1n+1 through 2n2n, and the minimum number of stock exchanges he has to perform in order to do that.'
+b'You may assume that the Stock Exchange has an unlimited amount of each stock at any point in time. '
+b'Input'
+b'The first line contains a single integer nn\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa422001\xe2\x89\xa4n\xe2\x89\xa42200)\xc2\xa0\xe2\x80\x94 the number stocks currently owned by Bob.'
+b'Each of the next 2n2n lines contains integers aiai and bibi\xc2\xa0(0\xe2\x89\xa4ai,bi\xe2\x89\xa41090\xe2\x89\xa4ai,bi\xe2\x89\xa4109), representing the stock price of stock ii. '
+b'Output'
+b'If it is impossible for Bob to achieve his goal, output a single integer \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, output two integers TT and EE, where TT is the minimum time in which he can achieve his goal, and EE is the minimum number of exchanges in which he can achieve his goal at time TT.'
+Tags
+binary search, flows, graphs, *3500

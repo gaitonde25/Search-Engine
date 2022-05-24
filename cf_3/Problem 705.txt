@@ -1,0 +1,17 @@
+b'This problem is an extension of the problem "Wonderful Coloring - 1". It has quite many differences, so you should read this statement completely.'
+b'Recently, Paul and Mary have found a new favorite sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. They want to paint it using pieces of chalk of kk colors. The coloring of a sequence is called wonderful if the following conditions are met:'
+b"  each element of the sequence is either painted in one of kk colors or isn't painted;  each two elements which are painted in the same color are different (i.\xe2\x80\x89e. there's no two equal values painted in the same color);  let's calculate for each of kk colors the number of elements painted in the color \xe2\x80\x94 all calculated numbers must be equal;  the total number of painted elements of the sequence is the maximum among all colorings of the sequence which meet the first three conditions. "
+b'E.\xe2\x80\x89g. consider a sequence a=[3,1,1,1,1,10,3,10,10,2]a=[3,1,1,1,1,10,3,10,10,2] and k=3k=3. One of the wonderful colorings of the sequence is shown in the figure.'
+b"  The example of a wonderful coloring of the sequence a=[3,1,1,1,1,10,3,10,10,2]a=[3,1,1,1,1,10,3,10,10,2] and k=3k=3. Note that one of the elements isn't painted. "
+b'Help Paul and Mary to find a wonderful coloring of a given sequence aa.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case consists of two lines. The first one contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the length of a given sequence and the number of colors, respectively. The second one contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'Output tt lines, each of them must contain a description of a wonderful coloring for the corresponding test case.'
+b'Each wonderful coloring must be printed as a sequence of nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (0\xe2\x89\xa4ci\xe2\x89\xa4k0\xe2\x89\xa4ci\xe2\x89\xa4k) separated by spaces where'
+b"  ci=0ci=0, if ii-th element isn't painted;  ci>0ci>0, if ii-th element is painted in the cici-th color. "
+b'Remember that you need to maximize the total count of painted elements for the wonderful coloring. If there are multiple solutions, print any one.'
+Tags
+binary search, constructive algorithms, data structures, greedy, *1400

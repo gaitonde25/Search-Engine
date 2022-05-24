@@ -1,0 +1,12 @@
+b'The name of one small but proud corporation consists of n lowercase English letters. The Corporation has decided to try rebranding\xc2\xa0\xe2\x80\x94 an active marketing strategy, that includes a set of measures to change either the brand (both for the company and the goods it produces) or its components: the name, the logo, the slogan. They decided to start with the name.'
+b'For this purpose the corporation has consecutively hired m designers. Once a company hires the i-th designer, he immediately contributes to the creation of a new corporation name as follows: he takes the newest version of the name and replaces all the letters xi by yi, and all the letters yi by xi. This results in the new version. It is possible that some of these letters do no occur in the string. It may also happen that xi coincides with yi. The version of the name received after the work of the last designer becomes the new name of the corporation.'
+b"Manager Arkady has recently got a job in this company, but is already soaked in the spirit of teamwork and is very worried about the success of the rebranding. Naturally, he can't wait to find out what is the new name the Corporation will receive."
+b"Satisfy Arkady's curiosity and tell him the final version of the name."
+b'Input'
+b'The first line of the input contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the length of the initial name and the number of designers hired, respectively.'
+b'The second line consists of n lowercase English letters and represents the original name of the corporation.'
+b"Next m lines contain the descriptions of the designers' actions: the i-th of them contains two space-separated lowercase English letters xi and yi."
+b'Output'
+b'Print the new name of the corporation.'
+Tags
+implementation, strings, *1200

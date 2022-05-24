@@ -1,0 +1,15 @@
+b'You are given two lists of segments [al1,ar1],[al2,ar2],\xe2\x80\xa6,[aln,arn][al1,ar1],[al2,ar2],\xe2\x80\xa6,[aln,arn] and [bl1,br1],[bl2,br2],\xe2\x80\xa6,[bln,brn][bl1,br1],[bl2,br2],\xe2\x80\xa6,[bln,brn].'
+b'Initially, all segments [ali,ari][ali,ari] are equal to [l1,r1][l1,r1] and all segments [bli,bri][bli,bri] are equal to [l2,r2][l2,r2].'
+b"In one step, you can choose one segment (either from the first or from the second list) and extend it by 11. In other words, suppose you've chosen segment [x,y][x,y] then you can transform it either into [x\xe2\x88\x921,y][x\xe2\x88\x921,y] or into [x,y+1][x,y+1]."
+b"Let's define a total intersection II as the sum of lengths of intersections of the corresponding pairs of segments, i.e. \xe2\x88\x91i=1nintersection_length([ali,ari],[bli,bri])\xe2\x88\x91i=1nintersection_length([ali,ari],[bli,bri]). Empty intersection has length 00 and length of a segment [x,y][x,y] is equal to y\xe2\x88\x92xy\xe2\x88\x92x."
+b'What is the minimum number of steps you need to make II greater or equal to kk?'
+b'Input'
+b'The first line contains the single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the length of lists and the minimum required total intersection.'
+b'The second line of each test case contains two integers l1l1 and r1r1 (1\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa41091\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the segment all [ali,ari][ali,ari] are equal to initially.'
+b'The third line of each test case contains two integers l2l2 and r2r2 (1\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa41091\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the segment all [bli,bri][bli,bri] are equal to initially.'
+b"It's guaranteed that the sum of nn doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'Print tt integers\xc2\xa0\xe2\x80\x94 one per test case. For each test case, print the minimum number of step you need to make II greater or equal to kk.'
+Tags
+brute force, greedy, implementation, math, *2100

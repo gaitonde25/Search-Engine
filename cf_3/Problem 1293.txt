@@ -1,0 +1,13 @@
+b'Andre has very specific tastes. Recently he started falling in love with arrays.'
+b"Andre calls an nonempty array bb good, if sum of its elements is divisible by the length of this array. For example, array [2,3,1][2,3,1] is good, as sum of its elements\xc2\xa0\xe2\x80\x94 66\xc2\xa0\xe2\x80\x94 is divisible by 33, but array [1,1,2,3][1,1,2,3] isn't good, as 77 isn't divisible by 44. "
+b'Andre calls an array aa of length nn perfect if the following conditions hold: '
+b'  Every nonempty subarray of this array is good.  For every ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n), 1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100. '
+b'Given a positive integer nn, output any perfect array of length nn. We can show that for the given constraints such an array always exists.'
+b'An array cc is a subarray of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first and only line of every test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100).'
+b'Output'
+b'For every test, output any perfect array of length nn on a separate line. '
+Tags
+constructive algorithms, implementation, *800

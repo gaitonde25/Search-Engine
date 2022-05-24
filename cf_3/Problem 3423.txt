@@ -1,0 +1,14 @@
+b'There is a light source on the plane. This source is so small that it can be represented as point. The light source is moving from point (a,sy)(a,sy) to the (b,sy)(b,sy) (sy<0)(sy<0) with speed equal to 11 unit per second. The trajectory of this light source is a straight segment connecting these two points. '
+b'There is also a fence on OXOX axis represented as nn segments (li,ri)(li,ri) (so the actual coordinates of endpoints of each segment are (li,0)(li,0) and (ri,0)(ri,0)). The point (x,y)(x,y) is in the shade if segment connecting (x,y)(x,y) and the current position of the light source intersects or touches with any segment of the fence.'
+b'  '
+b'You are given qq points. For each point calculate total time of this point being in the shade, while the light source is moving from (a,sy)(a,sy) to the (b,sy)(b,sy).'
+b'Input'
+b'First line contains three space separated integers sysy, aa and bb (\xe2\x88\x92109\xe2\x89\xa4sy<0\xe2\x88\x92109\xe2\x89\xa4sy<0, 1\xe2\x89\xa4a<b\xe2\x89\xa41091\xe2\x89\xa4a<b\xe2\x89\xa4109) \xe2\x80\x94 corresponding coordinates of the light source.'
+b'Second line contains single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 number of segments in the fence.'
+b"Next nn lines contain two integers per line: lili and riri (1\xe2\x89\xa4li<ri\xe2\x89\xa41091\xe2\x89\xa4li<ri\xe2\x89\xa4109, ri\xe2\x88\x921<liri\xe2\x88\x921<li) \xe2\x80\x94 segments in the fence in increasing order. Segments don't intersect or touch each other."
+b'Next line contains single integer qq (1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 number of points to check.'
+b'Next qq lines contain two integers per line: xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa41091\xe2\x89\xa4xi,yi\xe2\x89\xa4109) \xe2\x80\x94 points to process.'
+b'Output'
+b"Print qq lines. The ii-th line should contain one real number \xe2\x80\x94 total time of the ii-th point being in the shade, while the light source is moving from (a,sy)(a,sy) to the (b,sy)(b,sy). The answer is considered as correct if its absolute of relative error doesn't exceed 10\xe2\x88\x92610\xe2\x88\x926."
+Tags
+binary search, geometry, *2400

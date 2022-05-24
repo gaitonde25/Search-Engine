@@ -1,0 +1,9 @@
+b"Vasya has got an undirected graph consisting of nn vertices and mm edges. This graph doesn't contain any self-loops or multiple edges. Self-loop is an edge connecting a vertex to itself. Multiple edges are a pair of edges such that they connect the same pair of vertices. Since the graph is undirected, the pair of edges (1,2)(1,2) and (2,1)(2,1) is considered to be multiple edges. Isolated vertex of the graph is a vertex such that there is no edge connecting this vertex to any other vertex."
+b'Vasya wants to know the minimum and maximum possible number of isolated vertices in an undirected graph consisting of nn vertices and mm edges. '
+b'Input'
+b'The only line contains two integers nn and m\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa4105,0\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)2)m\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa4105,0\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)2).'
+b'It is guaranteed that there exists a graph without any self-loops or multiple edges with such number of vertices and edges.'
+b'Output'
+b'In the only line print two numbers minmin and maxmax \xe2\x80\x94 the minimum and maximum number of isolated vertices, respectively.'
+Tags
+constructive algorithms, graphs, *1300

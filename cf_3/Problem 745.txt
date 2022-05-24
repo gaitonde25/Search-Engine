@@ -1,0 +1,12 @@
+b'This is the easy version of the problem. The only difference between the easy version and the hard version is the constraints on nn. You can only make hacks if both versions are solved.'
+b"A permutation of 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n is a sequence of nn integers, where each integer from 11 to nn appears exactly once. For example, [2,3,1,4][2,3,1,4] is a permutation of 1,2,3,41,2,3,4, but [1,4,2,2][1,4,2,2] isn't because 22 appears twice in it."
+b'Recall that the number of inversions in a permutation a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an is the number of pairs of indices (i,j)(i,j) such that i<ji<j and ai>ajai>aj.'
+b'Let pp and qq be two permutations of 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n. Find the number of permutation pairs (p,q)(p,q) that satisfy the following conditions:'
+b'  pp is lexicographically smaller than qq.  the number of inversions in pp is greater than the number of inversions in qq. '
+b'Print the number of such pairs modulo modmod. Note that modmod may not be a prime.'
+b'Input'
+b'The only line contains two integers nn and modmod (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450, 1\xe2\x89\xa4mod\xe2\x89\xa41091\xe2\x89\xa4mod\xe2\x89\xa4109).'
+b'Output'
+b'Print one integer, which is the answer modulo modmod.'
+Tags
+combinatorics, dp, fft, math, *2400

@@ -1,0 +1,11 @@
+b'You are given a connected undirected weighted graph consisting of nn vertices and mm edges.'
+b'You need to print the kk-th smallest shortest path in this graph (paths from the vertex to itself are not counted, paths from ii to jj and from jj to ii are counted as one).'
+b'More formally, if dd is the matrix of shortest paths, where di,jdi,j is the length of the shortest path between vertices ii and jj (1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n), then you need to print the kk-th element in the sorted array consisting of all di,jdi,j, where 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n.'
+b'Input'
+b'The first line of the input contains three integers n,mn,m and kk (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4min(n(n\xe2\x88\x921)2,2\xe2\x8b\x85105)n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4min(n(n\xe2\x88\x921)2,2\xe2\x8b\x85105), 1\xe2\x89\xa4k\xe2\x89\xa4min(n(n\xe2\x88\x921)2,400)1\xe2\x89\xa4k\xe2\x89\xa4min(n(n\xe2\x88\x921)2,400)\xc2\xa0\xe2\x80\x94 the number of vertices in the graph, the number of edges in the graph and the value of kk, correspondingly.'
+b'Then mm lines follow, each containing three integers xx, yy and ww (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n, 1\xe2\x89\xa4w\xe2\x89\xa41091\xe2\x89\xa4w\xe2\x89\xa4109, x\xe2\x89\xa0yx\xe2\x89\xa0y) denoting an edge between vertices xx and yy of weight ww.'
+b'It is guaranteed that the given graph is connected (there is a path between any pair of vertices), there are no self-loops (edges connecting the vertex with itself) and multiple edges (for each pair of vertices xx and yy, there is at most one edge between this pair of vertices in the graph).'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the length of the kk-th smallest shortest path in the given graph (paths from the vertex to itself are not counted, paths from ii to jj and from jj to ii are counted as one).'
+Tags
+brute force, constructive algorithms, shortest paths, sortings, *2200

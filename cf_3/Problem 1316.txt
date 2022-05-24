@@ -1,0 +1,23 @@
+b'You are given a matrix consisting of nn rows and mm columns. The matrix contains lowercase letters of the Latin alphabet.'
+b'You can perform the following operation any number of times you want to: choose two integers ii (1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m) and kk (0<k<n0<k<n), and shift every column jj such that i\xe2\x89\xa4j\xe2\x89\xa4mi\xe2\x89\xa4j\xe2\x89\xa4m cyclically by kk. The shift is performed upwards.'
+b'For example, if you have a matrix '
+b' \xe2\x8e\x9b\xe2\x8e\x9d\xe2\x8e\x9cadgbehcfi\xe2\x8e\x9e\xe2\x8e\xa0\xe2\x8e\x9f(abcdefghi) '
+b' and perform an operation with '
+b''
+b'i=2i=2'
+b'i = 2'
+b', '
+b''
+b'k=1k=1'
+b'k = 1'
+b', then it becomes: '
+b' \xe2\x8e\x9b\xe2\x8e\x9d\xe2\x8e\x9cadgehbfic\xe2\x8e\x9e\xe2\x8e\xa0\xe2\x8e\x9f(aefdhigbc) '
+b"You have to process qq queries. Each of the queries is a string of length mm consisting of lowercase letters of the Latin alphabet. For each query, you have to calculate the minimum number of operations described above you have to perform so that at least one row of the matrix is equal to the string from the query. Note that all queries are independent, that is, the operations you perform in a query don't affect the initial matrix in other queries."
+b'Input'
+b'The first line contains three integers nn, mm, qq (2\xe2\x89\xa4n,m,q\xe2\x89\xa42.5\xe2\x8b\x851052\xe2\x89\xa4n,m,q\xe2\x89\xa42.5\xe2\x8b\x85105; n\xe2\x8b\x85m\xe2\x89\xa45\xe2\x8b\x85105n\xe2\x8b\x85m\xe2\x89\xa45\xe2\x8b\x85105; q\xe2\x8b\x85m\xe2\x89\xa45\xe2\x8b\x85105q\xe2\x8b\x85m\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the number of rows and columns in the matrix and the number of queries, respectively.'
+b'The next nn lines contains mm lowercase Latin letters each \xe2\x80\x94 elements of the matrix.'
+b'The following qq lines contains a description of queries \xe2\x80\x94 strings of length mm consisting of lowercase letters of the Latin alphabet.'
+b'Output'
+b'Print qq integers. The ii-th integer should be equal to the minimum number of operations you have to perform so that the matrix contains a string from the ii-th query or \xe2\x88\x921\xe2\x88\x921 if the specified string cannot be obtained.'
+Tags
+*special problem, strings, *2900

@@ -1,0 +1,15 @@
+b'There are n bears in the inn and p places to sleep. Bears will party together for some number of nights (and days).'
+b"Bears love drinking juice. They don't like wine but they can't distinguish it from juice by taste or smell."
+b"A bear doesn't sleep unless he drinks wine. A bear must go to sleep a few hours after drinking a wine. He will wake up many days after the party is over."
+b'Radewoosh is the owner of the inn. He wants to put some number of barrels in front of bears. One barrel will contain wine and all other ones will contain juice. Radewoosh will challenge bears to find a barrel with wine.'
+b'Each night, the following happens in this exact order:'
+b'  Each bear must choose a (maybe empty) set of barrels. The same barrel may be chosen by many bears.  Each bear drinks a glass from each barrel he chose.  All bears who drink wine go to sleep (exactly those bears who chose a barrel with wine). They will wake up many days after the party is over. If there are not enough places to sleep then bears lose immediately. '
+b"At the end, if it's sure where wine is and there is at least one awake bear then bears win (unless they have lost before because of the number of places to sleep)."
+b"Radewoosh wants to allow bears to win. He considers q scenarios. In the i-th scenario the party will last for i nights. Then, let Ri denote the maximum number of barrels for which bears surely win if they behave optimally. Let's define . Your task is to find , where  denotes the exclusive or (also denoted as XOR)."
+b'Note that the same barrel may be chosen by many bears and all of them will go to sleep at once.'
+b'Input'
+b'The only line of the input contains three integers n, p and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89130, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xe2\x80\x89000\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of bears, the number of places to sleep and the number of scenarios, respectively.'
+b'Output'
+b'Print one integer, equal to .'
+Tags
+dp, math, meet-in-the-middle, *2900

@@ -1,0 +1,11 @@
+b'Little girl Tanya climbs the stairs inside a multi-storey building. Every time Tanya climbs a stairway, she starts counting steps from 11 to the number of steps in this stairway. She speaks every number aloud. For example, if she climbs two stairways, the first of which contains 33 steps, and the second contains 44 steps, she will pronounce the numbers 1,2,3,1,2,3,41,2,3,1,2,3,4.'
+b'You are given all the numbers pronounced by Tanya. How many stairways did she climb? Also, output the number of steps in each stairway.'
+b'The given sequence will be a valid sequence that Tanya could have pronounced when climbing one or more stairways.'
+b'Input'
+b'The first line contains nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the total number of numbers pronounced by Tanya.'
+b'The second line contains integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa410001\xe2\x89\xa4ai\xe2\x89\xa41000) \xe2\x80\x94 all the numbers Tanya pronounced while climbing the stairs, in order from the first to the last pronounced number. Passing a stairway with xx steps, she will pronounce the numbers 1,2,\xe2\x80\xa6,x1,2,\xe2\x80\xa6,x in that order.'
+b'The given sequence will be a valid sequence that Tanya could have pronounced when climbing one or more stairways.'
+b'Output'
+b'In the first line, output tt \xe2\x80\x94 the number of stairways that Tanya climbed. In the second line, output tt numbers \xe2\x80\x94 the number of steps in each stairway she climbed. Write the numbers in the correct order of passage of the stairways.'
+Tags
+implementation, *800

@@ -1,0 +1,10 @@
+b'Ujan needs some rest from cleaning, so he started playing with infinite sequences. He has two integers nn and kk. He creates an infinite sequence ss by repeating the following steps.'
+b"  Find kk smallest distinct positive integers that are not in ss. Let's call them u1,u2,\xe2\x80\xa6,uku1,u2,\xe2\x80\xa6,uk from the smallest to the largest.  Append u1,u2,\xe2\x80\xa6,uku1,u2,\xe2\x80\xa6,uk and \xe2\x88\x91ki=1ui\xe2\x88\x91i=1kui to ss in this order.  Go back to the first step. "
+b"Ujan will stop procrastinating when he writes the number nn in the sequence ss. Help him find the index of nn in ss. In other words, find the integer xx such that sx=nsx=n. It's possible to prove that all positive integers are included in ss only once."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105), the number of test cases.'
+b'Each of the following tt lines contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018, 2\xe2\x89\xa4k\xe2\x89\xa41062\xe2\x89\xa4k\xe2\x89\xa4106), the number to be found in the sequence ss and the parameter used to create the sequence ss.'
+b'Output'
+b'In each of the tt lines, output the answer for the corresponding test case.'
+Tags
+math, *3400

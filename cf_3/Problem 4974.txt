@@ -1,0 +1,9 @@
+b'zscoder loves simple strings! A string t is called simple if every pair of adjacent characters are distinct. For example ab, aba, zscoder are simple whereas aa, add are not simple.'
+b'zscoder is given a string s. He wants to change a minimum number of characters so that the string s becomes simple. Help him with this task!'
+b'Input'
+b'The only line contains the string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the string given to zscoder. The string s consists of only lowercase English letters.'
+b'Output'
+b"Print the simple string s' \xe2\x80\x94 the string s after the minimal number of changes. If there are multiple solutions, you may output any of them."
+b"Note that the string s' should also consist of only lowercase English letters."
+Tags
+dp, greedy, strings, *1300

@@ -1,0 +1,9 @@
+b'You are given an array aa of length nn that has a special condition: every element in this array has at most 7 divisors. Find the length of the shortest non-empty subsequence of this array product of whose elements is a perfect square.'
+b'A sequence aa is a subsequence of an array bb if aa can be obtained from bb by deletion of several (possibly, zero or all) elements.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of aa.'
+b'The second line contains nn integers a1a1, a2a2, \xe2\x80\xa6\xe2\x80\xa6, anan (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'Output'
+b'Output the length of the shortest non-empty subsequence of aa product of whose elements is a perfect square. If there are several shortest subsequences, you can find any of them. If there\'s no such subsequence, print "-1".'
+Tags
+brute force, dfs and similar, graphs, number theory, shortest paths, *2600

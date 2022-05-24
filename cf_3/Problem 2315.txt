@@ -1,0 +1,13 @@
+b'The string t1t2\xe2\x80\xa6tkt1t2\xe2\x80\xa6tk is good if each letter of this string belongs to at least one palindrome of length greater than 1.'
+b'A palindrome is a string that reads the same backward as forward. For example, the strings A, BAB, ABBA, BAABBBAAB are palindromes, but the strings AB, ABBBAA, BBBA are not.'
+b'Here are some examples of good strings: '
+b'  tt = AABBB (letters t1t1, t2t2 belong to palindrome t1\xe2\x80\xa6t2t1\xe2\x80\xa6t2 and letters t3t3, t4t4, t5t5 belong to palindrome t3\xe2\x80\xa6t5t3\xe2\x80\xa6t5);  tt = ABAA (letters t1t1, t2t2, t3t3 belong to palindrome t1\xe2\x80\xa6t3t1\xe2\x80\xa6t3 and letter t4t4 belongs to palindrome t3\xe2\x80\xa6t4t3\xe2\x80\xa6t4);  tt = AAAAA (all letters belong to palindrome t1\xe2\x80\xa6t5t1\xe2\x80\xa6t5); '
+b'You are given a string ss of length nn, consisting of only letters A and B.'
+b'You have to calculate the number of good substrings of string ss.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the length of the string ss.'
+b'The second line contains the string ss, consisting of letters A and B.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of good substrings of string ss.'
+Tags
+binary search, combinatorics, dp, strings, *1900

@@ -1,0 +1,11 @@
+b'You are given an integer kk and nn distinct points with integer coordinates on the Euclidean plane, the ii-th point has coordinates (xi,yi)(xi,yi).'
+b'Consider a list of all the n(n\xe2\x88\x921)2n(n\xe2\x88\x921)2 pairs of points ((xi,yi),(xj,yj))((xi,yi),(xj,yj)) (1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n). For every such pair, write out the distance from the line through these two points to the origin (0,0)(0,0).'
+b'Your goal is to calculate the kk-th smallest number among these distances.'
+b'Input'
+b'The first line contains two integers nn, kk (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4k\xe2\x89\xa4n(n\xe2\x88\x921)21\xe2\x89\xa4k\xe2\x89\xa4n(n\xe2\x88\x921)2).'
+b'The ii-th of the next nn lines contains two integers xixi and yiyi (\xe2\x88\x92104\xe2\x89\xa4xi,yi\xe2\x89\xa4104\xe2\x88\x92104\xe2\x89\xa4xi,yi\xe2\x89\xa4104) \xc2\xa0\xe2\x80\x94 the coordinates of the ii-th point. It is guaranteed that all given points are pairwise distinct.'
+b'Output'
+b'You should output one number\xc2\xa0\xe2\x80\x94 the kk-th smallest distance from the origin. Your answer is considered correct if its absolute or relative error does not exceed 10\xe2\x88\x92610\xe2\x88\x926.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is accepted if and only if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926."
+Tags
+binary search, data structures, geometry, *3200

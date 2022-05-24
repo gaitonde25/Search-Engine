@@ -1,0 +1,12 @@
+b'This morning Tolik has understood that while he was sleeping he had invented an incredible problem which will be a perfect fit for Codeforces! But, as a "Discuss tasks" project hasn\'t been born yet (in English, well), he decides to test a problem and asks his uncle.'
+b"After a long time thinking, Tolik's uncle hasn't any ideas on how to solve it. But, he doesn't want to tell Tolik about his inability to solve it, so he hasn't found anything better than asking you how to solve this task."
+b"In this task you are given a cell field n\xe2\x8b\x85mn\xe2\x8b\x85m, consisting of nn rows and mm columns, where point's coordinates (x,y)(x,y) mean it is situated in the xx-th row and yy-th column, considering numeration from one (1\xe2\x89\xa4x\xe2\x89\xa4n,1\xe2\x89\xa4y\xe2\x89\xa4m1\xe2\x89\xa4x\xe2\x89\xa4n,1\xe2\x89\xa4y\xe2\x89\xa4m). Initially, you stand in the cell (1,1)(1,1). Every move you can jump from cell (x,y)(x,y), which you stand in, by any non-zero vector (dx,dy)(dx,dy), thus you will stand in the (x+dx,y+dy)(x+dx,y+dy) cell. Obviously, you can't leave the field, but also there is one more important condition\xc2\xa0\xe2\x80\x94 you're not allowed to use one vector twice. Your task is to visit each cell of the field exactly once (the initial cell is considered as already visited)."
+b"Tolik's uncle is a very respectful person. Help him to solve this task!"
+b'Input'
+b'The first and only line contains two positive integers n,mn,m (1\xe2\x89\xa4n\xe2\x8b\x85m\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x8b\x85m\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of rows and columns of the field respectively.'
+b'Output'
+b'Print "-1" (without quotes) if it is impossible to visit every cell exactly once.'
+b'Else print n\xe2\x8b\x85mn\xe2\x8b\x85m pairs of integers, ii-th from them should contain two integers xi,yixi,yi (1\xe2\x89\xa4xi\xe2\x89\xa4n,1\xe2\x89\xa4yi\xe2\x89\xa4m1\xe2\x89\xa4xi\xe2\x89\xa4n,1\xe2\x89\xa4yi\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 cells of the field in order of visiting, so that all of them are distinct and vectors of jumps between them are distinct too.'
+b'Notice that the first cell should have (1,1)(1,1) coordinates, according to the statement.'
+Tags
+constructive algorithms, *1800

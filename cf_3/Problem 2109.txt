@@ -1,0 +1,18 @@
+b'We start with a string ss consisting only of the digits 11, 22, or 33. The length of ss is denoted by |s||s|. For each ii from 11 to |s||s|, the ii-th character of ss is denoted by sisi. '
+b"There is one cursor. The cursor's location \xe2\x84\x93\xe2\x84\x93 is denoted by an integer in {0,\xe2\x80\xa6,|s|}{0,\xe2\x80\xa6,|s|}, with the following meaning: "
+b'  If \xe2\x84\x93=0\xe2\x84\x93=0, then the cursor is located before the first character of ss.  If \xe2\x84\x93=|s|\xe2\x84\x93=|s|, then the cursor is located right after the last character of ss.  If 0<\xe2\x84\x93<|s|0<\xe2\x84\x93<|s|, then the cursor is located between s\xe2\x84\x93s\xe2\x84\x93 and s\xe2\x84\x93+1s\xe2\x84\x93+1. '
+b'We denote by sleftsleft the string to the left of the cursor and srightsright the string to the right of the cursor. '
+b'We also have a string cc, which we call our clipboard, which starts out as empty. There are three types of actions:'
+b"  The Move action. Move the cursor one step to the right. This increments \xe2\x84\x93\xe2\x84\x93 once.  The Cut action. Set c\xe2\x86\x90srightc\xe2\x86\x90sright, then set s\xe2\x86\x90slefts\xe2\x86\x90sleft.  The Paste action. Append the value of cc to the end of the string ss. Note that this doesn't modify cc. "
+b'The cursor initially starts at \xe2\x84\x93=0\xe2\x84\x93=0. Then, we perform the following procedure:'
+b'  Perform the Move action once.  Perform the Cut action once.  Perform the Paste action s\xe2\x84\x93s\xe2\x84\x93 times.  If \xe2\x84\x93=x\xe2\x84\x93=x, stop. Otherwise, return to step 1. '
+b"You're given the initial string ss and the integer xx. What is the length of ss when the procedure stops? Since this value may be very large, only find it modulo 109+7109+7. "
+b'It is guaranteed that \xe2\x84\x93\xe2\x89\xa4|s|\xe2\x84\x93\xe2\x89\xa4|s| at any time.'
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) denoting the number of test cases. The next lines contain descriptions of the test cases.'
+b'The first line of each test case contains a single integer xx (1\xe2\x89\xa4x\xe2\x89\xa41061\xe2\x89\xa4x\xe2\x89\xa4106). The second line of each test case consists of the initial string ss (1\xe2\x89\xa4|s|\xe2\x89\xa45001\xe2\x89\xa4|s|\xe2\x89\xa4500). It is guaranteed, that ss consists of the characters "1", "2", "3".'
+b'It is guaranteed that the sum of xx in a single file is at most 106106. It is guaranteed that in each test case before the procedure will stop it will be true that \xe2\x84\x93\xe2\x89\xa4|s|\xe2\x84\x93\xe2\x89\xa4|s| at any time.'
+b'Output'
+b'For each test case, output a single line containing a single integer denoting the answer for that test case modulo 109+7109+7. '
+Tags
+implementation, math, *1700

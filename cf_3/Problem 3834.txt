@@ -1,0 +1,10 @@
+b'There is a number x initially written on a blackboard. You repeat the following action a fixed amount of times: '
+b'  take the number x currently written on a blackboard and erase it  select an integer uniformly at random from the range [0,\xe2\x80\x89x] inclusive, and write it on the blackboard '
+b'Determine the distribution of final number given the distribution of initial number and the number of steps.'
+b'Input'
+b'The first line contains two integers, N (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the maximum number written on the blackboard\xc2\xa0\xe2\x80\x94 and M (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89M\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018)\xc2\xa0\xe2\x80\x94 the number of steps to perform.'
+b'The second line contains N\xe2\x80\x89+\xe2\x80\x891 integers P0,\xe2\x80\x89P1,\xe2\x80\x89...,\xe2\x80\x89PN (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Pi\xe2\x80\x89<\xe2\x80\x89998244353), where Pi describes the probability that the starting number is i. We can express this probability as irreducible fraction P\xe2\x80\x89/\xe2\x80\x89Q, then . It is guaranteed that the sum of all Pis equals 1 (modulo 998244353).'
+b'Output'
+b'Output a single line of N\xe2\x80\x89+\xe2\x80\x891 integers, where Ri is the probability that the final number after M steps is i. It can be proven that the probability may always be expressed as an irreducible fraction P\xe2\x80\x89/\xe2\x80\x89Q. You are asked to output .'
+Tags
+fft, math, matrices, *3100

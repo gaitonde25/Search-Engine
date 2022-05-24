@@ -1,0 +1,10 @@
+b"Naruto has sneaked into the Orochimaru's lair and is now looking for Sasuke. There are TT rooms there. Every room has a door into it, each door can be described by the number nn of seals on it and their integer energies a1a1, a2a2, ..., anan. All energies aiai are nonzero and do not exceed 100100 by absolute value. Also, nn is even."
+b'In order to open a door, Naruto must find such nn seals with integer energies b1b1, b2b2, ..., bnbn that the following equality holds: a1\xe2\x8b\x85b1+a2\xe2\x8b\x85b2+...+an\xe2\x8b\x85bn=0a1\xe2\x8b\x85b1+a2\xe2\x8b\x85b2+...+an\xe2\x8b\x85bn=0. All bibi must be nonzero as well as aiai are, and also must not exceed 100100 by absolute value. Please find required seals for every room there.'
+b'Input'
+b"The first line contains the only integer TT (1\xe2\x89\xa4T\xe2\x89\xa410001\xe2\x89\xa4T\xe2\x89\xa41000) standing for the number of rooms in the Orochimaru's lair. The other lines contain descriptions of the doors."
+b'Each description starts with the line containing the only even integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100) denoting the number of seals.'
+b'The following line contains the space separated sequence of nonzero integers a1a1, a2a2, ..., anan (|ai|\xe2\x89\xa4100|ai|\xe2\x89\xa4100, ai\xe2\x89\xa00ai\xe2\x89\xa00) denoting the energies of seals.'
+b'Output'
+b'For each door print a space separated sequence of nonzero integers b1b1, b2b2, ..., bnbn (|bi|\xe2\x89\xa4100|bi|\xe2\x89\xa4100, bi\xe2\x89\xa00bi\xe2\x89\xa00) denoting the seals that can open the door. If there are multiple valid answers, print any. It can be proven that at least one answer always exists.'
+Tags
+constructive algorithms, math, *800

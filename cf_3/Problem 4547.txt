@@ -1,0 +1,8 @@
+b"Comrade Dujikov is busy choosing artists for Timofey's birthday and is recieving calls from Taymyr from Ilia-alpinist."
+b'Ilia-alpinist calls every n minutes, i.e. in minutes n, 2n, 3n and so on. Artists come to the comrade every m minutes, i.e. in minutes m, 2m, 3m and so on. The day is z minutes long, i.e. the day consists of minutes 1,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89z. How many artists should be killed so that there are no artists in the room when Ilia calls? Consider that a call and a talk with an artist take exactly one minute.'
+b'Input'
+b'The only string contains three integers\xc2\xa0\xe2\x80\x94 n, m and z (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m,\xe2\x80\x89z\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104).'
+b'Output'
+b'Print single integer\xc2\xa0\xe2\x80\x94 the minimum number of artists that should be killed so that there are no artists in the room when Ilia calls.'
+Tags
+brute force, implementation, math, *800

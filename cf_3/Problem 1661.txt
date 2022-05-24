@@ -1,0 +1,13 @@
+b'You are given two arrays a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm. Array bb is sorted in ascending order (bi<bi+1bi<bi+1 for each ii from 11 to m\xe2\x88\x921m\xe2\x88\x921).'
+b'You have to divide the array aa into mm consecutive subarrays so that, for each ii from 11 to mm, the minimum on the ii-th subarray is equal to bibi. Note that each element belongs to exactly one subarray, and they are formed in such a way: the first several elements of aa compose the first subarray, the next several elements of aa compose the second subarray, and so on.'
+b'For example, if a=[12,10,20,20,25,30]a=[12,10,20,20,25,30] and b=[10,20,30]b=[10,20,30] then there are two good partitions of array aa: '
+b'  [12,10,20],[20,25],[30][12,10,20],[20,25],[30];  [12,10],[20,20,25],[30][12,10],[20,20,25],[30]. '
+b'You have to calculate the number of ways to divide the array aa. Since the number can be pretty large print it modulo 998244353.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of arrays aa and bb respectively.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the array aa.'
+b'The third line contains mm integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (1\xe2\x89\xa4bi\xe2\x89\xa4109;bi<bi+11\xe2\x89\xa4bi\xe2\x89\xa4109;bi<bi+1)\xc2\xa0\xe2\x80\x94 the array bb.'
+b'Output'
+b'In only line print one integer \xe2\x80\x94 the number of ways to divide the array aa modulo 998244353.'
+Tags
+binary search, brute force, combinatorics, constructive algorithms, dp, two pointers, *2100

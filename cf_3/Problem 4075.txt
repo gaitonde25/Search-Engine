@@ -1,0 +1,9 @@
+b"You are given an array a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an consisting of n integers, and an integer k. You have to split the array into exactly k non-empty subsegments. You'll then compute the minimum integer on each subsegment, and take the maximum integer over the k obtained minimums. What is the maximum possible integer you can get?"
+b'Definitions of subsegment and array splitting are given in notes.'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89105) \xe2\x80\x94 the size of the array a and the number of subsegments you have to split the array to.'
+b'The second line contains n integers a1,\xe2\x80\x89\xe2\x80\x89a2,\xe2\x80\x89\xe2\x80\x89...,\xe2\x80\x89\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89109).'
+b'Output'
+b'Print single integer \xe2\x80\x94 the maximum possible integer you can get if you split the array into k non-empty subsegments and take maximum of minimums on the subsegments.'
+Tags
+greedy, *1200

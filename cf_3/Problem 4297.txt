@@ -1,0 +1,11 @@
+b'Ivan is developing his own computer game. Now he tries to create some levels for his game. But firstly for each level he needs to draw a graph representing the structure of the level.'
+b'Ivan decided that there should be exactly ni vertices in the graph representing level i, and the edges have to be bidirectional. When constructing the graph, Ivan is interested in special edges called bridges. An edge between two vertices u and v is called a bridge if this edge belongs to every path between u and v (and these vertices will belong to different connected components if we delete this edge). For each level Ivan wants to construct a graph where at least half of the edges are bridges. He also wants to maximize the number of edges in each constructed graph.'
+b'So the task Ivan gave you is: given q numbers n1,\xe2\x80\x89n2,\xe2\x80\x89...,\xe2\x80\x89nq, for each i tell the maximum number of edges in a graph with ni vertices, if at least half of the edges are bridges. Note that the graphs cannot contain multiple edges or self-loops.'
+b'Input'
+b'The first line of input file contains a positive integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000) \xe2\x80\x94 the number of graphs Ivan needs to construct.'
+b'Then q lines follow, i-th line contains one positive integer ni (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ni\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109) \xe2\x80\x94 the number of vertices in i-th graph.'
+b'Note that in hacks you have to use q\xe2\x80\x89=\xe2\x80\x891.'
+b'Output'
+b'Output q numbers, i-th of them must be equal to the maximum number of edges in i-th graph.'
+Tags
+binary search, math, ternary search, *2100

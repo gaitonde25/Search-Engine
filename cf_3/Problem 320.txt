@@ -1,0 +1,12 @@
+b'A robot cleaner is placed on the floor of a rectangle room, surrounded by walls. The floor consists of nn rows and mm columns. The rows of the floor are numbered from 11 to nn from top to bottom, and columns of the floor are numbered from 11 to mm from left to right. The cell on the intersection of the rr-th row and the cc-th column is denoted as (r,c)(r,c). The initial position of the robot is (rb,cb)(rb,cb).'
+b'In one second, the robot moves by drdr rows and dcdc columns, that is, after one second, the robot moves from the cell (r,c)(r,c) to (r+dr,c+dc)(r+dr,c+dc). Initially dr=1dr=1, dc=1dc=1. If there is a vertical wall (the left or the right walls) in the movement direction, dcdc is reflected before the movement, so the new value of dcdc is \xe2\x88\x92dc\xe2\x88\x92dc. And if there is a horizontal wall (the upper or lower walls), drdr is reflected before the movement, so the new value of drdr is \xe2\x88\x92dr\xe2\x88\x92dr.'
+b'Each second (including the moment before the robot starts moving), the robot cleans every cell lying in the same row or the same column as its position. There is only one dirty cell at (rd,cd)(rd,cd). The job of the robot is to clean that dirty cell.'
+b'  Illustration for the first example. The blue arc is the robot. The red star is the target dirty cell. Each second the robot cleans a row and a column, denoted by yellow stripes. '
+b"Given the floor size nn and mm, the robot's initial position (rb,cb)(rb,cb) and the dirty cell's position (rd,cd)(rd,cd), find the time for the robot to do its job."
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Description of the test cases follows.'
+b'A test case consists of only one line, containing six integers nn, mm, rbrb, cbcb, rdrd, and cdcd (1\xe2\x89\xa4n,m\xe2\x89\xa41001\xe2\x89\xa4n,m\xe2\x89\xa4100, 1\xe2\x89\xa4rb,rd\xe2\x89\xa4n1\xe2\x89\xa4rb,rd\xe2\x89\xa4n, 1\xe2\x89\xa4cb,cd\xe2\x89\xa4m1\xe2\x89\xa4cb,cd\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the sizes of the room, the initial position of the robot and the position of the dirt cell.'
+b'Output'
+b'For each test case, print an integer \xe2\x80\x94 the time for the robot to clean the dirty cell. We can show that the robot always cleans the dirty cell eventually.'
+Tags
+brute force, implementation, math, *800

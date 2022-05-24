@@ -1,0 +1,10 @@
+b"At first, let's define function f(x)f(x) as follows: f(x)={x2x\xe2\x88\x921if\xc2\xa0x\xc2\xa0is evenotherwise\xc2\xa0f(x)={x2if\xc2\xa0x\xc2\xa0is evenx\xe2\x88\x921otherwise\xc2\xa0"
+b"We can see that if we choose some value vv and will apply function ff to it, then apply ff to f(v)f(v), and so on, we'll eventually get 11. Let's write down all values we get in this process in a list and denote this list as path(v)path(v). For example, path(1)=[1]path(1)=[1], path(15)=[15,14,7,6,3,2,1]path(15)=[15,14,7,6,3,2,1], path(32)=[32,16,8,4,2,1]path(32)=[32,16,8,4,2,1]."
+b"Let's write all lists path(x)path(x) for every xx from 11 to nn. The question is next: what is the maximum value yy such that yy is contained in at least kk different lists path(x)path(x)?"
+b'Formally speaking, you need to find maximum yy such that |{x\xc2\xa0|\xc2\xa01\xe2\x89\xa4x\xe2\x89\xa4n,y\xe2\x88\x88path(x)}|\xe2\x89\xa5k|{x\xc2\xa0|\xc2\xa01\xe2\x89\xa4x\xe2\x89\xa4n,y\xe2\x88\x88path(x)}|\xe2\x89\xa5k.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41018).'
+b'Output'
+b'Print the only integer \xe2\x80\x94 the maximum value that is contained in at least kk paths.'
+Tags
+binary search, combinatorics, dp, math, *2100

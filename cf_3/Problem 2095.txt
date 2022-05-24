@@ -1,0 +1,10 @@
+b'New Year is coming and you are excited to know how many minutes remain before the New Year. You know that currently the clock shows hh hours and mm minutes, where 0\xe2\x89\xa4hh<240\xe2\x89\xa4hh<24 and 0\xe2\x89\xa4mm<600\xe2\x89\xa4mm<60. We use 24-hour time format!'
+b'Your task is to find the number of minutes before the New Year. You know that New Year comes when the clock shows 00 hours and 00 minutes.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa414391\xe2\x89\xa4t\xe2\x89\xa41439) \xe2\x80\x94 the number of test cases.'
+b"The following tt lines describe test cases. The ii-th line contains the time as two integers hh and mm (0\xe2\x89\xa4h<240\xe2\x89\xa4h<24, 0\xe2\x89\xa4m<600\xe2\x89\xa4m<60). It is guaranteed that this time is not a midnight, i.e. the following two conditions can't be met at the same time: h=0h=0 and m=0m=0. It is guaranteed that both hh and mm are given without leading zeros."
+b'Output'
+b'For each test case, print the answer on it \xe2\x80\x94 the number of minutes before the New Year.'
+Tags
+math, *800

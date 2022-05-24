@@ -1,0 +1,11 @@
+b'Jamie is preparing a Codeforces round. He has got an idea for a problem, but does not know how to solve it. Help him write a solution to the following problem:'
+b'Find k integers such that the sum of two to the power of each number equals to the number n and the largest integer in the answer is as small as possible. As there may be multiple answers, you are asked to output the lexicographically largest one. '
+b'To be more clear, consider all integer sequence with length k (a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89ak) with . Give a value  to each sequence. Among all sequence(s) that have the minimum y value, output the one that is the lexicographically largest.'
+b'For definitions of powers and lexicographical order see notes.'
+b'Input'
+b'The first line consists of two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the required sum and the length of the sequence.'
+b'Output'
+b'Output "No" (without quotes) in a single line if there does not exist such sequence. Otherwise, output "Yes" (without quotes) in the first line, and k numbers separated by space in the second line\xc2\xa0\xe2\x80\x94 the required sequence.'
+b'It is guaranteed that the integers in the answer sequence fit the range [\xe2\x80\x89-\xe2\x80\x891018,\xe2\x80\x891018].'
+Tags
+bitmasks, greedy, math, *2000

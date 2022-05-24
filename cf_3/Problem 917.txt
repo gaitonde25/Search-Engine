@@ -1,0 +1,10 @@
+b'A sequence of nn integers is called a permutation if it contains all integers from 11 to nn exactly once.'
+b'Given two integers nn and kk, construct a permutation aa of numbers from 11 to nn which has exactly kk peaks. An index ii of an array aa of size nn is said to be a peak if 1<i<n1<i<n and ai>ai\xe2\x88\x921ai>ai\xe2\x88\x921 and ai>ai+1ai>ai+1. If such permutation is not possible, then print \xe2\x88\x921\xe2\x88\x921.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Then tt lines follow, each containing two space-separated integers nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) and kk (0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the length of an array and the required number of peaks.'
+b'Output'
+b'Output tt lines. For each test case, if there is no permutation with given length and number of peaks, then print \xe2\x88\x921\xe2\x88\x921. Otherwise print a line containing nn space-separated integers which forms a permutation of numbers from 11 to nn and contains exactly kk peaks. '
+b'If there are multiple answers, print any.'
+Tags
+constructive algorithms, implementation, *800

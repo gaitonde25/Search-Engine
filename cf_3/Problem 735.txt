@@ -1,0 +1,17 @@
+b'Cirno has prepared nn arrays of length nn each. Each array is a permutation of nn integers from 11 to nn. These arrays are special: for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, if we take the ii-th element of each array and form another array of length nn with these elements, the resultant array is also a permutation of nn integers from 11 to nn. In the other words, if you put these nn arrays under each other to form a matrix with nn rows and nn columns, this matrix is a Latin square.'
+b"Afterwards, Cirno added additional nn arrays, each array is a permutation of nn integers from 11 to nn. For all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, there exists at least one position 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n, such that for the ii-th array and the (n+i)(n+i)-th array, the kk-th element of both arrays is the same. Notice that the arrays indexed from n+1n+1 to 2n2n don't have to form a Latin square. "
+b'Also, Cirno made sure that for all 2n2n arrays, no two arrays are completely equal, i.\xc2\xa0e. for all pair of indices 1\xe2\x89\xa4i<j\xe2\x89\xa42n1\xe2\x89\xa4i<j\xe2\x89\xa42n, there exists at least one position 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n, such that the kk-th elements of the ii-th and jj-th array are different.'
+b'Finally, Cirno arbitrarily changed the order of 2n2n arrays.'
+b'AquaMoon calls a subset of all 2n2n arrays of size nn good if these arrays from a Latin square.'
+b'AquaMoon wants to know how many good subsets exist. Because this number may be particularly large, find it modulo 998244353998244353. Also, she wants to find any good subset. Can you help her?'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (5\xe2\x89\xa4n\xe2\x89\xa45005\xe2\x89\xa4n\xe2\x89\xa4500).'
+b'Then 2n2n lines followed. The ii-th of these lines contains nn integers, representing the ii-th array.'
+b'It is guaranteed, that the sum of nn over all test cases does not exceed 500500.'
+b'Output'
+b'For each test case print two lines.'
+b'In the first line, print the number of good subsets by modulo 998244353998244353.'
+b'In the second line, print nn indices from 11 to 2n2n \xe2\x80\x94 indices of the nn arrays that form a good subset (you can print them in any order). If there are several possible answers \xe2\x80\x94 print any of them.'
+Tags
+2-sat, brute force, combinatorics, constructive algorithms, graph matchings, graphs, *2800

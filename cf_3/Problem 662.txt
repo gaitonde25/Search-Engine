@@ -1,0 +1,15 @@
+b'Ezzat has an array of nn integers (maybe negative). He wants to split it into two non-empty subsequences aa and bb, such that every element from the array belongs to exactly one subsequence, and the value of f(a)+f(b)f(a)+f(b) is the maximum possible value, where f(x)f(x) is the average of the subsequence xx. '
+b'A sequence xx is a subsequence of a sequence yy if xx can be obtained from yy by deletion of several (possibly, zero or all) elements.'
+b'The average of a subsequence is the sum of the numbers of this subsequence divided by the size of the subsequence.'
+b'For example, the average of [1,5,6][1,5,6] is (1+5+6)/3=12/3=4(1+5+6)/3=12/3=4, so f([1,5,6])=4f([1,5,6])=4.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103)\xe2\x80\x94 the number of test cases. Each test case consists of two lines.'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print a single value \xe2\x80\x94 the maximum value that Ezzat can achieve.'
+b'Your answer is considered correct if its absolute or relative error does not exceed 10\xe2\x88\x92610\xe2\x88\x926.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is accepted if and only if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926."
+Tags
+brute force, math, sortings, *800

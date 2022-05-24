@@ -1,0 +1,19 @@
+b"Let's consider a simplified version of order book of some stock. The order book is a list of orders (offers) from people that want to buy or sell one unit of the stock, each order is described by direction (BUY or SELL) and price."
+b'At every moment of time, every SELL offer has higher price than every BUY offer. '
+b'In this problem no two ever existed orders will have the same price.'
+b'The lowest-price SELL order and the highest-price BUY order are called the best offers, marked with black frames on the picture below.'
+b"  The presented order book says that someone wants to sell the product at price 1212 and it's the best SELL offer because the other two have higher prices. The best BUY offer has price 1010. "
+b'There are two possible actions in this orderbook: '
+b" Somebody adds a new order of some direction with some price. Somebody accepts the best possible SELL or BUY offer (makes a deal). It's impossible to accept not the best SELL or BUY offer (to make a deal at worse price). After someone accepts the offer, it is removed from the orderbook forever."
+b'It is allowed to add new BUY order only with prices less than the best SELL offer (if you want to buy stock for higher price, then instead of adding an order you should accept the best SELL offer). Similarly, one couldn\'t add a new SELL order with price less or equal to the best BUY offer. For example, you can\'t add a new offer "SELL 2020" if there is already an offer "BUY 2020" or "BUY 2525"\xc2\xa0\xe2\x80\x94 in this case you just accept the best BUY offer.'
+b'You have a damaged order book log (in the beginning the are no orders in book). Every action has one of the two types:'
+b' "ADD pp" denotes adding a new order with price pp and unknown direction. The order must not contradict with orders still not removed from the order book.  "ACCEPT pp" denotes accepting an existing best offer with price pp and unknown direction.'
+b"The directions of all actions are lost. Information from the log isn't always enough to determine these directions. Count the number of ways to correctly restore all ADD action directions so that all the described conditions are satisfied at any moment. Since the answer could be large, output it modulo 109+7109+7. If it is impossible to correctly restore directions, then output 00."
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa43633041\xe2\x89\xa4n\xe2\x89\xa4363304) \xe2\x80\x94 the number of actions in the log.'
+b'Each of the next nn lines contains a string "ACCEPT" or "ADD" and an integer pp (1\xe2\x89\xa4p\xe2\x89\xa43089830661\xe2\x89\xa4p\xe2\x89\xa4308983066), describing an action type and price. '
+b'All ADD actions have different prices. For ACCEPT action it is guaranteed that the order with the same price has already been added but has not been accepted yet.'
+b'Output'
+b'Output the number of ways to restore directions of ADD actions modulo 109+7109+7.'
+Tags
+combinatorics, data structures, greedy, *2100

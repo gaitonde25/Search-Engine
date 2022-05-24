@@ -1,0 +1,16 @@
+b'A squad of nn warriors is defending a castle from a dragon attack. There are mm barricades between the castle and the dragon.'
+b'The warriors are numbered from 11 to nn. The ii-th warrior knows kiki attacks: the jj-th of them deals ai,jai,j damage to the dragon and can only be applied if there are exactly bi,jbi,j barricades between the castle and the dragon.'
+b'The warriors make turns one after another, starting from warrior 11. After warrior nn makes his turn, the total damage to the dragon is calculated. The ii-th warrior performs exactly one of three possible moves in his turn:'
+b'  destroys one barricade (if there are any left);  deploys one of his kiki attacks;  skips a turn. '
+b'The total damage is the sum of damages dealt by the warriors who chose to deploy their attacks in their turn. What is the maximum total damage the warriors can deal to the dragon?'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of warriors and the initial number of barricades.'
+b'Then the descriptions of attacks for each warrior follow. The ii-th description consists of three lines.'
+b'The first line contains a single integer kiki (1\xe2\x89\xa4ki\xe2\x89\xa4m+11\xe2\x89\xa4ki\xe2\x89\xa4m+1)\xc2\xa0\xe2\x80\x94 the number of attacks the ii-th warrior knows.'
+b'The second line contains kiki integers ai,1,ai,2,\xe2\x80\xa6,ai,kiai,1,ai,2,\xe2\x80\xa6,ai,ki (1\xe2\x89\xa4ai,j\xe2\x89\xa41091\xe2\x89\xa4ai,j\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the damage of each attack.'
+b'The third line contains kiki integers bi,1,bi,2,\xe2\x80\xa6,bi,kibi,1,bi,2,\xe2\x80\xa6,bi,ki (0\xe2\x89\xa4bi,j\xe2\x89\xa4m0\xe2\x89\xa4bi,j\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the required number of barricades for each attack. bi,jbi,j for the ii-th warrior are pairwise distinct. The attacks are listed in the increasing order of the barricades requirement, so bi,1<bi,2<\xe2\x8b\xaf<bi,kibi,1<bi,2<\xe2\x8b\xaf<bi,ki.'
+b"The sum of kiki over all warriors doesn't exceed 3\xe2\x8b\x851053\xe2\x8b\x85105."
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum total damage the warriors can deal to the dragon.'
+Tags
+*special problem, data structures, dp, *2500

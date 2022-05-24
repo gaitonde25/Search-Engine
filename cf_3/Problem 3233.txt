@@ -1,0 +1,11 @@
+b'There is a forest that we model as a plane and live nn rare animals. Animal number ii has its lair in the point (xi,yi)(xi,yi). In order to protect them, a decision to build a nature reserve has been made.'
+b'The reserve must have a form of a circle containing all lairs. There is also a straight river flowing through the forest. All animals drink from this river, therefore it must have at least one common point with the reserve. On the other hand, ships constantly sail along the river, so the reserve must not have more than one common point with the river.'
+b'For convenience, scientists have made a transformation of coordinates so that the river is defined by y=0y=0. Check whether it is possible to build a reserve, and if possible, find the minimum possible radius of such a reserve.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of animals. '
+b"Each of the next nn lines contains two integers xixi, yiyi (\xe2\x88\x92107\xe2\x89\xa4xi,yi\xe2\x89\xa4107\xe2\x88\x92107\xe2\x89\xa4xi,yi\xe2\x89\xa4107) \xe2\x80\x94 the coordinates of the ii-th animal's lair. It is guaranteed that yi\xe2\x89\xa00yi\xe2\x89\xa00. No two lairs coincide."
+b'Output'
+b'If the reserve cannot be built, print \xe2\x88\x921\xe2\x88\x921. Otherwise print the minimum radius. Your answer will be accepted if absolute or relative error does not exceed 10\xe2\x88\x92610\xe2\x88\x926.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is considered correct if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926."
+Tags
+binary search, geometry, ternary search, *2200

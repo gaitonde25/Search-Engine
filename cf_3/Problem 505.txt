@@ -1,0 +1,9 @@
+b'This is an interactive problem!'
+b'In the last regional contest Hemose, ZeyadKhattab and YahiaSherif \xe2\x80\x94 members of the team Carpe Diem \xe2\x80\x94 did not qualify to ICPC because of some unknown reasons. Hemose was very sad and had a bad day after the contest, but ZeyadKhattab is very wise and knows Hemose very well, and does not want to see him sad.'
+b'Zeyad knows that Hemose loves tree problems, so he gave him a tree problem with a very special device.'
+b"Hemose has a weighted tree with nn nodes and n\xe2\x88\x921n\xe2\x88\x921 edges. Unfortunately, Hemose doesn't remember the weights of edges."
+b"Let's define Dist(u,v)Dist(u,v) for u\xe2\x89\xa0vu\xe2\x89\xa0v as the greatest common divisor of the weights of all edges on the path from node uu to node vv."
+b'Hemose has a special device. Hemose can give the device a set of nodes, and the device will return the largest DistDist between any two nodes from the set. More formally, if Hemose gives the device a set SS of nodes, the device will return the largest value of Dist(u,v)Dist(u,v) over all pairs (u,v)(u,v) with uu, vv \xe2\x88\x88\xe2\x88\x88 SS and u\xe2\x89\xa0vu\xe2\x89\xa0v.'
+b'Hemose can use this Device at most 1212 times, and wants to find any two distinct nodes aa, bb, such that Dist(a,b)Dist(a,b) is maximum possible. Can you help him?'
+Tags
+binary search, dfs and similar, implementation, interactive, math, number theory, trees, *2300

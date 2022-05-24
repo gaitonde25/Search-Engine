@@ -1,0 +1,10 @@
+b'Vasya is reading a e-book. The file of the book consists of nn pages, numbered from 11 to nn. The screen is currently displaying the contents of page xx, and Vasya wants to read the page yy. There are two buttons on the book which allow Vasya to scroll dd pages forwards or backwards (but he cannot scroll outside the book). For example, if the book consists of 1010 pages, and d=3d=3, then from the first page Vasya can scroll to the first or to the fourth page by pressing one of the buttons; from the second page \xe2\x80\x94 to the first or to the fifth; from the sixth page \xe2\x80\x94 to the third or to the ninth; from the eighth \xe2\x80\x94 to the fifth or to the tenth.'
+b'Help Vasya to calculate the minimum number of times he needs to press a button to move to page yy.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103) \xe2\x80\x94 the number of testcases.'
+b'Each testcase is denoted by a line containing four integers nn, xx, yy, dd (1\xe2\x89\xa4n,d\xe2\x89\xa41091\xe2\x89\xa4n,d\xe2\x89\xa4109, 1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n) \xe2\x80\x94 the number of pages, the starting page, the desired page, and the number of pages scrolled by pressing one button, respectively.'
+b'Output'
+b'Print one line for each test.'
+b'If Vasya can move from page xx to page yy, print the minimum number of times he needs to press a button to do it. Otherwise print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+implementation, math, *1200

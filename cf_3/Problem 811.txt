@@ -1,0 +1,11 @@
+b'There are nn students in a university. The number of students is even. The ii-th student has programming skill equal to aiai. '
+b'The coach wants to form n2n2 teams. Each team should consist of exactly two students, and each student should belong to exactly one team. Two students can form a team only if their skills are equal (otherwise they cannot understand each other and cannot form a team).'
+b'Students can solve problems to increase their skill. One solved problem increases the skill by one.'
+b'The coach wants to know the minimum total number of problems students should solve to form exactly n2n2 teams (i.e. each pair of students should form a team). Your task is to find this number.'
+b'Input'
+b'The first line of the input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of students. It is guaranteed that nn is even.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100), where aiai is the skill of the ii-th student.'
+b'Output'
+b'Print one number \xe2\x80\x94 the minimum total number of problems students should solve to form exactly n2n2 teams.'
+Tags
+*special problem, sortings

@@ -1,0 +1,14 @@
+b'Welcome to Rockport City!'
+b'It is time for your first ever race in the game against Ronnie. To make the race interesting, you have bet aa dollars and Ronnie has bet bb dollars. But the fans seem to be disappointed. The excitement of the fans is given by gcd(a,b)gcd(a,b), where gcd(x,y)gcd(x,y) denotes the greatest common divisor (GCD) of integers xx and yy. To make the race more exciting, you can perform two types of operations:'
+b'  Increase both aa and bb by 11.  Decrease both aa and bb by 11. This operation can only be performed if both aa and bb are greater than 00. '
+b'In one move, you can perform any one of these operations. You can perform arbitrary (possibly zero) number of moves. Determine the maximum excitement the fans can get and the minimum number of moves required to achieve it.'
+b'Note that gcd(x,0)=xgcd(x,0)=x for any x\xe2\x89\xa50x\xe2\x89\xa50.'
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x851031\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x85103) \xe2\x80\x94 the number of test cases.'
+b'The first and the only line of each test case contains two integers aa and bb (0\xe2\x89\xa4a,b\xe2\x89\xa410180\xe2\x89\xa4a,b\xe2\x89\xa41018).'
+b'Output'
+b'For each test case, print a single line containing two integers. '
+b'If the fans can get infinite excitement, print 0 0.'
+b'Otherwise, the first integer must be the maximum excitement the fans can get, and the second integer must be the minimum number of moves required to achieve that excitement.'
+Tags
+greedy, math, number theory, *900

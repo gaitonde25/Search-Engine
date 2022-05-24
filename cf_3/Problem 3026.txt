@@ -1,0 +1,9 @@
+b"The length of the longest common prefix of two strings s=s1s2\xe2\x80\xa6sns=s1s2\xe2\x80\xa6sn and t=t1t2\xe2\x80\xa6tmt=t1t2\xe2\x80\xa6tm is defined as the maximum k\xe2\x89\xa4min(n,m)k\xe2\x89\xa4min(n,m) such that s1s2\xe2\x80\xa6sks1s2\xe2\x80\xa6sk equals t1t2\xe2\x80\xa6tkt1t2\xe2\x80\xa6tk. Let's denote the longest common prefix of two strings ss and tt as lcp(s,t)lcp(s,t)."
+b'Z-function of a string s1s2\xe2\x80\xa6sns1s2\xe2\x80\xa6sn is a sequence of integers z1,z2,\xe2\x80\xa6,znz1,z2,\xe2\x80\xa6,zn, where zi=lcp(s1s2\xe2\x80\xa6sn,\xc2\xa0\xc2\xa0sisi+1\xe2\x80\xa6sn)zi=lcp(s1s2\xe2\x80\xa6sn,\xc2\xa0\xc2\xa0sisi+1\xe2\x80\xa6sn). \xd0\x96-function of a string ss is defined as z1+z2+\xe2\x80\xa6+znz1+z2+\xe2\x80\xa6+zn.'
+b"You're given a string s=s1s2\xe2\x80\xa6sns=s1s2\xe2\x80\xa6sn and qq queries. Each query is described by two integers lili and riri, where 1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n. The answer for the query is defined as \xd0\x96-function of the string slisli+1\xe2\x80\xa6srislisli+1\xe2\x80\xa6sri."
+b'Input'
+b'The first line contains the string ss, consisting of lowercase English letters (1\xe2\x89\xa4|s|\xe2\x89\xa42000001\xe2\x89\xa4|s|\xe2\x89\xa4200000). The second line contains one integer qq\xc2\xa0\xe2\x80\x94 the number of queries (1\xe2\x89\xa4q\xe2\x89\xa42000001\xe2\x89\xa4q\xe2\x89\xa4200000). Each of the following qq lines contains two integers lili and riri, describing the query (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4|s|1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4|s|).'
+b'Output'
+b'For every query output one integer: the value of \xd0\x96-function of the corresponding substring.'
+Tags
+string suffix structures, strings, *3500

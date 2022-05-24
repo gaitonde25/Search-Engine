@@ -1,0 +1,14 @@
+b'Vasya owns three big integers \xe2\x80\x94 a,l,ra,l,r. Let\'s define a partition of xx such a sequence of strings s1,s2,\xe2\x80\xa6,sks1,s2,\xe2\x80\xa6,sk that s1+s2+\xe2\x8b\xaf+sk=xs1+s2+\xe2\x8b\xaf+sk=x, where ++ is a concatanation of strings. sisi is the ii-th element of the partition. For example, number 1234512345 has the following partitions: ["1", "2", "3", "4", "5"], ["123", "4", "5"], ["1", "2345"], ["12345"] and lots of others.'
+b"Let's call some partition of aa beautiful if each of its elements contains no leading zeros."
+b'Vasya want to know the number of beautiful partitions of number aa, which has each of sisi satisfy the condition l\xe2\x89\xa4si\xe2\x89\xa4rl\xe2\x89\xa4si\xe2\x89\xa4r. Note that the comparison is the integer comparison, not the string one.'
+b'Help Vasya to count the amount of partitions of number aa such that they match all the given requirements. The result can be rather big, so print it modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer a\xc2\xa0(1\xe2\x89\xa4a\xe2\x89\xa4101000000)a\xc2\xa0(1\xe2\x89\xa4a\xe2\x89\xa4101000000).'
+b'The second line contains a single integer l\xc2\xa0(0\xe2\x89\xa4l\xe2\x89\xa4101000000)l\xc2\xa0(0\xe2\x89\xa4l\xe2\x89\xa4101000000).'
+b'The third line contains a single integer r\xc2\xa0(0\xe2\x89\xa4r\xe2\x89\xa4101000000)r\xc2\xa0(0\xe2\x89\xa4r\xe2\x89\xa4101000000).'
+b'It is guaranteed that l\xe2\x89\xa4rl\xe2\x89\xa4r.'
+b'It is also guaranteed that numbers a,l,ra,l,r contain no leading zeros.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the amount of partitions of number aa such that they match all the given requirements modulo 998244353998244353.'
+Tags
+binary search, data structures, dp, hashing, strings, *2600

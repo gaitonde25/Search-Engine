@@ -1,0 +1,9 @@
+b'The map of Europe can be represented by a set of nn cities, numbered from 11 through nn, which are connected by mm bidirectional roads, each of which connects two distinct cities. A trip of length kk is a sequence of k+1k+1 cities v1,v2,\xe2\x80\xa6,vk+1v1,v2,\xe2\x80\xa6,vk+1 such that there is a road connecting each consecutive pair vivi, vi+1vi+1 of cities, for all 1\xe2\x89\xa4i\xe2\x89\xa4k1\xe2\x89\xa4i\xe2\x89\xa4k. A special trip is a trip that does not use the same road twice in a row, i.e., a sequence of k+1k+1 cities v1,v2,\xe2\x80\xa6,vk+1v1,v2,\xe2\x80\xa6,vk+1 such that it forms a trip and vi\xe2\x89\xa0vi+2vi\xe2\x89\xa0vi+2, for all 1\xe2\x89\xa4i\xe2\x89\xa4k\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4k\xe2\x88\x921.'
+b'Given an integer kk, compute the number of distinct special trips of length kk which begin and end in the same city. Since the answer might be large, give the answer modulo 998244353998244353.'
+b'Input'
+b'The first line contains three integers nn, mm and kk (3\xe2\x89\xa4n\xe2\x89\xa41003\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)/21\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)/2, 1\xe2\x89\xa4k\xe2\x89\xa41041\xe2\x89\xa4k\xe2\x89\xa4104) \xe2\x80\x94 the number of cities, the number of roads and the length of trips to consider.'
+b'Each of the following mm lines contains a pair of distinct integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n) \xe2\x80\x94 each pair represents a road connecting cities aa and bb. It is guaranteed that the roads are distinct (i.e., each pair of cities is connected by at most one road).'
+b'Output'
+b'Print the number of special trips of length kk which begin and end in the same city, modulo 998244353998244353.'
+Tags
+dp, graphs, math, matrices

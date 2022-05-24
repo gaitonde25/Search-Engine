@@ -1,0 +1,9 @@
+b'A big company decided to launch a new series of rectangular displays, and decided that the display must have exactly n pixels. '
+b'Your task is to determine the size of the rectangular display \xe2\x80\x94 the number of lines (rows) of pixels a and the number of columns of pixels b, so that:'
+b'  there are exactly n pixels on the display;  the number of rows does not exceed the number of columns, it means a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b;  the difference b\xe2\x80\x89-\xe2\x80\x89a is as small as possible. '
+b'Input'
+b'The first line contains the positive integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106)\xc2\xa0\xe2\x80\x94 the number of pixels display should have.'
+b'Output'
+b'Print two integers\xc2\xa0\xe2\x80\x94 the number of rows and columns on the display. '
+Tags
+brute force, math, *800

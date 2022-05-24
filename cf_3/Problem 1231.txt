@@ -1,0 +1,15 @@
+b'You are given a multiset of powers of two. More precisely, for each ii from 00 to nn exclusive you have cnticnti elements equal to 2i2i.'
+b'In one operation, you can choose any one element 2l>12l>1 and divide it into two elements 2l\xe2\x88\x9212l\xe2\x88\x921.'
+b'You should perform qq queries. Each query has one of two types: '
+b'  "11 pospos valval"\xc2\xa0\xe2\x80\x94 assign cntpos:=valcntpos:=val;  "22 xx kk"\xc2\xa0\xe2\x80\x94 calculate the minimum number of operations you need to make at least kk elements with value lower or equal to 2x2x. '
+b"Note that all queries of the second type don't change the multiset; that is, you just calculate the minimum number of operations, you don't perform them."
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n\xe2\x89\xa4301\xe2\x89\xa4n\xe2\x89\xa430; 1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the size of array cntcnt and the number of queries.'
+b'The second line contains nn integers cnt0,cnt1,\xe2\x80\xa6,cntn\xe2\x88\x921cnt0,cnt1,\xe2\x80\xa6,cntn\xe2\x88\x921 (0\xe2\x89\xa4cnti\xe2\x89\xa41060\xe2\x89\xa4cnti\xe2\x89\xa4106).'
+b'Next qq lines contain queries: one per line. Each query has one of two types: '
+b'  "11 pospos valval" (0\xe2\x89\xa4pos<n0\xe2\x89\xa4pos<n; 0\xe2\x89\xa4val\xe2\x89\xa41060\xe2\x89\xa4val\xe2\x89\xa4106);  "22 xx kk" (0\xe2\x89\xa4x<n0\xe2\x89\xa4x<n; 1\xe2\x89\xa4k\xe2\x89\xa410151\xe2\x89\xa4k\xe2\x89\xa41015). '
+b"It's guaranteed that there is at least one query of the second type."
+b'Output'
+b'For each query of the second type, print the minimum number of operations you need to make at least kk elements with a value lower or equal to 2x2x or \xe2\x88\x921\xe2\x88\x921 if there is no way to do it.'
+Tags
+constructive algorithms, greedy, *2900

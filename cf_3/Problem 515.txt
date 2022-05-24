@@ -1,0 +1,12 @@
+b'A total of nn depots are located on a number line. Depot ii lies at the point xixi for 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n.'
+b'You are a salesman with nn bags of goods, attempting to deliver one bag to each of the nn depots. You and the nn bags are initially at the origin 00. You can carry up to kk bags at a time. You must collect the required number of goods from the origin, deliver them to the respective depots, and then return to the origin to collect your next batch of goods.'
+b'Calculate the minimum distance you need to cover to deliver all the bags of goods to the depots. You do not have to return to the origin after you have delivered all the bags.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa4105001\xe2\x89\xa4t\xe2\x89\xa410500). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line of each test case contains nn integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn (\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109). It is possible that some depots share the same position.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output a single integer denoting the minimum distance you need to cover to deliver all the bags of goods to the depots. '
+Tags
+greedy, *1300

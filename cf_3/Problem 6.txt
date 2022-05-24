@@ -1,0 +1,12 @@
+b'An array is beautiful if both of the following two conditions meet:'
+b'  there are at least l1l1 and at most r1r1 elements in the array equal to its minimum;  there are at least l2l2 and at most r2r2 elements in the array equal to its maximum. '
+b'For example, the array [2,3,2,4,4,3,2][2,3,2,4,4,3,2] has 33 elements equal to its minimum (11-st, 33-rd and 77-th) and 22 elements equal to its maximum (44-th and 55-th).'
+b'Another example: the array [42,42,42][42,42,42] has 33 elements equal to its minimum and 33 elements equal to its maximum.'
+b'Your task is to calculate the minimum possible number of elements in a beautiful array.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each test case consists of one line containing four integers l1l1, r1r1, l2l2 and r2r2 (1\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa4501\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa450; 1\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa4501\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa450).'
+b'Output'
+b'For each test case, print one integer\xc2\xa0\xe2\x80\x94 the minimum possible number of elements in a beautiful array.'
+Tags
+brute force, math, *800

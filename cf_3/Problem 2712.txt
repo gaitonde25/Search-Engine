@@ -1,0 +1,14 @@
+b'In the city of Capypaland where Kuro and Shiro resides, there are nn towns numbered from 11 to nn and there are mm bidirectional roads numbered from 11 to mm connecting them. The ii-th road connects towns uiui and vivi. Since traveling between the towns is quite difficult, the taxi industry is really popular here. To survive the harsh competition, each taxi company has to find a distinctive trait for their customers.'
+b'Kuro is the owner of a taxi company. He has decided to introduce a new fee model for his taxi brand, where the fee for each ride is not calculated based on the trip length, but on the sum of the prices of the roads traveled. The price for each of the mm roads has been decided by Kuro himself.'
+b'As of now, the price for the road ii is wiwi and hence the fee for a taxi ride traveling through roads e1,e2,\xe2\x80\xa6,eke1,e2,\xe2\x80\xa6,ek is \xe2\x88\x91ki=1wei\xe2\x88\x91i=1kwei.'
+b'However, Kuro himself is an indecisive person, so he has drafted qq plans to change the road price. Each of the plans will be based on the original prices wiwi, except for a single road tjtj, the price of which is changed to xjxj. Note, that the plans are independent of each other.'
+b"Shiro is a regular customer of the Kuro's taxi brand since she uses the taxi to travel from town 11 to town nn every day. Since she's so a regular customer, Kuro decided to show her all his qq plans before publishing them to the public. Now, Shiro wants to know the lowest fee she must pay to travel from the town 11 to the town nn for each Kuro's plan."
+b'Input'
+b'The first line contains three integers nn, mm and qq (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4m,q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4m,q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of towns, the number of roads, and the number of plans that Kuro has drafted respectively.'
+b'The ii-th of the next mm contains three integers uiui, vivi and wiwi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, 1\xe2\x89\xa4wi\xe2\x89\xa41091\xe2\x89\xa4wi\xe2\x89\xa4109, ui\xe2\x89\xa0viui\xe2\x89\xa0vi)\xc2\xa0\xe2\x80\x94 two endpoints and the original price of the ii-th road.'
+b'It is guaranteed, that there is at least one way to travel from town 11 to town nn using these mm bidirectional roads.'
+b'Each of the next qq lines contains two integers tjtj and xjxj (1\xe2\x89\xa4tj\xe2\x89\xa4m,1\xe2\x89\xa4xj\xe2\x89\xa41091\xe2\x89\xa4tj\xe2\x89\xa4m,1\xe2\x89\xa4xj\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the index of the road Kuro has planned to change and its new price respectively.'
+b'Output'
+b'Print qq integers\xc2\xa0\xe2\x80\x94 the lowest fee Shiro must pay to get from town 11 to town nn in each of those qq plans.'
+Tags
+data structures, graphs, shortest paths, *3000

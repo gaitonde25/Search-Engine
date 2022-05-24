@@ -1,0 +1,13 @@
+b'In the School of Magic in Dirtpolis a lot of interesting objects are studied on Computer Science lessons.'
+b'Consider, for example, the magic multiset. If you try to add an integer to it that is already presented in the multiset, each element in the multiset duplicates. For example, if you try to add the integer 22 to the multiset {1,2,3,3}{1,2,3,3}, you will get {1,1,2,2,3,3,3,3}{1,1,2,2,3,3,3,3}. '
+b'If you try to add an integer that is not presented in the multiset, it is simply added to it. For example, if you try to add the integer 44 to the multiset {1,2,3,3}{1,2,3,3}, you will get {1,2,3,3,4}{1,2,3,3,4}.'
+b'Also consider an array of nn initially empty magic multisets, enumerated from 11 to nn.'
+b'You are to answer qq queries of the form "add an integer xx to all multisets with indices l,l+1,\xe2\x80\xa6,rl,l+1,\xe2\x80\xa6,r" and "compute the sum of sizes of multisets with indices l,l+1,\xe2\x80\xa6,rl,l+1,\xe2\x80\xa6,r". The answers for the second type queries can be large, so print the answers modulo 998244353998244353.'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of magic multisets in the array and the number of queries, respectively.'
+b'The next qq lines describe queries, one per line. Each line starts with an integer tt (1\xe2\x89\xa4t\xe2\x89\xa421\xe2\x89\xa4t\xe2\x89\xa42)\xc2\xa0\xe2\x80\x94 the type of the query. If tt equals 11, it is followed by three integers ll, rr, xx (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n, 1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n) meaning that you should add xx to all multisets with indices from ll to rr inclusive. If tt equals 22, it is followed by two integers ll, rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n) meaning that you should compute the sum of sizes of all multisets with indices from ll to rr inclusive.'
+b'Output'
+b'For each query of the second type print the sum of sizes of multisets on the given segment.'
+b'The answers can be large, so print them modulo 998244353998244353.'
+Tags
+data structures, *2500

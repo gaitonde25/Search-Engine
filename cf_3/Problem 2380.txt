@@ -1,0 +1,12 @@
+b'You are given a chess board with nn rows and nn columns. Initially all cells of the board are empty, and you have to put a white or a black knight into each cell of the board.'
+b'A knight is a chess piece that can attack a piece in cell (x2x2, y2y2) from the cell (x1x1, y1y1) if one of the following conditions is met:'
+b'  |x1\xe2\x88\x92x2|=2|x1\xe2\x88\x92x2|=2 and |y1\xe2\x88\x92y2|=1|y1\xe2\x88\x92y2|=1, or  |x1\xe2\x88\x92x2|=1|x1\xe2\x88\x92x2|=1 and |y1\xe2\x88\x92y2|=2|y1\xe2\x88\x92y2|=2. '
+b'Here are some examples of which cells knight can attack. In each of the following pictures, if the knight is currently in the blue cell, it can attack all red cells (and only them).'
+b'  '
+b'A duel of knights is a pair of knights of different colors such that these knights attack each other. You have to put a knight (a white one or a black one) into each cell in such a way that the number of duels is maximum possible.'
+b'Input'
+b'The first line contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa41003\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of rows (and columns) in the board.'
+b'Output'
+b'Print nn lines with nn characters in each line. The jj-th character in the ii-th line should be W, if the cell (ii, jj) contains a white knight, or B, if it contains a black knight. The number of duels should be maximum possible. If there are multiple optimal answers, print any of them.'
+Tags
+constructive algorithms, greedy, *1100

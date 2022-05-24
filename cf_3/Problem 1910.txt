@@ -1,0 +1,11 @@
+b'Vova had a pretty weird sleeping schedule. There are hh hours in a day. Vova will sleep exactly nn times. The ii-th time he will sleep exactly after aiai hours from the time he woke up. You can assume that Vova woke up exactly at the beginning of this story (the initial time is 00). Each time Vova sleeps exactly one day (in other words, hh hours).'
+b'Vova thinks that the ii-th sleeping time is good if he starts to sleep between hours ll and rr inclusive.'
+b'Vova can control himself and before the ii-th time can choose between two options: go to sleep after aiai hours or after ai\xe2\x88\x921ai\xe2\x88\x921 hours.'
+b'Your task is to say the maximum number of good sleeping times Vova can obtain if he acts optimally.'
+b'Input'
+b'The first line of the input contains four integers n,h,ln,h,l and rr (1\xe2\x89\xa4n\xe2\x89\xa42000,3\xe2\x89\xa4h\xe2\x89\xa42000,0\xe2\x89\xa4l\xe2\x89\xa4r<h1\xe2\x89\xa4n\xe2\x89\xa42000,3\xe2\x89\xa4h\xe2\x89\xa42000,0\xe2\x89\xa4l\xe2\x89\xa4r<h) \xe2\x80\x94 the number of times Vova goes to sleep, the number of hours in a day and the segment of the good sleeping time.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai<h1\xe2\x89\xa4ai<h), where aiai is the number of hours after which Vova goes to sleep the ii-th time.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum number of good sleeping times Vova can obtain if he acts optimally.'
+Tags
+dp, implementation, *1700

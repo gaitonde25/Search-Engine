@@ -1,0 +1,17 @@
+b'You want to perform the combo on your opponent in one popular fighting game. The combo is the string ss consisting of nn lowercase Latin letters. To perform the combo, you have to press all buttons in the order they appear in ss. I.e. if s=s="abca" then you have to press \'a\', then \'b\', \'c\' and \'a\' again.'
+b'You know that you will spend mm wrong tries to perform the combo and during the ii-th try you will make a mistake right after pipi-th button (1\xe2\x89\xa4pi<n1\xe2\x89\xa4pi<n) (i.e. you will press first pipi buttons right and start performing the combo from the beginning). It is guaranteed that during the m+1m+1-th try you press all buttons right and finally perform the combo.'
+b'I.e. if s=s="abca", m=2m=2 and p=[1,3]p=[1,3] then the sequence of pressed buttons will be \'a\' (here you\'re making a mistake and start performing the combo from the beginning), \'a\', \'b\', \'c\', (here you\'re making a mistake and start performing the combo from the beginning), \'a\' (note that at this point you will not perform the combo because of the mistake), \'b\', \'c\', \'a\'.'
+b"Your task is to calculate for each button (letter) the number of times you'll press it."
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'Then tt test cases follow.'
+b'The first line of each test case contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of ss and the number of tries correspondingly.'
+b'The second line of each test case contains the string ss consisting of nn lowercase Latin letters.'
+b'The third line of each test case contains mm integers p1,p2,\xe2\x80\xa6,pmp1,p2,\xe2\x80\xa6,pm (1\xe2\x89\xa4pi<n1\xe2\x89\xa4pi<n) \xe2\x80\x94 the number of characters pressed right during the ii-th try.'
+b'It is guaranteed that the sum of nn and the sum of mm both does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105, \xe2\x88\x91m\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91m\xe2\x89\xa42\xe2\x8b\x85105).'
+b'It is guaranteed that the answer for each letter does not exceed 2\xe2\x8b\x851092\xe2\x8b\x85109.'
+b'Output'
+b"For each test case, print the answer \xe2\x80\x94 2626 integers: the number of times you press the button 'a', the number of times you press the button 'b', \xe2\x80\xa6\xe2\x80\xa6, the number of times you press the button 'z'."
+Tags
+brute force, *1300

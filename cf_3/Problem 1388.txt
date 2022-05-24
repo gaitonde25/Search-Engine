@@ -1,0 +1,17 @@
+b"Pink Floyd are pulling a prank on Roger Waters. They know he doesn't like walls, he wants to be able to walk freely, so they are blocking him from exiting his room which can be seen as a grid."
+b'Roger Waters has a square grid of size n\xc3\x97nn\xc3\x97n and he wants to traverse his grid from the upper left (1,11,1) corner to the lower right corner (n,nn,n). Waters can move from a square to any other square adjacent by a side, as long as he is still in the grid. Also except for the cells (1,11,1) and (n,nn,n) every cell has a value 00 or 11 in it.'
+b"Before starting his traversal he will pick either a 00 or a 11 and will be able to only go to cells values in which are equal to the digit he chose. The starting and finishing cells (1,11,1) and (n,nn,n) are exempt from this rule, he may go through them regardless of picked digit. Because of this the cell (1,11,1) takes value the letter 'S' and the cell (n,nn,n) takes value the letter 'F'."
+b'For example, in the first example test case, he can go from (1,11,1) to (n,nn,n) by using the zeroes on this path: (1,11,1), (2,12,1), (2,22,2), (2,32,3), (3,33,3), (3,43,4), (4,44,4)'
+b'The rest of the band (Pink Floyd) wants Waters to not be able to do his traversal, so while he is not looking they will invert at most two cells in the grid (from 00 to 11 or vice versa). They are afraid they will not be quick enough and asked for your help in choosing the cells.  Note that you cannot invert cells (1,1)(1,1) and (n,n)(n,n).'
+b'We can show that there always exists a solution for the given constraints.'
+b'Also note that Waters will pick his digit of the traversal after the band has changed his grid, so he must not be able to reach (n,nn,n) no matter what digit he picks.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa4501\xe2\x89\xa4t\xe2\x89\xa450). Description of the test cases follows.'
+b'The first line of each test case contains one integers nn (3\xe2\x89\xa4n\xe2\x89\xa42003\xe2\x89\xa4n\xe2\x89\xa4200).'
+b"The following nn lines of each test case contain the binary grid, square (1,11,1) being colored in 'S' and square (n,nn,n) being colored in 'F'."
+b"The sum of values of nn doesn't exceed 200200."
+b'Output'
+b'For each test case output on the first line an integer cc (0\xe2\x89\xa4c\xe2\x89\xa420\xe2\x89\xa4c\xe2\x89\xa42) \xc2\xa0\xe2\x80\x94 the number of inverted cells.'
+b'In ii-th of the following cc lines, print the coordinates of the ii-th cell you inverted. You may not invert the same cell twice.  Note that you cannot invert cells (1,1)(1,1) and (n,n)(n,n).'
+Tags
+constructive algorithms, implementation, *1100

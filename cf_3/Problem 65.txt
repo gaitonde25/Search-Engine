@@ -1,0 +1,14 @@
+b"You are given nn points with integer coordinates on a coordinate axis OXOX. The coordinate of the ii-th point is xixi. All points' coordinates are distinct and given in strictly increasing order."
+b'For each point ii, you can do the following operation no more than once: take this point and move it by 11 to the left or to the right (i..e., you can change its coordinate xixi to xi\xe2\x88\x921xi\xe2\x88\x921 or to xi+1xi+1). In other words, for each point, you choose (separately) its new coordinate. For the ii-th point, it can be either xi\xe2\x88\x921xi\xe2\x88\x921, xixi or xi+1xi+1.'
+b'Your task is to determine if you can move some points as described above in such a way that the new set of points forms a consecutive segment of integers, i.\xe2\x80\x89e. for some integer ll the coordinates of points should be equal to l,l+1,\xe2\x80\xa6,l+n\xe2\x88\x921l,l+1,\xe2\x80\xa6,l+n\xe2\x88\x921.'
+b'Note that the resulting points should have distinct coordinates.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of points in the set xx.'
+b'The second line of the test case contains nn integers x1<x2<\xe2\x80\xa6<xnx1<x2<\xe2\x80\xa6<xn (1\xe2\x89\xa4xi\xe2\x89\xa41061\xe2\x89\xa4xi\xe2\x89\xa4106), where xixi is the coordinate of the ii-th point.'
+b'It is guaranteed that the points are given in strictly increasing order (this also means that all coordinates are distinct). It is also guaranteed that the sum of nn does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 if the set of points from the test case can be moved to form a consecutive segment of integers, print YES, otherwise print NO.'
+Tags
+brute force, math, sortings, *1000

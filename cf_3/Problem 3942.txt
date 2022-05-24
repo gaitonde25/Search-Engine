@@ -1,0 +1,12 @@
+b'Valentin participates in a show called "Shockers". The rules are quite easy: jury selects one letter which Valentin doesn\'t know. He should make a small speech, but every time he pronounces a word that contains the selected letter, he receives an electric shock. He can make guesses which letter is selected, but for each incorrect guess he receives an electric shock too. The show ends when Valentin guesses the selected letter correctly.'
+b"Valentin can't keep in mind everything, so he could guess the selected letter much later than it can be uniquely determined and get excessive electric shocks. Excessive electric shocks are those which Valentin got after the moment the selected letter can be uniquely determined. You should find out the number of excessive electric shocks."
+b'Input'
+b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of actions Valentin did.'
+b'The next n lines contain descriptions of his actions, each line contains description of one action. Each action can be of one of three types: '
+b'  Valentin pronounced some word and didn\'t get an electric shock. This action is described by the string ". w" (without quotes), in which "." is a dot (ASCII-code 46), and w is the word that Valentin said.  Valentin pronounced some word and got an electric shock. This action is described by the string "! w" (without quotes), in which "!" is an exclamation mark (ASCII-code 33), and w is the word that Valentin said.  Valentin made a guess about the selected letter. This action is described by the string "? s" (without quotes), in which "?" is a question mark (ASCII-code 63), and s is the guess\xc2\xa0\xe2\x80\x94 a lowercase English letter. '
+b'All words consist only of lowercase English letters. The total length of all words does not exceed 105.'
+b"It is guaranteed that last action is a guess about the selected letter. Also, it is guaranteed that Valentin didn't make correct guesses about the selected letter before the last action. Moreover, it's guaranteed that if Valentin got an electric shock after pronouncing some word, then it contains the selected letter; and also if Valentin didn't get an electric shock after pronouncing some word, then it does not contain the selected letter."
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the number of electric shocks that Valentin could have avoided if he had told the selected letter just after it became uniquely determined.'
+Tags
+implementation, strings, *1600

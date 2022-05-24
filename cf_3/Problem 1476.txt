@@ -1,0 +1,12 @@
+b'There is a square of size 106\xc3\x97106106\xc3\x97106 on the coordinate plane with four points (0,0)(0,0), (0,106)(0,106), (106,0)(106,0), and (106,106)(106,106) as its vertices.'
+b'You are going to draw segments on the plane. All segments are either horizontal or vertical and intersect with at least one side of the square.'
+b'Now you are wondering how many pieces this square divides into after drawing all segments. Write a program calculating the number of pieces of the square.'
+b'Input'
+b'The first line contains two integers nn and mm (0\xe2\x89\xa4n,m\xe2\x89\xa41050\xe2\x89\xa4n,m\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of horizontal segments and the number of vertical segments.'
+b'The next nn lines contain descriptions of the horizontal segments. The ii-th line contains three integers yiyi, lxilxi and rxirxi (0<yi<1060<yi<106; 0\xe2\x89\xa4lxi<rxi\xe2\x89\xa41060\xe2\x89\xa4lxi<rxi\xe2\x89\xa4106), which means the segment connects (lxi,yi)(lxi,yi) and (rxi,yi)(rxi,yi).'
+b'The next mm lines contain descriptions of the vertical segments. The ii-th line contains three integers xixi, lyilyi and ryiryi (0<xi<1060<xi<106; 0\xe2\x89\xa4lyi<ryi\xe2\x89\xa41060\xe2\x89\xa4lyi<ryi\xe2\x89\xa4106), which means the segment connects (xi,lyi)(xi,lyi) and (xi,ryi)(xi,ryi).'
+b"It's guaranteed that there are no two segments on the same line, and each segment intersects with at least one of square's sides."
+b'Output'
+b'Print the number of pieces the square is divided into after drawing all the segments.'
+Tags
+data structures, geometry, implementation, sortings, *2400

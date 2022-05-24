@@ -1,0 +1,13 @@
+b'You are given nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, such that for each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n holds i\xe2\x88\x92n\xe2\x89\xa4ai\xe2\x89\xa4i\xe2\x88\x921i\xe2\x88\x92n\xe2\x89\xa4ai\xe2\x89\xa4i\xe2\x88\x921.'
+b'Find some nonempty subset of these integers, whose sum is equal to 00. It can be shown that such a subset exists under given constraints. If there are several possible subsets with zero-sum, you can find any of them.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41061\xe2\x89\xa4t\xe2\x89\xa4106). The description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106).'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (i\xe2\x88\x92n\xe2\x89\xa4ai\xe2\x89\xa4i\xe2\x88\x921i\xe2\x88\x92n\xe2\x89\xa4ai\xe2\x89\xa4i\xe2\x88\x921).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 106106.'
+b'Output'
+b'For each test case, output two lines.'
+b'In the first line, output ss (1\xe2\x89\xa4s\xe2\x89\xa4n1\xe2\x89\xa4s\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of elements in your subset.'
+b'In the second line, output ss integers i1,i2,\xe2\x80\xa6,isi1,i2,\xe2\x80\xa6,is (1\xe2\x89\xa4ik\xe2\x89\xa4n1\xe2\x89\xa4ik\xe2\x89\xa4n). All integers have to be pairwise different, and ai1+ai2+\xe2\x8b\xaf+aisai1+ai2+\xe2\x8b\xaf+ais has to be equal to 00. If there are several possible subsets with zero-sum, you can find any of them.'
+Tags
+constructive algorithms, dfs and similar, graphs, math, *2700

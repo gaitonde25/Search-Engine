@@ -1,0 +1,7 @@
+b'  '
+b'Input'
+b'The input contains a single integer aa (0\xe2\x89\xa4a\xe2\x89\xa4150\xe2\x89\xa4a\xe2\x89\xa415).'
+b'Output'
+b'Output a single integer.'
+Tags
+bitmasks, brute force

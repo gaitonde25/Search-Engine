@@ -1,0 +1,10 @@
+b'Edogawa Conan got tired of solving cases, and invited his friend, Professor Agasa, over. They decided to play a game of cards. Conan has n cards, and the i-th card has a number ai written on it.'
+b'They take turns playing, starting with Conan. In each turn, the player chooses a card and removes it. Also, he removes all cards having a number strictly lesser than the number on the chosen card. Formally, if the player chooses the i-th card, he removes that card and removes the j-th card for all j such that aj\xe2\x80\x89<\xe2\x80\x89ai.'
+b'A player loses if he cannot make a move on his turn, that is, he loses if there are no cards left. Predict the outcome of the game, assuming both players play optimally.'
+b'Input'
+b'The first line contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of cards Conan has. '
+b'The next line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), where ai is the number on the i-th card.'
+b'Output'
+b'If Conan wins, print "Conan" (without quotes), otherwise print "Agasa" (without quotes).'
+Tags
+games, greedy, implementation, *1200

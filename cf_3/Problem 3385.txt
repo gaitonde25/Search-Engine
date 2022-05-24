@@ -1,0 +1,9 @@
+b"The campus has mm rooms numbered from 00 to m\xe2\x88\x921m\xe2\x88\x921. Also the xx-mouse lives in the campus. The xx-mouse is not just a mouse: each second xx-mouse moves from room ii to the room i\xe2\x8b\x85xmodmi\xe2\x8b\x85xmodm (in fact, it teleports from one room to another since it doesn't visit any intermediate room). Starting position of the xx-mouse is unknown."
+b'You are responsible to catch the xx-mouse in the campus, so you are guessing about minimum possible number of traps (one trap in one room) you need to place. You are sure that if the xx-mouse enters a trapped room, it immediately gets caught.'
+b'And the only observation you made is GCD(x,m)=1GCD(x,m)=1.'
+b'Input'
+b'The only line contains two integers mm and xx (2\xe2\x89\xa4m\xe2\x89\xa410142\xe2\x89\xa4m\xe2\x89\xa41014, 1\xe2\x89\xa4x<m1\xe2\x89\xa4x<m, GCD(x,m)=1GCD(x,m)=1) \xe2\x80\x94 the number of rooms and the parameter of xx-mouse. '
+b'Output'
+b'Print the only integer \xe2\x80\x94 minimum number of traps you need to install to catch the xx-mouse.'
+Tags
+bitmasks, math, number theory, *2600

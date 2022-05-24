@@ -1,0 +1,13 @@
+b"You are given a string ss, consisting of brackets of two types: '(', ')', '[' and ']'."
+b"A string is called a regular bracket sequence (RBS) if it's of one of the following types: "
+b"  empty string;  '(' + RBS + ')';  '[' + RBS + ']';  RBS + RBS. "
+b'where plus is a concatenation of two strings.'
+b'In one move you can choose a non-empty subsequence of the string ss (not necessarily consecutive) that is an RBS, remove it from the string and concatenate the remaining parts without changing the order.'
+b'What is the maximum number of moves you can perform?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b"Each of the next tt lines contains a non-empty string, consisting only of characters '(', ')', '[' and ']'. The total length of the strings over all testcases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each testcase print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of moves you can perform on a given string ss.'
+Tags
+greedy, *800

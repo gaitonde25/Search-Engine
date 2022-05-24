@@ -1,0 +1,10 @@
+b'A string ss of length nn can be encrypted by the following algorithm:'
+b'  iterate over all divisors of nn in decreasing order (i.e. from nn to 11),  for each divisor dd, reverse the substring s[1\xe2\x80\xa6d]s[1\xe2\x80\xa6d] (i.e. the substring which starts at position 11 and ends at position dd). '
+b'For example, the above algorithm applied to the string ss="codeforces" leads to the following changes: "codeforces" \xe2\x86\x92\xe2\x86\x92 "secrofedoc" \xe2\x86\x92\xe2\x86\x92 "orcesfedoc" \xe2\x86\x92\xe2\x86\x92 "rocesfedoc" \xe2\x86\x92\xe2\x86\x92 "rocesfedoc" (obviously, the last reverse operation doesn\'t change the string because d=1d=1).'
+b'You are given the encrypted string tt. Your task is to decrypt this string, i.e., to find a string ss such that the above algorithm results in string tt. It can be proven that this string ss always exists and is unique.'
+b'Input'
+b'The first line of input consists of a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the length of the string tt. The second line of input consists of the string tt. The length of tt is nn, and it consists only of lowercase Latin letters.'
+b'Output'
+b'Print a string ss such that the above algorithm results in tt.'
+Tags
+implementation, *900

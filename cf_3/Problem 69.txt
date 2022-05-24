@@ -1,0 +1,11 @@
+b'Sehr Sus is an infinite hexagonal grid as pictured below, controlled by MennaFadali, ZerooCool and Hosssam.'
+b'They love equilateral triangles and want to create nn equilateral triangles on the grid by adding some straight lines. The triangles must all be empty from the inside (in other words, no straight line or hexagon edge should pass through any of the triangles).'
+b'You are allowed to add straight lines parallel to the edges of the hexagons. Given nn, what is the minimum number of lines you need to add to create at least nn equilateral triangles as described?'
+b'  Adding two red lines results in two new yellow equilateral triangles. '
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109) \xe2\x80\x94 the required number of equilateral triangles.'
+b'Output'
+b'For each test case, print the minimum number of lines needed to have nn or more equilateral triangles.'
+Tags
+binary search, brute force, geometry, greedy, implementation, math, *1700

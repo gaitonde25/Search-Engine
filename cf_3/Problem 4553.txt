@@ -1,0 +1,13 @@
+b'You are given two trees (connected undirected acyclic graphs) S and T.'
+b'Count the number of subtrees (connected subgraphs) of S that are isomorphic to tree T. Since this number can get quite large, output it modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Two subtrees of tree S are considered different, if there exists a vertex in S that belongs to exactly one of them.'
+b'Tree G is called isomorphic to tree H if there exists a bijection f from the set of vertices of G to the set of vertices of H that has the following property: if there is an edge between vertices A and B in tree G, then there must be an edge between vertices f(A) and f(B) in tree H. And vice versa\xc2\xa0\xe2\x80\x94 if there is an edge between vertices A and B in tree H, there must be an edge between f\xe2\x80\x89-\xe2\x80\x891(A) and f\xe2\x80\x89-\xe2\x80\x891(B) in tree G.'
+b'Input'
+b'The first line contains a single integer |S| (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the number of vertices of tree S.'
+b'Next |S|\xe2\x80\x89-\xe2\x80\x891 lines contain two integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|) and describe edges of tree S.'
+b'The next line contains a single integer |T| (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|T|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8912) \xe2\x80\x94 the number of vertices of tree T.'
+b'Next |T|\xe2\x80\x89-\xe2\x80\x891 lines contain two integers xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|T|) and describe edges of tree T.'
+b'Output'
+b'On the first line output a single integer \xe2\x80\x94 the answer to the given task modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+combinatorics, graphs, trees, *2800

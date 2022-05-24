@@ -1,0 +1,8 @@
+b'You have array a that contains all integers from 1 to n twice. You can arbitrary permute any numbers in a.'
+b"Let number i be in positions xi,\xe2\x80\x89yi (xi\xe2\x80\x89<\xe2\x80\x89yi) in the permuted array a. Let's define the value di\xe2\x80\x89=\xe2\x80\x89yi\xe2\x80\x89-\xe2\x80\x89xi \xe2\x80\x94 the distance between the positions of the number i. Permute the numbers in array a to minimize the value of the sum ."
+b'Input'
+b'The only line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105).'
+b'Output'
+b'Print 2n integers \xe2\x80\x94 the permuted array a that minimizes the value of the sum s.'
+Tags
+constructive algorithms, *1900

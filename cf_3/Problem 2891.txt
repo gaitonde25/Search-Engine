@@ -1,0 +1,12 @@
+b'Alice received a set of Toy Train\xe2\x84\xa2 from Bob. It consists of one train and a connected railway network of nn stations, enumerated from 11 through nn. The train occupies one station at a time and travels around the network of stations in a circular manner. More precisely, the immediate station that the train will visit after station ii is station i+1i+1 if 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n or station 11 if i=ni=n. It takes the train 11 second to travel to its next station as described.'
+b'Bob gave Alice a fun task before he left: to deliver mm candies that are initially at some stations to their independent destinations using the train. The candies are enumerated from 11 through mm. Candy ii (1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m), now at station aiai, should be delivered to station bibi (ai\xe2\x89\xa0biai\xe2\x89\xa0bi).'
+b'  The blue numbers on the candies correspond to bibi values. The image corresponds to the 11-st example. '
+b'The train has infinite capacity, and it is possible to load off any number of candies at a station. However, only at most one candy can be loaded from a station onto the train before it leaves the station. You can choose any candy at this station. The time it takes to move the candies is negligible.'
+b'Now, Alice wonders how much time is needed for the train to deliver all candies. Your task is to find, for each station, the minimum time the train would need to deliver all the candies were it to start from there.'
+b'Input'
+b'The first line contains two space-separated integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa450002\xe2\x89\xa4n\xe2\x89\xa45000; 1\xe2\x89\xa4m\xe2\x89\xa4200001\xe2\x89\xa4m\xe2\x89\xa420000) \xe2\x80\x94 the number of stations and the number of candies, respectively.'
+b'The ii-th of the following mm lines contains two space-separated integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n; ai\xe2\x89\xa0biai\xe2\x89\xa0bi) \xe2\x80\x94 the station that initially contains candy ii and the destination station of the candy, respectively.'
+b'Output'
+b'In the first and only line, print nn space-separated integers, the ii-th of which is the minimum time, in seconds, the train would need to deliver all the candies were it to start from station ii.'
+Tags
+brute force, greedy, *1800

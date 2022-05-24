@@ -1,0 +1,13 @@
+b'  '
+b'William really likes puzzle kits. For one of his birthdays, his friends gifted him a complete undirected edge-weighted graph consisting of nn vertices.'
+b'He wants to build a spanning tree of this graph, such that for the first kk vertices the following condition is satisfied: the degree of a vertex with index ii does not exceed didi. Vertices from k+1k+1 to nn may have any degree.'
+b'William wants you to find the minimum weight of a spanning tree that satisfies all the conditions.'
+b'A spanning tree is a subset of edges of a graph that forms a tree on all nn vertices of the graph. The weight of a spanning tree is defined as the sum of weights of all the edges included in a spanning tree.'
+b'Input'
+b'The first line of input contains two integers nn, kk (2\xe2\x89\xa4n\xe2\x89\xa4502\xe2\x89\xa4n\xe2\x89\xa450, 1\xe2\x89\xa4k\xe2\x89\xa4min(n\xe2\x88\x921,5)1\xe2\x89\xa4k\xe2\x89\xa4min(n\xe2\x88\x921,5)).'
+b'The second line contains kk integers d1,d2,\xe2\x80\xa6,dkd1,d2,\xe2\x80\xa6,dk (1\xe2\x89\xa4di\xe2\x89\xa4n1\xe2\x89\xa4di\xe2\x89\xa4n). '
+b'The ii-th of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains n\xe2\x88\x92in\xe2\x88\x92i integers wi,i+1,wi,i+2,\xe2\x80\xa6,wi,nwi,i+1,wi,i+2,\xe2\x80\xa6,wi,n (1\xe2\x89\xa4wi,j\xe2\x89\xa41001\xe2\x89\xa4wi,j\xe2\x89\xa4100): weights of edges (i,i+1),(i,i+2),\xe2\x80\xa6,(i,n)(i,i+1),(i,i+2),\xe2\x80\xa6,(i,n).'
+b'Output'
+b'Print one integer: the minimum weight of a spanning tree under given degree constraints for the first kk vertices. '
+Tags
+graphs, greedy, math, probabilities, *3300

@@ -1,0 +1,13 @@
+b"Yura owns a quite ordinary and boring array aa of length nn. You think there is nothing more boring than that, but Vladik doesn't agree!"
+b"In order to make Yura's array even more boring, Vladik makes qq boring queries. Each query consists of two integers xx and yy. Before answering a query, the bounds ll and rr for this query are calculated: l=(last+x)modn+1l=(last+x)modn+1, r=(last+y)modn+1r=(last+y)modn+1, where lastlast is the answer on the previous query (zero initially), and modmod is the remainder operation. Whenever l>rl>r, they are swapped."
+b'After Vladik computes ll and rr for a query, he is to compute the least common multiple (LCM) on the segment [l;r][l;r] of the initial array aa modulo 109+7109+7. LCM of a multiset of integers is the smallest positive integer that is divisible by all the elements of the multiset. The obtained LCM is the answer for this query.'
+b'Help Vladik and compute the answer for each query!'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the length of the array.'
+b'The second line contains nn integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the elements of the array.'
+b'The third line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105) \xe2\x80\x94 the number of queries.'
+b'The next qq lines contain two integers xx and yy each (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n) \xe2\x80\x94 the description of the corresponding query.'
+b'Output'
+b'Print qq integers\xc2\xa0\xe2\x80\x94 the answers for the queries.'
+Tags
+data structures, math, number theory, *2700

@@ -1,0 +1,14 @@
+b'You are given a boolean function of three variables which is defined by its truth table. You need to find an expression of minimum length that equals to this function. The expression may consist of: '
+b"  Operation AND ('&', ASCII code 38)  Operation OR ('|', ASCII code 124)  Operation NOT ('!', ASCII code 33)  Variables x, y and z (ASCII codes 120-122)  Parentheses ('(', ASCII code 40, and ')', ASCII code 41) "
+b'If more than one expression of minimum length exists, you should find the lexicographically smallest one.'
+b'Operations have standard priority. NOT has the highest priority, then AND goes, and OR has the lowest priority. The expression should satisfy the following grammar:'
+b"E ::= E '|' T | T"
+b"T ::= T '&' F | F"
+b"F ::= '!' F | '(' E ')' | 'x' | 'y' | 'z'"
+b'Input'
+b'The first line contains one integer n\xc2\xa0\xe2\x80\x94 the number of functions in the input (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000).'
+b'The following n lines contain descriptions of functions, the i-th of them contains a string of length 8 that consists of digits 0 and 1\xc2\xa0\xe2\x80\x94 the truth table of the i-th function. The digit on position j (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89<\xe2\x80\x898) equals to the value of the function in case of ,  and .'
+b'Output'
+b"You should output n lines, the i-th line should contain the expression of minimum length which equals to the i-th function. If there is more than one such expression, output the lexicographically smallest of them. Expressions should satisfy the given grammar and shouldn't contain white spaces."
+Tags
+bitmasks, dp, shortest paths, *2400

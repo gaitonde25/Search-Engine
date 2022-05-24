@@ -1,0 +1,11 @@
+b"It's Christmas time! PolandBall and his friends will be giving themselves gifts. There are n Balls overall. Each Ball has someone for whom he should bring a present according to some permutation p, pi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89i for all i."
+b'Unfortunately, Balls are quite clumsy. We know earlier that exactly k of them will forget to bring their gift. A Ball number i will get his present if the following two constraints will hold: '
+b'  Ball number i will bring the present he should give.  Ball x such that px\xe2\x80\x89=\xe2\x80\x89i will bring his present. '
+b'What is minimum and maximum possible number of kids who will not get their present if exactly k Balls will forget theirs?'
+b'Input'
+b'The first line of input contains two integers n and k (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), representing the number of Balls and the number of Balls who will forget to bring their presents. '
+b'The second line contains the permutation p of integers from 1 to n, where pi is the index of Ball who should get a gift from the i-th Ball. For all i, pi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89i holds.'
+b'Output'
+b'You should output two values\xc2\xa0\xe2\x80\x94 minimum and maximum possible number of Balls who will not get their presents, in that order.'
+Tags
+bitmasks, dp, greedy, *2600

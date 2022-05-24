@@ -1,0 +1,16 @@
+b'You are given a sequence of nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b'You have to construct two sequences of integers bb and cc with length nn that satisfy:'
+b'  for every ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) bi+ci=aibi+ci=ai  bb is non-decreasing, which means that for every 1<i\xe2\x89\xa4n1<i\xe2\x89\xa4n, bi\xe2\x89\xa5bi\xe2\x88\x921bi\xe2\x89\xa5bi\xe2\x88\x921 must hold  cc is non-increasing, which means that for every 1<i\xe2\x89\xa4n1<i\xe2\x89\xa4n, ci\xe2\x89\xa4ci\xe2\x88\x921ci\xe2\x89\xa4ci\xe2\x88\x921 must hold '
+b'You have to minimize max(bi,ci)max(bi,ci). In other words, you have to minimize the maximum number in sequences bb and cc.'
+b'Also there will be qq changes, the ii-th change is described by three integers l,r,xl,r,x. You should add xx to al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar. '
+b'You have to find the minimum possible value of max(bi,ci)max(bi,ci) for the initial sequence and for sequence after each change.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The secound line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, \xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'The third line contains an integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105).'
+b'Each of the next qq lines contains three integers l,r,xl,r,x (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n,\xe2\x88\x92109\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n,\xe2\x88\x92109\xe2\x89\xa4x\xe2\x89\xa4109), desribing the next change. '
+b'Output'
+b'Print q+1q+1 lines.'
+b'On the ii-th (1\xe2\x89\xa4i\xe2\x89\xa4q+11\xe2\x89\xa4i\xe2\x89\xa4q+1) line, print the answer to the problem for the sequence after i\xe2\x88\x921i\xe2\x88\x921 changes.'
+Tags
+constructive algorithms, data structures, greedy, math, *2200

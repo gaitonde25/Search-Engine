@@ -1,0 +1,13 @@
+b"The difference between the versions is in the costs of operations. Solution for one version won't work for another!"
+b'Alice has a grid of size n\xc3\x97mn\xc3\x97m, initially all its cells are colored white. The cell on the intersection of ii-th row and jj-th column is denoted as (i,j)(i,j). Alice can do the following operations with this grid:'
+b'Choose any subrectangle containing cell (1,1)(1,1), and flip the colors of all its cells. (Flipping means changing its color from white to black or from black to white). This operation costs 11 coin.Choose any subrectangle containing cell (n,1)(n,1), and flip the colors of all its cells. This operation costs 22 coins.Choose any subrectangle containing cell (1,m)(1,m), and flip the colors of all its cells. This operation costs 44 coins.Choose any subrectangle containing cell (n,m)(n,m), and flip the colors of all its cells. This operation costs 33 coins.'
+b' '
+b'As a reminder, subrectangle is a set of all cells (x,y)(x,y) with x1\xe2\x89\xa4x\xe2\x89\xa4x2x1\xe2\x89\xa4x\xe2\x89\xa4x2, y1\xe2\x89\xa4y\xe2\x89\xa4y2y1\xe2\x89\xa4y\xe2\x89\xa4y2 for some 1\xe2\x89\xa4x1\xe2\x89\xa4x2\xe2\x89\xa4n1\xe2\x89\xa4x1\xe2\x89\xa4x2\xe2\x89\xa4n, 1\xe2\x89\xa4y1\xe2\x89\xa4y2\xe2\x89\xa4m1\xe2\x89\xa4y1\xe2\x89\xa4y2\xe2\x89\xa4m.'
+b"Alice wants to obtain her favorite coloring with these operations. What's the smallest number of coins that she would have to spend? It can be shown that it's always possible to transform the initial grid into any other."
+b'Input'
+b'The first line of the input contains 22 integers n,mn,m (1\xe2\x89\xa4n,m\xe2\x89\xa45001\xe2\x89\xa4n,m\xe2\x89\xa4500) \xe2\x80\x94 the dimensions of the grid.'
+b"The ii-th of the next nn lines contains a string sisi of length mm, consisting of letters W and B. The jj-th character of string sisi is W if the cell (i,j)(i,j) is colored white in the favorite coloring of Alice, and B if it's colored black."
+b'Output'
+b'Output the smallest number of coins Alice would have to spend to achieve her favorite coloring.'
+Tags
+constructive algorithms, greedy, *2600

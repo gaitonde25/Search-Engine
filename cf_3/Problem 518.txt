@@ -1,0 +1,10 @@
+b'You are given nn distinct points p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn on the plane and a positive integer RR. '
+b'Find the number of pairs of indices (i,j)(i,j) such that 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n, and for every possible kk (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n) the distance from the point pkpk to the segment between points pipi and pjpj is at most RR.'
+b'Input'
+b'The first line contains two integers nn, RR (1\xe2\x89\xa4n\xe2\x89\xa430001\xe2\x89\xa4n\xe2\x89\xa43000, 1\xe2\x89\xa4R\xe2\x89\xa41051\xe2\x89\xa4R\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of points and the maximum distance between a point and a segment.'
+b'Each of the next nn lines contains two integers xixi, yiyi (\xe2\x88\x92105\xe2\x89\xa4xi,yi\xe2\x89\xa4105\xe2\x88\x92105\xe2\x89\xa4xi,yi\xe2\x89\xa4105) that define the ii-th point pi=(xi,yi)pi=(xi,yi). All points are distinct.'
+b'It is guaranteed that the answer does not change if the parameter RR is changed by at most 10\xe2\x88\x92210\xe2\x88\x922.'
+b'Output'
+b'Print the number of suitable pairs (i,j)(i,j).'
+Tags
+geometry, *3200

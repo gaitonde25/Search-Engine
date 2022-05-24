@@ -1,0 +1,10 @@
+b'There is a square grid of size n\xc3\x97nn\xc3\x97n. Some cells are colored in black, all others are colored in white. In one operation you can select some rectangle and color all its cells in white. It costs min(h,w)min(h,w) to color a rectangle of size h\xc3\x97wh\xc3\x97w. You are to make all cells white for minimum total cost.'
+b'The square is large, so we give it to you in a compressed way. The set of black cells is the union of mm rectangles.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109, 0\xe2\x89\xa4m\xe2\x89\xa4500\xe2\x89\xa4m\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the size of the square grid and the number of black rectangles.'
+b'Each of the next mm lines contains 4 integers xi1xi1 yi1yi1 xi2xi2 yi2yi2 (1\xe2\x89\xa4xi1\xe2\x89\xa4xi2\xe2\x89\xa4n1\xe2\x89\xa4xi1\xe2\x89\xa4xi2\xe2\x89\xa4n, 1\xe2\x89\xa4yi1\xe2\x89\xa4yi2\xe2\x89\xa4n1\xe2\x89\xa4yi1\xe2\x89\xa4yi2\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the coordinates of the bottom-left and the top-right corner cells of the ii-th black rectangle.'
+b'The rectangles may intersect.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum total cost of painting the whole square in white.'
+Tags
+flows, graph matchings, graphs, *2500

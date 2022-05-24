@@ -1,0 +1,11 @@
+b'Slime and his nn friends are at a party. Slime has designed a game for his friends to play.'
+b'At the beginning of the game, the ii-th player has aiai biscuits. At each second, Slime will choose a biscuit randomly uniformly among all a1+a2+\xe2\x80\xa6+ana1+a2+\xe2\x80\xa6+an biscuits, and the owner of this biscuit will give it to a random uniform player among n\xe2\x88\x921n\xe2\x88\x921 players except himself. The game stops when one person will have all the biscuits.'
+b'As the host of the party, Slime wants to know the expected value of the time that the game will last, to hold the next activity on time.'
+b'For convenience, as the answer can be represented as a rational number pqpq for coprime pp and qq, you need to find the value of (p\xe2\x8b\x85q\xe2\x88\x921)mod998244353(p\xe2\x8b\x85q\xe2\x88\x921)mod998244353. You can prove that qmod998244353\xe2\x89\xa00qmod998244353\xe2\x89\xa00.'
+b'Input'
+b'The first line contains one integer n\xc2\xa0(2\xe2\x89\xa4n\xe2\x89\xa4100000)n\xc2\xa0(2\xe2\x89\xa4n\xe2\x89\xa4100000): the number of people playing the game.'
+b'The second line contains nn non-negative integers a1,a2,\xe2\x80\xa6,an\xc2\xa0(1\xe2\x89\xa4a1+a2+\xe2\x8b\xaf+an\xe2\x89\xa4300000)a1,a2,\xe2\x80\xa6,an\xc2\xa0(1\xe2\x89\xa4a1+a2+\xe2\x8b\xaf+an\xe2\x89\xa4300000), where aiai represents the number of biscuits the ii-th person own at the beginning.'
+b'Output'
+b'Print one integer: the expected value of the time that the game will last, modulo 998244353998244353.'
+Tags
+math, probabilities, *3200

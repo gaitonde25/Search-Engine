@@ -1,0 +1,16 @@
+b'Ayush, Ashish and Vivek are busy preparing a new problem for the next Codeforces round and need help checking if their test cases are valid.'
+b'Each test case consists of an integer nn and two arrays aa and bb, of size nn. If after some (possibly zero) operations described below, array aa can be transformed into array bb, the input is said to be valid. Otherwise, it is invalid.'
+b'An operation on array aa is: '
+b'  select an integer kk (1\xe2\x89\xa4k\xe2\x89\xa4\xe2\x8c\x8an2\xe2\x8c\x8b)(1\xe2\x89\xa4k\xe2\x89\xa4\xe2\x8c\x8an2\xe2\x8c\x8b)  swap the prefix of length kk with the suffix of length kk '
+b'For example, if array aa initially is {1,2,3,4,5,6}{1,2,3,4,5,6}, after performing an operation with k=2k=2, it is transformed into {5,6,3,4,1,2}{5,6,3,4,1,2}.'
+b'Given the set of test cases, help them determine if each one is valid or invalid.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4500)(1\xe2\x89\xa4t\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of each test case is as follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4500)(1\xe2\x89\xa4n\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the size of the arrays.'
+b'The second line of each test case contains nn integers a1a1, a2a2, ..., anan (1\xe2\x89\xa4ai\xe2\x89\xa4109)(1\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 elements of array aa.'
+b'The third line of each test case contains nn integers b1b1, b2b2, ..., bnbn (1\xe2\x89\xa4bi\xe2\x89\xa4109)(1\xe2\x89\xa4bi\xe2\x89\xa4109) \xe2\x80\x94 elements of array bb.'
+b'Output'
+b'For each test case, print "Yes" if the given input is valid. Otherwise print "No".'
+b'You may print the answer in any case.'
+Tags
+constructive algorithms, implementation, sortings, *2100

@@ -1,0 +1,13 @@
+b'Old timers of Summer Informatics School can remember previous camps in which each student was given a drink of his choice on the vechorka (late-evening meal). Or may be the story was more complicated?'
+b'There are nn students living in a building, and for each of them the favorite drink aiai is known. So you know nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, where aiai (1\xe2\x89\xa4ai\xe2\x89\xa4k1\xe2\x89\xa4ai\xe2\x89\xa4k) is the type of the favorite drink of the ii-th student. The drink types are numbered from 11 to kk.'
+b'There are infinite number of drink sets. Each set consists of exactly two portions of the same drink. In other words, there are kk types of drink sets, the jj-th type contains two portions of the drink jj. The available number of sets of each of the kk types is infinite.'
+b'You know that students will receive the minimum possible number of sets to give all students exactly one drink. Obviously, the number of sets will be exactly \xe2\x8c\x88n2\xe2\x8c\x89\xe2\x8c\x88n2\xe2\x8c\x89, where \xe2\x8c\x88x\xe2\x8c\x89\xe2\x8c\x88x\xe2\x8c\x89 is xx rounded up.'
+b"After students receive the sets, they will distribute their portions by their choice: each student will get exactly one portion. Note, that if nn is odd then one portion will remain unused and the students' teacher will drink it."
+b'What is the maximum number of students that can get their favorite drink if \xe2\x8c\x88n2\xe2\x8c\x89\xe2\x8c\x88n2\xe2\x8c\x89 sets will be chosen optimally and students will distribute portions between themselves optimally?'
+b'Input'
+b'The first line of the input contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa410001\xe2\x89\xa4n,k\xe2\x89\xa41000) \xe2\x80\x94 the number of students in the building and the number of different drinks.'
+b"The next nn lines contain student's favorite drinks. The ii-th line contains a single integer from 11 to kk \xe2\x80\x94 the type of the favorite drink of the ii-th student."
+b'Output'
+b'Print exactly one integer \xe2\x80\x94 the maximum number of students that can get a favorite drink.'
+Tags
+greedy, math, *1000

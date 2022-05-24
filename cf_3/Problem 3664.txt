@@ -1,0 +1,12 @@
+b"You are given two integers aa and bb. Moreover, you are given a sequence s0,s1,\xe2\x80\xa6,sns0,s1,\xe2\x80\xa6,sn. All values in ss are integers 11 or \xe2\x88\x921\xe2\x88\x921. It's known that sequence is kk-periodic and kk divides n+1n+1. In other words, for each k\xe2\x89\xa4i\xe2\x89\xa4nk\xe2\x89\xa4i\xe2\x89\xa4n it's satisfied that si=si\xe2\x88\x92ksi=si\xe2\x88\x92k."
+b'Find out the non-negative remainder of division of \xe2\x88\x91i=0nsian\xe2\x88\x92ibi\xe2\x88\x91i=0nsian\xe2\x88\x92ibi by 109+9109+9.'
+b'Note that the modulo is unusual!'
+b'Input'
+b'The first line contains four integers n,a,bn,a,b and kk (1\xe2\x89\xa4n\xe2\x89\xa4109,1\xe2\x89\xa4a,b\xe2\x89\xa4109,1\xe2\x89\xa4k\xe2\x89\xa4105)(1\xe2\x89\xa4n\xe2\x89\xa4109,1\xe2\x89\xa4a,b\xe2\x89\xa4109,1\xe2\x89\xa4k\xe2\x89\xa4105).'
+b"The second line contains a sequence of length kk consisting of characters '+' and '-'. "
+b"If the ii-th character (0-indexed) is '+', then si=1si=1, otherwise si=\xe2\x88\x921si=\xe2\x88\x921."
+b'Note that only the first kk members of the sequence are given, the rest can be obtained using the periodicity property.'
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 value of given expression modulo 109+9109+9.'
+Tags
+math, number theory, *1800

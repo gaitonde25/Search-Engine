@@ -1,0 +1,12 @@
+b"Gustaw is the chief bank manager in a huge bank. He has unlimited access to the database system of the bank, in a few clicks he can move any amount of money from the bank's reserves to his own private account. However, the bank uses some fancy AI fraud detection system that makes stealing more difficult."
+b'Gustaw knows that the anti-fraud system just detects any operation that exceeds some fixed limit MM euros and these operations are checked manually by a number of clerks. Thus, any fraud operation exceeding this limit is detected, while any smaller operation gets unnoticed.'
+b"Gustaw doesn't know the limit MM and wants to find it out. In one operation, he can choose some integer XX and try to move XX euros from the bank's reserves to his own account. Then, the following happens. "
+b"  If X\xe2\x89\xa4MX\xe2\x89\xa4M, the operation is unnoticed and Gustaw's account balance raises by XX euros.  Otherwise, if X>MX>M, the fraud is detected and cancelled. Moreover, Gustaw has to pay XX euros from his own account as a fine. If he has less than XX euros on the account, he is fired and taken to the police. "
+b'Initially Gustaw has 11 euro on his account. Help him find the exact value of MM in no more than 105105 operations without getting him fired.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000).'
+b'For each test case, there is no input prior to your first query, but you can be sure that MM is integer, and 0\xe2\x89\xa4M\xe2\x89\xa410140\xe2\x89\xa4M\xe2\x89\xa41014.'
+b'Output'
+b'For each test case, when you know the exact value of MM, print a single line with format "! MM". After that your program should proceed to the next test case or terminate, if it is the last one.'
+Tags
+binary search, interactive, *3200

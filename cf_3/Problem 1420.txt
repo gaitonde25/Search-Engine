@@ -1,0 +1,11 @@
+b'Arkady owns a non-decreasing array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. You are jealous of its beauty and want to destroy this property. You have a so-called XOR-gun that you can use one or more times.'
+b"In one step you can select two consecutive elements of the array, let's say xx and yy, remove them from the array and insert the integer x\xe2\x8a\x95yx\xe2\x8a\x95y on their place, where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation. Note that the length of the array decreases by one after the operation. You can't perform this operation when the length of the array reaches one."
+b'For example, if the array is [2,5,6,8][2,5,6,8], you can select 55 and 66 and replace them with 5\xe2\x8a\x956=35\xe2\x8a\x956=3. The array becomes [2,3,8][2,3,8].'
+b'You want the array no longer be non-decreasing. What is the minimum number of steps needed? If the array stays non-decreasing no matter what you do, print \xe2\x88\x921\xe2\x88\x921.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the initial length of the array.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the elements of the array. It is guaranteed that ai\xe2\x89\xa4ai+1ai\xe2\x89\xa4ai+1 for all 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum number of steps needed. If there is no solution, print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+bitmasks, brute force, constructive algorithms, *2000

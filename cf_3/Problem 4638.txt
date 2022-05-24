@@ -1,0 +1,19 @@
+b'This is an interactive problem. In the interaction section below you will see the information about flushing the output.'
+b'In this problem, you will be playing a game with Hongcow. How lucky of you!'
+b'Hongcow has a hidden n by n matrix M. Let Mi,\xe2\x80\x89j denote the entry i-th row and j-th column of the matrix. The rows and columns are labeled from 1 to n.'
+b'The matrix entries are between 0 and 109. In addition, Mi,\xe2\x80\x89i\xe2\x80\x89=\xe2\x80\x890 for all valid i. Your task is to find the minimum value along each row, excluding diagonal elements. Formally, for each i, you must find .'
+b'To do this, you can ask Hongcow some questions.'
+b'A question consists of giving Hongcow a subset of distinct indices {w1,\xe2\x80\x89w2,\xe2\x80\x89...,\xe2\x80\x89wk}, with 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n. Hongcow will respond with n integers. The i-th integer will contain the minimum value of min1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89kMi,\xe2\x80\x89wj.'
+b'You may only ask Hongcow at most 20 questions\xc2\xa0\xe2\x80\x94 he thinks you only need that many questions answered.'
+b'When you are ready to answer, print out a single integer \xe2\x80\x89-\xe2\x80\x891 on its own line, then n integers on the next line. The i-th integer should be the minimum value in the i-th row of the matrix, excluding the i-th element. Do not forget to flush the final answer as well. Printing the answer does not count as asking a question.'
+b'You will get Wrong Answer verdict if '
+b'  Your question or answers are not in the format described in this statement.  You ask strictly more than 20 questions.  Your question contains duplicate indices.  The value of k in your question does not lie in the range from 1 to n, inclusive.  Your final answer is not correct. '
+b' You will get '
+b'Idleness Limit Exceeded'
+b" if you don't print anything or if you forget to flush the output, including for the final answer (more info about flushing output below)."
+b'Input'
+b'The first line of input will contain a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891,\xe2\x80\x89000).'
+b'Output'
+b'To print the final answer, print out the string -1 on its own line. Then, the next line should contain n integers. The i-th integer should be the minimum value of the i-th row of the matrix, excluding elements on the diagonal. Do not forget to flush your answer!'
+Tags
+bitmasks, divide and conquer, interactive, *1900

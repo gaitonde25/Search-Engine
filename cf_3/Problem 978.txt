@@ -1,0 +1,13 @@
+b"In the house where Krosh used to live, he had nn cupboards standing in a line, the ii-th cupboard had the height of hihi. Krosh moved recently, but he wasn't able to move the cupboards with him. Now he wants to buy nn new cupboards so that they look as similar to old ones as possible."
+b"Krosh does not remember the exact heights of the cupboards, but for every three consecutive cupboards he remembers the height difference between the tallest and the shortest of them. In other words, if the cupboards' heights were h1,h2,\xe2\x80\xa6,hnh1,h2,\xe2\x80\xa6,hn, then Krosh remembers the values wi=max(hi,hi+1,hi+2)\xe2\x88\x92min(hi,hi+1,hi+2)wi=max(hi,hi+1,hi+2)\xe2\x88\x92min(hi,hi+1,hi+2) for all 1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9221\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x922."
+b"Krosh wants to buy such nn cupboards that all the values wiwi remain the same. Help him determine the required cupboards' heights, or determine that he remembers something incorrectly and there is no suitable sequence of heights."
+b'Input'
+b'The first line contains two integers nn and CC (3\xe2\x89\xa4n\xe2\x89\xa41063\xe2\x89\xa4n\xe2\x89\xa4106, 0\xe2\x89\xa4C\xe2\x89\xa410120\xe2\x89\xa4C\xe2\x89\xa41012)\xc2\xa0\xe2\x80\x94 the number of cupboards and the limit on possible wiwi.'
+b'The second line contains n\xe2\x88\x922n\xe2\x88\x922 integers w1,w2,\xe2\x80\xa6,wn\xe2\x88\x922w1,w2,\xe2\x80\xa6,wn\xe2\x88\x922 (0\xe2\x89\xa4wi\xe2\x89\xa4C0\xe2\x89\xa4wi\xe2\x89\xa4C)\xc2\xa0\xe2\x80\x94 the values defined in the statement.'
+b'Output'
+b'If there is no suitable sequence of nn cupboards, print "NO".'
+b'Otherwise print "YES" in the first line, then in the second line print nn integers h\xe2\x80\xb21,h\xe2\x80\xb22,\xe2\x80\xa6,h\xe2\x80\xb2nh1\xe2\x80\xb2,h2\xe2\x80\xb2,\xe2\x80\xa6,hn\xe2\x80\xb2 (0\xe2\x89\xa4h\xe2\x80\xb2i\xe2\x89\xa410180\xe2\x89\xa4hi\xe2\x80\xb2\xe2\x89\xa41018) \xe2\x80\x94 the heights of the cupboards to buy, from left to right.'
+b'We can show that if there is a solution, there is also a solution satisfying the constraints on heights.'
+b'If there are multiple answers, print any.'
+Tags
+dp, *3500

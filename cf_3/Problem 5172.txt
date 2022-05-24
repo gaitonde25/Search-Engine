@@ -1,0 +1,11 @@
+b'A flowerbed has many flowers and two fountains.'
+b"You can adjust the water pressure and set any values r1(r1\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x890) and r2(r2\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x890), giving the distances at which the water is spread from the first and second fountain respectively. You have to set such r1 and r2 that all the flowers are watered, that is, for each flower, the distance between the flower and the first fountain doesn't exceed r1, or the distance to the second fountain doesn't exceed r2. It's OK if some flowers are watered by both fountains."
+b'You need to decrease the amount of water you need, that is set such r1 and r2 that all the flowers are watered and the r12\xe2\x80\x89+\xe2\x80\x89r22 is minimum possible. Find this minimum value.'
+b'Input'
+b'The first line of the input contains integers n, x1, y1, x2, y2 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000, \xe2\x80\x89-\xe2\x80\x89107\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x1,\xe2\x80\x89y1,\xe2\x80\x89x2,\xe2\x80\x89y2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107)\xc2\xa0\xe2\x80\x94 the number of flowers, the coordinates of the first and the second fountain.'
+b'Next follow n lines. The i-th of these lines contains integers xi and yi (\xe2\x80\x89-\xe2\x80\x89107\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107)\xc2\xa0\xe2\x80\x94 the coordinates of the i-th flower.'
+b'It is guaranteed that all n\xe2\x80\x89+\xe2\x80\x892 points in the input are distinct.'
+b'Output'
+b'Print the minimum possible value r12\xe2\x80\x89+\xe2\x80\x89r22. Note, that in this problem optimal answer is always integer.'
+Tags
+implementation, *1600

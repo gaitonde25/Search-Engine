@@ -1,0 +1,10 @@
+b"Argus was charged with guarding Io, which is not an ordinary cow. Io is quite an explorer, and she wanders off rather frequently, making Argus' life stressful. So the cowherd decided to construct an enclosed pasture for Io."
+b'There are nn trees growing along the river, where Argus tends Io. For this problem, the river can be viewed as the OXOX axis of the Cartesian coordinate system, and the nn trees as points with the yy-coordinate equal 00. There is also another tree growing in the point (0,1)(0,1). '
+b"Argus will tie a rope around three of the trees, creating a triangular pasture. Its exact shape doesn't matter to Io, but its area is crucial to her. There may be many ways for Argus to arrange the fence, but only the ones which result in different areas of the pasture are interesting for Io. Calculate the number of different areas that her pasture may have. Note that the pasture must have nonzero area."
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow, each one is described in two lines.'
+b'In the first line of each test case there is a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450) denoting the number of trees growing along the river. Next line contains nn distinct integers x1<x2<\xe2\x80\xa6<xn\xe2\x88\x921<xnx1<x2<\xe2\x80\xa6<xn\xe2\x88\x921<xn (1\xe2\x89\xa4xi\xe2\x89\xa4501\xe2\x89\xa4xi\xe2\x89\xa450), the xx-coordinates of trees growing along the river.'
+b'Output'
+b'In a single line output an integer, the number of different nonzero areas that triangles with trees as vertices may have.'
+Tags
+brute force, geometry, math, *800

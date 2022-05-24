@@ -1,0 +1,11 @@
+b"At Moscow Workshops ICPC team gets a balloon for each problem they solved first. Team MSU Red Panda got so many balloons that they didn't know how to spend them. So they came up with a problem with them."
+b'There are several balloons, not more than 106106 in total, each one is colored in one of kk colors. We can perform the following operation: choose k\xe2\x88\x921k\xe2\x88\x921 balloons such that they are of k\xe2\x88\x921k\xe2\x88\x921 different colors, and recolor them all into remaining color. We can perform this operation any finite number of times (for example, we can only perform the operation if there are at least k\xe2\x88\x921k\xe2\x88\x921 different colors among current balls).'
+b'How many different balloon configurations can we get? Only number of balloons of each color matters, configurations differing only by the order of balloons are counted as equal. As this number can be very large, output it modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer kk (2\xe2\x89\xa4k\xe2\x89\xa41052\xe2\x89\xa4k\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94the number of colors.'
+b"The second line contains kk integers a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak (0\xe2\x89\xa4ai0\xe2\x89\xa4ai)\xc2\xa0\xe2\x80\x94initial configuration of balloons. aiai is number of balloons of color ii. The total number of balloons doesn't exceed 106106. In other words,"
+b'a1+a2+a3+\xe2\x80\xa6+ak\xe2\x89\xa4106a1+a2+a3+\xe2\x80\xa6+ak\xe2\x89\xa4106.'
+b'Output'
+b'Output number of possible configurations modulo 998244353998244353.'
+Tags
+combinatorics, *3300

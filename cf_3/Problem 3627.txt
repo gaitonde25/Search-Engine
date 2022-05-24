@@ -1,0 +1,15 @@
+b'Petya studies at university. The current academic year finishes with nn special days. Petya needs to pass mm exams in those special days. The special days in this problem are numbered from 11 to nn.'
+b'There are three values about each exam:'
+b'  sisi \xe2\x80\x94 the day, when questions for the ii-th exam will be published,  didi \xe2\x80\x94 the day of the ii-th exam (si<disi<di),  cici \xe2\x80\x94 number of days Petya needs to prepare for the ii-th exam. For the ii-th exam Petya should prepare in days between sisi and di\xe2\x88\x921di\xe2\x88\x921, inclusive. '
+b"There are three types of activities for Petya in each day: to spend a day doing nothing (taking a rest), to spend a day passing exactly one exam or to spend a day preparing for exactly one exam. So he can't pass/prepare for multiple exams in a day. He can't mix his activities in a day. If he is preparing for the ii-th exam in day jj, then si\xe2\x89\xa4j<disi\xe2\x89\xa4j<di."
+b'It is allowed to have breaks in a preparation to an exam and to alternate preparations for different exams in consecutive days. So preparation for an exam is not required to be done in consecutive days.'
+b'Find the schedule for Petya to prepare for all exams and pass them, or report that it is impossible.'
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4100,1\xe2\x89\xa4m\xe2\x89\xa4n)(2\xe2\x89\xa4n\xe2\x89\xa4100,1\xe2\x89\xa4m\xe2\x89\xa4n) \xe2\x80\x94 the number of days and the number of exams.'
+b'Each of the following mm lines contains three integers sisi, didi, cici (1\xe2\x89\xa4si<di\xe2\x89\xa4n,1\xe2\x89\xa4ci\xe2\x89\xa4n)(1\xe2\x89\xa4si<di\xe2\x89\xa4n,1\xe2\x89\xa4ci\xe2\x89\xa4n) \xe2\x80\x94 the day, when questions for the ii-th exam will be given, the day of the ii-th exam, number of days Petya needs to prepare for the ii-th exam. '
+b'Guaranteed, that all the exams will be in different days. Questions for different exams can be given in the same day. It is possible that, in the day of some exam, the questions for other exams are given.'
+b'Output'
+b'If Petya can not prepare and pass all the exams, print -1. In case of positive answer, print nn integers, where the jj-th number is:'
+b'  (m+1)(m+1), if the jj-th day is a day of some exam (recall that in each day no more than one exam is conducted),  zero, if in the jj-th day Petya will have a rest,  ii (1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m), if Petya will prepare for the ii-th exam in the day jj (the total number of days Petya prepares for each exam should be strictly equal to the number of days needed to prepare for it).Assume that the exams are numbered in order of appearing in the input, starting from 11.If there are multiple schedules, print any of them.'
+Tags
+greedy, implementation, sortings, *1700

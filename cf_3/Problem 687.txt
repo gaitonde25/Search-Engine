@@ -1,0 +1,13 @@
+b'You are given two strings ss and tt, both consisting of lowercase English letters. You are going to type the string ss character by character, from the first character to the last one.'
+b'When typing a character, instead of pressing the button corresponding to it, you can press the "Backspace" button. It deletes the last character you have typed among those that aren\'t deleted yet (or does nothing if there are no characters in the current string). For example, if ss is "abcbd" and you press Backspace instead of typing the first and the fourth characters, you will get the string "bd" (the first press of Backspace deletes no character, and the second press deletes the character \'c\'). Another example, if ss is "abcaa" and you press Backspace instead of the last two letters, then the resulting text is "a".'
+b'Your task is to determine whether you can obtain the string tt, if you type the string ss and press "Backspace" instead of typing several (maybe zero) characters of ss.'
+b'Input'
+b'The first line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa41051\xe2\x89\xa4|s|\xe2\x89\xa4105). Each character of ss is a lowercase English letter.'
+b'The second line of each test case contains the string tt (1\xe2\x89\xa4|t|\xe2\x89\xa41051\xe2\x89\xa4|t|\xe2\x89\xa4105). Each character of tt is a lowercase English letter.'
+b'It is guaranteed that the total number of characters in the strings over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print "YES" if you can obtain the string tt by typing the string ss and replacing some characters with presses of "Backspace" button, or "NO" if you cannot.'
+b'You may print each letter in any case (YES, yes, Yes will all be recognized as positive answer, NO, no and nO will all be recognized as negative answer).'
+Tags
+dp, greedy, strings, two pointers, *1500

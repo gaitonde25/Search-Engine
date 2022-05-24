@@ -1,0 +1,9 @@
+b"Let's call a number a binary decimal if it's a positive integer and all digits in its decimal notation are either 00 or 11. For example, 10101111010111 is a binary decimal, while 1020110201 and 787788787788 are not."
+b'Given a number nn, you are asked to represent nn as a sum of some (not necessarily distinct) binary decimals. Compute the smallest number of binary decimals required for that.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000), denoting the number of test cases.'
+b'The only line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109), denoting the number to be represented.'
+b'Output'
+b'For each test case, output the smallest number of binary decimals required to represent nn as a sum.'
+Tags
+greedy, math, *800

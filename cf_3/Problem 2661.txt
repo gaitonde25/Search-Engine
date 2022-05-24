@@ -1,0 +1,13 @@
+b'This is an interactive problem.'
+b"You're given a tree consisting of nn nodes, rooted at node 11. A tree is a connected graph with no cycles."
+b'We chose a hidden node xx. In order to find this node, you can ask queries of two types: '
+b'  d uu (1\xe2\x89\xa4u\xe2\x89\xa4n1\xe2\x89\xa4u\xe2\x89\xa4n). We will answer with the distance between nodes uu and xx. The distance between two nodes is the number of edges in the shortest path between them.  s uu (1\xe2\x89\xa4u\xe2\x89\xa4n1\xe2\x89\xa4u\xe2\x89\xa4n). We will answer with the second node on the path from uu to xx. However, there\'s a plot twist. If uu is not an ancestor of xx, you\'ll receive "Wrong answer" verdict! '
+b'Node aa is called an ancestor of node bb if a\xe2\x89\xa0ba\xe2\x89\xa0b and the shortest path from node 11 to node bb passes through node aa. Note that in this problem a node is not an ancestor of itself.'
+b'Can you find xx in no more than 3636 queries? The hidden node is fixed in each test beforehand and does not depend on your queries.'
+b'Input'
+b'The first line contains the integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of nodes in the tree.'
+b"Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two space-separated integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n) that mean there's an edge between nodes uu and vv. It's guaranteed that the given graph is a tree."
+b'Output'
+b'To print the answer, print "! x" (without quotes).'
+Tags
+constructive algorithms, divide and conquer, graphs, implementation, interactive, trees, *2400

@@ -1,0 +1,15 @@
+b'You are given a multiset SS initially consisting of nn distinct non-negative integers. A multiset is a set, that can contain some elements multiple times.'
+b'You will perform the following operation kk times: '
+b'  Add the element \xe2\x8c\x88a+b2\xe2\x8c\x89\xe2\x8c\x88a+b2\xe2\x8c\x89 (rounded up) into SS, where a=mex(S)a=mex\xe2\x81\xa1(S) and b=max(S)b=max(S). If this number is already in the set, it is added again. '
+b'Here maxmax of a multiset denotes the maximum integer in the multiset, and mexmex of a multiset denotes the smallest non-negative integer that is not present in the multiset. For example: '
+b'  mex({1,4,0,2})=3mex\xe2\x81\xa1({1,4,0,2})=3;   mex({2,5,1})=0mex\xe2\x81\xa1({2,5,1})=0. '
+b'Your task is to calculate the number of distinct elements in SS after kk operations will be done.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains two integers nn, kk (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 0\xe2\x89\xa4k\xe2\x89\xa41090\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the initial size of the multiset SS and how many operations you need to perform.'
+b'The second line of each test case contains nn distinct integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the numbers in the initial multiset.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print the number of distinct elements in SS after kk operations will be done.'
+Tags
+math, *1100

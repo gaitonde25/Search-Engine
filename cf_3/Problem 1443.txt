@@ -1,0 +1,11 @@
+b'You are given a positive integer kk and an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an of non-negative distinct integers not smaller than kk and not greater than 2c\xe2\x88\x9212c\xe2\x88\x921.'
+b'In each of the next kk seconds, one element is chosen randomly equiprobably out of all nn elements and decreased by 11.'
+b'For each integer xx, 0\xe2\x89\xa4x\xe2\x89\xa42c\xe2\x88\x9210\xe2\x89\xa4x\xe2\x89\xa42c\xe2\x88\x921, you need to find the probability that in the end the bitwise XOR of all elements of the array is equal to xx. '
+b'Each of these values can be represented as an irreducible fraction pqpq, and you need to find the value of p\xe2\x8b\x85q\xe2\x88\x921p\xe2\x8b\x85q\xe2\x88\x921 modulo 998244353998244353. '
+b'Input'
+b'The first line of input contains three integers n,k,cn,k,c (1\xe2\x89\xa4n\xe2\x89\xa4(2c\xe2\x88\x92k)1\xe2\x89\xa4n\xe2\x89\xa4(2c\xe2\x88\x92k), 1\xe2\x89\xa4k\xe2\x89\xa4161\xe2\x89\xa4k\xe2\x89\xa416, 1\xe2\x89\xa4c\xe2\x89\xa4161\xe2\x89\xa4c\xe2\x89\xa416).'
+b'The second line contains nn distinct integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (k\xe2\x89\xa4ai\xe2\x89\xa42c\xe2\x88\x921k\xe2\x89\xa4ai\xe2\x89\xa42c\xe2\x88\x921).'
+b'Output'
+b'Print 2c2c integers: the probability that the bitwise XOR is equal to xx in the end for xx in {0,1,\xe2\x80\xa6,2c\xe2\x88\x921}{0,1,\xe2\x80\xa6,2c\xe2\x88\x921} modulo 998244353998244353.'
+Tags
+dp, math, *3200

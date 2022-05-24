@@ -1,0 +1,14 @@
+b'Alice got an array of length nn as a birthday present once again! This is the third year in a row! '
+b'And what is more disappointing, it is overwhelmengly boring, filled entirely with zeros. Bob decided to apply some changes to the array to cheer up Alice.'
+b'Bob has chosen mm changes of the following form. For some integer numbers xx and dd, he chooses an arbitrary position ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and for every j\xe2\x88\x88[1,n]j\xe2\x88\x88[1,n] adds x+d\xe2\x8b\x85dist(i,j)x+d\xe2\x8b\x85dist(i,j) to the value of the jj-th cell. dist(i,j)dist(i,j) is the distance between positions ii and jj (i.e. dist(i,j)=|i\xe2\x88\x92j|dist(i,j)=|i\xe2\x88\x92j|, where |x||x| is an absolute value of xx).'
+b"For example, if Alice currently has an array [2,1,2,2][2,1,2,2] and Bob chooses position 33 for x=\xe2\x88\x921x=\xe2\x88\x921 and d=2d=2 then the array will become [2\xe2\x88\x921+2\xe2\x8b\x852,\xc2\xa01\xe2\x88\x921+2\xe2\x8b\x851,\xc2\xa02\xe2\x88\x921+2\xe2\x8b\x850,\xc2\xa02\xe2\x88\x921+2\xe2\x8b\x851][2\xe2\x88\x921+2\xe2\x8b\x852,\xc2\xa01\xe2\x88\x921+2\xe2\x8b\x851,\xc2\xa02\xe2\x88\x921+2\xe2\x8b\x850,\xc2\xa02\xe2\x88\x921+2\xe2\x8b\x851] = [5,2,1,3][5,2,1,3]. Note that Bob can't choose position ii outside of the array (that is, smaller than 11 or greater than nn)."
+b'Alice will be the happiest when the elements of the array are as big as possible. Bob claimed that the arithmetic mean value of the elements will work fine as a metric.'
+b'What is the maximum arithmetic mean value Bob can achieve?'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41051\xe2\x89\xa4n,m\xe2\x89\xa4105) \xe2\x80\x94 the number of elements of the array and the number of changes.'
+b'Each of the next mm lines contains two integers xixi and didi (\xe2\x88\x92103\xe2\x89\xa4xi,di\xe2\x89\xa4103\xe2\x88\x92103\xe2\x89\xa4xi,di\xe2\x89\xa4103) \xe2\x80\x94 the parameters for the ii-th change.'
+b'Output'
+b'Print the maximal average arithmetic mean of the elements Bob can achieve.'
+b"Your answer is considered correct if its absolute or relative error doesn't exceed 10\xe2\x88\x92610\xe2\x88\x926."
+Tags
+greedy, math, *1700

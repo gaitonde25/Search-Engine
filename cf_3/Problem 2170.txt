@@ -1,0 +1,7 @@
+b'This is an interactive problem.'
+b'You are the head coach of a chess club. The club has 2n2n players, each player has some strength which can be represented by a number, and all those numbers are distinct. The strengths of the players are not known to you.'
+b'You need to select nn players who would represent your club in the upcoming championship. Naturally, you want to select nn players with the highest strengths.'
+b'You can organize matches between the players to do that. In every match, you pick two players, they play some games, and you learn which one of the two has higher strength. You can wait for the outcome of a match before deciding who will participate in the next one.'
+b'However, you do not want to know exactly how those nn players compare between themselves, as that would make the championship itself less intriguing. More formally, you must reach a state where there is exactly one way to choose nn players with the highest strengths that is consistent with the outcomes of the matches you organized, but there must be at least two possible orderings of those nn players by strength that are consistent with the outcomes of the matches you organized.'
+Tags
+brute force, constructive algorithms, implementation, interactive, sortings, *2600

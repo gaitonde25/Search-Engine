@@ -1,0 +1,11 @@
+b'You are given a special connected undirected graph where each vertex belongs to at most one simple cycle.'
+b'Your task is to remove as many edges as needed to convert this graph into a tree (connected graph with no cycles). '
+b'For each node, independently, output the maximum distance between it and a leaf in the resulting tree, assuming you were to remove the edges in a way that minimizes this distance.'
+b'Input'
+b'The first line of input contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105), the number of nodes and the number of edges, respectively.'
+b'Each of the following mm lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v), and represents an edge connecting the two nodes uu and vv. Each pair of nodes is connected by at most one edge.'
+b'It is guaranteed that the given graph is connected and each vertex belongs to at most one simple cycle.'
+b'Output'
+b'Print nn space-separated integers, the ii-th integer represents the maximum distance between node ii and a leaf if the removed edges were chosen in a way that minimizes this distance.'
+Tags
+dp, graphs, trees, *2900

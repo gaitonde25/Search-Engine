@@ -1,0 +1,12 @@
+b"There are nn persons who initially don't know each other. On each morning, two of them, who were not friends before, become friends."
+b'We want to plan a trip for every evening of mm days. On each trip, you have to select a group of people that will go on the trip. For every person, one of the following should hold: '
+b'  Either this person does not go on the trip,  Or at least kk of his friends also go on the trip. '
+b'Note that the friendship is not transitive. That is, if aa and bb are friends and bb and cc are friends, it does not necessarily imply that aa and cc are friends.'
+b'For each day, find the maximum number of people that can go on the trip on that day.'
+b'Input'
+b'The first line contains three integers nn, mm, and kk (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4k<n1\xe2\x89\xa4k<n)\xc2\xa0\xe2\x80\x94 the number of people, the number of days and the number of friends each person on the trip should have in the group.'
+b'The ii-th (1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m) of the next mm lines contains two integers xx and yy (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n, x\xe2\x89\xa0yx\xe2\x89\xa0y), meaning that persons xx and yy become friends on the morning of day ii. It is guaranteed that xx and yy were not friends before.'
+b'Output'
+b'Print exactly mm lines, where the ii-th of them (1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m) contains the maximum number of people that can go on the trip on the evening of the day ii.'
+Tags
+graphs, *2200

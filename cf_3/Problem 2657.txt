@@ -1,0 +1,11 @@
+b'You are given an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and an integer kk.'
+b'You are asked to divide this array into kk non-empty consecutive subarrays. Every element in the array should be included in exactly one subarray. Let f(i)f(i) be the index of subarray the ii-th element belongs to. Subarrays are numbered from left to right and from 11 to kk.'
+b'Let the cost of division be equal to \xe2\x88\x91i=1n(ai\xe2\x8b\x85f(i))\xe2\x88\x91i=1n(ai\xe2\x8b\x85f(i)). For example, if a=[1,\xe2\x88\x922,\xe2\x88\x923,4,\xe2\x88\x925,6,\xe2\x88\x927]a=[1,\xe2\x88\x922,\xe2\x88\x923,4,\xe2\x88\x925,6,\xe2\x88\x927] and we divide it into 33 subbarays in the following way: [1,\xe2\x88\x922,\xe2\x88\x923],[4,\xe2\x88\x925],[6,\xe2\x88\x927][1,\xe2\x88\x922,\xe2\x88\x923],[4,\xe2\x88\x925],[6,\xe2\x88\x927], then the cost of division is equal to 1\xe2\x8b\x851\xe2\x88\x922\xe2\x8b\x851\xe2\x88\x923\xe2\x8b\x851+4\xe2\x8b\x852\xe2\x88\x925\xe2\x8b\x852+6\xe2\x8b\x853\xe2\x88\x927\xe2\x8b\x853=\xe2\x88\x9291\xe2\x8b\x851\xe2\x88\x922\xe2\x8b\x851\xe2\x88\x923\xe2\x8b\x851+4\xe2\x8b\x852\xe2\x88\x925\xe2\x8b\x852+6\xe2\x8b\x853\xe2\x88\x927\xe2\x8b\x853=\xe2\x88\x929.'
+b'Calculate the maximum cost you can obtain by dividing the array aa into kk non-empty consecutive subarrays. '
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (|ai|\xe2\x89\xa4106|ai|\xe2\x89\xa4106). '
+b'Output'
+b'Print the maximum cost you can obtain by dividing the array aa into kk nonempty consecutive subarrays. '
+Tags
+greedy, sortings, *1900

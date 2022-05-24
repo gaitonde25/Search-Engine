@@ -1,0 +1,13 @@
+b'You are given a connected undirected graph without cycles (that is, a tree) of nn vertices, moreover, there is a non-negative integer written on every edge.'
+b'Consider all pairs of vertices (v,u)(v,u) (that is, there are exactly n2n2 such pairs) and for each pair calculate the bitwise exclusive or (xor) of all integers on edges of the simple path between vv and uu. If the path consists of one vertex only, then xor of all integers on edges of this path is equal to 00.'
+b'Suppose we sorted the resulting n2n2 values in non-decreasing order. You need to find the kk-th of them.'
+b'The definition of xor is as follows.'
+b'Given two integers xx and yy, consider their binary representations (possibly with leading zeros): xk\xe2\x80\xa6x2x1x0xk\xe2\x80\xa6x2x1x0 and yk\xe2\x80\xa6y2y1y0yk\xe2\x80\xa6y2y1y0 (where kk is any number so that all bits of xx and yy can be represented). Here, xixi is the ii-th bit of the number xx and yiyi is the ii-th bit of the number yy. Let r=x\xe2\x8a\x95yr=x\xe2\x8a\x95y be the result of the xor operation of xx and yy. Then rr is defined as rk\xe2\x80\xa6r2r1r0rk\xe2\x80\xa6r2r1r0 where:'
+b'ri={1,\xc2\xa0if\xc2\xa0xi\xe2\x89\xa0yi0,\xc2\xa0if\xc2\xa0xi=yiri={1,\xc2\xa0if\xc2\xa0xi\xe2\x89\xa0yi0,\xc2\xa0if\xc2\xa0xi=yi'
+b'Input'
+b'The first line contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa41062\xe2\x89\xa4n\xe2\x89\xa4106, 1\xe2\x89\xa4k\xe2\x89\xa4n21\xe2\x89\xa4k\xe2\x89\xa4n2)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree and the number of path in the list with non-decreasing order.'
+b'Each of the following n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers pipi and wiwi (1\xe2\x89\xa4pi\xe2\x89\xa4i1\xe2\x89\xa4pi\xe2\x89\xa4i, 0\xe2\x89\xa4wi<2620\xe2\x89\xa4wi<262)\xc2\xa0\xe2\x80\x94 the ancestor of vertex i+1i+1 and the weight of the corresponding edge.'
+b'Output'
+b'Print one integer: kk-th smallest xor of a path in the tree.'
+Tags
+strings, trees, *2900

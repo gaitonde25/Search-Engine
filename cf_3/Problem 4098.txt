@@ -1,0 +1,9 @@
+b"Polycarp is in really serious trouble \xe2\x80\x94 his house is on fire! It's time to save the most valuable items. Polycarp estimated that it would take ti seconds to save i-th item. In addition, for each item, he estimated the value of di \xe2\x80\x94 the moment after which the item i will be completely burned and will no longer be valuable for him at all. In particular, if ti\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x89di, then i-th item cannot be saved."
+b'Given the values pi for each of the items, find a set of items that Polycarp can save such that the total value of this items is maximum possible. Polycarp saves the items one after another. For example, if he takes item a first, and then item b, then the item a will be saved in ta seconds, and the item b \xe2\x80\x94 in ta\xe2\x80\x89+\xe2\x80\x89tb seconds after fire started.'
+b'Input'
+b"The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of items in Polycarp's house."
+b'Each of the following n lines contains three integers ti,\xe2\x80\x89di,\xe2\x80\x89pi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8920, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8920) \xe2\x80\x94 the time needed to save the item i, the time after which the item i will burn completely and the value of item i.'
+b'Output'
+b'In the first line print the maximum possible total value of the set of saved items. In the second line print one integer m \xe2\x80\x94 the number of items in the desired set. In the third line print m distinct integers \xe2\x80\x94 numbers of the saved items in the order Polycarp saves them. Items are 1-indexed in the same order in which they appear in the input. If there are several answers, print any of them.'
+Tags
+dp, sortings, *2000

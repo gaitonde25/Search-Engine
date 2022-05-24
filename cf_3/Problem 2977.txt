@@ -1,0 +1,13 @@
+b'You are given two segments [l1;r1][l1;r1] and [l2;r2][l2;r2] on the xx-axis. It is guaranteed that l1<r1l1<r1 and l2<r2l2<r2. Segments may intersect, overlap or even coincide with each other.'
+b'  The example of two segments on the xx-axis. '
+b'Your problem is to find two integers aa and bb such that l1\xe2\x89\xa4a\xe2\x89\xa4r1l1\xe2\x89\xa4a\xe2\x89\xa4r1, l2\xe2\x89\xa4b\xe2\x89\xa4r2l2\xe2\x89\xa4b\xe2\x89\xa4r2 and a\xe2\x89\xa0ba\xe2\x89\xa0b. In other words, you have to choose two distinct integer points in such a way that the first point belongs to the segment [l1;r1][l1;r1] and the second one belongs to the segment [l2;r2][l2;r2].'
+b'It is guaranteed that the answer exists. If there are multiple answers, you can print any of them.'
+b'You have to answer qq independent queries.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa45001\xe2\x89\xa4q\xe2\x89\xa4500) \xe2\x80\x94 the number of queries.'
+b'Each of the next qq lines contains four integers l1i,r1i,l2il1i,r1i,l2i and r2ir2i (1\xe2\x89\xa4l1i,r1i,l2i,r2i\xe2\x89\xa4109,l1i<r1i,l2i<r2i1\xe2\x89\xa4l1i,r1i,l2i,r2i\xe2\x89\xa4109,l1i<r1i,l2i<r2i) \xe2\x80\x94 the ends of the segments in the ii-th query.'
+b'Output'
+b'Print 2q2q integers. For the ii-th query print two integers aiai and bibi \xe2\x80\x94 such numbers that l1i\xe2\x89\xa4ai\xe2\x89\xa4r1il1i\xe2\x89\xa4ai\xe2\x89\xa4r1i, l2i\xe2\x89\xa4bi\xe2\x89\xa4r2il2i\xe2\x89\xa4bi\xe2\x89\xa4r2i and ai\xe2\x89\xa0biai\xe2\x89\xa0bi. Queries are numbered in order of the input.'
+b'It is guaranteed that the answer exists. If there are multiple answers, you can print any.'
+Tags
+implementation, *800

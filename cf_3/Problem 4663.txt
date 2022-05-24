@@ -1,0 +1,10 @@
+b'Ostap already settled down in Rio de Janiero suburb and started to grow a tree in his garden. Recall that a tree is a connected undirected acyclic graph. '
+b"Ostap's tree now has n vertices. He wants to paint some vertices of the tree black such that from any vertex u there is at least one black vertex v at distance no more than k. Distance between two vertices of the tree is the minimum possible number of edges of the path between them."
+b'As this number of ways to paint the tree can be large, Ostap wants you to compute it modulo 109\xe2\x80\x89+\xe2\x80\x897. Two ways to paint the tree are considered different if there exists a vertex that is painted black in one way and is not painted in the other one.'
+b'Input'
+b"The first line of the input contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(20,\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891))\xc2\xa0\xe2\x80\x94 the number of vertices in Ostap's tree and the maximum allowed distance to the nearest black vertex. Don't miss the unusual constraint for k."
+b"Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contain two integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 indices of vertices, connected by the i-th edge. It's guaranteed that given graph is a tree."
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the remainder of division of the number of ways to paint the tree by 1\xe2\x80\x89000\xe2\x80\x89000\xe2\x80\x89007 (109\xe2\x80\x89+\xe2\x80\x897).'
+Tags
+dp, trees, *2500

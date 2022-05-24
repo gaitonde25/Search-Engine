@@ -1,0 +1,20 @@
+b'Polycarp often uses his smartphone. He has already installed nn applications on it. Application with number ii takes up aiai units of memory.'
+b'Polycarp wants to free at least mm units of memory (by removing some applications).'
+b'Of course, some applications are more important to Polycarp than others. He came up with the following scoring system\xc2\xa0\xe2\x80\x94 he assigned an integer bibi to each application: '
+b'  bi=1bi=1\xc2\xa0\xe2\x80\x94 regular application;  bi=2bi=2\xc2\xa0\xe2\x80\x94 important application. '
+b'According to this rating system, his phone has b1+b2+\xe2\x80\xa6+bnb1+b2+\xe2\x80\xa6+bn convenience points.'
+b'Polycarp believes that if he removes applications with numbers i1,i2,\xe2\x80\xa6,iki1,i2,\xe2\x80\xa6,ik, then he will free ai1+ai2+\xe2\x80\xa6+aikai1+ai2+\xe2\x80\xa6+aik units of memory and lose bi1+bi2+\xe2\x80\xa6+bikbi1+bi2+\xe2\x80\xa6+bik convenience points.'
+b'For example, if n=5n=5, m=7m=7, a=[5,3,2,1,4]a=[5,3,2,1,4], b=[2,1,1,2,1]b=[2,1,1,2,1], then Polycarp can uninstall the following application sets (not all options are listed below): '
+b'  applications with numbers 1,41,4 and 55. In this case, it will free a1+a4+a5=10a1+a4+a5=10 units of memory and lose b1+b4+b5=5b1+b4+b5=5 convenience points;  applications with numbers 11 and 33. In this case, it will free a1+a3=7a1+a3=7 units of memory and lose b1+b3=3b1+b3=3 convenience points.  applications with numbers 22 and 55. In this case, it will free a2+a5=7a2+a5=7 memory units and lose b2+b5=2b2+b5=2 convenience points. '
+b'Help Polycarp, choose a set of applications, such that if removing them will free at least mm units of memory and lose the minimum number of convenience points, or indicate that such a set does not exist.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b"The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4m\xe2\x89\xa41091\xe2\x89\xa4m\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of applications on Polycarp's phone and the number of memory units to be freed."
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of memory units used by applications.'
+b'The third line of each test case contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa421\xe2\x89\xa4bi\xe2\x89\xa42)\xc2\xa0\xe2\x80\x94 the convenience points of each application.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output on a separate line: '
+b'  -1, if there is no set of applications, removing which will free at least mm units of memory;  the minimum number of convenience points that Polycarp will lose if such a set exists. '
+Tags
+binary search, dp, sortings, two pointers, *1800

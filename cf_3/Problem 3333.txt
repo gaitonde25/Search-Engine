@@ -1,0 +1,11 @@
+b'Consider some positive integer xx. Its prime factorization will be of form x=2k1\xe2\x8b\x853k2\xe2\x8b\x855k3\xe2\x8b\x85\xe2\x80\xa6x=2k1\xe2\x8b\x853k2\xe2\x8b\x855k3\xe2\x8b\x85\xe2\x80\xa6'
+b"Let's call xx elegant if the greatest common divisor of the sequence k1,k2,\xe2\x80\xa6k1,k2,\xe2\x80\xa6 is equal to 11. For example, numbers 5=515=51, 12=22\xe2\x8b\x85312=22\xe2\x8b\x853, 72=23\xe2\x8b\x853272=23\xe2\x8b\x8532 are elegant and numbers 8=238=23 (GCD=3GCD=3), 2500=22\xe2\x8b\x85542500=22\xe2\x8b\x8554 (GCD=2GCD=2) are not."
+b'Count the number of elegant integers from 22 to nn.'
+b'Each testcase contains several values of nn, for each of them you are required to solve the problem separately.'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa41051\xe2\x89\xa4T\xe2\x89\xa4105) \xe2\x80\x94 the number of values of nn in the testcase.'
+b'Each of the next TT lines contains a single integer nini (2\xe2\x89\xa4ni\xe2\x89\xa410182\xe2\x89\xa4ni\xe2\x89\xa41018).'
+b'Output'
+b'Print TT lines \xe2\x80\x94 the ii-th line should contain the number of elegant numbers from 22 to nini.'
+Tags
+combinatorics, math, number theory, *2400

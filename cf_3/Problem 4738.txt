@@ -1,0 +1,14 @@
+b'You are given a set Y of n distinct positive integers y1,\xe2\x80\x89y2,\xe2\x80\x89...,\xe2\x80\x89yn.'
+b'Set X of n distinct positive integers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn is said to generate set Y if one can transform X to Y by applying some number of the following two operation to integers in X:'
+b'  Take any integer xi and multiply it by two, i.e. replace xi with 2\xc2\xb7xi.  Take any integer xi, multiply it by two and add one, i.e. replace xi with 2\xc2\xb7xi\xe2\x80\x89+\xe2\x80\x891. '
+b'Note that integers in X are not required to be distinct after each operation.'
+b'Two sets of distinct integers X and Y are equal if they are equal as sets. In other words, if we write elements of the sets in the array in the increasing order, these arrays would be equal.'
+b'Note, that any set of integers (or its permutation) generates itself.'
+b'You are given a set Y and have to find a set X that generates Y and the maximum element of X is mininum possible.'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of elements in Y.'
+b'The second line contains n integers y1,\xe2\x80\x89...,\xe2\x80\x89yn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), that are guaranteed to be distinct.'
+b'Output'
+b'Print n integers\xc2\xa0\xe2\x80\x94 set of distinct integers that generate Y and the maximum element of which is minimum possible. If there are several such sets, print any of them.'
+Tags
+binary search, data structures, dfs and similar, greedy, strings, trees, *1900

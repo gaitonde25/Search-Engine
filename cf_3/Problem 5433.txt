@@ -1,0 +1,13 @@
+b'Professor GukiZ was playing with arrays again and accidentally discovered new function, which he called GukiZiana. For given array a, indexed with integers from 1 to n, and number y, GukiZiana(a,\xe2\x80\x89y) represents maximum value of j\xe2\x80\x89-\xe2\x80\x89i, such that aj\xe2\x80\x89=\xe2\x80\x89ai\xe2\x80\x89=\xe2\x80\x89y. If there is no y as an element in a, then GukiZiana(a,\xe2\x80\x89y) is equal to \xe2\x80\x89-\xe2\x80\x891. GukiZ also prepared a problem for you. This time, you have two types of queries: '
+b'  First type has form 1 l r x and asks you to increase values of all ai such that l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r by the non-negative integer x.  Second type has form 2 y and asks you to find value of GukiZiana(a,\xe2\x80\x89y). '
+b'For each query of type 2, print the answer and make GukiZ happy!'
+b'Input'
+b'The first line contains two integers n, q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xe2\x80\x89*\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xe2\x80\x89*\xe2\x80\x89104), size of array a, and the number of queries. '
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89... an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), forming an array a. '
+b'Each of next q lines contain either four or two numbers, as described in statement:'
+b'If line starts with 1, then the query looks like 1 l r x (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), first type query.'
+b'If line starts with 2, then th query looks like 2 y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), second type query.'
+b'Output'
+b'For each query of type 2, print the value of GukiZiana(a,\xe2\x80\x89y), for y value for that query.'
+Tags
+binary search, data structures, implementation, *2500

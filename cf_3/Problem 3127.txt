@@ -1,0 +1,17 @@
+b'Graph constructive problems are back! This time the graph you are asked to build should match the following properties.'
+b'The graph is connected if and only if there exists a path between every pair of vertices.'
+b'The diameter (aka "longest shortest path") of a connected undirected graph is the maximum number of edges in the shortest path between any pair of its vertices.'
+b'The degree of a vertex is the number of edges incident to it.'
+b'Given a sequence of nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an construct a connected undirected graph of nn vertices such that:'
+b"  the graph contains no self-loops and no multiple edges;  the degree didi of the ii-th vertex doesn't exceed aiai (i.e. di\xe2\x89\xa4aidi\xe2\x89\xa4ai);  the diameter of the graph is maximum possible. "
+b'Output the resulting graph or report that no solution exists.'
+b'Input'
+b'The first line contains a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa45003\xe2\x89\xa4n\xe2\x89\xa4500) \xe2\x80\x94 the number of vertices in the graph.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4ai\xe2\x89\xa4n\xe2\x88\x921) \xe2\x80\x94 the upper limits to vertex degrees.'
+b'Output'
+b'Print "NO" if no graph can be constructed under the given conditions.'
+b'Otherwise print "YES" and the diameter of the resulting graph in the first line.'
+b'The second line should contain a single integer mm \xe2\x80\x94 the number of edges in the resulting graph.'
+b'The ii-th of the next mm lines should contain two integers vi,uivi,ui (1\xe2\x89\xa4vi,ui\xe2\x89\xa4n1\xe2\x89\xa4vi,ui\xe2\x89\xa4n, vi\xe2\x89\xa0uivi\xe2\x89\xa0ui) \xe2\x80\x94 the description of the ii-th edge. The graph should contain no multiple edges \xe2\x80\x94 for each pair (x,y)(x,y) you output, you should output no more pairs (x,y)(x,y) or (y,x)(y,x).'
+Tags
+constructive algorithms, graphs, implementation, *1800

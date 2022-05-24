@@ -1,0 +1,7 @@
+b'This is an interactive problem!'
+b"Ehab has a hidden permutation pp of length nn consisting of the elements from 00 to n\xe2\x88\x921n\xe2\x88\x921. You, for some reason, want to figure out the permutation. To do that, you can give Ehab 22 different indices ii and jj, and he'll reply with (pi|pj)(pi|pj) where || is the bitwise-or operation."
+b"Ehab has just enough free time to answer 42694269 questions, and while he's OK with answering that many questions, he's too lazy to play your silly games, so he'll fix the permutation beforehand and will not change it depending on your queries. Can you guess the permutation?"
+b'Input'
+b'The only line contains the integer nn (3\xe2\x89\xa4n\xe2\x89\xa42048)(3\xe2\x89\xa4n\xe2\x89\xa42048)\xc2\xa0\xe2\x80\x94 the length of the permutation.'
+Tags
+bitmasks, constructive algorithms, divide and conquer, interactive, probabilities, *2700

@@ -1,0 +1,15 @@
+b"Lee just became Master in Codeforces, and so, he went out to buy some gifts for his friends. He bought nn integers, now it's time to distribute them between his friends rationally..."
+b'Lee has nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an in his backpack and he has kk friends. Lee would like to distribute all integers in his backpack between his friends, such that the ii-th friend will get exactly wiwi integers and each integer will be handed over to exactly one friend.'
+b"Let's define the happiness of a friend as the sum of the maximum and the minimum integer he'll get."
+b"Lee would like to make his friends as happy as possible, in other words, he'd like to maximize the sum of friends' happiness. Now he asks you to calculate the maximum sum of friends' happiness."
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Next 3t3t lines contain test cases\xc2\xa0\xe2\x80\x94 one per three lines.'
+b"The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of integers Lee has and the number of Lee's friends."
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the integers Lee has.'
+b'The third line contains kk integers w1,w2,\xe2\x80\xa6,wkw1,w2,\xe2\x80\xa6,wk (1\xe2\x89\xa4wi\xe2\x89\xa4n1\xe2\x89\xa4wi\xe2\x89\xa4n; w1+w2+\xe2\x80\xa6+wk=nw1+w2+\xe2\x80\xa6+wk=n)\xc2\xa0\xe2\x80\x94 the number of integers Lee wants to give to each friend. '
+b"It's guaranteed that the sum of nn over test cases is less than or equal to 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print a single integer\xc2\xa0\xe2\x80\x94 the maximum sum of happiness Lee can achieve.'
+Tags
+greedy, math, sortings, two pointers, *1400

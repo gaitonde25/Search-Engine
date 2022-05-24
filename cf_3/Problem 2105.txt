@@ -1,0 +1,27 @@
+b'Your friend Kirchhoff is shocked with the current state of electronics design.'
+b'"Ohmygosh! Watt is wrong with the field? All these circuits are inefficient! There\'s so much capacity for improvement. The electrical engineers must not conduct their classes very well. It\'s absolutely revolting" he said.'
+b"The negativity just keeps flowing out of him, but even after complaining so many times he still hasn't lepton the chance to directly change anything."
+b'"These circuits have too much total resistance. Wire they designed this way? It\'s just causing a massive loss of resistors! Their entire field could conserve so much money if they just maximized the potential of their designs. Why can\'t they just try alternative ideas?"'
+b'The frequency of his protests about the electrical engineering department hertz your soul, so you have decided to take charge and help them yourself. You plan to create a program that will optimize the circuits while keeping the same circuit layout and maintaining the same effective resistance.'
+b'A circuit has two endpoints, and is associated with a certain constant, RR, called its effective resistance. '
+b"The circuits we'll consider will be formed from individual resistors joined together in series or in parallel, forming more complex circuits. The following image illustrates combining circuits in series or parallel. "
+b'  '
+b'According to your friend Kirchhoff, the effective resistance can be calculated quite easily when joining circuits this way:'
+b'  When joining kk circuits in series with effective resistances R1,R2,\xe2\x80\xa6,RkR1,R2,\xe2\x80\xa6,Rk, the effective resistance RR of the resulting circuit is the sum R=R1+R2+\xe2\x80\xa6+Rk.R=R1+R2+\xe2\x80\xa6+Rk.  When joining kk circuits in parallel with effective resistances R1,R2,\xe2\x80\xa6,RkR1,R2,\xe2\x80\xa6,Rk, the effective resistance RR of the resulting circuit is found by solving for RR in 1R=1R1+1R2+\xe2\x80\xa6+1Rk,1R=1R1+1R2+\xe2\x80\xa6+1Rk, assuming all Ri>0Ri>0; if at least one Ri=0Ri=0, then the effective resistance of the whole circuit is simply R=0R=0. '
+b'Circuits will be represented by strings. Individual resistors are represented by an asterisk, "*". For more complex circuits, suppose s1,s2,\xe2\x80\xa6,sks1,s2,\xe2\x80\xa6,sk represent k\xe2\x89\xa52k\xe2\x89\xa52 circuits. Then:'
+b'  "(s1s1 S s2s2 S \xe2\x80\xa6\xe2\x80\xa6 S sksk)" represents their series circuit;  "(s1s1 P s2s2 P \xe2\x80\xa6\xe2\x80\xa6 P sksk)" represents their parallel circuit. '
+b'For example, "(* P (* S *) P *)" represents the following circuit:'
+b'  '
+b'Given a circuit, your task is to assign the resistances of the individual resistors such that they satisfy the following requirements:'
+b'  Each individual resistor has a nonnegative integer resistance value;  The effective resistance of the whole circuit is rr;  The sum of the resistances of the individual resistors is minimized. '
+b'If there are nn individual resistors, then you need to output the list r1,r2,\xe2\x80\xa6,rnr1,r2,\xe2\x80\xa6,rn (0\xe2\x89\xa4ri0\xe2\x89\xa4ri, and riri is an integer), where riri is the resistance assigned to the ii-th individual resistor that appears in the input (from left to right). If it is impossible to accomplish the task, you must say so as well.'
+b'If it is possible, then it is guaranteed that the minimum sum of resistances is at most 10181018. '
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4320001\xe2\x89\xa4t\xe2\x89\xa432000), denoting the number of test cases. The next lines contain descriptions of the test cases.'
+b'Each test case consists of a single line containing the integer rr (1\xe2\x89\xa4r\xe2\x89\xa41061\xe2\x89\xa4r\xe2\x89\xa4106), space, and then the string representing the circuit. It is guaranteed that the string is valid and follows the description above. The number of individual resistors (symbols "*") is at least 11 and at most 8000080000.'
+b'It is guaranteed that the total number of individual resistors across all test cases is at most 320000320000.'
+b'Output'
+b'For each test case, print a single line:'
+b'  If it\'s possible to achieve an effective resistance of rr, print "REVOLTING" (without quotes) and then nn integers r1,r2,\xe2\x80\xa6,rnr1,r2,\xe2\x80\xa6,rn\xc2\xa0\xe2\x80\x94 the resistances assigned to the individual resistors. Here, nn denotes the number of the individual resistors in the circuit.  There may be multiple possible such assignments with a minimal sum of resistances of the individual resistors, you can output any of them;  If it\'s impossible, print the string: "LOSS" (without quotes). '
+Tags
+math, *2900

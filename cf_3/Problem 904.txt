@@ -1,0 +1,12 @@
+b"Phoenix has nn blocks of height h1,h2,\xe2\x80\xa6,hnh1,h2,\xe2\x80\xa6,hn, and all hihi don't exceed some value xx. He plans to stack all nn blocks into mm separate towers. The height of a tower is simply the sum of the heights of its blocks. For the towers to look beautiful, no two towers may have a height difference of strictly more than xx. "
+b'Please help Phoenix build mm towers that look beautiful. Each tower must have at least one block and all blocks must be used.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains three integers nn, mm, and xx (1\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa4105; 1\xe2\x89\xa4x\xe2\x89\xa41041\xe2\x89\xa4x\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of blocks, the number of towers to build, and the maximum acceptable height difference of any two towers, respectively. '
+b'The second line of each test case contains nn space-separated integers (1\xe2\x89\xa4hi\xe2\x89\xa4x1\xe2\x89\xa4hi\xe2\x89\xa4x)\xc2\xa0\xe2\x80\x94 the heights of the blocks. '
+b'It is guaranteed that the sum of nn over all the test cases will not exceed 105105.'
+b'Output'
+b'For each test case, if Phoenix cannot build mm towers that look beautiful, print NO. Otherwise, print YES, followed by nn integers y1,y2,\xe2\x80\xa6,yny1,y2,\xe2\x80\xa6,yn, where yiyi (1\xe2\x89\xa4yi\xe2\x89\xa4m1\xe2\x89\xa4yi\xe2\x89\xa4m) is the index of the tower that the ii-th block is placed in.'
+b'If there are multiple solutions, print any of them.'
+Tags
+constructive algorithms, data structures, greedy, *1400

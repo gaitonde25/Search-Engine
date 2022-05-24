@@ -1,0 +1,13 @@
+b'A string bb is a subsequence of a string aa if bb can be obtained from aa by deletion of several (possibly, zero or all) characters. For example, "xy" is a subsequence of "xzyw" and "xy", but not "yx".'
+b'You are given a string aa. Your task is to reorder the characters of aa so that "trygub" is not a subsequence of the resulting string.'
+b'In other words, you should find a string bb which is a permutation of symbols of the string aa and "trygub" is not a subsequence of bb.'
+b'We have a truly marvelous proof that any string can be arranged not to contain "trygub" as a subsequence, but this problem statement is too short to contain it.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42001\xe2\x89\xa4n\xe2\x89\xa4200) \xe2\x80\x94 the length of aa.'
+b'The next line contains the string aa of length nn, consisting of lowercase English letters.'
+b'Output'
+b'For each test case, output a string bb of length nn which is a permutation of characters of the string aa, and such that "trygub" is not a subsequence of it.'
+b'If there exist multiple possible strings bb, you can print any.'
+Tags
+constructive algorithms, sortings, *800

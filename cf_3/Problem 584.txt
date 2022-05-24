@@ -1,0 +1,11 @@
+b'A subarray of array aa from index ll to the index rr is the array [al,al+1,\xe2\x80\xa6,ar][al,al+1,\xe2\x80\xa6,ar]. The number of occurrences of the array bb in the array aa is the number of subarrays of aa such that they are equal to bb.'
+b"You are given nn arrays A1,A2,\xe2\x80\xa6,AnA1,A2,\xe2\x80\xa6,An; the elements of these arrays are integers from 11 to kk. You have to build an array aa consisting of mm integers from 11 to kk in such a way that, for every given subarray AiAi, the number of occurrences of AiAi in the array aa is not less than the number of occurrences of each non-empty subarray of AiAi in aa. Note that if AiAi doesn't occur in aa, and no subarray of AiAi occurs in aa, this condition is still met for AiAi."
+b'Your task is to calculate the number of different arrays aa you can build, and print it modulo 998244353998244353.'
+b'Input'
+b'The first line contains three integers nn, mm and kk (1\xe2\x89\xa4n,m,k\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n,m,k\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of the given arrays, the desired length of the array aa, and the upper bound on the values in the arrays.'
+b'Then nn lines follow. The ii-th line represents the array AiAi. The first integer in the ii-th line is cici (1\xe2\x89\xa4ci\xe2\x89\xa4m1\xe2\x89\xa4ci\xe2\x89\xa4m) \xe2\x80\x94 the number of elements in AiAi; then, cici integers from 11 to kk follow \xe2\x80\x94 the elements of the array AiAi.'
+b'Additional constraint on the input: \xe2\x88\x91i=1nci\xe2\x89\xa43\xe2\x8b\x85105\xe2\x88\x91i=1nci\xe2\x89\xa43\xe2\x8b\x85105; i.\xe2\x80\x89e., the number of elements in the given arrays in total does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of different arrays aa you can build, taken modulo 998244353998244353.'
+Tags
+combinatorics, dfs and similar, dp, dsu, fft, graphs, *2700

@@ -1,0 +1,21 @@
+b'So we got bored and decided to take our own guess at how would "Inception" production go if the budget for the film had been terribly low.'
+b'The first scene we remembered was the one that features the whole city bending onto itself:'
+b'  '
+b"It feels like it will require high CGI expenses, doesn't it? Luckily, we came up with a similar-looking scene which was a tiny bit cheaper to make."
+b"Firstly, forget about 3D, that's hard and expensive! The city is now represented as a number line (infinite to make it easier, of course)."
+b"Secondly, the city doesn't have to look natural at all. There are nn buildings on the line. Each building is a square 1\xc3\x9711\xc3\x971. Buildings are numbered from 11 to nn in ascending order of their positions. Lower corners of building ii are at integer points aiai and ai+1ai+1 of the number line. Also the distance between any two neighbouring buildings ii and i+1i+1 doesn't exceed dd (really, this condition is here just to make the city look not that sparse). Distance between some neighbouring buildings ii and i+1i+1 is calculated from the lower right corner of building ii to the lower left corner of building i+1i+1."
+b'Finally, curvature of the bend is also really hard to simulate! Let the bend at some integer coordinate xx be performed with the following algorithm. Take the ray from xx to +\xe2\x88\x9e+\xe2\x88\x9e and all the buildings which are on this ray and start turning the ray and the buildings counter-clockwise around point xx. At some angle some building will touch either another building or a part of the line. You have to stop bending there (implementing buildings crushing is also not worth its money). '
+b"Let's call the angle between two rays in the final state the terminal angle \xce\xb1x\xce\xb1x."
+b"The only thing left is to decide what integer point xx is the best to start bending around. Fortunately, we've already chosen mm candidates to perform the bending."
+b'So, can you please help us to calculate terminal angle \xce\xb1x\xce\xb1x for each bend xx from our list of candidates?'
+b'Input'
+b'The first line contains two integer numbers nn and dd (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 0\xe2\x89\xa4d\xe2\x89\xa470000\xe2\x89\xa4d\xe2\x89\xa47000) \xe2\x80\x94 the number of buildings and the maximum distance between any pair of neighbouring buildings, respectively.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (a1=0a1=0, 0<ai+1\xe2\x88\x92ai\xe2\x89\xa4d+10<ai+1\xe2\x88\x92ai\xe2\x89\xa4d+1) \xe2\x80\x94 coordinates of left corners of corresponding buildings in ascending order.'
+b'The third line contains single integer mm (1\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of candidates.'
+b'The fourth line contains mm integers x1,x2,\xe2\x80\xa6,xmx1,x2,\xe2\x80\xa6,xm (0\xe2\x89\xa4xi\xe2\x89\xa4an+10\xe2\x89\xa4xi\xe2\x89\xa4an+1, xi<xi+1xi<xi+1) \xe2\x80\x94 the coordinates of bends you need to calculate terminal angles for in ascending order.'
+b'Output'
+b'Print mm numbers. For each bend xixi print terminal angle \xce\xb1xi\xce\xb1xi (in radians).'
+b'Your answer is considered correct if its absolute error does not exceed 10\xe2\x88\x92910\xe2\x88\x929.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is accepted if and only if |a\xe2\x88\x92b|\xe2\x89\xa410\xe2\x88\x929|a\xe2\x88\x92b|\xe2\x89\xa410\xe2\x88\x929."
+Tags
+brute force, geometry, *3100

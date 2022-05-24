@@ -1,0 +1,10 @@
+b"After several latest reforms many tourists are planning to visit Berland, and Berland people understood that it's an opportunity to earn money and changed their jobs to attract tourists. Petya, for example, left the IT corporation he had been working for and started to sell souvenirs at the market."
+b'This morning, as usual, Petya will come to the market. Petya has n different souvenirs to sell; ith souvenir is characterised by its weight wi and cost ci. Petya knows that he might not be able to carry all the souvenirs to the market. So Petya wants to choose a subset of souvenirs such that its total weight is not greater than m, and total cost is maximum possible.'
+b'Help Petya to determine maximum possible total cost.'
+b'Input'
+b"The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300000) \xe2\x80\x94 the number of Petya's souvenirs and total weight that he can carry to the market."
+b'Then n lines follow. ith line contains two integers wi and ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the weight and the cost of ith souvenir.'
+b'Output'
+b'Print one number \xe2\x80\x94 maximum possible total cost of souvenirs that Petya can carry to the market.'
+Tags
+binary search, dp, greedy, ternary search, *2300

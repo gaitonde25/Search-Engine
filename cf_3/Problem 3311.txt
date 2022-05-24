@@ -1,0 +1,11 @@
+b"Long story short, shashlik is Miroslav's favorite food. Shashlik is prepared on several skewers simultaneously. There are two states for each skewer: initial and turned over."
+b'This time Miroslav laid out nn skewers parallel to each other, and enumerated them with consecutive integers from 11 to nn in order from left to right. For better cooking, he puts them quite close to each other, so when he turns skewer number ii, it leads to turning kk closest skewers from each side of the skewer ii, that is, skewers number i\xe2\x88\x92ki\xe2\x88\x92k, i\xe2\x88\x92k+1i\xe2\x88\x92k+1, ..., i\xe2\x88\x921i\xe2\x88\x921, i+1i+1, ..., i+k\xe2\x88\x921i+k\xe2\x88\x921, i+ki+k (if they exist). '
+b'For example, let n=6n=6 and k=1k=1. When Miroslav turns skewer number 33, then skewers with numbers 22, 33, and 44 will come up turned over. If after that he turns skewer number 11, then skewers number 11, 33, and 44 will be turned over, while skewer number 22 will be in the initial position (because it is turned again).'
+b'As we said before, the art of cooking requires perfect timing, so Miroslav wants to turn over all nn skewers with the minimal possible number of actions. For example, for the above example n=6n=6 and k=1k=1, two turnings are sufficient: he can turn over skewers number 22 and 55.'
+b'Help Miroslav turn over all nn skewers.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000, 0\xe2\x89\xa4k\xe2\x89\xa410000\xe2\x89\xa4k\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of skewers and the number of skewers from each side that are turned in one step.'
+b'Output'
+b'The first line should contain integer ll\xc2\xa0\xe2\x80\x94 the minimum number of actions needed by Miroslav to turn over all nn skewers. After than print ll integers from 11 to nn denoting the number of the skewer that is to be turned over at the corresponding step.'
+Tags
+dp, greedy, math, *1300

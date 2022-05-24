@@ -1,0 +1,10 @@
+b'You have a rectangular board of size n\xc3\x97mn\xc3\x97m (nn rows, mm columns). The nn rows are numbered from 11 to nn from top to bottom, and the mm columns are numbered from 11 to mm from left to right. '
+b'The cell at the intersection of row ii and column jj contains the number ijij (ii raised to the power of jj). For example, if n=3n=3 and m=3m=3 the board is as follows:'
+b'  '
+b'Find the number of distinct integers written on the board.'
+b'Input'
+b'The only line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41061\xe2\x89\xa4n,m\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of rows and columns of the board.'
+b'Output'
+b'Print one integer, the number of distinct integers on the board.'
+Tags
+brute force, dp, math, number theory, *2200

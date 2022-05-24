@@ -1,0 +1,9 @@
+b'Integers from 11 to nn (inclusive) were sorted lexicographically (considering integers as strings). As a result, array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an was obtained.'
+b'Calculate value of (\xe2\x88\x91ni=1((i\xe2\x88\x92ai)mod998244353))mod109+7(\xe2\x88\x91i=1n((i\xe2\x88\x92ai)mod998244353))mod109+7.'
+b"xmodyxmody here means the remainder after division xx by yy. This remainder is always non-negative and doesn't exceed y\xe2\x88\x921y\xe2\x88\x921. For example, 5mod3=25mod3=2, (\xe2\x88\x921)mod6=5(\xe2\x88\x921)mod6=5. "
+b'Input'
+b'The first line contains the single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410121\xe2\x89\xa4n\xe2\x89\xa41012).'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the required sum.'
+Tags
+binary search, dfs and similar, math, meet-in-the-middle, *3400

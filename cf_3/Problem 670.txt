@@ -1,0 +1,12 @@
+b'  '
+b'William has two numbers aa and bb initially both equal to zero. William mastered performing three different operations with them quickly. Before performing each operation some positive integer kk is picked, which is then used to perform one of the following operations: (note, that for each operation you can choose a new positive integer kk)'
+b'  add number kk to both aa and bb, or  add number kk to aa and subtract kk from bb, or  add number kk to bb and subtract kk from aa. '
+b'Note that after performing operations, numbers aa and bb may become negative as well.'
+b'William wants to find out the minimal number of operations he would have to perform to make aa equal to his favorite number cc and bb equal to his second favorite number dd.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Description of the test cases follows.'
+b"The only line of each test case contains two integers cc and dd (0\xe2\x89\xa4c,d\xe2\x89\xa4109)(0\xe2\x89\xa4c,d\xe2\x89\xa4109), which are William's favorite numbers and which he wants aa and bb to be transformed into."
+b'Output'
+b'For each test case output a single number, which is the minimal number of operations which William would have to perform to make aa equal to cc and bb equal to dd, or \xe2\x88\x921\xe2\x88\x921 if it is impossible to achieve this using the described operations.'
+Tags
+math, *800

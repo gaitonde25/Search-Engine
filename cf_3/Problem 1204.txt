@@ -1,0 +1,11 @@
+b'You are given a tree with nn vertices numbered 1,\xe2\x80\xa6,n1,\xe2\x80\xa6,n. A tree is a connected simple graph without cycles.'
+b'Let dist(u,v)dist(u,v) be the number of edges in the unique simple path connecting vertices uu and vv.'
+b'Let diam(l,r)=maxdist(u,v)diam(l,r)=maxdist(u,v) over all pairs u,vu,v such that l\xe2\x89\xa4u,v\xe2\x89\xa4rl\xe2\x89\xa4u,v\xe2\x89\xa4r.'
+b'Compute \xe2\x88\x911\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4ndiam(l,r)\xe2\x88\x911\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4ndiam(l,r).'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines describe the tree edges. Each of these lines contains two integers u,vu,v (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 endpoint indices of the respective tree edge. It is guaranteed that the edge list indeed describes a tree.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 \xe2\x88\x911\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4ndiam(l,r)\xe2\x88\x911\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4ndiam(l,r).'
+Tags
+data structures, trees, *3500

@@ -1,0 +1,10 @@
+b'You are given an array aa of length 2n2n. Consider a partition of array aa into two subsequences pp and qq of length nn each (each element of array aa should be in exactly one subsequence: either in pp or in qq).'
+b"Let's sort pp in non-decreasing order, and qq in non-increasing order, we can denote the sorted versions by xx and yy, respectively. Then the cost of a partition is defined as f(p,q)=\xe2\x88\x91ni=1|xi\xe2\x88\x92yi|f(p,q)=\xe2\x88\x91i=1n|xi\xe2\x88\x92yi|."
+b'Find the sum of f(p,q)f(p,q) over all correct partitions of array aa. Since the answer might be too big, print its remainder modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41500001\xe2\x89\xa4n\xe2\x89\xa4150000).'
+b'The second line contains 2n2n integers a1,a2,\xe2\x80\xa6,a2na1,a2,\xe2\x80\xa6,a2n (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 elements of array aa.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the answer to the problem, modulo 998244353998244353.'
+Tags
+combinatorics, math, sortings, *1900

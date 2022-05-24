@@ -1,0 +1,17 @@
+b'Note that this is the second problem of the two similar problems. You can hack this problem if you solve it. But you can hack the previous problem only if you solve both problems.'
+b'You are given a tree with nn nodes. In the beginning, 00 is written on all edges. In one operation, you can choose any 22 distinct leaves uu, vv and any integer number xx and add xx to values written on all edges on the simple path between uu and vv. Note that in previous subtask xx was allowed to be any real, here it has to be integer.'
+b'For example, on the picture below you can see the result of applying two operations to the graph: adding 22 on the path from 77 to 66, and then adding \xe2\x88\x921\xe2\x88\x921 on the path from 44 to 55. '
+b'  '
+b'You are given some configuration of nonnegative integer pairwise different even numbers, written on the edges. For a given configuration determine if it is possible to achieve it with these operations, and, if it is possible, output the sequence of operations that leads to the given configuration. Constraints on the operations are listed in the output format section.'
+b"Leave is a node of a tree of degree 11. Simple path is a path that doesn't contain any node twice."
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of nodes in a tree.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains three integers uu, vv, valval (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v, 0\xe2\x89\xa4val\xe2\x89\xa4100000\xe2\x89\xa4val\xe2\x89\xa410000), meaning that there is an edge between nodes uu and vv with valval written on it. It is guaranteed that these edges form a tree. It is guaranteed that all valval numbers are pairwise different and even. '
+b'Output'
+b'If there aren\'t any sequences of operations which lead to the given configuration, output "NO".'
+b'If it exists, output "YES" in the first line. In the second line output mm\xc2\xa0\xe2\x80\x94 number of operations you are going to apply (0\xe2\x89\xa4m\xe2\x89\xa41050\xe2\x89\xa4m\xe2\x89\xa4105). Note that you don\'t have to minimize the number of the operations!'
+b'In the next mm lines output the operations in the following format:'
+b'u,v,xu,v,x (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v, xx\xc2\xa0\xe2\x80\x94 integer, \xe2\x88\x92109\xe2\x89\xa4x\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4x\xe2\x89\xa4109), where u,vu,v\xc2\xa0\xe2\x80\x94 leaves, xx\xc2\xa0\xe2\x80\x94 number we are adding. '
+b'It is guaranteed that if there exists a sequence of operations producing given configuration, then there exists a sequence of operations producing given configuration, satisfying all the conditions above.'
+Tags
+constructive algorithms, dfs and similar, implementation, trees, *2500

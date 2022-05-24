@@ -1,0 +1,10 @@
+b"Giant chess is quite common in Geraldion. We will not delve into the rules of the game, we'll just say that the game takes place on an h\xe2\x80\x89\xc3\x97\xe2\x80\x89w field, and it is painted in two colors, but not like in chess. Almost all cells of the field are white and only some of them are black. Currently Gerald is finishing a game of giant chess against his friend Pollard. Gerald has almost won, and the only thing he needs to win is to bring the pawn from the upper left corner of the board, where it is now standing, to the lower right corner. Gerald is so confident of victory that he became interested, in how many ways can he win?"
+b'The pawn, which Gerald has got left can go in two ways: one cell down or one cell to the right. In addition, it can not go to the black cells, otherwise the Gerald still loses. There are no other pawns or pieces left on the field, so that, according to the rules of giant chess Gerald moves his pawn until the game is over, and Pollard is just watching this process.'
+b'Input'
+b'The first line of the input contains three integers: h,\xe2\x80\x89w,\xe2\x80\x89n \xe2\x80\x94 the sides of the board and the number of black cells (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89h,\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000). '
+b'Next n lines contain the description of black cells. The i-th of these lines contains numbers ri,\xe2\x80\x89ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89h,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w) \xe2\x80\x94 the number of the row and column of the i-th cell.'
+b'It is guaranteed that the upper left and lower right cell are white and all cells in the description are distinct.'
+b'Output'
+b"Print a single line \xe2\x80\x94 the remainder of the number of ways to move Gerald's pawn from the upper left to the lower right corner modulo 109\xe2\x80\x89+\xe2\x80\x897."
+Tags
+combinatorics, dp, math, number theory, *2200

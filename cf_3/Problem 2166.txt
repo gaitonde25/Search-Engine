@@ -1,0 +1,12 @@
+b'You are given an integer xx of nn digits a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, which make up its decimal notation in order from left to right.'
+b'Also, you are given a positive integer k<nk<n.'
+b"Let's call integer b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm beautiful if bi=bi+kbi=bi+k for each ii, such that 1\xe2\x89\xa4i\xe2\x89\xa4m\xe2\x88\x92k1\xe2\x89\xa4i\xe2\x89\xa4m\xe2\x88\x92k."
+b'You need to find the smallest beautiful integer yy, such that y\xe2\x89\xa5xy\xe2\x89\xa5x. '
+b'Input'
+b'The first line of input contains two integers n,kn,k (2\xe2\x89\xa4n\xe2\x89\xa4200000,1\xe2\x89\xa4k<n2\xe2\x89\xa4n\xe2\x89\xa4200000,1\xe2\x89\xa4k<n): the number of digits in xx and kk.'
+b'The next line of input contains nn digits a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (a1\xe2\x89\xa00a1\xe2\x89\xa00, 0\xe2\x89\xa4ai\xe2\x89\xa490\xe2\x89\xa4ai\xe2\x89\xa49): digits of xx.'
+b'Output'
+b'In the first line print one integer mm: the number of digits in yy.'
+b'In the next line print mm digits b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (b1\xe2\x89\xa00b1\xe2\x89\xa00, 0\xe2\x89\xa4bi\xe2\x89\xa490\xe2\x89\xa4bi\xe2\x89\xa49): digits of yy.'
+Tags
+constructive algorithms, greedy, implementation, strings, *1700

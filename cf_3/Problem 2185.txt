@@ -1,0 +1,14 @@
+b'Bob is playing with 66-sided dice. A net of such standard cube is shown below.'
+b''
+b'He has an unlimited supply of these dice and wants to build a tower by stacking multiple dice on top of each other, while choosing the orientation of each dice. Then he counts the number of visible pips on the faces of the dice.'
+b'For example, the number of visible pips on the tower below is 2929 \xe2\x80\x94 the number visible on the top is 11, from the south 55 and 33, from the west 44 and 22, from the north 22 and 44 and from the east 33 and 55.'
+b''
+b'The one at the bottom and the two sixes by which the dice are touching are not visible, so they are not counted towards total.'
+b"Bob also has tt favourite integers xixi, and for every such integer his goal is to build such a tower that the number of visible pips is exactly xixi. For each of Bob's favourite integers determine whether it is possible to build a tower that has exactly that many visible pips."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of favourite integers of Bob. '
+b"The second line contains tt space-separated integers xixi (1\xe2\x89\xa4xi\xe2\x89\xa410181\xe2\x89\xa4xi\xe2\x89\xa41018)\xc2\xa0\xe2\x80\x94 Bob's favourite integers."
+b'Output'
+b'For each of Bob\'s favourite integers, output "YES" if it is possible to build the tower, or "NO" otherwise (quotes for clarity).'
+Tags
+constructive algorithms, math, *1000

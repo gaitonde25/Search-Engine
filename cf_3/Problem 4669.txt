@@ -1,0 +1,15 @@
+b'Anton is growing a tree in his garden. In case you forgot, the tree is a connected acyclic undirected graph.'
+b"There are n vertices in the tree, each of them is painted black or white. Anton doesn't like multicolored trees, so he wants to change the tree such that all vertices have the same color (black or white)."
+b'To change the colors Anton can use only operations of one type. We denote it as paint(v), where v is some vertex of the tree. This operation changes the color of all vertices u such that all vertices on the shortest path from v to u have the same color (including v and u). For example, consider the tree'
+b'  '
+b'and apply operation paint(3) to get the following:'
+b'  '
+b'Anton is interested in the minimum number of operation he needs to perform in order to make the colors of all vertices equal.'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b"The second line contains n integers colori (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89colori\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891)\xc2\xa0\xe2\x80\x94 colors of the vertices. colori\xe2\x80\x89=\xe2\x80\x890 means that the i-th vertex is initially painted white, while colori\xe2\x80\x89=\xe2\x80\x891 means it's initially painted black."
+b"Then follow n\xe2\x80\x89-\xe2\x80\x891 line, each of them contains a pair of integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89ui\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89vi)\xc2\xa0\xe2\x80\x94 indices of vertices connected by the corresponding edge. It's guaranteed that all pairs (ui,\xe2\x80\x89vi) are distinct, i.e. there are no multiple edges."
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the minimum number of operations Anton has to apply in order to make all vertices of the tree black or all vertices of the tree white.'
+Tags
+dfs and similar, dp, trees, *2100

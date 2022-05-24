@@ -1,0 +1,14 @@
+b'You are given a weighted undirected graph on nn vertices along with qq triples (u,v,l)(u,v,l), where in each triple uu and vv are vertices and ll is a positive integer. An edge ee is called useful if there is at least one triple (u,v,l)(u,v,l) and a path (not necessarily simple) with the following properties:'
+b"  uu and vv are the endpoints of this path,  ee is one of the edges of this path,  the sum of weights of all edges on this path doesn't exceed ll. "
+b'Please print the number of useful edges in this graph.'
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa46002\xe2\x89\xa4n\xe2\x89\xa4600, 0\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)20\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)2). '
+b'Each of the following mm lines contains three integers uu, vv and ww (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v, 1\xe2\x89\xa4w\xe2\x89\xa41091\xe2\x89\xa4w\xe2\x89\xa4109), denoting an edge connecting vertices uu and vv and having a weight ww.'
+b'The following line contains the only integer qq (1\xe2\x89\xa4q\xe2\x89\xa4n(n\xe2\x88\x921)21\xe2\x89\xa4q\xe2\x89\xa4n(n\xe2\x88\x921)2) denoting the number of triples.'
+b'Each of the following qq lines contains three integers uu, vv and ll (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v, 1\xe2\x89\xa4l\xe2\x89\xa41091\xe2\x89\xa4l\xe2\x89\xa4109) denoting a triple (u,v,l)(u,v,l).'
+b"It's guaranteed that: "
+b"  the graph doesn't contain loops or multiple edges;  all pairs (u,v)(u,v) in the triples are also different. "
+b'Output'
+b'Print a single integer denoting the number of useful edges in the graph.'
+Tags
+graphs, shortest paths, *2400

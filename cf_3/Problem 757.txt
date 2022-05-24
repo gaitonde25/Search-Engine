@@ -1,0 +1,11 @@
+b'Farmer John has a farm that consists of nn pastures connected by one-directional roads. Each road has a weight, representing the time it takes to go from the start to the end of the road. The roads could have negative weight, where the cows go so fast that they go back in time! However, Farmer John guarantees that it is impossible for the cows to get stuck in a time loop, where they can infinitely go back in time by traveling across a sequence of roads. Also, each pair of pastures is connected by at most one road in each direction.'
+b'Unfortunately, Farmer John lost the map of the farm. All he remembers is an array dd, where didi is the smallest amount of time it took the cows to reach the ii-th pasture from pasture 11 using a sequence of roads. The cost of his farm is the sum of the weights of each of the roads, and Farmer John needs to know the minimal cost of a farm that is consistent with his memory.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt cases follow.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of pastures.'
+b'The second line of each test case contains nn space separated integers d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn (0\xe2\x89\xa4di\xe2\x89\xa41090\xe2\x89\xa4di\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the array dd. It is guaranteed that d1=0d1=0.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b"For each test case, output the minimum possible cost of a farm that is consistent with Farmer John's memory."
+Tags
+constructive algorithms, graphs, greedy, shortest paths, sortings, *1400

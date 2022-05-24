@@ -1,0 +1,11 @@
+b'A chip was placed on a field with coordinate system onto point (0,\xe2\x80\x890).'
+b"Every second the chip moves randomly. If the chip is currently at a point (x,\xe2\x80\x89y), after a second it moves to the point (x\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89y) with probability p1, to the point (x,\xe2\x80\x89y\xe2\x80\x89-\xe2\x80\x891) with probability p2, to the point (x\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89y) with probability p3 and to the point (x,\xe2\x80\x89y\xe2\x80\x89+\xe2\x80\x891) with probability p4. It's guaranteed that p1\xe2\x80\x89+\xe2\x80\x89p2\xe2\x80\x89+\xe2\x80\x89p3\xe2\x80\x89+\xe2\x80\x89p4\xe2\x80\x89=\xe2\x80\x891. The moves are independent."
+b'Find out the expected time after which chip will move away from origin at a distance greater than R (i.e.  will be satisfied).'
+b'Input'
+b'First line contains five integers R,\xe2\x80\x89a1,\xe2\x80\x89a2,\xe2\x80\x89a3 and a4 (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89R\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a1,\xe2\x80\x89a2,\xe2\x80\x89a3,\xe2\x80\x89a4\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000).'
+b'Probabilities pi can be calculated using formula .'
+b'Output'
+b'It can be shown that answer for this problem is always a rational number of form , where .'
+b'Print P\xc2\xb7Q\xe2\x80\x89-\xe2\x80\x891 modulo 109\xe2\x80\x89+\xe2\x80\x897. '
+Tags
+math, *3100

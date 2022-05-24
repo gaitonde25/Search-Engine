@@ -1,0 +1,12 @@
+b'Recently, Pari and Arya did some research about NP-Hard problems and they found the minimum vertex cover problem very interesting.'
+b'Suppose the graph G is given. Subset A of its vertices is called a vertex cover of this graph, if for each edge uv there is at least one endpoint of it in this set, i.e.  or  (or both).'
+b'Pari and Arya have won a great undirected graph as an award in a team contest. Now they have to split it in two parts, but both of them want their parts of the graph to be a vertex cover.'
+b"They have agreed to give you their graph and you need to find two disjoint subsets of its vertices A and B, such that both A and B are vertex cover or claim it's impossible. Each vertex should be given to no more than one of the friends (or you can even keep it for yourself)."
+b'Input'
+b'The first line of the input contains two integers n and m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of vertices and the number of edges in the prize graph, respectively.'
+b"Each of the next m lines contains a pair of integers ui and vi (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89ui,\xe2\x80\x89\xe2\x80\x89vi\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89n), denoting an undirected edge between ui and vi. It's guaranteed the graph won't contain any self-loops or multiple edges."
+b'Output'
+b'If it\'s impossible to split the graph between Pari and Arya as they expect, print "-1" (without quotes).'
+b'If there are two disjoint sets of vertices, such that both sets are vertex cover, print their descriptions. Each description must contain two lines. The first line contains a single integer k denoting the number of vertices in that vertex cover, and the second line contains k integers\xc2\xa0\xe2\x80\x94 the indices of vertices. Note that because of m\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x891, vertex cover cannot be empty.'
+Tags
+dfs and similar, graphs, *1500

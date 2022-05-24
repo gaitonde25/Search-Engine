@@ -1,0 +1,13 @@
+b'Recall that the sequence bb is a a subsequence of the sequence aa if bb can be derived from aa by removing zero or more elements without changing the order of the remaining elements. For example, if a=[1,2,1,3,1,2,1]a=[1,2,1,3,1,2,1], then possible subsequences are: [1,1,1,1][1,1,1,1], [3][3] and [1,2,1,3,1,2,1][1,2,1,3,1,2,1], but not [3,2,3][3,2,3] and [1,1,1,1,2][1,1,1,1,2].'
+b'You are given a sequence aa consisting of nn positive and negative elements (there is no zeros in the sequence).'
+b'Your task is to choose maximum by size (length) alternating subsequence of the given sequence (i.e. the sign of each next element is the opposite from the sign of the current element, like positive-negative-positive and so on or negative-positive-negative and so on). Among all such subsequences, you have to choose one which has the maximum sum of elements.'
+b'In other words, if the maximum length of alternating subsequence is kk then your task is to find the maximum sum of elements of some alternating subsequence of length kk.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements in aa. The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109,ai\xe2\x89\xa00\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109,ai\xe2\x89\xa00), where aiai is the ii-th element of aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 the maximum sum of the maximum by size (length) alternating subsequence of aa.'
+Tags
+dp, greedy, two pointers, *1200

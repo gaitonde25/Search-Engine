@@ -1,0 +1,12 @@
+b'You are given an array aa consisting of nn integers (it is guaranteed that nn is even, i.e. divisible by 22). All aiai does not exceed some integer kk.'
+b'Your task is to replace the minimum number of elements (replacement is the following operation: choose some index ii from 11 to nn and replace aiai with some integer in range [1;k][1;k]) to satisfy the following conditions:'
+b'  after all replacements, all aiai are positive integers not greater than kk;  for all ii from 11 to n2n2 the following equation is true: ai+an\xe2\x88\x92i+1=xai+an\xe2\x88\x92i+1=x, where xx should be the same for all n2n2 pairs of elements. '
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4k\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4k\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of aa and the maximum possible value of some aiai correspondingly. It is guratanteed that nn is even (i.e. divisible by 22). The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4k1\xe2\x89\xa4ai\xe2\x89\xa4k), where aiai is the ii-th element of aa.'
+b'It is guaranteed that the sum of nn (as well as the sum of kk) over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105, \xe2\x88\x91k\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91k\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 the minimum number of elements you have to replace in aa to satisfy the conditions from the problem statement.'
+Tags
+brute force, data structures, greedy, two pointers, *1700

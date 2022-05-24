@@ -1,0 +1,13 @@
+b'The Golden Ring is the special tourist route in Berland. This route consists of nn\xc2\xa0cities and the cyclic railway route. Cities are numbered from 11 to nn\xc2\xa0so that:'
+b'  the next city for 11 is the city 22,  the next city for 22 is the city 33,  ...  the next city for nn is the city 11. '
+b'Thus, the route is a cycle, cities are numbered in the direction of travel (the route is directed in one way).'
+b"Blogger Polycarp wants to start his journey in the city 11. For each city he knows the value aiai\xc2\xa0\xe2\x80\x94 how many selfies he wants to do in ii-th city. He can take no more than one selfie in one visit to each city. Since he is traveling by train, he can't skip the city (he always moves from the city ii to the city i+1i+1\xc2\xa0for 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n and from nn to 11). Thus, when the train stops in the city, Polycarp must visit this city. If Polycarp visits the city multiple times, all visits are counted separately."
+b'What is the least number of city visits Polycarp will have to complete to fulfill his plan for the number of selfies for each city? Note that he always visits the city 11, since it is this city that his journey begins in.'
+b'Input'
+b'The first line contains an integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of cities in the Golden Ring of Berland.'
+b'The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is equal to the required number of selfies in the ii-th city.'
+b'It is guaranteed that at least one of the numbers aiai is strictly greater than zero.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the required minimum number of visits.'
+Tags
+*special problem, implementation, *1500

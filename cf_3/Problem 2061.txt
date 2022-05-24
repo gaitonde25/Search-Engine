@@ -1,0 +1,13 @@
+b'You and your n\xe2\x88\x921n\xe2\x88\x921 friends have found an array of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. You have decided to share it in the following way: All nn of you stand in a line in a particular order. Each minute, the person at the front of the line chooses either the first or the last element of the array, removes it, and keeps it for himself. He then gets out of line, and the next person in line continues the process.'
+b'You are standing in the mm-th position in the line. Before the process starts, you may choose up to kk different people in the line, and persuade them to always take either the first or the last element in the array on their turn (for each person his own choice, not necessarily equal for all people), no matter what the elements themselves are. Once the process starts, you cannot persuade any more people, and you cannot change the choices for the people you already persuaded.'
+b"Suppose that you're doing your choices optimally. What is the greatest integer xx such that, no matter what are the choices of the friends you didn't choose to control, the element you will take from the array will be greater than or equal to xx?"
+b"Please note that the friends you don't control may do their choice arbitrarily, and they will not necessarily take the biggest element available."
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains three space-separated integers nn, mm and kk (1\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa435001\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa43500, 0\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9210\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x921) \xc2\xa0\xe2\x80\x94 the number of elements in the array, your position in line and the number of people whose choices you can fix.'
+b'The second line of each test case contains nn positive integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 elements of the array.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 35003500.'
+b'Output'
+b'For each test case, print the largest integer xx such that you can guarantee to obtain at least xx.'
+Tags
+brute force, data structures, implementation, *1600

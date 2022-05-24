@@ -1,0 +1,18 @@
+b'Black is gifted with a Divine array aa consisting of nn (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000) integers. Each position in aa has an initial value. After shouting a curse over the array, it becomes angry and starts an unstoppable transformation.'
+b'The transformation consists of infinite steps. Array aa changes at the ii-th step in the following way: for every position jj, ajaj becomes equal to the number of occurrences of ajaj in aa before starting this step.'
+b'Here is an example to help you understand the process better: '
+b' Initial array:22 11 11 44 33 11 22After the 11-st step:22 33 33 11 11 33 22After the 22-nd step:22 33 33 22 22 33 22After the 33-rd step:44 33 33 44 44 33 44...... '
+b'In the initial array, we had two 22-s, three 11-s, only one 44 and only one 33, so after the first step, each element became equal to the number of its occurrences in the initial array: all twos changed to 22, all ones changed to 33, four changed to 11 and three changed to 11.'
+b'The transformation steps continue forever.'
+b'You have to process qq queries: in each query, Black is curious to know the value of axax after the kk-th step of transformation.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000). Description of the test cases follows.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the size of the array aa.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the initial values of array aa.'
+b'The third line of each test case contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41000001\xe2\x89\xa4q\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Next qq lines contain the information about queries\xc2\xa0\xe2\x80\x94 one query per line. The ii-th line contains two integers xixi and kiki (1\xe2\x89\xa4xi\xe2\x89\xa4n1\xe2\x89\xa4xi\xe2\x89\xa4n; 0\xe2\x89\xa4ki\xe2\x89\xa41090\xe2\x89\xa4ki\xe2\x89\xa4109), meaning that Black is asking for the value of axiaxi after the kiki-th step of transformation. ki=0ki=0 means that Black is interested in values of the initial array.'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 20002000 and the sum of qq over all test cases doesn't exceed 100000100000."
+b'Output'
+b'For each test case, print qq answers. The ii-th of them should be the value of axiaxi after the kiki-th step of transformation. It can be shown that the answer to each query is unique.'
+Tags
+constructive algorithms, implementation, *1100

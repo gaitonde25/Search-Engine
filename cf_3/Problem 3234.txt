@@ -1,0 +1,10 @@
+b"Let's call the following process a transformation of a sequence of length nn."
+b'If the sequence is empty, the process ends. Otherwise, append the greatest common divisor (GCD) of all the elements of the sequence to the result and remove one arbitrary element from the sequence. Thus, when the process ends, we have a sequence of nn integers: the greatest common divisors of all the elements in the sequence before each deletion.'
+b'You are given an integer sequence 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n. Find the lexicographically maximum result of its transformation.'
+b'A sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an is lexicographically larger than a sequence b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn, if there is an index ii such that aj=bjaj=bj for all j<ij<i, and ai>biai>bi.'
+b'Input'
+b'The first and only line of input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106).'
+b'Output'
+b'Output nn integers \xc2\xa0\xe2\x80\x94 the lexicographically maximum result of the transformation.'
+Tags
+constructive algorithms, math, *1600

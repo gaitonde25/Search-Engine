@@ -1,0 +1,10 @@
+b'You are given a grid, consisting of 22 rows and nn columns. Each cell of this grid should be colored either black or white.'
+b'Two cells are considered neighbours if they have a common border and share the same color. Two cells AA and BB belong to the same component if they are neighbours, or if there is a neighbour of AA that belongs to the same component with BB.'
+b"Let's call some bicoloring beautiful if it has exactly kk components."
+b'Count the number of beautiful bicolorings. The number can be big enough, so print the answer modulo 998244353998244353.'
+b'Input'
+b'The only line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000, 1\xe2\x89\xa4k\xe2\x89\xa42n1\xe2\x89\xa4k\xe2\x89\xa42n) \xe2\x80\x94 the number of columns in a grid and the number of components required.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the number of beautiful bicolorings modulo 998244353998244353.'
+Tags
+bitmasks, dp, *1700

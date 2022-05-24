@@ -1,0 +1,11 @@
+b'Consider a square grid with hh rows and ww columns with some dominoes on it. Each domino covers exactly two cells of the grid that share a common side. Every cell is covered by at most one domino.'
+b"Let's call a placement of dominoes on the grid perfectly balanced if no row and no column contains a pair of cells covered by two different dominoes. In other words, every row and column may contain no covered cells, one covered cell, or two covered cells that belong to the same domino."
+b'You are given a perfectly balanced placement of dominoes on a grid. Find the number of ways to place zero or more extra dominoes on this grid to keep the placement perfectly balanced. Output this number modulo 998244353998244353.'
+b'Input'
+b'The first line contains three integers hh, ww, and nn (1\xe2\x89\xa4h,w\xe2\x89\xa436001\xe2\x89\xa4h,w\xe2\x89\xa43600; 0\xe2\x89\xa4n\xe2\x89\xa424000\xe2\x89\xa4n\xe2\x89\xa42400), denoting the dimensions of the grid and the number of already placed dominoes. The rows are numbered from 11 to hh, and the columns are numbered from 11 to ww.'
+b'Each of the next nn lines contains four integers ri,1,ci,1,ri,2,ci,2ri,1,ci,1,ri,2,ci,2 (1\xe2\x89\xa4ri,1\xe2\x89\xa4ri,2\xe2\x89\xa4h1\xe2\x89\xa4ri,1\xe2\x89\xa4ri,2\xe2\x89\xa4h; 1\xe2\x89\xa4ci,1\xe2\x89\xa4ci,2\xe2\x89\xa4w1\xe2\x89\xa4ci,1\xe2\x89\xa4ci,2\xe2\x89\xa4w), denoting the row id and the column id of the cells covered by the ii-th domino. Cells (ri,1,ci,1)(ri,1,ci,1) and (ri,2,ci,2)(ri,2,ci,2) are distinct and share a common side.'
+b'The given domino placement is perfectly balanced.'
+b'Output'
+b'Output the number of ways to place zero or more extra dominoes on the grid to keep the placement perfectly balanced, modulo 998244353998244353.'
+Tags
+combinatorics, dp, *2600

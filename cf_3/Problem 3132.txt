@@ -1,0 +1,10 @@
+b'Chouti thought about his very first days in competitive programming. When he had just learned to write merge sort, he thought that the merge sort is too slow, so he restricted the maximum depth of recursion and modified the merge sort to the following:'
+b'  '
+b'Chouti found his idea dumb since obviously, this "merge sort" sometimes cannot sort the array correctly. However, Chouti is now starting to think of how good this "merge sort" is. Particularly, Chouti wants to know for a random permutation aa of 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n the expected number of inversions after calling MergeSort(a, 1, n, k).'
+b'It can be proved that the expected number is rational. For the given prime qq, suppose the answer can be denoted by udud where gcd(u,d)=1gcd(u,d)=1, you need to output an integer rr satisfying 0\xe2\x89\xa4r<q0\xe2\x89\xa4r<q and rd\xe2\x89\xa1u(modq)rd\xe2\x89\xa1u(modq). It can be proved that such rr exists and is unique.'
+b'Input'
+b'The first and only line contains three integers n,k,qn,k,q (1\xe2\x89\xa4n,k\xe2\x89\xa4105,108\xe2\x89\xa4q\xe2\x89\xa41091\xe2\x89\xa4n,k\xe2\x89\xa4105,108\xe2\x89\xa4q\xe2\x89\xa4109, qq is a prime).'
+b'Output'
+b'The first and only line contains an integer rr.'
+Tags
+math, probabilities, *3200

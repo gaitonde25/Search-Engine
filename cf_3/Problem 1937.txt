@@ -1,0 +1,11 @@
+b'You are given a sequence b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn. Find the lexicographically minimal permutation a1,a2,\xe2\x80\xa6,a2na1,a2,\xe2\x80\xa6,a2n such that bi=min(a2i\xe2\x88\x921,a2i)bi=min(a2i\xe2\x88\x921,a2i), or determine that it is impossible.'
+b'Input'
+b'Each test contains one or more test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100).'
+b'The first line of each test case consists of one integer nn\xc2\xa0\xe2\x80\x94 the number of elements in the sequence bb (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100).'
+b'The second line of each test case consists of nn different integers b1,\xe2\x80\xa6,bnb1,\xe2\x80\xa6,bn\xc2\xa0\xe2\x80\x94 elements of the sequence bb (1\xe2\x89\xa4bi\xe2\x89\xa42n1\xe2\x89\xa4bi\xe2\x89\xa42n).'
+b"It is guaranteed that the sum of nn by all test cases doesn't exceed 100100."
+b'Output'
+b'For each test case, if there is no appropriate permutation, print one number \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print 2n2n integers a1,\xe2\x80\xa6,a2na1,\xe2\x80\xa6,a2n\xc2\xa0\xe2\x80\x94 required lexicographically minimal permutation of numbers from 11 to 2n2n.'
+Tags
+greedy, *1200

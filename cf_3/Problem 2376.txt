@@ -1,0 +1,12 @@
+b'Petya recently found a game "Choose a Square". In this game, there are nn points numbered from 11 to nn on an infinite field. The ii-th point has coordinates (xi,yi)(xi,yi) and cost cici.'
+b'You have to choose a square such that its sides are parallel to coordinate axes, the lower left and upper right corners belong to the line y=xy=x, and all corners have integer coordinates.'
+b'The score you get is the sum of costs of the points covered by the selected square minus the length of the side of the square. Note that the length of the side can be zero.'
+b'Petya asks you to calculate the maximum possible score in the game that can be achieved by placing exactly one square.'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the number of points on the field.'
+b'Each of the following nn lines contains three integers xi,yi,cixi,yi,ci (0\xe2\x89\xa4xi,yi\xe2\x89\xa4109,\xe2\x88\x92106\xe2\x89\xa4ci\xe2\x89\xa41060\xe2\x89\xa4xi,yi\xe2\x89\xa4109,\xe2\x88\x92106\xe2\x89\xa4ci\xe2\x89\xa4106) \xe2\x80\x94 coordinates of the ii-th point and its cost, respectively.'
+b'Output'
+b'In the first line print the maximum score Petya can achieve.'
+b'In the second line print four integers x1,y1,x2,y2x1,y1,x2,y2 (0\xe2\x89\xa4x1,y1,x2,y2\xe2\x89\xa42\xe2\x8b\x85109,x1=y1,x2=y2,x1\xe2\x89\xa4x20\xe2\x89\xa4x1,y1,x2,y2\xe2\x89\xa42\xe2\x8b\x85109,x1=y1,x2=y2,x1\xe2\x89\xa4x2) separated by spaces \xe2\x80\x94 the coordinates of the lower left and upper right corners of the square which Petya has to select in order to achieve the maximum score.'
+Tags
+binary search, data structures, sortings, *2400

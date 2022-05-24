@@ -1,0 +1,7 @@
+b'This is an interactive problem'
+b'Ginny is taking an exam on game theory. The professor is tired of hearing the same answers over and over again, so he offered Ginny to play a game instead of a standard exam. '
+b"As known from the course, a combinatorial game on a graph with multiple starting positions is a game with a directed graph and multiple starting vertices holding a token each. Two players take turns moving one of the tokens along the graph edges on each turn. The player who can't make a move loses the game. If both players can play an infinitely long game without losing, a draw is called."
+b'For the exam, the professor drew an acyclic directed graph and chose one of its vertices. Ginny needs to guess the vertex the professor chose. To do so, Ginny can choose a multiset of vertices SS several times and ask the professor: "If I put one token in each vertex of the given graph for each occurrence of the vertex in the multiset SS, and then one more in the selected vertex, what would be the result of the combinatorial game?". '
+b"Having given the task, the professor left the room to give Ginny some time to prepare for the game. Ginny thinks that she's being tricked because the problem is impossible to solve. Therefore, while the professor is away, she wants to add or remove several edges from the graph. Even though the original graph was acyclic, edges could be added to the graph to make cycles appear."
+Tags
+games, interactive, *3400

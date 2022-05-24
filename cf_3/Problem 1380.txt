@@ -1,0 +1,11 @@
+b'Some time ago Lesha found an entertaining string ss consisting of lowercase English letters. Lesha immediately developed an unique algorithm for this string and shared it with you. The algorithm is as follows.'
+b'Lesha chooses an arbitrary (possibly zero) number of pairs on positions (i,i+1)(i,i+1) in such a way that the following conditions are satisfied: '
+b'  for each pair (i,i+1)(i,i+1) the inequality 0\xe2\x89\xa4i<|s|\xe2\x88\x9210\xe2\x89\xa4i<|s|\xe2\x88\x921 holds;  for each pair (i,i+1)(i,i+1) the equality si=si+1si=si+1 holds;  there is no index that is contained in more than one pair. '
+b' After that Lesha removes all characters on indexes contained in these pairs and the algorithm is over. '
+b'Lesha is interested in the lexicographically smallest strings he can obtain by applying the algorithm to the suffixes of the given string.'
+b'Input'
+b'The only line contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa41051\xe2\x89\xa4|s|\xe2\x89\xa4105) \xe2\x80\x94 the initial string consisting of lowercase English letters only.'
+b'Output'
+b'In |s||s| lines print the lengths of the answers and the answers themselves, starting with the answer for the longest suffix. The output can be large, so, when some answer is longer than 1010 characters, instead print the first 55 characters, then "...", then the last 22 characters of the answer.'
+Tags
+dp, greedy, implementation, strings, *2700

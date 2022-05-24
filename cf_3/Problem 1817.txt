@@ -1,0 +1,19 @@
+b" Nastya is a competitive programmer, but she is only studying now. Recently, Denis told her about the way to check if the string is correct bracket sequence. After that, unexpectedly, Nastya came up with a much more complex problem that Denis couldn't solve. Can you solve it? "
+b'A string ss is given. It consists of kk kinds of pairs of brackets. Each bracket has the form tt \xc2\xa0\xe2\x80\x94 it is an integer, such that 1\xe2\x89\xa4|t|\xe2\x89\xa4k1\xe2\x89\xa4|t|\xe2\x89\xa4k. If the bracket has a form tt, then: '
+b"  If t>0t>0, then it's an opening bracket of the type tt.  If t<0t<0, then it's a closing bracket of the type \xe2\x88\x92t\xe2\x88\x92t. "
+b'Thus, there are kk types of pairs of brackets in total. '
+b'The queries need to be answered: '
+b'  Replace the bracket at position ii with the bracket of the form tt.  Check if the substring from the ll-th to rr-th position (including) is the correct bracket sequence. '
+b' Recall the definition of the correct bracket sequence: '
+b'  An empty sequence is correct.   If AA and BB are two correct bracket sequences, then their concatenation "AA BB" is also correct bracket sequence.   If AA is the correct bracket sequence, cc (1\xe2\x89\xa4c\xe2\x89\xa4k)(1\xe2\x89\xa4c\xe2\x89\xa4k) is a type of brackets, then the sequence "cc AA \xe2\x88\x92c\xe2\x88\x92c" is also correct bracket sequence. '
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa4105)(1\xe2\x89\xa4n\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 length of string and kk (1\xe2\x89\xa4k\xe2\x89\xa4n)(1\xe2\x89\xa4k\xe2\x89\xa4n) \xc2\xa0\xe2\x80\x94 the number of kinds of pairs of brackets.'
+b'The second line contains string ss of length nn \xc2\xa0\xe2\x80\x94 nn integers s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (1\xe2\x89\xa4|si|\xe2\x89\xa4k)(1\xe2\x89\xa4|si|\xe2\x89\xa4k)'
+b'The third line contains single integer qq (1\xe2\x89\xa4q\xe2\x89\xa4105)(1\xe2\x89\xa4q\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Each of the following qq lines describes the queries: '
+b'  11 ii tt - query of the 11 type (1\xe2\x89\xa4i\xe2\x89\xa4n,1\xe2\x89\xa4|t|\xe2\x89\xa4k)(1\xe2\x89\xa4i\xe2\x89\xa4n,1\xe2\x89\xa4|t|\xe2\x89\xa4k).  22 ll rr - query of the 22 type (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n)(1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n). '
+b'Output'
+b'For each query of 22 type, output "Yes" if the substring from the query is the correct bracket sequence and "No", otherwise.'
+b'All letters can be displayed in any case.'
+Tags
+brute force, data structures, hashing, *3300

@@ -1,0 +1,17 @@
+b'Petya has a rooted tree with an integer written on each vertex. The vertex 11 is the root. You are to answer some questions about the tree.'
+b'A tree is a connected graph without cycles. A rooted tree has a special vertex called the root. The parent of a node vv is the next vertex on the shortest path from vv to the root.'
+b'Each question is defined by three integers vv, ll, and kk. To get the answer to the question, you need to perform the following steps: '
+b'  First, write down the sequence of all integers written on the shortest path from the vertex vv to the root (including those written in the vv and the root).  Count the number of times each integer occurs. Remove all integers with less than ll occurrences.  Replace the sequence, removing all duplicates and ordering the elements by the number of occurrences in the original list in increasing order. In case of a tie, you can choose the order of these elements arbitrary.  The answer to the question is the kk-th number in the remaining sequence. Note that the answer is not always uniquely determined, because there could be several orderings. Also, it is possible that the length of the sequence on this step is less than kk, in this case the answer is \xe2\x88\x921\xe2\x88\x921. '
+b'For example, if the sequence of integers on the path from vv to the root is [2,2,1,7,1,1,4,4,4,4][2,2,1,7,1,1,4,4,4,4], l=2l=2 and k=2k=2, then the answer is 11.'
+b'Please answer all questions about the tree.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41061\xe2\x89\xa4t\xe2\x89\xa4106). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn, qq (1\xe2\x89\xa4n,q\xe2\x89\xa41061\xe2\x89\xa4n,q\xe2\x89\xa4106) \xe2\x80\x94 the number of vertices in the tree and the number of questions.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n), where aiai is the number written on the ii-th vertex.'
+b"The third line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3,\xe2\x80\xa6,pnp2,p3,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n), where pipi is the parent of node ii. It's guaranteed that the values pp define a correct tree."
+b'Each of the next qq lines contains three integers vv, ll, kk (1\xe2\x89\xa4v,l,k\xe2\x89\xa4n1\xe2\x89\xa4v,l,k\xe2\x89\xa4n) \xe2\x80\x94 descriptions of questions.'
+b'It is guaranteed that the sum of nn and the sum of qq over all test cases do not exceed 106106.'
+b'Output'
+b'For each question of each test case print the answer to the question. In case of multiple answers, print any.'
+Tags
+data structures, dfs and similar, trees, *2400

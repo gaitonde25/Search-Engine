@@ -1,0 +1,18 @@
+b"Happy new year! The year 2020 is also known as Year Gyeongja (\xea\xb2\xbd\xec\x9e\x90\xeb\x85\x84, gyeongja-nyeon) in Korea. Where did the name come from? Let's briefly look at the Gapja system, which is traditionally used in Korea to name the years."
+b'There are two sequences of nn strings s1,s2,s3,\xe2\x80\xa6,sns1,s2,s3,\xe2\x80\xa6,sn and mm strings t1,t2,t3,\xe2\x80\xa6,tmt1,t2,t3,\xe2\x80\xa6,tm. These strings contain only lowercase letters. There might be duplicates among these strings.'
+b'Let\'s call a concatenation of strings xx and yy as the string that is obtained by writing down strings xx and yy one right after another without changing the order. For example, the concatenation of the strings "code" and "forces" is the string "codeforces".'
+b'The year 1 has a name which is the concatenation of the two strings s1s1 and t1t1. When the year increases by one, we concatenate the next two strings in order from each of the respective sequences. If the string that is currently being used is at the end of its sequence, we go back to the first string in that sequence.'
+b'For example, if n=3,m=4,s=n=3,m=4,s={"a", "b", "c"}, t=t= {"d", "e", "f", "g"}, the following table denotes the resulting year names. Note that the names of the years may repeat.'
+b'  '
+b'You are given two sequences of strings of size nn and mm and also qq queries. For each query, you will be given the current year. Could you find the name corresponding to the given year, according to the Gapja system?'
+b'Input'
+b'The first line contains two integers n,mn,m (1\xe2\x89\xa4n,m\xe2\x89\xa4201\xe2\x89\xa4n,m\xe2\x89\xa420).'
+b'The next line contains nn strings s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn. Each string contains only lowercase letters, and they are separated by spaces. The length of each string is at least 11 and at most 1010.'
+b'The next line contains mm strings t1,t2,\xe2\x80\xa6,tmt1,t2,\xe2\x80\xa6,tm. Each string contains only lowercase letters, and they are separated by spaces. The length of each string is at least 11 and at most 1010.'
+b'Among the given n+mn+m strings may be duplicates (that is, they are not necessarily all different).'
+b'The next line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa420201\xe2\x89\xa4q\xe2\x89\xa42020).'
+b'In the next qq lines, an integer yy (1\xe2\x89\xa4y\xe2\x89\xa41091\xe2\x89\xa4y\xe2\x89\xa4109) is given, denoting the year we want to know the name for.'
+b'Output'
+b'Print qq lines. For each line, print the name of the year as per the rule described above.'
+Tags
+implementation, strings, *800

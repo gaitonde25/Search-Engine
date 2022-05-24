@@ -1,0 +1,14 @@
+b'You have a board represented as a grid with 2\xc3\x97n2\xc3\x97n cells.'
+b'The first k1k1 cells on the first row and first k2k2 cells on the second row are colored in white. All other cells are colored in black.'
+b'You have ww white dominoes (2\xc3\x9712\xc3\x971 tiles, both cells are colored in white) and bb black dominoes (2\xc3\x9712\xc3\x971 tiles, both cells are colored in black).'
+b"You can place a white domino on the board if both board's cells are white and not occupied by any other domino. In the same way, you can place a black domino if both cells are black and not occupied by any other domino."
+b'Can you place all w+bw+b dominoes on the board if you can place dominoes both horizontally and vertically?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa430001\xe2\x89\xa4t\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains three integers nn, k1k1 and k2k2 (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000; 0\xe2\x89\xa4k1,k2\xe2\x89\xa4n0\xe2\x89\xa4k1,k2\xe2\x89\xa4n).'
+b'The second line of each test case contains two integers ww and bb (0\xe2\x89\xa4w,b\xe2\x89\xa4n0\xe2\x89\xa4w,b\xe2\x89\xa4n).'
+b'Output'
+b"For each test case, print YES if it's possible to place all w+bw+b dominoes on the board and NO, otherwise."
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES are all recognized as positive answer).'
+Tags
+combinatorics, constructive algorithms, math, *800

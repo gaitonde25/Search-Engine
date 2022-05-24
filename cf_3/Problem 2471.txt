@@ -1,0 +1,12 @@
+b'You are given an array aa consisting of 500000500000 integers (numbered from 11 to 500000500000). Initially all elements of aa are zero.'
+b'You have to process two types of queries to this array:'
+b'  11 xx yy\xc2\xa0\xe2\x80\x94 increase axax by yy;  22 xx yy\xc2\xa0\xe2\x80\x94 compute \xe2\x88\x91i\xe2\x88\x88R(x,y)ai\xe2\x88\x91i\xe2\x88\x88R(x,y)ai, where R(x,y)R(x,y) is the set of all integers from 11 to 500000500000 which have remainder yy modulo xx. '
+b'Can you process all the queries?'
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa45000001\xe2\x89\xa4q\xe2\x89\xa4500000) \xe2\x80\x94 the number of queries.'
+b'Then qq lines follow, each describing a query. The ii-th line contains three integers titi, xixi and yiyi (1\xe2\x89\xa4ti\xe2\x89\xa421\xe2\x89\xa4ti\xe2\x89\xa42). If ti=1ti=1, then it is a query of the first type, 1\xe2\x89\xa4xi\xe2\x89\xa45000001\xe2\x89\xa4xi\xe2\x89\xa4500000, and \xe2\x88\x921000\xe2\x89\xa4yi\xe2\x89\xa41000\xe2\x88\x921000\xe2\x89\xa4yi\xe2\x89\xa41000. If ti=2ti=2, then it it a query of the second type, 1\xe2\x89\xa4xi\xe2\x89\xa45000001\xe2\x89\xa4xi\xe2\x89\xa4500000, and 0\xe2\x89\xa4yi<xi0\xe2\x89\xa4yi<xi.'
+b'It is guaranteed that there will be at least one query of type 22.'
+b'Output'
+b'For each query of type 22 print one integer \xe2\x80\x94 the answer to it.'
+Tags
+brute force, data structures, implementation, *2100

@@ -1,0 +1,15 @@
+b'Palo Alto is an unusual city because it is an endless coordinate line. It is also known for the office of Lyft Level 5.'
+b'Lyft has become so popular so that it is now used by all mm taxi drivers in the city, who every day transport the rest of the city residents\xc2\xa0\xe2\x80\x94 nn riders.'
+b'Each resident (including taxi drivers) of Palo-Alto lives in its unique location (there is no such pair of residents that their coordinates are the same).'
+b'The Lyft system is very clever: when a rider calls a taxi, his call does not go to all taxi drivers, but only to the one that is the closest to that person. If there are multiple ones with the same distance, then to taxi driver with a smaller coordinate is selected.'
+b'But one morning the taxi drivers wondered: how many riders are there that would call the given taxi driver if they were the first to order a taxi on that day? In other words, you need to find for each taxi driver ii the number aiai\xc2\xa0\xe2\x80\x94 the number of riders that would call the ii-th taxi driver when all drivers and riders are at their home?'
+b'The taxi driver can neither transport himself nor other taxi drivers.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41051\xe2\x89\xa4n,m\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 number of riders and taxi drivers.'
+b'The second line contains n+mn+m integers x1,x2,\xe2\x80\xa6,xn+mx1,x2,\xe2\x80\xa6,xn+m (1\xe2\x89\xa4x1<x2<\xe2\x80\xa6<xn+m\xe2\x89\xa41091\xe2\x89\xa4x1<x2<\xe2\x80\xa6<xn+m\xe2\x89\xa4109), where xixi is the coordinate where the ii-th resident lives. '
+b'The third line contains n+mn+m integers t1,t2,\xe2\x80\xa6,tn+mt1,t2,\xe2\x80\xa6,tn+m (0\xe2\x89\xa4ti\xe2\x89\xa410\xe2\x89\xa4ti\xe2\x89\xa41). If ti=1ti=1, then the ii-th resident is a taxi driver, otherwise ti=0ti=0.'
+b'It is guaranteed that the number of ii such that ti=1ti=1 is equal to mm.'
+b'Output'
+b'Print mm integers a1,a2,\xe2\x80\xa6,ama1,a2,\xe2\x80\xa6,am, where aiai is the answer for the ii-th taxi driver. The taxi driver has the number ii if among all the taxi drivers he lives in the ii-th smallest coordinate (see examples for better understanding).'
+Tags
+implementation, sortings, *1200

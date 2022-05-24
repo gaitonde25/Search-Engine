@@ -1,0 +1,14 @@
+b'Hasan loves playing games and has recently discovered a game called TopScore. In this soccer-like game there are pp players doing penalty shoot-outs. Winner is the one who scores the most. In case of ties, one of the top-scorers will be declared as the winner randomly with equal probability.'
+b"They have just finished the game and now are waiting for the result. But there's a tiny problem! The judges have lost the paper of scores! Fortunately they have calculated sum of the scores before they get lost and also for some of the players they have remembered a lower bound on how much they scored. However, the information about the bounds is private, so Hasan only got to know his bound."
+b'According to the available data, he knows that his score is at least rr and sum of the scores is ss.'
+b"Thus the final state of the game can be represented in form of sequence of pp integers a1,a2,\xe2\x80\xa6,apa1,a2,\xe2\x80\xa6,ap (0\xe2\x89\xa4ai0\xe2\x89\xa4ai) \xe2\x80\x94 player's scores. Hasan is player number 11, so a1\xe2\x89\xa5ra1\xe2\x89\xa5r. Also a1+a2+\xe2\x8b\xaf+ap=sa1+a2+\xe2\x8b\xaf+ap=s. Two states are considered different if there exists some position ii such that the value of aiai differs in these states. "
+b"Once again, Hasan doesn't know the exact scores (he doesn't know his exact score as well). So he considers each of the final states to be equally probable to achieve."
+b'Help Hasan find the probability of him winning.'
+b'It can be shown that it is in the form of PQPQ where PP and QQ are non-negative integers and Q\xe2\x89\xa00Q\xe2\x89\xa00, P\xe2\x89\xa4QP\xe2\x89\xa4Q. Report the value of P\xe2\x8b\x85Q\xe2\x88\x921(mod998244353)P\xe2\x8b\x85Q\xe2\x88\x921(mod998244353).'
+b'Input'
+b"The only line contains three integers pp, ss and rr (1\xe2\x89\xa4p\xe2\x89\xa41001\xe2\x89\xa4p\xe2\x89\xa4100, 0\xe2\x89\xa4r\xe2\x89\xa4s\xe2\x89\xa450000\xe2\x89\xa4r\xe2\x89\xa4s\xe2\x89\xa45000) \xe2\x80\x94 the number of players, the sum of scores of all players and Hasan's score, respectively."
+b'Output'
+b'Print a single integer \xe2\x80\x94 the probability of Hasan winning.'
+b'It can be shown that it is in the form of PQPQ where PP and QQ are non-negative integers and Q\xe2\x89\xa00Q\xe2\x89\xa00, P\xe2\x89\xa4QP\xe2\x89\xa4Q. Report the value of P\xe2\x8b\x85Q\xe2\x88\x921(mod998244353)P\xe2\x8b\x85Q\xe2\x88\x921(mod998244353).'
+Tags
+combinatorics, dp, math, probabilities, *2500

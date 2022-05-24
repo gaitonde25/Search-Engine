@@ -1,0 +1,10 @@
+b'This is an interactive problem.'
+b'You are given two integers cc and nn. The jury has a randomly generated set AA of distinct positive integers not greater than cc (it is generated from all such possible sets with equal probability). The size of AA is equal to nn.'
+b'Your task is to guess the set AA. In order to guess it, you can ask at most \xe2\x8c\x880.65\xe2\x8b\x85c\xe2\x8c\x89\xe2\x8c\x880.65\xe2\x8b\x85c\xe2\x8c\x89 queries.'
+b'In each query, you choose a single integer 1\xe2\x89\xa4x\xe2\x89\xa4c1\xe2\x89\xa4x\xe2\x89\xa4c. As the answer to this query you will be given the bitwise xor sum of all yy, such that y\xe2\x88\x88Ay\xe2\x88\x88A and gcd(x,y)=1gcd(x,y)=1 (i.e. xx and yy are coprime). If there is no such yy this xor sum is equal to 00.'
+b"You can ask all queries at the beginning and you will receive the answers to all your queries. After that, you won't have the possibility to ask queries."
+b'You should find any set A\xe2\x80\xb2A\xe2\x80\xb2, such that |A\xe2\x80\xb2|=n|A\xe2\x80\xb2|=n and A\xe2\x80\xb2A\xe2\x80\xb2 and AA have the same answers for all cc possible queries.'
+b'Input'
+b'Firstly you are given two integers cc and nn (100\xe2\x89\xa4c\xe2\x89\xa4106100\xe2\x89\xa4c\xe2\x89\xa4106, 0\xe2\x89\xa4n\xe2\x89\xa4c0\xe2\x89\xa4n\xe2\x89\xa4c).'
+Tags
+constructive algorithms, dp, interactive, math, number theory, *3200

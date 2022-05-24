@@ -1,0 +1,9 @@
+b"Polycarp has n dice d1,\xe2\x80\x89d2,\xe2\x80\x89...,\xe2\x80\x89dn. The i-th dice shows numbers from 1 to di. Polycarp rolled all the dice and the sum of numbers they showed is A. Agrippina didn't see which dice showed what number, she knows only the sum A and the values d1,\xe2\x80\x89d2,\xe2\x80\x89...,\xe2\x80\x89dn. However, she finds it enough to make a series of statements of the following type: dice i couldn't show number r. For example, if Polycarp had two six-faced dice and the total sum is A\xe2\x80\x89=\xe2\x80\x8911, then Agrippina can state that each of the two dice couldn't show a value less than five (otherwise, the remaining dice must have a value of at least seven, which is impossible)."
+b"For each dice find the number of values for which it can be guaranteed that the dice couldn't show these values if the sum of the shown values is A."
+b'Input'
+b'The first line contains two integers n,\xe2\x80\x89A (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105,\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89A\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s) \xe2\x80\x94 the number of dice and the sum of shown values where s\xe2\x80\x89=\xe2\x80\x89d1\xe2\x80\x89+\xe2\x80\x89d2\xe2\x80\x89+\xe2\x80\x89...\xe2\x80\x89+\xe2\x80\x89dn.'
+b'The second line contains n integers d1,\xe2\x80\x89d2,\xe2\x80\x89...,\xe2\x80\x89dn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106), where di is the maximum value that the i-th dice can show.'
+b'Output'
+b"Print n integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn, where bi is the number of values for which it is guaranteed that the i-th dice couldn't show them."
+Tags
+math, *1600

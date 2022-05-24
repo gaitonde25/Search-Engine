@@ -1,0 +1,9 @@
+b'A restaurant received n orders for the rental. Each rental order reserve the restaurant for a continuous period of time, the i-th order is characterized by two time values \xe2\x80\x94 the start time li and the finish time ri (li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri).'
+b'Restaurant management can accept and reject orders. What is the maximal number of orders the restaurant can accept?'
+b"No two accepted orders can intersect, i.e. they can't share even a moment of time. If one order ends in the moment other starts, they can't be accepted both."
+b'Input'
+b'The first line contains integer number n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105) \xe2\x80\x94 number of orders. The following n lines contain integer values li and ri each (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b'Print the maximal number of orders that can be accepted.'
+Tags
+dp, greedy, sortings, *1600

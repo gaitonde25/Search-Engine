@@ -1,0 +1,13 @@
+b'There are nn cells, numbered 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n from left to right. You have to place a robot at any cell initially. The robot must make exactly kk moves.'
+b"In one move, the robot must move one cell to the left or right, provided that it doesn't move out of bounds. In other words, if the robot was in the cell ii, it must move to either the cell i\xe2\x88\x921i\xe2\x88\x921 or the cell i+1i+1, as long as it lies between 11 and nn (endpoints inclusive). The cells, in the order they are visited (including the cell the robot is placed), together make a good path."
+b'Each cell ii has a value aiai associated with it. Let c0,c1,\xe2\x80\xa6,ckc0,c1,\xe2\x80\xa6,ck be the sequence of cells in a good path in the order they are visited (c0c0 is the cell robot is initially placed, c1c1 is the cell where the robot is after its first move, and so on; more formally, cici is the cell that the robot is at after ii moves). Then the value of the path is calculated as ac0+ac1+\xe2\x8b\xaf+ackac0+ac1+\xe2\x8b\xaf+ack.'
+b'Your task is to calculate the sum of values over all possible good paths. Since this number can be very large, output it modulo 109+7109+7. Two good paths are considered different if the starting cell differs or there exists an integer i\xe2\x88\x88[1,k]i\xe2\x88\x88[1,k] such that the current cell of the robot after exactly ii moves is different in those paths.'
+b'You must process qq updates to aa and print the updated sum each time. Each update changes the value of exactly one cell. See the input format and the sample input-output for more details.'
+b'Input'
+b'The first line of the input contains three space-separated integers nn, kk and qq (2\xe2\x89\xa4n\xe2\x89\xa450002\xe2\x89\xa4n\xe2\x89\xa45000; 1\xe2\x89\xa4k\xe2\x89\xa450001\xe2\x89\xa4k\xe2\x89\xa45000; 1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'qq lines follow. Each line contains two space-separated integers ii and xx (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n; 1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109) indicating that you must change the value of aiai to xx.'
+b'Output'
+b'Print qq integers. The ii-th integer should be the sum of values over all good paths after the first ii updates are performed. Since the answers may be large, print them modulo 109+7109+7.'
+Tags
+combinatorics, dp, math, *2200

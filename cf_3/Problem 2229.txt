@@ -1,0 +1,13 @@
+b'This is the harder version of the problem. In this version, 1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106 and 0\xe2\x89\xa4ai\xe2\x89\xa41060\xe2\x89\xa4ai\xe2\x89\xa4106. You can hack this problem if you locked it. But you can hack the previous problem only if you locked both problems'
+b'Christmas is coming, and our protagonist, Bob, is preparing a spectacular present for his long-time best friend Alice. This year, he decides to prepare nn boxes of chocolate, numbered from 11 to nn. Initially, the ii-th box contains aiai chocolate pieces.'
+b"Since Bob is a typical nice guy, he will not send Alice nn empty boxes. In other words, at least one of a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an is positive. Since Alice dislikes coprime sets, she will be happy only if there exists some integer k>1k>1 such that the number of pieces in each box is divisible by kk. Note that Alice won't mind if there exists some empty boxes. "
+b"Charlie, Alice's boyfriend, also is Bob's second best friend, so he decides to help Bob by rearranging the chocolate pieces. In one second, Charlie can pick up a piece in box ii and put it into either box i\xe2\x88\x921i\xe2\x88\x921 or box i+1i+1 (if such boxes exist). Of course, he wants to help his friend as quickly as possible. Therefore, he asks you to calculate the minimum number of seconds he would need to make Alice happy."
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of chocolate boxes.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41060\xe2\x89\xa4ai\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of chocolate pieces in the ii-th box.'
+b'It is guaranteed that at least one of a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an is positive.'
+b'Output'
+b'If there is no way for Charlie to make Alice happy, print \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print a single integer xx\xc2\xa0\xe2\x80\x94 the minimum number of seconds for Charlie to help Bob make Alice happy.'
+Tags
+constructive algorithms, greedy, math, number theory, ternary search, two pointers, *2100

@@ -1,0 +1,12 @@
+b'You are given an array aa consisting of nn integers.'
+b'In one move, you can choose some index ii (1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9221\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x922) and shift the segment [ai,ai+1,ai+2][ai,ai+1,ai+2] cyclically to the right (i.e. replace the segment [ai,ai+1,ai+2][ai,ai+1,ai+2] with [ai+2,ai,ai+1][ai+2,ai,ai+1]). '
+b'Your task is to sort the initial array by no more than n2n2 such operations or say that it is impossible to do that.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa45003\xe2\x89\xa4n\xe2\x89\xa4500) \xe2\x80\x94 the length of aa. The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa45001\xe2\x89\xa4ai\xe2\x89\xa4500), where aiai is the ii-th element aa.'
+b'It is guaranteed that the sum of nn does not exceed 500500.'
+b'Output'
+b'For each test case, print the answer: -1 on the only line if it is impossible to sort the given array using operations described in the problem statement, or the number of operations ansans on the first line and ansans integers idx1,idx2,\xe2\x80\xa6,idxansidx1,idx2,\xe2\x80\xa6,idxans (1\xe2\x89\xa4idxi\xe2\x89\xa4n\xe2\x88\x9221\xe2\x89\xa4idxi\xe2\x89\xa4n\xe2\x88\x922), where idxiidxi is the index of left border of the segment for the ii-th operation. You should print indices in order of performing operations.'
+Tags
+brute force, constructive algorithms, implementation, sortings, *2400

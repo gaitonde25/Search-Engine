@@ -1,0 +1,13 @@
+b"Given a string ss of length nn and integer kk (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n). The string ss has a level xx, if xx is largest non-negative integer, such that it's possible to find in ss:"
+b'  xx non-intersecting (non-overlapping) substrings of length kk,  all characters of these xx substrings are the same (i.e. each substring contains only one distinct character and this character is the same for all the substrings). '
+b'A substring is a sequence of consecutive (adjacent) characters, it is defined by two integers ii and jj (1\xe2\x89\xa4i\xe2\x89\xa4j\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4j\xe2\x89\xa4n), denoted as s[i\xe2\x80\xa6j]s[i\xe2\x80\xa6j] = "sisi+1\xe2\x80\xa6sjsisi+1\xe2\x80\xa6sj".'
+b'For example, if k=2k=2, then:'
+b'  the string "aabb" has level 11 (you can select substring "aa"),  the strings "zzzz" and "zzbzz" has level 22 (you can select two non-intersecting substrings "zz" in each of them),  the strings "abed" and "aca" have level 00 (you can\'t find at least one substring of the length k=2k=2 containing the only distinct character). '
+b'Zuhair gave you the integer kk and the string ss of length nn. You need to find xx, the level of the string ss.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the string and the value of kk.'
+b'The second line contains the string ss of length nn consisting only of lowercase Latin letters.'
+b'Output'
+b'Print a single integer xx\xc2\xa0\xe2\x80\x94 the level of the string.'
+Tags
+brute force, implementation, strings, *1100

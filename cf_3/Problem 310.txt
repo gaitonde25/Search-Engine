@@ -1,0 +1,7 @@
+b'This problem is interactive.'
+b'We decided to play a game with you and guess the number xx (1\xe2\x89\xa4x<n1\xe2\x89\xa4x<n), where you know the number nn.'
+b'You can make queries like this:'
+b' + c: this command assigns x=x+cx=x+c (1\xe2\x89\xa4c<n1\xe2\x89\xa4c<n) and then returns you the value \xe2\x8c\x8axn\xe2\x8c\x8b\xe2\x8c\x8axn\xe2\x8c\x8b (xx divide by nn and round down).'
+b'You win if you guess the current number with no more than 1010 queries.'
+Tags
+binary search, constructive algorithms, interactive, *2000

@@ -1,0 +1,13 @@
+b'Gildong is now developing a puzzle game. The puzzle consists of nn platforms numbered from 11 to nn. The player plays the game as a character that can stand on each platform and the goal of the game is to move the character from the 11-st platform to the nn-th platform.'
+b'The ii-th platform is labeled with an integer aiai (0\xe2\x89\xa4ai\xe2\x89\xa4n\xe2\x88\x92i0\xe2\x89\xa4ai\xe2\x89\xa4n\xe2\x88\x92i). When the character is standing on the ii-th platform, the player can move the character to any of the jj-th platforms where i+1\xe2\x89\xa4j\xe2\x89\xa4i+aii+1\xe2\x89\xa4j\xe2\x89\xa4i+ai. If the character is on the ii-th platform where ai=0ai=0 and i\xe2\x89\xa0ni\xe2\x89\xa0n, the player loses the game.'
+b"Since Gildong thinks the current game is not hard enough, he wants to make it even harder. He wants to change some (possibly zero) labels to 00 so that there remains exactly one way to win. He wants to modify the game as little as possible, so he's asking you to find the minimum number of platforms that should have their labels changed. Two ways are different if and only if there exists a platform the character gets to in one way but not in the other way."
+b'Input'
+b'Each test contains one or more test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500).'
+b'Each test case contains two lines. The first line of each test case consists of an integer nn (2\xe2\x89\xa4n\xe2\x89\xa430002\xe2\x89\xa4n\xe2\x89\xa43000) \xe2\x80\x94 the number of platforms of the game.'
+b'The second line of each test case contains nn integers. The ii-th integer is aiai (0\xe2\x89\xa4ai\xe2\x89\xa4n\xe2\x88\x92i0\xe2\x89\xa4ai\xe2\x89\xa4n\xe2\x88\x92i) \xe2\x80\x94 the integer of the ii-th platform.'
+b'It is guaranteed that: '
+b"  For each test case, there is at least one way to win initially.  The sum of nn in all test cases doesn't exceed 30003000. "
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the minimum number of different labels that should be changed to 00 so that there remains exactly one way to win.'
+Tags
+dp, *2700

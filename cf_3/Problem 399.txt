@@ -1,0 +1,15 @@
+b'Polycarp has a rectangular field of n\xc3\x97mn\xc3\x97m cells (the size of the n\xe2\x8b\x85mn\xe2\x8b\x85m field does not exceed 106106 cells, m\xe2\x89\xa52m\xe2\x89\xa52), in each cell of which there can be candy. There are nn rows and mm columns in the field.'
+b"Let's denote a cell with coordinates xx vertically and yy horizontally by (x,y)(x,y). Then the top-left cell will be denoted as (1,1)(1,1), and the bottom-right cell will be denoted as (n,m)(n,m)."
+b"If there is candy in the cell, then the cell is marked with the symbol '1', otherwise\xc2\xa0\xe2\x80\x94 with the symbol '0'."
+b'Polycarp made a Robot that can collect candy. The Robot can move from (x,y)(x,y) either to (x+1,y+1)(x+1,y+1), or to (x+1,y\xe2\x88\x921)(x+1,y\xe2\x88\x921). If the Robot is in a cell that contains candy, it takes it.'
+b'While there is at least one candy on the field, the following procedure is executed: '
+b'  Polycarp puts the Robot in an arbitrary cell on the topmost row of the field. He himself chooses in which cell to place the Robot. It is allowed to put the Robot in the same cell multiple times.  The Robot moves across the field and collects candies. He controls the Robot.  When the Robot leaves the field, Polycarp takes it. If there are still candies left, Polycarp repeats the procedure. '
+b'Find the minimum number of times Polycarp needs to put the Robot on the topmost row of the field in order to collect all the candies. It is guaranteed that Polycarp can always collect all the candies.'
+b'Input'
+b'The first line of input data contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of input data sets in the test.'
+b"Before each input data, there is a blank line in the test. Next is a line that contains integers nn and mm (2\xe2\x89\xa4m2\xe2\x89\xa4m, 2\xe2\x89\xa4n\xe2\x8b\x85m\xe2\x89\xa41062\xe2\x89\xa4n\xe2\x8b\x85m\xe2\x89\xa4106) \xe2\x80\x94 field sizes. This is followed by nn lines, ii-th of which describes the ii-th line of the field. Each of them is a string of size mm characters: the symbol '1' corresponds to a cell with candy, the symbol '0'\xc2\xa0\xe2\x80\x94 an empty cell."
+b'It is guaranteed that the sum of n\xe2\x8b\x85mn\xe2\x8b\x85m values for all input data sets in the test does not exceed 106106.'
+b'Output'
+b'Print tt lines, each line should contain the answer to the corresponding set of input data: the minimum number of times Polycarpus needs to put the Robot on the topmost row of the field in order to collect all the candies.'
+Tags
+data structures, graph matchings, greedy, *2500

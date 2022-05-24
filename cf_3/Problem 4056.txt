@@ -1,0 +1,10 @@
+b'You are given a multiset of n integers. You should select exactly k of them in a such way that the difference between any two of them is divisible by m, or tell that it is impossible.'
+b'Numbers can be repeated in the original multiset and in the multiset of selected numbers, but number of occurrences of any number in multiset of selected numbers should not exceed the number of its occurrences in the original multiset. '
+b'Input'
+b'First line contains three integers n, k and m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 number of integers in the multiset, number of integers you should select and the required divisor of any pair of selected integers.'
+b'Second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the numbers in the multiset.'
+b'Output'
+b'If it is not possible to select k numbers in the desired way, output \xc2\xabNo\xc2\xbb (without the quotes).'
+b'Otherwise, in the first line of output print \xc2\xabYes\xc2\xbb (without the quotes). In the second line print k integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bk\xc2\xa0\xe2\x80\x94 the selected numbers. If there are multiple possible solutions, print any of them. '
+Tags
+implementation, math, number theory, *1300

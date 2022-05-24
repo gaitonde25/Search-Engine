@@ -1,0 +1,10 @@
+b"You are given aa uppercase Latin letters 'A' and bb letters 'B'."
+b"The period of the string is the smallest such positive integer kk that si=si\xc2\xa0mod\xc2\xa0ksi=si\xc2\xa0mod\xc2\xa0k (00-indexed) for each ii. Note that this implies that kk won't always divide a+b=|s|a+b=|s|."
+b'For example, the period of string "ABAABAA" is 33, the period of "AAAA" is 11, and the period of "AABBB" is 55.'
+b"Find the number of different periods over all possible strings with aa letters 'A' and bb letters 'B'."
+b'Input'
+b"The first line contains two integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa41091\xe2\x89\xa4a,b\xe2\x89\xa4109) \xe2\x80\x94 the number of letters 'A' and 'B', respectively."
+b'Output'
+b"Print the number of different periods over all possible strings with aa letters 'A' and bb letters 'B'."
+Tags
+binary search, implementation, math, *2700

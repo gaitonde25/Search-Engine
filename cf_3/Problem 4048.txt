@@ -1,0 +1,11 @@
+b'This time the Berland Team Olympiad in Informatics is held in a remote city that can only be reached by one small bus. Bus has n passenger seats, seat i can be occupied only by a participant from the city ai.'
+b'Today the bus has completed m trips, each time bringing n participants. The participants were then aligned in one line in the order they arrived, with people from the same bus standing in the order of their seats (i.\xc2\xa0e. if we write down the cities where the participants came from, we get the sequence a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an repeated m times).'
+b'After that some teams were formed, each consisting of k participants form the same city standing next to each other in the line. Once formed, teams left the line. The teams were formed until there were no k neighboring participants from the same city.'
+b"Help the organizers determine how many participants have left in the line after that process ended. We can prove that answer doesn't depend on the order in which teams were selected."
+b'Input'
+b'The first line contains three integers n,\xe2\x80\x89k and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), where ai is the number of city, person from which must take seat i in the bus. '
+b'Output'
+b'Output the number of remaining participants in the line.'
+Tags
+data structures, implementation, *2300

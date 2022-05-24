@@ -1,0 +1,9 @@
+b"Kefa decided to make some money doing business on the Internet for exactly n days. He knows that on the i-th day (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) he makes ai money. Kefa loves progress, that's why he wants to know the length of the maximum non-decreasing subsegment in sequence ai. Let us remind you that the subsegment of the sequence is its continuous fragment. A subsegment of numbers is called non-decreasing if all numbers in it follow in the non-decreasing order."
+b'Help Kefa cope with this task!'
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'The second line contains n integers a1,\xe2\x80\x89\xe2\x80\x89a2,\xe2\x80\x89\xe2\x80\x89...,\xe2\x80\x89\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the length of the maximum non-decreasing subsegment of sequence a.'
+Tags
+brute force, dp, implementation, *900

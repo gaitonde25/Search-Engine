@@ -1,0 +1,11 @@
+b'Luba needs your help again! Luba has n TV sets. She knows that i-th TV set will be working from moment of time li till moment ri, inclusive.'
+b"Luba wants to switch off one of TV sets in order to free the socket. Let's call some TV set redundant if after switching it off the number of integer moments of time when at least one of TV sets is working won't decrease. Luba will be very upset if she has to switch off a non-redundant TV set."
+b'Help Luba by telling her the index of some redundant TV set. If there is no any, print -1.'
+b'Input'
+b'The first line contains one integer number n\xc2\xa0(1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the number of TV sets.'
+b'Then n lines follow, each of them containing two integer numbers li,\xe2\x80\x89ri\xc2\xa0(0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) denoting the working time of i-th TV set.'
+b'Output'
+b'If there is no any redundant TV set, print -1. Otherwise print the index of any redundant TV set (TV sets are indexed from 1 to n).'
+b'If there are multiple answers, print any of them.'
+Tags
+data structures, sortings, *2000

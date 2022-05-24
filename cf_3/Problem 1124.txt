@@ -1,0 +1,10 @@
+b'Positive integer xx is called divisor of positive integer yy, if yy is divisible by xx without remainder. For example, 11 is a divisor of 77 and 33 is not divisor of 88.'
+b'We gave you an integer dd and asked you to find the smallest positive integer aa, such that '
+b' aa has at least 44 divisors;  difference between any two divisors of aa is at least dd.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa430001\xe2\x89\xa4t\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer dd (1\xe2\x89\xa4d\xe2\x89\xa4100001\xe2\x89\xa4d\xe2\x89\xa410000).'
+b'Output'
+b'For each test case print one integer aa\xc2\xa0\xe2\x80\x94 the answer for this test case.'
+Tags
+binary search, constructive algorithms, greedy, math, number theory, *1000

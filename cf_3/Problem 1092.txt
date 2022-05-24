@@ -1,0 +1,15 @@
+b"In Homer's country, there are nn cities numbered 11 to nn and they form a tree. That is, there are (n\xe2\x88\x921)(n\xe2\x88\x921) undirected roads between these nn cities and every two cities can reach each other through these roads. "
+b"Homer's country is an industrial country, and each of the nn cities in it contains some mineral resource. The mineral resource of city ii is labeled aiai. "
+b'Homer is given the plans of the country in the following qq years. The plan of the ii-th year is described by four parameters ui,vi,liui,vi,li and riri, and he is asked to find any mineral resource cici such that the following two conditions hold: '
+b'  mineral resource cici appears an odd number of times between city uiui and city vivi; and  li\xe2\x89\xa4ci\xe2\x89\xa4rili\xe2\x89\xa4ci\xe2\x89\xa4ri. '
+b"As the best friend of Homer, he asks you for help. For every plan, find any such mineral resource cici, or tell him that there doesn't exist one."
+b'Input'
+b'The first line contains two integers nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) and qq (1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105), indicating the number of cities and the number of plans.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b'Then the ii-th line of the following (n\xe2\x88\x921)(n\xe2\x88\x921) lines contains two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n) with xi\xe2\x89\xa0yixi\xe2\x89\xa0yi, indicating that there is a bidirectional road between city xixi and city yiyi. It is guaranteed that the given roads form a tree.'
+b'Then the ii-th line of the following qq lines contains four integers uiui, vivi, lili, riri (1\xe2\x89\xa4ui\xe2\x89\xa4n1\xe2\x89\xa4ui\xe2\x89\xa4n, 1\xe2\x89\xa4vi\xe2\x89\xa4n1\xe2\x89\xa4vi\xe2\x89\xa4n, 1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n), indicating the plan of the ii-th year.'
+b'Output'
+b'Print qq lines, the ii-th of which contains an integer cici such that '
+b'  ci=\xe2\x88\x921ci=\xe2\x88\x921 if there is no such mineral resource that meets the required condition; or  cici is the label of the chosen mineral resource of the ii-th year. The chosen mineral resource cici should meet those conditions in the ii-th year described above in the problem statement. If there are multiple choices of cici, you can print any of them. '
+Tags
+binary search, bitmasks, brute force, data structures, probabilities, trees, *2900

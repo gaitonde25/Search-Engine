@@ -1,0 +1,10 @@
+b'There are n piles of pebbles on the table, the i-th pile contains ai pebbles. Your task is to paint each pebble using one of the k given colors so that for each color c and any two piles i and j the difference between the number of pebbles of color c in pile i and number of pebbles of color c in pile j is at most one.'
+b"In other words, let's say that bi,\xe2\x80\x89c is the number of pebbles of color c in the i-th pile. Then for any 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i,\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n the following condition must be satisfied |bi,\xe2\x80\x89c\xe2\x80\x89-\xe2\x80\x89bj,\xe2\x80\x89c|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891. It isn't necessary to use all k colors: if color c hasn't been used in pile i, then bi,\xe2\x80\x89c is considered to be zero."
+b'Input'
+b'The first line of the input contains positive integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100), separated by a space \xe2\x80\x94 the number of piles and the number of colors respectively.'
+b'The second line contains n positive integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) denoting number of pebbles in each of the piles.'
+b'Output'
+b'If there is no way to paint the pebbles satisfying the given condition, output "NO" (without quotes) .'
+b'Otherwise in the first line output "YES" (without quotes). Then n lines should follow, the i-th of them should contain ai space-separated integers. j-th (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai) of these integers should be equal to the color of the j-th pebble in the i-th pile. If there are several possible answers, you may output any of them.'
+Tags
+constructive algorithms, greedy, implementation, *1300

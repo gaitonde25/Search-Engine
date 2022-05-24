@@ -1,0 +1,15 @@
+b'Polycarp was given an array of a[1\xe2\x80\xa6n]a[1\xe2\x80\xa6n] of nn integers. He can perform the following operation with the array aa no more than nn times:'
+b'  Polycarp selects the index ii and adds the value aiai to one of his choice of its neighbors. More formally, Polycarp adds the value of aiai to ai\xe2\x88\x921ai\xe2\x88\x921 or to ai+1ai+1 (if such a neighbor does not exist, then it is impossible to add to it).  After adding it, Polycarp removes the ii-th element from the aa array. During this step the length of aa is decreased by 11. '
+b'The two items above together denote one single operation.'
+b'For example, if Polycarp has an array a=[3,1,6,6,2]a=[3,1,6,6,2], then it can perform the following sequence of operations with it: '
+b'  Polycarp selects i=2i=2 and adds the value aiai to (i\xe2\x88\x921)(i\xe2\x88\x921)-th element: a=[4,6,6,2]a=[4,6,6,2].  Polycarp selects i=1i=1 and adds the value aiai to (i+1)(i+1)-th element: a=[10,6,2]a=[10,6,2].  Polycarp selects i=3i=3 and adds the value aiai to (i\xe2\x88\x921)(i\xe2\x88\x921)-th element: a=[10,8]a=[10,8].  Polycarp selects i=2i=2 and adds the value aiai to (i\xe2\x88\x921)(i\xe2\x88\x921)-th element: a=[18]a=[18]. '
+b'Note that Polycarp could stop performing operations at any time.'
+b'Polycarp wondered how many minimum operations he would need to perform to make all the elements of aa equal (i.e., he wants all aiai are equal to each other).'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa430001\xe2\x89\xa4t\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the number of test cases in the test. Then tt test cases follow.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa430001\xe2\x89\xa4n\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the length of the array. The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 array aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 30003000.'
+b'Output'
+b'For each test case, output a single number\xc2\xa0\xe2\x80\x94 the minimum number of operations that Polycarp needs to perform so that all elements of the aa array are the same (equal).'
+Tags
+greedy, math, number theory, *1400

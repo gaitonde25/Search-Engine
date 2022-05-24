@@ -1,0 +1,17 @@
+b'Monocarp is playing a strategy game. In the game, he recruits a squad to fight monsters. Before each battle, Monocarp has CC coins to spend on his squad.'
+b'Before each battle starts, his squad is empty. Monocarp chooses one type of units and recruits no more units of that type than he can recruit with CC coins.'
+b'There are nn types of units. Every unit type has three parameters: '
+b'  cici\xc2\xa0\xe2\x80\x94 the cost of recruiting one unit of the ii-th type;  didi\xc2\xa0\xe2\x80\x94 the damage that one unit of the ii-th type deals in a second;  hihi\xc2\xa0\xe2\x80\x94 the amount of health of one unit of the ii-th type. '
+b'Monocarp has to face mm monsters. Every monster has two parameters: '
+b'  DjDj\xc2\xa0\xe2\x80\x94 the damage that the jj-th monster deals in a second;  HjHj\xc2\xa0\xe2\x80\x94 the amount of health the jj-th monster has. '
+b"Monocarp has to fight only the jj-th monster during the jj-th battle. He wants all his recruited units to stay alive. Both Monocarp's squad and the monster attack continuously (not once per second) and at the same time. Thus, Monocarp wins the battle if and only if his squad kills the monster strictly faster than the monster kills one of his units. The time is compared with no rounding."
+b"For each monster, Monocarp wants to know the minimum amount of coins he has to spend to kill that monster. If this amount is greater than CC, then report that it's impossible to kill that monster."
+b'Input'
+b'The first line contains two integers nn and CC (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105; 1\xe2\x89\xa4C\xe2\x89\xa41061\xe2\x89\xa4C\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of types of units and the amount of coins Monocarp has before each battle.'
+b'The ii-th of the next nn lines contains three integers ci,dici,di and hihi (1\xe2\x89\xa4ci\xe2\x89\xa4C1\xe2\x89\xa4ci\xe2\x89\xa4C; 1\xe2\x89\xa4di,hi\xe2\x89\xa41061\xe2\x89\xa4di,hi\xe2\x89\xa4106).'
+b'The next line contains a single integer mm (1\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of monsters that Monocarp has to face.'
+b'The jj-th of the next mm lines contains two integers DjDj and HjHj (1\xe2\x89\xa4Dj\xe2\x89\xa41061\xe2\x89\xa4Dj\xe2\x89\xa4106; 1\xe2\x89\xa4Hj\xe2\x89\xa410121\xe2\x89\xa4Hj\xe2\x89\xa41012).'
+b'Output'
+b'Print mm integers. For each monster, print the minimum amount of coins Monocarp has to spend to kill that monster. If this amount is greater than CC, then print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+binary search, brute force, greedy, math, sortings, *2000

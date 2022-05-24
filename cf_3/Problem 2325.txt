@@ -1,0 +1,14 @@
+b'This is an easier version of the problem. In this version, n\xe2\x89\xa42000n\xe2\x89\xa42000.'
+b'There are nn distinct points in three-dimensional space numbered from 11 to nn. The ii-th point has coordinates (xi,yi,zi)(xi,yi,zi). The number of points nn is even.'
+b"You'd like to remove all nn points using a sequence of n2n2 snaps. In one snap, you can remove any two points aa and bb that have not been removed yet and form a perfectly balanced pair. A pair of points aa and bb is perfectly balanced if no other point cc (that has not been removed yet) lies within the axis-aligned minimum bounding box of points aa and bb."
+b'Formally, point cc lies within the axis-aligned minimum bounding box of points aa and bb if and only if min(xa,xb)\xe2\x89\xa4xc\xe2\x89\xa4max(xa,xb)min(xa,xb)\xe2\x89\xa4xc\xe2\x89\xa4max(xa,xb), min(ya,yb)\xe2\x89\xa4yc\xe2\x89\xa4max(ya,yb)min(ya,yb)\xe2\x89\xa4yc\xe2\x89\xa4max(ya,yb), and min(za,zb)\xe2\x89\xa4zc\xe2\x89\xa4max(za,zb)min(za,zb)\xe2\x89\xa4zc\xe2\x89\xa4max(za,zb). Note that the bounding box might be degenerate. '
+b'Find a way to remove all points in n2n2 snaps.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa420002\xe2\x89\xa4n\xe2\x89\xa42000; nn is even), denoting the number of points.'
+b'Each of the next nn lines contains three integers xixi, yiyi, zizi (\xe2\x88\x92108\xe2\x89\xa4xi,yi,zi\xe2\x89\xa4108\xe2\x88\x92108\xe2\x89\xa4xi,yi,zi\xe2\x89\xa4108), denoting the coordinates of the ii-th point.'
+b'No two points coincide.'
+b'Output'
+b'Output n2n2 pairs of integers ai,biai,bi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n), denoting the indices of points removed on snap ii. Every integer between 11 and nn, inclusive, must appear in your output exactly once.'
+b'We can show that it is always possible to remove all points. If there are many solutions, output any of them.'
+Tags
+constructive algorithms, geometry, greedy, *1700

@@ -1,0 +1,11 @@
+b"Petya loves computer games. Finally a game that he's been waiting for so long came out!"
+b'The main character of this game has n different skills, each of which is characterized by an integer ai from 0 to 100. The higher the number ai is, the higher is the i-th skill of the character. The total rating of the character is calculated as the sum of the values \xe2\x80\x8b\xe2\x80\x8bof  for all i from 1 to n. The expression \xe2\x8c\x8a x\xe2\x8c\x8b denotes the result of rounding the number x down to the nearest integer.'
+b"At the beginning of the game Petya got k improvement units as a bonus that he can use to increase the skills of his character and his total rating. One improvement unit can increase any skill of Petya's character by exactly one. For example, if a4\xe2\x80\x89=\xe2\x80\x8946, after using one imporvement unit to this skill, it becomes equal to 47. A hero's skill cannot rise higher more than 100. Thus, it is permissible that some of the units will remain unused."
+b'Your task is to determine the optimal way of using the improvement units so as to maximize the overall rating of the character. It is not necessary to use all the improvement units.'
+b'Input'
+b"The first line of the input contains two positive integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107) \xe2\x80\x94 the number of skills of the character and the number of units of improvements at Petya's disposal."
+b'The second line of the input contains a sequence of n integers ai (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100), where ai characterizes the level of the i-th skill of the character.'
+b'Output'
+b'The first line of the output should contain a single non-negative integer \xe2\x80\x94 the maximum total rating of the character that Petya can get using k or less improvement units.'
+Tags
+implementation, math, sortings, *1400

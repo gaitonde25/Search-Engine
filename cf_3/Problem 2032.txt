@@ -1,0 +1,12 @@
+b'You are given an array aa consisting of nn integers.'
+b'In one move, you can choose two indices 1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n such that i\xe2\x89\xa0ji\xe2\x89\xa0j and set ai:=ajai:=aj. You can perform such moves any number of times (possibly, zero). You can choose different indices in different operations. The operation := is the operation of assignment (i.e. you choose ii and jj and replace aiai with ajaj).'
+b'Your task is to say if it is possible to obtain an array with an odd (not divisible by 22) sum of elements.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa420001\xe2\x89\xa4t\xe2\x89\xa42000) \xe2\x80\x94 the number of test cases.'
+b'The next 2t2t lines describe test cases. The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000) \xe2\x80\x94 the number of elements in aa. The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa420001\xe2\x89\xa4ai\xe2\x89\xa42000), where aiai is the ii-th element of aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 20002000 (\xe2\x88\x91n\xe2\x89\xa42000\xe2\x88\x91n\xe2\x89\xa42000).'
+b'Output'
+b'For each test case, print the answer on it \xe2\x80\x94 "YES" (without quotes) if it is possible to obtain the array with an odd sum of elements, and "NO" otherwise.'
+Tags
+math, *800

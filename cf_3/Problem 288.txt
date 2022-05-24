@@ -1,0 +1,22 @@
+b'Note: The XOR-sum of set {s1,s2,\xe2\x80\xa6,sm}{s1,s2,\xe2\x80\xa6,sm} is defined as s1\xe2\x8a\x95s2\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95sms1\xe2\x8a\x95s2\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95sm, where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation.'
+b'After almost winning IOI, Victor bought himself an n\xc3\x97nn\xc3\x97n grid containing integers in each cell. nn is an even integer. The integer in the cell in the ii-th row and jj-th column is ai,jai,j.'
+b'Sadly, Mihai stole the grid from Victor and told him he would return it with only one condition: Victor has to tell Mihai the XOR-sum of all the integers in the whole grid.'
+b"Victor doesn't remember all the elements of the grid, but he remembers some information about it: For each cell, Victor remembers the XOR-sum of all its neighboring cells."
+b'Two cells are considered neighbors if they share an edge \xe2\x80\x94 in other words, for some integers 1\xe2\x89\xa4i,j,k,l\xe2\x89\xa4n1\xe2\x89\xa4i,j,k,l\xe2\x89\xa4n, the cell in the ii-th row and jj-th column is a neighbor of the cell in the kk-th row and ll-th column if |i\xe2\x88\x92k|=1|i\xe2\x88\x92k|=1 and j=lj=l, or if i=ki=k and |j\xe2\x88\x92l|=1|j\xe2\x88\x92l|=1.'
+b'To get his grid back, Victor is asking you for your help. Can you use the information Victor remembers to find the XOR-sum of the whole grid?'
+b'It can be proven that the answer is unique.'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. The description of test cases follows.'
+b'The first line of each test case contains a single even integer nn (2\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the size of the grid.'
+b'Then follows nn lines, each containing nn integers. The jj-th integer in the ii-th of these lines represents the XOR-sum of the integers in all the neighbors of the cell in the ii-th row and jj-th column.'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 10001000 and in the original grid 0\xe2\x89\xa4ai,j\xe2\x89\xa4230\xe2\x88\x9210\xe2\x89\xa4ai,j\xe2\x89\xa4230\xe2\x88\x921."
+b'Hack Format'
+b'To hack a solution, use the following format:'
+b'The first line should contain a single integer t (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case should contain a single even integer nn (2\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the size of the grid.'
+b"Then nn lines should follow, each containing nn integers. The jj-th integer in the ii-th of these lines is ai,jai,j in Victor's original grid. The values in the grid should be integers in the range [0,230\xe2\x88\x921][0,230\xe2\x88\x921]"
+b'The sum of nn over all test cases must not exceed 10001000.'
+b'Output'
+b'For each test case, output a single integer \xe2\x80\x94 the XOR-sum of the whole grid.'
+Tags
+constructive algorithms, greedy, implementation, interactive, math, *2300

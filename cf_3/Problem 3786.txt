@@ -1,0 +1,11 @@
+b"A dragon symbolizes wisdom, power and wealth. On Lunar New Year's Day, people model a dragon with bamboo strips and clothes, raise them with rods, and hold the rods high and low to resemble a flying dragon."
+b'A performer holding the rod low is represented by a 1, while one holding it high is represented by a 2. Thus, the line of performers can be represented by a sequence a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an.'
+b'Little Tommy is among them. He would like to choose an interval [l,\xe2\x80\x89r] (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), then reverse al,\xe2\x80\x89al\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89...,\xe2\x80\x89ar so that the length of the longest non-decreasing subsequence of the new sequence is maximum.'
+b'A non-decreasing subsequence is a sequence of indices p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pk, such that p1\xe2\x80\x89<\xe2\x80\x89p2\xe2\x80\x89<\xe2\x80\x89...\xe2\x80\x89<\xe2\x80\x89pk and ap1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ap2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89...\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89apk. The length of the subsequence is k.'
+b'Input'
+b'The first line contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000), denoting the length of the original sequence.'
+b'The second line contains n space-separated integers, describing the original sequence a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892,\xe2\x80\x89i\xe2\x80\x89=\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89n).'
+b'Output'
+b'Print a single integer, which means the maximum possible length of the longest non-decreasing subsequence of the new sequence.'
+Tags
+dp, *1800

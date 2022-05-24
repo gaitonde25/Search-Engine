@@ -1,0 +1,14 @@
+b'You are playing one RPG from the 2010s. You are planning to raise your smithing skill, so you need as many resources as possible. So how to get resources? By stealing, of course.'
+b"You decided to rob a town's blacksmith and you take a follower with you. You can carry at most pp units and your follower\xc2\xa0\xe2\x80\x94 at most ff units."
+b"In the blacksmith shop, you found cntscnts swords and cntwcntw war axes. Each sword weights ss units and each war axe\xc2\xa0\xe2\x80\x94 ww units. You don't care what to take, since each of them will melt into one steel ingot."
+b'What is the maximum number of weapons (both swords and war axes) you and your follower can carry out from the shop?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b"The first line of each test case contains two integers pp and ff (1\xe2\x89\xa4p,f\xe2\x89\xa41091\xe2\x89\xa4p,f\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 yours and your follower's capacities."
+b'The second line of each test case contains two integers cntscnts and cntwcntw (1\xe2\x89\xa4cnts,cntw\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4cnts,cntw\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of swords and war axes in the shop.'
+b'The third line of each test case contains two integers ss and ww (1\xe2\x89\xa4s,w\xe2\x89\xa41091\xe2\x89\xa4s,w\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the weights of each sword and each war axe.'
+b"It's guaranteed that the total number of swords and the total number of war axes in all test cases don't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print the maximum number of weapons (both swords and war axes) you and your follower can carry.'
+Tags
+brute force, greedy, math, *1700

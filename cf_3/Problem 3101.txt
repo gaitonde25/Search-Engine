@@ -1,0 +1,10 @@
+b"You're given a tree consisting of nn nodes. Every node uu has a weight auau. It is guaranteed that there is only one node with minimum weight in the tree. For every node uu (except for the node with the minimum weight), it must have a neighbor vv such that av<auav<au. You should construct a tree to minimize the weight ww calculated as follows:"
+b'  For every node uu, degu\xe2\x8b\x85audegu\xe2\x8b\x85au is added to ww (degudegu is the number of edges containing node uu).  For every edge {u,v}{u,v}, \xe2\x8c\x88log2(dist(u,v))\xe2\x8c\x89\xe2\x8b\x85min(au,av)\xe2\x8c\x88log2(dist(u,v))\xe2\x8c\x89\xe2\x8b\x85min(au,av) is added to ww, where dist(u,v)dist(u,v) is the number of edges in the path from uu to vv in the given tree. '
+b'Input'
+b'The first line contains the integer nn (2\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105)(2\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105), the number of nodes in the tree.'
+b'The second line contains nn space-separated integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4109)(1\xe2\x89\xa4ai\xe2\x89\xa4109), the weights of the nodes.'
+b"The next n\xe2\x88\x921n\xe2\x88\x921 lines, each contains 2 space-separated integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n)(1\xe2\x89\xa4u,v\xe2\x89\xa4n) which means there's an edge between uu and vv."
+b'Output'
+b'Output one integer, the minimum possible value for ww.'
+Tags
+data structures, trees, *2800

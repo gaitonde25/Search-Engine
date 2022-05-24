@@ -1,0 +1,11 @@
+b'John Smith knows that his son, Thomas Smith, is among the best students in his class and even in his school. After the students of the school took the exams in English, German, Math, and History, a table of results was formed.'
+b"There are nn students, each of them has a unique id (from 11 to nn). Thomas's id is 11. Every student has four scores correspond to his or her English, German, Math, and History scores. The students are given in order of increasing of their ids."
+b'In the table, the students will be sorted by decreasing the sum of their scores. So, a student with the largest sum will get the first place. If two or more students have the same sum, these students will be sorted by increasing their ids. '
+b'Please help John find out the rank of his son. '
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of students.'
+b'Each of the next nn lines contains four integers aiai, bibi, cici, and didi (0\xe2\x89\xa4ai,bi,ci,di\xe2\x89\xa41000\xe2\x89\xa4ai,bi,ci,di\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the grades of the ii-th student on English, German, Math, and History. The id of the ii-th student is equal to ii.'
+b'Output'
+b"Print the rank of Thomas Smith. Thomas's id is 11."
+Tags
+implementation, *800

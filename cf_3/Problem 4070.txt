@@ -1,0 +1,12 @@
+b'Petya had a tree consisting of n vertices numbered with integers from 1 to n. Accidentally he lost his tree. '
+b'Petya remembers information about k vertices: distances from each of them to each of the n tree vertices.'
+b"Your task is to restore any tree that satisfies the information that Petya remembers or report that such tree doesn't exist."
+b'Input'
+b'The first line contains two integers n and k (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8930\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(200,\xe2\x80\x89n)) \xe2\x80\x94 the number of vertices in the tree and the number of vertices about which Petya remembers distance information.'
+b'The following k lines contain remembered information. The i-th line contains n integers di,\xe2\x80\x891,\xe2\x80\x89di,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89di,\xe2\x80\x89n (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di,\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891), where di,\xe2\x80\x89j \xe2\x80\x94 the distance to j-th vertex from the i-th vertex that Petya remembers.'
+b'Output'
+b'If there are no suitable trees, print -1.'
+b'In the other case, print n\xe2\x80\x89-\xe2\x80\x891 lines: each line should contain two vertices connected by edge in the required tree. You can print edges and vertices in an edge in any order. The tree vertices are enumerated from 1 to n.'
+b'If there are many solutions print any of them.'
+Tags
+graphs, greedy, trees, *2900

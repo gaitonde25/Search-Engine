@@ -1,0 +1,17 @@
+*special
+colcol
+dfs
+geometry
+implementation
+input
+input
+integers
+output
+output
+problem
+rowrow
+separated
+similar
+single
+space
+tags

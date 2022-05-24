@@ -1,0 +1,13 @@
+b"Ivar the Boneless is a great leader. He is trying to capture Kattegat from Lagertha. The war has begun and wave after wave Ivar's warriors are falling in battle."
+b'Ivar has nn warriors, he places them on a straight line in front of the main gate, in a way that the ii-th warrior stands right after (i\xe2\x88\x921)(i\xe2\x88\x921)-th warrior. The first warrior leads the attack.'
+b"Each attacker can take up to aiai arrows before he falls to the ground, where aiai is the ii-th warrior's strength."
+b"Lagertha orders her warriors to shoot kiki arrows during the ii-th minute, the arrows one by one hit the first still standing warrior. After all Ivar's warriors fall and all the currently flying arrows fly by, Thor smashes his hammer and all Ivar's warriors get their previous strengths back and stand up to fight again. In other words, if all warriors die in minute tt, they will all be standing to fight at the end of minute tt."
+b'The battle will last for qq minutes, after each minute you should tell Ivar what is the number of his standing warriors.'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa42000001\xe2\x89\xa4n,q\xe2\x89\xa4200000)\xc2\xa0\xe2\x80\x94 the number of warriors and the number of minutes in the battle.'
+b"The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) that represent the warriors' strengths."
+b"The third line contains qq integers k1,k2,\xe2\x80\xa6,kqk1,k2,\xe2\x80\xa6,kq (1\xe2\x89\xa4ki\xe2\x89\xa410141\xe2\x89\xa4ki\xe2\x89\xa41014), the ii-th of them represents Lagertha's order at the ii-th minute: kiki arrows will attack the warriors."
+b'Output'
+b'Output qq lines, the ii-th of them is the number of standing warriors after the ii-th minute.'
+Tags
+binary search, *1400

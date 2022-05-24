@@ -1,0 +1,13 @@
+b'On a circle lie 2n2n distinct points, with the following property: however you choose 33 chords that connect 33 disjoint pairs of points, no point strictly inside the circle belongs to all 33 chords. The points are numbered 1,2,\xe2\x80\xa6,2n1,2,\xe2\x80\xa6,2n in clockwise order.'
+b'Initially, kk chords connect kk pairs of points, in such a way that all the 2k2k endpoints of these chords are distinct.'
+b'You want to draw n\xe2\x88\x92kn\xe2\x88\x92k additional chords that connect the remaining 2(n\xe2\x88\x92k)2(n\xe2\x88\x92k) points (each point must be an endpoint of exactly one chord).'
+b'In the end, let xx be the total number of intersections among all nn chords. Compute the maximum value that xx can attain if you choose the n\xe2\x88\x92kn\xe2\x88\x92k chords optimally.'
+b'Note that the exact position of the 2n2n points is not relevant, as long as the property stated in the first paragraph holds.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 half the number of points and the number of chords initially drawn.'
+b'Then kk lines follow. The ii-th of them contains two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa42n1\xe2\x89\xa4xi,yi\xe2\x89\xa42n, xi\xe2\x89\xa0yixi\xe2\x89\xa0yi) \xe2\x80\x94 the endpoints of the ii-th chord. It is guaranteed that the 2k2k numbers x1,y1,x2,y2,\xe2\x80\xa6,xk,ykx1,y1,x2,y2,\xe2\x80\xa6,xk,yk are all distinct.'
+b'Output'
+b'For each test case, output the maximum number of intersections that can be obtained by drawing n\xe2\x88\x92kn\xe2\x88\x92k additional chords.'
+Tags
+combinatorics, constructive algorithms, geometry, greedy, sortings, *1800

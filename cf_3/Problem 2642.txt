@@ -1,0 +1,16 @@
+b"Every person likes prime numbers. Alice is a person, thus she also shares the love for them. Bob wanted to give her an affectionate gift but couldn't think of anything inventive. Hence, he will be giving her a graph. How original, Bob! Alice will surely be thrilled!"
+b'When building the graph, he needs four conditions to be satisfied: '
+b'  It must be a simple undirected graph, i.e. without multiple (parallel) edges and self-loops.  The number of vertices must be exactly nn\xc2\xa0\xe2\x80\x94 a number he selected. This number is not necessarily prime.  The total number of edges must be prime.  The degree (i.e. the number of edges connected to the vertex) of each vertex must be prime. '
+b'Below is an example for n=4n=4. The first graph (left one) is invalid as the degree of vertex 22 (and 44) equals to 11, which is not prime. The second graph (middle one) is invalid as the total number of edges is 44, which is not a prime number. The third graph (right one) is a valid answer for n=4n=4. '
+b'  '
+b'Note that the graph can be disconnected.'
+b'Please help Bob to find any such graph!'
+b'Input'
+b'The input consists of a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa410003\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of vertices.'
+b'Output'
+b'If there is no graph satisfying the conditions, print a single line containing the integer \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, first print a line containing a prime number mm (2\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)22\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)2)\xc2\xa0\xe2\x80\x94 the number of edges in the graph. Then, print mm lines, the ii-th of which containing two integers uiui, vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 meaning that there is an edge between vertices uiui and vivi. The degree of each vertex must be prime. There must be no multiple (parallel) edges or self-loops.'
+b'If there are multiple solutions, you may print any of them.'
+b'Note that the graph can be disconnected.'
+Tags
+constructive algorithms, greedy, math, number theory, *1500

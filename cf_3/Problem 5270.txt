@@ -1,0 +1,10 @@
+b'After making bad dives into swimming pools, Wilbur wants to build a swimming pool in the shape of a rectangle in his backyard. He has set up coordinate axes, and he wants the sides of the rectangle to be parallel to them. Of course, the area of the rectangle must be positive. Wilbur had all four vertices of the planned pool written on a paper, until his friend came along and erased some of the vertices.'
+b'Now Wilbur is wondering, if the remaining n vertices of the initial rectangle give enough information to restore the area of the planned swimming pool.'
+b'Input'
+b"The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x894)\xc2\xa0\xe2\x80\x94 the number of vertices that were not erased by Wilbur's friend."
+b'Each of the following n lines contains two integers xi and yi (\xe2\x80\x89-\xe2\x80\x891000\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94the coordinates of the i-th vertex that remains. Vertices are given in an arbitrary order.'
+b"It's guaranteed that these points are distinct vertices of some rectangle, that has positive area and which sides are parallel to the coordinate axes."
+b'Output'
+b'Print the area of the initial rectangle if it could be uniquely determined by the points remaining. Otherwise, print \xe2\x80\x89-\xe2\x80\x891. '
+Tags
+geometry, implementation, *1100

@@ -1,0 +1,11 @@
+b'At the foot of Liyushan Mountain, nn tents will be carefully arranged to provide accommodation for those who are willing to experience the joy of approaching nature, the tranquility of the night, and the bright starry sky.'
+b'The ii-th tent is located at the point of (xi,yi)(xi,yi) and has a weight of wiwi. A tent is important if and only if both xixi and yiyi are even. You need to remove some tents such that for each remaining important tent (x,y)(x,y), there do not exist 33 other tents (x\xe2\x80\xb21,y\xe2\x80\xb21)(x1\xe2\x80\xb2,y1\xe2\x80\xb2), (x\xe2\x80\xb22,y\xe2\x80\xb22)(x2\xe2\x80\xb2,y2\xe2\x80\xb2) and (x\xe2\x80\xb23,y\xe2\x80\xb23)(x3\xe2\x80\xb2,y3\xe2\x80\xb2) such that both conditions are true: '
+b'  |x\xe2\x80\xb2j\xe2\x88\x92x|,|y\xe2\x80\xb2j\xe2\x88\x92y|\xe2\x89\xa41|xj\xe2\x80\xb2\xe2\x88\x92x|,|yj\xe2\x80\xb2\xe2\x88\x92y|\xe2\x89\xa41 for all j\xe2\x88\x88{1,2,3}j\xe2\x88\x88{1,2,3}, and  these four tents form a parallelogram (or a rectangle) and one of its sides is parallel to the xx-axis. '
+b'Please maximize the sum of the weights of the tents that are not removed. Print the maximum value.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000), representing the number of tents.'
+b'Each of the next nn lines contains three integers xixi, yiyi and wiwi (\xe2\x88\x92109\xe2\x89\xa4xi,yi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4xi,yi\xe2\x89\xa4109, 1\xe2\x89\xa4wi\xe2\x89\xa41091\xe2\x89\xa4wi\xe2\x89\xa4109), representing the coordinate of the ii-th tent and its weight. No two tents are located at the same point.'
+b'Output'
+b'A single integer \xe2\x80\x94 the maximum sum of the weights of the remaining tents.'
+Tags
+constructive algorithms, flows, graphs, *3300

@@ -1,0 +1,13 @@
+b'After a successful year of milk production, Farmer John is rewarding his cows with their favorite treat: tasty grass!'
+b'On the field, there is a row of nn units of grass, each with a sweetness sisi. Farmer John has mm cows, each with a favorite sweetness fifi and a hunger value hihi. He would like to pick two disjoint subsets of cows to line up on the left and right side of the grass row. There is no restriction on how many cows must be on either side. The cows will be treated in the following manner: '
+b'  The cows from the left and right side will take turns feeding in an order decided by Farmer John.  When a cow feeds, it walks towards the other end without changing direction and eats grass of its favorite sweetness until it eats hihi units.  The moment a cow eats hihi units, it will fall asleep there, preventing further cows from passing it from both directions.  If it encounters another sleeping cow or reaches the end of the grass row, it will get upset. Farmer John absolutely does not want any cows to get upset. '
+b'Note that grass does not grow back. Also, to prevent cows from getting upset, not every cow has to feed since FJ can choose a subset of them. '
+b'Surprisingly, FJ has determined that sleeping cows are the most satisfied. If FJ orders optimally, what is the maximum number of sleeping cows that can result, and how many ways can FJ choose the subset of cows on the left and right side to achieve that maximum number of sleeping cows (modulo 109+7109+7)? The order in which FJ sends the cows does not matter as long as no cows get upset. '
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4n\xe2\x89\xa45000, 1\xe2\x89\xa4m\xe2\x89\xa450001\xe2\x89\xa4m\xe2\x89\xa45000) \xc2\xa0\xe2\x80\x94 the number of units of grass and the number of cows. '
+b'The second line contains nn integers s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (1\xe2\x89\xa4si\xe2\x89\xa4n1\xe2\x89\xa4si\xe2\x89\xa4n) \xc2\xa0\xe2\x80\x94 the sweetness values of the grass.'
+b'The ii-th of the following mm lines contains two integers fifi and hihi (1\xe2\x89\xa4fi,hi\xe2\x89\xa4n1\xe2\x89\xa4fi,hi\xe2\x89\xa4n) \xc2\xa0\xe2\x80\x94 the favorite sweetness and hunger value of the ii-th cow. No two cows have the same hunger and favorite sweetness simultaneously.'
+b'Output'
+b'Output two integers \xc2\xa0\xe2\x80\x94 the maximum number of sleeping cows that can result and the number of ways modulo 109+7109+7. '
+Tags
+binary search, combinatorics, dp, greedy, implementation, math, *2500

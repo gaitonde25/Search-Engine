@@ -1,0 +1,10 @@
+b'The year 2015 is almost over.'
+b"Limak is a little polar bear. He has recently learnt about the binary system. He noticed that the passing year has exactly one zero in its representation in the binary system\xc2\xa0\xe2\x80\x94 201510\xe2\x80\x89=\xe2\x80\x89111110111112. Note that he doesn't care about the number of zeros in the decimal representation."
+b'Limak chose some interval of years. He is going to count all years from this interval that have exactly one zero in the binary representation. Can you do it faster?'
+b'Assume that all positive integers are always written without leading zeros.'
+b'Input'
+b"The only line of the input contains two integers a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018)\xc2\xa0\xe2\x80\x94 the first year and the last year in Limak's interval respectively."
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x93 the number of years Limak will count in his chosen interval.'
+Tags
+bitmasks, brute force, implementation, *1300

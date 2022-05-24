@@ -1,0 +1,12 @@
+b'Michael has just bought a new electric car for moving across city. Michael does not like to overwork, so each day he drives to only one of two his jobs.'
+b"Michael's day starts from charging his electric car for getting to the work and back. He spends 1000 burles on charge if he goes to the first job, and 2000 burles if he goes to the second job."
+b'On a charging station he uses there is a loyalty program that involves bonus cards. Bonus card may have some non-negative amount of bonus burles. Each time customer is going to buy something for the price of x burles, he is allowed to pay an amount of y (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x) burles that does not exceed the bonus card balance with bonus burles. In this case he pays x\xe2\x80\x89-\xe2\x80\x89y burles with cash, and the balance on the bonus card is decreased by y bonus burles. '
+b'If customer pays whole price with cash (i.e., y\xe2\x80\x89=\xe2\x80\x890) then 10% of price is returned back to the bonus card. This means that bonus card balance increases by  bonus burles. Initially the bonus card balance is equal to 0 bonus burles.'
+b'Michael has planned next n days and he knows how much does the charge cost on each of those days. Help Michael determine the minimum amount of burles in cash he has to spend with optimal use of bonus card. Assume that Michael is able to cover any part of the price with cash in any day. It is not necessary to spend all bonus burles at the end of the given period.'
+b'Input'
+b'The first line of input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300\xe2\x80\x89000), the number of days Michael has planned.'
+b'Next line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (ai\xe2\x80\x89=\xe2\x80\x891000 or ai\xe2\x80\x89=\xe2\x80\x892000) with ai denoting the charging cost at the day i.'
+b'Output'
+b'Output the minimum amount of burles Michael has to spend.'
+Tags
+binary search, dp, greedy, *2400

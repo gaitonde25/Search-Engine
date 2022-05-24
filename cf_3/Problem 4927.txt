@@ -1,0 +1,11 @@
+b"The rules of Sith Tournament are well known to everyone. n Sith take part in the Tournament. The Tournament starts with the random choice of two Sith who will fight in the first battle. As one of them loses, his place is taken by the next randomly chosen Sith who didn't fight before. Does it need to be said that each battle in the Sith Tournament ends with a death of one of opponents? The Tournament ends when the only Sith remains alive."
+b"Jedi Ivan accidentally appeared in the list of the participants in the Sith Tournament. However, his skills in the Light Side of the Force are so strong so he can influence the choice of participants either who start the Tournament or who take the loser's place after each battle. Of course, he won't miss his chance to take advantage of it. Help him to calculate the probability of his victory."
+b'Input'
+b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8918)\xc2\xa0\xe2\x80\x94 the number of participants of the Sith Tournament.'
+b'Each of the next n lines contains n real numbers, which form a matrix pij (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891). Each its element pij is the probability that the i-th participant defeats the j-th in a duel.'
+b'The elements on the main diagonal pii are equal to zero. For all different i, j the equality pij\xe2\x80\x89+\xe2\x80\x89pji\xe2\x80\x89=\xe2\x80\x891 holds. All probabilities are given with no more than six decimal places.'
+b'Jedi Ivan is the number 1 in the list of the participants.'
+b'Output'
+b'Output a real number\xc2\xa0\xe2\x80\x94 the probability that Jedi Ivan will stay alive after the Tournament. Absolute or relative error of the answer must not exceed 10\xe2\x80\x89-\xe2\x80\x896.'
+Tags
+bitmasks, dp, math, probabilities, *2200

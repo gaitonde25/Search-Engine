@@ -1,0 +1,12 @@
+b"You have a Petri dish with bacteria and you are preparing to dive into the harsh micro-world. But, unfortunately, you don't have any microscope nearby, so you can't watch them."
+b'You know that you have nn bacteria in the Petri dish and size of the ii-th bacteria is aiai. Also you know intergalactic positive integer constant KK.'
+b"The ii-th bacteria can swallow the jj-th bacteria if and only if ai>ajai>aj and ai\xe2\x89\xa4aj+Kai\xe2\x89\xa4aj+K. The jj-th bacteria disappear, but the ii-th bacteria doesn't change its size. The bacteria can perform multiple swallows. On each swallow operation any bacteria ii can swallow any bacteria jj if ai>ajai>aj and ai\xe2\x89\xa4aj+Kai\xe2\x89\xa4aj+K. The swallow operations go one after another."
+b'For example, the sequence of bacteria sizes a=[101,53,42,102,101,55,54]a=[101,53,42,102,101,55,54] and K=1K=1. The one of possible sequences of swallows is: [101,53,42,102,101\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,55,54][101,53,42,102,101_,55,54] \xe2\x86\x92\xe2\x86\x92 [101,53\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,42,102,55,54][101,53_,42,102,55,54] \xe2\x86\x92\xe2\x86\x92 [101\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,42,102,55,54][101_,42,102,55,54] \xe2\x86\x92\xe2\x86\x92 [42,102,55,54\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93][42,102,55,54_] \xe2\x86\x92\xe2\x86\x92 [42,102,55][42,102,55]. In total there are 33 bacteria remained in the Petri dish.'
+b"Since you don't have a microscope, you can only guess, what the minimal possible number of bacteria can remain in your Petri dish when you finally will find any microscope."
+b'Input'
+b'The first line contains two space separated positive integers nn and KK (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4K\xe2\x89\xa41061\xe2\x89\xa4K\xe2\x89\xa4106) \xe2\x80\x94 number of bacteria and intergalactic constant KK.'
+b'The second line contains nn space separated integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106) \xe2\x80\x94 sizes of bacteria you have.'
+b'Output'
+b'Print the only integer \xe2\x80\x94 minimal possible number of bacteria can remain.'
+Tags
+greedy, sortings, *1200

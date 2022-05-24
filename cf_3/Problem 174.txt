@@ -1,0 +1,13 @@
+b"Alice's potion making professor gave the following assignment to his students: brew a potion using nn ingredients, such that the proportion of ingredient ii in the final potion is ri>0ri>0 (and r1+r2+\xe2\x8b\xaf+rn=1r1+r2+\xe2\x8b\xaf+rn=1)."
+b'He forgot the recipe, and now all he remembers is a set of n\xe2\x88\x921n\xe2\x88\x921 facts of the form, "ingredients ii and jj should have a ratio of xx to yy" (i.e., if aiai and ajaj are the amounts of ingredient ii and jj in the potion respectively, then it must hold ai/aj=x/yai/aj=x/y), where xx and yy are positive integers. However, it is guaranteed that the set of facts he remembers is sufficient to uniquely determine the original values riri.'
+b'He decided that he will allow the students to pass the class as long as they submit a potion which satisfies all of the n\xe2\x88\x921n\xe2\x88\x921 requirements (there may be many such satisfactory potions), and contains a positive integer amount of each ingredient.'
+b'Find the minimum total amount of ingredients needed to make a potion which passes the class. As the result can be very large, you should print the answer modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains four integers i,j,x,yi,j,x,y (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n, i\xe2\x89\xa0ji\xe2\x89\xa0j, 1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n) \xe2\x80\x94 ingredients ii and jj should have a ratio of xx to yy. It is guaranteed that the set of facts is sufficient to uniquely determine the original values riri.'
+b'It is also guaranteed that the sum of nn for all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print the minimum total amount of ingredients needed to make a potion which passes the class, modulo 998244353998244353.'
+Tags
+dfs and similar, math, number theory, trees, *2100

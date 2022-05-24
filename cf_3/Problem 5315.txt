@@ -1,0 +1,8 @@
+b'Olesya loves numbers consisting of n digits, and Rodion only likes numbers that are divisible by t. Find some number that satisfies both of them.'
+b"Your task is: given the n and t print an integer strictly larger than zero consisting of n digits that is divisible by t. If such number doesn't exist, print \xe2\x80\x89-\xe2\x80\x891."
+b'Input'
+b'The single line contains two numbers, n and t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910) \xe2\x80\x94 the length of the number and the number it should be divisible by.'
+b'Output'
+b"Print one such positive number without leading zeroes, \xe2\x80\x94 the answer to the problem, or \xe2\x80\x89-\xe2\x80\x891, if such number doesn't exist. If there are multiple possible answers, you are allowed to print any of them."
+Tags
+math, *1000

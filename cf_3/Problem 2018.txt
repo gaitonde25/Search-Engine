@@ -1,0 +1,11 @@
+b'You are given a string ss of lowercase Latin letters. It is required to paint each letter of the string in one of two colors (red or blue) so that if you write all the red letters from left to right and write all the blue letters from left to right, then the lexicographically maximum of the two written strings is lexicographically minimal. For each index, in the string ss you can choose either of two colors.'
+b'Formally, we write out:'
+b'  the string rr (can be empty) \xe2\x80\x94 all red letters in the order from left to right (red subsequence),  the string bb (can be empty) \xe2\x80\x94 all blue letters in the order from left to right (blue subsequence). '
+b'Your task is to paint the string such that max(r,b)max(r,b) is minimal. Small reminder: the empty string is the lexicographically smallest string.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases in the test. Next, the test cases are given, one per line.'
+b'Each test case is a non-empty string ss of length between 22 to 100100 characters, inclusive, which consists of lowercase Latin letters.'
+b'Output'
+b"Print tt lines, the ii-th of them should contain the answer to the ii-th test case of the input. Print a string of length nn, where nn is the length of the given string ss: the jj-th character of the string should be either 'R'or 'B' depending on the color of the jj-th character in the answer (painted in red or blue). If there are several possible answers, print any of them."
+Tags
+*special problem, dp, strings

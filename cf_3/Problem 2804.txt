@@ -1,0 +1,4 @@
+b'There is a weighted tree with nn nodes and n\xe2\x88\x921n\xe2\x88\x921 edges. The nodes are conveniently labeled from 11 to nn. The weights are positive integers at most 100100. Define the distance between two nodes to be the sum of edges on the unique path between the nodes. You would like to find the diameter of the tree. Diameter is the maximum distance between a pair of nodes.'
+b"Unfortunately, the tree isn't given to you, but you can ask some questions about it. In one question, you can specify two nonempty disjoint sets of nodes pp and qq, and the judge will return the maximum distance between a node in pp and a node in qq. In the words, maximum distance between xx and yy, where x\xe2\x88\x88px\xe2\x88\x88p and y\xe2\x88\x88qy\xe2\x88\x88q. After asking not more than 99 questions, you must report the maximum distance between any pair of nodes."
+Tags
+bitmasks, graphs, interactive, *1700

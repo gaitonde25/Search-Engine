@@ -1,0 +1,13 @@
+b'Turbulent times are coming, so you decided to buy sugar in advance. There are nn shops around that sell sugar: the ii-th shop sells one pack of sugar for aiai coins, but only one pack to one customer each day. So in order to buy several packs, you need to visit several shops.'
+b'Another problem is that prices are increasing each day: during the first day the cost is aiai, during the second day cost is ai+1ai+1, during the third day\xc2\xa0\xe2\x80\x94 ai+2ai+2 and so on for each shop ii.'
+b"On the contrary, your everyday budget is only xx coins. In other words, each day you go and buy as many packs as possible with total cost not exceeding xx. Note that if you don't spend some amount of coins during a day, you can't use these coins during the next days."
+b"Eventually, the cost for each pack will exceed xx, and you won't be able to buy even a single pack. So, how many packs will you be able to buy till that moment in total?"
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Next tt cases follow.'
+b'The first line of each test case contains two integers nn and xx (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of shops and your everyday budget.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the initial cost of one pack in each shop.'
+b"It's guaranteed that the total sum of nn doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print one integer\xc2\xa0\xe2\x80\x94 the total number of packs you will be able to buy until prices exceed your everyday budget.'
+Tags
+binary search, brute force, greedy, math, *1200

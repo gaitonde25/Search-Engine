@@ -1,0 +1,10 @@
+b'You are given two strings ss and tt consisting of lowercase Latin letters. The length of tt is 22 (i.e. this string consists only of two characters).'
+b"In one move, you can choose any character of ss and replace it with any lowercase Latin letter. More formally, you choose some ii and replace sisi (the character at the position ii) with some character from 'a' to 'z'."
+b'You want to do no more than kk replacements in such a way that maximizes the number of occurrences of tt in ss as a subsequence.'
+b'Recall that a subsequence is a sequence that can be derived from the given sequence by deleting zero or more elements without changing the order of the remaining elements.'
+b'Input'
+b'The first line of the input contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa42002\xe2\x89\xa4n\xe2\x89\xa4200; 0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the length of ss and the maximum number of moves you can make. The second line of the input contains the string ss consisting of nn lowercase Latin letters. The third line of the input contains the string tt consisting of two lowercase Latin letters.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum possible number of occurrences of tt in ss as a subsequence if you replace no more than kk characters in ss optimally.'
+Tags
+dp, strings, *2100

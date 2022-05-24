@@ -1,0 +1,13 @@
+b"You are given a string ss, consisting of nn letters, each letter is either 'a' or 'b'. The letters in the string are numbered from 11 to nn."
+b's[l;r]s[l;r] is a continuous substring of letters from index ll to rr of the string inclusive. '
+b'A string is called balanced if the number of letters \'a\' in it is equal to the number of letters \'b\'. For example, strings "baba" and "aabbab" are balanced and strings "aaab" and "b" are not.'
+b'Find any non-empty balanced substring s[l;r]s[l;r] of string ss. Print its ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n). If there is no such substring, then print \xe2\x88\x921\xe2\x88\x921 \xe2\x88\x921\xe2\x88\x921.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Then the descriptions of tt testcases follow.'
+b'The first line of the testcase contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the length of the string.'
+b"The second line of the testcase contains a string ss, consisting of nn letters, each letter is either 'a' or 'b'."
+b'Output'
+b'For each testcase print two integers. If there exists a non-empty balanced substring s[l;r]s[l;r], then print ll rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n). Otherwise, print \xe2\x88\x921\xe2\x88\x921 \xe2\x88\x921\xe2\x88\x921.'
+Tags
+implementation, *800

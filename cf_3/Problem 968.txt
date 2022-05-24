@@ -1,0 +1,13 @@
+b'There is a binary string aa of length nn. In one operation, you can select any prefix of aa with an equal number of 00 and 11 symbols. Then all symbols in the prefix are inverted: each 00 becomes 11 and each 11 becomes 00.'
+b'For example, suppose a=0111010000a=0111010000. '
+b"  In the first operation, we can select the prefix of length 88 since it has four 00's and four 11's: [01110100]00\xe2\x86\x92[10001011]00[01110100]00\xe2\x86\x92[10001011]00.  In the second operation, we can select the prefix of length 22 since it has one 00 and one 11: [10]00101100\xe2\x86\x92[01]00101100[10]00101100\xe2\x86\x92[01]00101100.  It is illegal to select the prefix of length 44 for the third operation, because it has three 00's and one 11. "
+b'Can you transform the string aa into the string bb using some finite number of operations (possibly, none)?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the length of the strings aa and bb.'
+b'The following two lines contain strings aa and bb of length nn, consisting of symbols 00 and 11.'
+b'The sum of nn across all test cases does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output "YES" if it is possible to transform aa into bb, or "NO" if it is impossible. You can print each letter in any case (upper or lower).'
+Tags
+constructive algorithms, greedy, implementation, math, *1200

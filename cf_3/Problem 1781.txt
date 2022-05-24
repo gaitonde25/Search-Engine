@@ -1,0 +1,12 @@
+b'Phoenix is picking berries in his backyard. There are nn shrubs, and each shrub has aiai red berries and bibi blue berries.'
+b'Each basket can contain kk berries. But, Phoenix has decided that each basket may only contain berries from the same shrub or berries of the same color (red or blue). In other words, all berries in a basket must be from the same shrub or/and have the same color.'
+b'For example, if there are two shrubs with 55 red and 22 blue berries in the first shrub and 22 red and 11 blue berries in the second shrub then Phoenix can fill 22 baskets of capacity 44 completely: '
+b'  the first basket will contain 33 red and 11 blue berries from the first shrub;  the second basket will contain the 22 remaining red berries from the first shrub and 22 red berries from the second shrub. '
+b'Help Phoenix determine the maximum number of baskets he can fill completely!'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa45001\xe2\x89\xa4n,k\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the number of shrubs and the basket capacity, respectively.'
+b'The ii-th of the next nn lines contain two integers aiai and bibi (0\xe2\x89\xa4ai,bi\xe2\x89\xa41090\xe2\x89\xa4ai,bi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of red and blue berries in the ii-th shrub, respectively.'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the maximum number of baskets that Phoenix can fill completely.'
+Tags
+brute force, dp, greedy, math, *2400

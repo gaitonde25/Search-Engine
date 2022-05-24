@@ -1,0 +1,9 @@
+b'A permutation of length nn is an array p=[p1,p2,\xe2\x80\xa6,pn]p=[p1,p2,\xe2\x80\xa6,pn] which contains every integer from 11 to nn (inclusive) exactly once. For example, p=[4,2,6,5,3,1]p=[4,2,6,5,3,1] is a permutation of length 66.'
+b'You are given three integers nn, aa and bb, where nn is an even number. Print any permutation of length nn that the minimum among all its elements of the left half equals aa and the maximum among all its elements of the right half equals bb. Print -1 if no such permutation exists.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000), the number of test cases in the test. The following tt lines contain test case descriptions.'
+b'Each test case description contains three integers nn, aa, bb (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100; 1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n; a\xe2\x89\xa0ba\xe2\x89\xa0b), where nn is an even number (i.e. nmod2=0nmod2=0).'
+b'Output'
+b'For each test case, print a single line containing any suitable permutation. Print -1 no such permutation exists. If there are multiple answers, print any of them.'
+Tags
+constructive algorithms, greedy, *900

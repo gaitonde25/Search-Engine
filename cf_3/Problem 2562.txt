@@ -1,0 +1,13 @@
+b'There are nn points on the plane, the ii-th of which is at (xi,yi)(xi,yi). Tokitsukaze wants to draw a strange rectangular area and pick all the points in the area.'
+b'The strange area is enclosed by three lines, x=lx=l, y=ay=a and x=rx=r, as its left side, its bottom side and its right side respectively, where ll, rr and aa can be any real numbers satisfying that l<rl<r. The upper side of the area is boundless, which you can regard as a line parallel to the xx-axis at infinity. The following figure shows a strange rectangular area.'
+b'  '
+b'A point (xi,yi)(xi,yi) is in the strange rectangular area if and only if l<xi<rl<xi<r and yi>ayi>a. For example, in the above figure, p1p1 is in the area while p2p2 is not.'
+b'Tokitsukaze wants to know how many different non-empty sets she can obtain by picking all the points in a strange rectangular area, where we think two sets are different if there exists at least one point in one set of them but not in the other.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xc3\x971051\xe2\x89\xa4n\xe2\x89\xa42\xc3\x97105)\xc2\xa0\xe2\x80\x94 the number of points on the plane.'
+b'The ii-th of the next nn lines contains two integers xixi, yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa41091\xe2\x89\xa4xi,yi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the coordinates of the ii-th point.'
+b'All points are distinct.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of different non-empty sets of points she can obtain.'
+Tags
+data structures, divide and conquer, sortings, two pointers, *2000

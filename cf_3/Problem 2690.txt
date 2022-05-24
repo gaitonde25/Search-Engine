@@ -1,0 +1,10 @@
+b'Toad Rash has a binary string ss. A binary string consists only of zeros and ones.'
+b'Let nn be the length of ss.'
+b'Rash needs to find the number of such pairs of integers ll, rr that 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n and there is at least one pair of integers xx, kk such that 1\xe2\x89\xa4x,k\xe2\x89\xa4n1\xe2\x89\xa4x,k\xe2\x89\xa4n, l\xe2\x89\xa4x<x+2k\xe2\x89\xa4rl\xe2\x89\xa4x<x+2k\xe2\x89\xa4r, and sx=sx+k=sx+2ksx=sx+k=sx+2k.'
+b'Find this number of pairs for Rash.'
+b'Input'
+b'The first line contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa43000001\xe2\x89\xa4|s|\xe2\x89\xa4300000), consisting of zeros and ones.'
+b'Output'
+b'Output one integer: the number of such pairs of integers ll, rr that 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n and there is at least one pair of integers xx, kk such that 1\xe2\x89\xa4x,k\xe2\x89\xa4n1\xe2\x89\xa4x,k\xe2\x89\xa4n, l\xe2\x89\xa4x<x+2k\xe2\x89\xa4rl\xe2\x89\xa4x<x+2k\xe2\x89\xa4r, and sx=sx+k=sx+2ksx=sx+k=sx+2k.'
+Tags
+brute force, two pointers, *1900

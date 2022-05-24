@@ -1,0 +1,15 @@
+b'You are given integers dd and pp, pp is prime. '
+b'Also you have a mysterious device. It has memory cells, each contains an integer between 00 and p\xe2\x88\x921p\xe2\x88\x921. Also two instructions are supported, addition and raising to the dd-th power. Both are moduloBoth are modulo pp.'
+b'The memory cells are numbered 1,2,\xe2\x80\xa6,50001,2,\xe2\x80\xa6,5000. Initially cells 11 and 22 contain integers xx and yy, respectively (0\xe2\xa9\xbdx,y\xe2\x89\xa4p\xe2\x88\x9210\xe2\xa9\xbdx,y\xe2\x89\xa4p\xe2\x88\x921). All other cells contain 11s. '
+b"You can not directly access values in cells, and you don't knowdon't know values of xx and yy (but you know they are written in first two cells). You mission, should you choose to accept it, is to write a program using the available instructions to obtain the product xyxy modulo pp in one of the cells. You program should work for all possible xx and yy."
+b'Addition instruction evaluates sum of values in two cells and writes it to third cell. This instruction is encoded by a string "+ e1 e2 to", which writes sum of values in cells e1 and e2 into cell to. Any values of e1, e2, to can coincide. '
+b'Second instruction writes the dd-th power of a value in some cell to the target cell. This instruction is encoded by a string "^ e to". Values e and to can coincide, in this case value in the cell will be overwritten. '
+b'Last instruction is special, this is the return instruction, and it is encoded by a string "f target". This means you obtained values xymodpxymodp in the cell target. No instructions should be called after this instruction.'
+b'Provide a program that obtains xymodpxymodp and uses no more than 50005000 instructions (including the return instruction).'
+b'It is guaranteed that, under given constrains, a solution exists. '
+b'Input'
+b'The first line contains space-separated integers dd and pp (2\xe2\xa9\xbdd\xe2\xa9\xbd102\xe2\xa9\xbdd\xe2\xa9\xbd10, d<pd<p, 3\xe2\xa9\xbdp\xe2\xa9\xbd109+93\xe2\xa9\xbdp\xe2\xa9\xbd109+9, pp is prime).'
+b'Output'
+b'Output instructions, one instruction per line in the above format. There should be no more than 50005000 lines, and the last line should be the return instruction.'
+Tags
+constructive algorithms, *3300

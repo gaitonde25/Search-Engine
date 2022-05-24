@@ -1,0 +1,17 @@
+b"Let's call some square matrix with integer values in its cells palindromic if it doesn't change after the order of rows is reversed and it doesn't change after the order of columns is reversed."
+b'For example, the following matrices are palindromic:'
+b'  '
+b'The following matrices are not palindromic because they change after the order of rows is reversed:'
+b'  '
+b'The following matrices are not palindromic because they change after the order of columns is reversed:'
+b'  '
+b'You are given n2n2 integers. Put them into a matrix of nn rows and nn columns so that each number is used exactly once, each cell contains exactly one number and the resulting matrix is palindromic. If there are multiple answers, print any. If there is no solution, print "NO".'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4201\xe2\x89\xa4n\xe2\x89\xa420).'
+b'The second line contains n2n2 integers a1,a2,\xe2\x80\xa6,an2a1,a2,\xe2\x80\xa6,an2 (1\xe2\x89\xa4ai\xe2\x89\xa410001\xe2\x89\xa4ai\xe2\x89\xa41000) \xe2\x80\x94 the numbers to put into a matrix of nn rows and nn columns.'
+b'Output'
+b'If it is possible to put all of the n2n2 numbers into a matrix of nn rows and nn columns so that each number is used exactly once, each cell contains exactly one number and the resulting matrix is palindromic, then print "YES". Then print nn lines with nn space-separated numbers \xe2\x80\x94 the resulting matrix.'
+b'If it\'s impossible to construct any matrix, then print "NO".'
+b'You can print each letter in any case (upper or lower). For example, "YeS", "no" and "yES" are all acceptable.'
+Tags
+constructive algorithms, implementation, *1700

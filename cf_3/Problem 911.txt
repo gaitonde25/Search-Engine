@@ -1,0 +1,10 @@
+b'Given an array aa of length nn, tell us whether it has a non-empty subsequence such that the product of its elements is not a perfect square.'
+b'A sequence bb is a subsequence of an array aa if bb can be obtained from aa by deleting some (possibly zero) elements.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the length of the array aa.'
+b'The second line of each test case contains nn integers a1a1, a2a2, \xe2\x80\xa6\xe2\x80\xa6, anan (1\xe2\x89\xa4ai\xe2\x89\xa41041\xe2\x89\xa4ai\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'Output'
+b'If there\'s a subsequence of aa whose product isn\'t a perfect square, print "YES". Otherwise, print "NO".'
+Tags
+math, number theory, *800

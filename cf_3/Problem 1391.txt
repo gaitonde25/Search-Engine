@@ -1,0 +1,11 @@
+b'Ori and Sein have overcome many difficult challenges. They finally lit the Shrouded Lantern and found Gumon Seal, the key to the Forlorn Ruins. When they tried to open the door to the ruins... nothing happened.'
+b'Ori was very surprised, but Sein gave the explanation quickly: clever Gumon decided to make an additional defence for the door.'
+b"There are nn lamps with Spirit Tree's light. Sein knows the time of turning on and off for the ii-th lamp\xc2\xa0\xe2\x80\x94 lili and riri respectively. To open the door you have to choose kk lamps in such a way that there will be a moment of time when they all will be turned on."
+b'While Sein decides which of the kk lamps to pick, Ori is interested: how many ways there are to pick such kk lamps that the door will open? It may happen that Sein may be wrong and there are no such kk lamps. The answer might be large, so print it modulo 998244353998244353.'
+b'Input'
+b'First line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 total number of lamps and the number of lamps that must be turned on simultaneously.'
+b'Next nn lines contain two integers lili ans riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa41091\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 period of time when ii-th lamp is turned on.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the answer to the task modulo 998244353998244353.'
+Tags
+combinatorics, data structures, sortings, *1800

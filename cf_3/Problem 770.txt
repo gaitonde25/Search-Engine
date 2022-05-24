@@ -1,0 +1,15 @@
+b'Polycarp is playing a new computer game. This game has nn stones in a row. The stone on the position ii has integer power aiai. The powers of all stones are distinct.'
+b'Each turn Polycarp can destroy either stone on the first position or stone on the last position (in other words, either the leftmost or the rightmost stone). When Polycarp destroys the stone it does not exist any more.'
+b'Now, Polycarp wants two achievements. He gets them if he destroys the stone with the least power and the stone with the greatest power. Help Polycarp find out what is the minimum number of moves he should make in order to achieve his goal.'
+b'For example, if n=5n=5 and a=[1,5,4,3,2]a=[1,5,4,3,2], then Polycarp could make the following moves: '
+b'  Destroy the leftmost stone. After this move a=[5,4,3,2]a=[5,4,3,2];  Destroy the rightmost stone. After this move a=[5,4,3]a=[5,4,3];  Destroy the leftmost stone. After this move a=[4,3]a=[4,3]. Polycarp destroyed the stones with the greatest and least power, so he can end the game. '
+b'Please note that in the example above, you can complete the game in two steps. For example: '
+b'  Destroy the leftmost stone. After this move a=[5,4,3,2]a=[5,4,3,2];  Destroy the leftmost stone. After this move a=[4,3,2]a=[4,3,2]. Polycarp destroyed the stones with the greatest and least power, so he can end the game. '
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Then tt test cases follow.'
+b'The first line of each test case contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of stones.'
+b'The second line contains nn distinct integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the power of the stones.'
+b'Output'
+b'For each test case, output the minimum number of moves required to destroy the stones with the greatest and the lowest power.'
+Tags
+brute force, dp, greedy, *800

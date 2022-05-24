@@ -1,0 +1,8 @@
+b"Let's call a fraction xyxy good if there exists at least one another fraction x\xe2\x80\xb2y\xe2\x80\xb2x\xe2\x80\xb2y\xe2\x80\xb2 such that xy=x\xe2\x80\xb2y\xe2\x80\xb2xy=x\xe2\x80\xb2y\xe2\x80\xb2, 1\xe2\x89\xa4x\xe2\x80\xb2,y\xe2\x80\xb2\xe2\x89\xa491\xe2\x89\xa4x\xe2\x80\xb2,y\xe2\x80\xb2\xe2\x89\xa49, the digit denoting x\xe2\x80\xb2x\xe2\x80\xb2 is contained in the decimal representation of xx, and the digit denoting y\xe2\x80\xb2y\xe2\x80\xb2 is contained in the decimal representation of yy. For example, 26132613 is a good fraction, because 2613=212613=21."
+b'You are given an integer number nn. Please calculate the number of good fractions xyxy such that 1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n and 1\xe2\x89\xa4y\xe2\x89\xa4n1\xe2\x89\xa4y\xe2\x89\xa4n. The answer may be really large, so print it modulo 998244353998244353.'
+b'Input'
+b'The only line of the input contains one integer nn (1\xe2\x89\xa4n<101001\xe2\x89\xa4n<10100).'
+b'Output'
+b'Print the number of good fractions xyxy such that 1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n and 1\xe2\x89\xa4y\xe2\x89\xa4n1\xe2\x89\xa4y\xe2\x89\xa4n. The answer may be really large, so print it modulo 998244353998244353.'
+Tags
+dp, *2700

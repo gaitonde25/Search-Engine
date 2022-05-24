@@ -1,0 +1,10 @@
+b'Given an array a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an of n integers, find the largest number in the array that is not a perfect square.'
+b'A number x is said to be a perfect square if there exists an integer y such that x\xe2\x80\x89=\xe2\x80\x89y2.'
+b'Input'
+b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the number of elements in the array.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89106\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106)\xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'It is guaranteed that at least one element of the array is not a perfect square.'
+b'Output'
+b'Print the largest number in the array which is not a perfect square. It is guaranteed that an answer always exists.'
+Tags
+brute force, implementation, math, *900

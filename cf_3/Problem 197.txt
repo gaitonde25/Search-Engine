@@ -1,0 +1,11 @@
+b"You are given an array aa of nn positive integers numbered from 11 to nn. Let's call an array integral if for any two, not necessarily different, numbers xx and yy from this array, x\xe2\x89\xa5yx\xe2\x89\xa5y, the number \xe2\x8c\x8axy\xe2\x8c\x8b\xe2\x8c\x8axy\xe2\x8c\x8b (xx divided by yy with rounding down) is also in this array."
+b'You are guaranteed that all numbers in aa do not exceed cc. Your task is to check whether this array is integral.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and cc (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106, 1\xe2\x89\xa4c\xe2\x89\xa41061\xe2\x89\xa4c\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the size of aa and the limit for the numbers in the array.'
+b'The second line of each test case contains nn integers a1a1, a2a2, ..., anan (1\xe2\x89\xa4ai\xe2\x89\xa4c1\xe2\x89\xa4ai\xe2\x89\xa4c)\xc2\xa0\xe2\x80\x94 the array aa.'
+b'Let NN be the sum of nn over all test cases and CC be the sum of cc over all test cases. It is guaranteed that N\xe2\x89\xa4106N\xe2\x89\xa4106 and C\xe2\x89\xa4106C\xe2\x89\xa4106.'
+b'Output'
+b'For each test case print Yes if the array is integral and No otherwise.'
+Tags
+brute force, constructive algorithms, data structures, math, *1800

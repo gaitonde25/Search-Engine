@@ -1,0 +1,15 @@
+b'There is an undirected, connected graph with nn vertices and mm weighted edges. A walk from vertex uu to vertex vv is defined as a sequence of vertices p1,p2,\xe2\x80\xa6,pkp1,p2,\xe2\x80\xa6,pk (which are not necessarily distinct) starting with uu and ending with vv, such that pipi and pi+1pi+1 are connected by an edge for 1\xe2\x89\xa4i<k1\xe2\x89\xa4i<k.'
+b'We define the length of a walk as follows: take the ordered sequence of edges and write down the weights on each of them in an array. Now, write down the bitwise AND of every nonempty prefix of this array. The length of the walk is the MEX of all these values.'
+b'More formally, let us have [w1,w2,\xe2\x80\xa6,wk\xe2\x88\x921][w1,w2,\xe2\x80\xa6,wk\xe2\x88\x921] where wiwi is the weight of the edge between pipi and pi+1pi+1. Then the length of the walk is given by MEX({w1,w1&w2,\xe2\x80\xa6,w1&w2&\xe2\x80\xa6&wk\xe2\x88\x921})MEX({w1,w1&w2,\xe2\x80\xa6,w1&w2&\xe2\x80\xa6&wk\xe2\x88\x921}), where && denotes the bitwise AND operation.'
+b'Now you must process qq queries of the form u v. For each query, find the minimum possible length of a walk from uu to vv.'
+b'The MEX (minimum excluded) of a set is the smallest non-negative integer that does not belong to the set. For instance: '
+b'  The MEX of {2,1}{2,1} is 00, because 00 does not belong to the set.  The MEX of {3,1,0}{3,1,0} is 22, because 00 and 11 belong to the set, but 22 does not.  The MEX of {0,3,1,2}{0,3,1,2} is 44 because 00, 11, 22 and 33 belong to the set, but 44 does not. '
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105; n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4min(n(n\xe2\x88\x921)2,105)n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4min(n(n\xe2\x88\x921)2,105)).'
+b'Each of the next mm lines contains three integers aa, bb, and ww (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n, a\xe2\x89\xa0ba\xe2\x89\xa0b; 0\xe2\x89\xa4w<2300\xe2\x89\xa4w<230) indicating an undirected edge between vertex aa and vertex bb with weight ww. The input will not contain self-loops or duplicate edges, and the provided graph will be connected.'
+b'The next line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105).'
+b'Each of the next qq lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v), the description of each query.'
+b'Output'
+b'For each query, print one line containing a single integer\xc2\xa0\xe2\x80\x94 the answer to the query.'
+Tags
+bitmasks, brute force, constructive algorithms, dfs and similar, dsu, graphs, *2200

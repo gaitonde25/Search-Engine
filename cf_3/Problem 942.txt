@@ -1,0 +1,11 @@
+b'Fox Ciel starts to learn programming. The first task is drawing a fox! However, that turns out to be too hard for a beginner, so she decides to draw a snake instead.'
+b"A snake is a pattern on a n by m table. Denote c-th cell of r-th row as (r,\xe2\x80\x89c). The tail of the snake is located at (1,\xe2\x80\x891), then it's body extends to (1,\xe2\x80\x89m), then goes down 2 rows to (3,\xe2\x80\x89m), then goes left to (3,\xe2\x80\x891) and so on."
+b"Your task is to draw this snake for Fox Ciel: the empty cells should be represented as dot characters ('.') and the snake cells should be filled with number signs ('#')."
+b'Consider sample tests in order to understand the snake pattern.'
+b'Input'
+b'The only line contains two integers: n and m (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950). '
+b'n is an odd number.'
+b'Output'
+b'Output n lines. Each line should contain a string consisting of m characters. Do not output spaces.'
+Tags
+implementation, *800

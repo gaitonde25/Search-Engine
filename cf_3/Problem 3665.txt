@@ -1,0 +1,13 @@
+b"Petya has a polygon consisting of nn vertices. All sides of the Petya's polygon are parallel to the coordinate axes, and each two adjacent sides of the Petya's polygon are perpendicular. It is guaranteed that the polygon is simple, that is, it doesn't have self-intersections and self-touches. All internal area of the polygon (borders are not included) was painted in black color by Petya."
+b'Also, Petya has a rectangular window, defined by its coordinates, through which he looks at the polygon. A rectangular window can not be moved. The sides of the rectangular window are parallel to the coordinate axes.'
+b"  Blue color represents the border of a polygon, red color is the Petya's window. The answer in this case is 2. "
+b"Determine the number of black connected areas of Petya's polygon, which can be seen through the rectangular window."
+b'Input'
+b'The first line contain four integers x1,y1,x2,y2x1,y1,x2,y2 (x1<x2x1<x2, y2<y1y2<y1) \xe2\x80\x94 the coordinates of top-left and bottom-right corners of the rectangular window. '
+b"The second line contains a single integer nn (4\xe2\x89\xa4n\xe2\x89\xa4150004\xe2\x89\xa4n\xe2\x89\xa415000) \xe2\x80\x94 the number of vertices in Petya's polygon."
+b"Each of the following nn lines contains two integers \xe2\x80\x94 the coordinates of vertices of the Petya's polygon in counterclockwise order. Guaranteed, that the given polygon satisfies the conditions described in the statement."
+b'All coordinates of the rectangular window and all coordinates of the vertices of the polygon are non-negative and do not exceed 1500015000.'
+b'Output'
+b"Print the number of black connected areas of Petya's polygon, which can be seen through the rectangular window."
+Tags
+data structures, dsu, geometry, trees, *2800

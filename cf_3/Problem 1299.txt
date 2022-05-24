@@ -1,0 +1,13 @@
+b"You are given a string ss of even length nn. String ss is binary, in other words, consists only of 0's and 1's."
+b'String ss has exactly n2n2 zeroes and n2n2 ones (nn is even).'
+b'In one operation you can reverse any substring of ss. A substring of a string is a contiguous subsequence of that string.'
+b'What is the minimum number of operations you need to make string ss alternating? A string is alternating if si\xe2\x89\xa0si+1si\xe2\x89\xa0si+1 for all ii. There are two types of alternating strings in general: 01010101... or 10101010...'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105; nn is even)\xc2\xa0\xe2\x80\x94 the length of string ss.'
+b'The second line of each test case contains a binary string ss of length nn (si\xe2\x88\x88si\xe2\x88\x88 {0, 1}). String ss has exactly n2n2 zeroes and n2n2 ones.'
+b"It's guaranteed that the total sum of nn over test cases doesn't exceed 105105."
+b'Output'
+b'For each test case, print the minimum number of operations to make ss alternating.'
+Tags
+constructive algorithms, greedy, *1200

@@ -1,0 +1,9 @@
+b'A chocolate bar has a rectangular shape and consists of n\xe2\x80\x89\xc3\x97\xe2\x80\x89m slices. In other words, a bar consists of n rows with m slices of chocolate in each row.'
+b"Each slice of chocolate is known to weigh 1 gram. Your task is to determine for each of the q chocolate bars whether it is possible to obtain a piece weighing p grams by breaking the bar several (possibly zero) times. The final piece of the chocolate bar should be whole, and breaks are made along the line of slices' section for the whole length of the current piece."
+b'Input'
+b'The first line contains the positive integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of chocolate bars. '
+b'Each of the following q lines contains three positive integers n, m and p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m,\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the size of the chocolate bar, and the weight of the piece which should be obtained.'
+b'Output'
+b'The output should contain q lines and the i-th line must contain "Yes" (without the quotes), if it is possible to perform the task for i-th chocolate bar, or "No" otherwise.'
+Tags
+*special problem, math, *1400

@@ -1,0 +1,16 @@
+b'Bash likes playing with arrays. He has an array a1,\xe2\x80\x89a2,\xe2\x80\x89... an of n integers. He likes to guess the greatest common divisor (gcd) of different segments of the array. Of course, sometimes the guess is not correct. However, Bash will be satisfied if his guess is almost correct.'
+b"Suppose he guesses that the gcd of the elements in the range [l,\xe2\x80\x89r] of a is x. He considers the guess to be almost correct if he can change at most one element in the segment such that the gcd of the segment is x after making the change. Note that when he guesses, he doesn't actually change the array \xe2\x80\x94 he just wonders if the gcd of the segment can be made x. Apart from this, he also sometimes makes changes to the array itself."
+b"Since he can't figure it out himself, Bash wants you to tell him which of his guesses are almost correct. Formally, you have to process q queries of one of the following forms:"
+b'  1\xe2\x80\x89l\xe2\x80\x89r\xe2\x80\x89x \xe2\x80\x94 Bash guesses that the gcd of the range [l,\xe2\x80\x89r] is x. Report if this guess is almost correct.  2\xe2\x80\x89i\xe2\x80\x89y \xe2\x80\x94 Bash sets ai to y. '
+b'Note: The array is 1-indexed.'
+b'Input'
+b'The first line contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105) \xc2\xa0\xe2\x80\x94 the size of the array.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'The third line contains an integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x894\xc2\xb7105) \xc2\xa0\xe2\x80\x94 the number of queries.'
+b'The next q lines describe the queries and may have one of the following forms:'
+b'  1\xe2\x80\x89l\xe2\x80\x89r\xe2\x80\x89x (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).  2\xe2\x80\x89i\xe2\x80\x89y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109). '
+b'Guaranteed, that there is at least one query of first type.'
+b'Output'
+b'For each query of first type, output "YES" (without quotes) if Bash\'s guess is almost correct and "NO" (without quotes) otherwise.'
+Tags
+data structures, number theory, *1900

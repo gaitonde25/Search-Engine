@@ -1,0 +1,10 @@
+b'Vasya has a sequence aa consisting of nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Vasya may pefrom the following operation: choose some number from the sequence and swap any pair of bits in its binary representation. For example, Vasya can transform number 66 (\xe2\x80\xa6000000001102)(\xe2\x80\xa6000000001102) into 33 (\xe2\x80\xa6000000000112)(\xe2\x80\xa6000000000112), 1212 (\xe2\x80\xa60000000011002)(\xe2\x80\xa60000000011002), 10261026 (\xe2\x80\xa6100000000102)(\xe2\x80\xa6100000000102) and many others. Vasya can use this operation any (possibly zero) number of times on any number from the sequence.'
+b'Vasya names a sequence as good one, if, using operation mentioned above, he can obtain the sequence with bitwise exclusive or of all elements equal to 00.'
+b"For the given sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an Vasya'd like to calculate number of integer pairs (l,r)(l,r) such that 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n and sequence al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar is good."
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 length of the sequence.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa410181\xe2\x89\xa4ai\xe2\x89\xa41018) \xe2\x80\x94 the sequence aa.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of pairs (l,r)(l,r) such that 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n and the sequence al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar is good.'
+Tags
+bitmasks, dp, *2000

@@ -1,0 +1,11 @@
+b'Anton likes permutations, especially he likes to permute their elements. Note that a permutation of n elements is a sequence of numbers {a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an}, in which every number from 1 to n appears exactly once.'
+b'One day Anton got a new permutation and started to play with it. He does the following operation q times: he takes two elements of the permutation and swaps these elements. After each operation he asks his friend Vanya, how many inversions there are in the new permutation. The number of inversions in a permutation is the number of distinct pairs (i,\xe2\x80\x89j) such that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n and ai\xe2\x80\x89>\xe2\x80\x89aj.'
+b"Vanya is tired of answering Anton's silly questions. So he asked you to write a program that would answer these questions instead of him."
+b"Initially Anton's permutation was {1,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89n}, that is ai\xe2\x80\x89=\xe2\x80\x89i for all i such that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n."
+b'Input'
+b'The first line of the input contains two integers n and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the length of the permutation and the number of operations that Anton does.'
+b'Each of the following q lines of the input contains two integers li and ri (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li,\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the indices of elements that Anton swaps during the i-th operation. Note that indices of elements that Anton swaps during the i-th operation can coincide. Elements in the permutation are numbered starting with one.'
+b'Output'
+b"Output q lines. The i-th line of the output is the number of inversions in the Anton's permutation after the i-th operation."
+Tags
+brute force, data structures, *2200

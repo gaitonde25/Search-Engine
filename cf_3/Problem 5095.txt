@@ -1,0 +1,12 @@
+b'Petya has recently started working as a programmer in the IT city company that develops computer games.'
+b"Besides game mechanics implementation to create a game it is necessary to create tool programs that can be used by game designers to create game levels. Petya's first assignment is to create a tool that allows to paint different arrows on the screen."
+b'A user of this tool will choose a point on the screen, specify a vector (the arrow direction) and vary several parameters to get the required graphical effect. In the first version of the program Petya decided to limit parameters of the arrow by the following: a point with coordinates (px,\xe2\x80\x89py), a nonzero vector with coordinates (vx,\xe2\x80\x89vy), positive scalars a,\xe2\x80\x89b,\xe2\x80\x89c,\xe2\x80\x89d,\xe2\x80\x89a\xe2\x80\x89>\xe2\x80\x89c.'
+b'The produced arrow should have the following properties. The arrow consists of a triangle and a rectangle. The triangle is isosceles with base of length a and altitude of length b perpendicular to the base. The rectangle sides lengths are c and d. Point (px,\xe2\x80\x89py) is situated in the middle of the triangle base and in the middle of side of rectangle that has length c. Area of intersection of the triangle and the rectangle is zero. The direction from (px,\xe2\x80\x89py) point to the triangle vertex opposite to base containing the point coincides with direction of (vx,\xe2\x80\x89vy) vector.'
+b'Enumerate the arrow points coordinates in counter-clockwise order starting from the tip.'
+b'  '
+b'Input'
+b'The only line of the input contains eight integers px,\xe2\x80\x89py,\xe2\x80\x89vx,\xe2\x80\x89vy (\xe2\x80\x89-\xe2\x80\x891000\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89px,\xe2\x80\x89py,\xe2\x80\x89vx,\xe2\x80\x89vy\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000,\xe2\x80\x89vx2\xe2\x80\x89+\xe2\x80\x89vy2\xe2\x80\x89>\xe2\x80\x890), a,\xe2\x80\x89b,\xe2\x80\x89c,\xe2\x80\x89d (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b,\xe2\x80\x89c,\xe2\x80\x89d\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000,\xe2\x80\x89a\xe2\x80\x89>\xe2\x80\x89c).'
+b'Output'
+b'Output coordinates of the arrow points in counter-clockwise order. Each line should contain two coordinates, first x, then y. Relative or absolute error should not be greater than 10\xe2\x80\x89-\xe2\x80\x899.'
+Tags
+geometry, *2000

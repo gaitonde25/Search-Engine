@@ -1,0 +1,15 @@
+b'This is an interactive problem.'
+b"Baby Ehab loves crawling around his apartment. It has nn rooms numbered from 00 to n\xe2\x88\x921n\xe2\x88\x921. For every pair of rooms, aa and bb, there's either a direct passage from room aa to room bb, or from room bb to room aa, but never both."
+b"Baby Ehab wants to go play with Baby Badawy. He wants to know if he could get to him. However, he doesn't know anything about his apartment except the number of rooms. He can ask the baby sitter two types of questions: "
+b'  is the passage between room aa and room bb directed from aa to bb or the other way around?  does room xx have a passage towards any of the rooms s1s1, s2s2, ..., sksk? '
+b'He can ask at most 9n9n queries of the first type and at most 2n2n queries of the second type.'
+b"After asking some questions, he wants to know for every pair of rooms aa and bb whether there's a path from aa to bb or not. A path from aa to bb is a sequence of passages that starts from room aa and ends at room bb."
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4301\xe2\x89\xa4t\xe2\x89\xa430)\xc2\xa0\xe2\x80\x94 the number of test cases you need to solve.'
+b'Then each test case starts with an integer nn (4\xe2\x89\xa4n\xe2\x89\xa41004\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of rooms.'
+b"The sum of nn across the test cases doesn't exceed 500500."
+b'Output'
+b'To print the answer for a test case, print a line containing "3", followed by nn lines, each containing a binary string of length nn. The jj-th character of the ii-th string should be 11 if there\'s a path from room ii to room jj, and 00 if there isn\'t. The ii-th character of the ii-th string should be 11 for each valid ii.'
+b"After printing the answer, we will respond with a single integer. If it's 11, you printed a correct answer and should keep solving the test cases (or exit if it is the last one). If it's \xe2\x88\x921\xe2\x88\x921, you printed a wrong answer and should terminate to get Wrong answer verdict. Otherwise, you can get an arbitrary verdict because your solution will continue to read from a closed stream."
+Tags
+binary search, graphs, interactive, sortings, two pointers, *2700

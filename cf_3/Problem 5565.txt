@@ -1,0 +1,12 @@
+b'A and B are preparing themselves for programming contests.'
+b'An important part of preparing for a competition is sharing programming knowledge from the experienced members to those who are just beginning to deal with the contests. Therefore, during the next team training A decided to make teams so that newbies are solving problems together with experienced participants.'
+b'A believes that the optimal team of three people should consist of one experienced participant and two newbies. Thus, each experienced participant can share the experience with a large number of people.'
+b'However, B believes that the optimal team should have two experienced members plus one newbie. Thus, each newbie can gain more knowledge and experience.'
+b'As a result, A and B have decided that all the teams during the training session should belong to one of the two types described above. Furthermore, they agree that the total number of teams should be as much as possible.'
+b'There are n experienced members and m newbies on the training session. Can you calculate what maximum number of teams can be formed?'
+b'Input'
+b'The first line contains two integers n and m (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105) \xe2\x80\x94 the number of experienced participants and newbies that are present at the training session. '
+b'Output'
+b'Print the maximum number of teams that can be formed.'
+Tags
+greedy, implementation, math, number theory, *1300

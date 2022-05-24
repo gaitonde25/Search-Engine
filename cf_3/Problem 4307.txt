@@ -1,0 +1,7 @@
+b"After returning from the army Makes received a gift \xe2\x80\x94 an array a consisting of n positive integer numbers. He hadn't been solving problems for a long time, so he became interested to answer a particular question: how many triples of indices (i,\xe2\x80\x89\xc2\xa0j,\xe2\x80\x89\xc2\xa0k) (i\xe2\x80\x89<\xe2\x80\x89j\xe2\x80\x89<\xe2\x80\x89k), such that ai\xc2\xb7aj\xc2\xb7ak is minimum possible, are there in the array? Help him with it!"
+b'Input'
+b'The first line of input contains a positive integer number n\xc2\xa0(3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 the number of elements in array a. The second line contains n positive integer numbers ai\xc2\xa0(1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the elements of a given array.'
+b'Output'
+b'Print one number \xe2\x80\x94 the quantity of triples (i,\xe2\x80\x89\xc2\xa0j,\xe2\x80\x89\xc2\xa0k) such that i,\xe2\x80\x89\xc2\xa0j and k are pairwise distinct and ai\xc2\xb7aj\xc2\xb7ak is minimum possible.'
+Tags
+combinatorics, implementation, math, sortings, *1500

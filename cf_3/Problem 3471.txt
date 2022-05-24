@@ -1,0 +1,17 @@
+b'There are nn cities in Berland. Some pairs of cities are connected by roads. All roads are bidirectional. Each road connects two different cities. There is at most one road between a pair of cities. The cities are numbered from 11 to nn.'
+b'It is known that, from the capital (the city with the number 11), you can reach any other city by moving along the roads.'
+b"The President of Berland plans to improve the country's road network. The budget is enough to repair exactly n\xe2\x88\x921n\xe2\x88\x921 roads. The President plans to choose a set of n\xe2\x88\x921n\xe2\x88\x921 roads such that:"
+b'  it is possible to travel from the capital to any other city along the n\xe2\x88\x921n\xe2\x88\x921 chosen roads,  if didi is the number of roads needed to travel from the capital to city ii, moving only along the n\xe2\x88\x921n\xe2\x88\x921 chosen roads, then d1+d2+\xe2\x8b\xaf+dnd1+d2+\xe2\x8b\xaf+dn is minimized (i.e. as minimal as possible). '
+b'In other words, the set of n\xe2\x88\x921n\xe2\x88\x921 roads should preserve the connectivity of the country, and the sum of distances from city 11 to all cities should be minimized (where you can only use the n\xe2\x88\x921n\xe2\x88\x921 chosen roads).'
+b'The president instructed the ministry to prepare kk possible options to choose n\xe2\x88\x921n\xe2\x88\x921 roads so that both conditions above are met.'
+b'Write a program that will find kk possible ways to choose roads for repair. If there are fewer than kk ways, then the program should output all possible valid ways to choose roads.'
+b'Input'
+b'The first line of the input contains integers nn, mm and kk (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4k\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4k\xe2\x89\xa42\xe2\x8b\x85105), where nn is the number of cities in the country, mm is the number of roads and kk is the number of options to choose a set of roads for repair. It is guaranteed that m\xe2\x8b\x85k\xe2\x89\xa4106m\xe2\x8b\x85k\xe2\x89\xa4106.'
+b'The following mm lines describe the roads, one road per line. Each line contains two integers aiai, bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n, ai\xe2\x89\xa0biai\xe2\x89\xa0bi) \xe2\x80\x94 the numbers of the cities that the ii-th road connects. There is at most one road between a pair of cities. The given set of roads is such that you can reach any city from the capital.'
+b'Output'
+b'Print tt (1\xe2\x89\xa4t\xe2\x89\xa4k1\xe2\x89\xa4t\xe2\x89\xa4k) \xe2\x80\x94 the number of ways to choose a set of roads for repair. Recall that you need to find kk different options; if there are fewer than kk of them, then you need to find all possible different valid options.'
+b"In the following tt lines, print the options, one per line. Print an option as a string of mm characters where the jj-th character is equal to '1' if the jj-th road is included in the option, and is equal to '0' if the road is not included. The roads should be numbered according to their order in the input. The options can be printed in any order. All the tt lines should be different."
+b'Since it is guaranteed that m\xe2\x8b\x85k\xe2\x89\xa4106m\xe2\x8b\x85k\xe2\x89\xa4106, the total length of all the tt lines will not exceed 106106.'
+b'If there are several answers, output any of them.'
+Tags
+brute force, dfs and similar, graphs, shortest paths, *2100

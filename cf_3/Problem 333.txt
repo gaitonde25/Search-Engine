@@ -1,0 +1,9 @@
+b'This is an interactive problem.'
+b'The jury has a permutation pp of length nn and wants you to guess it. For this, the jury created another permutation qq of length nn. Initially, qq is an identity permutation (qi=iqi=i for all ii).'
+b'You can ask queries to get qiqi for any ii you want. After each query, the jury will change qq in the following way: '
+b'  At first, the jury will create a new permutation q\xe2\x80\xb2q\xe2\x80\xb2 of length nn such that q\xe2\x80\xb2i=qpiqi\xe2\x80\xb2=qpi for all ii.  Then the jury will replace permutation qq with pemutation q\xe2\x80\xb2q\xe2\x80\xb2. '
+b'You can make no more than 2n2n queries in order to quess pp.'
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+Tags
+dfs and similar, interactive, math, *1700

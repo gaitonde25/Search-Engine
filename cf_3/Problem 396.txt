@@ -1,0 +1,13 @@
+b'You are a usual chat user on the most famous streaming platform. Of course, there are some moments when you just want to chill and spam something.'
+b'More precisely, you want to spam the emote triangle of size kk. It consists of 2k\xe2\x88\x9212k\xe2\x88\x921 messages. The first message consists of one emote, the second one \xe2\x80\x94 of two emotes, ..., the kk-th one \xe2\x80\x94 of kk emotes, the k+1k+1-th one \xe2\x80\x94 of k\xe2\x88\x921k\xe2\x88\x921 emotes, ..., and the last one \xe2\x80\x94 of one emote.'
+b'For example, the emote triangle for k=3k=3 consists of 55 messages:'
+b'  '
+b'Of course, most of the channels have auto moderation. Auto moderator of the current chat will ban you right after you spam at least xx emotes in succession (you can assume you are the only user in the chat). Now you are interested \xe2\x80\x94 how many messages will you write before getting banned? Or maybe you will not get banned at all (i.e. will write all 2k\xe2\x88\x9212k\xe2\x88\x921 messages and complete your emote triangle successfully)? Note that if you get banned as a result of writing a message, this message is also counted.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. The next tt lines describe test cases.'
+b'The only line of the test case contains integers kk and xx (1\xe2\x89\xa4k\xe2\x89\xa4109;1\xe2\x89\xa4x\xe2\x89\xa410181\xe2\x89\xa4k\xe2\x89\xa4109;1\xe2\x89\xa4x\xe2\x89\xa41018).'
+b'Output'
+b'For each test case, print the number of messages you will write before getting banned for the corresponding values kk and xx.'
+Tags
+binary search, math, *1300

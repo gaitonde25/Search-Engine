@@ -1,0 +1,15 @@
+b'Functional graph is a directed graph in which all vertices have outdegree equal to 1. Loops are allowed.'
+b'Some vertices of a functional graph lay on a cycle. From the others we can come to a cycle by making a finite number of steps along the edges (we consider only finite functional graphs in this problem).'
+b"Let's compute two values for each vertex. precyclei is the amount of edges we should pass to get to a vertex which is a part of some cycle (zero, if i itself lies on a cycle), cyclei is the length of the cycle we get to."
+b'You are given the information about these values for some functional graph. For each vertex you know the values precyclei and cyclei, however, instead of some values there can be the question mark. It means that these values are unknown.'
+b'Build any functional graph that suits the description or determine that there is no such graph.'
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300)\xc2\xa0\xe2\x80\x94 the number of vertices in the graph.'
+b'Each of the next n lines contain two integers\xc2\xa0\xe2\x80\x94 precyclei (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89precyclei\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891) and cyclei (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cyclei\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). There could be question marks instead of some of these values.'
+b'Output'
+b'In case there is no solution, print -1.'
+b'Otherwise, print n integers. i-th of them is the number of vertex to which the edge form the i-th vertex go.'
+b'The vertices should be in the same order as they go in input data.'
+b'If there are multiple solutions, print any of them.'
+Tags
+graph matchings, *3400

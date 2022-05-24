@@ -1,0 +1,12 @@
+b"It's been long after the events of the previous problems, and Karen has now moved on from student life and is looking to relocate to a new neighborhood."
+b'  '
+b'The neighborhood consists of n houses in a straight line, labelled 1 to n from left to right, all an equal distance apart.'
+b'Everyone in this neighborhood loves peace and quiet. Because of this, whenever a new person moves into the neighborhood, he or she always chooses the house whose minimum distance to any occupied house is maximized. If there are multiple houses with the maximum possible minimum distance, he or she chooses the leftmost one.'
+b'Note that the first person to arrive always moves into house 1.'
+b'Karen is the k-th person to enter this neighborhood. If everyone, including herself, follows this rule, which house will she move into?'
+b'Input'
+b'The first and only line of input contains two integers, n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018), describing the number of houses in the neighborhood, and that Karen was the k-th person to move in, respectively.'
+b'Output'
+b'Output a single integer on a line by itself, the label of the house Karen will move into.'
+Tags
+binary search, constructive algorithms, implementation, *2900

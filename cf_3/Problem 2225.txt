@@ -1,0 +1,10 @@
+b'Bob watches TV every day. He always sets the volume of his TV to bb. However, today he is angry to find out someone has changed the volume to aa. Of course, Bob has a remote control that can change the volume.'
+b'There are six buttons (\xe2\x88\x925,\xe2\x88\x922,\xe2\x88\x921,+1,+2,+5\xe2\x88\x925,\xe2\x88\x922,\xe2\x88\x921,+1,+2,+5) on the control, which in one press can either increase or decrease the current volume by 11, 22, or 55. The volume can be arbitrarily large, but can never be negative. In other words, Bob cannot press the button if it causes the volume to be lower than 00.'
+b'As Bob is so angry, he wants to change the volume to bb using as few button presses as possible. However, he forgets how to do such simple calculations, so he asks you for help. Write a program that given aa and bb, finds the minimum number of presses to change the TV volume from aa to bb.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases TT (1\xe2\x89\xa4T\xe2\x89\xa410001\xe2\x89\xa4T\xe2\x89\xa41000). Then the descriptions of the test cases follow.'
+b"Each test case consists of one line containing two integers aa and bb (0\xe2\x89\xa4a,b\xe2\x89\xa41090\xe2\x89\xa4a,b\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the current volume and Bob's desired volume, respectively."
+b'Output'
+b'For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the minimum number of presses to change the TV volume from aa to bb. If Bob does not need to change the volume (i.e. a=ba=b), then print 00.'
+Tags
+math, *800

@@ -1,0 +1,17 @@
+b"Polycarp has nn friends, the ii-th of his friends has aiai candies. Polycarp's friends do not like when they have different numbers of candies. In other words they want all aiai to be the same. To solve this, Polycarp performs the following set of actions exactly once: "
+b"  Polycarp chooses kk (0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n) arbitrary friends (let's say he chooses friends with indices i1,i2,\xe2\x80\xa6,iki1,i2,\xe2\x80\xa6,ik);  Polycarp distributes their ai1+ai2+\xe2\x80\xa6+aikai1+ai2+\xe2\x80\xa6+aik candies among all nn friends. During distribution for each of ai1+ai2+\xe2\x80\xa6+aikai1+ai2+\xe2\x80\xa6+aik candies he chooses new owner. That can be any of nn friends. Note, that any candy can be given to the person, who has owned that candy before the distribution process. "
+b'Note that the number kk is not fixed in advance and can be arbitrary. Your task is to find the minimum value of kk.'
+b'For example, if n=4n=4 and a=[4,5,2,5]a=[4,5,2,5], then Polycarp could make the following distribution of the candies: '
+b'  Polycarp chooses k=2k=2 friends with indices i=[2,4]i=[2,4] and distributes a2+a4=10a2+a4=10 candies to make a=[4,4,4,4]a=[4,4,4,4] (two candies go to person 33). '
+b'Note that in this example Polycarp cannot choose k=1k=1 friend so that he can redistribute candies so that in the end all aiai are equal.'
+b'For the data nn and aa, determine the minimum value kk. With this value kk, Polycarp should be able to select kk friends and redistribute their candies so that everyone will end up with the same number of candies.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Then tt test cases follow.'
+b'The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41040\xe2\x89\xa4ai\xe2\x89\xa4104).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case output: '
+b'  the minimum value of kk, such that Polycarp can choose exactly kk friends so that he can redistribute the candies in the desired way;  "-1" if no such value kk exists. '
+Tags
+greedy, math, *800

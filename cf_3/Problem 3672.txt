@@ -1,0 +1,9 @@
+b'You are given a set of n elements indexed from 1 to n. The weight of i-th element is wi. The weight of some subset of a given set is denoted as . The weight of some partition R of a given set into k subsets is  (recall that a partition of a given set is a set of its subsets such that every element of the given set belongs to exactly one subset in partition).'
+b'Calculate the sum of weights of all partitions of a given set into exactly k non-empty subsets, and print it modulo 109\xe2\x80\x89+\xe2\x80\x897. Two partitions are considered different iff there exist two elements x and y such that they belong to the same set in one of the partitions, and to different sets in another partition.'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the number of elements and the number of subsets in each partition, respectively.'
+b'The second line contains n integers wi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xe2\x80\x94 weights of elements of the set.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the sum of weights of all partitions of a given set into k non-empty subsets, taken modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+combinatorics, math, number theory, *2700

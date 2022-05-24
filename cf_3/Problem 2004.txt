@@ -1,0 +1,14 @@
+b'Jaber is a superhero in a large country that can be described as a grid with nn rows and mm columns, where every cell in that grid contains a different city.'
+b'Jaber gave every city in that country a specific color between 11 and kk. In one second he can go from the current city to any of the cities adjacent by the side or to any city with the same color as the current city color.'
+b'Jaber has to do qq missions. In every mission he will be in the city at row r1r1 and column c1c1, and he should help someone in the city at row r2r2 and column c2c2.'
+b'Jaber wants your help to tell him the minimum possible time to go from the starting city to the finishing city for every mission.'
+b'Input'
+b'The first line contains three integers nn, mm and kk (1\xe2\x89\xa4n,m\xe2\x89\xa410001\xe2\x89\xa4n,m\xe2\x89\xa41000, 1\xe2\x89\xa4k\xe2\x89\xa4min(40,n\xe2\x8b\x85m)1\xe2\x89\xa4k\xe2\x89\xa4min(40,n\xe2\x8b\x85m))\xc2\xa0\xe2\x80\x94 the number of rows, columns and colors.'
+b'Each of the next nn lines contains mm integers. In the ii-th line, the jj-th integer is aijaij (1\xe2\x89\xa4aij\xe2\x89\xa4k1\xe2\x89\xa4aij\xe2\x89\xa4k), which is the color assigned to the city in the ii-th row and jj-th column.'
+b'The next line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of missions.'
+b'For the next qq lines, every line contains four integers r1r1, c1c1, r2r2, c2c2 (1\xe2\x89\xa4r1,r2\xe2\x89\xa4n1\xe2\x89\xa4r1,r2\xe2\x89\xa4n, 1\xe2\x89\xa4c1,c2\xe2\x89\xa4m1\xe2\x89\xa4c1,c2\xe2\x89\xa4m) \xc2\xa0\xe2\x80\x94 the coordinates of the starting and the finishing cities of the corresponding mission.'
+b'It is guaranteed that for every color between 11 and kk there is at least one city of that color.'
+b'Output'
+b'For every mission print the minimum possible time to reach city at the cell (r2,c2)(r2,c2) starting from city at the cell (r1,c1)(r1,c1).'
+Tags
+dfs and similar, graphs, implementation, shortest paths, *2600

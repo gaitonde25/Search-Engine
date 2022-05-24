@@ -1,0 +1,10 @@
+b"New Year is getting near. So it's time to change handles on codeforces. Mishka wants to change his handle but in such a way that people would not forget who he is."
+b'To make it work, he only allowed to change letters case. More formally, during one handle change he can choose any segment of his handle [i;i+l\xe2\x88\x921][i;i+l\xe2\x88\x921] and apply tolower or toupper to all letters of his handle on this segment (more fomally, replace all uppercase letters with corresponding lowercase or vice versa). The length ll is fixed for all changes.'
+b'Because it is not allowed to change codeforces handle too often, Mishka can perform at most kk such operations. What is the minimum value of min(lower,upper)min(lower,upper) (where lowerlower is the number of lowercase letters, and upperupper is the number of uppercase letters) can be obtained after optimal sequence of changes?'
+b'Input'
+b"The first line of the input contains three integers n,kn,k and ll (1\xe2\x89\xa4n,k,l\xe2\x89\xa4106,l\xe2\x89\xa4n)1\xe2\x89\xa4n,k,l\xe2\x89\xa4106,l\xe2\x89\xa4n) \xe2\x80\x94 the length of Mishka's handle, the number of changes and the length of the segment."
+b"The second line of the input contains one string ss, consisting of nn lowercase and uppercase Latin letters \xe2\x80\x94 Mishka's handle."
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum value of min(lower,upper)min(lower,upper) after that Mishka change his handle at most kk times in a way described in the problem statement.'
+Tags
+binary search, dp, *2800

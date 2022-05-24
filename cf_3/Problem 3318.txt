@@ -1,0 +1,12 @@
+b'You are given a binary string ss.'
+b'Find the number of distinct cyclical binary strings of length nn which contain ss as a substring.'
+b'The cyclical string tt contains ss as a substring if there is some cyclical shift of string tt, such that ss is a substring of this cyclical shift of tt.'
+b'For example, the cyclical string "000111" contains substrings "001", "01110" and "10", but doesn\'t contain "0110" and "10110".'
+b'Two cyclical strings are called different if they differ from each other as strings. For example, two different strings, which differ from each other by a cyclical shift, are still considered different cyclical strings.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4401\xe2\x89\xa4n\xe2\x89\xa440)\xc2\xa0\xe2\x80\x94 the length of the target string tt.'
+b"The next line contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa4n1\xe2\x89\xa4|s|\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the string which must be a substring of cyclical string tt. String ss contains only characters '0' and '1'."
+b'Output'
+b'Print the only integer\xc2\xa0\xe2\x80\x94 the number of distinct cyclical binary strings tt, which contain ss as a substring.'
+Tags
+dp, strings, *2900

@@ -1,0 +1,21 @@
+b'In a certain video game, the player controls a hero characterized by a single integer value: power.'
+b'On the current level, the hero got into a system of nn caves numbered from 11 to nn, and mm tunnels between them. Each tunnel connects two distinct caves. Any two caves are connected with at most one tunnel. Any cave can be reached from any other cave by moving via tunnels.'
+b'The hero starts the level in cave 11, and every other cave contains a monster.'
+b'The hero can move between caves via tunnels. If the hero leaves a cave and enters a tunnel, he must finish his movement and arrive at the opposite end of the tunnel.'
+b'The hero can use each tunnel to move in both directions. However, the hero can not use the same tunnel twice in a row. Formally, if the hero has just moved from cave ii to cave jj via a tunnel, he can not head back to cave ii immediately after, but he can head to any other cave connected to cave jj with a tunnel.'
+b'It is known that at least two tunnels come out of every cave, thus, the hero will never find himself in a dead end even considering the above requirement.'
+b"To pass the level, the hero must beat the monsters in all the caves. When the hero enters a cave for the first time, he will have to fight the monster in it. The hero can beat the monster in cave ii if and only if the hero's power is strictly greater than aiai. In case of beating the monster, the hero's power increases by bibi. If the hero can't beat the monster he's fighting, the game ends and the player loses."
+b"After the hero beats the monster in cave ii, all subsequent visits to cave ii won't have any consequences: the cave won't have any monsters, and the hero's power won't change either."
+b'Find the smallest possible power the hero must start the level with to be able to beat all the monsters and pass the level.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (3\xe2\x89\xa4n\xe2\x89\xa410003\xe2\x89\xa4n\xe2\x89\xa41000; n\xe2\x89\xa4m\xe2\x89\xa4min(n(n\xe2\x88\x921)2,2000)n\xe2\x89\xa4m\xe2\x89\xa4min(n(n\xe2\x88\x921)2,2000))\xc2\xa0\xe2\x80\x94 the number of caves and tunnels.'
+b"The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers a2,a3,\xe2\x80\xa6,ana2,a3,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 values the hero's power are compared to while fighting monsters in caves 2,3,\xe2\x80\xa6,n2,3,\xe2\x80\xa6,n."
+b"The third line contains n\xe2\x88\x921n\xe2\x88\x921 integers b2,b3,\xe2\x80\xa6,bnb2,b3,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 increases applied to the hero's power for beating monsters in caves 2,3,\xe2\x80\xa6,n2,3,\xe2\x80\xa6,n."
+b'Each of the next mm lines contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n; ui\xe2\x89\xa0viui\xe2\x89\xa0vi)\xc2\xa0\xe2\x80\x94 the numbers of caves connected with a tunnel.'
+b'No two caves are connected with more than one tunnel. Any cave can be reached from any other cave by moving via tunnels. At least two tunnels come out of every cave.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 10001000, and the sum of mm over all test cases does not exceed 20002000.'
+b'Output'
+b'For each test case print a single integer\xc2\xa0\xe2\x80\x94 the smallest possible power the hero must start the level with to be able to beat all the monsters and pass the level.'
+Tags
+binary search, dfs and similar, graphs, greedy, meet-in-the-middle, shortest paths, *3000

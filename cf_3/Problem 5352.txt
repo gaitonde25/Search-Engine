@@ -1,0 +1,10 @@
+b'Bananistan is a beautiful banana republic. Beautiful women in beautiful dresses. Beautiful statues of beautiful warlords. Beautiful stars in beautiful nights.'
+b'In Bananistan people play this crazy game \xe2\x80\x93 Bulbo. There\xe2\x80\x99s an array of bulbs and player at the position, which represents one of the bulbs. The distance between two neighboring bulbs is 1. Before each turn player can change his position with cost |posnew\xe2\x80\x89-\xe2\x80\x89posold|. After that, a contiguous set of bulbs lights-up and player pays the cost that\xe2\x80\x99s equal to the distance to the closest shining bulb. Then, all bulbs go dark again. The goal is to minimize your summed cost. I tell you, Bananistanians are spending their nights playing with bulbs.'
+b'Banana day is approaching, and you are hired to play the most beautiful Bulbo game ever. A huge array of bulbs is installed, and you know your initial position and all the light-ups in advance. You need to play the ideal game and impress Bananistanians, and their families.'
+b'Input'
+b'The first line contains number of turns n and initial position x. Next n lines contain two numbers lstart and lend, which represent that all bulbs from interval [lstart,\xe2\x80\x89lend] are shining this turn.'
+b'  1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000  1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109  1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89lstart\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89lend\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109 '
+b'Output'
+b'Output should contain a single number which represents the best result (minimum cost) that could be obtained by playing this Bulbo game.'
+Tags
+dp, greedy, *2100

@@ -1,0 +1,12 @@
+b'You are given an integer m, and a list of n distinct integers between 0 and m\xe2\x80\x89-\xe2\x80\x891.'
+b'You would like to construct a sequence satisfying the properties:'
+b'  Each element is an integer between 0 and m\xe2\x80\x89-\xe2\x80\x891, inclusive.  All prefix products of the sequence modulo m are distinct.  No prefix product modulo m appears as an element of the input list.  The length of the sequence is maximized. '
+b'Construct any sequence satisfying the properties above.'
+b'Input'
+b'The first line of input contains two integers n and m (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89<\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of forbidden prefix products and the modulus.'
+b"If n is non-zero, the next line of input contains n distinct integers between 0 and m\xe2\x80\x89-\xe2\x80\x891, the forbidden prefix products. If n is zero, this line doesn't exist."
+b'Output'
+b'On the first line, print the number k, denoting the length of your sequence.'
+b'On the second line, print k space separated integers, denoting your sequence.'
+Tags
+constructive algorithms, dp, graphs, math, number theory, *2300

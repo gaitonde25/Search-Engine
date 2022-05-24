@@ -1,0 +1,17 @@
+b'Ashish has two strings aa and bb, each of length nn, and an integer kk. The strings only contain lowercase English letters.'
+b'He wants to convert string aa into string bb by performing some (possibly zero) operations on aa.'
+b'In one move, he can either '
+b"  choose an index ii (1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921) and swap aiai and ai+1ai+1, or  choose an index ii (1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x92k+11\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x92k+1) and if ai,ai+1,\xe2\x80\xa6,ai+k\xe2\x88\x921ai,ai+1,\xe2\x80\xa6,ai+k\xe2\x88\x921 are all equal to some character cc (c\xe2\x89\xa0c\xe2\x89\xa0 'z'), replace each one with the next character (c+1)(c+1), that is, 'a' is replaced by 'b', 'b' is replaced by 'c' and so on. "
+b'Note that he can perform any number of operations, and the operations can only be performed on string aa. '
+b'Help Ashish determine if it is possible to convert string aa into bb after performing some (possibly zero) operations on it.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of each test case is as follows.'
+b'The first line of each test case contains two integers nn (2\xe2\x89\xa4n\xe2\x89\xa41062\xe2\x89\xa4n\xe2\x89\xa4106) and kk (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n).'
+b'The second line of each test case contains the string aa of length nn consisting of lowercase English letters.'
+b'The third line of each test case contains the string bb of length nn consisting of lowercase English letters.'
+b'It is guaranteed that the sum of values nn among all test cases does not exceed 106106.'
+b'Output'
+b'For each test case, print "Yes" if Ashish can convert aa into bb after some moves, else print "No".'
+b'You may print the letters of the answer in any case (upper or lower).'
+Tags
+dp, greedy, hashing, implementation, strings, *1400

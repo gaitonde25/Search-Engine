@@ -1,0 +1,13 @@
+b'You are given nn strings s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn consisting of lowercase Latin letters.'
+b'In one operation you can remove a character from a string sisi and insert it to an arbitrary position in a string sjsj (jj may be equal to ii). You may perform this operation any number of times. Is it possible to make all nn strings equal?'
+b'Input'
+b'The first line contains tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410): the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000): the number of strings.'
+b'nn lines follow, the ii-th line contains sisi (1\xe2\x89\xa4|si|\xe2\x89\xa410001\xe2\x89\xa4|si|\xe2\x89\xa41000).'
+b'The sum of lengths of all strings in all test cases does not exceed 10001000.'
+b'Output'
+b'If it is possible to make the strings equal, print "YES" (without quotes).'
+b'Otherwise, print "NO" (without quotes).'
+b'You can output each character in either lowercase or uppercase.'
+Tags
+greedy, strings, *800

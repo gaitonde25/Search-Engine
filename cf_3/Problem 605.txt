@@ -1,0 +1,12 @@
+b"Let's say that two strings ss and tt rhyme if both strings have length at least kk, and their last kk characters are equal. For example, if k=3k=3, the strings abcd and cebcd rhyme, the strings ab and ab don't rhyme, the strings aaaa and aaaaa rhyme, the strings abcd and abce don't rhyme."
+b'You have nn pairs of strings (si,ti)(si,ti), and for each pair of strings you know, should they rhyme or should not.'
+b"Find all possible non-negative integer values for kk such that pairs that have to rhyme, rhyme and pairs that must not rhyme, don't rhyme."
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000). Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of string pairs.'
+b'Next nn lines contains descriptions of pairs\xc2\xa0\xe2\x80\x94 one per line. The ii-th line contains space-separated strings sisi and titi and marker riri. Strings are non-empty, consist of lowercase Latin letters and each have length at most 2\xe2\x8b\x851052\xe2\x8b\x85105. The marker riri equals to 11 if strings have to rhyme, or 00 if they must not rhyme.'
+b"It's guaranteed that for each test case there is at least one pair with riri equal to 11 and that the total length of all strings over all test cases doesn't exceed 4\xe2\x8b\x851054\xe2\x8b\x85105."
+b'Output'
+b"For each test case, firstly print integer mm\xc2\xa0\xe2\x80\x94 the number of possible non-negative integer values of kk such that pairs that have to rhyme, rhyme and pairs that must not rhyme, don't rhyme. Next, print all these values of kk (without repetitions). You can print them in any order."
+Tags
+*special problem, implementation, *1800

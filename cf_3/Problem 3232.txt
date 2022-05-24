@@ -1,0 +1,10 @@
+b'You are given a rooted tree on nn vertices, its root is the vertex number 11. The ii-th vertex contains a number wiwi. Split it into the minimum possible number of vertical paths in such a way that each path contains no more than LL vertices and the sum of integers wiwi on each path does not exceed SS. Each vertex should belong to exactly one path.'
+b'A vertical path is a sequence of vertices v1,v2,\xe2\x80\xa6,vkv1,v2,\xe2\x80\xa6,vk where vivi (i\xe2\x89\xa52i\xe2\x89\xa52) is the parent of vi\xe2\x88\x921vi\xe2\x88\x921.'
+b'Input'
+b'The first line contains three integers nn, LL, SS (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4L\xe2\x89\xa41051\xe2\x89\xa4L\xe2\x89\xa4105, 1\xe2\x89\xa4S\xe2\x89\xa410181\xe2\x89\xa4S\xe2\x89\xa41018)\xc2\xa0\xe2\x80\x94 the number of vertices, the maximum number of vertices in one path and the maximum sum in one path.'
+b'The second line contains nn integers w1,w2,\xe2\x80\xa6,wnw1,w2,\xe2\x80\xa6,wn (1\xe2\x89\xa4wi\xe2\x89\xa41091\xe2\x89\xa4wi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the numbers in the vertices of the tree.'
+b'The third line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,\xe2\x80\xa6,pnp2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi<i1\xe2\x89\xa4pi<i), where pipi is the parent of the ii-th vertex in the tree.'
+b'Output'
+b'Output one number \xc2\xa0\xe2\x80\x94 the minimum number of vertical paths. If it is impossible to split the tree, output \xe2\x88\x921\xe2\x88\x921.'
+Tags
+binary search, data structures, dp, greedy, trees, *2400

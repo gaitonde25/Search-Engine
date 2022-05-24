@@ -1,0 +1,17 @@
+b'Polycarp wrote on a whiteboard an array pp of length nn, which is a permutation of numbers from 11 to nn. In other words, in pp each number from 11 to nn occurs exactly once.'
+b'He also prepared a resulting array aa, which is initially empty (that is, it has a length of 00).'
+b'After that, he did exactly nn steps. Each step looked like this:'
+b'  Look at the leftmost and rightmost elements of pp, and pick the smaller of the two. If you picked the leftmost element of pp, append it to the left of aa; otherwise, if you picked the rightmost element of pp, append it to the right of aa. The picked element is erased from pp. '
+b'Note that on the last step, pp has a length of 11 and its minimum element is both leftmost and rightmost. In this case, Polycarp can choose what role the minimum element plays. In other words, this element can be added to aa both on the left and on the right (at the discretion of Polycarp).'
+b"Let's look at an example. Let n=4n=4, p=[3,1,4,2]p=[3,1,4,2]. Initially a=[]a=[]. Then:"
+b" During the first step, the minimum is on the right (with a value of 22), so after this step, p=[3,1,4]p=[3,1,4] and a=[2]a=[2] (he added the value 22 to the right).  During the second step, the minimum is on the left (with a value of 33), so after this step, p=[1,4]p=[1,4] and a=[3,2]a=[3,2] (he added the value 33 to the left).  During the third step, the minimum is on the left (with a value of 11), so after this step, p=[4]p=[4] and a=[1,3,2]a=[1,3,2] (he added the value 11 to the left).  During the fourth step, the minimum is both left and right (this value is 44). Let's say Polycarp chose the right option. After this step, p=[]p=[] and a=[1,3,2,4]a=[1,3,2,4] (he added the value 44 to the right)."
+b'Thus, a possible value of aa after nn steps could be a=[1,3,2,4]a=[1,3,2,4].'
+b'You are given the final value of the resulting array aa. Find any possible initial value for pp that can result the given aa, or determine that there is no solution.'
+b'Input'
+b'The first line of the input contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the test.'
+b'Each test case consists of two lines. The first of them contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of the array aa. The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) \xe2\x80\x94 the elements of the array aa. All elements of the aa array are distinct numbers.'
+b'It is guaranteed that the sum of the values nn over all test cases in the test does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'Print tt lines, each of the lines must contain the answer to the corresponding set of input data: numbers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn \xc2\xa0\xe2\x80\x94 any of the possible initial values of the array pp, which will lead to the given array aa. All elements of pp are distinct integers from 11 to nn. Thus, if there are several solutions, print any. If there is no solution, then print -1 on the line.'
+Tags
+constructive algorithms, *1000

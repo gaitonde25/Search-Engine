@@ -1,0 +1,13 @@
+b'Numbers 1,2,3,\xe2\x80\xa6n1,2,3,\xe2\x80\xa6n (each integer from 11 to nn once) are written on a board. In one operation you can erase any two numbers aa and bb from the board and write one integer a+b2a+b2 rounded up instead.'
+b'You should perform the given operation n\xe2\x88\x921n\xe2\x88\x921 times and make the resulting number that will be left on the board as small as possible. '
+b'For example, if n=4n=4, the following course of action is optimal:'
+b'  choose a=4a=4 and b=2b=2, so the new number is 33, and the whiteboard contains [1,3,3][1,3,3];  choose a=3a=3 and b=3b=3, so the new number is 33, and the whiteboard contains [1,3][1,3];  choose a=1a=1 and b=3b=3, so the new number is 22, and the whiteboard contains [2][2]. '
+b"It's easy to see that after n\xe2\x88\x921n\xe2\x88\x921 operations, there will be left only one number. Your goal is to minimize it."
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The only line of each test case contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of integers written on the board initially.'
+b"It's guaranteed that the total sum of nn over test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, in the first line, print the minimum possible number left on the board after n\xe2\x88\x921n\xe2\x88\x921 operations. Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines should contain two integers\xc2\xa0\xe2\x80\x94 numbers aa and bb chosen and erased in each operation.'
+Tags
+constructive algorithms, data structures, greedy, implementation, math, *1000

@@ -1,0 +1,7 @@
+b'  '
+b'Input'
+b'The input contains two integers rowrow, colcol (0\xe2\x89\xa4row,col\xe2\x89\xa4630\xe2\x89\xa4row,col\xe2\x89\xa463), separated by a single space.'
+b'Output'
+b'Output "IN" or "OUT".'
+Tags
+*special problem, dfs and similar, geometry, implementation

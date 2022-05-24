@@ -1,0 +1,10 @@
+b'There are nn armchairs, numbered from 11 to nn from left to right. Some armchairs are occupied by people (at most one person per armchair), others are not. The number of occupied armchairs is not greater than n2n2.'
+b'For some reason, you would like to tell people to move from their armchairs to some other ones. If the ii-th armchair is occupied by someone and the jj-th armchair is not, you can tell the person sitting in the ii-th armchair to move to the jj-th armchair. The time it takes a person to move from the ii-th armchair to the jj-th one is |i\xe2\x88\x92j||i\xe2\x88\x92j| minutes. You may perform this operation any number of times, but these operations must be done sequentially, i.\xe2\x80\x89e. you cannot tell a person to move until the person you asked to move in the last operation has finished moving to their destination armchair.'
+b'You want to achieve the following situation: every seat that was initially occupied must be free. What is the minimum time you need to do it?'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa450002\xe2\x89\xa4n\xe2\x89\xa45000) \xe2\x80\x94 the number of armchairs.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa410\xe2\x89\xa4ai\xe2\x89\xa41). ai=1ai=1 means that the ii-th armchair is initially occupied, ai=0ai=0 means that it is initially free. The number of occupied armchairs is at most n2n2.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum number of minutes you have to spend to achieve the following situation: every seat that was initially occupied must be free.'
+Tags
+dp, flows, graph matchings, greedy, *1800

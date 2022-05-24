@@ -1,0 +1,9 @@
+b'Vasya has his favourite number nn. He wants to split it to some non-zero digits. It means, that he wants to choose some digits d1,d2,\xe2\x80\xa6,dkd1,d2,\xe2\x80\xa6,dk, such that 1\xe2\x89\xa4di\xe2\x89\xa491\xe2\x89\xa4di\xe2\x89\xa49 for all ii and d1+d2+\xe2\x80\xa6+dk=nd1+d2+\xe2\x80\xa6+dk=n.'
+b'Vasya likes beauty in everything, so he wants to find any solution with the minimal possible number of different digits among d1,d2,\xe2\x80\xa6,dkd1,d2,\xe2\x80\xa6,dk. Help him!'
+b'Input'
+b'The first line contains a single integer nn\xc2\xa0\xe2\x80\x94 the number that Vasya wants to split (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000).'
+b'Output'
+b'In the first line print one integer kk\xc2\xa0\xe2\x80\x94 the number of digits in the partition. Note that kk must satisfy the inequality 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n. In the next line print kk digits d1,d2,\xe2\x80\xa6,dkd1,d2,\xe2\x80\xa6,dk separated by spaces. All digits must satisfy the inequalities 1\xe2\x89\xa4di\xe2\x89\xa491\xe2\x89\xa4di\xe2\x89\xa49.'
+b'You should find a partition of nn in which the number of different digits among d1,d2,\xe2\x80\xa6,dkd1,d2,\xe2\x80\xa6,dk will be minimal possible among all partitions of nn into non-zero digits. Among such partitions, it is allowed to find any. It is guaranteed that there exists at least one partition of the number nn into digits.'
+Tags
+constructive algorithms, implementation, math, *800

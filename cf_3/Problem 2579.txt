@@ -1,0 +1,14 @@
+b'Vasya has an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b"You don't know this array, but he told you mm facts about this array. The ii-th fact is a triple of numbers titi, lili and riri (0\xe2\x89\xa4ti\xe2\x89\xa41,1\xe2\x89\xa4li<ri\xe2\x89\xa4n0\xe2\x89\xa4ti\xe2\x89\xa41,1\xe2\x89\xa4li<ri\xe2\x89\xa4n) and it means:"
+b'  if ti=1ti=1 then subbarray ali,ali+1,\xe2\x80\xa6,ariali,ali+1,\xe2\x80\xa6,ari is sorted in non-decreasing order;  if ti=0ti=0 then subbarray ali,ali+1,\xe2\x80\xa6,ariali,ali+1,\xe2\x80\xa6,ari is not sorted in non-decreasing order. A subarray is not sorted if there is at least one pair of consecutive elements in this subarray such that the former is greater than the latter. '
+b'For example if a=[2,1,1,3,2]a=[2,1,1,3,2] then he could give you three facts: t1=1,l1=2,r1=4t1=1,l1=2,r1=4 (the subarray [a2,a3,a4]=[1,1,3][a2,a3,a4]=[1,1,3] is sorted), t2=0,l2=4,r2=5t2=0,l2=4,r2=5 (the subarray [a4,a5]=[3,2][a4,a5]=[3,2] is not sorted), and t3=0,l3=3,r3=5t3=0,l3=3,r3=5 (the subarray [a3,a5]=[1,3,2][a3,a5]=[1,3,2] is not sorted).'
+b"You don't know the array aa. Find any array which satisfies all the given facts."
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa41000,1\xe2\x89\xa4m\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000,1\xe2\x89\xa4m\xe2\x89\xa41000).'
+b'Each of the next mm lines contains three integers titi, lili and riri (0\xe2\x89\xa4ti\xe2\x89\xa41,1\xe2\x89\xa4li<ri\xe2\x89\xa4n0\xe2\x89\xa4ti\xe2\x89\xa41,1\xe2\x89\xa4li<ri\xe2\x89\xa4n).'
+b'If ti=1ti=1 then subbarray ali,ali+1,\xe2\x80\xa6,ariali,ali+1,\xe2\x80\xa6,ari is sorted. Otherwise (if ti=0ti=0) subbarray ali,ali+1,\xe2\x80\xa6,ariali,ali+1,\xe2\x80\xa6,ari is not sorted.'
+b'Output'
+b'If there is no array that satisfies these facts in only line print NO (in any letter case).'
+b'If there is a solution, print YES (in any letter case). In second line print nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the array aa, satisfying all the given facts. If there are multiple satisfying arrays you can print any of them.'
+Tags
+constructive algorithms, greedy, implementation, *1800

@@ -1,0 +1,16 @@
+b'Alice and Bob are decorating a Christmas Tree. '
+b'Alice wants only 33 types of ornaments to be used on the Christmas Tree: yellow, blue and red. They have yy yellow ornaments, bb blue ornaments and rr red ornaments.'
+b"In Bob's opinion, a Christmas Tree will be beautiful if:"
+b'  the number of blue ornaments used is greater by exactly 11 than the number of yellow ornaments, and  the number of red ornaments used is greater by exactly 11 than the number of blue ornaments. '
+b'That is, if they have 88 yellow ornaments, 1313 blue ornaments and 99 red ornaments, we can choose 44 yellow, 55 blue and 66 red ornaments (5=4+15=4+1 and 6=5+16=5+1).'
+b"Alice wants to choose as many ornaments as possible, but she also wants the Christmas Tree to be beautiful according to Bob's opinion."
+b'In the example two paragraphs above, we would choose 77 yellow, 88 blue and 99 red ornaments. If we do it, we will use 7+8+9=247+8+9=24 ornaments. That is the maximum number.'
+b"Since Alice and Bob are busy with preparing food to the New Year's Eve, they are asking you to find out the maximum number of ornaments that can be used in their beautiful Christmas Tree! "
+b'It is guaranteed that it is possible to choose at least 66 (1+2+3=61+2+3=6) ornaments.'
+b'Input'
+b'The only line contains three integers yy, bb, rr (1\xe2\x89\xa4y\xe2\x89\xa41001\xe2\x89\xa4y\xe2\x89\xa4100, 2\xe2\x89\xa4b\xe2\x89\xa41002\xe2\x89\xa4b\xe2\x89\xa4100, 3\xe2\x89\xa4r\xe2\x89\xa41003\xe2\x89\xa4r\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of yellow, blue and red ornaments. '
+b'It is guaranteed that it is possible to choose at least 66 (1+2+3=61+2+3=6) ornaments.'
+b'Output'
+b'Print one number\xc2\xa0\xe2\x80\x94 the maximum number of ornaments that can be used. '
+Tags
+brute force, implementation, math, *800

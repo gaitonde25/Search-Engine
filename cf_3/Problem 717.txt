@@ -1,0 +1,12 @@
+b'This is the hard version of the problem. The only difference from the easy version is that in this version the coordinates can be both odd and even.'
+b'There are nn fence-posts at distinct coordinates on a plane. It is guaranteed that no three fence posts lie on the same line.'
+b'There are an infinite number of cows on the plane, one at every point with integer coordinates.'
+b'Gregor is a member of the Illuminati, and wants to build a triangular fence, connecting 33 distinct existing fence posts. A cow strictly inside the fence is said to be enclosed. If there are an odd number of enclosed cows and the area of the fence is an integer, the fence is said to be interesting.'
+b'Find the number of interesting fences.'
+b'Input'
+b'The first line contains the integer nn (3\xe2\x89\xa4n\xe2\x89\xa460003\xe2\x89\xa4n\xe2\x89\xa46000), the number of fence posts which Gregor can choose to form the vertices of a fence.'
+b'Each of the next nn line contains two integers xx and yy (0\xe2\x89\xa4x,y\xe2\x89\xa41070\xe2\x89\xa4x,y\xe2\x89\xa4107, where (x,y)(x,y) is the coordinate of a fence post. All fence posts lie at distinct coordinates. No three fence posts are on the same line.'
+b'Output'
+b'Print a single integer, the number of interesting fences. Two fences are considered different if they are constructed with a different set of three fence posts.'
+Tags
+brute force, geometry, math, number theory, *3300

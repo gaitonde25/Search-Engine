@@ -1,0 +1,9 @@
+b"Recently Luba bought a monitor. Monitor is a rectangular matrix of size n\xe2\x80\x89\xc3\x97\xe2\x80\x89m. But then she started to notice that some pixels cease to work properly. Luba thinks that the monitor will become broken the first moment when it contains a square k\xe2\x80\x89\xc3\x97\xe2\x80\x89k consisting entirely of broken pixels. She knows that q pixels are already broken, and for each of them she knows the moment when it stopped working. Help Luba to determine when the monitor became broken (or tell that it's still not broken even after all q pixels stopped working)."
+b'Input'
+b'The first line contains four integer numbers n,\xe2\x80\x89m,\xe2\x80\x89k,\xe2\x80\x89q\xc2\xa0(1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(n,\xe2\x80\x89m),\xe2\x80\x890\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xc2\xb7m) \xe2\x80\x94 the length and width of the monitor, the size of a rectangle such that the monitor is broken if there is a broken rectangle with this size, and the number of broken pixels.'
+b'Each of next q lines contain three integer numbers xi,\xe2\x80\x89yi,\xe2\x80\x89ti\xc2\xa0(1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m,\xe2\x80\x890\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 coordinates of i-th broken pixel (its row and column in matrix) and the moment it stopped working. Each pixel is listed at most once.'
+b'We consider that pixel is already broken at moment ti.'
+b'Output'
+b'Print one number \xe2\x80\x94 the minimum moment the monitor became broken, or "-1" if it\'s still not broken after these q pixels stopped working.'
+Tags
+binary search, data structures, *1900

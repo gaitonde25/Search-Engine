@@ -1,0 +1,10 @@
+b"Danny, the local Math Maniac, is fascinated by circles, Omkar's most recent creation. Help him solve this circle problem!"
+b'You are given nn nonnegative integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an arranged in a circle, where nn must be odd (ie. n\xe2\x88\x921n\xe2\x88\x921 is divisible by 22). Formally, for all ii such that 2\xe2\x89\xa4i\xe2\x89\xa4n2\xe2\x89\xa4i\xe2\x89\xa4n, the elements ai\xe2\x88\x921ai\xe2\x88\x921 and aiai are considered to be adjacent, and anan and a1a1 are also considered to be adjacent. In one operation, you pick a number on the circle, replace it with the sum of the two elements adjacent to it, and then delete the two adjacent elements from the circle. This is repeated until only one number remains in the circle, which we call the circular value.'
+b'Help Danny find the maximum possible circular value after some sequences of operations. '
+b'Input'
+b'The first line contains one odd integer nn (1\xe2\x89\xa4n<2\xe2\x8b\x851051\xe2\x89\xa4n<2\xe2\x8b\x85105, nn is odd) \xc2\xa0\xe2\x80\x94 the initial size of the circle.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 the initial numbers in the circle.'
+b'Output'
+b'Output the maximum possible circular value after applying some sequence of operations to the given circle.'
+Tags
+brute force, dp, games, greedy, *2100

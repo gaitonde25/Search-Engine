@@ -1,0 +1,13 @@
+b'You have a string ss of length nn consisting of only characters > and <. You may do some operations with this string, for each operation you have to choose some character that still remains in the string. If you choose a character >, the character that comes right after it is deleted (if the character you chose was the last one, nothing happens). If you choose a character <, the character that comes right before it is deleted (if the character you chose was the first one, nothing happens).'
+b'For example, if we choose character > in string > > < >, the string will become to > > >. And if we choose character < in string > <, the string will become to <.'
+b'The string is good if there is a sequence of operations such that after performing it only one character will remain in the string. For example, the strings >, > > are good. '
+b'Before applying the operations, you may remove any number of characters from the given string (possibly none, possibly up to n\xe2\x88\x921n\xe2\x88\x921, but not the whole string). You need to calculate the minimum number of characters to be deleted from string ss so that it becomes good.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x93 the number of test cases. Each test case is represented by two lines.'
+b'The first line of ii-th test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x93 the length of string ss.'
+b'The second line of ii-th test case contains string ss, consisting of only characters > and <.'
+b'Output'
+b'For each test case print one line.'
+b'For ii-th test case print the minimum number of characters to be deleted from string ss so that it becomes good.'
+Tags
+implementation, strings, *1200

@@ -1,0 +1,11 @@
+b'There are two types of burgers in your restaurant \xe2\x80\x94 hamburgers and chicken burgers! To assemble a hamburger you need two buns and a beef patty. To assemble a chicken burger you need two buns and a chicken cutlet. '
+b'You have bb buns, pp beef patties and ff chicken cutlets in your restaurant. You can sell one hamburger for hh dollars and one chicken burger for cc dollars. Calculate the maximum profit you can achieve.'
+b'You have to answer tt independent queries.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x93 the number of queries.'
+b'The first line of each query contains three integers bb, pp and ff (1\xe2\x89\xa4b,\xc2\xa0p,\xc2\xa0f\xe2\x89\xa41001\xe2\x89\xa4b,\xc2\xa0p,\xc2\xa0f\xe2\x89\xa4100) \xe2\x80\x94 the number of buns, beef patties and chicken cutlets in your restaurant.'
+b'The second line of each query contains two integers hh and cc (1\xe2\x89\xa4h,\xc2\xa0c\xe2\x89\xa41001\xe2\x89\xa4h,\xc2\xa0c\xe2\x89\xa4100) \xe2\x80\x94 the hamburger and chicken burger prices in your restaurant.'
+b'Output'
+b'For each query print one integer \xe2\x80\x94 the maximum profit you can achieve.'
+Tags
+brute force, greedy, implementation, math, *800

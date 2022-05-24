@@ -1,0 +1,12 @@
+b'There are n+1n+1 cities, numbered from 00 to nn. nn roads connect these cities, the ii-th road connects cities i\xe2\x88\x921i\xe2\x88\x921 and ii (i\xe2\x88\x88[1,n]i\xe2\x88\x88[1,n]).'
+b'Each road has a direction. The directions are given by a string of nn characters such that each character is either L or R. If the ii-th character is L, it means that the ii-th road initially goes from the city ii to the city i\xe2\x88\x921i\xe2\x88\x921; otherwise it goes from the city i\xe2\x88\x921i\xe2\x88\x921 to the city ii.'
+b'A traveler would like to visit as many cities of this country as possible. Initially, they will choose some city to start their journey from. Each day, the traveler must go from the city where they currently are to a neighboring city using one of the roads, and they can go along a road only if it is directed in the same direction they are going; i.\xe2\x80\x89e., if a road is directed from city ii to the city i+1i+1, it is possible to travel from ii to i+1i+1, but not from i+1i+1 to ii. After the traveler moves to a neighboring city, all roads change their directions to the opposite ones. If the traveler cannot go from their current city to a neighboring city, their journey ends; it is also possible to end the journey whenever the traveler wants to.'
+b'The goal of the traveler is to visit as many different cities as possible (they can visit a city multiple times, but only the first visit is counted). For each city ii, calculate the maximum number of different cities the traveler can visit during exactly one journey if they start in the city ii. '
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of two lines. The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105). The second line contains the string ss consisting of exactly nn characters, each character is either L or R.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print n+1n+1 integers. The ii-th integer should be equal to the maximum number of different cities the traveler can visit during one journey if this journey starts in the ii-th city.'
+Tags
+dfs and similar, dp, dsu, implementation, *1700

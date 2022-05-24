@@ -1,0 +1,7 @@
+b'The plans for HC2 are rather far-fetched: we are just over 500 000 days away from HC2 3387, for example, and accordingly we are planning to have a couple hundred thousand problems in that edition (we hope that programming contests will become wildly more popular). The marmots need to get to work, and they could use a good plan...'
+b'Input'
+b'Same as the medium version, but the limits have changed: 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500\xe2\x80\x89000.'
+b'Output'
+b'Same as the medium version.'
+Tags
+binary search, data structures, flows, *2900

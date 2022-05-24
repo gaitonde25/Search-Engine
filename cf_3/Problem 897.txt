@@ -1,0 +1,12 @@
+b'Given an array aa of length nn, you can do at most kk operations of the following type on it:'
+b'  choose 22 different elements in the array, add 11 to the first, and subtract 11 from the second. However, all the elements of aa have to remain non-negative after this operation. '
+b'What is lexicographically the smallest array you can obtain?'
+b'An array xx is lexicographically smaller than an array yy if there exists an index ii such that xi<yixi<yi, and xj=yjxj=yj for all 1\xe2\x89\xa4j<i1\xe2\x89\xa4j<i. Less formally, at the first index ii in which they differ, xi<yixi<yi.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4201\xe2\x89\xa4t\xe2\x89\xa420)\xc2\xa0\xe2\x80\x93 the number of test cases you need to solve.'
+b'The first line of each test case contains 22 integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4k\xe2\x89\xa4100001\xe2\x89\xa4k\xe2\x89\xa410000)\xc2\xa0\xe2\x80\x94 the number of elements in the array and the maximum number of operations you can make.'
+b'The second line contains nn space-separated integers a1a1, a2a2, \xe2\x80\xa6\xe2\x80\xa6, anan (0\xe2\x89\xa4ai\xe2\x89\xa41000\xe2\x89\xa4ai\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'Output'
+b'For each test case, print the lexicographically smallest array you can obtain after at most kk operations.'
+Tags
+greedy, *800

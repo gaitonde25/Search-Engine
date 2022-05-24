@@ -1,0 +1,14 @@
+b'We call two numbers xx and yy similar if they have the same parity (the same remainder when divided by 22), or if |x\xe2\x88\x92y|=1|x\xe2\x88\x92y|=1. For example, in each of the pairs (2,6)(2,6), (4,3)(4,3), (11,7)(11,7), the numbers are similar to each other, and in the pairs (1,4)(1,4), (3,12)(3,12), they are not.'
+b'You are given an array aa of nn (nn is even) positive integers. Check if there is such a partition of the array into pairs that each element of the array belongs to exactly one pair and the numbers in each pair are similar to each other.'
+b'For example, for the array a=[11,14,16,12]a=[11,14,16,12], there is a partition into pairs (11,12)(11,12) and (14,16)(14,16). The numbers in the first pair are similar because they differ by one, and in the second pair because they are both even.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case consists of two lines.'
+b'The first line contains an even positive integer nn (2\xe2\x89\xa4n\xe2\x89\xa4502\xe2\x89\xa4n\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 length of array aa.'
+b'The second line contains nn positive integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100).'
+b'Output'
+b'For each test case print:'
+b'  YES if the such a partition exists,  NO otherwise. '
+b'The letters in the words YES and NO can be displayed in any case.'
+Tags
+constructive algorithms, graph matchings, greedy, sortings, *1100

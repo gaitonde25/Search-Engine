@@ -1,0 +1,12 @@
+b'You are given four different integer points p1p1, p2p2, p3p3 and p4p4 on XYXY grid.'
+b'In one step you can choose one of the points pipi and move it in one of four directions by one. In other words, if you have chosen point pi=(x,y)pi=(x,y) you can move it to (x,y+1)(x,y+1), (x,y\xe2\x88\x921)(x,y\xe2\x88\x921), (x+1,y)(x+1,y) or (x\xe2\x88\x921,y)(x\xe2\x88\x921,y).'
+b'Your goal to move points in such a way that they will form a square with sides parallel to OXOX and OYOY axes (a square with side 00 is allowed).'
+b'What is the minimum number of steps you need to make such a square?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each test case consists of four lines. Each line contains two integers xx and yy (0\xe2\x89\xa4x,y\xe2\x89\xa41090\xe2\x89\xa4x,y\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 coordinates of one of the points pi=(x,y)pi=(x,y).'
+b'All points are different in one test case.'
+b'Output'
+b'For each test case, print the single integer\xc2\xa0\xe2\x80\x94 the minimum number of steps to make a square.'
+Tags
+brute force, constructive algorithms, flows, geometry, greedy, implementation, math, ternary search, *2400

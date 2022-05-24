@@ -1,0 +1,14 @@
+b'You are given a rooted tree. Each vertex contains aiai tons of gold, which costs cici per one ton. Initially, the tree consists only a root numbered 00 with a0a0 tons of gold and price c0c0 per ton.'
+b'There are qq queries. Each query has one of two types: '
+b"  Add vertex ii (where ii is an index of query) as a son to some vertex pipi; vertex ii will have aiai tons of gold with cici per ton. It's guaranteed that ci>cpici>cpi.  For a given vertex vivi consider the simple path from vivi to the root. We need to purchase wiwi tons of gold from vertices on this path, spending the minimum amount of money. If there isn't enough gold on the path, we buy all we can. "
+b"If we buy xx tons of gold in some vertex vv the remaining amount of gold in it decreases by xx (of course, we can't buy more gold that vertex has at the moment). For each query of the second type, calculate the resulting amount of gold we bought and the amount of money we should spend."
+b"Note that you should solve the problem in online mode. It means that you can't read the whole input at once. You can read each query only after writing the answer for the last query, so don't forget to flush output after printing answers. You can use functions like fflush(stdout) in C++ and BufferedWriter.flush in Java or similar after each writing in your program. In standard (if you don't tweak I/O), endl flushes cout in C++ and System.out.println in Java (or println in Kotlin) makes automatic flush as well. "
+b'Input'
+b'The first line contains three integers qq, a0a0 and c0c0 (1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105; 1\xe2\x89\xa4a0,c0<1061\xe2\x89\xa4a0,c0<106)\xc2\xa0\xe2\x80\x94 the number of queries, the amount of gold in the root and its price.'
+b'Next qq lines contain descriptions of queries; The ii-th query has one of two types: '
+b'  "11 pipi aiai cici" (0\xe2\x89\xa4pi<i0\xe2\x89\xa4pi<i; 1\xe2\x89\xa4ai,ci<1061\xe2\x89\xa4ai,ci<106): add vertex ii as a son to vertex pipi. The vertex ii will have aiai tons of gold with price cici per one ton. It\'s guaranteed that pipi exists and ci>cpici>cpi. "22 vivi wiwi" (0\xe2\x89\xa4vi<i0\xe2\x89\xa4vi<i; 1\xe2\x89\xa4wi<1061\xe2\x89\xa4wi<106): buy wiwi tons of gold from vertices on path from vivi to 00 spending the minimum amount of money. If there isn\'t enough gold, we buy as much as we can. It\'s guaranteed that vertex vivi exist. '
+b"It's guaranteed that there is at least one query of the second type."
+b'Output'
+b'For each query of the second type, print the resulting amount of gold we bought and the minimum amount of money we should spend.'
+Tags
+binary search, data structures, dp, greedy, interactive, trees, *2200

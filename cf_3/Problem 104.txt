@@ -1,0 +1,13 @@
+b'You are given an array aa of nn integers. Initially there is only one copy of the given array.'
+b'You can do operations of two types:'
+b'  Choose any array and clone it. After that there is one more copy of the chosen array.  Swap two elements from any two copies (maybe in the same copy) on any positions. '
+b'You need to find the minimal number of operations needed to obtain a copy where all elements are equal.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of the array aa.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case output a single integer\xc2\xa0\xe2\x80\x94 the minimal number of operations needed to create at least one copy where all elements are equal.'
+Tags
+constructive algorithms, greedy, sortings, *900

@@ -1,0 +1,17 @@
+b'There is a graph of nn rows and 106+2106+2 columns, where rows are numbered from 11 to nn and columns from 00 to 106+1106+1:'
+b'  '
+b"Let's denote the node in the row ii and column jj by (i,j)(i,j)."
+b"Initially for each ii the ii-th row has exactly one obstacle \xe2\x80\x94 at node (i,ai)(i,ai). You want to move some obstacles so that you can reach node (n,106+1)(n,106+1) from node (1,0)(1,0) by moving through edges of this graph (you can't pass through obstacles). Moving one obstacle to an adjacent by edge free node costs uu or vv coins, as below:"
+b"  If there is an obstacle in the node (i,j)(i,j), you can use uu coins to move it to (i\xe2\x88\x921,j)(i\xe2\x88\x921,j) or (i+1,j)(i+1,j), if such node exists and if there is no obstacle in that node currently.  If there is an obstacle in the node (i,j)(i,j), you can use vv coins to move it to (i,j\xe2\x88\x921)(i,j\xe2\x88\x921) or (i,j+1)(i,j+1), if such node exists and if there is no obstacle in that node currently.  Note that you can't move obstacles outside the grid. For example, you can't move an obstacle from (1,1)(1,1) to (0,1)(0,1). "
+b'Refer to the picture above for a better understanding. '
+b'Now you need to calculate the minimal number of coins you need to spend to be able to reach node (n,106+1)(n,106+1) from node (1,0)(1,0) by moving through edges of this graph without passing through obstacles.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains three integers nn, uu and vv (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4u,v\xe2\x89\xa41091\xe2\x89\xa4u,v\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of rows in the graph and the numbers of coins needed to move vertically and horizontally respectively.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 where aiai represents that the obstacle in the ii-th row is in node (i,ai)(i,ai).'
+b"It's guaranteed that the sum of nn over all test cases doesn't exceed 2\xe2\x8b\x851042\xe2\x8b\x85104."
+b'Output'
+b'For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the minimal number of coins you need to spend to be able to reach node (n,106+1)(n,106+1) from node (1,0)(1,0) by moving through edges of this graph without passing through obstacles.'
+b'It can be shown that under the constraints of the problem there is always a way to make such a trip possible.'
+Tags
+brute force, math, *1200

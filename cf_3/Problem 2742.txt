@@ -1,0 +1,10 @@
+b"You are given a tree (an undirected connected acyclic graph) consisting of nn vertices and n\xe2\x88\x921n\xe2\x88\x921 edges. A number is written on each edge, each number is either 00 (let's call such edges 00-edges) or 11 (those are 11-edges)."
+b"Let's call an ordered pair of vertices (x,y)(x,y) (x\xe2\x89\xa0yx\xe2\x89\xa0y) valid if, while traversing the simple path from xx to yy, we never go through a 00-edge after going through a 11-edge. Your task is to calculate the number of valid pairs in the tree."
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42000002\xe2\x89\xa4n\xe2\x89\xa4200000) \xe2\x80\x94 the number of vertices in the tree.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follow, each denoting an edge of the tree. Each edge is represented by three integers xixi, yiyi and cici (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n, 0\xe2\x89\xa4ci\xe2\x89\xa410\xe2\x89\xa4ci\xe2\x89\xa41, xi\xe2\x89\xa0yixi\xe2\x89\xa0yi) \xe2\x80\x94 the vertices connected by this edge and the number written on it, respectively.'
+b'It is guaranteed that the given edges form a tree.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of valid pairs of vertices.'
+Tags
+dfs and similar, divide and conquer, dp, dsu, trees, *2200

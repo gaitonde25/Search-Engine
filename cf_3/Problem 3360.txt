@@ -1,0 +1,11 @@
+b'You are given a matrix of size n\xc3\x97nn\xc3\x97n filled with lowercase English letters. You can change no more than kk letters in this matrix.'
+b'Consider all paths from the upper left corner to the lower right corner that move from a cell to its neighboring cell to the right or down. Each path is associated with the string that is formed by all the letters in the cells the path visits. Thus, the length of each string is 2n\xe2\x88\x9212n\xe2\x88\x921.'
+b'Find the lexicographically smallest string that can be associated with a path after changing letters in at most kk cells of the matrix.'
+b'A string aa is lexicographically smaller than a string bb, if the first different letter in aa and bb is smaller in aa.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000, 0\xe2\x89\xa4k\xe2\x89\xa4n20\xe2\x89\xa4k\xe2\x89\xa4n2) \xe2\x80\x94 the size of the matrix and the number of letters you can change.'
+b'Each of the next nn lines contains a string of nn lowercase English letters denoting one row of the matrix.'
+b'Output'
+b'Output the lexicographically smallest string that can be associated with some valid path after changing no more than kk letters in the matrix.'
+Tags
+greedy, *1900

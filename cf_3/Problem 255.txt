@@ -1,0 +1,12 @@
+b'You are given an array aa of size nn.'
+b'You can perform the following operation on the array: '
+b'  Choose two different integers i,ji,j (1\xe2\x89\xa4i<j\xe2\x89\xa4n(1\xe2\x89\xa4i<j\xe2\x89\xa4n), replace aiai with xx and ajaj with yy. In order not to break the array, ai|aj=x|yai|aj=x|y must be held, where || denotes the bitwise OR operation. Notice that xx and yy are non-negative integers. '
+b'Please output the minimum sum of the array you can get after using the operation above any number of times.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41000)(1\xe2\x89\xa4t\xe2\x89\xa41000). Description of the test cases follows.'
+b'The first line of each test case contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa4100)(2\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the size of array aa.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai<230)(0\xe2\x89\xa4ai<230).'
+b'Output'
+b'For each test case, print one number in a line \xe2\x80\x94 the minimum possible sum of the array.'
+Tags
+bitmasks, greedy, *800

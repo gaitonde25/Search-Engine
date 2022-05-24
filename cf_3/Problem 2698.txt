@@ -1,0 +1,14 @@
+b'A telephone number is a sequence of exactly 11 digits, where the first digit is 8. For example, the sequence 80011223388 is a telephone number, but the sequences 70011223388 and 80000011223388 are not.'
+b'You are given a string ss of length nn, consisting of digits.'
+b'In one operation you can delete any character from string ss. For example, it is possible to obtain strings 112, 111 or 121 from string 1121.'
+b'You need to determine whether there is such a sequence of operations (possibly empty), after which the string ss becomes a telephone number.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the length of string ss.'
+b'The second line of each test case contains the string ss (|s|=n|s|=n) consisting of digits.'
+b'Output'
+b'For each test print one line.'
+b'If there is a sequence of operations, after which ss becomes a telephone number, print YES.'
+b'Otherwise, print NO.'
+Tags
+brute force, greedy, strings, *800

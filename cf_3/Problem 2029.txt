@@ -1,0 +1,13 @@
+b'There are nn monsters standing in a row numbered from 11 to nn. The ii-th monster has hihi health points (hp). You have your attack power equal to aa hp and your opponent has his attack power equal to bb hp.'
+b'You and your opponent are fighting these monsters. Firstly, you and your opponent go to the first monster and fight it till his death, then you and your opponent go the second monster and fight it till his death, and so on. A monster is considered dead if its hp is less than or equal to 00.'
+b'The fight with a monster happens in turns. '
+b'  You hit the monster by aa hp. If it is dead after your hit, you gain one point and you both proceed to the next monster.  Your opponent hits the monster by bb hp. If it is dead after his hit, nobody gains a point and you both proceed to the next monster. '
+b'You have some secret technique to force your opponent to skip his turn. You can use this technique at most kk times in total (for example, if there are two monsters and k=4k=4, then you can use the technique 22 times on the first monster and 11 time on the second monster, but not 22 times on the first monster and 33 times on the second monster).'
+b'Your task is to determine the maximum number of points you can gain if you use the secret technique optimally.'
+b'Input'
+b"The first line of the input contains four integers n,a,bn,a,b and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4a,b,k\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4a,b,k\xe2\x89\xa4109) \xe2\x80\x94 the number of monsters, your attack power, the opponent's attack power and the number of times you can use the secret technique."
+b'The second line of the input contains nn integers h1,h2,\xe2\x80\xa6,hnh1,h2,\xe2\x80\xa6,hn (1\xe2\x89\xa4hi\xe2\x89\xa41091\xe2\x89\xa4hi\xe2\x89\xa4109), where hihi is the health points of the ii-th monster.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum number of points you can gain if you use the secret technique optimally.'
+Tags
+greedy, sortings, *1500

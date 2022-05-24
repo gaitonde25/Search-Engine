@@ -1,0 +1,12 @@
+b'You are given two integers nn and dd. You need to construct a rooted binary tree consisting of nn vertices with a root at the vertex 11 and the sum of depths of all vertices equals to dd.'
+b'A tree is a connected graph without cycles. A rooted tree has a special vertex called the root. A parent of a vertex vv is the last different from vv vertex on the path from the root to the vertex vv. The depth of the vertex vv is the length of the path from the root to the vertex vv. Children of vertex vv are all vertices for which vv is the parent. The binary tree is such a tree that no vertex has more than 22 children.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases.'
+b'The only line of each test case contains two integers nn and dd (2\xe2\x89\xa4n,d\xe2\x89\xa450002\xe2\x89\xa4n,d\xe2\x89\xa45000) \xe2\x80\x94 the number of vertices in the tree and the required sum of depths of all vertices.'
+b'It is guaranteed that the sum of nn and the sum of dd both does not exceed 50005000 (\xe2\x88\x91n\xe2\x89\xa45000,\xe2\x88\x91d\xe2\x89\xa45000\xe2\x88\x91n\xe2\x89\xa45000,\xe2\x88\x91d\xe2\x89\xa45000).'
+b'Output'
+b'For each test case, print the answer.'
+b'If it is impossible to construct such a tree, print "NO" (without quotes) in the first line. Otherwise, print "{YES}" in the first line. Then print n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3,\xe2\x80\xa6,pnp2,p3,\xe2\x80\xa6,pn in the second line, where pipi is the parent of the vertex ii. Note that the sequence of parents you print should describe some binary tree.'
+Tags
+brute force, constructive algorithms, trees, *2200

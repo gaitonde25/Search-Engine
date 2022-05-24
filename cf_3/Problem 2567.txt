@@ -1,0 +1,11 @@
+b'You are given nn numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Is it possible to arrange them in a circle in such a way that every number is strictly less than the sum of its neighbors?'
+b'For example, for the array [1,4,5,6,7,8][1,4,5,6,7,8], the arrangement on the left is valid, while arrangement on the right is not, as 5\xe2\x89\xa54+15\xe2\x89\xa54+1 and 8>1+68>1+6.'
+b'  '
+b'Input'
+b'The first line contains a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa41053\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of numbers.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the numbers. The given numbers are not necessarily distinct (i.e. duplicates are allowed).'
+b'Output'
+b'If there is no solution, output "NO" in the first line. '
+b'If there is a solution, output "YES" in the first line. In the second line output nn numbers\xc2\xa0\xe2\x80\x94 elements of the array in the order they will stay in the circle. The first and the last element you output are considered neighbors in the circle. If there are multiple solutions, output any of them. You can print the circle starting with any element.'
+Tags
+greedy, math, sortings, *1100

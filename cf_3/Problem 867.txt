@@ -1,0 +1,15 @@
+b'Nastia has an unweighted tree with nn vertices and wants to play with it!'
+b'The girl will perform the following operation with her tree, as long as she needs:'
+b'  Remove any existing edge.  Add an edge between any pair of vertices. '
+b'What is the minimum number of operations Nastia needs to get a bamboo from a tree? A bamboo is a tree in which no node has a degree greater than 22.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'Next n\xe2\x88\x921n\xe2\x88\x921 lines of each test cases describe the edges of the tree in form aiai, bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n, ai\xe2\x89\xa0biai\xe2\x89\xa0bi).'
+b"It's guaranteed the given graph is a tree and the sum of nn in one test doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case in the first line print a single integer kk\xc2\xa0\xe2\x80\x94 the minimum number of operations required to obtain a bamboo from the initial tree.'
+b'In the next kk lines print 44 integers x1x1, y1y1, x2x2, y2y2 (1\xe2\x89\xa4x1,y1,x2,y2\xe2\x89\xa4n1\xe2\x89\xa4x1,y1,x2,y2\xe2\x89\xa4n, x1\xe2\x89\xa0y1x1\xe2\x89\xa0y1, x2\xe2\x89\xa0y2x2\xe2\x89\xa0y2)\xc2\xa0\xe2\x80\x94 this way you remove the edge (x1,y1)(x1,y1) and add an undirected edge (x2,y2)(x2,y2).'
+b'Note that the edge (x1,y1)(x1,y1) must be present in the graph at the moment of removing.'
+Tags
+constructive algorithms, data structures, dfs and similar, dp, dsu, greedy, implementation, trees, *2500

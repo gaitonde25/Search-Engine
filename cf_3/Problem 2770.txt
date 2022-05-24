@@ -1,0 +1,15 @@
+b'Cat Furrier Transform is a popular algorithm among cat programmers to create longcats. As one of the greatest cat programmers ever exist, Neko wants to utilize this algorithm to create the perfect longcat.'
+b'Assume that we have a cat with a number xx. A perfect longcat is a cat with a number equal 2m\xe2\x88\x9212m\xe2\x88\x921 for some non-negative integer mm. For example, the numbers 00, 11, 33, 77, 1515 and so on are suitable for the perfect longcats.'
+b'In the Cat Furrier Transform, the following operations can be performed on xx:'
+b'  (Operation A): you select any non-negative integer nn and replace xx with x\xe2\x8a\x95(2n\xe2\x88\x921)x\xe2\x8a\x95(2n\xe2\x88\x921), with \xe2\x8a\x95\xe2\x8a\x95 being a bitwise XOR operator. (Operation B): replace xx with x+1x+1. '
+b'The first applied operation must be of type A, the second of type B, the third of type A again, and so on. Formally, if we number operations from one in the order they are executed, then odd-numbered operations must be of type A and the even-numbered operations must be of type B.'
+b'Neko wants to produce perfect longcats at industrial scale, thus for each cat Neko only wants to perform at most 4040 operations. Can you help Neko writing a transformation plan?'
+b'Note that it is not required to minimize the number of operations. You just need to use no more than 4040 operations.'
+b'Input'
+b'The only line contains a single integer xx (1\xe2\x89\xa4x\xe2\x89\xa41061\xe2\x89\xa4x\xe2\x89\xa4106).'
+b'Output'
+b'The first line should contain a single integer tt (0\xe2\x89\xa4t\xe2\x89\xa4400\xe2\x89\xa4t\xe2\x89\xa440)\xc2\xa0\xe2\x80\x94 the number of operations to apply.'
+b'Then for each odd-numbered operation print the corresponding number nini in it. That is, print \xe2\x8c\x88t2\xe2\x8c\x89\xe2\x8c\x88t2\xe2\x8c\x89 integers nini (0\xe2\x89\xa4ni\xe2\x89\xa4300\xe2\x89\xa4ni\xe2\x89\xa430), denoting the replacement xx with x\xe2\x8a\x95(2ni\xe2\x88\x921)x\xe2\x8a\x95(2ni\xe2\x88\x921) in the corresponding step.'
+b'If there are multiple possible answers, you can print any of them. It is possible to show, that there is at least one answer in the constraints of this problem.'
+Tags
+bitmasks, constructive algorithms, dfs and similar, math, *1300

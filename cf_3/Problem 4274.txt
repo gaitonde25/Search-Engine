@@ -1,0 +1,12 @@
+b"You are given two strings s and t consisting of small Latin letters, string s can also contain '?' characters. "
+b'Suitability of string s is calculated by following metric:'
+b'Any two letters can be swapped positions, these operations can be performed arbitrary number of times over any pair of positions. Among all resulting strings s, you choose the one with the largest number of non-intersecting occurrences of string t. Suitability is this number of occurrences.'
+b"You should replace all '?' characters with small Latin letters in such a way that the suitability of string s is maximal."
+b'Input'
+b'The first line contains string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106).'
+b'The second line contains string t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|t|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106).'
+b'Output'
+b"Print string s with '?' replaced with small Latin letters in such a way that suitability of that string is maximal."
+b'If there are multiple strings with maximal suitability then print any of them.'
+Tags
+binary search, greedy, implementation, *1500

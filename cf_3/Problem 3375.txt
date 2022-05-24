@@ -1,0 +1,10 @@
+b'You are given a problemset consisting of nn problems. The difficulty of the ii-th problem is aiai. It is guaranteed that all difficulties are distinct and are given in the increasing order.'
+b'You have to assemble the contest which consists of some problems of the given problemset. In other words, the contest you have to assemble should be a subset of problems (not necessary consecutive) of the given problemset. There is only one condition that should be satisfied: for each problem but the hardest one (the problem with the maximum difficulty) there should be a problem with the difficulty greater than the difficulty of this problem but not greater than twice the difficulty of this problem. In other words, let ai1,ai2,\xe2\x80\xa6,aipai1,ai2,\xe2\x80\xa6,aip be the difficulties of the selected problems in increasing order. Then for each jj from 11 to p\xe2\x88\x921p\xe2\x88\x921 aij+1\xe2\x89\xa4aij\xe2\x8b\x852aij+1\xe2\x89\xa4aij\xe2\x8b\x852 should hold. It means that the contest consisting of only one problem is always valid.'
+b'Among all contests satisfying the condition above you have to assemble one with the maximum number of problems. Your task is to find this number of problems.'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of problems in the problemset.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 difficulties of the problems. It is guaranteed that difficulties of the problems are distinct and are given in the increasing order.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 maximum number of problems in the contest satisfying the condition in the problem statement.'
+Tags
+dp, greedy, math, *1200

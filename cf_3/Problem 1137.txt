@@ -1,0 +1,14 @@
+b'Polycarp found under the Christmas tree an array aa of nn elements and instructions for playing with it: '
+b'  At first, choose index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 starting position in the array. Put the chip at the index ii (on the value aiai).  While i\xe2\x89\xa4ni\xe2\x89\xa4n, add aiai to your score and move the chip aiai positions to the right (i.e. replace ii with i+aii+ai).  If i>ni>n, then Polycarp ends the game. '
+b'For example, if n=5n=5 and a=[7,3,1,2,3]a=[7,3,1,2,3], then the following game options are possible: '
+b'  Polycarp chooses i=1i=1. Game process: i=1\xe2\x9f\xb6+78i=1\xe2\x9f\xb6+78. The score of the game is: a1=7a1=7.  Polycarp chooses i=2i=2. Game process: i=2\xe2\x9f\xb6+35\xe2\x9f\xb6+38i=2\xe2\x9f\xb6+35\xe2\x9f\xb6+38. The score of the game is: a2+a5=6a2+a5=6.  Polycarp chooses i=3i=3. Game process: i=3\xe2\x9f\xb6+14\xe2\x9f\xb6+26i=3\xe2\x9f\xb6+14\xe2\x9f\xb6+26. The score of the game is: a3+a4=3a3+a4=3.  Polycarp chooses i=4i=4. Game process: i=4\xe2\x9f\xb6+26i=4\xe2\x9f\xb6+26. The score of the game is: a4=2a4=2.  Polycarp chooses i=5i=5. Game process: i=5\xe2\x9f\xb6+38i=5\xe2\x9f\xb6+38. The score of the game is: a5=3a5=3. '
+b'Help Polycarp to find out the maximum score he can get if he chooses the starting index in an optimal way.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the array aa.'
+b'The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 elements of the array aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output on a separate line one number\xc2\xa0\xe2\x80\x94 the maximum score that Polycarp can get by playing the game on the corresponding array according to the instruction from the statement. Note that Polycarp chooses any starting position from 11 to nn in such a way as to maximize his result.'
+Tags
+dp, graphs, *1100

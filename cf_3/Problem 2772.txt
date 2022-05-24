@@ -1,0 +1,12 @@
+b"A girl named Sonya is studying in the scientific lyceum of the Kingdom of Kremland. The teacher of computer science (Sonya's favorite subject!) invented a task for her."
+b'Given an array aa of length nn, consisting only of the numbers 00 and 11, and the number kk. Exactly kk times the following happens: '
+b'  Two numbers ii and jj are chosen equiprobable such that (1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n).  The numbers in the ii and jj positions are swapped. '
+b"Sonya's task is to find the probability that after all the operations are completed, the aa array will be sorted in non-decreasing order. She turned to you for help. Help Sonya solve this problem."
+b'It can be shown that the desired probability is either 00 or it can be represented as PQPQ, where PP and QQ are coprime integers and Q\xe2\x89\xa1\xcc\xb80\xc2\xa0(mod109+7)Q\xe2\x89\xa20\xc2\xa0(mod109+7).'
+b'Input'
+b'The first line contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa4100,1\xe2\x89\xa4k\xe2\x89\xa41092\xe2\x89\xa4n\xe2\x89\xa4100,1\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the length of the array aa and the number of operations.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa410\xe2\x89\xa4ai\xe2\x89\xa41)\xc2\xa0\xe2\x80\x94 the description of the array aa.'
+b'Output'
+b'If the desired probability is 00, print 00, otherwise print the value P\xe2\x8b\x85Q\xe2\x88\x921P\xe2\x8b\x85Q\xe2\x88\x921 (mod109+7)(mod109+7), where PP and QQ are defined above.'
+Tags
+combinatorics, dp, matrices, probabilities, *2300

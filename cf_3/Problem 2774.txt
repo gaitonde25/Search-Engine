@@ -1,0 +1,10 @@
+b'During a break in the buffet of the scientific lyceum of the Kingdom of Kremland, there was formed a queue of nn high school students numbered from 11 to nn. Initially, each student ii is on position ii. Each student ii is characterized by two numbers\xc2\xa0\xe2\x80\x94 aiai and bibi. Dissatisfaction of the person ii equals the product of aiai by the number of people standing to the left of his position, add the product bibi by the number of people standing to the right of his position. Formally, the dissatisfaction of the student ii, which is on the position jj, equals ai\xe2\x8b\x85(j\xe2\x88\x921)+bi\xe2\x8b\x85(n\xe2\x88\x92j)ai\xe2\x8b\x85(j\xe2\x88\x921)+bi\xe2\x8b\x85(n\xe2\x88\x92j).'
+b'The director entrusted Stas with the task: rearrange the people in the queue so that minimize the total dissatisfaction.'
+b'Although Stas is able to solve such problems, this was not given to him. He turned for help to you.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of people in the queue.'
+b'Each of the following nn lines contains two integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa41081\xe2\x89\xa4ai,bi\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the characteristic of the student ii, initially on the position ii.'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 minimum total dissatisfaction which can be achieved by rearranging people in the queue.'
+Tags
+greedy, math, sortings, *1600

@@ -1,0 +1,12 @@
+b'This is an interactive problem. The only difference between the easy and hard version is the limit on number of questions.'
+b'There are nn players labelled from 11 to nn. It is guaranteed that nn is a multiple of 33.'
+b'Among them, there are kk impostors and n\xe2\x88\x92kn\xe2\x88\x92k crewmates. The number of impostors, kk, is not given to you. It is guaranteed that n3<k<2n3n3<k<2n3.'
+b'In each question, you can choose three distinct integers aa, bb, cc (1\xe2\x89\xa4a,b,c\xe2\x89\xa4n1\xe2\x89\xa4a,b,c\xe2\x89\xa4n) and ask: "Among the players labelled aa, bb and cc, are there more impostors or more crewmates?" You will be given the integer 00 if there are more impostors than crewmates, and 11 otherwise.'
+b'Find the number of impostors kk and the indices of players that are impostors after asking at most 2n2n questions.'
+b'The jury is adaptive, which means the indices of impostors may not be fixed beforehand and can depend on your questions. It is guaranteed that there is at least one set of impostors which fulfills the constraints and the answers to your questions at any time.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first and only line of each test case contains a single integer nn (6\xe2\x89\xa4n<1046\xe2\x89\xa4n<104, nn is a multiple of 33) \xe2\x80\x94 the number of players.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851042\xe2\x8b\x85104.'
+Tags
+constructive algorithms, implementation, interactive, *1800

@@ -1,0 +1,15 @@
+b'You are playing a game similar to Sokoban on an infinite number line. The game is discrete, so you only consider integer positions on the line.'
+b'You start on a position 00. There are nn boxes, the ii-th box is on a position aiai. All positions of the boxes are distinct. There are also mm special positions, the jj-th position is bjbj. All the special positions are also distinct.'
+b"In one move you can go one position to the left or to the right. If there is a box in the direction of your move, then you push the box to the next position in that direction. If the next position is taken by another box, then that box is also pushed to the next position, and so on. You can't go through the boxes. You can't pull the boxes towards you."
+b'You are allowed to perform any number of moves (possibly, zero). Your goal is to place as many boxes on special positions as possible. Note that some boxes can be initially placed on special positions.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Then descriptions of tt testcases follow.'
+b'The first line of each testcase contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of boxes and the number of special positions, respectively.'
+b'The second line of each testcase contains nn distinct integers in the increasing order a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<an\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<an\xe2\x89\xa4109; ai\xe2\x89\xa00ai\xe2\x89\xa00)\xc2\xa0\xe2\x80\x94 the initial positions of the boxes.'
+b'The third line of each testcase contains mm distinct integers in the increasing order b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (\xe2\x88\x92109\xe2\x89\xa4b1<b2<\xe2\x8b\xaf<bm\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4b1<b2<\xe2\x8b\xaf<bm\xe2\x89\xa4109; bi\xe2\x89\xa00bi\xe2\x89\xa00)\xc2\xa0\xe2\x80\x94 the special positions.'
+b"The sum of nn over all testcases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105. The sum of mm over all testcases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each testcase print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of boxes that can be placed on special positions.'
+Tags
+binary search, dp, greedy, implementation, two pointers, *1900

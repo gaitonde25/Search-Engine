@@ -1,0 +1,14 @@
+b'Wabbit is trying to move a box containing food for the rest of the zoo in the coordinate plane from the point (x1,y1)(x1,y1) to the point (x2,y2)(x2,y2).'
+b'He has a rope, which he can use to pull the box. He can only pull the box if he stands exactly 11 unit away from the box in the direction of one of two coordinate axes. He will pull the box to where he is standing before moving out of the way in the same direction by 11 unit. '
+b'  '
+b'For example, if the box is at the point (1,2)(1,2) and Wabbit is standing at the point (2,2)(2,2), he can pull the box right by 11 unit, with the box ending up at the point (2,2)(2,2) and Wabbit ending at the point (3,2)(3,2).'
+b"Also, Wabbit can move 11 unit to the right, left, up, or down without pulling the box. In this case, it is not necessary for him to be in exactly 11 unit away from the box. If he wants to pull the box again, he must return to a point next to the box. Also, Wabbit can't move to the point where the box is located."
+b'Wabbit can start at any point. It takes 11 second to travel 11 unit right, left, up, or down, regardless of whether he pulls the box while moving.'
+b'Determine the minimum amount of time he needs to move the box from (x1,y1)(x1,y1) to (x2,y2)(x2,y2). Note that the point where Wabbit ends up at does not matter.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41000)(1\xe2\x89\xa4t\xe2\x89\xa41000): the number of test cases. The description of the test cases follows.'
+b'Each of the next tt lines contains four space-separated integers x1,y1,x2,y2x1,y1,x2,y2 (1\xe2\x89\xa4x1,y1,x2,y2\xe2\x89\xa4109)(1\xe2\x89\xa4x1,y1,x2,y2\xe2\x89\xa4109), describing the next test case.'
+b'Output'
+b'For each test case, print a single integer: the minimum time in seconds Wabbit needs to bring the box from (x1,y1)(x1,y1) to (x2,y2)(x2,y2).'
+Tags
+math, *800

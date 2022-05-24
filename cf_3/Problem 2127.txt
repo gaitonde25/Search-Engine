@@ -1,0 +1,12 @@
+b'Vasya has a tree with nn vertices numbered from 11 to nn, and n\xe2\x88\x921n\xe2\x88\x921 edges numbered from 11 to n\xe2\x88\x921n\xe2\x88\x921. Initially each vertex contains a token with the number of the vertex written on it.'
+b'Vasya plays a game. He considers all edges of the tree by increasing of their indices. For every edge he acts as follows:'
+b' If both endpoints of the edge contain a token, remove a token from one of the endpoints and write down its number. Otherwise, do nothing.'
+b'The result of the game is the sequence of numbers Vasya has written down. Note that there may be many possible resulting sequences depending on the choice of endpoints when tokens are removed.'
+b'Vasya has played for such a long time that he thinks he exhausted all possible resulting sequences he can obtain. He wants you to verify him by computing the number of distinct sequences modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of vertices of the tree.'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines describe edges of the tree. The ii-th of these lines contains two integers ui,viui,vi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 endpoints of the edge with index ii. It is guaranteed that the given graph is indeed a tree.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of distinct sequences modulo 998244353998244353.'
+Tags
+dp, trees, *2900

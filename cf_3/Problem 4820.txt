@@ -1,0 +1,21 @@
+b'Scott Lang is at war with Darren Cross. There are n chairs in a hall where they are, numbered with 1,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89n from left to right. The i-th chair is located at coordinate xi. Scott is on chair number s and Cross is on chair number e. Scott can jump to all other chairs (not only neighboring chairs). He wants to start at his position (chair number s), visit each chair exactly once and end up on chair number e with Cross. '
+b'As we all know, Scott can shrink or grow big (grow big only to his normal size), so at any moment of time he can be either small or large (normal). The thing is, he can only shrink or grow big while being on a chair (not in the air while jumping to another chair). Jumping takes time, but shrinking and growing big takes no time. Jumping from chair number i to chair number j takes |xi\xe2\x80\x89-\xe2\x80\x89xj| seconds. Also, jumping off a chair and landing on a chair takes extra amount of time. '
+b'If Scott wants to jump to a chair on his left, he can only be small, and if he wants to jump to a chair on his right he should be large.'
+b'Jumping off the i-th chair takes:'
+b"  ci extra seconds if he's small.  di extra seconds otherwise (he's large). "
+b'Also, landing on i-th chair takes:'
+b"  bi extra seconds if he's small.  ai extra seconds otherwise (he's large). "
+b'In simpler words, jumping from i-th chair to j-th chair takes exactly:'
+b'  |xi\xe2\x80\x89-\xe2\x80\x89xj|\xe2\x80\x89+\xe2\x80\x89ci\xe2\x80\x89+\xe2\x80\x89bj seconds if j\xe2\x80\x89<\xe2\x80\x89i.  |xi\xe2\x80\x89-\xe2\x80\x89xj|\xe2\x80\x89+\xe2\x80\x89di\xe2\x80\x89+\xe2\x80\x89aj seconds otherwise (j\xe2\x80\x89>\xe2\x80\x89i). '
+b'Given values of x, a, b, c, d find the minimum time Scott can get to Cross, assuming he wants to visit each chair exactly once.'
+b'Input'
+b'The first line of the input contains three integers n,\xe2\x80\x89s and e (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s,\xe2\x80\x89e\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89e)\xc2\xa0\xe2\x80\x94 the total number of chairs, starting and ending positions of Scott.'
+b'The second line contains n integers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x1\xe2\x80\x89<\xe2\x80\x89x2\xe2\x80\x89<\xe2\x80\x89...\xe2\x80\x89<\xe2\x80\x89xn\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'The third line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'The fourth line contains n integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'The fifth line contains n integers c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cn\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'The sixth line contains n integers d1,\xe2\x80\x89d2,\xe2\x80\x89...,\xe2\x80\x89dn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d1,\xe2\x80\x89d2,\xe2\x80\x89...,\xe2\x80\x89dn\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b'Print the minimum amount of time Scott needs to get to the Cross while visiting each chair exactly once.'
+Tags
+dp, graphs, greedy, *2500

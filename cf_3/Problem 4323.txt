@@ -1,0 +1,12 @@
+b'Alice is a beginner composer and now she is ready to create another masterpiece. And not even the single one but two at the same time! '
+b'Alice has a sheet with n notes written on it. She wants to take two such non-empty non-intersecting subsequences that both of them form a melody and sum of their lengths is maximal.'
+b'Subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements.'
+b'Subsequence forms a melody when each two adjacent notes either differs by 1 or are congruent modulo 7.'
+b'You should write a program which will calculate maximum sum of lengths of such two non-empty non-intersecting subsequences that both of them form a melody.'
+b'Input'
+b'The first line contains one integer number n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000).'
+b'The second line contains n integer numbers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 notes written on a sheet.'
+b'Output'
+b'Print maximum sum of lengths of such two non-empty non-intersecting subsequences that both of them form a melody.'
+Tags
+dp, flows, *2600

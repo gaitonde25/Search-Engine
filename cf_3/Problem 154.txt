@@ -1,0 +1,13 @@
+b'Today, Marin is at a cosplay exhibition and is preparing for a group photoshoot!'
+b'For the group picture, the cosplayers form a horizontal line. A group picture is considered beautiful if for every contiguous segment of at least 22 cosplayers, the number of males does not exceed the number of females (obviously).'
+b"Currently, the line has nn cosplayers which can be described by a binary string ss. The ii-th cosplayer is male if si=0si=0 and female if si=1si=1. To ensure that the line is beautiful, you can invite some additional cosplayers (possibly zero) to join the line at any position. You can't remove any cosplayer from the line."
+b"Marin wants to know the minimum number of cosplayers you need to invite so that the group picture of all the cosplayers is beautiful. She can't do this on her own, so she's asking you for help. Can you help her?"
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103) \xe2\x80\x94 the number of test cases. '
+b'The first line of each test case contains a positive integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of cosplayers in the initial line.'
+b'The second line of each test case contains a binary string ss of length nn \xe2\x80\x94 describing the cosplayers already in line. Each character of the string is either 0 describing a male, or 1 describing a female.'
+b'Note that there is no limit on the sum of nn.'
+b'Output'
+b'For each test case, print the minimum number of cosplayers you need to invite so that the group picture of all the cosplayers is beautiful.'
+Tags
+constructive algorithms, implementation, math, *800

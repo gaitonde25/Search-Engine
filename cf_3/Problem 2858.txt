@@ -1,0 +1,15 @@
+b'In this task, Nastya asked us to write a formal statement.'
+b'An array aa of length nn and an array kk of length n\xe2\x88\x921n\xe2\x88\x921 are given. Two types of queries should be processed: '
+b'  increase aiai by xx. Then if ai+1<ai+kiai+1<ai+ki, ai+1ai+1 becomes exactly ai+kiai+ki; again, if ai+2<ai+1+ki+1ai+2<ai+1+ki+1, ai+2ai+2 becomes exactly ai+1+ki+1ai+1+ki+1, and so far for ai+3ai+3, ..., anan;  print the sum of the contiguous subarray from the ll-th element to the rr-th element of the array aa. '
+b"It's guaranteed that initially ai+ki\xe2\x89\xa4ai+1ai+ki\xe2\x89\xa4ai+1 for all 1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921."
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of elements in the array aa.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'The third line contains n\xe2\x88\x921n\xe2\x88\x921 integers k1,k2,\xe2\x80\xa6,kn\xe2\x88\x921k1,k2,\xe2\x80\xa6,kn\xe2\x88\x921 (\xe2\x88\x92106\xe2\x89\xa4ki\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4ki\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the elements of the array kk.'
+b'The fourth line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Each of the following qq lines contains a query of one of two types: '
+b"  if the query has the first type, the corresponding line contains the character '+' (without quotes), and then there are two integers ii and xx (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, 0\xe2\x89\xa4x\xe2\x89\xa41060\xe2\x89\xa4x\xe2\x89\xa4106), it means that integer xx is added to the ii-th element of the array aa as described in the statement.  if the query has the second type, the corresponding line contains the character 's' (without quotes) and then there are two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n). "
+b'Output'
+b'For each query of the second type print a single integer in a new line\xc2\xa0\xe2\x80\x94 the sum of the corresponding subarray.'
+Tags
+binary search, data structures, *2200

@@ -1,0 +1,13 @@
+b'There is a white sheet of paper lying on a rectangle table. The sheet is a rectangle with its sides parallel to the sides of the table. If you will take a look from above and assume that the bottom left corner of the table has coordinates (0,0)(0,0), and coordinate axes are left and bottom sides of the table, then the bottom left corner of the white sheet has coordinates (x1,y1)(x1,y1), and the top right \xe2\x80\x94 (x2,y2)(x2,y2).'
+b'After that two black sheets of paper are placed on the table. Sides of both black sheets are also parallel to the sides of the table. Coordinates of the bottom left corner of the first black sheet are (x3,y3)(x3,y3), and the top right \xe2\x80\x94 (x4,y4)(x4,y4). Coordinates of the bottom left corner of the second black sheet are (x5,y5)(x5,y5), and the top right \xe2\x80\x94 (x6,y6)(x6,y6). '
+b'  Example of three rectangles. '
+b'Determine if some part of the white sheet can be seen from the above after the two black sheets are placed. The part of the white sheet can be seen if there is at least one point lying not strictly inside the white sheet and strictly outside of both black sheets.'
+b'Input'
+b'The first line of the input contains four integers x1,y1,x2,y2x1,y1,x2,y2 (0\xe2\x89\xa4x1<x2\xe2\x89\xa4106,0\xe2\x89\xa4y1<y2\xe2\x89\xa4106)(0\xe2\x89\xa4x1<x2\xe2\x89\xa4106,0\xe2\x89\xa4y1<y2\xe2\x89\xa4106) \xe2\x80\x94 coordinates of the bottom left and the top right corners of the white sheet.'
+b'The second line of the input contains four integers x3,y3,x4,y4x3,y3,x4,y4 (0\xe2\x89\xa4x3<x4\xe2\x89\xa4106,0\xe2\x89\xa4y3<y4\xe2\x89\xa4106)(0\xe2\x89\xa4x3<x4\xe2\x89\xa4106,0\xe2\x89\xa4y3<y4\xe2\x89\xa4106) \xe2\x80\x94 coordinates of the bottom left and the top right corners of the first black sheet.'
+b'The third line of the input contains four integers x5,y5,x6,y6x5,y5,x6,y6 (0\xe2\x89\xa4x5<x6\xe2\x89\xa4106,0\xe2\x89\xa4y5<y6\xe2\x89\xa4106)(0\xe2\x89\xa4x5<x6\xe2\x89\xa4106,0\xe2\x89\xa4y5<y6\xe2\x89\xa4106) \xe2\x80\x94 coordinates of the bottom left and the top right corners of the second black sheet.'
+b'The sides of each sheet of paper are parallel (perpendicular) to the coordinate axes.'
+b'Output'
+b'If some part of the white sheet can be seen from the above after the two black sheets are placed, print "YES" (without quotes). Otherwise print "NO".'
+Tags
+geometry, math, *1700

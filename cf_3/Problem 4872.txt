@@ -1,0 +1,8 @@
+b'Further research on zombie thought processes yielded interesting results. As we know from the previous problem, the nervous system of a zombie consists of n brains and m brain connectors joining some pairs of brains together. It was observed that the intellectual abilities of a zombie depend mainly on the topology of its nervous system. More precisely, we define the distance between two brains u and v (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) as the minimum number of brain connectors used when transmitting a thought between these two brains. The brain latency of a zombie is defined to be the maximum distance between any two of its brains. Researchers conjecture that the brain latency is the crucial parameter which determines how smart a given zombie is. Help them test this conjecture by writing a program to compute brain latencies of nervous systems.'
+b'In this problem you may assume that any nervous system given in the input is valid, i.e., it satisfies conditions (1) and (2) from the easy version.'
+b'Input'
+b'The first line of the input contains two space-separated integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000) denoting the number of brains (which are conveniently numbered from 1 to n) and the number of brain connectors in the nervous system, respectively. In the next m lines, descriptions of brain connectors follow. Every connector is given as a pair of brains a\xe2\x80\x82b it connects (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n and a\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89b).'
+b'Output'
+b'Print one number \xe2\x80\x93 the brain latency.'
+Tags
+dfs and similar, graphs, trees, *1500

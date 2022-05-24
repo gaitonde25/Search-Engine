@@ -1,0 +1,8 @@
+b"Let's consider a table consisting of n rows and n columns. The cell located at the intersection of i-th row and j-th column contains number i\xe2\x80\x89\xc3\x97\xe2\x80\x89j. The rows and columns are numbered starting from 1."
+b'You are given a positive integer x. Your task is to count the number of cells in a table that contain number x.'
+b'Input'
+b'The single line contains numbers n and x (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the size of the table and the number that we are looking for in the table.'
+b'Output'
+b'Print a single number: the number of times x occurs in the table.'
+Tags
+implementation, number theory, *1000

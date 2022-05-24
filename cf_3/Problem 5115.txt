@@ -1,0 +1,13 @@
+b"Limak is a grizzly bear. He is big and dreadful. You were chilling in the forest when you suddenly met him. It's very unfortunate for you. He will eat all your cookies unless you can demonstrate your mathematical skills. To test you, Limak is going to give you a puzzle to solve."
+b"It's a well-known fact that Limak, as every bear, owns a set of numbers. You know some information about the set:"
+b"  The elements of the set are distinct positive integers.  The number of elements in the set is n. The number n is divisible by 5.  All elements are between 1 and b, inclusive: bears don't know numbers greater than b.  For each r in {0,\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x893,\xe2\x80\x894}, the set contains exactly  elements that give remainder r when divided by 5. (That is, there are  elements divisible by 5,  elements of the form 5k\xe2\x80\x89+\xe2\x80\x891,  elements of the form 5k\xe2\x80\x89+\xe2\x80\x892, and so on.) "
+b'Limak smiles mysteriously and gives you q hints about his set. The i-th hint is the following sentence: "If you only look at elements that are between 1 and upToi, inclusive, you will find exactly quantityi such elements in my set."'
+b"In a moment Limak will tell you the actual puzzle, but something doesn't seem right... That smile was very strange. You start to think about a possible reason. Maybe Limak cheated you? Or is he a fair grizzly bear?"
+b'Given n, b, q and hints, check whether Limak can be fair, i.e. there exists at least one set satisfying the given conditions. If it\'s possible then print \'\'fair". Otherwise, print \'\'unfair".'
+b'Input'
+b'The first line contains three integers n, b and q (5\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104, n divisible by 5) \xe2\x80\x94 the size of the set, the upper limit for numbers in the set and the number of hints.'
+b'The next q lines describe the hints. The i-th of them contains two integers upToi and quantityi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89upToi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89quantityi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Output'
+b'Print \'\'fair" if there exists at least one set that has all the required properties and matches all the given hints. Otherwise, print \'\'unfair".'
+Tags
+flows, graphs, *2500

@@ -1,0 +1,9 @@
+b'Toad Ivan has mm pairs of integers, each integer is between 11 and nn, inclusive. The pairs are (a1,b1),(a2,b2),\xe2\x80\xa6,(am,bm)(a1,b1),(a2,b2),\xe2\x80\xa6,(am,bm). '
+b'He asks you to check if there exist two integers xx and yy (1\xe2\x89\xa4x<y\xe2\x89\xa4n1\xe2\x89\xa4x<y\xe2\x89\xa4n) such that in each given pair at least one integer is equal to xx or yy.'
+b'Input'
+b'The first line contains two space-separated integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa43000002\xe2\x89\xa4n\xe2\x89\xa4300000, 1\xe2\x89\xa4m\xe2\x89\xa43000001\xe2\x89\xa4m\xe2\x89\xa4300000)\xc2\xa0\xe2\x80\x94 the upper bound on the values of integers in the pairs, and the number of given pairs.'
+b'The next mm lines contain two integers each, the ii-th of them contains two space-separated integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n,ai\xe2\x89\xa0bi1\xe2\x89\xa4ai,bi\xe2\x89\xa4n,ai\xe2\x89\xa0bi)\xc2\xa0\xe2\x80\x94 the integers in the ii-th pair.'
+b'Output'
+b'Output "YES" if there exist two integers xx and yy (1\xe2\x89\xa4x<y\xe2\x89\xa4n1\xe2\x89\xa4x<y\xe2\x89\xa4n) such that in each given pair at least one integer is equal to xx or yy. Otherwise, print "NO". You can print each letter in any case (upper or lower).'
+Tags
+graphs, implementation, *1500

@@ -1,0 +1,13 @@
+b'Polycarp has spent the entire day preparing problems for you. Now he has to sleep for at least aa minutes to feel refreshed.'
+b'Polycarp can only wake up by hearing the sound of his alarm. So he has just fallen asleep and his first alarm goes off in bb minutes.'
+b"Every time Polycarp wakes up, he decides if he wants to sleep for some more time or not. If he's slept for less than aa minutes in total, then he sets his alarm to go off in cc minutes after it is reset and spends dd minutes to fall asleep again. Otherwise, he gets out of his bed and proceeds with the day."
+b'If the alarm goes off while Polycarp is falling asleep, then he resets his alarm to go off in another cc minutes and tries to fall asleep for dd minutes again.'
+b'You just want to find out when will Polycarp get out of his bed or report that it will never happen.'
+b'Please check out the notes for some explanations of the example.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'The only line of each testcase contains four integers a,b,c,da,b,c,d (1\xe2\x89\xa4a,b,c,d\xe2\x89\xa41091\xe2\x89\xa4a,b,c,d\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the time Polycarp has to sleep for to feel refreshed, the time before the first alarm goes off, the time before every succeeding alarm goes off and the time Polycarp spends to fall asleep.'
+b'Output'
+b'For each test case print one integer. If Polycarp never gets out of his bed then print -1. Otherwise, print the time it takes for Polycarp to get out of his bed.'
+Tags
+math, *900

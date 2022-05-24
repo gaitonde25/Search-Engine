@@ -1,0 +1,9 @@
+b"Let's call the set of positive integers SS correct if the following two conditions are met: "
+b'  S\xe2\x8a\x86{1,2,\xe2\x80\xa6,n}S\xe2\x8a\x86{1,2,\xe2\x80\xa6,n};  if a\xe2\x88\x88Sa\xe2\x88\x88S and b\xe2\x88\x88Sb\xe2\x88\x88S, then |a\xe2\x88\x92b|\xe2\x89\xa0x|a\xe2\x88\x92b|\xe2\x89\xa0x and |a\xe2\x88\x92b|\xe2\x89\xa0y|a\xe2\x88\x92b|\xe2\x89\xa0y. '
+b'For the given values nn, xx, and yy, you have to find the maximum size of the correct set.'
+b'Input'
+b'A single line contains three integers nn, xx and yy (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109; 1\xe2\x89\xa4x,y\xe2\x89\xa4221\xe2\x89\xa4x,y\xe2\x89\xa422). '
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum size of the correct set.'
+Tags
+bitmasks, dp, math, *3100

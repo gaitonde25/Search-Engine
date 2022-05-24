@@ -1,0 +1,9 @@
+b'You are given a qubit which is guaranteed to be in one of the following states:'
+b' |A\xe2\x9f\xa9=12\xe2\x88\x9a(|0\xe2\x9f\xa9+|1\xe2\x9f\xa9)|A\xe2\x9f\xa9=12(|0\xe2\x9f\xa9+|1\xe2\x9f\xa9), |B\xe2\x9f\xa9=12\xe2\x88\x9a(|0\xe2\x9f\xa9+\xcf\x89|1\xe2\x9f\xa9)|B\xe2\x9f\xa9=12(|0\xe2\x9f\xa9+\xcf\x89|1\xe2\x9f\xa9), or |C\xe2\x9f\xa9=12\xe2\x88\x9a(|0\xe2\x9f\xa9+\xcf\x892|1\xe2\x9f\xa9)|C\xe2\x9f\xa9=12(|0\xe2\x9f\xa9+\xcf\x892|1\xe2\x9f\xa9), where \xcf\x89=e2i\xcf\x80/3\xcf\x89=e2i\xcf\x80/3.'
+b'These states are not orthogonal, and thus can not be distinguished perfectly. Your task is to figure out in which state the qubit is not. More formally:'
+b" If the qubit was in state |A\xe2\x9f\xa9|A\xe2\x9f\xa9, you have to return 1 or 2. If the qubit was in state |B\xe2\x9f\xa9|B\xe2\x9f\xa9, you have to return 0 or 2. If the qubit was in state |C\xe2\x9f\xa9|C\xe2\x9f\xa9, you have to return 0 or 1. In other words, return 0 if you're sure the qubit was not in state |A\xe2\x9f\xa9|A\xe2\x9f\xa9, return 1 if you're sure the qubit was not in state |B\xe2\x9f\xa9|B\xe2\x9f\xa9, and return 2 if you're sure the qubit was not in state |C\xe2\x9f\xa9|C\xe2\x9f\xa9."
+b'Your solution will be called 1000 times, each time the state of the qubit will be chosen as |A\xe2\x9f\xa9|A\xe2\x9f\xa9, |B\xe2\x9f\xa9|B\xe2\x9f\xa9 or |C\xe2\x9f\xa9|C\xe2\x9f\xa9 with equal probability. The state of the qubit after the operations does not matter.'
+b'You have to implement an operation which takes a qubit as an input and returns an integer. Your code should have the following signature:'
+b'namespace Solution {    open Microsoft.Quantum.Primitive;    open Microsoft.Quantum.Canon;    operation Solve (q : Qubit) : Int {        // your code here    }}'
+Tags
+

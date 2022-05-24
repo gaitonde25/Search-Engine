@@ -1,0 +1,12 @@
+b'You are given three integers nn, dd and kk.'
+b'Your task is to construct an undirected tree on nn vertices with diameter dd and degree of each vertex at most kk, or say that it is impossible.'
+b'An undirected tree is a connected undirected graph with n\xe2\x88\x921n\xe2\x88\x921 edges.'
+b'Diameter of a tree is the maximum length of a simple path (a path in which each vertex appears at most once) between all pairs of vertices of this tree.'
+b'Degree of a vertex is the number of edges incident to this vertex (i.e. for a vertex uu it is the number of edges (u,v)(u,v) that belong to the tree, where vv is any other vertex of a tree).'
+b'Input'
+b'The first line of the input contains three integers nn, dd and kk (1\xe2\x89\xa4n,d,k\xe2\x89\xa44\xe2\x8b\x851051\xe2\x89\xa4n,d,k\xe2\x89\xa44\xe2\x8b\x85105).'
+b'Output'
+b'If there is no tree satisfying the conditions above, print only one word "NO" (without quotes).'
+b'Otherwise in the first line print "YES" (without quotes), and then print n\xe2\x88\x921n\xe2\x88\x921 lines describing edges of a tree satisfying the conditions above. Vertices of the tree must be numbered from 11 to nn. You can print edges and vertices connected by an edge in any order. If there are multiple answers, print any of them.1'
+Tags
+constructive algorithms, graphs, *2100

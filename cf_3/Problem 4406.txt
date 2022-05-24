@@ -1,0 +1,17 @@
+b'Although Inzane successfully found his beloved bone, Zane, his owner, has yet to return. To search for Zane, he would need a lot of money, of which he sadly has none. To deal with the problem, he has decided to hack the banks.'
+b'  '
+b'There are n banks, numbered from 1 to n. There are also n\xe2\x80\x89-\xe2\x80\x891 wires connecting the banks. All banks are initially online. Each bank also has its initial strength: bank i has initial strength ai.'
+b'Let us define some keywords before we proceed. Bank i and bank j are neighboring if and only if there exists a wire directly connecting them. Bank i and bank j are semi-neighboring if and only if there exists an online bank k such that bank i and bank k are neighboring and bank k and bank j are neighboring.'
+b'When a bank is hacked, it becomes offline (and no longer online), and other banks that are neighboring or semi-neighboring to it have their strengths increased by 1.'
+b'To start his plan, Inzane will choose a bank to hack first. Indeed, the strength of such bank must not exceed the strength of his computer. After this, he will repeatedly choose some bank to hack next until all the banks are hacked, but he can continue to hack bank x if and only if all these conditions are met:'
+b"  Bank x is online. That is, bank x is not hacked yet.  Bank x is neighboring to some offline bank.  The strength of bank x is less than or equal to the strength of Inzane's computer. "
+b'Determine the minimum strength of the computer Inzane needs to hack all the banks.'
+b'Input'
+b'The first line contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the total number of banks.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the strengths of the banks.'
+b'Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contains two integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, ui\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89vi)\xc2\xa0\xe2\x80\x94 meaning that there is a wire directly connecting banks ui and vi.'
+b'It is guaranteed that the wires connect the banks in such a way that Inzane can somehow hack all the banks using a computer with appropriate strength.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the minimum strength of the computer Inzane needs to accomplish the goal.'
+Tags
+constructive algorithms, data structures, dp, trees, *1900

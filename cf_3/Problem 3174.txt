@@ -1,0 +1,13 @@
+b'There are nn cities and mm two-way roads in Berland, each road connecting two distinct cities.'
+b'Recently the Berland government has made a tough decision to transfer ownership of the roads to private companies. In total, there are 100500100500 private companies in Berland, numbered by integers from 11 to 100500100500. After the privatization, every road should belong to exactly one company.'
+b'The anti-monopoly committee demands that after the privatization each company can own at most two roads. The urbanists of Berland also stated their opinion: each city should be adjacent to the roads owned by at most kk companies.'
+b'Help the government to distribute the roads between the companies so that both conditions are satisfied. That is, each company gets at most two roads, and each city has roads of at most kk distinct companies adjacent to it.'
+b'Input'
+b'Input contains one or several test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa43001\xe2\x89\xa4t\xe2\x89\xa4300) \xe2\x80\x94 the number of test cases in the input. Solve test cases separately, test cases are completely independent and do not affect each other.'
+b'The following lines describe the test cases. Each case starts with a line consisting of three space-separated integers nn, mm and kk (2\xe2\x89\xa4n\xe2\x89\xa46002\xe2\x89\xa4n\xe2\x89\xa4600, 1\xe2\x89\xa4m\xe2\x89\xa46001\xe2\x89\xa4m\xe2\x89\xa4600, 1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x921) \xe2\x80\x94 the number of cities, the number of roads and the maximum diversity of the roads adjacent to a city.'
+b'Then mm lines follow, each having a pair of space-separated integers aiai, bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n; ai\xe2\x89\xa0biai\xe2\x89\xa0bi). It means that the ii-th road connects cities aiai and bibi. All roads are two-way. There is at most one road between a pair of the cities.'
+b"The sum of nn values for all test cases doesn't exceed 600600. The sum of mm values for all test cases doesn't exceed 600600."
+b'Output'
+b'Print tt lines: the ii-th line should contain the answer for the ii-th test case. For a test case, print a sequence of integers c1,c2,\xe2\x80\xa6,cmc1,c2,\xe2\x80\xa6,cm separated by space, where cici (1\xe2\x89\xa4ci\xe2\x89\xa41005001\xe2\x89\xa4ci\xe2\x89\xa4100500) is the company which owns the ii-th road in your plan. If there are multiple solutions, output any of them. If there is no solution for a test case, print c1=c2=\xe2\x80\xa6=cm=0c1=c2=\xe2\x80\xa6=cm=0.'
+Tags
+flows, graph matchings, graphs, *2400

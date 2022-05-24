@@ -1,0 +1,15 @@
+b"There is a robot on a checkered field that is endless in all directions. Initially, the robot is located in the cell with coordinates (0,0)(0,0). He will execute commands which are described by a string of capital Latin letters 'L', 'R', 'D', 'U'. When a command is executed, the robot simply moves in the corresponding direction:"
+b"  'L': one cell to the left (the xx-coordinate of the current cell decreases by 11);  'R': one cell to the right (the xx-coordinate of the current cell is increased by 11);  'D': one cell down (the yy-coordinate of the current cell decreases by 11);  'U': one cell up (the yy-coordinate of the current cell is increased by 11). "
+b'Your task is to put an obstacle in one cell of the field so that after executing the commands, the robot will return to the original cell of its path (0,0)(0,0). Of course, an obstacle cannot be placed in the starting cell (0,0)(0,0). It is guaranteed that if the obstacle is not placed, then the robot will not return to the starting cell.'
+b'An obstacle affects the movement of the robot in the following way: if it tries to go in a certain direction, and there is an obstacle, then it simply remains in place (the obstacle also remains, that is, it does not disappear).'
+b'Find any such cell of the field (other than (0,0)(0,0)) that if you put an obstacle there, the robot will return to the cell (0,0)(0,0) after the execution of all commands. If there is no solution, then report it.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500) \xe2\x80\x94 the number of test cases.'
+b"Each test case consists of a single line containing ss \xe2\x80\x94 the sequence of commands, which are uppercase Latin letters 'L', 'R', 'D', 'U' only. The length of ss is between 11 and 50005000, inclusive. Additional constraint on ss: executing this sequence of commands leads the robot to some cell other than (0,0)(0,0), if there are no obstacles."
+b"The sum of lengths of all ss in a test doesn't exceed 50005000."
+b'Output'
+b'For each test case print a single line:'
+b'  if there is a solution, print two integers xx and yy (\xe2\x88\x92109\xe2\x89\xa4x,y\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4x,y\xe2\x89\xa4109) such that an obstacle in (x,y)(x,y) will force the robot to return back to the cell (0,0)(0,0);  otherwise, print two zeroes (i.\xe2\x80\x89e. 0 0). '
+b'If there are multiple answers, you can print any of them.'
+Tags
+brute force, implementation, *1600

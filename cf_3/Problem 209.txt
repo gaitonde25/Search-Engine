@@ -1,0 +1,15 @@
+b' '
+b'You are given a sequence of nn non-negative integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Initially, all the elements of the sequence are unpainted. You can paint each number Red\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93Red_ or Blue\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xafBlue\xc2\xaf (but not both), or leave it unpainted. '
+b'For a color cc, Count(c)Count(c) is the number of elements in the sequence painted with that color and Sum(c)Sum(c) is the sum of the elements in the sequence painted with that color.'
+b'For example, if the given sequence is [2,8,6,3,1][2,8,6,3,1] and it is painted this way: [2\xc2\xaf\xc2\xaf\xc2\xaf,8,6\xe2\x80\x93\xe2\x80\x93,3\xc2\xaf\xc2\xaf\xc2\xaf,1][2\xc2\xaf,8,6_,3\xc2\xaf,1] (where 66 is painted red, 22 and 33 are painted blue, 11 and 88 are unpainted) then Sum(Red\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93)=6Sum(Red_)=6, Sum(Blue\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf)=2+3=5Sum(Blue\xc2\xaf)=2+3=5, Count(Red\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93)=1Count(Red_)=1, and Count(Blue\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf)=2Count(Blue\xc2\xaf)=2.'
+b'Determine if it is possible to paint the sequence so that Sum(Red\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93)>Sum(Blue\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf)Sum(Red_)>Sum(Blue\xc2\xaf) and Count(Red\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93)<Count(Blue\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf\xc2\xaf)Count(Red_)<Count(Blue\xc2\xaf).'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000). Description of the test cases follows.'
+b'The first line of each test case contains an integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the given sequence. '
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the given sequence.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print YES if it is possible to paint the given sequence satisfying the above requirements, and NO otherwise.'
+b'You can output YES and NO in any case (for example, strings yEs, yes, Yes and YES will be recognized as a positive response).'
+Tags
+brute force, constructive algorithms, greedy, sortings, two pointers, *800

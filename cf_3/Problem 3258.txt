@@ -1,0 +1,16 @@
+b'Egor came up with a new chips puzzle and suggests you to play.'
+b"The puzzle has the form of a table with nn rows and mm columns, each cell can contain several black or white chips placed in a row. Thus, the state of the cell can be described by a string consisting of characters '0' (a white chip) and '1' (a black chip), possibly empty, and the whole puzzle can be described as a table, where each cell is a string of zeros and ones. The task is to get from one state of the puzzle some other state."
+b'To do this, you can use the following operation.'
+b'  select 2 different cells (x1,y1)(x1,y1) and (x2,y2)(x2,y2): the cells must be in the same row or in the same column of the table, and the string in the cell (x1,y1)(x1,y1) must be non-empty;  in one operation you can move the last character of the string at the cell (x1,y1)(x1,y1) to the beginning of the string at the cell (x2,y2)(x2,y2). '
+b"Egor came up with two states of the table for you: the initial state and the final one. It is guaranteed that the number of zeros and ones in the tables are the same. Your goal is with several operations get the final state from the initial state. Of course, Egor does not want the number of operations to be very large. Let's denote as ss the number of characters in each of the tables (which are the same). Then you should use no more than 4\xe2\x8b\x85s4\xe2\x8b\x85s operations."
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n,m\xe2\x89\xa43002\xe2\x89\xa4n,m\xe2\x89\xa4300) \xe2\x80\x94 the number of rows and columns of the table, respectively.'
+b'The following nn lines describe the initial state of the table in the following format: each line contains mm non-empty strings consisting of zeros and ones. In the ii-th of these lines, the jj-th string is the string written at the cell (i,j)(i,j). The rows are enumerated from 11 to nn, the columns are numerated from 11 to mm.'
+b'The following nn lines describe the final state of the table in the same format.'
+b"Let's denote the total length of strings in the initial state as ss. It is guaranteed that s\xe2\x89\xa4100000s\xe2\x89\xa4100000. It is also guaranteed that the numbers of zeros and ones coincide in the initial and final states."
+b'Output'
+b'On the first line print qq\xc2\xa0\xe2\x80\x94 the number of operations used. You should find such a solution that 0\xe2\x89\xa4q\xe2\x89\xa44\xe2\x8b\x85s0\xe2\x89\xa4q\xe2\x89\xa44\xe2\x8b\x85s. '
+b'In each the next qq lines print 4 integers x1x1, y1y1, x2x2, y2y2. On the ii-th line you should print the description of the ii-th operation. These integers should satisfy the conditions 1\xe2\x89\xa4x1,x2\xe2\x89\xa4n1\xe2\x89\xa4x1,x2\xe2\x89\xa4n, 1\xe2\x89\xa4y1,y2\xe2\x89\xa4m1\xe2\x89\xa4y1,y2\xe2\x89\xa4m, (x1,y1)\xe2\x89\xa0(x2,y2)(x1,y1)\xe2\x89\xa0(x2,y2), x1=x2x1=x2 or y1=y2y1=y2. The string in the cell (x1,y1)(x1,y1) should be non-empty. This sequence of operations should transform the initial state of the table to the final one.'
+b'We can show that a solution exists. If there is more than one solution, find any of them.'
+Tags
+constructive algorithms, implementation, math, *2400

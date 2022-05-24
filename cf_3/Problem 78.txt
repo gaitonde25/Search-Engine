@@ -1,0 +1,14 @@
+b'Given an array a=[a1,a2,\xe2\x80\xa6,an]a=[a1,a2,\xe2\x80\xa6,an] of nn positive integers, you can do operations of two types on it:'
+b'  Add 11 to every element with an odd index. In other words change the array as follows: a1:=a1+1,a3:=a3+1,a5:=a5+1,\xe2\x80\xa6a1:=a1+1,a3:=a3+1,a5:=a5+1,\xe2\x80\xa6.  Add 11 to every element with an even index. In other words change the array as follows: a2:=a2+1,a4:=a4+1,a6:=a6+1,\xe2\x80\xa6a2:=a2+1,a4:=a4+1,a6:=a6+1,\xe2\x80\xa6.'
+b'Determine if after any number of operations it is possible to make the final array contain only even numbers or only odd numbers. In other words, determine if you can make all elements of the array have the same parity after any number of operations.'
+b'Note that you can do operations of both types any number of times (even none). Operations of different types can be performed a different number of times.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa4502\xe2\x89\xa4n\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the length of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41031\xe2\x89\xa4ai\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'Note that after the performed operations the elements in the array can become greater than 103103.'
+b'Output'
+b'Output tt lines, each of which contains the answer to the corresponding test case. As an answer, output "YES" if after any number of operations it is possible to make the final array contain only even numbers or only odd numbers, and "NO" otherwise.'
+b'You can output the answer in any case (for example, the strings "yEs", "yes", "Yes" and "YES" will be recognized as a positive answer).'
+Tags
+greedy, greedy, implementation, math, *800

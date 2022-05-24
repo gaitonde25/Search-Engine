@@ -1,0 +1,17 @@
+b'Vasya has a string ss of length nn. He decides to make the following modification to the string: '
+b'  Pick an integer kk, (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n).  For ii from 11 to n\xe2\x88\x92k+1n\xe2\x88\x92k+1, reverse the substring s[i:i+k\xe2\x88\x921]s[i:i+k\xe2\x88\x921] of ss. For example, if string ss is qwer and k=2k=2, below is the series of transformations the string goes through:   qwer (original string)  wqer (after reversing the first substring of length 22)  weqr (after reversing the second substring of length 22)  werq (after reversing the last substring of length 22)  Hence, the resulting string after modifying ss with k=2k=2 is werq. '
+b'Vasya wants to choose a kk such that the string obtained after the above-mentioned modification is lexicographically smallest possible among all choices of kk. Among all such kk, he wants to choose the smallest one. Since he is busy attending Felicity 2020, he asks for your help.'
+b'A string aa is lexicographically smaller than a string bb if and only if one of the following holds: '
+b'  aa is a prefix of bb, but a\xe2\x89\xa0ba\xe2\x89\xa0b;  in the first position where aa and bb differ, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb. '
+b'Input'
+b'Each test contains multiple test cases. '
+b'The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000). The description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4n\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 the length of the string ss.'
+b'The second line of each test case contains the string ss of nn lowercase latin letters.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 50005000.'
+b'Output'
+b'For each testcase output two lines:'
+b'In the first line output the lexicographically smallest string s\xe2\x80\xb2s\xe2\x80\xb2 achievable after the above-mentioned modification. '
+b'In the second line output the appropriate value of kk (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n) that you chose for performing the modification. If there are multiple values of kk that give the lexicographically smallest string, output the smallest value of kk among them.'
+Tags
+brute force, constructive algorithms, implementation, sortings, strings, *1400

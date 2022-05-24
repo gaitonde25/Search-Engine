@@ -1,0 +1,11 @@
+b"Dima worked all day and wrote down on a long paper strip his favorite number nn consisting of ll digits. Unfortunately, the strip turned out to be so long that it didn't fit in the Dima's bookshelf."
+b'To solve the issue, Dima decided to split the strip into two non-empty parts so that each of them contains a positive integer without leading zeros. After that he will compute the sum of the two integers and write it down on a new strip.'
+b'Dima wants the resulting integer to be as small as possible, because it increases the chances that the sum will fit it in the bookshelf. Help Dima decide what is the minimum sum he can obtain.'
+b'Input'
+b"The first line contains a single integer ll (2\xe2\x89\xa4l\xe2\x89\xa41000002\xe2\x89\xa4l\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the length of the Dima's favorite number."
+b"The second line contains the positive integer nn initially written on the strip: the Dima's favorite number."
+b'The integer nn consists of exactly ll digits and it does not contain leading zeros. Dima guarantees, that there is at least one valid way to split the strip.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the smallest number Dima can obtain.'
+Tags
+greedy, implementation, strings, *1500

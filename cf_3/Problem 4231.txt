@@ -1,0 +1,9 @@
+b'Consider the function p(x), where x is an array of m integers, which returns an array y consisting of m\xe2\x80\x89+\xe2\x80\x891 integers such that yi is equal to the sum of first i elements of array x (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m).'
+b'You have an infinite sequence of arrays A0,\xe2\x80\x89A1,\xe2\x80\x89A2..., where A0 is given in the input, and for each i\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x891 Ai\xe2\x80\x89=\xe2\x80\x89p(Ai\xe2\x80\x89-\xe2\x80\x891). Also you have a positive integer k. You have to find minimum possible i such that Ai contains a number which is larger or equal than k.'
+b'Input'
+b'The first line contains two integers n and k (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018). n is the size of array A0.'
+b'The second line contains n integers A00,\xe2\x80\x89A01... A0n\xe2\x80\x89-\xe2\x80\x891 \xe2\x80\x94 the elements of A0 (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89A0i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109). At least two elements of A0 are positive.'
+b'Output'
+b'Print the minimum i such that Ai contains a number which is larger or equal than k.'
+Tags
+binary search, brute force, combinatorics, math, matrices, *2400

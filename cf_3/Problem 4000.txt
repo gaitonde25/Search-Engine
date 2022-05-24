@@ -1,0 +1,10 @@
+b'Sloth is bad, mkay? So we decided to prepare a problem to punish lazy guys.'
+b"You are given a tree, you should count the number of ways to remove an edge from it and then add an edge to it such that the final graph is a tree and has a perfect matching. Two ways of this operation are considered different if their removed edges or their added edges aren't the same. The removed edge and the added edge can be equal."
+b'A perfect matching is a subset of edges such that each vertex is an endpoint of exactly one of these edges.'
+b'Input'
+b'The first line contains n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of vertices.'
+b"Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contains two integers a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the endpoints of one edge. It's guaranteed that the graph is a tree."
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the answer to the problem.'
+Tags
+dfs and similar, dp, graph matchings, trees, *3100

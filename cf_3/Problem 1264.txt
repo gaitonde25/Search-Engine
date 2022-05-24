@@ -1,0 +1,12 @@
+b'You are given two arrays aa and bb, each consisting of nn positive integers, and an integer xx. Please determine if one can rearrange the elements of bb so that ai+bi\xe2\x89\xa4xai+bi\xe2\x89\xa4x holds for each ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n).'
+b'Input'
+b'The first line of input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. tt blocks follow, each describing an individual test case.'
+b'The first line of each test case contains two integers nn and xx (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450; 1\xe2\x89\xa4x\xe2\x89\xa410001\xe2\x89\xa4x\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the length of arrays aa and bb, and the parameter xx, described in the problem statement.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4an\xe2\x89\xa4x1\xe2\x89\xa4a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4an\xe2\x89\xa4x)\xc2\xa0\xe2\x80\x94 the elements of array aa in non-descending order.'
+b'The third line of each test case contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4b1\xe2\x89\xa4b2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4bn\xe2\x89\xa4x1\xe2\x89\xa4b1\xe2\x89\xa4b2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4bn\xe2\x89\xa4x)\xc2\xa0\xe2\x80\x94 the elements of array bb in non-descending order.'
+b'Test cases are separated by a blank line.'
+b'Output'
+b'For each test case print Yes if one can rearrange the corresponding array bb so that ai+bi\xe2\x89\xa4xai+bi\xe2\x89\xa4x holds for each ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) or No otherwise.'
+b'Each character can be printed in any case.'
+Tags
+greedy, sortings, *800

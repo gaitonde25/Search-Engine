@@ -1,0 +1,8 @@
+b'Polycarp knows that if the sum of the digits of a number is divisible by 33, then the number itself is divisible by 33. He assumes that the numbers, the sum of the digits of which is divisible by 44, are also somewhat interesting. Thus, he considers a positive integer nn interesting if its sum of digits is divisible by 44.'
+b'Help Polycarp find the nearest larger or equal interesting number for the given number aa. That is, find the interesting number nn such that n\xe2\x89\xa5an\xe2\x89\xa5a and nn is minimal.'
+b'Input'
+b'The only line in the input contains an integer aa (1\xe2\x89\xa4a\xe2\x89\xa410001\xe2\x89\xa4a\xe2\x89\xa41000).'
+b'Output'
+b'Print the nearest greater or equal interesting number for the given number aa. In other words, print the interesting number nn such that n\xe2\x89\xa5an\xe2\x89\xa5a and nn is minimal.'
+Tags
+implementation, *800

@@ -1,0 +1,10 @@
+b'The Just Kingdom is ruled by a king and his nn lords, numbered 11 to nn. Each of the lords is a vassal of some overlord, who might be the king himself, or a different lord closer to the king. The king, and all his lords, are just and kind.'
+b'Each lord has certain needs, which can be expressed as a certain amount of money they need. However, if a lord, or the king, receives any money, they will first split it equally between all their vassals who still have unmet needs. Only if all the needs of all their vassals are met, they will take the money to fulfill their own needs. If there is any money left over, they will return the excess to their overlord (who follows the standard procedure for distributing money).'
+b"At the beginning of the year, the king receives a certain sum of tax money and proceeds to split it according to the rules above. If the amount of tax money is greater than the total needs of all the lords, the procedure guarantees everybody's needs will be fulfilled, and the excess money will be left with the king. However, if there is not enough money, some lords will not have their needs met."
+b"For each lord, determine the minimum amount of tax money the king has to receive so that this lord's needs are met."
+b'Input'
+b'The first line of the input contains the number of lords nn (0\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851050\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105). Each of the next nn lines describes one of the lords. The ii-th line contains two integers: oioi (0\xe2\x89\xa4oi<i0\xe2\x89\xa4oi<i)\xc2\xa0\xe2\x80\x94 the index of the overlord of the ii-th lord (with zero meaning the king is the overlord), and mimi (1\xe2\x89\xa4mi\xe2\x89\xa41061\xe2\x89\xa4mi\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the amount of money the ii-th lord needs.'
+b'Output'
+b'Print nn integer numbers titi. The ii-th number should be the minimum integer amount of tax money the king has to receive for which the needs of the ii-th lord will be met.'
+Tags
+brute force, data structures, dfs and similar, *3100

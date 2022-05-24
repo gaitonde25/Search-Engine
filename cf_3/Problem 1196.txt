@@ -1,0 +1,11 @@
+b"Barbara was late for her math class so as a punishment the teacher made her solve the task on a sheet of paper. Barbara looked at the sheet of paper and only saw nn numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an without any mathematical symbols. The teacher explained to Barbara that she has to place the available symbols between the numbers in a way that would make the resulting expression's value as large as possible. To find out which symbols were available the teacher has given Barbara a string ss which contained that information."
+b'  '
+b"It's easy to notice that Barbara has to place n\xe2\x88\x921n\xe2\x88\x921 symbols between numbers in total. The expression must start with a number and all symbols must be allowed (i.e. included in ss). Note that multiplication takes precedence over addition or subtraction, addition and subtraction have the same priority and performed from left to right. Help Barbara and create the required expression!"
+b'Input'
+b'The first line of the input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the amount of numbers on the paper.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa490\xe2\x89\xa4ai\xe2\x89\xa49), where aiai is the ii-th element of aa.'
+b'The third line of the input contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa431\xe2\x89\xa4|s|\xe2\x89\xa43)\xc2\xa0\xe2\x80\x94 symbols allowed in the expression. It is guaranteed that the string may only consist of symbols "-", "+" and "*". It is also guaranteed that all symbols in the string are distinct.'
+b'Output'
+b'Print nn numbers separated by n\xe2\x88\x921n\xe2\x88\x921 symbols\xc2\xa0\xe2\x80\x94 a mathematical expression with the greatest result. If there are multiple equally valid results\xc2\xa0\xe2\x80\x94 output any one of them.'
+Tags
+constructive algorithms, dp, greedy, *2700

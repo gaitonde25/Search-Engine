@@ -1,0 +1,11 @@
+b'A number is ternary if it contains only digits 00, 11 and 22. For example, the following numbers are ternary: 10221022, 1111, 2121, 20022002.'
+b'You are given a long ternary number xx. The first (leftmost) digit of xx is guaranteed to be 22, the other digits of xx can be 00, 11 or 22.'
+b"Let's define the ternary XOR operation \xe2\x8a\x99\xe2\x8a\x99 of two ternary numbers aa and bb (both of length nn) as a number c=a\xe2\x8a\x99bc=a\xe2\x8a\x99b of length nn, where ci=(ai+bi)%3ci=(ai+bi)%3 (where %% is modulo operation). In other words, add the corresponding digits and take the remainders of the sums when divided by 33. For example, 10222\xe2\x8a\x9911021=2121010222\xe2\x8a\x9911021=21210."
+b'Your task is to find such ternary numbers aa and bb both of length nn and both without leading zeros that a\xe2\x8a\x99b=xa\xe2\x8a\x99b=x and max(a,b)max(a,b) is the minimum possible.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then tt test cases follow. The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851041\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85104) \xe2\x80\x94 the length of xx. The second line of the test case contains ternary number xx consisting of nn digits 0,10,1 or 22. It is guaranteed that the first digit of xx is 22. It is guaranteed that the sum of nn over all test cases does not exceed 5\xe2\x8b\x851045\xe2\x8b\x85104 (\xe2\x88\x91n\xe2\x89\xa45\xe2\x8b\x85104\xe2\x88\x91n\xe2\x89\xa45\xe2\x8b\x85104).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 two ternary integers aa and bb both of length nn and both without leading zeros such that a\xe2\x8a\x99b=xa\xe2\x8a\x99b=x and max(a,b)max(a,b) is the minimum possible. If there are several answers, you can print any.'
+Tags
+greedy, implementation, *1200

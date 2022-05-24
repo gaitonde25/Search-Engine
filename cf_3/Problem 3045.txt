@@ -1,0 +1,15 @@
+b'You are given a string ss of length nn consisting only of lowercase Latin letters.'
+b'A substring of a string is a contiguous subsequence of that string. So, string "forces" is substring of string "codeforces", but string "coder" is not.'
+b'Your task is to calculate the number of ways to remove exactly one substring from this string in such a way that all remaining characters are equal (the number of distinct characters either zero or one).'
+b'It is guaranteed that there is at least two different characters in ss.'
+b'Note that you can remove the whole string and it is correct. Also note that you should remove at least one character.'
+b'Since the answer can be rather large (not very large though) print it modulo 998244353998244353.'
+b'If you are Python programmer, consider using PyPy instead of Python when you submit your code.'
+b'Input'
+b'The first line of the input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of the string ss.'
+b'The second line of the input contains the string ss of length nn consisting only of lowercase Latin letters.'
+b'It is guaranteed that there is at least two different characters in ss.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of ways modulo 998244353998244353 to remove exactly one substring from ss in such way that all remaining characters are equal.'
+Tags
+combinatorics, math, strings, *1300

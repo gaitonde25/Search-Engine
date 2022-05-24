@@ -1,0 +1,10 @@
+b'A tree is a connected graph without cycles.'
+b'Two trees, consisting of n vertices each, are called isomorphic if there exists a permutation p:\xe2\x80\x89{1,\xe2\x80\x89...,\xe2\x80\x89n}\xe2\x80\x89\xe2\x86\x92\xe2\x80\x89{1,\xe2\x80\x89...,\xe2\x80\x89n} such that the edge (u,\xe2\x80\x89v) is present in the first tree if and only if the edge (pu,\xe2\x80\x89pv) is present in the second tree.'
+b'Vertex of the tree is called internal if its degree is greater than or equal to two.'
+b'Count the number of different non-isomorphic trees, consisting of n vertices, such that the degree of each internal vertex is exactly d. Print the answer over the given prime modulo mod.'
+b'Input'
+b'The single line of the input contains three integers n, d and\xc2\xa0mod (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910, 108\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89mod\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xc2\xa0\xe2\x80\x94 the number of vertices in the tree, the degree of internal vertices and the prime modulo.'
+b'Output'
+b'Print the number of trees over the modulo mod.'
+Tags
+combinatorics, dp, trees, *2700

@@ -1,0 +1,16 @@
+b'Given an array aa of length nn and an integer kk, you are tasked to find any two numbers ll and rr (l\xe2\x89\xa4rl\xe2\x89\xa4r) such that: '
+b'  For each xx (l\xe2\x89\xa4x\xe2\x89\xa4r)(l\xe2\x89\xa4x\xe2\x89\xa4r), xx appears in aa at least kk times (i.e. kk or more array elements are equal to xx).  The value r\xe2\x88\x92lr\xe2\x88\x92l is maximized. '
+b'If no numbers satisfy the conditions, output -1.'
+b'For example, if a=[11,11,12,13,13,14,14]a=[11,11,12,13,13,14,14] and k=2k=2, then: '
+b'  for l=12l=12, r=14r=14 the first condition fails because 1212 does not appear at least k=2k=2 times.  for l=13l=13, r=14r=14 the first condition holds, because 1313 occurs at least k=2k=2 times in aa and 1414 occurs at least k=2k=2 times in aa.  for l=11l=11, r=11r=11 the first condition holds, because 1111 occurs at least k=2k=2 times in aa. '
+b'A pair of ll and rr for which the first condition holds and r\xe2\x88\x92lr\xe2\x88\x92l is maximal is l=13l=13, r=14r=14.'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. The description of test cases follows.'
+b'The first line of each test case contains the integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the length of the array aa and the minimum amount of times each number in the range [l,r][l,r] should appear respectively.'
+b'Then a single line follows, containing nn integers describing the array aa (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case output 22 numbers, ll and rr that satisfy the conditions, or "-1" if no numbers satisfy the conditions.'
+b'If multiple answers exist, you can output any.'
+Tags
+data structures, greedy, implementation, sortings, two pointers, *1300

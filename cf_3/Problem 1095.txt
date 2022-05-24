@@ -1,0 +1,12 @@
+b'The only difference between the two versions is that this version asks the maximal possible answer.'
+b'Homer likes arrays a lot. Today he is painting an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an with two kinds of colors, white and black. A painting assignment for a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an is described by an array b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn that bibi indicates the color of aiai (00 for white and 11 for black).'
+b'According to a painting assignment b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn, the array aa is split into two new arrays a(0)a(0) and a(1)a(1), where a(0)a(0) is the sub-sequence of all white elements in aa and a(1)a(1) is the sub-sequence of all black elements in aa. For example, if a=[1,2,3,4,5,6]a=[1,2,3,4,5,6] and b=[0,1,0,1,0,0]b=[0,1,0,1,0,0], then a(0)=[1,3,5,6]a(0)=[1,3,5,6] and a(1)=[2,4]a(1)=[2,4].'
+b'The number of segments in an array c1,c2,\xe2\x80\xa6,ckc1,c2,\xe2\x80\xa6,ck, denoted seg(c)seg(c), is the number of elements if we merge all adjacent elements with the same value in cc. For example, the number of segments in [1,1,2,2,3,3,3,2][1,1,2,2,3,3,3,2] is 44, because the array will become [1,2,3,2][1,2,3,2] after merging adjacent elements with the same value. Especially, the number of segments in an empty array is 00.'
+b'Homer wants to find a painting assignment bb, according to which the number of segments in both a(0)a(0) and a(1)a(1), i.e. seg(a(0))+seg(a(1))seg(a(0))+seg(a(1)), is as large as possible. Find this number.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b'Output'
+b'Output a single integer, indicating the maximal possible total number of segments.'
+Tags
+constructive algorithms, data structures, dp, greedy, implementation, *1900

@@ -1,0 +1,14 @@
+b"When Masha came to math classes today, she saw two integer sequences of length n\xe2\x88\x921n\xe2\x88\x921 on the blackboard. Let's denote the elements of the first sequence as aiai (0\xe2\x89\xa4ai\xe2\x89\xa430\xe2\x89\xa4ai\xe2\x89\xa43), and the elements of the second sequence as bibi (0\xe2\x89\xa4bi\xe2\x89\xa430\xe2\x89\xa4bi\xe2\x89\xa43)."
+b'Masha became interested if or not there is an integer sequence of length nn, which elements we will denote as titi (0\xe2\x89\xa4ti\xe2\x89\xa430\xe2\x89\xa4ti\xe2\x89\xa43), so that for every ii (1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921) the following is true: '
+b'  ai=ti|ti+1ai=ti|ti+1 (where || denotes the bitwise OR operation) and  bi=ti&ti+1bi=ti&ti+1 (where && denotes the bitwise AND operation). '
+b'The question appeared to be too difficult for Masha, so now she asked you to check whether such a sequence titi of length nn exists. If it exists, find such a sequence. If there are multiple such sequences, find any of them.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of the sequence titi. '
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers a1,a2,\xe2\x80\xa6,an\xe2\x88\x921a1,a2,\xe2\x80\xa6,an\xe2\x88\x921 (0\xe2\x89\xa4ai\xe2\x89\xa430\xe2\x89\xa4ai\xe2\x89\xa43)\xc2\xa0\xe2\x80\x94 the first sequence on the blackboard.'
+b'The third line contains n\xe2\x88\x921n\xe2\x88\x921 integers b1,b2,\xe2\x80\xa6,bn\xe2\x88\x921b1,b2,\xe2\x80\xa6,bn\xe2\x88\x921 (0\xe2\x89\xa4bi\xe2\x89\xa430\xe2\x89\xa4bi\xe2\x89\xa43)\xc2\xa0\xe2\x80\x94 the second sequence on the blackboard.'
+b'Output'
+b'In the first line print "YES" (without quotes), if there is a sequence titi that satisfies the conditions from the statements, and "NO" (without quotes), if there is no such sequence.'
+b'If there is such a sequence, on the second line print nn integers t1,t2,\xe2\x80\xa6,tnt1,t2,\xe2\x80\xa6,tn (0\xe2\x89\xa4ti\xe2\x89\xa430\xe2\x89\xa4ti\xe2\x89\xa43)\xc2\xa0\xe2\x80\x94 the sequence that satisfies the statements conditions.'
+b'If there are multiple answers, print any of them.'
+Tags
+*1500

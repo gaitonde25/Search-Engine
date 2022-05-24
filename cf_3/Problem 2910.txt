@@ -1,0 +1,14 @@
+b'You are given an undirected tree of nn vertices. '
+b'Some vertices are colored one of the kk colors, some are uncolored. It is guaranteed that the tree contains at least one vertex of each of the kk colors. There might be no uncolored vertices.'
+b"You choose a subset of exactly k\xe2\x88\x921k\xe2\x88\x921 edges and remove it from the tree. Tree falls apart into kk connected components. Let's call this subset of edges nice if none of the resulting components contain vertices of different colors."
+b'How many nice subsets of edges are there in the given tree? Two subsets are considered different if there is some edge that is present in one subset and absent in the other.'
+b'The answer may be large, so print it modulo 998244353998244353.'
+b'Input'
+b'The first line contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105, 2\xe2\x89\xa4k\xe2\x89\xa4n2\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the number of vertices in the tree and the number of colors, respectively.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4k0\xe2\x89\xa4ai\xe2\x89\xa4k) \xe2\x80\x94 the colors of the vertices. ai=0ai=0 means that vertex ii is uncolored, any other value means the vertex ii is colored that color.'
+b'The ii-th of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers vivi and uiui (1\xe2\x89\xa4vi,ui\xe2\x89\xa4n1\xe2\x89\xa4vi,ui\xe2\x89\xa4n, vi\xe2\x89\xa0uivi\xe2\x89\xa0ui) \xe2\x80\x94 the edges of the tree. It is guaranteed that the given edges form a tree. It is guaranteed that the tree contains at least one vertex of each of the kk colors. There might be no uncolored vertices.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the number of nice subsets of edges in the given tree. Two subsets are considered different if there is some edge that is present in one subset and absent in the other.'
+b'The answer may be large, so print it modulo 998244353998244353.'
+Tags
+combinatorics, dfs and similar, dp, trees, *2700

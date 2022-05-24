@@ -1,0 +1,12 @@
+b'Sergey just turned five years old! When he was one year old, his parents gave him a number; when he was two years old, his parents gave him an array of integers. On his third birthday he received a string. When he was four, his mother woke him up in a quiet voice, wished him to be a good boy and gave him a rooted tree. Today he celebrates his birthday again! He found a directed graph without loops as a present from his parents.'
+b'Since Sergey is a very curious boy, he immediately came up with a thing to do. He decided to find a set QQ of vertices in this graph, such that no two vertices x,y\xe2\x88\x88Qx,y\xe2\x88\x88Q are connected by an edge, and it is possible to reach any vertex z\xe2\x88\x89Qz\xe2\x88\x89Q from some vertex of QQ in no more than two moves.\xc2\xa0\xc2\xa0'
+b'After a little thought, Sergey was able to solve this task. Can you solve it too?'
+b'A vertex yy is reachable from a vertex xx in at most two moves if either there is a directed edge (x,y)(x,y), or there exist two directed edges (x,z)(x,z) and (z,y)(z,y) for some vertex zz.'
+b'Input'
+b'The first line of input contains two positive integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa410000001\xe2\x89\xa4n\xe2\x89\xa41000000, 1\xe2\x89\xa4m\xe2\x89\xa410000001\xe2\x89\xa4m\xe2\x89\xa41000000)\xc2\xa0\xe2\x80\x94 the number of vertices and the number of edges in the directed graph.'
+b'Each of the following mm lines describes a corresponding edge. Each one contains two integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n, ai\xe2\x89\xa0biai\xe2\x89\xa0bi)\xc2\xa0\xe2\x80\x94 the beginning and the end of the ii-th edge. The graph may contain multiple edges between the same pair of vertices.'
+b'Output'
+b'First print the number kk\xc2\xa0\xe2\x80\x94 the number of selected vertices. Then print kk distinct integers\xc2\xa0\xe2\x80\x94 the indices of the selected vertices.'
+b"If multiple answers exist you can output any of them. In particular, you don't have to minimize the number of vertices in the set. It is guaranteed, that there is always at least one valid set."
+Tags
+constructive algorithms, graphs, *3000

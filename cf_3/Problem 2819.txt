@@ -1,0 +1,13 @@
+b'Polycarp has an array aa consisting of nn integers.'
+b"He wants to play a game with this array. The game consists of several moves. On the first move he chooses any element and deletes it (after the first move the array contains n\xe2\x88\x921n\xe2\x88\x921 elements). For each of the next moves he chooses any element with the only restriction: its parity should differ from the parity of the element deleted on the previous move. In other words, he alternates parities (even-odd-even-odd-... or odd-even-odd-even-...) of the removed elements. Polycarp stops if he can't make a move."
+b'Formally: '
+b'  If it is the first move, he chooses any element and deletes it;  If it is the second or any next move:   if the last deleted element was odd, Polycarp chooses any even element and deletes it;  if the last deleted element was even, Polycarp chooses any odd element and deletes it.   If after some move Polycarp cannot make a move, the game ends. '
+b"Polycarp's goal is to minimize the sum of non-deleted elements of the array after end of the game. If Polycarp can delete the whole array, then the sum of non-deleted elements is zero."
+b'Help Polycarp find this value.'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000) \xe2\x80\x94 the number of elements of aa.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41060\xe2\x89\xa4ai\xe2\x89\xa4106), where aiai is the ii-th element of aa.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum possible sum of non-deleted elements of the array after end of the game.'
+Tags
+greedy, implementation, sortings, *900

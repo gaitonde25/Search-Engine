@@ -1,0 +1,14 @@
+b'The final of Berland Chess Team Championship is going to be held soon. Two teams consisting of nn chess players each will compete for first place in the tournament. The skill of the ii-th player in the first team is aiai, and the skill of the ii-th player in the second team is bibi. The match will be held as follows: each player of the first team will play a game against one player from the second team in such a way that every player has exactly one opponent. Formally, if the player ii from the first team opposes the player pipi from the second team, then [p1,p2,\xe2\x80\xa6,pn][p1,p2,\xe2\x80\xa6,pn] is a permutation (a sequence where each integer from 11 to nn appears exactly once).'
+b"Whenever two players of almost equal skill play a game, it will likely result in a tie. Chess fans don't like ties, so the organizers of the match should distribute the players in such a way that ties are unlikely."
+b"Let the unfairness of the match be the following value: mini=1n|ai\xe2\x88\x92bpi|mini=1n|ai\xe2\x88\x92bpi|. Your task is to assign each player from the first team an opponent from the second team so that the unfairness is maximum possible (the greater it is, the smaller the probability of ties is, that's why you should maximize it)."
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa430001\xe2\x89\xa4t\xe2\x89\xa43000) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of three lines. The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa430001\xe2\x89\xa4n\xe2\x89\xa43000) \xe2\x80\x94 the number of players in each team.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4an\xe2\x89\xa41061\xe2\x89\xa4a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4an\xe2\x89\xa4106) \xe2\x80\x94 the skills of players of the first team.'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4b1\xe2\x89\xa4b2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4bn\xe2\x89\xa41061\xe2\x89\xa4b1\xe2\x89\xa4b2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4bn\xe2\x89\xa4106) \xe2\x80\x94 the skills of players of the second team.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 30003000.'
+b'Output'
+b'For each test case, output the answer as follows:'
+b'Print nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn on a separate line. All integers from 11 to nn should occur among them exactly once. The value of mini=1n|ai\xe2\x88\x92bpi|mini=1n|ai\xe2\x88\x92bpi| should be maximum possible. If there are multiple answers, print any of them.'
+Tags
+*special problem, *2000

@@ -1,0 +1,15 @@
+b'Vova has taken his summer practice this year and now he should write a report on how it went.'
+b'Vova has already drawn all the tables and wrote down all the formulas. Moreover, he has already decided that the report will consist of exactly nn pages and the ii-th page will include xixi tables and yiyi formulas. The pages are numbered from 11 to nn.'
+b"Vova fills the pages one after another, he can't go filling page i+1i+1 before finishing page ii and he can't skip pages. "
+b"However, if he draws strictly more than kk tables in a row or writes strictly more than kk formulas in a row then he will get bored. Vova wants to rearrange tables and formulas in each page in such a way that he doesn't get bored in the process. Vova can't move some table or some formula to another page."
+b"Note that the count doesn't reset on the start of the new page. For example, if the page ends with 33 tables and the next page starts with 55 tables, then it's counted as 88 tables in a row."
+b'Help Vova to determine if he can rearrange tables and formulas on each page in such a way that there is no more than kk tables in a row and no more than kk formulas in a row.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa41061\xe2\x89\xa4k\xe2\x89\xa4106).'
+b'The second line contains nn integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn (1\xe2\x89\xa4xi\xe2\x89\xa41061\xe2\x89\xa4xi\xe2\x89\xa4106) \xe2\x80\x94 the number of tables on the ii-th page.'
+b'The third line contains nn integers y1,y2,\xe2\x80\xa6,yny1,y2,\xe2\x80\xa6,yn (1\xe2\x89\xa4yi\xe2\x89\xa41061\xe2\x89\xa4yi\xe2\x89\xa4106) \xe2\x80\x94 the number of formulas on the ii-th page.'
+b'Output'
+b'Print "YES" if Vova can rearrange tables and formulas on each page in such a way that there is no more than kk tables in a row and no more than kk formulas in a row.'
+b'Otherwise print "NO".'
+Tags
+dp, greedy, *2500

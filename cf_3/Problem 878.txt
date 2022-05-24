@@ -1,0 +1,16 @@
+b'Polycarp has 2626 tasks. Each task is designated by a capital letter of the Latin alphabet.'
+b'The teacher asked Polycarp to solve tasks in the following way: if Polycarp began to solve some task, then he must solve it to the end, without being distracted by another task. After switching to another task, Polycarp cannot return to the previous task.'
+b'Polycarp can only solve one task during the day. Every day he wrote down what task he solved. Now the teacher wants to know if Polycarp followed his advice.'
+b'For example, if Polycarp solved tasks in the following order: "DDBBCCCBBEZ", then the teacher will see that on the third day Polycarp began to solve the task \'B\', then on the fifth day he got distracted and began to solve the task \'C\', on the eighth day Polycarp returned to the task \'B\'. Other examples of when the teacher is suspicious: "BAB", "AABBCCDDEEBZZ" and "AAAAZAAAAA".'
+b'If Polycarp solved the tasks as follows: "FFGZZZY", then the teacher cannot have any suspicions. Please note that Polycarp is not obligated to solve all tasks. Other examples of when the teacher doesn\'t have any suspicious: "BA", "AFFFCC" and "YYYYY".'
+b'Help Polycarp find out if his teacher might be suspicious.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000). Then tt test cases follow.'
+b'The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the number of days during which Polycarp solved tasks.'
+b'The second line contains a string of length nn, consisting of uppercase Latin letters, which is the order in which Polycarp solved the tasks.'
+b'Output'
+b'For each test case output: '
+b'  "YES", if the teacher cannot be suspicious;  "NO", otherwise. '
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES are all recognized as positive answer).'
+Tags
+brute force, implementation, *800

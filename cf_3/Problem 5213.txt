@@ -1,0 +1,11 @@
+b'Connected undirected weighted graph without self-loops and multiple edges is given. Graph contains n vertices and m edges.'
+b'For each edge (u,\xe2\x80\x89v) find the minimal possible weight of the spanning tree that contains the edge (u,\xe2\x80\x89v).'
+b'The weight of the spanning tree is the sum of weights of all edges included in spanning tree.'
+b'Input'
+b'First line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105,\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the number of vertices and edges in graph.'
+b'Each of the next m lines contains three integers ui,\xe2\x80\x89vi,\xe2\x80\x89wi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89ui\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89vi,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the endpoints of the i-th edge and its weight.'
+b'Output'
+b'Print m lines. i-th line should contain the minimal possible weight of the spanning tree that contains i-th edge.'
+b'The edges are numbered from 1 to m in order of their appearing in input.'
+Tags
+data structures, dfs and similar, dsu, graphs, trees, *2100

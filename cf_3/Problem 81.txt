@@ -1,0 +1,13 @@
+b'mm chairs are arranged in a circle sequentially. The chairs are numbered from 00 to m\xe2\x88\x921m\xe2\x88\x921. nn people want to sit in these chairs. The ii-th of them wants at least a[i]a[i] empty chairs both on his right and left side. '
+b'More formally, if the ii-th person sits in the jj-th chair, then no one else should sit in the following chairs: (j\xe2\x88\x92a[i])modm(j\xe2\x88\x92a[i])modm, (j\xe2\x88\x92a[i]+1)modm(j\xe2\x88\x92a[i]+1)modm, ... (j+a[i]\xe2\x88\x921)modm(j+a[i]\xe2\x88\x921)modm, (j+a[i])modm(j+a[i])modm.'
+b'Decide if it is possible to sit down for all of them, under the given limitations.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4m\xe2\x89\xa41091\xe2\x89\xa4m\xe2\x89\xa4109) \xe2\x80\x94 the number of people and the number of chairs.'
+b'The next line contains nn integers, a1a1, a2a2, ... anan (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the minimum number of empty chairs, on both sides of the ii-th person.'
+b'It is guaranteed that the sum of nn over all test cases will not exceed 105105.'
+b'Output'
+b'For each test case print "YES" (without quotes) if it is possible for everyone to sit down and fulfil the restrictions, and "NO" (without quotes) otherwise.'
+b'You may print every letter in any case you want (so, for example, the strings "yEs", "yes", "Yes" and "YES" will all be recognized as positive answers).'
+Tags
+greedy, math, sortings, *900

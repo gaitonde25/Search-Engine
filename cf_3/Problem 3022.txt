@@ -1,0 +1,15 @@
+b'Mitya and Vasya are playing an interesting game. They have a rooted tree with nn vertices, and the vertices are indexed from 11 to nn. The root has index 11. Every other vertex i\xe2\x89\xa52i\xe2\x89\xa52 has its parent pipi, and vertex ii is called a child of vertex pipi.'
+b'There are some cookies in every vertex of the tree: there are xixi cookies in vertex ii. It takes exactly titi time for Mitya to eat one cookie in vertex ii. There is also a chip, which is initially located in the root of the tree, and it takes lili time to move the chip along the edge connecting vertex ii with its parent.'
+b'Mitya and Vasya take turns playing, Mitya goes first.'
+b'  Mitya moves the chip from the vertex, where the chip is located, to one of its children.  Vasya can remove an edge from the vertex, where the chip is located, to one of its children. Vasya can also decide to skip his turn. '
+b'  '
+b'Mitya can stop the game at any his turn. Once he stops the game, he moves the chip up to the root, eating some cookies along his way. Mitya can decide how many cookies he would like to eat in every vertex on his way. The total time spent on descend, ascend and eating cookies should not exceed TT. Please note that in the end of the game the chip is always located in the root of the tree: Mitya can not leave the chip in any other vertex, even if he has already eaten enough cookies\xc2\xa0\xe2\x80\x94 he must move the chip back to the root (and every move from vertex vv to its parent takes lvlv time).'
+b"Find out what is the maximum number of cookies Mitya can eat, regardless of Vasya's actions."
+b'Input'
+b'The first line contains two integers nn and TT\xc2\xa0\xe2\x80\x94 the number of vertices in the tree and the time he has to accomplish his task (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105; 1\xe2\x89\xa4T\xe2\x89\xa410181\xe2\x89\xa4T\xe2\x89\xa41018).'
+b'The second line contains nn integers x1x1, x2x2, ..., xnxn\xc2\xa0\xe2\x80\x94 number of cookies located in the corresponding vertex (1\xe2\x89\xa4xi\xe2\x89\xa41061\xe2\x89\xa4xi\xe2\x89\xa4106). The third line contains nn integers t1t1, t2t2, ..., tntn\xc2\xa0\xe2\x80\x94 how much time it takes Mitya to eat one cookie in vertex ii (1\xe2\x89\xa4ti\xe2\x89\xa41061\xe2\x89\xa4ti\xe2\x89\xa4106).'
+b'Each of the following n\xe2\x88\x921n\xe2\x88\x921 lines describe the tree. For every ii from 22 to nn, the corresponding line contains two integers pipi and lili, where pipi denotes the parent of vertex ii and lili denotes the time it takes Mitya to move the chip along the edge from vertex ii to its parent (1\xe2\x89\xa4pi<i1\xe2\x89\xa4pi<i, 0\xe2\x89\xa4li\xe2\x89\xa41090\xe2\x89\xa4li\xe2\x89\xa4109).'
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 maximum number of cookies Mitya can eat.'
+Tags
+binary search, data structures, dfs and similar, dp, games, trees, *2400

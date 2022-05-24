@@ -1,0 +1,13 @@
+b"Anton loves transforming one permutation into another one by swapping elements for money, and Ira doesn't like paying for stupid games. Help them obtain the required permutation by paying as little money as possible."
+b'More formally, we have two permutations, p and s of numbers from 1 to n. We can swap pi and pj, by paying |i\xe2\x80\x89-\xe2\x80\x89j| coins for it. Find and print the smallest number of coins required to obtain permutation s from permutation p. Also print the sequence of swap operations at which we obtain a solution. '
+b'Input'
+b'The first line contains a single number n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000) \xe2\x80\x94 the length of the permutations.'
+b'The second line contains a sequence of n numbers from 1 to n \xe2\x80\x94 permutation p. Each number from 1 to n occurs exactly once in this line.'
+b'The third line contains a sequence of n numbers from 1 to n \xe2\x80\x94 permutation s. Each number from 1 to n occurs once in this line.'
+b'Output'
+b'In the first line print the minimum number of coins that you need to spend to transform permutation p into permutation s.'
+b'In the second line print number k (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7106) \xe2\x80\x94 the number of operations needed to get the solution.'
+b'In the next k lines print the operations. Each line must contain two numbers i and j (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i,\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89j), which means that you need to swap pi and pj.'
+b'It is guaranteed that the solution exists.'
+Tags
+constructive algorithms, greedy, math, *2300

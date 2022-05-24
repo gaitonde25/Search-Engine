@@ -1,0 +1,11 @@
+b'There are nn beautiful skyscrapers in New York, the height of the ii-th one is hihi. Today some villains have set on fire first n\xe2\x88\x921n\xe2\x88\x921 of them, and now the only safety building is nn-th skyscraper.'
+b"Let's call a jump from ii-th skyscraper to jj-th (i<ji<j) discrete, if all skyscrapers between are strictly lower or higher than both of them. Formally, jump is discrete, if i<ji<j and one of the following conditions satisfied: "
+b'  i+1=ji+1=j  max(hi+1,\xe2\x80\xa6,hj\xe2\x88\x921)<min(hi,hj)max(hi+1,\xe2\x80\xa6,hj\xe2\x88\x921)<min(hi,hj)  max(hi,hj)<min(hi+1,\xe2\x80\xa6,hj\xe2\x88\x921)max(hi,hj)<min(hi+1,\xe2\x80\xa6,hj\xe2\x88\x921). '
+b'At the moment, Vasya is staying on the first skyscraper and wants to live a little longer, so his goal is to reach nn-th skyscraper with minimal count of discrete jumps. Help him with calcualting this number.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 total amount of skyscrapers.'
+b'The second line contains nn integers h1,h2,\xe2\x80\xa6,hnh1,h2,\xe2\x80\xa6,hn (1\xe2\x89\xa4hi\xe2\x89\xa41091\xe2\x89\xa4hi\xe2\x89\xa4109) \xe2\x80\x94 heights of skyscrapers.'
+b'Output'
+b'Print single number kk \xe2\x80\x94 minimal amount of discrete jumps. We can show that an answer always exists.'
+Tags
+data structures, dp, graphs, *2200

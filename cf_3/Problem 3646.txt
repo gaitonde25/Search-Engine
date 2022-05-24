@@ -1,0 +1,17 @@
+b'Hag is a very talented person. He has always had an artist inside him but his father forced him to study mechanical engineering.'
+b'Yesterday he spent all of his time cutting a giant piece of wood trying to make it look like a goose. Anyway, his dad found out that he was doing arts rather than studying mechanics and other boring subjects. He confronted Hag with the fact that he is a spoiled son that does not care about his future, and if he continues to do arts he will cut his 25 Lira monthly allowance.'
+b'Hag is trying to prove to his dad that the wooden piece is a project for mechanics subject. He also told his dad that the wooden piece is a strictly convex polygon with nn vertices.'
+b'Hag brought two pins and pinned the polygon with them in the 11-st and 22-nd vertices to the wall. His dad has qq queries to Hag of two types. '
+b'  11 ff tt: pull a pin from the vertex ff, wait for the wooden polygon to rotate under the gravity force (if it will rotate) and stabilize. And then put the pin in vertex tt.  22 vv: answer what are the coordinates of the vertex vv. '
+b"Please help Hag to answer his father's queries."
+b"You can assume that the wood that forms the polygon has uniform density and the polygon has a positive thickness, same in all points. After every query of the 1-st type Hag's dad tries to move the polygon a bit and watches it stabilize again."
+b'Input'
+b'The first line contains two integers nn and qq (3\xe2\x89\xa4n\xe2\x89\xa4100003\xe2\x89\xa4n\xe2\x89\xa410000, 1\xe2\x89\xa4q\xe2\x89\xa42000001\xe2\x89\xa4q\xe2\x89\xa4200000)\xc2\xa0\xe2\x80\x94 the number of vertices in the polygon and the number of queries.'
+b'The next nn lines describe the wooden polygon, the ii-th line contains two integers xixi and yiyi (|xi|,|yi|\xe2\x89\xa4108|xi|,|yi|\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the coordinates of the ii-th vertex of the polygon. It is guaranteed that polygon is strictly convex and the vertices are given in the counter-clockwise order and all vertices are distinct.'
+b'The next qq lines describe the queries, one per line. Each query starts with its type 11 or 22. Each query of the first type continues with two integers ff and tt (1\xe2\x89\xa4f,t\xe2\x89\xa4n1\xe2\x89\xa4f,t\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the vertex the pin is taken from, and the vertex the pin is put to and the polygon finishes rotating. It is guaranteed that the vertex ff contains a pin. Each query of the second type continues with a single integer vv (1\xe2\x89\xa4v\xe2\x89\xa4n1\xe2\x89\xa4v\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the vertex the coordinates of which Hag should tell his father.'
+b'It is guaranteed that there is at least one query of the second type.'
+b'Output'
+b'The output should contain the answer to each query of second type\xc2\xa0\xe2\x80\x94 two numbers in a separate line. Your answer is considered correct, if its absolute or relative error does not exceed 10\xe2\x88\x92410\xe2\x88\x924.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is considered correct if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x924|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x924"
+Tags
+geometry, *2600

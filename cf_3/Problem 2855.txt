@@ -1,0 +1,12 @@
+b'In the country NN, there are nn cities connected by mm one-way roads. Although this country seems unremarkable, there are two interesting facts about it. At first, a week lasts dd days here. At second, there is exactly one museum in each city of the country NN.'
+b'Travel agency "Open museums" is developing a new program for tourists interested in museums. Agency\'s employees know which days each of the museums is open. The tour should start in the capital\xc2\xa0\xe2\x80\x94 the city number 11, and the first day of the tour must be on the first day of a week. Each day a tourist will be in some city, watching the exposition in its museum (in case museum is open today), and by the end of the day, the tour either ends or the tourist goes into another city connected by a road with the current one. The road system of NN is designed in such a way that traveling by a road always takes one night and also all the roads are one-way. It\'s allowed to visit a city multiple times during the trip.'
+b'You should develop such route for the trip that the number of distinct museums, possible to visit during it, is maximum.'
+b'Input'
+b'The first line contains three integers nn, mm and dd (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000, 0\xe2\x89\xa4m\xe2\x89\xa41000000\xe2\x89\xa4m\xe2\x89\xa4100000, 1\xe2\x89\xa4d\xe2\x89\xa4501\xe2\x89\xa4d\xe2\x89\xa450), the number of cities, the number of roads and the number of days in a week.'
+b'Each of next mm lines contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi), denoting a one-way road from the city uiui to the city vivi.'
+b'The next nn lines contain the museums\' schedule. The schedule of the museum located in the ii-th city is described in the ii-th of these lines. Each line consists of exactly dd characters "0" or "1", the jj-th character of the string equals to "1" if the museum is open at the jj-th day of a week, and "0", otherwise.'
+b"It's guaranteed that for each pair of cities (u,v)(u,v) there exists no more than one road leading from uu to vv."
+b'Output'
+b"Print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of distinct museums, that it's possible to visit, starting a trip in the first city on the first day of the week."
+Tags
+dp, graphs, implementation, *2500

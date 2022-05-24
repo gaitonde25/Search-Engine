@@ -1,0 +1,13 @@
+b"One of Timofey's birthday presents is a colourbook in a shape of an infinite plane. On the plane n rectangles with sides parallel to coordinate axes are situated. All sides of the rectangles have odd length. Rectangles cannot intersect, but they can touch each other."
+b'Help Timofey to color his rectangles in 4 different colors in such a way that every two rectangles touching each other by side would have different color, or determine that it is impossible.'
+b'Two rectangles intersect if their intersection has positive area. Two rectangles touch by sides if there is a pair of sides such that their intersection has non-zero length'
+b'  The picture corresponds to the first example '
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of rectangles.'
+b'n lines follow. The i-th of these lines contains four integers x1, y1, x2 and y2 (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x1\xe2\x80\x89<\xe2\x80\x89x2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, \xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y1\xe2\x80\x89<\xe2\x80\x89y2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), that means that points (x1,\xe2\x80\x89y1) and (x2,\xe2\x80\x89y2) are the coordinates of two opposite corners of the i-th rectangle.'
+b"It is guaranteed, that all sides of the rectangles have odd lengths and rectangles don't intersect each other."
+b'Output'
+b'Print "NO" in the only line if it is impossible to color the rectangles in 4 different colors in such a way that every two rectangles touching each other by side would have different color.'
+b'Otherwise, print "YES" in the first line. Then print n lines, in the i-th of them print single integer ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x894)\xc2\xa0\xe2\x80\x94 the color of i-th rectangle.'
+Tags
+constructive algorithms, geometry, *2100

@@ -1,0 +1,10 @@
+b"You're given a tree with nn vertices."
+b'Your task is to determine the maximum possible number of edges that can be removed in such a way that all the remaining connected components will have even size.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) denoting the size of the tree. '
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines contain two integers uu, vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n) each, describing the vertices connected by the ii-th edge.'
+b"It's guaranteed that the given edges form a tree."
+b'Output'
+b'Output a single integer kk \xe2\x80\x94 the maximum number of edges that can be removed to leave all connected components with even size, or \xe2\x88\x921\xe2\x88\x921 if it is impossible to remove edges in order to satisfy this property.'
+Tags
+dfs and similar, dp, graphs, greedy, trees, *1500

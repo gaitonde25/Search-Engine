@@ -1,0 +1,12 @@
+b'Kuroni is the coordinator of the next Mathforces round written by the "Proof by AC" team. All the preparation has been done, and he is discussing with the team about the score distribution for the round.'
+b'The round consists of nn problems, numbered from 11 to nn. The problems are ordered in increasing order of difficulty, no two problems have the same difficulty. A score distribution for the round can be denoted by an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, where aiai is the score of ii-th problem. '
+b'Kuroni thinks that the score distribution should satisfy the following requirements:'
+b'  The score of each problem should be a positive integer not exceeding 109109.  A harder problem should grant a strictly higher score than an easier problem. In other words, 1\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<an\xe2\x89\xa41091\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<an\xe2\x89\xa4109.  The balance of the score distribution, defined as the number of triples (i,j,k)(i,j,k) such that 1\xe2\x89\xa4i<j<k\xe2\x89\xa4n1\xe2\x89\xa4i<j<k\xe2\x89\xa4n and ai+aj=akai+aj=ak, should be exactly mm. '
+b"Help the team find a score distribution that satisfies Kuroni's requirement. In case such a score distribution does not exist, output \xe2\x88\x921\xe2\x88\x921."
+b'Input'
+b'The first and single line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4n\xe2\x89\xa45000, 0\xe2\x89\xa4m\xe2\x89\xa41090\xe2\x89\xa4m\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of problems and the required balance.'
+b'Output'
+b'If there is no solution, print a single integer \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print a line containing nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, representing a score distribution that satisfies all the requirements. If there are multiple answers, print any of them.'
+Tags
+constructive algorithms, greedy, implementation, math, *2200

@@ -1,0 +1,10 @@
+b'You are given nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Find the maximum value of max(al,al+1,\xe2\x80\xa6,ar)\xe2\x8b\x85min(al,al+1,\xe2\x80\xa6,ar)max(al,al+1,\xe2\x80\xa6,ar)\xe2\x8b\x85min(al,al+1,\xe2\x80\xa6,ar) over all pairs (l,r)(l,r) of integers for which 1\xe2\x89\xa4l<r\xe2\x89\xa4n1\xe2\x89\xa4l<r\xe2\x89\xa4n.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) \xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106).'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 3\xe2\x8b\x851053\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print a single integer \xc2\xa0\xe2\x80\x94 the maximum possible value of the product from the statement.'
+Tags
+greedy, *800

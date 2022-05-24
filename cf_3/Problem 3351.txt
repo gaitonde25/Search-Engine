@@ -1,0 +1,9 @@
+b'There are nn parrots standing in a circle. Each parrot has a certain level of respect among other parrots, namely riri. When a parrot with respect level xx starts chattering, xx neighbours to the right and to the left of it start repeating the same words in 1 second. Their neighbours then start repeating as well, and so on, until all the birds begin to chatter.'
+b'You are given the respect levels of all parrots. For each parrot answer a question: if this certain parrot starts chattering, how many seconds will pass until all other birds will start repeating it?'
+b'Input'
+b'In the first line of input there is a single integer nn, the number of parrots (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'In the next line of input there are nn integers r1r1, ..., rnrn, the respect levels of parrots in order they stand in the circle (1\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4ri\xe2\x89\xa4n).'
+b'Output'
+b'Print nn integers. ii-th of them should equal the number of seconds that is needed for all parrots to start chattering if the ii-th parrot is the first to start.'
+Tags
+*2900

@@ -1,0 +1,10 @@
+b'Okabe needs bananas for one of his experiments for some strange reason. So he decides to go to the forest and cut banana trees.'
+b"Consider the point (x,\xe2\x80\x89y) in the 2D plane such that x and y are integers and 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y. There is a tree in such a point, and it has x\xe2\x80\x89+\xe2\x80\x89y bananas. There are no trees nor bananas in other points. Now, Okabe draws a line with equation . Okabe can select a single rectangle with axis aligned sides with all points on or under the line and cut all the trees in all points that are inside or on the border of this rectangle and take their bananas. Okabe's rectangle can be degenerate; that is, it can be a line segment or even a point."
+b'Help Okabe and find the maximum number of bananas he can get if he chooses the rectangle wisely.'
+b'Okabe is sure that the answer does not exceed 1018. You can trust him.'
+b'Input'
+b'The first line of input contains two space-separated integers m and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910000).'
+b'Output'
+b'Print the maximum number of bananas Okabe can get from the trees he cuts.'
+Tags
+brute force, math, *1300

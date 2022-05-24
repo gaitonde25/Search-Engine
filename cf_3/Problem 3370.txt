@@ -1,0 +1,10 @@
+b'When preparing a tournament, Codeforces coordinators try treir best to make the first problem as easy as possible. This time the coordinator had chosen some problem and asked nn people about their opinions. Each person answered whether this problem is easy or hard.'
+b'If at least one of these nn people has answered that the problem is hard, the coordinator decides to change the problem. For the given responses, check if the problem is easy enough.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of people who were asked to give their opinions.'
+b'The second line contains nn integers, each integer is either 00 or 11. If ii-th integer is 00, then ii-th person thinks that the problem is easy; if it is 11, then ii-th person thinks that the problem is hard.'
+b'Output'
+b'Print one word: "EASY" if the problem is easy according to all responses, or "HARD" if there is at least one person who thinks the problem is hard. '
+b'You may print every letter in any register: "EASY", "easy", "EaSY" and "eAsY" all will be processed correctly.'
+Tags
+implementation, *800

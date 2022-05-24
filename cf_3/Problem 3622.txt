@@ -1,0 +1,13 @@
+b'Kuro has recently won the "Most intelligent cat ever" contest. The three friends then decided to go to Katie\'s home to celebrate Kuro\'s winning. After a big meal, they took a small break then started playing games.'
+b'Kuro challenged Katie to create a game with only a white paper, a pencil, a pair of scissors and a lot of arrows (you can assume that the number of arrows is infinite). Immediately, Katie came up with the game called Topological Parity.'
+b"The paper is divided into nn pieces enumerated from 11 to nn. Shiro has painted some pieces with some color. Specifically, the ii-th piece has color cici where ci=0ci=0 defines black color, ci=1ci=1 defines white color and ci=\xe2\x88\x921ci=\xe2\x88\x921 means that the piece hasn't been colored yet."
+b'The rules of the game is simple. Players must put some arrows between some pairs of different pieces in such a way that for each arrow, the number in the piece it starts from is less than the number of the piece it ends at. Also, two different pieces can only be connected by at most one arrow. After that the players must choose the color (00 or 11) for each of the unpainted pieces. The score of a valid way of putting the arrows and coloring pieces is defined as the number of paths of pieces of alternating colors. For example, [1\xe2\x86\x920\xe2\x86\x921\xe2\x86\x920][1\xe2\x86\x920\xe2\x86\x921\xe2\x86\x920], [0\xe2\x86\x921\xe2\x86\x920\xe2\x86\x921][0\xe2\x86\x921\xe2\x86\x920\xe2\x86\x921], [1][1], [0][0] are valid paths and will be counted. You can only travel from piece xx to piece yy if and only if there is an arrow from xx to yy.'
+b'But Kuro is not fun yet. He loves parity. Let\'s call his favorite parity pp where p=0p=0 stands for "even" and p=1p=1 stands for "odd". He wants to put the arrows and choose colors in such a way that the score has the parity of pp.'
+b"It seems like there will be so many ways which satisfy Kuro. He wants to count the number of them but this could be a very large number. Let's help him with his problem, but print it modulo 109+7109+7."
+b'Input'
+b"The first line contains two integers nn and pp (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450, 0\xe2\x89\xa4p\xe2\x89\xa410\xe2\x89\xa4p\xe2\x89\xa41) \xe2\x80\x94 the number of pieces and Kuro's wanted parity."
+b'The second line contains nn integers c1,c2,...,cnc1,c2,...,cn (\xe2\x88\x921\xe2\x89\xa4ci\xe2\x89\xa41\xe2\x88\x921\xe2\x89\xa4ci\xe2\x89\xa41) \xe2\x80\x94 the colors of the pieces.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the number of ways to put the arrows and choose colors so the number of valid paths of alternating colors has the parity of pp.'
+Tags
+dp, *2400

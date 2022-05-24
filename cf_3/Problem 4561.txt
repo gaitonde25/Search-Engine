@@ -1,0 +1,16 @@
+b'Dasha logged into the system and began to solve problems. One of them is as follows:'
+b'Given two sequences a and b of length n each you need to write a sequence c of length n, the i-th element of which is calculated as follows: ci\xe2\x80\x89=\xe2\x80\x89bi\xe2\x80\x89-\xe2\x80\x89ai.'
+b'About sequences a and b we know that their elements are in the range from l to r. More formally, elements satisfy the following conditions: l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r and l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r. About sequence c we know that all its elements are distinct.'
+b'  '
+b'Dasha wrote a solution to that problem quickly, but checking her work on the standard test was not so easy. Due to an error in the test system only the sequence a and the compressed sequence of the sequence c were known from that test.'
+b"Let's give the definition to a compressed sequence. A compressed sequence of sequence c of length n is a sequence p of length n, so that pi equals to the number of integers which are less than or equal to ci in the sequence c. For example, for the sequence c\xe2\x80\x89=\xe2\x80\x89[250,\xe2\x80\x89200,\xe2\x80\x89300,\xe2\x80\x89100,\xe2\x80\x8950] the compressed sequence will be p\xe2\x80\x89=\xe2\x80\x89[4,\xe2\x80\x893,\xe2\x80\x895,\xe2\x80\x892,\xe2\x80\x891]. Pay attention that in c all integers are distinct. Consequently, the compressed sequence contains all integers from 1 to n inclusively."
+b'Help Dasha to find any sequence b for which the calculated compressed sequence of sequence c is correct.'
+b'Input'
+b'The first line contains three integers n, l, r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the length of the sequence and boundaries of the segment where the elements of sequences a and b are.'
+b'The next line contains n integers a1,\xe2\x80\x89\xe2\x80\x89a2,\xe2\x80\x89\xe2\x80\x89...,\xe2\x80\x89\xe2\x80\x89an (l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r) \xe2\x80\x94 the elements of the sequence a.'
+b'The next line contains n distinct integers p1,\xe2\x80\x89\xe2\x80\x89p2,\xe2\x80\x89\xe2\x80\x89...,\xe2\x80\x89\xe2\x80\x89pn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the compressed sequence of the sequence c.'
+b'Output'
+b'If there is no the suitable sequence b, then in the only line print "-1".'
+b'Otherwise, in the only line print n integers \xe2\x80\x94 the elements of any suitable sequence b.'
+Tags
+binary search, brute force, constructive algorithms, greedy, sortings, *1700

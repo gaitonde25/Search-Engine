@@ -1,0 +1,16 @@
+b"Petya is preparing for his birthday. He decided that there would be nn different dishes on the dinner table, numbered from 11 to nn. Since Petya doesn't like to cook, he wants to order these dishes in restaurants."
+b'Unfortunately, all dishes are prepared in different restaurants and therefore Petya needs to pick up his orders from nn different places. To speed up this process, he wants to order courier delivery at some restaurants. Thus, for each dish, there are two options for Petya how he can get it:'
+b'  the dish will be delivered by a courier from the restaurant ii, in this case the courier will arrive in aiai minutes,  Petya goes to the restaurant ii on his own and picks up the dish, he will spend bibi minutes on this. '
+b'Each restaurant has its own couriers and they start delivering the order at the moment Petya leaves the house. In other words, all couriers work in parallel. Petya must visit all restaurants in which he has not chosen delivery, he does this consistently.'
+b"For example, if Petya wants to order n=4n=4 dishes and a=[3,7,4,5]a=[3,7,4,5], and b=[2,1,2,4]b=[2,1,2,4], then he can order delivery from the first and the fourth restaurant, and go to the second and third on your own. Then the courier of the first restaurant will bring the order in 33 minutes, the courier of the fourth restaurant will bring the order in 55 minutes, and Petya will pick up the remaining dishes in 1+2=31+2=3 minutes. Thus, in 55 minutes all the dishes will be at Petya's house."
+b"Find the minimum time after which all the dishes can be at Petya's home."
+b'Input'
+b'The first line contains one positive integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case begins with a line containing one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of dishes that Petya wants to order.'
+b'The second line of each test case contains nn integers a1\xe2\x80\xa6ana1\xe2\x80\xa6an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the time of courier delivery of the dish with the number ii.'
+b'The third line of each test case contains nn integers b1\xe2\x80\xa6bnb1\xe2\x80\xa6bn (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the time during which Petya will pick up the dish with the number ii.'
+b'The sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b"For each test case output one integer\xc2\xa0\xe2\x80\x94 the minimum time after which all dishes can be at Petya's home."
+Tags
+binary search, greedy, sortings, *1400

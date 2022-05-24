@@ -1,0 +1,14 @@
+b'You are given an array aa consisting of nn positive integers. You can perform operations on it.'
+b'In one operation you can replace any element of the array aiai with \xe2\x8c\x8aai2\xe2\x8c\x8b\xe2\x8c\x8aai2\xe2\x8c\x8b, that is, by an integer part of dividing aiai by 22 (rounding down).'
+b'See if you can apply the operation some number of times (possible 00) to make the array aa become a permutation of numbers from 11 to nn\xc2\xa0\xe2\x80\x94that is, so that it contains all numbers from 11 to nn, each exactly once.'
+b'For example, if a=[1,8,25,2]a=[1,8,25,2], n=4n=4, then the answer is yes. You could do the following:'
+b'  Replace 88 with \xe2\x8c\x8a82\xe2\x8c\x8b=4\xe2\x8c\x8a82\xe2\x8c\x8b=4, then a=[1,4,25,2]a=[1,4,25,2].  Replace 2525 with \xe2\x8c\x8a252\xe2\x8c\x8b=12\xe2\x8c\x8a252\xe2\x8c\x8b=12, then a=[1,4,12,2]a=[1,4,12,2].  Replace 1212 with \xe2\x8c\x8a122\xe2\x8c\x8b=6\xe2\x8c\x8a122\xe2\x8c\x8b=6, then a=[1,4,6,2]a=[1,4,6,2].  Replace 66 with \xe2\x8c\x8a62\xe2\x8c\x8b=3\xe2\x8c\x8a62\xe2\x8c\x8b=3, then a=[1,4,3,2]a=[1,4,3,2]. '
+b'Input'
+b'The first line of input data contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94the number of test cases.'
+b'Each test case contains exactly two lines. The first one contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450), the second one contains integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, output on a separate line:'
+b'  YES if you can make the array aa become a permutation of numbers from 11 to nn,  NO otherwise. '
+b'You can output YES and NO in any case (for example, strings yEs, yes, Yes and YES will be recognized as a positive response).'
+Tags
+constructive algorithms, flows, graph matchings, greedy, math, *1100

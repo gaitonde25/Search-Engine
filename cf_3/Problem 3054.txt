@@ -1,0 +1,9 @@
+b'Vasya has got an array consisting of nn integers, and two integers kk and lenlen in addition. All numbers in the array are either between 11 and kk (inclusive), or equal to \xe2\x88\x921\xe2\x88\x921. The array is good if there is no segment of lenlen consecutive equal numbers.'
+b'Vasya will replace each \xe2\x88\x921\xe2\x88\x921 with some number from 11 to kk (inclusive) in such a way that the resulting array is good. Tell him the number of ways to do this replacement. Since the answer may be large, print it modulo 998244353998244353.'
+b'Input'
+b'The first line contains three integers n,kn,k and lenlen (1\xe2\x89\xa4n\xe2\x89\xa4105,1\xe2\x89\xa4k\xe2\x89\xa4100,1\xe2\x89\xa4len\xe2\x89\xa4n1\xe2\x89\xa4n\xe2\x89\xa4105,1\xe2\x89\xa4k\xe2\x89\xa4100,1\xe2\x89\xa4len\xe2\x89\xa4n).'
+b'The second line contains nn numbers \xe2\x80\x94 the array. Each number is either \xe2\x88\x921\xe2\x88\x921 or between 11 and kk (inclusive).'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of ways to replace each \xe2\x88\x921\xe2\x88\x921 with some number from 11 to kk (inclusive) so the array is good. The answer may be large, so print it modulo 998244353998244353.'
+Tags
+dp, *2400

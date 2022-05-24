@@ -1,0 +1,19 @@
+b"Polycarp plans to undergo a full physical examination at his local clinic. There are nn doctors, numbered from 11 to nn. The ii-th doctor takes patients from minute LiLi to minute RiRi, so Polycarp can visit him at any minute in this range. It takes each doctor exactly one minute to examine Polycarp's health."
+b'Polycarp wants to arrive at the clinic at some minute xx and visit all nn doctors in some order without waiting or visiting any doctor several times.'
+b'More formally, he chooses an integer xx and a permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (a sequence of nn integers from 11 to nn such that each integer appears exactly once), then proceeds to visit: '
+b'  doctor p1p1 at minute xx;  doctor p2p2 at minute x+1x+1;  ...  doctor pnpn at minute x+n\xe2\x88\x921x+n\xe2\x88\x921. '
+b'The pipi-th doctor should be able to take patients at minute x+i\xe2\x88\x921x+i\xe2\x88\x921, so the following should hold: L[pi]\xe2\x89\xa4x+i\xe2\x88\x921\xe2\x89\xa4R[pi]L[pi]\xe2\x89\xa4x+i\xe2\x88\x921\xe2\x89\xa4R[pi].'
+b"Determine if it's possible for Polycarp to choose such a minute xx and a permutation pp that he'll be able to visit all nn doctors in without waiting or visiting any doctor several times. If there are multiple answers, print any of them."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Then the descriptions of tt testcases follow.'
+b'The first line of the testcase contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of doctors.'
+b'The second line of the testcase contains nn integers L1,L2,\xe2\x80\xa6LnL1,L2,\xe2\x80\xa6Ln (1\xe2\x89\xa4Li\xe2\x89\xa41091\xe2\x89\xa4Li\xe2\x89\xa4109).'
+b'The third line of the testcase contains nn integers R1,R2,\xe2\x80\xa6RnR1,R2,\xe2\x80\xa6Rn (Li\xe2\x89\xa4Ri\xe2\x89\xa4109Li\xe2\x89\xa4Ri\xe2\x89\xa4109).'
+b"The sum of nn over all testcases doesn't exceed 105105."
+b'Output'
+b'For each testcase print an answer.'
+b'If there exists such a minute xx and a permutation pp that Polycarp is able to visit all nn doctors without waiting or visiting any doctor several times, then print xx in the first line and a permutation pp in the second line. If there are multiple answers, print any of them.'
+b'Otherwise, print \xe2\x88\x921\xe2\x88\x921 in the only line.'
+Tags
+*special problem, binary search, data structures, *3200

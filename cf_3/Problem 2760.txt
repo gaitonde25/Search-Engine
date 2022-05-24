@@ -1,0 +1,14 @@
+b'This is an interactive problem.'
+b'Now Serval is a senior high school student in Japari Middle School. However, on the way to the school, he must go across a pond, in which there is a dangerous snake. The pond can be represented as a n\xc3\x97nn\xc3\x97n grid. The snake has a head and a tail in different cells, and its body is a series of adjacent cells connecting the head and the tail without self-intersecting. If Serval hits its head or tail, the snake will bite him and he will die.'
+b'Luckily, he has a special device which can answer the following question: you can pick a rectangle, it will tell you the number of times one needs to cross the border of the rectangle walking cell by cell along the snake from the head to the tail. The pictures below show a possible snake and a possible query to it, which will get an answer of 44.'
+b'  '
+b'  '
+b'Today Serval got up too late and only have time to make 20192019 queries. As his best friend, can you help him find the positions of the head and the tail?'
+b'Note that two cells are adjacent if and only if they have a common edge in the grid, and a snake can have a body of length 00, that means it only has adjacent head and tail.'
+b"Also note that the snake is sleeping, so it won't move while Serval using his device. And what's obvious is that the snake position does not depend on your queries."
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the size of the grid.'
+b'Output'
+b'When you are ready to answer, you should print ! x1 y1 x2 y2, where (x1,y1)(x1,y1) represents the position of the head and (x2,y2)(x2,y2) represents the position of the tail. You can print head and tail in any order.'
+Tags
+binary search, brute force, interactive, *2200

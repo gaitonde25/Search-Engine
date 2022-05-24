@@ -1,0 +1,11 @@
+b'This morning, Roman woke up and opened the browser with nn opened tabs numbered from 11 to nn. There are two kinds of tabs: those with the information required for the test and those with social network sites. Roman decided that there are too many tabs open so he wants to close some of them.'
+b'He decided to accomplish this by closing every kk-th (2\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9212\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x921) tab. Only then he will decide whether he wants to study for the test or to chat on the social networks. Formally, Roman will choose one tab (let its number be bb) and then close all tabs with numbers c=b+i\xe2\x8b\x85kc=b+i\xe2\x8b\x85k that satisfy the following condition: 1\xe2\x89\xa4c\xe2\x89\xa4n1\xe2\x89\xa4c\xe2\x89\xa4n and ii is an integer (it may be positive, negative or zero).'
+b'For example, if k=3k=3, n=14n=14 and Roman chooses b=8b=8, then he will close tabs with numbers 22, 55, 88, 1111 and 1414.'
+b"After closing the tabs Roman will calculate the amount of remaining tabs with the information for the test (let's denote it ee) and the amount of remaining social network tabs (ss). Help Roman to calculate the maximal absolute value of the difference of those values |e\xe2\x88\x92s||e\xe2\x88\x92s| so that it would be easy to decide what to do next."
+b'Input'
+b'The first line contains two integers nn and kk (2\xe2\x89\xa4k<n\xe2\x89\xa41002\xe2\x89\xa4k<n\xe2\x89\xa4100) \xe2\x80\x94 the amount of tabs opened currently and the distance between the tabs closed.'
+b"The second line consists of nn integers, each of them equal either to 11 or to \xe2\x88\x921\xe2\x88\x921. The ii-th integer denotes the type of the ii-th tab: if it is equal to 11, this tab contains information for the test, and if it is equal to \xe2\x88\x921\xe2\x88\x921, it's a social network tab."
+b'Output'
+b'Output a single integer \xe2\x80\x94 the maximum absolute difference between the amounts of remaining tabs of different types |e\xe2\x88\x92s||e\xe2\x88\x92s|.'
+Tags
+implementation, *1000

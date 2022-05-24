@@ -1,0 +1,12 @@
+b'You are given two sequences a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn. Each element of both sequences is either 00, 11 or 22. The number of elements 00, 11, 22 in the sequence aa is x1x1, y1y1, z1z1 respectively, and the number of elements 00, 11, 22 in the sequence bb is x2x2, y2y2, z2z2 respectively.'
+b"You can rearrange the elements in both sequences aa and bb however you like. After that, let's define a sequence cc as follows:"
+b'ci=\xe2\x8e\xa7\xe2\x8e\xa9\xe2\x8e\xa8aibi0\xe2\x88\x92aibiif\xc2\xa0ai>biif\xc2\xa0ai=biif\xc2\xa0ai<bici={aibiif\xc2\xa0ai>bi0if\xc2\xa0ai=bi\xe2\x88\x92aibiif\xc2\xa0ai<bi'
+b"You'd like to make \xe2\x88\x91ni=1ci\xe2\x88\x91i=1nci (the sum of all elements of the sequence cc) as large as possible. What is the maximum possible sum?"
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each test case consists of two lines. The first line of each test case contains three integers x1x1, y1y1, z1z1 (0\xe2\x89\xa4x1,y1,z1\xe2\x89\xa41080\xe2\x89\xa4x1,y1,z1\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the number of 00-s, 11-s and 22-s in the sequence aa.'
+b'The second line of each test case also contains three integers x2x2, y2y2, z2z2 (0\xe2\x89\xa4x2,y2,z2\xe2\x89\xa41080\xe2\x89\xa4x2,y2,z2\xe2\x89\xa4108; x1+y1+z1=x2+y2+z2>0x1+y1+z1=x2+y2+z2>0)\xc2\xa0\xe2\x80\x94 the number of 00-s, 11-s and 22-s in the sequence bb.'
+b'Output'
+b'For each test case, print the maximum possible sum of the sequence cc.'
+Tags
+constructive algorithms, greedy, math, *1100

@@ -1,0 +1,11 @@
+b'Let us denote by d(n)d(n) the sum of all divisors of the number nn, i.e. d(n)=\xe2\x88\x91k|nkd(n)=\xe2\x88\x91k|nk.'
+b'For example, d(1)=1d(1)=1, d(4)=1+2+4=7d(4)=1+2+4=7, d(6)=1+2+3+6=12d(6)=1+2+3+6=12.'
+b'For a given number cc, find the minimum nn such that d(n)=cd(n)=c.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Then tt test cases follow.'
+b'Each test case is characterized by one integer cc (1\xe2\x89\xa4c\xe2\x89\xa41071\xe2\x89\xa4c\xe2\x89\xa4107).'
+b'Output'
+b'For each test case, output: '
+b'  "-1" if there is no such nn that d(n)=cd(n)=c;  nn, otherwise. '
+Tags
+brute force, dp, math, number theory, *1700

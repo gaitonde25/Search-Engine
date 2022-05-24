@@ -1,0 +1,12 @@
+b'There are nn equidistant antennas on a line, numbered from 11 to nn. Each antenna has a power rating, the power of the ii-th antenna is pipi. '
+b'The ii-th and the jj-th antenna can communicate directly if and only if their distance is at most the minimum of their powers, i.e., |i\xe2\x88\x92j|\xe2\x89\xa4min(pi,pj)|i\xe2\x88\x92j|\xe2\x89\xa4min(pi,pj). Sending a message directly between two such antennas takes 11 second.'
+b'What is the minimum amount of time necessary to send a message from antenna aa to antenna bb, possibly using other antennas as relays?'
+b'Input'
+b'Each test contains multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41000001\xe2\x89\xa4t\xe2\x89\xa4100000) \xe2\x80\x94 the number of test cases. The descriptions of the tt test cases follow.'
+b'The first line of each test case contains three integers nn, aa, bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4a,b\xe2\x89\xa4n\xe2\x89\xa4200000) \xe2\x80\x94 the number of antennas, and the origin and target antenna. '
+b'The second line contains nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n) \xe2\x80\x94 the powers of the antennas.'
+b'The sum of the values of nn over all test cases does not exceed 200000200000. '
+b'Output'
+b'For each test case, print the number of seconds needed to trasmit a message from aa to bb. It can be shown that under the problem constraints, it is always possible to send such a message.'
+Tags
+data structures, dfs and similar, graphs, graphs, implementation, implementation, shortest paths, shortest paths

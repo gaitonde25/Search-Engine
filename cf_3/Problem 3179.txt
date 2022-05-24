@@ -1,0 +1,9 @@
+b'Enough is enough. Too many times it happened that Vasya forgot to dispose of garbage and his apartment stank afterwards. Now he wants to create a garbage disposal plan and stick to it.'
+b'For each of next nn days Vasya knows aiai \xe2\x80\x94 number of units of garbage he will produce on the ii-th day. Each unit of garbage must be disposed of either on the day it was produced or on the next day. Vasya disposes of garbage by putting it inside a bag and dropping the bag into a garbage container. Each bag can contain up to kk units of garbage. It is allowed to compose and drop multiple bags into a garbage container in a single day.'
+b'Being economical, Vasya wants to use as few bags as possible. You are to compute the minimum number of bags Vasya needs to dispose of all of his garbage for the given nn days. No garbage should be left after the nn-th day.'
+b'Input'
+b"The first line of the input contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4k\xe2\x89\xa4109) \xe2\x80\x94 number of days to consider and bag's capacity. The second line contains nn space separated integers aiai (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the number of units of garbage produced on the ii-th day."
+b'Output'
+b'Output a single integer \xe2\x80\x94 the minimum number of bags Vasya needs to dispose of all garbage. Each unit of garbage should be disposed on the day it was produced or on the next day. No garbage can be left after the nn-th day. In a day it is allowed to compose and drop multiple bags.'
+Tags
+greedy, *1300

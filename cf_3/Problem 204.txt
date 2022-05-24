@@ -1,0 +1,10 @@
+b'Madoka finally found the administrator password for her computer. Her father is a well-known popularizer of mathematics, so the password is the answer to the following problem.'
+b'Find the maximum decimal number without zeroes and with no equal digits in a row, such that the sum of its digits is nn.'
+b'Madoka is too tired of math to solve it herself, so help her to solve this problem!'
+b'Input'
+b'Each test contains multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The only line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the required sum of the digits.'
+b'Output'
+b'For each test case print the maximum number you can obtain.'
+Tags
+implementation, math, *800

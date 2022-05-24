@@ -1,0 +1,14 @@
+b'Consider a tunnel on a one-way road. During a particular day, nn cars numbered from 11 to nn entered and exited the tunnel exactly once. All the cars passed through the tunnel at constant speeds.'
+b'A traffic enforcement camera is mounted at the tunnel entrance. Another traffic enforcement camera is mounted at the tunnel exit. Perfectly balanced.'
+b'Thanks to the cameras, the order in which the cars entered and exited the tunnel is known. No two cars entered or exited at the same time.'
+b'Traffic regulations prohibit overtaking inside the tunnel. If car ii overtakes any other car jj inside the tunnel, car ii must be fined. However, each car can be fined at most once.'
+b"Formally, let's say that car ii definitely overtook car jj if car ii entered the tunnel later than car jj and exited the tunnel earlier than car jj. Then, car ii must be fined if and only if it definitely overtook at least one other car."
+b'Find the number of cars that must be fined. '
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105), denoting the number of cars.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n), denoting the ids of cars in order of entering the tunnel. All aiai are pairwise distinct.'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa4n1\xe2\x89\xa4bi\xe2\x89\xa4n), denoting the ids of cars in order of exiting the tunnel. All bibi are pairwise distinct.'
+b'Output'
+b'Output the number of cars to be fined.'
+Tags
+data structures, sortings, two pointers, *1300

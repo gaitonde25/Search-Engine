@@ -1,0 +1,16 @@
+b'A little boy Laurenty has been playing his favourite game Nota for quite a while and is now very hungry. The boy wants to make sausage and cheese sandwiches, but first, he needs to buy a sausage and some cheese.'
+b'The town where Laurenty lives in is not large. The houses in it are located in two rows, n houses in each row. Laurenty lives in the very last house of the second row. The only shop in town is placed in the first house of the first row.'
+b'The first and second rows are separated with the main avenue of the city. The adjacent houses of one row are separated by streets.'
+b'Each crosswalk of a street or an avenue has some traffic lights. In order to cross the street, you need to press a button on the traffic light, wait for a while for the green light and cross the street. Different traffic lights can have different waiting time.'
+b"The traffic light on the crosswalk from the j-th house of the i-th row to the (j\xe2\x80\x89+\xe2\x80\x891)-th house of the same row has waiting time equal to aij (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891). For the traffic light on the crossing from the j-th house of one row to the j-th house of another row the waiting time equals bj (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). The city doesn't have any other crossings."
+b'The boy wants to get to the store, buy the products and go back. The main avenue of the city is wide enough, so the boy wants to cross it exactly once on the way to the store and exactly once on the way back home. The boy would get bored if he had to walk the same way again, so he wants the way home to be different from the way to the store in at least one crossing.'
+b'  Figure to the first sample. '
+b'Help Laurenty determine the minimum total time he needs to wait at the crossroads.'
+b'Input'
+b'The first line of the input contains integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950) \xe2\x80\x94 the number of houses in each row. '
+b'Each of the next two lines contains n\xe2\x80\x89-\xe2\x80\x891 space-separated integer \xe2\x80\x94 values aij (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89aij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100). '
+b'The last line contains n space-separated integers bj (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100).'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the least total time Laurenty needs to wait at the crossroads, given that he crosses the avenue only once both on his way to the store and on his way back home.'
+Tags
+implementation, *1300

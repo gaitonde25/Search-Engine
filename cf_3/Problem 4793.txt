@@ -1,0 +1,10 @@
+b'zscoder wants to generate an input file for some programming competition problem.'
+b"His input is a string consisting of n letters 'a'. He is too lazy to write a generator so he will manually generate the input in a text editor."
+b"Initially, the text editor is empty. It takes him x seconds to insert or delete a letter 'a' from the text file and y seconds to copy the contents of the entire text file, and duplicate it."
+b"zscoder wants to find the minimum amount of time needed for him to create the input file of exactly n letters 'a'. Help him to determine the amount of time needed to generate the input."
+b'Input'
+b"The only line contains three integers n, x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the number of letters 'a' in the input file and the parameters from the problem statement."
+b'Output'
+b'Print the only integer t \xe2\x80\x94 the minimum amount of time needed to generate the input file.'
+Tags
+dfs and similar, dp, *2000

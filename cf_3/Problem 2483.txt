@@ -1,0 +1,9 @@
+b'You are given nn integer numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Consider graph on nn nodes, in which nodes ii, jj (i\xe2\x89\xa0ji\xe2\x89\xa0j) are connected if and only if, aiai AND aj\xe2\x89\xa00aj\xe2\x89\xa00, where AND denotes the bitwise AND operation.'
+b"Find the length of the shortest cycle in this graph or determine that it doesn't have cycles at all."
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4105)(1\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 number of numbers.'
+b'The second line contains nn integer numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa410180\xe2\x89\xa4ai\xe2\x89\xa41018).'
+b'Output'
+b"If the graph doesn't have any cycles, output \xe2\x88\x921\xe2\x88\x921. Else output the length of the shortest cycle."
+Tags
+bitmasks, brute force, graphs, shortest paths, *1900

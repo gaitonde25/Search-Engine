@@ -1,0 +1,14 @@
+b"Aleksey has nn friends. He is also on a vacation right now, so he has mm days to play this new viral cooperative game! But since it's cooperative, Aleksey will need one teammate in each of these mm days."
+b"On each of these days some friends will be available for playing, and all others will not. On each day Aleksey must choose one of his available friends to offer him playing the game (and they, of course, always agree). However, if any of them happens to be chosen strictly more than \xe2\x8c\x88m2\xe2\x8c\x89\xe2\x8c\x88m2\xe2\x8c\x89 times, then all other friends are offended. Of course, Aleksey doesn't want to offend anyone."
+b'Help him to choose teammates so that nobody is chosen strictly more than \xe2\x8c\x88m2\xe2\x8c\x89\xe2\x8c\x88m2\xe2\x8c\x89 times.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41000001\xe2\x89\xa4n,m\xe2\x89\xa4100000) standing for the number of friends and the number of days to play, respectively.'
+b'The ii-th of the following mm lines contains an integer kiki (1\xe2\x89\xa4ki\xe2\x89\xa4n1\xe2\x89\xa4ki\xe2\x89\xa4n), followed by kiki distinct integers fi1fi1, ..., fikifiki (1\xe2\x89\xa4fij\xe2\x89\xa4n1\xe2\x89\xa4fij\xe2\x89\xa4n), separated by spaces\xc2\xa0\xe2\x80\x94 indices of available friends on the day ii.'
+b"It is guaranteed that the sums of nn and mm over all test cases do not exceed 100000100000. It's guaranteed that the sum of all kiki over all days of all test cases doesn't exceed 200000200000."
+b'Output'
+b'Print an answer for each test case. If there is no way to achieve the goal, print "NO".'
+b'Otherwise, in the first line print "YES", and in the second line print mm space separated integers c1c1, ..., cmcm. Each cici must denote the chosen friend on day ii (and therefore must be one of fijfij).'
+b'No value must occur more than \xe2\x8c\x88m2\xe2\x8c\x89\xe2\x8c\x88m2\xe2\x8c\x89 times. If there is more than one possible answer, print any of them.'
+Tags
+brute force, constructive algorithms, greedy, implementation, *1600

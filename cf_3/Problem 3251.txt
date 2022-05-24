@@ -1,0 +1,12 @@
+b'Alice has written a program and now tries to improve its readability. One of the ways to improve readability is to give sensible names to the variables, so now Alice wants to rename some variables in her program. In her IDE there is a command called "massive refactoring", which can replace names of many variable in just one run. To use it, Alice needs to select two strings ss and tt and after that for each variable the following algorithm is performed: if the variable\'s name contains ss as a substring, then the first (and only first) occurrence of ss is replaced with tt. If the name doesn\'t contain ss, then this variable\'s name stays the same.'
+b'The list of variables is known and for each variable both the initial name and the name Alice wants this variable change to are known. Moreover, for each variable the lengths of the initial name and the target name are equal (otherwise the alignment of the code could become broken). You need to perform renaming of all variables in exactly one run of the massive refactoring command or determine that it is impossible.'
+b'Input'
+b"The first line contains the only integer nn (1\xe2\x89\xa4n\xe2\x89\xa430001\xe2\x89\xa4n\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the number of variables in Alice's program."
+b'The following nn lines contain the initial names of variables w1,w2,\xe2\x80\xa6,wnw1,w2,\xe2\x80\xa6,wn, one per line. After that, nn more lines go, the ii-th of them contains the target name w\xe2\x80\xb2iwi\xe2\x80\xb2 for the ii-th variable. It is guaranteed that 1\xe2\x89\xa4|wi|=|w\xe2\x80\xb2i|\xe2\x89\xa430001\xe2\x89\xa4|wi|=|wi\xe2\x80\xb2|\xe2\x89\xa43000.'
+b'It is guaranteed that there is at least one variable having its target name different from the initial name. Both initial and target names consist of lowercase English letters only. For each variable the length of its initial name is equal to the length of its target name.'
+b'Output'
+b'If it is impossible to rename all variables with one call of "massive refactoring", print "NO" (quotes for clarity).'
+b'Otherwise, on the first line print "YES" (quotes for clarity) and on the following lines print ss and tt (1\xe2\x89\xa4|s|,|t|\xe2\x89\xa450001\xe2\x89\xa4|s|,|t|\xe2\x89\xa45000), which should be used for replacement. Strings ss and tt should consist only of lowercase letters of English alphabet.'
+b'If there are multiple ways to perform a "massive refactoring", you can use any of them.'
+Tags
+greedy, implementation, strings, *2400

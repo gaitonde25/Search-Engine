@@ -1,0 +1,10 @@
+b'Consider a tree TT (that is, a connected graph without cycles) with nn vertices labelled 11 through nn. We start the following process with TT: while TT has more than one vertex, do the following:'
+b' choose a random edge of TT equiprobably; shrink the chosen edge: if the edge was connecting vertices vv and uu, erase both vv and uu and create a new vertex adjacent to all vertices previously adjacent to either vv or uu. The new vertex is labelled either vv or uu equiprobably.'
+b'At the end of the process, TT consists of a single vertex labelled with one of the numbers 1,\xe2\x80\xa6,n1,\xe2\x80\xa6,n. For each of the numbers, what is the probability of this number becoming the label of the final vertex?'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450).'
+b'The following n\xe2\x88\x921n\xe2\x88\x921 lines describe the tree edges. Each of these lines contains two integers ui,viui,vi\xc2\xa0\xe2\x80\x94 labels of vertices connected by the respective edge (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi). It is guaranteed that the given graph is a tree.'
+b'Output'
+b'Print nn floating numbers\xc2\xa0\xe2\x80\x94 the desired probabilities for labels 1,\xe2\x80\xa6,n1,\xe2\x80\xa6,n respectively. All numbers should be correct up to 10\xe2\x88\x92610\xe2\x88\x926 relative or absolute precision.'
+Tags
+combinatorics, dp, *2900

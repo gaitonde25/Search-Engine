@@ -1,0 +1,9 @@
+b"PolandBall is standing in a row with Many Other Balls. More precisely, there are exactly n Balls. Balls are proud of their home land\xc2\xa0\xe2\x80\x94 and they want to prove that it's strong."
+b'The Balls decided to start with selecting exactly m groups of Balls, each consisting either of single Ball or two neighboring Balls. Each Ball can join no more than one group.'
+b'The Balls really want to impress their Enemies. They kindly asked you to calculate number of such divisions for all m where 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k. Output all these values modulo 998244353, the Enemies will be impressed anyway.'
+b'Input'
+b'There are exactly two numbers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89<\xe2\x80\x89215), denoting the number of Balls and the maximim number of groups, respectively.'
+b'Output'
+b"You should output a sequence of k values. The i-th of them should represent the sought number of divisions into exactly i groups, according to PolandBall's rules."
+Tags
+combinatorics, divide and conquer, dp, fft, math, number theory, *3200

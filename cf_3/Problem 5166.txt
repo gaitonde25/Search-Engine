@@ -1,0 +1,11 @@
+b'A group of n cities is connected by a network of roads. There is an undirected road between every pair of cities, so there are  roads in total. It takes exactly y seconds to traverse any single road.'
+b"A spanning tree is a set of roads containing exactly n\xe2\x80\x89-\xe2\x80\x891 roads such that it's possible to travel between any two cities using only these roads."
+b"Some spanning tree of the initial network was chosen. For every road in this tree the time one needs to traverse this road was changed from y to x seconds. Note that it's not guaranteed that x is smaller than y."
+b'You would like to travel through all the cities using the shortest path possible. Given n, x, y and a description of the spanning tree that was chosen, find the cost of the shortest path that starts in any city, ends in any city and visits all cities exactly once.'
+b'Input'
+b'The first line of the input contains three integers n, x and y (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contains a description of a road in the spanning tree. The i-th of these lines contains two integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 indices of the cities connected by the i-th road. It is guaranteed that these roads form a spanning tree.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum number of seconds one needs to spend in order to visit all the cities exactly once.'
+Tags
+dfs and similar, dp, graph matchings, greedy, trees, *2200

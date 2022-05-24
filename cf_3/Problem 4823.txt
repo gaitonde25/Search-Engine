@@ -1,0 +1,14 @@
+b'Little Mishka enjoys programming. Since her birthday has just passed, her friends decided to present her with array of non-negative integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an of n elements!'
+b"Mishka loved the array and she instantly decided to determine its beauty value, but she is too little and can't process large arrays. Right because of that she invited you to visit her and asked you to process m queries."
+b'Each query is processed in the following way:'
+b'  Two integers l and r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) are specified\xc2\xa0\xe2\x80\x94 bounds of query segment.  Integers, presented in array segment [l,\xe2\x80\x89\xe2\x80\x89r] (in sequence of integers al,\xe2\x80\x89al\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89...,\xe2\x80\x89ar) even number of times, are written down.  XOR-sum of written down integers is calculated, and this value is the answer for a query. Formally, if integers written down in point 2 are x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xk, then Mishka wants to know the value , where \xc2\xa0\xe2\x80\x94 operator of exclusive bitwise OR. '
+b'Since only the little bears know the definition of array beauty, all you are to do is to answer each of queries presented.'
+b'Input'
+b'The first line of the input contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of elements in the array.'
+b'The second line of the input contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 array elements.'
+b'The third line of the input contains single integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Each of the next m lines describes corresponding query by a pair of integers l and r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the bounds of query segment.'
+b'Output'
+b'Print m non-negative integers\xc2\xa0\xe2\x80\x94 the answers for the queries in the order they appear in the input.'
+Tags
+data structures, *2100

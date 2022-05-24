@@ -1,0 +1,14 @@
+b'You are given a rooted tree with vertices numerated from 11 to nn. A tree is a connected graph without cycles. A rooted tree has a special vertex named root.'
+b'Ancestors of the vertex ii are all vertices on the path from the root to the vertex ii, except the vertex ii itself. The parent of the vertex ii is the nearest to the vertex ii ancestor of ii. Each vertex is a child of its parent. In the given tree the parent of the vertex ii is the vertex pipi. For the root, the value pipi is \xe2\x88\x921\xe2\x88\x921.'
+b'  An example of a tree with n=8n=8, the root is vertex 55. The parent of the vertex 22 is vertex 33, the parent of the vertex 11 is vertex 55. The ancestors of the vertex 66 are vertices 44 and 55, the ancestors of the vertex 77 are vertices 88, 33 and 55 '
+b'You noticed that some vertices do not respect others. In particular, if ci=1ci=1, then the vertex ii does not respect any of its ancestors, and if ci=0ci=0, it respects all of them.'
+b'You decided to delete vertices from the tree one by one. On each step you select such a non-root vertex that it does not respect its parent and none of its children respects it. If there are several such vertices, you select the one with the smallest number. When you delete this vertex vv, all children of vv become connected with the parent of vv.'
+b'  An example of deletion of the vertex 77. '
+b'Once there are no vertices matching the criteria for deletion, you stop the process. Print the order in which you will delete the vertices. Note that this order is unique.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The next nn lines describe the tree: the ii-th line contains two integers pipi and cici (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n, 0\xe2\x89\xa4ci\xe2\x89\xa410\xe2\x89\xa4ci\xe2\x89\xa41), where pipi is the parent of the vertex ii, and ci=0ci=0, if the vertex ii respects its parents, and ci=1ci=1, if the vertex ii does not respect any of its parents. The root of the tree has \xe2\x88\x921\xe2\x88\x921 instead of the parent index, also, ci=0ci=0 for the root. It is guaranteed that the values pipi define a rooted tree with nn vertices.'
+b'Output'
+b'In case there is at least one vertex to delete, print the only line containing the indices of the vertices you will delete in the order you delete them. Otherwise print a single integer \xe2\x88\x921\xe2\x88\x921.'
+Tags
+dfs and similar, trees, *1400

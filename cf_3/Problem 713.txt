@@ -1,0 +1,11 @@
+b"Let's call an array aa consisting of nn positive (greater than 00) integers beautiful if the following condition is held for every ii from 11 to nn: either ai=1ai=1, or at least one of the numbers ai\xe2\x88\x921ai\xe2\x88\x921 and ai\xe2\x88\x922ai\xe2\x88\x922 exists in the array as well."
+b'For example: '
+b'  the array [5,3,1][5,3,1] is beautiful: for a1a1, the number a1\xe2\x88\x922=3a1\xe2\x88\x922=3 exists in the array; for a2a2, the number a2\xe2\x88\x922=1a2\xe2\x88\x922=1 exists in the array; for a3a3, the condition a3=1a3=1 holds;  the array [1,2,2,2,2][1,2,2,2,2] is beautiful: for a1a1, the condition a1=1a1=1 holds; for every other number aiai, the number ai\xe2\x88\x921=1ai\xe2\x88\x921=1 exists in the array;  the array [1,4][1,4] is not beautiful: for a2a2, neither a2\xe2\x88\x922=2a2\xe2\x88\x922=2 nor a2\xe2\x88\x921=3a2\xe2\x88\x921=3 exists in the array, and a2\xe2\x89\xa01a2\xe2\x89\xa01;  the array [2][2] is not beautiful: for a1a1, neither a1\xe2\x88\x921=1a1\xe2\x88\x921=1 nor a1\xe2\x88\x922=0a1\xe2\x88\x922=0 exists in the array, and a1\xe2\x89\xa01a1\xe2\x89\xa01;  the array [2,1,3][2,1,3] is beautiful: for a1a1, the number a1\xe2\x88\x921=1a1\xe2\x88\x921=1 exists in the array; for a2a2, the condition a2=1a2=1 holds; for a3a3, the number a3\xe2\x88\x922=1a3\xe2\x88\x922=1 exists in the array. '
+b'You are given a positive integer ss. Find the minimum possible size of a beautiful array with the sum of elements equal to ss.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000) \xe2\x80\x94 the number of test cases.'
+b'Then tt lines follow, the ii-th line contains one integer ss (1\xe2\x89\xa4s\xe2\x89\xa450001\xe2\x89\xa4s\xe2\x89\xa45000) for the ii-th test case.'
+b'Output'
+b'Print tt integers, the ii-th integer should be the answer for the ii-th testcase: the minimum possible size of a beautiful array with the sum of elements equal to ss.'
+Tags
+greedy, math, *800

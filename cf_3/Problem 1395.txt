@@ -1,0 +1,17 @@
+b"  For god's sake, you're boxes with legs! It is literally your only purpose! Walking onto buttons! How can you not do the one thing you were designed for?Oh, that's funny, is it? Oh it's funny? Because we've been at this for twelve hours and you haven't solved it either, so I don't know why you're laughing. You've got one hour! Solve it!  "
+b'Wheatley decided to try to make a test chamber. He made a nice test chamber, but there was only one detail absent\xc2\xa0\xe2\x80\x94 cubes.'
+b'For completing the chamber Wheatley needs nn cubes. ii-th cube has a volume aiai.'
+b'Wheatley has to place cubes in such a way that they would be sorted in a non-decreasing order by their volume. Formally, for each i>1i>1, ai\xe2\x88\x921\xe2\x89\xa4aiai\xe2\x88\x921\xe2\x89\xa4ai must hold.'
+b'To achieve his goal, Wheatley can exchange two neighbouring cubes. It means that for any i>1i>1 you can exchange cubes on positions i\xe2\x88\x921i\xe2\x88\x921 and ii.'
+b"But there is a problem: Wheatley is very impatient. If Wheatley needs more than n\xe2\x8b\x85(n\xe2\x88\x921)2\xe2\x88\x921n\xe2\x8b\x85(n\xe2\x88\x921)2\xe2\x88\x921 exchange operations, he won't do this boring work."
+b'Wheatly wants to know: can cubes be sorted under this conditions?'
+b'Input'
+b'Each test contains multiple test cases.'
+b'The first line contains one positive integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000), denoting the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains one positive integer nn (2\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851042\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85104)\xc2\xa0\xe2\x80\x94 number of cubes.'
+b'The second line contains nn positive integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 volumes of cubes.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print a word in a single line: "YES" (without quotation marks) if the cubes can be sorted and "NO" (without quotation marks) otherwise.'
+Tags
+math, sortings, *900

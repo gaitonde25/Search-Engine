@@ -1,0 +1,10 @@
+b'Theofanis really likes sequences of positive integers, thus his teacher (Yeltsa Kcir) gave him a problem about a sequence that consists of only special numbers.'
+b"Let's call a positive number special if it can be written as a sum of different non-negative powers of nn. For example, for n=4n=4 number 1717 is special, because it can be written as 40+42=1+16=1740+42=1+16=17, but 99 is not."
+b'Theofanis asks you to help him find the kk-th special number if they are sorted in increasing order. Since this number may be too large, output it modulo 109+7109+7.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first and only line of each test case contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa41092\xe2\x89\xa4n\xe2\x89\xa4109; 1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print one integer\xc2\xa0\xe2\x80\x94 the kk-th special number in increasing order modulo 109+7109+7.'
+Tags
+bitmasks, math, *1100

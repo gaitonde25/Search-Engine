@@ -1,0 +1,12 @@
+b'The main road in Bytecity is a straight line from south to north. Conveniently, there are coordinates measured in meters from the southernmost building in north direction.'
+b'At some points on the road there are n friends, and i-th of them is standing at the point xi meters and can move with any speed no greater than vi meters per second in any of the two directions along the road: south or north.'
+b"You are to compute the minimum time needed to gather all the n friends at some point on the road. Note that the point they meet at doesn't need to have integer coordinate. "
+b'Input'
+b'The first line contains single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8960\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of friends.'
+b'The second line contains n integers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the current coordinates of the friends, in meters.'
+b'The third line contains n integers v1,\xe2\x80\x89v2,\xe2\x80\x89...,\xe2\x80\x89vn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the maximum speeds of the friends, in meters per second.'
+b'Output'
+b'Print the minimum time (in seconds) needed for all the n friends to meet at some point on the road. '
+b"Your answer will be considered correct, if its absolute or relative error isn't greater than 10\xe2\x80\x89-\xe2\x80\x896. Formally, let your answer be a, while jury's answer be b. Your answer will be considered correct if  holds."
+Tags
+binary search, *1600

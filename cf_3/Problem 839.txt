@@ -1,0 +1,11 @@
+b'You are given an array aa of nn integers. Define the cost of some array tt as follows:'
+b'cost(t)=\xe2\x88\x91x\xe2\x88\x88set(t)last(x)\xe2\x88\x92first(x),cost(t)=\xe2\x88\x91x\xe2\x88\x88set(t)last(x)\xe2\x88\x92first(x), '
+b'where set(t)set(t) is the set of all values in tt without repetitions, first(x)first(x), and last(x)last(x) are the indices of the first and last occurrence of xx in tt, respectively. In other words, we compute the distance between the first and last occurrences for each distinct element and sum them up.'
+b'You need to split the array aa into kk consecutive segments such that each element of aa belongs to exactly one segment and the sum of the cost of individual segments is minimum.'
+b'Input'
+b'The first line contains two integers nn, kk (1\xe2\x89\xa4n\xe2\x89\xa4350001\xe2\x89\xa4n\xe2\x89\xa435000, 1\xe2\x89\xa4k\xe2\x89\xa4min(n,100)1\xe2\x89\xa4k\xe2\x89\xa4min(n,100)).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b'Output'
+b'Output the minimum sum of the cost of individual segments.'
+Tags
+binary search, data structures, divide and conquer, dp, *2500

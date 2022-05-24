@@ -1,0 +1,15 @@
+b'You are given an undirected graph where each edge has one of two colors: black or red.'
+b'Your task is to assign a real number to each node so that: '
+b'  for each black edge the sum of values at its endpoints is 11;  for each red edge the sum of values at its endpoints is 22;  the sum of the absolute values of all assigned numbers is the smallest possible. '
+b'Otherwise, if it is not possible, report that there is no feasible assignment of the numbers.'
+b'Input'
+b'The first line contains two integers NN (1\xe2\x89\xa4N\xe2\x89\xa41000001\xe2\x89\xa4N\xe2\x89\xa4100000) and MM (0\xe2\x89\xa4M\xe2\x89\xa42000000\xe2\x89\xa4M\xe2\x89\xa4200000): the number of nodes and the number of edges, respectively. The nodes are numbered by consecutive integers: 1,2,\xe2\x80\xa6,N1,2,\xe2\x80\xa6,N.'
+b'The next MM lines describe the edges. Each line contains three integers aa, bb and cc denoting that there is an edge between nodes aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4N1\xe2\x89\xa4a,b\xe2\x89\xa4N) with color cc (11 denotes black, 22 denotes red).'
+b'Output'
+b'If there is a solution, the first line should contain the word "YES" and the second line should contain NN space-separated numbers. For each ii (1\xe2\x89\xa4i\xe2\x89\xa4N1\xe2\x89\xa4i\xe2\x89\xa4N), the ii-th number should be the number assigned to the node ii.'
+b'Output should be such that: '
+b'  the sum of the numbers at the endpoints of each edge differs from the precise value by less than 10\xe2\x88\x92610\xe2\x88\x926;  the sum of the absolute values of all assigned numbers differs from the smallest possible by less than 10\xe2\x88\x92610\xe2\x88\x926. '
+b'If there are several valid solutions, output any of them.'
+b'If there is no solution, the only line should contain the word "NO".'
+Tags
+*special problem, binary search, dfs and similar, dp, math, ternary search, *2100

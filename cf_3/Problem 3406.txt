@@ -1,0 +1,13 @@
+b"In Summer Informatics School, if a student doesn't behave well, teachers make a hole in his badge. And today one of the teachers caught a group of nn students doing yet another trick. "
+b"Let's assume that all these students are numbered from 11 to nn. The teacher came to student aa and put a hole in his badge. The student, however, claimed that the main culprit is some other student papa."
+b'After that, the teacher came to student papa and made a hole in his badge as well. The student in reply said that the main culprit was student ppappa.'
+b'This process went on for a while, but, since the number of students was finite, eventually the teacher came to the student, who already had a hole in his badge.'
+b"After that, the teacher put a second hole in the student's badge and decided that he is done with this process, and went to the sauna."
+b"You don't know the first student who was caught by the teacher. However, you know all the numbers pipi. Your task is to find out for every student aa, who would be the student with two holes in the badge if the first caught student was aa."
+b'Input'
+b'The first line of the input contains the only integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of the naughty students.'
+b'The second line contains nn integers p1p1, ..., pnpn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n), where pipi indicates the student who was reported to the teacher by student ii.'
+b'Output'
+b'For every student aa from 11 to nn print which student would receive two holes in the badge, if aa was the first student caught by the teacher.'
+Tags
+brute force, dfs and similar, graphs, *1000

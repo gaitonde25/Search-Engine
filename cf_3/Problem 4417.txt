@@ -1,0 +1,17 @@
+b'After hard work Igor decided to have some rest.'
+b'He decided to have a snail. He bought an aquarium with a slippery tree trunk in the center, and put a snail named Julia into the aquarium.'
+b"Igor noticed that sometimes Julia wants to climb onto the trunk, but can't do it because the trunk is too slippery. To help the snail Igor put some ropes on the tree, fixing the lower end of the i-th rope on the trunk on the height li above the ground, and the higher end on the height ri above the ground."
+b"For some reason no two ropes share the same position of the higher end, i.e. all ri are distinct. Now Julia can move down at any place of the trunk, and also move up from the lower end of some rope to its higher end. Igor is proud of his work, and sometimes think about possible movements of the snail. Namely, he is interested in the following questions: \xc2\xabSuppose the snail is on the trunk at height x now. What is the highest position on the trunk the snail can get on if it would never be lower than x or higher than y?\xc2\xbb Please note that Julia can't move from a rope to the trunk before it reaches the higher end of the rope, and Igor is interested in the highest position on the tree trunk."
+b'Igor is interested in many questions, and not always can answer them. Help him, write a program that answers these questions.'
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89100000)\xc2\xa0\xe2\x80\x94 the height of the trunk.'
+b'The second line contains single integer m (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89m\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89100000)\xc2\xa0\xe2\x80\x94 the number of ropes.'
+b'The next m lines contain information about the ropes.'
+b'The i-th of these lines contains two integers li and ri (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the heights on which the lower and the higher ends of the i-th rope are fixed, respectively. It is guaranteed that all ri are distinct.'
+b'The next line contains single integer q (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89q\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89100000)\xc2\xa0\xe2\x80\x94 the number of questions.'
+b'The next q lines contain information about the questions.'
+b"Each of these lines contain two integers x and y (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), where x is the height where Julia starts (and the height Julia can't get lower than), and y is the height Julia can't get higher than."
+b'Output'
+b'For each question print the maximum reachable for Julia height.'
+Tags
+data structures, divide and conquer, dp, *3000

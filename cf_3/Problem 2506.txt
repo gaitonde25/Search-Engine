@@ -1,0 +1,13 @@
+b'This problem only differs from the next problem in constraints.'
+b'This is an interactive problem.'
+b'Alice and Bob are playing a game on the chessboard of size n\xc3\x97mn\xc3\x97m where nn and mm are even. The rows are numbered from 11 to nn and the columns are numbered from 11 to mm. There are two knights on the chessboard. A white one initially is on the position (x1,y1)(x1,y1), while the black one is on the position (x2,y2)(x2,y2). Alice will choose one of the knights to play with, and Bob will use the other one.'
+b'The Alice and Bob will play in turns and whoever controls the white knight starts the game. During a turn, the player must move their knight adhering the chess rules. That is, if the knight is currently on the position (x,y)(x,y), it can be moved to any of those positions (as long as they are inside the chessboard):'
+b' (x+1,y+2)(x+1,y+2), (x+1,y\xe2\x88\x922)(x+1,y\xe2\x88\x922), (x\xe2\x88\x921,y+2)(x\xe2\x88\x921,y+2), (x\xe2\x88\x921,y\xe2\x88\x922)(x\xe2\x88\x921,y\xe2\x88\x922),(x+2,y+1)(x+2,y+1), (x+2,y\xe2\x88\x921)(x+2,y\xe2\x88\x921), (x\xe2\x88\x922,y+1)(x\xe2\x88\x922,y+1), (x\xe2\x88\x922,y\xe2\x88\x921)(x\xe2\x88\x922,y\xe2\x88\x921). '
+b'We all know that knights are strongest in the middle of the board. Both knight have a single position they want to reach: '
+b'  the owner of the white knight wins if it captures the black knight or if the white knight is at (n/2,m/2)(n/2,m/2) and this position is not under attack of the black knight at this moment;  The owner of the black knight wins if it captures the white knight or if the black knight is at (n/2+1,m/2)(n/2+1,m/2) and this position is not under attack of the white knight at this moment. '
+b"Formally, the player who captures the other knight wins. The player who is at its target square ((n/2,m/2)(n/2,m/2) for white, (n/2+1,m/2)(n/2+1,m/2) for black) and this position is not under opponent's attack, also wins."
+b"A position is under attack of a knight if it can move into this position. Capturing a knight means that a player moves their knight to the cell where the opponent's knight is."
+b'If Alice made 350350 moves and nobody won, the game is a draw.'
+b'Alice is unsure in her chess skills, so she asks you for a help. Choose a knight and win the game for her. It can be shown, that Alice always has a winning strategy.'
+Tags
+graphs, interactive, shortest paths, *2900

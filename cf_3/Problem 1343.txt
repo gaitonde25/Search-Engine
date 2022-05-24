@@ -1,0 +1,15 @@
+b'When they are bored, Federico and Giada often play the following card game with a deck containing 6n6n cards.'
+b'Each card contains one number between 11 and 6n6n and each number appears on exactly one card. Initially the deck is sorted, so the first card contains the number 11, the second card contains the number 22, \xe2\x80\xa6\xe2\x80\xa6, and the last one contains the number 6n6n.'
+b'Federico and Giada take turns, alternating; Federico starts.'
+b'In his turn, the player takes 33 contiguous cards from the deck and puts them in his pocket. The order of the cards remaining in the deck is not changed. They play until the deck is empty (after exactly 2n2n turns). At the end of the game both Federico and Giada have 3n3n cards in their pockets.'
+b"You are given the cards in Federico's pocket at the end of the game. Describe a sequence of moves that produces that set of cards in Federico's pocket."
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42001\xe2\x89\xa4n\xe2\x89\xa4200).'
+b"The second line of the input contains 3n3n numbers x1,x2,\xe2\x80\xa6,x3nx1,x2,\xe2\x80\xa6,x3n (1\xe2\x89\xa4x1<x2<\xe2\x80\xa6<x3n\xe2\x89\xa46n1\xe2\x89\xa4x1<x2<\xe2\x80\xa6<x3n\xe2\x89\xa46n) \xe2\x80\x93 the cards in Federico's pocket at the end of the game. "
+b"It is guaranteed that for each test there is at least one sequence of moves that produces such set of cards in Federico's pocket."
+b'Output'
+b'Print 2n2n lines, each containing 33 integers.'
+b'The ii-th line should contain, in increasing order, the integers ai<bi<ciai<bi<ci written on the three cards taken by the player during the ii-th turn (so taken by Federico if ii is odd and by Giada if ii is even).'
+b'If there is more than one possible sequence of moves, you can print any.'
+Tags
+data structures, greedy, trees, *3200

@@ -1,0 +1,18 @@
+b'Given a list of distinct values, we denote with first minimum, second minimum, and third minimum the three smallest values (in increasing order).'
+b'A permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn is good if the following statement holds for all pairs (l,r)(l,r) with 1\xe2\x89\xa4l<l+2\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l<l+2\xe2\x89\xa4r\xe2\x89\xa4n. '
+b'  If {pl,pr}{pl,pr} are (not necessarily in this order) the first and second minimum of pl,pl+1,\xe2\x80\xa6,prpl,pl+1,\xe2\x80\xa6,pr then the third minimum of pl,pl+1,\xe2\x80\xa6,prpl,pl+1,\xe2\x80\xa6,pr is either pl+1pl+1 or pr\xe2\x88\x921pr\xe2\x88\x921. '
+b'You are given an integer nn and a string ss of length mm consisting of characters "<" and ">".'
+b'Count the number of good permutations p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn such that, for all 1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m, '
+b'  pi<pi+1pi<pi+1 if si=si= "<";  pi>pi+1pi>pi+1 if si=si= ">". '
+b' As the result can be very large, you should print it modulo '
+b''
+b'998244353998244353'
+b'998\\,244\\,353'
+b'.'
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4m\xe2\x89\xa4min(100,n\xe2\x88\x921)1\xe2\x89\xa4m\xe2\x89\xa4min(100,n\xe2\x88\x921)).'
+b'The second line contains a string ss of length mm, consisting of characters "<" and ">".'
+b'Output'
+b'Print a single integer: the number of good permutations satisfying the constraints described in the statement, modulo 998244353998244353.'
+Tags
+combinatorics, constructive algorithms, divide and conquer, dp, fft, math, *3500

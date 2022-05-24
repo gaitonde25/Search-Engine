@@ -1,0 +1,13 @@
+b"Your friend Ivan asked you to help him rearrange his desktop. The desktop can be represented as a rectangle matrix of size n\xc3\x97mn\xc3\x97m consisting of characters '.' (empty cell of the desktop) and '*' (an icon)."
+b'The desktop is called good if all its icons are occupying some prefix of full columns and, possibly, the prefix of the next column (and there are no icons outside this figure). In other words, some amount of first columns will be filled with icons and, possibly, some amount of first cells of the next (after the last full column) column will be also filled with icons (and all the icons on the desktop belong to this figure). This is pretty much the same as the real life icons arrangement.'
+b'In one move, you can take one icon and move it to any empty cell in the desktop.'
+b'Ivan loves to add some icons to his desktop and remove them from it, so he is asking you to answer qq queries: what is the minimum number of moves required to make the desktop good after adding/removing one icon?'
+b'Note that queries are permanent and change the state of the desktop.'
+b'Input'
+b'The first line of the input contains three integers nn, mm and qq (1\xe2\x89\xa4n,m\xe2\x89\xa41000;1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa41000;1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of rows in the desktop, the number of columns in the desktop and the number of queries, respectively.'
+b"The next nn lines contain the description of the desktop. The ii-th of them contains mm characters '.' and '*' \xe2\x80\x94 the description of the ii-th row of the desktop."
+b'The next qq lines describe queries. The ii-th of them contains two integers xixi and yiyi (1\xe2\x89\xa4xi\xe2\x89\xa4n;1\xe2\x89\xa4yi\xe2\x89\xa4m1\xe2\x89\xa4xi\xe2\x89\xa4n;1\xe2\x89\xa4yi\xe2\x89\xa4m) \xe2\x80\x94 the position of the cell which changes its state (if this cell contained the icon before, then this icon is removed, otherwise an icon appears in this cell).'
+b'Output'
+b'Print qq integers. The ii-th of them should be the minimum number of moves required to make the desktop good after applying the first ii queries.'
+Tags
+data structures, greedy, implementation, *1800

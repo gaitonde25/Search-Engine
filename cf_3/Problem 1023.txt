@@ -1,0 +1,11 @@
+b'You are given two integers nn and kk. You are asked to choose maximum number of distinct integers from 11 to nn so that there is no subset of chosen numbers with sum equal to kk.'
+b'A subset of a set is a set that can be obtained from initial one by removing some (possibly all or none) elements of it.'
+b'Input'
+b'The first line contains the number of test cases TT (1\xe2\x89\xa4T\xe2\x89\xa41001\xe2\x89\xa4T\xe2\x89\xa4100).'
+b'Each of the next TT lines contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the description of test cases.'
+b'Output'
+b'For each test case output two lines. In the first line output a single integer mm \xe2\x80\x94 the number of chosen integers.'
+b'In the second line output mm distinct integers from 11 to nn \xe2\x80\x94 the chosen numbers.'
+b'If there are multiple answers, print any. You can print the numbers in any order.'
+Tags
+constructive algorithms, greedy, *800

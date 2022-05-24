@@ -1,0 +1,14 @@
+b'Tomorrow Ann takes the hardest exam of programming where she should get an excellent mark. '
+b'On the last theoretical class the teacher introduced the notion of a half-palindrome. '
+b'String t is a half-palindrome, if for all the odd positions i () the following condition is held: ti\xe2\x80\x89=\xe2\x80\x89t|t|\xe2\x80\x89-\xe2\x80\x89i\xe2\x80\x89+\xe2\x80\x891, where |t| is the length of string t if positions are indexed from 1. For example, strings "abaa", "a", "bb", "abbbaa" are half-palindromes and strings "ab", "bba" and "aaabaa" are not.'
+b'Ann knows that on the exam she will get string s, consisting only of letters a and b, and number k. To get an excellent mark she has to find the k-th in the lexicographical order string among all substrings of s that are half-palyndromes. Note that each substring in this order is considered as many times as many times it occurs in s.'
+b"The teachers guarantees that the given number k doesn't exceed the number of substrings of the given string that are half-palindromes."
+b'Can you cope with this problem?'
+b'Input'
+b"The first line of the input contains string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000), consisting only of characters 'a' and 'b', where |s| is the length of string s."
+b'The second line contains a positive integer k\xc2\xa0\xe2\x80\x94\xc2\xa0 the lexicographical number of the requested string among all the half-palindrome substrings of the given string s. The strings are numbered starting from one. '
+b"It is guaranteed that number k doesn't exceed the number of substrings of the given string that are half-palindromes."
+b'Output'
+b'Print a substring of the given string that is the k-th in the lexicographical order of all substrings of the given string that are half-palindromes.'
+Tags
+data structures, dp, graphs, string suffix structures, strings, trees, *2300

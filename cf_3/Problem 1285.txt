@@ -1,0 +1,16 @@
+b'You are given an undirected graph with nn vertices and mm edges. Also, you are given an integer kk.'
+b'Find either a clique of size kk or a non-empty subset of vertices such that each vertex of this subset has at least kk neighbors in the subset. If there are no such cliques and subsets report about it.'
+b'A subset of vertices is called a clique of size kk if its size is kk and there exists an edge between every two vertices from the subset. A vertex is called a neighbor of the other vertex if there exists an edge between them.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of test cases. The next lines contain descriptions of test cases.'
+b'The first line of the description of each test case contains three integers nn, mm, kk (1\xe2\x89\xa4n,m,k\xe2\x89\xa41051\xe2\x89\xa4n,m,k\xe2\x89\xa4105, k\xe2\x89\xa4nk\xe2\x89\xa4n).'
+b'Each of the next mm lines contains two integers u,vu,v (1\xe2\x89\xa4u,v\xe2\x89\xa4n,u\xe2\x89\xa0v)(1\xe2\x89\xa4u,v\xe2\x89\xa4n,u\xe2\x89\xa0v), denoting an edge between vertices uu and vv.'
+b'It is guaranteed that there are no self-loops or multiple edges. It is guaranteed that the sum of nn for all test cases and the sum of mm for all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case: '
+b'If you found a subset of vertices such that each vertex of this subset has at least kk neighbors in the subset in the first line output 11 and the size of the subset. On the second line output the vertices of the subset in any order.'
+b'If you found a clique of size kk then in the first line output 22 and in the second line output the vertices of the clique in any order.'
+b'If there are no required subsets and cliques print \xe2\x88\x921\xe2\x88\x921.'
+b'If there exists multiple possible answers you can print any of them.'
+Tags
+constructive algorithms, data structures, graphs, *2600

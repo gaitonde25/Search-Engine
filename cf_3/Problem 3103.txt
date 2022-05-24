@@ -1,0 +1,12 @@
+b'This is an interactive problem!'
+b'Ehab plays a game with Laggy. Ehab has 2 hidden integers (a,b)(a,b). Laggy can ask a pair of integers (c,d)(c,d) and Ehab will reply with:'
+b'  1 if a\xe2\x8a\x95c>b\xe2\x8a\x95da\xe2\x8a\x95c>b\xe2\x8a\x95d.  0 if a\xe2\x8a\x95c=b\xe2\x8a\x95da\xe2\x8a\x95c=b\xe2\x8a\x95d.  -1 if a\xe2\x8a\x95c<b\xe2\x8a\x95da\xe2\x8a\x95c<b\xe2\x8a\x95d. '
+b'Operation a\xe2\x8a\x95ba\xe2\x8a\x95b is the bitwise-xor operation of two numbers aa and bb.'
+b"Laggy should guess (a,b)(a,b) with at most 62 questions. You'll play this game. You're Laggy and the interactor is Ehab."
+b"It's guaranteed that 0\xe2\x89\xa4a,b<2300\xe2\x89\xa4a,b<230."
+b'Input'
+b'See the interaction section.'
+b'Output'
+b'To print the answer, print "! a b" (without quotes). Don\'t forget to flush the output after printing the answer.'
+Tags
+bitmasks, constructive algorithms, implementation, interactive, *2000

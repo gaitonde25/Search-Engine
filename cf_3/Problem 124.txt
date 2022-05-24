@@ -1,0 +1,12 @@
+b'There are nn people, numbered from 11 to nn, sitting at a round table. Person i+1i+1 is sitting to the right of person ii (with person 11 sitting to the right of person nn).'
+b'You have come up with a better seating arrangement, which is given as a permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn. More specifically, you want to change the seats of the people so that at the end person pi+1pi+1 is sitting to the right of person pipi (with person p1p1 sitting to the right of person pnpn). Notice that for each seating arrangement there are nn permutations that describe it (which can be obtained by rotations).'
+b'In order to achieve that, you can swap two people sitting at adjacent places; but there is a catch: for all 1\xe2\x89\xa4x\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4x\xe2\x89\xa4n\xe2\x88\x921 you cannot swap person xx and person x+1x+1 (notice that you can swap person nn and person 11). What is the minimum number of swaps necessary? It can be proven that any arrangement can be achieved.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) \xe2\x80\x94 the number of test cases. The descriptions of the tt test cases follow.'
+b'The first line of each test case contains a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa42000003\xe2\x89\xa4n\xe2\x89\xa4200000) \xe2\x80\x94 the number of people sitting at the table. '
+b'The second line contains nn distinct integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n, pi\xe2\x89\xa0pjpi\xe2\x89\xa0pj for i\xe2\x89\xa0ji\xe2\x89\xa0j) \xe2\x80\x94 the desired final order of the people around the table.'
+b'The sum of the values of nn over all test cases does not exceed 200000200000.'
+b'Output'
+b'For each test case, print the minimum number of swaps necessary to achieve the desired order.'
+Tags
+math

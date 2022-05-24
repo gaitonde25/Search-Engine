@@ -1,0 +1,10 @@
+b'Molly Hooper has n different kinds of chemicals arranged in a line. Each of the chemicals has an affection value, The i-th of them has affection value ai.'
+b'Molly wants Sherlock to fall in love with her. She intends to do this by mixing a contiguous segment of chemicals together to make a love potion with total affection value as a non-negative integer power of k. Total affection value of a continuous segment of chemicals is the sum of affection values of each chemical in that segment.'
+b'Help her to do so in finding the total number of such segments.'
+b'Input'
+b'The first line of input contains two integers, n and k, the number of chemicals and the number, such that the total affection value is a non-negative power of this number k. (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|k|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910).'
+b'Next line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 affection values of chemicals.'
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the number of valid segments.'
+Tags
+binary search, brute force, data structures, implementation, math, *1800

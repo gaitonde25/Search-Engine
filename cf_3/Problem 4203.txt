@@ -1,0 +1,10 @@
+b'You are given a weighted directed graph, consisting of n vertices and m edges. You should answer q queries of two types:'
+b'  1 v\xc2\xa0\xe2\x80\x94 find the length of shortest path from vertex 1 to vertex v.  2 c l1 l2 ... lc\xc2\xa0\xe2\x80\x94 add 1 to weights of edges with indices l1,\xe2\x80\x89l2,\xe2\x80\x89...,\xe2\x80\x89lc. '
+b'Input'
+b'The first line of input data contains integers n, m, q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000)\xc2\xa0\xe2\x80\x94 the number of vertices and edges in the graph, and the number of requests correspondingly.'
+b'Next m lines of input data contain the descriptions of edges: i-th of them contains description of edge with index i\xc2\xa0\xe2\x80\x94 three integers ai, bi, ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the beginning and the end of edge, and its initial weight correspondingly.'
+b"Next q lines of input data contain the description of edges in the format described above (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89lj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m). It's guaranteed that inside single query all lj are distinct. Also, it's guaranteed that a total number of edges in all requests of the second type does not exceed 106."
+b'Output'
+b'For each query of first type print the length of the shortest path from 1 to v in a separate line. Print -1, if such path does not exists.'
+Tags
+graphs, shortest paths, *3400

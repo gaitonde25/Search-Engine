@@ -1,0 +1,11 @@
+b"In Python, code blocks don't have explicit begin/end or curly braces to mark beginning and end of the block. Instead, code blocks are defined by indentation."
+b'We will consider an extremely simplified subset of Python with only two types of statements.'
+b'Simple statements are written in a single line, one per line. An example of a simple statement is assignment.'
+b'For statements are compound statements: they contain one or several other statements. For statement consists of a header written in a separate line which starts with "for" prefix, and loop body. Loop body is a block of statements indented one level further than the header of the loop. Loop body can contain both types of statements. Loop body can\'t be empty.'
+b'You are given a sequence of statements without indentation. Find the number of ways in which the statements can be indented to form a valid Python program.'
+b'Input'
+b'The first line contains a single integer N (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000)\xc2\xa0\xe2\x80\x94 the number of commands in the program. N lines of the program follow, each line describing a single command. Each command is either "f" (denoting "for statement") or "s" ("simple statement"). It is guaranteed that the last line is a simple statement.'
+b'Output'
+b'Output one line containing an integer - the number of ways the given sequence of statements can be indented modulo 109\xe2\x80\x89+\xe2\x80\x897. '
+Tags
+dp, *1800

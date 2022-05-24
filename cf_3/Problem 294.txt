@@ -1,0 +1,15 @@
+b'You are given a tree of nn vertices numbered from 11 to nn, with edges numbered from 11 to n\xe2\x88\x921n\xe2\x88\x921. A tree is a connected undirected graph without cycles. You have to assign integer weights to each edge of the tree, such that the resultant graph is a prime tree.'
+b'A prime tree is a tree where the weight of every path consisting of one or two edges is prime. A path should not visit any vertex twice. The weight of a path is the sum of edge weights on that path.'
+b'Consider the graph below. It is a prime tree as the weight of every path of two or less edges is prime. For example, the following path of two edges: 2\xe2\x86\x921\xe2\x86\x9232\xe2\x86\x921\xe2\x86\x923 has a weight of 11+2=1311+2=13, which is prime. Similarly, the path of one edge: 4\xe2\x86\x9234\xe2\x86\x923 has a weight of 55, which is also prime.'
+b'  '
+b'Print any valid assignment of weights such that the resultant tree is a prime tree. If there is no such assignment, then print \xe2\x88\x921\xe2\x88\x921. It can be proven that if a valid assignment exists, one exists with weights between 11 and 105105 as well.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'Then, n\xe2\x88\x921n\xe2\x88\x921 lines follow. The ii-th line contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n) denoting that edge number ii is between vertices uu and vv. It is guaranteed that the edges form a tree.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, if a valid assignment exists, then print a single line containing n\xe2\x88\x921n\xe2\x88\x921 integers a1,a2,\xe2\x80\xa6,an\xe2\x88\x921a1,a2,\xe2\x80\xa6,an\xe2\x88\x921 (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105), where aiai denotes the weight assigned to the edge numbered ii. Otherwise, print \xe2\x88\x921\xe2\x88\x921.'
+b'If there are multiple solutions, you may print any.'
+Tags
+constructive algorithms, dfs and similar, number theory, trees, *1400

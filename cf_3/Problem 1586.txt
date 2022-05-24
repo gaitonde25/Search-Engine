@@ -1,0 +1,14 @@
+b'You are given a permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn. Recall that sequence of nn integers is called a permutation if it contains all integers from 11 to nn exactly once.'
+b'Find three indices ii, jj and kk such that: '
+b'  1\xe2\x89\xa4i<j<k\xe2\x89\xa4n1\xe2\x89\xa4i<j<k\xe2\x89\xa4n;  pi<pjpi<pj and pj>pkpj>pk. '
+b' Or say that there are no such indices.'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa42001\xe2\x89\xa4T\xe2\x89\xa4200)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Next 2T2T lines contain test cases\xc2\xa0\xe2\x80\x94 two lines per test case. The first line of each test case contains the single integer nn (3\xe2\x89\xa4n\xe2\x89\xa410003\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the length of the permutation pp.'
+b'The second line contains nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n; pi\xe2\x89\xa0pjpi\xe2\x89\xa0pj if i\xe2\x89\xa0ji\xe2\x89\xa0j)\xc2\xa0\xe2\x80\x94 the permutation pp.'
+b'Output'
+b'For each test case: '
+b'  if there are such indices ii, jj and kk, print YES (case insensitive) and the indices themselves;  if there are no such indices, print NO (case insensitive). '
+b'If there are multiple valid triples of indices, print any of them.'
+Tags
+brute force, data structures, *900

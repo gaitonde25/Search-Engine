@@ -1,0 +1,15 @@
+b'This is an interactive problem. You have to use a flush operation right after printing each line. For example, in C++ you should use the function fflush(stdout), in Java \xe2\x80\x94 System.out.flush(), in Pascal \xe2\x80\x94 flush(output) and in Python \xe2\x80\x94 sys.stdout.flush().'
+b'Mr. Chanek wants to buy a flamingo to accompany his chickens on his farm. Before going to the pet shop, Mr. Chanek stops at an animal festival to have fun. It turns out there is a carnival game with a flamingo as the prize.'
+b'There are NN mysterious cages, which are numbered from 11 to NN. Cage ii has AiAi (0\xe2\x89\xa4Ai\xe2\x89\xa4103)(0\xe2\x89\xa4Ai\xe2\x89\xa4103) flamingoes inside (1\xe2\x89\xa4i\xe2\x89\xa4N)(1\xe2\x89\xa4i\xe2\x89\xa4N). However, the game master keeps the number of flamingoes inside a secret. To win the flamingo, Mr. Chanek must guess the number of flamingoes in each cage.'
+b'Coincidentally, Mr. Chanek has NN coins. Each coin can be used to ask once, what is the total number of flamingoes inside cages numbered LL to RR inclusive? With L<RL<R.'
+b'Input'
+b'Use standard input to read the responses of your questions.'
+b'Initially, the judge will give an integer NN (3\xe2\x89\xa4N\xe2\x89\xa4103)(3\xe2\x89\xa4N\xe2\x89\xa4103), the number of cages, and the number of coins Mr. Chanek has.'
+b'For each of your questions, the jury will give an integer that denotes the number of flamingoes from cage LL to RR inclusive.'
+b'If your program does not guess the flamingoes or ask other questions, you will get "Wrong Answer". Of course, if your program asks more questions than the allowed number, your program will get "Wrong Answer".'
+b'Output'
+b'To ask questions, your program must use standard output.'
+b'Then, you can ask at most NN questions. Questions are asked in the format "? L R", (1\xe2\x89\xa4L<R\xe2\x89\xa4N1\xe2\x89\xa4L<R\xe2\x89\xa4N). '
+b'To guess the flamingoes, print a line that starts with "!" followed by NN integers where the ii-th integer denotes the number of flamingo in cage ii. After answering, your program must terminate or will receive the "idle limit exceeded" verdict. You can only guess the flamingoes once.'
+Tags
+interactive, *1400

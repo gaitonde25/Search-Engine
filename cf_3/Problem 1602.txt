@@ -1,0 +1,13 @@
+b'You are given nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, where nn is odd. You are allowed to flip the sign of some (possibly all or none) of them. You wish to perform these flips in such a way that the following conditions hold:'
+b'  At least n\xe2\x88\x9212n\xe2\x88\x9212 of the adjacent differences ai+1\xe2\x88\x92aiai+1\xe2\x88\x92ai for i=1,2,\xe2\x80\xa6,n\xe2\x88\x921i=1,2,\xe2\x80\xa6,n\xe2\x88\x921 are greater than or equal to 00.  At least n\xe2\x88\x9212n\xe2\x88\x9212 of the adjacent differences ai+1\xe2\x88\x92aiai+1\xe2\x88\x92ai for i=1,2,\xe2\x80\xa6,n\xe2\x88\x921i=1,2,\xe2\x80\xa6,n\xe2\x88\x921 are less than or equal to 00. '
+b'Find any valid way to flip the signs. It can be shown that under the given constraints, there always exists at least one choice of signs to flip that satisfies the required condition. If there are several solutions, you can find any of them.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains an integer nn (3\xe2\x89\xa4n\xe2\x89\xa4993\xe2\x89\xa4n\xe2\x89\xa499, nn is odd) \xc2\xa0\xe2\x80\x94 the number of integers given to you.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 the numbers themselves.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 1000010000.'
+b'Output'
+b'For each test case, print nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn, corresponding to the integers after flipping signs. bibi has to be equal to either aiai or \xe2\x88\x92ai\xe2\x88\x92ai, and of the adjacent differences bi+1\xe2\x88\x92bibi+1\xe2\x88\x92bi for i=1,\xe2\x80\xa6,n\xe2\x88\x921i=1,\xe2\x80\xa6,n\xe2\x88\x921, at least n\xe2\x88\x9212n\xe2\x88\x9212 should be non-negative and at least n\xe2\x88\x9212n\xe2\x88\x9212 should be non-positive.'
+b'It can be shown that under the given constraints, there always exists at least one choice of signs to flip that satisfies the required condition. If there are several solutions, you can find any of them.'
+Tags
+constructive algorithms, math, *1100

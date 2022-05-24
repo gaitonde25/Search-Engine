@@ -1,0 +1,11 @@
+b'Consider the array aa composed of all the integers in the range [l,r][l,r]. For example, if l=3l=3 and r=7r=7, then a=[3,4,5,6,7]a=[3,4,5,6,7].'
+b'Given ll, rr, and kk, is it possible for gcd(a)gcd(a) to be greater than 11 after doing the following operation at most kk times? '
+b'  Choose 22 numbers from aa.  Permanently remove one occurrence of each of them from the array.  Insert their product back into aa. '
+b'gcd(b)gcd(b) denotes the greatest common divisor (GCD) of the integers in bb.'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases. The description of test cases follows.'
+b'The input for each test case consists of a single line containing 33 non-negative integers ll, rr, and kk (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4109,0\xe2\x89\xa4k\xe2\x89\xa4r\xe2\x88\x92l1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4109,0\xe2\x89\xa4k\xe2\x89\xa4r\xe2\x88\x92l).'
+b'Output'
+b'For each test case, print "YES" if it is possible to have the GCD of the corresponding array greater than 11 by performing at most kk operations, and "NO" otherwise (case insensitive).'
+Tags
+greedy, math, number theory, *800

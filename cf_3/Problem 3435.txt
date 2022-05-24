@@ -1,0 +1,10 @@
+b'There is an array with n elements a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an and the number x.'
+b'In one operation you can select some i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) and replace element ai with ai\xe2\x80\x89&\xe2\x80\x89x, where & denotes the bitwise and operation.'
+b'You want the array to have at least two equal elements after applying some operations (possibly, none). In other words, there should be at least two distinct indices i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89j such that ai\xe2\x80\x89=\xe2\x80\x89aj. Determine whether it is possible to achieve and, if possible, the minimal number of operations to apply.'
+b'Input'
+b'The first line contains integers n and x (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), number of elements in the array and the number to and with.'
+b'The second line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), the elements of the array.'
+b'Output'
+b'Print a single integer denoting the minimal number of operations to do, or -1, if it is impossible.'
+Tags
+greedy, *1200

@@ -1,0 +1,8 @@
+b"In some game by Playrix it takes t minutes for an oven to bake k carrot cakes, all cakes are ready at the same moment t minutes after they started baking. Arkady needs at least n cakes to complete a task, but he currently don't have any. However, he has infinitely many ingredients and one oven. Moreover, Arkady can build one more similar oven to make the process faster, it would take d minutes to build the oven. While the new oven is being built, only old one can bake cakes, after the new oven is built, both ovens bake simultaneously. Arkady can't build more than one oven."
+b'Determine if it is reasonable to build the second oven, i.e. will it decrease the minimum time needed to get n cakes or not. If the time needed with the second oven is the same as with one oven, then it is unreasonable.'
+b'Input'
+b'The only line contains four integers n, t, k, d (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89t,\xe2\x80\x89k,\xe2\x80\x89d\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of cakes needed, the time needed for one oven to bake k cakes, the number of cakes baked at the same time, the time needed to build the second oven. '
+b'Output'
+b'If it is reasonable to build the second oven, print "YES". Otherwise print "NO".'
+Tags
+brute force, implementation, *1100

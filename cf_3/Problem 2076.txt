@@ -1,0 +1,11 @@
+b'Vadim loves decorating the Christmas tree, so he got a beautiful garland as a present. It consists of nn light bulbs in a single row. Each bulb has a number from 11 to nn (in arbitrary order), such that all the numbers are distinct. While Vadim was solving problems, his home Carp removed some light bulbs from the garland. Now Vadim wants to put them back on.'
+b''
+b'Vadim wants to put all bulb back on the garland. Vadim defines complexity of a garland to be the number of pairs of adjacent bulbs with numbers with different parity (remainder of the division by 22). For example, the complexity of 1 4 2 3 5 is 22 and the complexity of 1 3 5 7 6 4 2 is 11.'
+b'No one likes complexity, so Vadim wants to minimize the number of such pairs. Find the way to put all bulbs back on the garland, such that the complexity is as small as possible.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of light bulbs on the garland.'
+b'The second line contains nn integers p1,\xc2\xa0p2,\xc2\xa0\xe2\x80\xa6,\xc2\xa0pnp1,\xc2\xa0p2,\xc2\xa0\xe2\x80\xa6,\xc2\xa0pn (0\xe2\x89\xa4pi\xe2\x89\xa4n0\xe2\x89\xa4pi\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number on the ii-th bulb, or 00 if it was removed.'
+b'Output'
+b'Output a single number\xc2\xa0\xe2\x80\x94 the minimum complexity of the garland.'
+Tags
+dp, greedy, sortings, *1800

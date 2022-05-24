@@ -1,0 +1,17 @@
+b'Word ss of length nn is called kk-complete if '
+b'  ss is a palindrome, i.e. si=sn+1\xe2\x88\x92isi=sn+1\xe2\x88\x92i for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n;  ss has a period of kk, i.e. si=sk+isi=sk+i for all 1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x92k1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x92k. '
+b'For example, "abaaba" is a 33-complete word, while "abccba" is not.'
+b'Bob is given a word ss of length nn consisting of only lowercase Latin letters and an integer kk, such that nn is divisible by kk. He wants to convert ss to any kk-complete word.'
+b'To do this Bob can choose some ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and replace the letter at position ii with some other lowercase Latin letter.'
+b'So now Bob wants to know the minimum number of letters he has to replace to convert ss to any kk-complete word.'
+b'Note that Bob can do zero changes if the word ss is already kk-complete.'
+b'You are required to answer tt test cases independently.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4k<n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4k<n\xe2\x89\xa42\xe2\x8b\x85105, nn is divisible by kk).'
+b'The second line of each test case contains a word ss of length nn.'
+b'It is guaranteed that word ss only contains lowercase Latin letters. And it is guaranteed that the sum of nn over all test cases will not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output one integer, representing the minimum number of characters he has to replace to convert ss to any kk-complete word.'
+Tags
+dfs and similar, dsu, greedy, implementation, strings, *1500

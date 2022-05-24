@@ -1,0 +1,12 @@
+b'You are given five integers nn, dx1dx1, dy1dy1, dx2dx2 and dy2dy2. You have to select nn distinct pairs of integers (xi,yi)(xi,yi) in such a way that, for every possible pair of integers (x,y)(x,y), there exists exactly one triple of integers (a,b,i)(a,b,i) meeting the following constraints:'
+b' {x=xi+a\xe2\x8b\x85dx1+b\xe2\x8b\x85dx2,y=yi+a\xe2\x8b\x85dy1+b\xe2\x8b\x85dy2.{x=xi+a\xe2\x8b\x85dx1+b\xe2\x8b\x85dx2,y=yi+a\xe2\x8b\x85dy1+b\xe2\x8b\x85dy2. '
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains two integers dx1dx1 and dy1dy1 (\xe2\x88\x92106\xe2\x89\xa4dx1,dy1\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4dx1,dy1\xe2\x89\xa4106).'
+b'The third line contains two integers dx2dx2 and dy2dy2 (\xe2\x88\x92106\xe2\x89\xa4dx2,dy2\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4dx2,dy2\xe2\x89\xa4106).'
+b'Output'
+b'If it is impossible to correctly select nn pairs of integers, print NO.'
+b'Otherwise, print YES in the first line, and then nn lines, the ii-th of which contains two integers xixi and yiyi (\xe2\x88\x92109\xe2\x89\xa4xi,yi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4xi,yi\xe2\x89\xa4109).'
+b'If there are multiple solutions, print any of them.'
+Tags
+geometry, implementation, math, *2500

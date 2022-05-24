@@ -1,0 +1,11 @@
+b'Vadim is really keen on travelling. Recently he heard about kayaking activity near his town and became very excited about it, so he joined a party of kayakers.'
+b"Now the party is ready to start its journey, but firstly they have to choose kayaks. There are 2\xc2\xb7n people in the group (including Vadim), and they have exactly n\xe2\x80\x89-\xe2\x80\x891 tandem kayaks (each of which, obviously, can carry two people) and 2 single kayaks. i-th person's weight is wi, and weight is an important matter in kayaking \xe2\x80\x94 if the difference between the weights of two people that sit in the same tandem kayak is too large, then it can crash. And, of course, people want to distribute their seats in kayaks in order to minimize the chances that kayaks will crash."
+b'Formally, the instability of a single kayak is always 0, and the instability of a tandem kayak is the absolute difference between weights of the people that are in this kayak. Instability of the whole journey is the total instability of all kayaks.'
+b'Help the party to determine minimum possible total instability! '
+b'Input'
+b'The first line contains one number n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950).'
+b'The second line contains 2\xc2\xb7n integer numbers w1, w2, ..., w2n, where wi is weight of person i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000).'
+b'Output'
+b'Print minimum possible total instability.'
+Tags
+brute force, greedy, sortings, *1500

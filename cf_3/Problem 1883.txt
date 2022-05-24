@@ -1,0 +1,16 @@
+b'The round carousel consists of nn figures of animals. Figures are numbered from 11 to nn in order of the carousel moving. Thus, after the nn-th figure the figure with the number 11 follows. Each figure has its own type \xe2\x80\x94 the type of the animal corresponding to this figure (the horse, the tiger and so on). The type of animal of the ii-th figure equals titi.'
+b'  The example of the carousel for n=9n=9 and t=[5,5,1,15,1,5,5,1,1]t=[5,5,1,15,1,5,5,1,1]. '
+b"You want to color each figure in one of the colors. You think that it's boring if the carousel contains two different figures (with the distinct types of animals) going one right after another and colored in the same color."
+b'Your task is to color the figures in such a way that the number of distinct colors used is the minimum possible and there are no figures of the different types going one right after another and colored in the same color. If you use exactly kk distinct colors, then the colors of figures should be denoted with integers from 11 to kk.'
+b'Input'
+b'The input contains one or more test cases.'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41041\xe2\x89\xa4q\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the test. Then qq test cases follow. One test case is given on two lines.'
+b'The first line of the test case contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of figures in the carousel. Figures are numbered from 11 to nn in order of carousel moving. Assume that after the nn-th figure the figure 11 goes.'
+b'The second line of the test case contains nn integers t1,t2,\xe2\x80\xa6,tnt1,t2,\xe2\x80\xa6,tn (1\xe2\x89\xa4ti\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ti\xe2\x89\xa42\xe2\x8b\x85105), where titi is the type of the animal of the ii-th figure.'
+b'The sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'Print qq answers, for each test case print two lines.'
+b'In the first line print one integer kk \xe2\x80\x94 the minimum possible number of distinct colors of figures.'
+b'In the second line print nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa4k1\xe2\x89\xa4ci\xe2\x89\xa4k), where cici is the color of the ii-th figure. If there are several answers, you can print any.'
+Tags
+constructive algorithms, dp, graphs, greedy, math, *1800

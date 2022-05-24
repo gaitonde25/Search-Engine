@@ -1,0 +1,20 @@
+b"Let's call a graph with nn vertices, each of which has it's own point Ai=(xi,yi)Ai=(xi,yi) with integer coordinates, a planar tree if:"
+b"  All points A1,A2,\xe2\x80\xa6,AnA1,A2,\xe2\x80\xa6,An are different and no three points lie on the same line.  The graph is a tree, i.e. there are exactly n\xe2\x88\x921n\xe2\x88\x921 edges there exists a path between any pair of vertices.  For all pairs of edges (s1,f1)(s1,f1) and (s2,f2)(s2,f2), such that s1\xe2\x89\xa0s2,s1\xe2\x89\xa0f2,s1\xe2\x89\xa0s2,s1\xe2\x89\xa0f2, f1\xe2\x89\xa0s2f1\xe2\x89\xa0s2, and f1\xe2\x89\xa0f2f1\xe2\x89\xa0f2, the segments As1Af1As1Af1 and As2Af2As2Af2 don't intersect. "
+b"Imagine a planar tree with nn vertices. Consider the convex hull of points A1,A2,\xe2\x80\xa6,AnA1,A2,\xe2\x80\xa6,An. Let's call this tree a spiderweb tree if for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n the following statements are true:"
+b'  All leaves (vertices with degree \xe2\x89\xa41\xe2\x89\xa41) of the tree lie on the border of the convex hull.  All vertices on the border of the convex hull are leaves. '
+b'An example of a spiderweb tree: '
+b'  '
+b'The points A3,A6,A7,A4A3,A6,A7,A4 lie on the convex hull and the leaf vertices of the tree are 3,6,7,43,6,7,4.'
+b'Refer to the notes for more examples.'
+b"Let's call the subset S\xe2\x8a\x82{1,2,\xe2\x80\xa6,n}S\xe2\x8a\x82{1,2,\xe2\x80\xa6,n} of vertices a subtree of the tree if for all pairs of vertices in SS, there exists a path that contains only vertices from SS. Note that any subtree of the planar tree is a planar tree."
+b"You are given a planar tree with nn vertexes. Let's call a partition of the set {1,2,\xe2\x80\xa6,n}{1,2,\xe2\x80\xa6,n} into non-empty subsets A1,A2,\xe2\x80\xa6,AkA1,A2,\xe2\x80\xa6,Ak (i.e. Ai\xe2\x88\xa9Aj=\xe2\x88\x85Ai\xe2\x88\xa9Aj=\xe2\x88\x85 for all 1\xe2\x89\xa4i<j\xe2\x89\xa4k1\xe2\x89\xa4i<j\xe2\x89\xa4k and A1\xe2\x88\xaaA2\xe2\x88\xaa\xe2\x80\xa6\xe2\x88\xaaAk={1,2,\xe2\x80\xa6,n}A1\xe2\x88\xaaA2\xe2\x88\xaa\xe2\x80\xa6\xe2\x88\xaaAk={1,2,\xe2\x80\xa6,n}) good if for all 1\xe2\x89\xa4i\xe2\x89\xa4k1\xe2\x89\xa4i\xe2\x89\xa4k, the subtree AiAi is a spiderweb tree. Two partitions are different if there exists some set that lies in one parition, but not the other."
+b'Find the number of good partitions. Since this number can be very large, find it modulo 998244353998244353.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The next nn lines each contain two integers xi,yixi,yi (\xe2\x88\x92109\xe2\x89\xa4xi,yi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4xi,yi\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 the coordinates of ii-th vertex, AiAi.'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines contain two integers s,fs,f (1\xe2\x89\xa4s,f\xe2\x89\xa4n1\xe2\x89\xa4s,f\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the edges (s,f)(s,f) of the tree.'
+b'It is guaranteed that all given points are different and that no three of them lie at the same line. Additionally, it is guaranteed that the given edges and coordinates of the points describe a planar tree.'
+b'Output'
+b'Print one integer \xc2\xa0\xe2\x80\x94 the number of good partitions of vertices of the given planar tree, modulo 998244353998244353.'
+Tags
+dp, geometry, trees, *3500

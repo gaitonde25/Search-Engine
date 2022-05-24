@@ -1,0 +1,14 @@
+b'oolimry has an array aa of length nn which he really likes. Today, you have changed his array to bb, a permutation of aa, to make him sad.'
+b'Because oolimry is only a duck, he can only perform the following operation to restore his array: '
+b'  Choose two integers i,ji,j such that 1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n.  Swap bibi and bjbj. '
+b'The sadness of the array bb is the minimum number of operations needed to transform bb into aa.'
+b'Given the array aa, find any array bb which is a permutation of aa that has the maximum sadness over all permutations of the array aa.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the length of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) \xc2\xa0\xe2\x80\x94 elements of the array aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn \xe2\x80\x94 describing the array bb. If there are multiple answers, you may print any.'
+Tags
+constructive algorithms, graphs, greedy, *2000

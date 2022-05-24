@@ -1,0 +1,13 @@
+b'Given three numbers n,a,bn,a,b. You need to find an adjacency matrix of such an undirected graph that the number of components in it is equal to aa, and the number of components in its complement is bb. The matrix must be symmetric, and all digits on the main diagonal must be zeroes.'
+b'In an undirected graph loops (edges from a vertex to itself) are not allowed. It can be at most one edge between a pair of vertices.'
+b'The adjacency matrix of an undirected graph is a square matrix of size nn consisting only of "0" and "1", where nn is the number of vertices of the graph and the ii-th row and the ii-th column correspond to the ii-th vertex of the graph. The cell (i,j)(i,j) of the adjacency matrix contains 11 if and only if the ii-th and jj-th vertices in the graph are connected by an edge.'
+b'A connected component is a set of vertices XX such that for every two vertices from this set there exists at least one path in the graph connecting this pair of vertices, but adding any other vertex to XX violates this rule.'
+b'The complement or inverse of a graph GG is a graph HH on the same vertices such that two distinct vertices of HH are adjacent if and only if they are not adjacent in GG.'
+b'Input'
+b"In a single line, three numbers are given n,a,b(1\xe2\x89\xa4n\xe2\x89\xa41000,1\xe2\x89\xa4a,b\xe2\x89\xa4n)n,a,b(1\xe2\x89\xa4n\xe2\x89\xa41000,1\xe2\x89\xa4a,b\xe2\x89\xa4n): is the number of vertexes of the graph, the required number of connectivity components in it, and the required amount of the connectivity component in it's complement. "
+b'Output'
+b'If there is no graph that satisfies these constraints on a single line, print "NO" (without quotes).'
+b'Otherwise, on the first line, print "YES"(without quotes). In each of the next nn lines, output nn digits such that jj-th digit of ii-th line must be 11 if and only if there is an edge between vertices ii and jj in GG (and 00 otherwise). Note that the matrix must be symmetric, and all digits on the main diagonal must be zeroes. '
+b'If there are several matrices that satisfy the conditions \xe2\x80\x94 output any of them.'
+Tags
+constructive algorithms, graphs, implementation, *1700

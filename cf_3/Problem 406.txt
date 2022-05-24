@@ -1,0 +1,13 @@
+b"Polycarp has an integer nn that doesn't contain the digit 0. He can do the following operation with his number several (possibly zero) times:"
+b' Reverse the prefix of length ll (in other words, ll leftmost digits) of nn. So, the leftmost digit is swapped with the ll-th digit from the left, the second digit from the left swapped with (l\xe2\x88\x921l\xe2\x88\x921)-th left, etc. For example, if n=123456789n=123456789 and l=5l=5, then the new value of nn will be 543216789543216789.'
+b'Note that for different operations, the values of ll can be different. The number ll can be equal to the length of the number nn\xc2\xa0\xe2\x80\x94 in this case, the whole number nn is reversed.'
+b'Polycarp loves even numbers. Therefore, he wants to make his number even. At the same time, Polycarp is very impatient. He wants to do as few operations as possible.'
+b'Help Polycarp. Determine the minimum number of operations he needs to perform with the number nn to make it even or determine that this is impossible.'
+b'You need to answer tt independent test cases.'
+b'Input'
+b'The first line contains the number tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b"Each of the following tt lines contains one integer nn (1\xe2\x89\xa4n<1091\xe2\x89\xa4n<109). It is guaranteed that the given number doesn't contain the digit 0."
+b'Output'
+b'Print tt lines. On each line print one integer\xc2\xa0\xe2\x80\x94 the answer to the corresponding test case. If it is impossible to make an even number, print -1.'
+Tags
+constructive algorithms, math, *800

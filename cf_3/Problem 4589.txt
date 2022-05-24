@@ -1,0 +1,10 @@
+b'PolandBall has such a convex polygon with n veritces that no three of its diagonals intersect at the same point. PolandBall decided to improve it and draw some red segments. '
+b'He chose a number k such that gcd(n,\xe2\x80\x89k)\xe2\x80\x89=\xe2\x80\x891. Vertices of the polygon are numbered from 1 to n in a clockwise way. PolandBall repeats the following process n times, starting from the vertex 1: '
+b"Assume you've ended last operation in vertex x (consider x\xe2\x80\x89=\xe2\x80\x891 if it is the first operation). Draw a new segment from vertex x to k-th next vertex in clockwise direction. This is a vertex x\xe2\x80\x89+\xe2\x80\x89k or x\xe2\x80\x89+\xe2\x80\x89k\xe2\x80\x89-\xe2\x80\x89n depending on which of these is a valid index of polygon's vertex."
+b"Your task is to calculate number of polygon's sections after each drawing. A section is a clear area inside the polygon bounded with drawn diagonals or the polygon's sides."
+b'Input'
+b'There are only two numbers in the input: n and k (5\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x892, gcd(n,\xe2\x80\x89k)\xe2\x80\x89=\xe2\x80\x891).'
+b'Output'
+b"You should print n values separated by spaces. The i-th value should represent number of polygon's sections after drawing first i lines."
+Tags
+data structures, *2000

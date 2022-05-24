@@ -1,0 +1,7 @@
+b'Johny likes numbers n and k very much. Now Johny wants to find the smallest integer x greater than n, so it is divisible by the number k.'
+b'Input'
+b'The only line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b'Print the smallest integer x\xe2\x80\x89>\xe2\x80\x89n, so it is divisible by the number k.'
+Tags
+implementation, math, *800

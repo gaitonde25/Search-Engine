@@ -1,0 +1,13 @@
+b'You are given two strings ss and tt consisting of lowercase Latin letters. Also you have a string zz which is initially empty. You want string zz to be equal to string tt. You can perform the following operation to achieve this: append any subsequence of ss at the end of string zz. A subsequence is a sequence that can be derived from the given sequence by deleting zero or more elements without changing the order of the remaining elements. For example, if z=acz=ac, s=abcdes=abcde, you may turn zz into following strings in one operation: '
+b'  z=acacez=acace (if we choose subsequence aceace);  z=acbcdz=acbcd (if we choose subsequence bcdbcd);  z=acbcez=acbce (if we choose subsequence bcebce). '
+b"Note that after this operation string ss doesn't change."
+b'Calculate the minimum number of such operations to turn string zz into string tt. '
+b'Input'
+b'The first line contains the integer TT (1\xe2\x89\xa4T\xe2\x89\xa41001\xe2\x89\xa4T\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The first line of each testcase contains one string ss (1\xe2\x89\xa4|s|\xe2\x89\xa41051\xe2\x89\xa4|s|\xe2\x89\xa4105) consisting of lowercase Latin letters.'
+b'The second line of each testcase contains one string tt (1\xe2\x89\xa4|t|\xe2\x89\xa41051\xe2\x89\xa4|t|\xe2\x89\xa4105) consisting of lowercase Latin letters.'
+b'It is guaranteed that the total length of all strings ss and tt in the input does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b"For each testcase, print one integer \xe2\x80\x94 the minimum number of operations to turn string zz into string tt. If it's impossible print \xe2\x88\x921\xe2\x88\x921."
+Tags
+dp, greedy, strings, *1600

@@ -1,0 +1,10 @@
+b'Petya has n positive integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an. '
+b"His friend Vasya decided to joke and replaced all digits in Petya's numbers with a letters. He used the lowercase letters of the Latin alphabet from 'a' to 'j' and replaced all digits 0 with one letter, all digits 1 with another letter and so on. For any two different digits Vasya used distinct letters from 'a' to 'j'."
+b"Your task is to restore Petya's numbers. The restored numbers should be positive integers without leading zeros. Since there can be multiple ways to do it, determine the minimum possible sum of all Petya's numbers after the restoration. It is guaranteed that before Vasya's joke all Petya's numbers did not have leading zeros."
+b'Input'
+b"The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000) \xe2\x80\x94 the number of Petya's numbers."
+b"Each of the following lines contains non-empty string si consisting of lowercase Latin letters from 'a' to 'j' \xe2\x80\x94 the Petya's numbers after Vasya's joke. The length of each string does not exceed six characters."
+b'Output'
+b"Determine the minimum sum of all Petya's numbers after the restoration. The restored numbers should be positive integers without leading zeros. It is guaranteed that the correct restore (without leading zeros) exists for all given tests."
+Tags
+constructive algorithms, greedy, math, *1700

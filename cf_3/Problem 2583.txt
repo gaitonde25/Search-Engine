@@ -1,0 +1,19 @@
+b'Vus the Cossack has a field with dimensions n\xc3\x97mn\xc3\x97m, which consists of "0" and "1". He is building an infinite field from this field. He is doing this in this way:'
+b' He takes the current field and finds a new inverted field. In other words, the new field will contain "1" only there, where "0" was in the current field, and "0" there, where "1" was. To the current field, he adds the inverted field to the right.  To the current field, he adds the inverted field to the bottom.  To the current field, he adds the current field to the bottom right.  He repeats it.'
+b'For example, if the initial field was:'
+b' 11011011 '
+b'After the first iteration, the field will be like this:'
+b' 11000110001110011001110001100011 '
+b'After the second iteration, the field will be like this:'
+b' 11000011011010010011110010010110001111001001011011000011011010011001011011000011011010010011110001101001001111001001011011000011 '
+b'And so on...'
+b"Let's numerate lines from top to bottom from 11 to infinity, and columns from left to right from 11 to infinity. We call the submatrix (x1,y1,x2,y2)(x1,y1,x2,y2) all numbers that have coordinates (x,y)(x,y) such that x1\xe2\x89\xa4x\xe2\x89\xa4x2x1\xe2\x89\xa4x\xe2\x89\xa4x2 and y1\xe2\x89\xa4y\xe2\x89\xa4y2y1\xe2\x89\xa4y\xe2\x89\xa4y2."
+b'The Cossack needs sometimes to find the sum of all the numbers in submatrices. Since he is pretty busy right now, he is asking you to find the answers!'
+b'Input'
+b'The first line contains three integers nn, mm, qq (1\xe2\x89\xa4n,m\xe2\x89\xa410001\xe2\x89\xa4n,m\xe2\x89\xa41000, 1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the dimensions of the initial matrix and the number of queries.'
+b'Each of the next nn lines contains mm characters cijcij (0\xe2\x89\xa4cij\xe2\x89\xa410\xe2\x89\xa4cij\xe2\x89\xa41)\xc2\xa0\xe2\x80\x94 the characters in the matrix.'
+b'Each of the next qq lines contains four integers x1x1, y1y1, x2x2, y2y2 (1\xe2\x89\xa4x1\xe2\x89\xa4x2\xe2\x89\xa41091\xe2\x89\xa4x1\xe2\x89\xa4x2\xe2\x89\xa4109, 1\xe2\x89\xa4y1\xe2\x89\xa4y2\xe2\x89\xa41091\xe2\x89\xa4y1\xe2\x89\xa4y2\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the coordinates of the upper left cell and bottom right cell, between which you need to find the sum of all numbers.'
+b'Output'
+b'For each query, print the answer.'
+Tags
+divide and conquer, implementation, math, *2500

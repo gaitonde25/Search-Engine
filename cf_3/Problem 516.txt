@@ -1,0 +1,13 @@
+b'You are given an array aa of length nn.'
+b"Let's define the eversion operation. Let x=anx=an. Then array aa is partitioned into two parts: left and right. The left part contains the elements of aa that are not greater than xx (\xe2\x89\xa4x\xe2\x89\xa4x). The right part contains the elements of aa that are strictly greater than xx (>x>x). The order of elements in each part is kept the same as before the operation, i.\xc2\xa0e. the partition is stable. Then the array is replaced with the concatenation of the left and the right parts."
+b'For example, if the array aa is [2,4,1,5,3][2,4,1,5,3], the eversion goes like this: [2,4,1,5,3]\xe2\x86\x92[2,1,3],[4,5]\xe2\x86\x92[2,1,3,4,5][2,4,1,5,3]\xe2\x86\x92[2,1,3],[4,5]\xe2\x86\x92[2,1,3,4,5].'
+b'We start with the array aa and perform eversions on this array. We can prove that after several eversions the array aa stops changing. Output the minimum number kk such that the array stops changing after kk eversions.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case print a single integer kk \xe2\x80\x94 the number of eversions after which the array stops changing.'
+Tags
+greedy, *900

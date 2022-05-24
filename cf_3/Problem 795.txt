@@ -1,0 +1,15 @@
+b'This is an interactive problem.'
+b'Little Dormi was faced with an awkward problem at the carnival: he has to guess the edges of an unweighted tree of nn nodes! The nodes of the tree are numbered from 11 to nn.'
+b'The game master only allows him to ask one type of question:'
+b' Little Dormi picks a node rr (1\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4r\xe2\x89\xa4n), and the game master will reply with an array d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn, where didi is the length of the shortest path from node rr to ii, for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n.'
+b'Additionally, to make the game unfair challenge Little Dormi the game master will allow at most \xe2\x8c\x88n2\xe2\x8c\x89\xe2\x8c\x88n2\xe2\x8c\x89 questions, where \xe2\x8c\x88x\xe2\x8c\x89\xe2\x8c\x88x\xe2\x8c\x89 denotes the smallest integer greater than or equal to xx.'
+b'Faced with the stomach-churning possibility of not being able to guess the tree, Little Dormi needs your help to devise a winning strategy!'
+b'Note that the game master creates the tree before the game starts, and does not change it during the game.'
+b'Input'
+b'The first line of input contains the integer nn (2\xe2\x89\xa4n\xe2\x89\xa420002\xe2\x89\xa4n\xe2\x89\xa42000), the number of nodes in the tree.'
+b'You will then begin interaction.'
+b'Output'
+b'When your program has found the tree, first output a line consisting of a single "!" followed by n\xe2\x88\x921n\xe2\x88\x921 lines each with two space separated integers aa and bb, denoting an edge connecting nodes aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n). Once you are done, terminate your program normally immediately after flushing the output stream.'
+b'You may output the edges in any order and an edge (a,b)(a,b) is considered the same as an edge (b,a)(b,a). Answering is not considered as a query.'
+Tags
+constructive algorithms, interactive, trees, *1800

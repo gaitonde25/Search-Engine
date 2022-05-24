@@ -1,0 +1,11 @@
+b'a is an array of n positive integers, all of which are not greater than n.'
+b'You have to process q queries to this array. Each query is represented by two numbers p and k. Several operations are performed in each query; each operation changes p to p\xe2\x80\x89+\xe2\x80\x89ap\xe2\x80\x89+\xe2\x80\x89k. There operations are applied until p becomes greater than n. The answer to the query is the number of performed operations.'
+b'Input'
+b'The first line contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000).'
+b'The second line contains n integers \xe2\x80\x94 elements of a (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n for each i from 1 to n).'
+b'The third line containts one integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000).'
+b'Then q lines follow. Each line contains the values of p and k for corresponding query (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Output'
+b'Print q integers, ith integer must be equal to the answer to ith query.'
+Tags
+brute force, data structures, dp, *2000

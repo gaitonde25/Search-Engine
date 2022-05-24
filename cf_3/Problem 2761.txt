@@ -1,0 +1,13 @@
+b'Now Serval is a junior high school student in Japari Middle School, and he is still thrilled on math as before. '
+b'As a talented boy in mathematics, he likes to play with numbers. This time, he wants to play with numbers on a rooted tree.'
+b'A tree is a connected graph without cycles. A rooted tree has a special vertex called the root. A parent of a node vv is the last different from vv vertex on the path from the root to the vertex vv. Children of vertex vv are all nodes for which vv is the parent. A vertex is a leaf if it has no children.'
+b'The rooted tree Serval owns has nn nodes, node 11 is the root. Serval will write some numbers into all nodes of the tree. However, there are some restrictions. Each of the nodes except leaves has an operation maxmax or minmin written in it, indicating that the number in this node should be equal to the maximum or minimum of all the numbers in its sons, respectively. '
+b'Assume that there are kk leaves in the tree. Serval wants to put integers 1,2,\xe2\x80\xa6,k1,2,\xe2\x80\xa6,k to the kk leaves (each number should be used exactly once). He loves large numbers, so he wants to maximize the number in the root. As his best friend, can you help him?'
+b'Input'
+b'The first line contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105), the size of the tree.'
+b'The second line contains nn integers, the ii-th of them represents the operation in the node ii. 00 represents minmin and 11 represents maxmax. If the node is a leaf, there is still a number of 00 or 11, but you can ignore it.'
+b'The third line contains n\xe2\x88\x921n\xe2\x88\x921 integers f2,f3,\xe2\x80\xa6,fnf2,f3,\xe2\x80\xa6,fn (1\xe2\x89\xa4fi\xe2\x89\xa4i\xe2\x88\x9211\xe2\x89\xa4fi\xe2\x89\xa4i\xe2\x88\x921), where fifi represents the parent of the node ii.'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the maximum possible number in the root of the tree.'
+Tags
+binary search, dfs and similar, dp, greedy, trees, *1900

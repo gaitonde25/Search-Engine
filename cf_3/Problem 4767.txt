@@ -1,0 +1,10 @@
+b'The Prodiggers are quite a cool band and for this reason, they have been the surprise guest at the ENTER festival for the past 80 years. At the beginning of their careers, they weren\xe2\x80\x99t so successful, so they had to spend time digging channels to earn money; hence the name. Anyway, they like to tour a lot and have surprising amounts of energy to do extremely long tours. However, they hate spending two consecutive days without having a concert, so they would like to avoid it.'
+b'A tour is defined by a sequence of concerts and days-off. You need to count in how many ways The Prodiggers can select k different tours of the same length between l and r.'
+b'For example if k\xe2\x80\x89=\xe2\x80\x892, l\xe2\x80\x89=\xe2\x80\x891 and r\xe2\x80\x89=\xe2\x80\x892, if we define concert day as {1} and day-off as {0}, here are all possible tours: {0}, {1}, {00}, {01}, {10}, {11}. But tour 00 can not be selected because it has 2 days-off in a row. Now, we need to count in how many ways we can select k\xe2\x80\x89=\xe2\x80\x892 tours of the same length in range [1;2]. Here they are: {0,1}; {01,10}; {01,11}; {10,11}.'
+b'Since their schedule is quite busy, they want you to tell them in how many ways can do that, modulo 1\xe2\x80\x89000\xe2\x80\x89000\xe2\x80\x89007 (109\xe2\x80\x89+\xe2\x80\x897).'
+b'Input'
+b'The first line of the input contains three integers k, l and r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018).'
+b'Output'
+b'Output a single number: the number of ways to select k different tours of the same length, modulo 1\xe2\x80\x89000\xe2\x80\x89000\xe2\x80\x89007.'
+Tags
+math, number theory, *2900

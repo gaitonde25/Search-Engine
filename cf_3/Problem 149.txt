@@ -1,0 +1,12 @@
+b'Marin feels exhausted after a long day of cosplay, so Gojou invites her to play a game!'
+b'Marin and Gojou take turns to place one of their tokens on an n\xc3\x97nn\xc3\x97n grid with Marin starting first. There are some restrictions and allowances on where to place tokens: '
+b'  Apart from the first move, the token placed by a player must be more than Manhattan distance kk away from the previous token placed on the matrix. In other words, if a player places a token at (x1,y1)(x1,y1), then the token placed by the other player in the next move must be in a cell (x2,y2)(x2,y2) satisfying |x2\xe2\x88\x92x1|+|y2\xe2\x88\x92y1|>k|x2\xe2\x88\x92x1|+|y2\xe2\x88\x92y1|>k.  Apart from the previous restriction, a token can be placed anywhere on the matrix, including cells where tokens were previously placed by any player. '
+b'Whenever a player places a token on cell (x,y)(x,y), that player gets vx,\xc2\xa0yvx,\xc2\xa0y points. All values of vv on the grid are distinct. You still get points from a cell even if tokens were already placed onto the cell. The game finishes when each player makes 1010010100 moves.'
+b"Marin and Gojou will play n2n2 games. For each cell of the grid, there will be exactly one game where Marin places a token on that cell on her first move. Please answer for each game, if Marin and Gojou play optimally (after Marin's first move), who will have more points at the end? Or will the game end in a draw (both players have the same points at the end)?"
+b'Input'
+b'The first line contains two integers nn, kk (3\xe2\x89\xa4n\xe2\x89\xa420003\xe2\x89\xa4n\xe2\x89\xa42000, 1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9221\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x922). Note that under these constraints it is always possible to make a move.'
+b'The following nn lines contains nn integers each. The jj-th integer in the ii-th line is vi,jvi,j (1\xe2\x89\xa4vi,j\xe2\x89\xa4n21\xe2\x89\xa4vi,j\xe2\x89\xa4n2). All elements in vv are distinct.'
+b'Output'
+b"You should print nn lines. In the ii-th line, print nn characters, where the jj-th character is the result of the game in which Marin places her first token in the cell (i,j)(i,j). Print 'M' if Marin wins, 'G' if Gojou wins, and 'D' if the game ends in a draw. Do not print spaces between the characters in one line."
+Tags
+data structures, dp, games, hashing, implementation, math, number theory, sortings, *2500

@@ -1,0 +1,14 @@
+b'This is an easier version of the next problem. In this version, q=0q=0.'
+b'A sequence of integers is called nice if its elements are arranged in blocks like in [3,3,3,4,1,1][3,3,3,4,1,1]. Formally, if two elements are equal, everything in between must also be equal.'
+b"Let's define difficulty of a sequence as a minimum possible number of elements to change to get a nice sequence. However, if you change at least one element of value xx to value yy, you must also change all other elements of value xx into yy as well. For example, for [3,3,1,3,2,1,2][3,3,1,3,2,1,2] it isn't allowed to change first 11 to 33 and second 11 to 22. You need to leave 11's untouched or change them to the same value."
+b'You are given a sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and qq updates.'
+b'Each update is of form "ii xx"\xc2\xa0\xe2\x80\x94 change aiai to xx. Updates are not independent (the change stays for the future).'
+b'Print the difficulty of the initial sequence and of the sequence after every update.'
+b'Input'
+b'The first line contains integers nn and qq (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000, q=0q=0), the length of the sequence and the number of the updates.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa42000001\xe2\x89\xa4ai\xe2\x89\xa4200000), the initial sequence.'
+b'Each of the following qq lines contains integers itit and xtxt (1\xe2\x89\xa4it\xe2\x89\xa4n1\xe2\x89\xa4it\xe2\x89\xa4n, 1\xe2\x89\xa4xt\xe2\x89\xa42000001\xe2\x89\xa4xt\xe2\x89\xa4200000), the position and the new value for this position.'
+b'Output'
+b'Print q+1q+1 integers, the answer for the initial sequence and the answer after every update.'
+Tags
+data structures, dsu, greedy, implementation, two pointers, *2000

@@ -1,0 +1,9 @@
+b'Calculate the minimum number of characters you need to change in the string s, so that it contains at least k different letters, or print that it is impossible.'
+b'String s consists only of lowercase Latin letters, and it is allowed to change characters only to lowercase Latin letters too.'
+b'Input'
+b'First line of input contains string s, consisting only of lowercase Latin letters (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, |s| denotes the length of s).'
+b'Second line of input contains integer k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8926).'
+b'Output'
+b'Print single line with a minimum number of necessary changes, or the word \xc2\xabimpossible\xc2\xbb (without quotes) if it is impossible.'
+Tags
+greedy, implementation, strings, *1000

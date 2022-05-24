@@ -1,0 +1,13 @@
+b'Mishka is a little polar bear. As known, little bears loves spending their free time playing dice for chocolates. Once in a wonderful sunny morning, walking around blocks of ice, Mishka met her friend Chris, and they started playing the game.'
+b'Rules of the game are very simple: at first number of rounds n is defined. In every round each of the players throws a cubical dice with distinct numbers from 1 to 6 written on its faces. Player, whose value after throwing the dice is greater, wins the round. In case if player dice values are equal, no one of them is a winner.'
+b'In average, player, who won most of the rounds, is the winner of the game. In case if two players won the same number of rounds, the result of the game is draw.'
+b"Mishka is still very little and can't count wins and losses, so she asked you to watch their game and determine its result. Please help her!"
+b'Input'
+b'The first line of the input contains single integer n n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the number of game rounds.'
+b"The next n lines contains rounds description. i-th of them contains pair of integers mi and ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89mi,\xe2\x80\x89\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x896)\xc2\xa0\xe2\x80\x94 values on dice upper face after Mishka's and Chris' throws in i-th round respectively."
+b'Output'
+b'If Mishka is the winner of the game, print "Mishka" (without quotes) in the only line.'
+b'If Chris is the winner of the game, print "Chris" (without quotes) in the only line.'
+b'If the result of the game is draw, print "Friendship is magic!^^" (without quotes) in the only line.'
+Tags
+implementation, *800

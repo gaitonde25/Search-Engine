@@ -1,0 +1,15 @@
+b'The robot is located on a checkered rectangular board of size n\xc3\x97mn\xc3\x97m (nn rows, mm columns). The rows in the board are numbered from 11 to nn from top to bottom, and the columns\xc2\xa0\xe2\x80\x94 from 11 to mm from left to right.'
+b'The robot is able to move from the current cell to one of the four cells adjacent by side.'
+b"Each cell has one of the symbols 'L', 'R', 'D' or 'U' written on it, indicating the direction in which the robot will move when it gets in that cell\xc2\xa0\xe2\x80\x94 left, right, down or up, respectively."
+b'The robot can start its movement in any cell. He then moves to the adjacent square in the direction indicated on the current square in one move. '
+b"  If the robot moves beyond the edge of the board, it falls and breaks.  If the robot appears in the cell it already visited before, it breaks (it stops and doesn't move anymore). "
+b'Robot can choose any cell as the starting cell. Its goal is to make the maximum number of steps before it breaks or stops.'
+b'Determine from which square the robot should start its movement in order to execute as many commands as possible. A command is considered successfully completed if the robot has moved from the square on which that command was written (it does not matter whether to another square or beyond the edge of the board).'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000)\xc2\xa0\xe2\x80\x94 the number of test cases in the test.'
+b"Each test case's description is preceded by a blank line. Next is a line that contains integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000; 1\xe2\x89\xa4m\xe2\x89\xa420001\xe2\x89\xa4m\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the height and width of the board. This line followed by nn lines, the ii-th of which describes the ii-th line of the board. Each of them is exactly mm letters long and consists of symbols 'L', 'R', 'D' and 'U'."
+b'It is guaranteed that the sum of sizes of all boards in the input does not exceed 4\xe2\x8b\x851064\xe2\x8b\x85106.'
+b'Output'
+b'For each test case, output three integers rr, cc and dd (1\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4r\xe2\x89\xa4n; 1\xe2\x89\xa4c\xe2\x89\xa4m1\xe2\x89\xa4c\xe2\x89\xa4m; d\xe2\x89\xa50d\xe2\x89\xa50), which denote that the robot should start moving from cell (r,c)(r,c) to make the maximum number of moves dd. If there are several answers, output any of them.'
+Tags
+brute force, dfs and similar, graphs, implementation, *2300

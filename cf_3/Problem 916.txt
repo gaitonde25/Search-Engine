@@ -1,0 +1,11 @@
+b'A sequence of nn non-negative integers (n\xe2\x89\xa52n\xe2\x89\xa52) a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an is called good if for all ii from 11 to n\xe2\x88\x921n\xe2\x88\x921 the following condition holds true: a1&a2&\xe2\x80\xa6&ai=ai+1&ai+2&\xe2\x80\xa6&an,a1&a2&\xe2\x80\xa6&ai=ai+1&ai+2&\xe2\x80\xa6&an, where && denotes the bitwise AND operation.'
+b'You are given an array aa of size nn (n\xe2\x89\xa52n\xe2\x89\xa52). Find the number of permutations pp of numbers ranging from 11 to nn, for which the sequence ap1ap1, ap2ap2, ... ,apnapn is good. Since this number can be large, output it modulo 109+7109+7.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104), denoting the number of test cases.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the size of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the elements of the array.'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'Output tt lines, where the ii-th line contains the number of good permutations in the ii-th test case modulo 109+7109+7.'
+Tags
+bitmasks, combinatorics, constructive algorithms, math, *1400

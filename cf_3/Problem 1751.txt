@@ -1,0 +1,11 @@
+b'The statement of this problem is the same as the statement of problem C1. The only difference is that, in problem C1, nn is always even, and in C2, nn is always odd.'
+b"You are given a regular polygon with 2\xe2\x8b\x85n2\xe2\x8b\x85n vertices (it's convex and has equal sides and equal angles) and all its sides have length 11. Let's name it as 2n2n-gon."
+b'Your task is to find the square of the minimum size such that you can embed 2n2n-gon in the square. Embedding 2n2n-gon in the square means that you need to place 2n2n-gon in the square in such way that each point which lies inside or on a border of 2n2n-gon should also lie inside or on a border of the square.'
+b'You can rotate 2n2n-gon and/or the square.'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa42001\xe2\x89\xa4T\xe2\x89\xa4200)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b"Next TT lines contain descriptions of test cases\xc2\xa0\xe2\x80\x94 one per line. Each line contains single odd integer nn (3\xe2\x89\xa4n\xe2\x89\xa41993\xe2\x89\xa4n\xe2\x89\xa4199). Don't forget you need to embed 2n2n-gon, not an nn-gon."
+b'Output'
+b"Print TT real numbers\xc2\xa0\xe2\x80\x94 one per test case. For each test case, print the minimum length of a side of the square 2n2n-gon can be embedded in. Your answer will be considered correct if its absolute or relative error doesn't exceed 10\xe2\x88\x92610\xe2\x88\x926."
+Tags
+binary search, brute force, geometry, math, *2000

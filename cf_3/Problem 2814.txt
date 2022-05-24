@@ -1,0 +1,13 @@
+b'Two integer sequences existed initially, one of them was strictly increasing, and another one \xe2\x80\x94 strictly decreasing.'
+b'Strictly increasing sequence is a sequence of integers [x1<x2<\xe2\x8b\xaf<xk][x1<x2<\xe2\x8b\xaf<xk]. And strictly decreasing sequence is a sequence of integers [y1>y2>\xe2\x8b\xaf>yl][y1>y2>\xe2\x8b\xaf>yl]. Note that the empty sequence and the sequence consisting of one element can be considered as increasing or decreasing.'
+b'Elements of increasing sequence were inserted between elements of the decreasing one (and, possibly, before its first element and after its last element) without changing the order. For example, sequences [1,3,4][1,3,4] and [10,4,2][10,4,2] can produce the following resulting sequences: [10,1,3,4,2,4][10,1,3,4,2,4], [1,3,4,10,4,2][1,3,4,10,4,2]. The following sequence cannot be the result of these insertions: [1,10,4,4,3,2][1,10,4,4,3,2] because the order of elements in the increasing sequence was changed.'
+b'Let the obtained sequence be aa. This sequence aa is given in the input. Your task is to find any two suitable initial sequences. One of them should be strictly increasing, and another one \xe2\x80\x94 strictly decreasing. Note that the empty sequence and the sequence consisting of one element can be considered as increasing or decreasing.'
+b'If there is a contradiction in the input and it is impossible to split the given sequence aa into one increasing sequence and one decreasing sequence, print "NO".'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements in aa.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105), where aiai is the ii-th element of aa.'
+b'Output'
+b'If there is a contradiction in the input and it is impossible to split the given sequence aa into one increasing sequence and one decreasing sequence, print "NO" in the first line.'
+b'Otherwise print "YES" in the first line. In the second line, print a sequence of nn integers res1,res2,\xe2\x80\xa6,resnres1,res2,\xe2\x80\xa6,resn, where resiresi should be either 00 or 11 for each ii from 11 to nn. The ii-th element of this sequence should be 00 if the ii-th element of aa belongs to the increasing sequence, and 11 otherwise. Note that the empty sequence and the sequence consisting of one element can be considered as increasing or decreasing.'
+Tags
+dp, greedy, *2400

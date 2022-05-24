@@ -1,0 +1,9 @@
+b"Diana loves playing with numbers. She's got nn cards with positive integer numbers aiai written on them. She spends her free time multiplying the numbers on the cards. She picks a non-empty subset of the cards and multiplies all the numbers aiai written on them."
+b'Diana is happy when the product of the numbers ends with her favorite digit dd. Now she is curious what cards she should pick so that the product of the numbers on them is the largest possible and the last decimal digit of the product is dd. Please, help her.'
+b'Input'
+b'The first line contains the integers nn and dd (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 0\xe2\x89\xa4d\xe2\x89\xa490\xe2\x89\xa4d\xe2\x89\xa49). The second line contains nn integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa410001\xe2\x89\xa4ai\xe2\x89\xa41000). '
+b'Output'
+b'On the first line, print the number of chosen cards kk (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n). On the next line, print the numbers written on the chosen cards in any order. '
+b'If it is impossible to choose a subset of cards with the product that ends with the digit dd, print the single line with \xe2\x88\x921\xe2\x88\x921.'
+Tags
+dp, math, number theory, *2100

@@ -1,0 +1,16 @@
+b'Bob is a pirate looking for the greatest treasure the world has ever seen. The treasure is located at the point TT, which coordinates to be found out.'
+b'Bob travelled around the world and collected clues of the treasure location at nn obelisks. These clues were in an ancient language, and he has only decrypted them at home. Since he does not know which clue belongs to which obelisk, finding the treasure might pose a challenge. Can you help him?'
+b'As everyone knows, the world is a two-dimensional plane. The ii-th obelisk is at integer coordinates (xi,yi)(xi,yi). The jj-th clue consists of 22 integers (aj,bj)(aj,bj) and belongs to the obelisk pjpj, where pp is some (unknown) permutation on nn elements. It means that the treasure is located at T=(xpj+aj,ypj+bj)T=(xpj+aj,ypj+bj). This point TT is the same for all clues.'
+b'In other words, each clue belongs to exactly one of the obelisks, and each obelisk has exactly one clue that belongs to it. A clue represents the vector from the obelisk to the treasure. The clues must be distributed among the obelisks in such a way that they all point to the same position of the treasure.'
+b'Your task is to find the coordinates of the treasure. If there are multiple solutions, you may print any of them.'
+b"Note that you don't need to find the permutation. Permutations are used only in order to explain the problem."
+b'Input'
+b'The first line contains an integer nn\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of obelisks, that is also equal to the number of clues.'
+b'Each of the next nn lines contains two integers xixi, yiyi\xc2\xa0(\xe2\x88\x92106\xe2\x89\xa4xi,yi\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4xi,yi\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the coordinates of the ii-th obelisk. All coordinates are distinct, that is xi\xe2\x89\xa0xjxi\xe2\x89\xa0xj or yi\xe2\x89\xa0yjyi\xe2\x89\xa0yj will be satisfied for every (i,j)(i,j) such that i\xe2\x89\xa0ji\xe2\x89\xa0j. '
+b'Each of the next nn lines contains two integers aiai, bibi\xc2\xa0(\xe2\x88\x922\xe2\x8b\x85106\xe2\x89\xa4ai,bi\xe2\x89\xa42\xe2\x8b\x85106\xe2\x88\x922\xe2\x8b\x85106\xe2\x89\xa4ai,bi\xe2\x89\xa42\xe2\x8b\x85106)\xc2\xa0\xe2\x80\x94 the direction of the ii-th clue. All coordinates are distinct, that is ai\xe2\x89\xa0ajai\xe2\x89\xa0aj or bi\xe2\x89\xa0bjbi\xe2\x89\xa0bj will be satisfied for every (i,j)(i,j) such that i\xe2\x89\xa0ji\xe2\x89\xa0j. '
+b'It is guaranteed that there exists a permutation pp, such that for all i,ji,j it holds (xpi+ai,ypi+bi)=(xpj+aj,ypj+bj)(xpi+ai,ypi+bi)=(xpj+aj,ypj+bj). '
+b'Output'
+b'Output a single line containing two integers Tx,TyTx,Ty\xc2\xa0\xe2\x80\x94 the coordinates of the treasure.'
+b'If there are multiple answers, you may print any of them.'
+Tags
+brute force, constructive algorithms, greedy, implementation, *1200

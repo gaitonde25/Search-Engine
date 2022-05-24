@@ -1,0 +1,14 @@
+b"At first, there was a legend related to the name of the problem, but now it's just a formal statement."
+b'You are given nn points a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an on the OXOX axis. Now you are asked to find such an integer point xx on OXOX axis that fk(x)fk(x) is minimal possible.'
+b'The function fk(x)fk(x) can be described in the following way: '
+b'  form a list of distances d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn where di=|ai\xe2\x88\x92x|di=|ai\xe2\x88\x92x| (distance between aiai and xx);  sort list dd in non-descending order;  take dk+1dk+1 as a result. '
+b'If there are multiple optimal answers you can print any of them.'
+b'Input'
+b'The first line contains single integer TT (1\xe2\x89\xa4T\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4T\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 number of queries. Next 2\xe2\x8b\x85T2\xe2\x8b\x85T lines contain descriptions of queries. All queries are independent. '
+b'The first line of each query contains two integers nn, kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 0\xe2\x89\xa4k<n0\xe2\x89\xa4k<n) \xe2\x80\x94 the number of points and constant kk.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<an\xe2\x89\xa41091\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<an\xe2\x89\xa4109) \xe2\x80\x94 points in ascending order.'
+b"It's guaranteed that \xe2\x88\x91n\xe2\x88\x91n doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'Print TT integers \xe2\x80\x94 corresponding points xx which have minimal possible value of fk(x)fk(x). If there are multiple answers you can print any of them.'
+Tags
+binary search, brute force, greedy, *1600

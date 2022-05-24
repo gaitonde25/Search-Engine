@@ -1,0 +1,14 @@
+b'Alice and Bob play a game. Initially they have a string s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn, consisting of only characters . and X. They take alternating turns, and Alice is moving first. During each turn, the player has to select a contiguous substring consisting only of characters . and replaces each of them with X. Alice must select a substing of length aa, and Bob must select a substring of length bb. It is guaranteed that a>ba>b.'
+b"For example, if s=s= ...X.. and a=3a=3, b=2b=2, then after Alice's move string can turn only into XXXX... And if it's Bob's turn and the string s=s= ...X.., then after Bob's move the string can turn into XX.X.., .XXX.. or ...XXX."
+b'Whoever is unable to make a move, loses. You have to determine who wins if they both play optimally.'
+b'You have to answer qq independent queries.'
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of queries.'
+b'The first line of each query contains two integers aa and bb (1\xe2\x89\xa4b<a\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4b<a\xe2\x89\xa43\xe2\x8b\x85105).'
+b'The second line of each query contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4|s|\xe2\x89\xa43\xe2\x8b\x85105), consisting of only characters . and X.'
+b'It is guaranteed that sum of all |s||s| over all queries not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case print YES if Alice can win and NO otherwise.'
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES will all be recognized as positive answer).'
+Tags
+games, *2500

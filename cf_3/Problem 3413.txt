@@ -1,0 +1,16 @@
+b'In "The Man in the High Castle" world, there are mm different film endings. '
+b'Abendsen owns a storage and a shelf. At first, he has nn ordered films on the shelf. In the ii-th month he will do:'
+b' Empty the storage. Put ki\xe2\x8b\x85mki\xe2\x8b\x85m films into the storage, kiki films for each ending. He will think about a question: if he puts all the films from the shelf into the storage, then randomly picks nn films (from all the films in the storage) and rearranges them on the shelf, what is the probability that sequence of endings in [li,ri][li,ri] on the shelf will not be changed? Notice, he just thinks about this question, so the shelf will not actually be changed.'
+b"Answer all Abendsen's questions."
+b"Let the probability be fraction PiPi. Let's say that the total number of ways to take nn films from the storage for ii-th month is AiAi, so Pi\xe2\x8b\x85AiPi\xe2\x8b\x85Ai is always an integer. Print for each month Pi\xe2\x8b\x85Ai(mod998244353)Pi\xe2\x8b\x85Ai(mod998244353)."
+b'998244353998244353 is a prime number and it is equal to 119\xe2\x8b\x85223+1119\xe2\x8b\x85223+1.'
+b'It is guaranteed that there will be only no more than 100100 different kk values.'
+b'Input'
+b'The first line contains three integers nn, mm, and qq (1\xe2\x89\xa4n,m,q\xe2\x89\xa41051\xe2\x89\xa4n,m,q\xe2\x89\xa4105, n+q\xe2\x89\xa4105n+q\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of films on the shelf initially, the number of endings, and the number of months.'
+b'The second line contains nn integers e1,e2,\xe2\x80\xa6,ene1,e2,\xe2\x80\xa6,en (1\xe2\x89\xa4ei\xe2\x89\xa4m1\xe2\x89\xa4ei\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the ending of the ii-th film on the shelf.'
+b'Each of the next qq lines contains three integers lili, riri, and kiki (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n,0\xe2\x89\xa4ki\xe2\x89\xa41051\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n,0\xe2\x89\xa4ki\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the ii-th query.'
+b'It is guaranteed that there will be only no more than 100100 different kk values.'
+b'Output'
+b'Print the answer for each question in a separate line.'
+Tags
+brute force, *3300

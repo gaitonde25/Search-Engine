@@ -1,0 +1,15 @@
+b'You are given a sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an consisting of nn integers.'
+b'You can choose any non-negative integer DD (i.e. D\xe2\x89\xa50D\xe2\x89\xa50), and for each aiai you can:'
+b'  add DD (only once), i.\xe2\x80\x89e. perform ai:=ai+Dai:=ai+D, or  subtract DD (only once), i.\xe2\x80\x89e. perform ai:=ai\xe2\x88\x92Dai:=ai\xe2\x88\x92D, or  leave the value of aiai unchanged. '
+b'It is possible that after an operation the value aiai becomes negative.'
+b'Your goal is to choose such minimum non-negative integer DD and perform changes in such a way, that all aiai are equal (i.e. a1=a2=\xe2\x8b\xaf=ana1=a2=\xe2\x8b\xaf=an).'
+b'Print the required DD or, if it is impossible to choose such value DD, print -1.'
+b'For example, for array [2,8][2,8] the value D=3D=3 is minimum possible because you can obtain the array [5,5][5,5] if you will add DD to 22 and subtract DD from 88. And for array [1,4,7,7][1,4,7,7] the value D=3D=3 is also minimum possible. You can add it to 11 and subtract it from 77 and obtain the array [4,4,4,4][4,4,4,4].'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of elements in aa.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100) \xe2\x80\x94 the sequence aa.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum non-negative integer value DD such that if you add this value to some aiai, subtract this value from some aiai and leave some aiai without changes, all obtained values become equal.'
+b'If it is impossible to choose such value DD, print -1.'
+Tags
+math, *1200

@@ -1,0 +1,11 @@
+b'This time Baby Ehab will only cut and not stick. He starts with a piece of paper with an array aa of length nn written on it, and then he does the following:'
+b'  he picks a range (l,r)(l,r) and cuts the subsegment al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar out, removing the rest of the array.  he then cuts this range into multiple subranges.  to add a number theory spice to it, he requires that the elements of every subrange must have their product equal to their least common multiple (LCM). '
+b'Formally, he partitions the elements of al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar into contiguous subarrays such that the product of every subarray is equal to its LCM. Now, for qq independent ranges (l,r)(l,r), tell Baby Ehab the minimum number of subarrays he needs.'
+b'Input'
+b'The first line contains 22 integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa41051\xe2\x89\xa4n,q\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of the array aa and the number of queries.'
+b'The next line contains nn integers a1a1, a2a2, \xe2\x80\xa6\xe2\x80\xa6, anan (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b"Each of the next qq lines contains 22 integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the endpoints of this query's interval."
+b'Output'
+b'For each query, print its answer on a new line.'
+Tags
+binary search, data structures, dp, graphs, number theory, two pointers, *2100

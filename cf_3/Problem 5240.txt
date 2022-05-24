@@ -1,0 +1,12 @@
+b'After seeing the "ALL YOUR BASE ARE BELONG TO US" meme for the first time, numbers X and Y realised that they have different bases, which complicated their relations.'
+b"You're given a number X represented in base bx and a number Y represented in base by. Compare those two numbers."
+b'Input'
+b'The first line of the input contains two space-separated integers n and bx (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bx\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8940), where n is the number of digits in the bx-based representation of X. '
+b'The second line contains n space-separated integers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89<\xe2\x80\x89bx) \xe2\x80\x94 the digits of X. They are given in the order from the most significant digit to the least significant one.'
+b'The following two lines describe Y in the same way: the third line contains two space-separated integers m and by (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89by\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8940, bx\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89by), where m is the number of digits in the by-based representation of Y, and the fourth line contains m space-separated integers y1,\xe2\x80\x89y2,\xe2\x80\x89...,\xe2\x80\x89ym (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89yi\xe2\x80\x89<\xe2\x80\x89by) \xe2\x80\x94 the digits of Y.'
+b'There will be no leading zeroes. Both X and Y will be positive. All digits of both numbers are given in the standard decimal numeral system.'
+b'Output'
+b'Output a single character (quotes for clarity): '
+b"  '<' if X\xe2\x80\x89<\xe2\x80\x89Y  '>' if X\xe2\x80\x89>\xe2\x80\x89Y  '=' if X\xe2\x80\x89=\xe2\x80\x89Y "
+Tags
+brute force, implementation, *1100

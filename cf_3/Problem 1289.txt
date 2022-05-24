@@ -1,0 +1,13 @@
+b'Yurii is sure he can do everything. Can he solve this task, though?'
+b"He has an array aa consisting of nn positive integers. Let's call a subarray a[l...r]a[l...r] good if the following conditions are simultaneously satisfied: "
+b'  l+1\xe2\x89\xa4r\xe2\x88\x921l+1\xe2\x89\xa4r\xe2\x88\x921, i.\xc2\xa0e. the subarray has length at least 33;  (al\xe2\x8a\x95ar)=(al+1+al+2+\xe2\x80\xa6+ar\xe2\x88\x922+ar\xe2\x88\x921)(al\xe2\x8a\x95ar)=(al+1+al+2+\xe2\x80\xa6+ar\xe2\x88\x922+ar\xe2\x88\x921), where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation. '
+b'In other words, a subarray is good if the bitwise XOR of the two border elements is equal to the sum of the rest of the elements. '
+b'Yurii wants to calculate the total number of good subarrays. What is it equal to?'
+b'An array cc is a subarray of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b'Input'
+b'The first line contains a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of aa. '
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai<2301\xe2\x89\xa4ai<230)\xc2\xa0\xe2\x80\x94 elements of aa. '
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the number of good subarrays. '
+Tags
+binary search, bitmasks, brute force, constructive algorithms, divide and conquer, two pointers, *2500

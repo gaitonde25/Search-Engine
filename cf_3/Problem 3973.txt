@@ -1,0 +1,9 @@
+b'Vasya has a non-negative integer n. He wants to round it to nearest integer, which ends up with 0. If n already ends up with 0, Vasya considers it already rounded.'
+b'For example, if n\xe2\x80\x89=\xe2\x80\x894722 answer is 4720. If n\xe2\x80\x89=\xe2\x80\x895 Vasya can round it to 0 or to 10. Both ways are correct.'
+b'For given n find out to which integer will Vasya round it.'
+b'Input'
+b'The first line contains single integer n (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 number that Vasya has.'
+b'Output'
+b"Print result of rounding n. Pay attention that in some cases answer isn't unique. In that case print any correct answer."
+Tags
+implementation, math, *800

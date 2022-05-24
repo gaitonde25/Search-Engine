@@ -1,0 +1,13 @@
+b'Finished her homework, Nastya decided to play computer games. Passing levels one by one, Nastya eventually faced a problem. Her mission is to leave a room, where a lot of monsters live, as quickly as possible.'
+b'There are nn manholes in the room which are situated on one line, but, unfortunately, all the manholes are closed, and there is one stone on every manhole. There is exactly one coin under every manhole, and to win the game Nastya should pick all the coins. Initially Nastya stands near the kk-th manhole from the left. She is thinking what to do.'
+b'In one turn, Nastya can do one of the following: '
+b"  if there is at least one stone on the manhole Nastya stands near, throw exactly one stone from it onto any other manhole (yes, Nastya is strong).  go to a neighboring manhole;  if there are no stones on the manhole Nastya stays near, she can open it and pick the coin from it. After it she must close the manhole immediately (it doesn't require additional moves). "
+b'  The figure shows the intermediate state of the game. At the current position Nastya can throw the stone to any other manhole or move left or right to the neighboring manholes. If she were near the leftmost manhole, she could open it (since there are no stones on it). '
+b'Nastya can leave the room when she picks all the coins. Monsters are everywhere, so you need to compute the minimum number of moves Nastya has to make to pick all the coins.'
+b'Note one time more that Nastya can open a manhole only when there are no stones onto it.'
+b'Input'
+b'The first and only line contains two integers nn and kk, separated by space (2\xe2\x89\xa4n\xe2\x89\xa450002\xe2\x89\xa4n\xe2\x89\xa45000, 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of manholes and the index of manhole from the left, near which Nastya stays initially. Initially there is exactly one stone near each of the nn manholes. '
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 minimum number of moves which lead Nastya to pick all the coins.'
+Tags
+constructive algorithms, math, *1000

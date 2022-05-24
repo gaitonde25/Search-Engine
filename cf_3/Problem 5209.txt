@@ -1,0 +1,11 @@
+b'The semester is already ending, so Danil made an effort and decided to visit a lesson on harmony analysis to know how does the professor look like, at least. Danil was very bored on this lesson until the teacher gave the group a simple task: find 4 vectors in 4-dimensional space, such that every coordinate of every vector is 1 or \xe2\x80\x89-\xe2\x80\x891 and any two vectors are orthogonal. Just as a reminder, two vectors in n-dimensional space are considered to be orthogonal if and only if their scalar product is equal to zero, that is: '
+b''
+b'.'
+b'Danil quickly managed to come up with the solution for this problem and the teacher noticed that the problem can be solved in a more general case for 2k vectors in 2k-dimensinoal space. When Danil came home, he quickly came up with the solution for this problem. Can you cope with it?'
+b'Input'
+b'The only line of the input contains a single integer k (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x899).'
+b'Output'
+b"Print 2k lines consisting of 2k characters each. The j-th character of the i-th line must be equal to '\xe2\x80\x89*\xe2\x80\x89' if the j-th coordinate of the i-th vector is equal to \xe2\x80\x89-\xe2\x80\x891, and must be equal to '\xe2\x80\x89+\xe2\x80\x89' if it's equal to \xe2\x80\x89+\xe2\x80\x891. It's guaranteed that the answer always exists."
+b'If there are many correct answers, print any.'
+Tags
+constructive algorithms, *1800

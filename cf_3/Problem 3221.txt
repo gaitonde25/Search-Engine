@@ -1,0 +1,12 @@
+b'You are given an integer array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b'The array bb is called to be a subsequence of aa if it is possible to remove some elements from aa to get bb.'
+b'Array b1,b2,\xe2\x80\xa6,bkb1,b2,\xe2\x80\xa6,bk is called to be good if it is not empty and for every ii (1\xe2\x89\xa4i\xe2\x89\xa4k1\xe2\x89\xa4i\xe2\x89\xa4k) bibi is divisible by ii.'
+b'Find the number of good subsequences in aa modulo 109+7109+7. '
+b'Two subsequences are considered different if index sets of numbers included in them are different. That is, the values \xe2\x80\x8bof the elements \xe2\x80\x8bdo not matter in the comparison of subsequences. In particular, the array aa has exactly 2n\xe2\x88\x9212n\xe2\x88\x921 different subsequences (excluding an empty subsequence).'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the length of the array aa.'
+b'The next line contains integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106).'
+b'Output'
+b'Print exactly one integer\xc2\xa0\xe2\x80\x94 the number of good subsequences taken modulo 109+7109+7.'
+Tags
+data structures, dp, implementation, math, number theory, *1700

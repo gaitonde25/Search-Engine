@@ -1,0 +1,16 @@
+b'You are given three strings ss, tt and pp consisting of lowercase Latin letters. You may perform any number (possibly, zero) operations on these strings.'
+b'During each operation you choose any character from pp, erase it from pp and insert it into string ss (you may insert this character anywhere you want: in the beginning of ss, in the end or between any two consecutive characters). '
+b'For example, if pp is aba, and ss is de, then the following outcomes are possible (the character we erase from pp and insert into ss is highlighted):'
+b'  aba \xe2\x86\x92\xe2\x86\x92 ba, de \xe2\x86\x92\xe2\x86\x92 ade;  aba \xe2\x86\x92\xe2\x86\x92 ba, de \xe2\x86\x92\xe2\x86\x92 dae;  aba \xe2\x86\x92\xe2\x86\x92 ba, de \xe2\x86\x92\xe2\x86\x92 dea;  aba \xe2\x86\x92\xe2\x86\x92 aa, de \xe2\x86\x92\xe2\x86\x92 bde;  aba \xe2\x86\x92\xe2\x86\x92 aa, de \xe2\x86\x92\xe2\x86\x92 dbe;  aba \xe2\x86\x92\xe2\x86\x92 aa, de \xe2\x86\x92\xe2\x86\x92 deb;  aba \xe2\x86\x92\xe2\x86\x92 ab, de \xe2\x86\x92\xe2\x86\x92 ade;  aba \xe2\x86\x92\xe2\x86\x92 ab, de \xe2\x86\x92\xe2\x86\x92 dae;  aba \xe2\x86\x92\xe2\x86\x92 ab, de \xe2\x86\x92\xe2\x86\x92 dea; '
+b'Your goal is to perform several (maybe zero) operations so that ss becomes equal to tt. Please determine whether it is possible.'
+b'Note that you have to answer qq independent queries.'
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41001\xe2\x89\xa4q\xe2\x89\xa4100) \xe2\x80\x94 the number of queries. Each query is represented by three consecutive lines.'
+b'The first line of each query contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa41001\xe2\x89\xa4|s|\xe2\x89\xa4100) consisting of lowercase Latin letters.'
+b'The second line of each query contains the string tt (1\xe2\x89\xa4|t|\xe2\x89\xa41001\xe2\x89\xa4|t|\xe2\x89\xa4100) consisting of lowercase Latin letters.'
+b'The third line of each query contains the string pp (1\xe2\x89\xa4|p|\xe2\x89\xa41001\xe2\x89\xa4|p|\xe2\x89\xa4100) consisting of lowercase Latin letters.'
+b'Output'
+b'For each query print YES if it is possible to make ss equal to tt, and NO otherwise.'
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES will all be recognized as positive answer).'
+Tags
+implementation, strings, *1300

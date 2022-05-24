@@ -1,0 +1,13 @@
+b'Polycarp came up with a new programming language. There are only two types of statements in it: '
+b'  "x := s": assign the variable named x the value s (where s is a string). For example, the statement var := hello assigns the variable named var the value hello. Note that s is the value of a string, not the name of a variable. Between the variable name, the := operator and the string contains exactly one space each. "x = a + b": assign the variable named x the concatenation of values of two variables a and b. For example, if the program consists of three statements a := hello, b := world, c = a + b, then the variable c will contain the string helloworld. It is guaranteed that the program is correct and the variables a and b were previously defined. There is exactly one space between the variable names and the = and + operators. '
+b'All variable names and strings only consist of lowercase letters of the English alphabet and do not exceed 55 characters.'
+b'The result of the program is the number of occurrences of string haha in the string that was written to the variable in the last statement.'
+b'Polycarp was very tired while inventing that language. He asks you to implement it. Your task is\xc2\xa0\xe2\x80\x94 for given program statements calculate the number of occurrences of string haha in the last assigned variable.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103). Then tt test cases follow.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the number of statements in the program. All variable names and strings are guaranteed to consist only of lowercase letters of the English alphabet and do not exceed 55 characters.'
+b'This is followed by nn lines describing the statements in the format described above. It is guaranteed that the program is correct.'
+b'Output'
+b'For each set of input data, output the number of occurrences of the haha substring in the string that was written to the variable in the last statement.'
+Tags
+data structures, hashing, implementation, matrices, strings, *2100

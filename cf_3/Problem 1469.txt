@@ -1,0 +1,17 @@
+b'The mythic world of Chess Land is a rectangular grid of squares with RR rows and CC columns, RR being greater than or equal to CC. Its rows and columns are numbered from 11 to RR and 11 to CC, respectively. '
+b'The inhabitants of Chess Land are usually mentioned as pieces in everyday language, and there are 55 specific types of them roaming the land: pawns, rooks, bishops, queens and kings. Contrary to popular belief, chivalry is long dead in Chess Land, so there are no knights to be found.'
+b'Each piece is unique in the way it moves around from square to square: in one step, '
+b'  a pawn can move one row forward (i.e. from row rr to r+1r+1), without changing columns;  a rook can move any number of columns left/right without changing rows OR move any number of rows forward/backward without changing columns;  a bishop can move to any square of the two diagonals intersecting at its currently occupied square;  a queen can move to any square where a rook or a bishop could move to from her position;  and a king can move to any of the 88 adjacent squares. '
+b' In the following figure, we marked by X the squares each piece can move to in a single step (here, the rows are numbered from bottom to top, and the columns from left to right).'
+b'  '
+b'Recently, Chess Land has become a dangerous place: pieces that are passing through the land can get captured unexpectedly by unknown forces and simply disappear. As a consequence, they would like to reach their destinations as fast (i.e. in as few moves) as possible, and they are also interested in the number of different ways it is possible for them to reach it, using the minimal number of steps \xe2\x80\x93 because more paths being available could mean lower chances of getting captured. Two paths are considered different if they differ in at least one visited square.'
+b'For this problem, let us assume that pieces are entering Chess Land in a given column of row 11, and exit the land in a given column of row RR. Your task is to answer QQ questions: given the type of a piece, the column it enters row 11 and the column it must reach in row RR in order to exit, compute the minimal number of moves it has to make in Chess Land, and the number of different ways it is able to do so.'
+b'Input'
+b'The first line contains three space-separated integers RR, CC, and QQ (1\xe2\x89\xa4Q\xe2\x89\xa41000(1\xe2\x89\xa4Q\xe2\x89\xa41000, 2\xe2\x89\xa4C\xe2\x89\xa410002\xe2\x89\xa4C\xe2\x89\xa41000 and C\xe2\x89\xa4R\xe2\x89\xa4109)C\xe2\x89\xa4R\xe2\x89\xa4109) \xe2\x80\x93 the number of rows and columns of Chess Land, and the number of questions, respectively. Then QQ lines follow.'
+b'Each line consists of '
+b"  a character TT, corresponding to the type of the piece in question ('P' for pawn, 'R' for rook, 'B' for bishop, 'Q' for queen and 'K' for king);  two integers c1c1 and cRcR, 1\xe2\x89\xa4c1,cR\xe2\x89\xa4C1\xe2\x89\xa4c1,cR\xe2\x89\xa4C, denoting that the piece starts from the c1c1-th column of row 11, and has to reach the cRcR-th column of row RR. "
+b'Output'
+b'You have to print QQ lines, the ii-th one containing two space separated integers, the answer to the ii-th question: the first one is the minimal number of steps needed, the second is the number of different paths available using this number of steps. Since the answer can be quite large, you have to compute it modulo 109+7109+7.'
+b'If it is impossible to reach the target square, output the line "0 0".'
+Tags
+*special problem, combinatorics, dp, implementation, math, *3200

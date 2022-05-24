@@ -1,0 +1,13 @@
+b'And where the are the phone numbers?'
+b'You are given a string s consisting of lowercase English letters and an integer k. Find the lexicographically smallest string t of length k, such that its set of letters is a subset of the set of letters of s and s is lexicographically smaller than t.'
+b"It's guaranteed that the answer exists."
+b'Note that the set of letters is a set, not a multiset. For example, the set of letters of abadaba is {a,\xe2\x80\x89b,\xe2\x80\x89d}.'
+b'String p is lexicographically smaller than string q, if p is a prefix of q, is not equal to q or there exists i, such that pi\xe2\x80\x89<\xe2\x80\x89qi and for all j\xe2\x80\x89<\xe2\x80\x89i it is satisfied that pj\xe2\x80\x89=\xe2\x80\x89qj. For example, abc is lexicographically smaller than abcd , abd is lexicographically smaller than abec, afa is not lexicographically smaller than ab and a is not lexicographically smaller than a.'
+b'Input'
+b'The first line of input contains two space separated integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the length of s and the required length of t.'
+b'The second line of input contains the string s consisting of n lowercase English letters.'
+b'Output'
+b'Output the string t conforming to the requirements above.'
+b"It's guaranteed that the answer exists."
+Tags
+constructive algorithms, implementation, strings, *1500

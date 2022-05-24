@@ -1,0 +1,16 @@
+b'There are nn pieces of cake on a line. The ii-th piece of cake has weight aiai (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n).'
+b'The tastiness of the cake is the maximum total weight of two adjacent pieces of cake (i.\xc2\xa0e., max(a1+a2,a2+a3,\xe2\x80\xa6,an\xe2\x88\x921+an)max(a1+a2,a2+a3,\xe2\x80\xa6,an\xe2\x88\x921+an)).'
+b'You want to maximize the tastiness of the cake. You are allowed to do the following operation at most once (doing more operations would ruin the cake): '
+b'  Choose a contiguous subsegment a[l,r]a[l,r] of pieces of cake (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n), and reverse it. '
+b'The subsegment a[l,r]a[l,r] of the array aa is the sequence al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar.'
+b'If you reverse it, the array will become a1,a2,\xe2\x80\xa6,al\xe2\x88\x922,al\xe2\x88\x921,ar\xe2\x80\x93\xe2\x80\x93,ar\xe2\x88\x921\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,\xe2\x80\xa6\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,al+1\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,al\xe2\x80\x93\xe2\x80\x93,ar+1,ar+2,\xe2\x80\xa6,an\xe2\x88\x921,ana1,a2,\xe2\x80\xa6,al\xe2\x88\x922,al\xe2\x88\x921,ar_,ar\xe2\x88\x921_,\xe2\x80\xa6_,al+1_,al_,ar+1,ar+2,\xe2\x80\xa6,an\xe2\x88\x921,an.'
+b'For example, if the weights are initially [5,2,1,4,7,3][5,2,1,4,7,3], you can reverse the subsegment a[2,5]a[2,5], getting [5,7\xe2\x80\x93,4\xe2\x80\x93,1\xe2\x80\x93,2\xe2\x80\x93,3][5,7_,4_,1_,2_,3]. The tastiness of the cake is now 5+7=125+7=12 (while before the operation the tastiness was 4+7=114+7=11).'
+b'Find the maximum tastiness of the cake after doing the operation at most once.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4501\xe2\x89\xa4t\xe2\x89\xa450) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the number of pieces of cake.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 aiai is the weight of the ii-th piece of cake.'
+b'Output'
+b'For each test case, print a single integer: the maximum tastiness of the cake after doing the operation at most once.'
+Tags
+brute force, greedy, implementation, sortings, *800

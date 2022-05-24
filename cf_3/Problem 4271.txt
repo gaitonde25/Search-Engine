@@ -1,0 +1,14 @@
+b'You are given a tree consisting of n vertices (numbered from 1 to n). Initially all vertices are white. You have to process q queries of two different types:'
+b'  1 x \xe2\x80\x94 change the color of vertex x to black. It is guaranteed that the first query will be of this type.  2 x \xe2\x80\x94 for the vertex x, find the minimum index y such that the vertex with index y belongs to the simple path from x to some black vertex (a simple path never visits any vertex more than once). '
+b'For each query of type 2 print the answer to it.'
+b'Note that the queries are given in modified way.'
+b'Input'
+b'The first line contains two numbers n and q (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106).'
+b'Then n\xe2\x80\x89-\xe2\x80\x891 lines follow, each line containing two numbers xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89<\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) and representing the edge between vertices xi and yi.'
+b'It is guaranteed that these edges form a tree.'
+b"Then q lines follow. Each line contains two integers ti and zi, where ti is the type of ith query, and zi can be used to restore xi for this query in this way: you have to keep track of the answer to the last query of type 2 (let's call this answer last, and initially last\xe2\x80\x89=\xe2\x80\x890); then xi\xe2\x80\x89=\xe2\x80\x89(zi\xe2\x80\x89+\xe2\x80\x89last)\xe2\x80\x89mod\xe2\x80\x89n\xe2\x80\x89+\xe2\x80\x891."
+b'It is guaranteed that the first query is of type 1, and there is at least one query of type 2.'
+b'Output'
+b'For each query of type 2 output the answer to it.'
+Tags
+dfs and similar, graphs, trees, *2500

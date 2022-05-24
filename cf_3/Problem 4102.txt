@@ -1,0 +1,12 @@
+b'Petya and Vasya decided to play a game. They have n cards (n is an even number). A single integer is written on each card.'
+b'Before the game Petya will choose an integer and after that Vasya will choose another integer (different from the number that Petya chose). During the game each player takes all the cards with number he chose. For example, if Petya chose number 5 before the game he will take all cards on which 5 is written and if Vasya chose number 10 before the game he will take all cards on which 10 is written.'
+b'The game is considered fair if Petya and Vasya can take all n cards, and the number of cards each player gets is the same.'
+b'Determine whether Petya and Vasya can choose integer numbers before the game so that the game is fair. '
+b'Input'
+b'The first line contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 number of cards. It is guaranteed that n is an even number.'
+b'The following n lines contain a sequence of integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (one integer per line, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 numbers written on the n cards.'
+b'Output'
+b'If it is impossible for Petya and Vasya to choose numbers in such a way that the game will be fair, print "NO" (without quotes) in the first line. In this case you should not print anything more.'
+b'In the other case print "YES" (without quotes) in the first line. In the second line print two distinct integers \xe2\x80\x94 number that Petya should choose and the number that Vasya should choose to make the game fair. If there are several solutions, print any of them.'
+Tags
+implementation, sortings, *1000

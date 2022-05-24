@@ -1,0 +1,10 @@
+b"Jack decides to invite Emma out for a dinner. Jack is a modest student, he doesn't want to go to an expensive restaurant. Emma is a girl with high taste, she prefers elite places."
+b'Munhattan consists of n streets and m avenues. There is exactly one restaurant on the intersection of each street and avenue. The streets are numbered with integers from 1 to n and the avenues are numbered with integers from 1 to m. The cost of dinner in the restaurant at the intersection of the i-th street and the j-th avenue is cij.'
+b'Jack and Emma decide to choose the restaurant in the following way. Firstly Emma chooses the street to dinner and then Jack chooses the avenue. Emma and Jack makes their choice optimally: Emma wants to maximize the cost of the dinner, Jack wants to minimize it. Emma takes into account that Jack wants to minimize the cost of the dinner. Find the cost of the dinner for the couple in love.'
+b'Input'
+b'The first line contains two integers n,\xe2\x80\x89m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of streets and avenues in Munhattan.'
+b'Each of the next n lines contains m integers cij (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the cost of the dinner in the restaurant on the intersection of the i-th street and the j-th avenue.'
+b'Output'
+b'Print the only integer a \xe2\x80\x94 the cost of the dinner for Jack and Emma.'
+Tags
+games, greedy, *1000

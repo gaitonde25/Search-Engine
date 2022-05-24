@@ -1,0 +1,14 @@
+b'The string ss is given, the string length is odd number. The string consists of lowercase letters of the Latin alphabet.'
+b'As long as the string length is greater than 11, the following operation can be performed on it: select any two adjacent letters in the string ss and delete them from the string. For example, from the string "lemma" in one operation, you can get any of the four strings: "mma", "lma", "lea" or "lem" In particular, in one operation, the length of the string reduces by 22.'
+b'Formally, let the string ss have the form s=s1s2\xe2\x80\xa6sns=s1s2\xe2\x80\xa6sn (n>1n>1). During one operation, you choose an arbitrary index ii (1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n) and replace s=s1s2\xe2\x80\xa6si\xe2\x88\x921si+2\xe2\x80\xa6sns=s1s2\xe2\x80\xa6si\xe2\x88\x921si+2\xe2\x80\xa6sn.'
+b'For the given string ss and the letter cc, determine whether it is possible to make such a sequence of operations that in the end the equality s=cs=c will be true? In other words, is there such a sequence of operations that the process will end with a string of length 11, which consists of the letter cc?'
+b'Input'
+b'The first line of input data contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103) \xe2\x80\x94 the number of input test cases.'
+b'The descriptions of the tt cases follow. Each test case is represented by two lines:'
+b'  string ss, which has an odd length from 11 to 4949 inclusive and consists of lowercase letters of the Latin alphabet;  is a string containing one letter cc, where cc is a lowercase letter of the Latin alphabet. '
+b'Output'
+b'For each test case in a separate line output:'
+b' YES, if the string ss can be converted so that s=cs=c is true; NO otherwise. '
+b'You can output YES and NO in any case (for example, the strings yEs, yes, Yes and YES will be recognized as a positive response).'
+Tags
+implementation, strings, *800

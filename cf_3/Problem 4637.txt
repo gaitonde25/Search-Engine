@@ -1,0 +1,12 @@
+b'One day, Hongcow goes to the store and sees a brand new deck of n special cards. Each individual card is either red or blue. He decides he wants to buy them immediately. To do this, he needs to play a game with the owner of the store.'
+b'This game takes some number of turns to complete. On a turn, Hongcow may do one of two things: '
+b'  Collect tokens. Hongcow collects 1 red token and 1 blue token by choosing this option (thus, 2 tokens in total per one operation).  Buy a card. Hongcow chooses some card and spends tokens to purchase it as specified below. '
+b'The i-th card requires ri red resources and bi blue resources. Suppose Hongcow currently has A red cards and B blue cards. Then, the i-th card will require Hongcow to spend max(ri\xe2\x80\x89-\xe2\x80\x89A,\xe2\x80\x890) red tokens, and max(bi\xe2\x80\x89-\xe2\x80\x89B,\xe2\x80\x890) blue tokens. Note, only tokens disappear, but the cards stay with Hongcow forever. Each card can be bought only once.'
+b'Given a description of the cards and their costs determine the minimum number of turns Hongcow needs to purchase all cards.'
+b'Input'
+b'The first line of input will contain a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8916).'
+b"The next n lines of input will contain three tokens ci, ri and bi. ci will be 'R' or 'B', denoting the color of the card as red or blue. ri will be an integer denoting the amount of red resources required to obtain the card, and bi will be an integer denoting the amount of blue resources required to obtain the card (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107)."
+b'Output'
+b'Output a single integer, denoting the minimum number of turns needed to acquire all the cards.'
+Tags
+bitmasks, brute force, dp, *2400

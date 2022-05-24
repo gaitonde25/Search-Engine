@@ -1,0 +1,10 @@
+b'You are given a rooted tree consisting of nn vertices numbered from 11 to nn. The root of the tree is the vertex 11.'
+b'You have to color all vertices of the tree into nn colors (also numbered from 11 to nn) so that there is exactly one vertex for each color. Let cici be the color of vertex ii, and pipi be the parent of vertex ii in the rooted tree. The coloring is considered beautiful if there is no vertex kk (k>1k>1) such that ck=cpk\xe2\x88\x921ck=cpk\xe2\x88\x921, i.\xe2\x80\x89e. no vertex such that its color is less than the color of its parent by exactly 11.'
+b'Calculate the number of beautiful colorings, and print it modulo 998244353998244353.'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42500002\xe2\x89\xa4n\xe2\x89\xa4250000) \xe2\x80\x94 the number of vertices in the tree.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follow, the ii-th line contains two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n; xi\xe2\x89\xa0yixi\xe2\x89\xa0yi) denoting an edge between the vertex xixi and the vertex yiyi. These edges form a tree.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of beautiful colorings, taken modulo 998244353998244353.'
+Tags
+combinatorics, divide and conquer, fft, *2600

@@ -1,0 +1,11 @@
+b'You have a card deck of nn cards, numbered from top to bottom, i.\xc2\xa0e. the top card has index 11 and bottom card\xc2\xa0\xe2\x80\x94 index nn. Each card has its color: the ii-th card has color aiai.'
+b'You should process qq queries. The jj-th query is described by integer tjtj. For each query you should: '
+b'  find the highest card in the deck with color tjtj, i.\xc2\xa0e. the card with minimum index;  print the position of the card you found;  take the card and place it on top of the deck. '
+b'Input'
+b'The first line contains two integers nn and qq (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105; 1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of cards in the deck and the number of queries.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4501\xe2\x89\xa4ai\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the colors of cards.'
+b"The third line contains qq integers t1,t2,\xe2\x80\xa6,tqt1,t2,\xe2\x80\xa6,tq (1\xe2\x89\xa4tj\xe2\x89\xa4501\xe2\x89\xa4tj\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the query colors. It's guaranteed that queries ask only colors that are present in the deck."
+b'Output'
+b'Print qq integers\xc2\xa0\xe2\x80\x94 the answers for each query.'
+Tags
+brute force, data structures, implementation, trees, *1100

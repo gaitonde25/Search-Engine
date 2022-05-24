@@ -1,0 +1,14 @@
+b'You are given a number nn (divisible by 33) and an array a[1\xe2\x80\xa6n]a[1\xe2\x80\xa6n]. In one move, you can increase any of the array elements by one. Formally, you choose the index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and replace aiai with ai+1ai+1. You can choose the same index ii multiple times for different moves.'
+b"Let's denote by c0c0, c1c1 and c2c2 the number of numbers from the array aa that have remainders 00, 11 and 22 when divided by the number 33, respectively. Let's say that the array aa has balanced remainders if c0c0, c1c1 and c2c2 are equal."
+b'For example, if n=6n=6 and a=[0,2,5,5,4,8]a=[0,2,5,5,4,8], then the following sequence of moves is possible: '
+b"  initially c0=1c0=1, c1=1c1=1 and c2=4c2=4, these values are not equal to each other. Let's increase a3a3, now the array a=[0,2,6,5,4,8]a=[0,2,6,5,4,8];  c0=2c0=2, c1=1c1=1 and c2=3c2=3, these values are not equal. Let's increase a6a6, now the array a=[0,2,6,5,4,9]a=[0,2,6,5,4,9];  c0=3c0=3, c1=1c1=1 and c2=2c2=2, these values are not equal. Let's increase a1a1, now the array a=[1,2,6,5,4,9]a=[1,2,6,5,4,9];  c0=2c0=2, c1=2c1=2 and c2=2c2=2, these values are equal to each other, which means that the array aa has balanced remainders. "
+b'Find the minimum number of moves needed to make the array aa have balanced remainders.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Then tt test cases follow.'
+b'The first line of each test case contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851043\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85104)\xc2\xa0\xe2\x80\x94 the length of the array aa. It is guaranteed that the number nn is divisible by 33.'
+b'The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41000\xe2\x89\xa4ai\xe2\x89\xa4100).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 150000150000.'
+b'Output'
+b'For each test case, output one integer\xc2\xa0\xe2\x80\x94 the minimum number of moves that must be made for the aa array to make it have balanced remainders.'
+Tags
+brute force, constructive algorithms, math, *1000

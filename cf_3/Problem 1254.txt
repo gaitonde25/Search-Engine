@@ -1,0 +1,14 @@
+b'You are given a rectangular grid with nn rows and mm columns. The cell located on the ii-th row from the top and the jj-th column from the left has a value aijaij written in it.'
+b'You can perform the following operation any number of times (possibly zero):'
+b'  Choose any two adjacent cells and multiply the values in them by \xe2\x88\x921\xe2\x88\x921. Two cells are called adjacent if they share a side. '
+b'Note that you can use a cell more than once in different operations.'
+b'You are interested in XX, the sum of all the numbers in the grid. '
+b'What is the maximum XX you can achieve with these operations?'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn,mm (2\xe2\x89\xa4n2\xe2\x89\xa4n, m\xe2\x89\xa410m\xe2\x89\xa410). '
+b'The following nn lines contain mm integers each, the jj-th element in the ii-th line is aijaij (\xe2\x88\x92100\xe2\x89\xa4aij\xe2\x89\xa4100\xe2\x88\x92100\xe2\x89\xa4aij\xe2\x89\xa4100).'
+b'Output'
+b'For each testcase, print one integer XX, the maximum possible sum of all the values in the grid after applying the operation as many times as you want.'
+Tags
+greedy, math, *1000

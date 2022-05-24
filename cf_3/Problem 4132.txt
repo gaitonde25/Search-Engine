@@ -1,0 +1,13 @@
+b'Masha is fond of cacti. When she was a little girl, she decided to plant a tree. Now Masha wants to make a nice cactus out of her tree.'
+b'Recall that tree is a connected undirected graph that has no cycles. Cactus is a connected undirected graph such that each vertex belongs to at most one cycle.'
+b'Masha has some additional edges that she can add to a tree. For each edge she knows which vertices it would connect and the beauty of this edge. Masha can add some of these edges to the graph if the resulting graph is a cactus. Beauty of the resulting cactus is sum of beauties of all added edges. '
+b'Help Masha find out what maximum beauty of the resulting cactus she can achieve.'
+b'Input'
+b'The first line of the input data contains two integers n and m\xc2\xa0\xe2\x80\x94 the number of vertices in a tree, and the number of additional edges available (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105; 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105).'
+b"Let us describe Masha's tree. It has a root at vertex 1. The second line contains n\xe2\x80\x89-\xe2\x80\x891 integers: p2,\xe2\x80\x89p3,\xe2\x80\x89...,\xe2\x80\x89pn, here pi\xc2\xa0\xe2\x80\x94 is the parent of a vertex i\xc2\xa0\xe2\x80\x94 the first vertex on a path from the vertex i to the root of the tree (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89<\xe2\x80\x89i)."
+b'The following m lines contain three integers ui, vi and ci\xc2\xa0\xe2\x80\x94 pairs of vertices to be connected by the additional edges that Masha can add to the tree and beauty of edge (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n; ui\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89vi; 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104).'
+b'It is guaranteed that no additional edge coincides with the edge of the tree.'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the maximum beauty of a cactus Masha can achieve.'
+Tags
+dp, trees, *2400

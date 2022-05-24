@@ -1,0 +1,9 @@
+b'You are given the set of vectors on the plane, each of them starting at the origin. Your task is to find a pair of vectors with the minimal non-oriented angle between them.'
+b'Non-oriented angle is non-negative value, minimal between clockwise and counterclockwise direction angles. Non-oriented angle is always between 0 and \xcf\x80. For example, opposite directions vectors have angle equals to \xcf\x80.'
+b'Input'
+b'First line of the input contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of vectors.'
+b'The i-th of the following n lines contains two integers xi and yi (|x|,\xe2\x80\x89|y|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000,\xe2\x80\x89x2\xe2\x80\x89+\xe2\x80\x89y2\xe2\x80\x89>\xe2\x80\x890)\xc2\xa0\xe2\x80\x94 the coordinates of the i-th vector. Vectors are numbered from 1 to n in order of appearing in the input. It is guaranteed that no two vectors in the input share the same direction (but they still can have opposite directions).'
+b'Output'
+b'Print two integer numbers a and b (a\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89b)\xc2\xa0\xe2\x80\x94 a pair of indices of vectors with the minimal non-oriented angle. You can print the numbers in any order. If there are many possible answers, print any.'
+Tags
+geometry, sortings, *2300

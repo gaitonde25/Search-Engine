@@ -1,0 +1,11 @@
+b'A card pyramid of height 11 is constructed by resting two cards against each other. For h>1h>1, a card pyramid of height hh is constructed by placing a card pyramid of height h\xe2\x88\x921h\xe2\x88\x921 onto a base. A base consists of hh pyramids of height 11, and h\xe2\x88\x921h\xe2\x88\x921 cards on top. For example, card pyramids of heights 11, 22, and 33 look as follows:'
+b'  '
+b'You start with nn cards and build the tallest pyramid that you can. If there are some cards remaining, you build the tallest pyramid possible with the remaining cards. You repeat this process until it is impossible to build another pyramid. In the end, how many pyramids will you have constructed?'
+b'Input'
+b'Each test consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Next tt lines contain descriptions of test cases.'
+b'Each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of cards.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 109109.'
+b'Output'
+b'For each test case output a single integer\xc2\xa0\xe2\x80\x94 the number of pyramids you will have constructed in the end.'
+Tags
+binary search, brute force, dp, math, *1100

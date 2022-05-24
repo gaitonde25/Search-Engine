@@ -1,0 +1,12 @@
+b'Mike and !Mike are old childhood rivals, they are opposite in everything they do, except programming. Today they have a problem they cannot solve on their own, but together (with you)\xc2\xa0\xe2\x80\x94 who knows? '
+b'Every one of them has an integer sequences a and b of length n. Being given a query of the form of pair of integers (l,\xe2\x80\x89r), Mike can instantly tell the value of  while !Mike can instantly tell the value of .'
+b'Now suppose a robot (you!) asks them all possible different queries of pairs of integers (l,\xe2\x80\x89r) (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) (so he will make exactly n(n\xe2\x80\x89+\xe2\x80\x891)\xe2\x80\x89/\xe2\x80\x892 queries) and counts how many times their answers coincide, thus for how many pairs  is satisfied.'
+b'How many occasions will the robot count?'
+b'Input'
+b'The first line contains only integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000).'
+b'The second line contains n integer numbers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the sequence a.'
+b'The third line contains n integer numbers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the sequence b.'
+b'Output'
+b'Print the only integer number\xc2\xa0\xe2\x80\x94 the number of occasions the robot will count, thus for how many pairs  is satisfied.'
+Tags
+binary search, data structures, *2100

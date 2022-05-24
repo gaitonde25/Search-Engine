@@ -1,0 +1,13 @@
+b'There is a k\xc3\x97kk\xc3\x97k grid, where kk is even. The square in row rr and column cc is denoted by (r,c)(r,c). Two squares (r1,c1)(r1,c1) and (r2,c2)(r2,c2) are considered adjacent if |r1\xe2\x88\x92r2|+|c1\xe2\x88\x92c2|=1|r1\xe2\x88\x92r2|+|c1\xe2\x88\x92c2|=1.'
+b'An array of adjacent pairs of squares is called strong if it is possible to cut the grid along grid lines into two connected, congruent pieces so that each pair is part of the same piece. Two pieces are congruent if one can be matched with the other by translation, rotation, and reflection, or a combination of these.'
+b'  The picture above represents the first test case. Arrows indicate pairs of squares, and the thick black line represents the cut. '
+b'You are given an array aa of nn pairs of adjacent squares. Find the size of the largest strong subsequence of aa. An array pp is a subsequence of an array qq if pp can be obtained from qq by deletion of several (possibly, zero or all) elements.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains two space-separated integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105; 2\xe2\x89\xa4k\xe2\x89\xa45002\xe2\x89\xa4k\xe2\x89\xa4500, kk is even) \xe2\x80\x94 the length of aa and the size of the grid, respectively.'
+b'Then nn lines follow. The ii-th of these lines contains four space-separated integers ri,1ri,1, ci,1ci,1, ri,2ri,2, and ci,2ci,2 (1\xe2\x89\xa4ri,1,ci,1,ri,2,ci,2\xe2\x89\xa4k1\xe2\x89\xa4ri,1,ci,1,ri,2,ci,2\xe2\x89\xa4k) \xe2\x80\x94 the ii-th element of aa, represented by the row and column of the first square (ri,1,ci,1)(ri,1,ci,1) and the row and column of the second square (ri,2,ci,2)(ri,2,ci,2). These squares are adjacent.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105, and the sum of kk over all test cases does not exceed 500500.'
+b'Output'
+b'For each test case, output a single integer \xe2\x80\x94 the size of the largest strong subsequence of aa.'
+Tags
+geometry, graphs, greedy, implementation, shortest paths, *2700

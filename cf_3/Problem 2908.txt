@@ -1,0 +1,11 @@
+b'Alyona has recently bought a miniature fridge that can be represented as a matrix with hh rows and 22 columns. Initially there is only one shelf at the bottom of the fridge, but Alyona can install arbitrary number of shelves inside the fridge between any two rows. A shelf is two cells wide, does not occupy any space but separates the inside of the fridge to the lower and upper part.'
+b'  An example of a fridge with h=7h=7 and two shelves. The shelves are shown in black. The picture corresponds to the first example. '
+b'Alyona has nn bottles of milk that she wants to put in the fridge. The ii-th bottle is aiai cells tall and 11 cell wide. She can put a bottle on some shelf if the corresponding space above the shelf is at least as tall as the bottle. She can not put a bottle on top of another bottle (if there is no shelf between them). Two bottles can not share a cell.'
+b'Alyona is interested in the largest integer kk such that she can put bottles 11, 22, ..., kk in the fridge at the same time. Find this largest kk.'
+b'Input'
+b'The first line contains two integers nn and hh (1\xe2\x89\xa4n\xe2\x89\xa41031\xe2\x89\xa4n\xe2\x89\xa4103, 1\xe2\x89\xa4h\xe2\x89\xa41091\xe2\x89\xa4h\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of bottles and the height of the fridge.'
+b'The second line contains nn integers a1a1, a2a2, ..., anan (1\xe2\x89\xa4ai\xe2\x89\xa4h1\xe2\x89\xa4ai\xe2\x89\xa4h)\xc2\xa0\xe2\x80\x94 the heights of the bottles.'
+b'Output'
+b'Print the single integer kk\xc2\xa0\xe2\x80\x94 the maximum integer such that Alyona can put the bottles 11, 22, ..., kk in the fridge at the same time. If Alyona can put all bottles in the fridge, print nn. It is easy to see that Alyona can always put at least one bottle in the fridge.'
+Tags
+binary search, flows, greedy, sortings, *1300

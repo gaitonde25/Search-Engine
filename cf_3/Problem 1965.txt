@@ -1,0 +1,16 @@
+b'Farmer John is obsessed with making Bessie exercise more!'
+b'Bessie is out grazing on the farm, which consists of nn fields connected by mm directed roads. Each road takes some time wiwi to cross. She is currently at field 11 and will return to her home at field nn at the end of the day.'
+b'Farmer John has plans to increase the time it takes to cross certain roads. He can increase the time it takes to cross each road by a nonnegative amount, but the total increase cannot exceed xixi for the ii-th plan. '
+b'Determine the maximum he can make the shortest path from 11 to nn for each of the qq independent plans.'
+b'Input'
+b'The first line contains integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4502\xe2\x89\xa4n\xe2\x89\xa450, 1\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x8b\x85(n\xe2\x88\x921)1\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x8b\x85(n\xe2\x88\x921)) \xe2\x80\x94 the number of fields and number of roads, respectively.'
+b'Each of the following mm lines contains 33 integers, uiui, vivi, and wiwi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, 1\xe2\x89\xa4wi\xe2\x89\xa41061\xe2\x89\xa4wi\xe2\x89\xa4106), meaning there is an road from field uiui to field vivi that takes wiwi time to cross.'
+b'It is guaranteed that there exists a way to get to field nn from field 11. It is guaranteed that the graph does not contain self-loops or parallel edges. It is possible to have a road from uu to vv and a road from vv to uu.'
+b'The next line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105), the number of plans.'
+b'Each of the following qq lines contains a single integer xixi, the query (0\xe2\x89\xa4xi\xe2\x89\xa41050\xe2\x89\xa4xi\xe2\x89\xa4105).'
+b'Output'
+b'For each query, output the maximum Farmer John can make the shortest path if the total increase does not exceed xixi.'
+b'Your answer is considered correct if its absolute or relative error does not exceed 10\xe2\x88\x92610\xe2\x88\x926.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is accepted if and only if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926."
+Tags
+flows, graphs, shortest paths, *3100

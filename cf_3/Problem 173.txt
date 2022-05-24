@@ -1,0 +1,11 @@
+b'You are given an array of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b'You can do the following operation any number of times (possibly zero): '
+b'  Choose any index ii and set aiai to any integer (positive, negative or 00). '
+b'What is the minimum number of operations needed to turn aa into an arithmetic progression? The array aa is an arithmetic progression if ai+1\xe2\x88\x92ai=ai\xe2\x88\x92ai\xe2\x88\x921ai+1\xe2\x88\x92ai=ai\xe2\x88\x92ai\xe2\x88\x921 for any 2\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9212\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105).'
+b'Output'
+b'Print a single integer: the minimum number of operations needed to turn aa into an arithmetic progression.'
+Tags
+brute force, data structures, graphs, math, *2300

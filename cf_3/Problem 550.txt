@@ -1,0 +1,14 @@
+b'You are given an array a[0\xe2\x80\xa6n\xe2\x88\x921]=[a0,a1,\xe2\x80\xa6,an\xe2\x88\x921]a[0\xe2\x80\xa6n\xe2\x88\x921]=[a0,a1,\xe2\x80\xa6,an\xe2\x88\x921] of zeroes and ones only. Note that in this problem, unlike the others, the array indexes are numbered from zero, not from one.'
+b'In one step, the array aa is replaced by another array of length nn according to the following rules: '
+b'  First, a new array a\xe2\x86\x92da\xe2\x86\x92d is defined as a cyclic shift of the array aa to the right by dd cells. The elements of this array can be defined as a\xe2\x86\x92di=a(i+n\xe2\x88\x92d)modnai\xe2\x86\x92d=a(i+n\xe2\x88\x92d)modn, where (i+n\xe2\x88\x92d)modn(i+n\xe2\x88\x92d)modn is the remainder of integer division of i+n\xe2\x88\x92di+n\xe2\x88\x92d by nn.  It means that the whole array a\xe2\x86\x92da\xe2\x86\x92d can be represented as a sequence a\xe2\x86\x92d=[an\xe2\x88\x92d,an\xe2\x88\x92d+1,\xe2\x80\xa6,an\xe2\x88\x921,a0,a1,\xe2\x80\xa6,an\xe2\x88\x92d\xe2\x88\x921]a\xe2\x86\x92d=[an\xe2\x88\x92d,an\xe2\x88\x92d+1,\xe2\x80\xa6,an\xe2\x88\x921,a0,a1,\xe2\x80\xa6,an\xe2\x88\x92d\xe2\x88\x921]  Then each element of the array aiai is replaced by ai&a\xe2\x86\x92diai&ai\xe2\x86\x92d, where && is a logical "AND" operator. '
+b'For example, if a=[0,0,1,1]a=[0,0,1,1] and d=1d=1, then a\xe2\x86\x92d=[1,0,0,1]a\xe2\x86\x92d=[1,0,0,1] and the value of aa after the first step will be [0&1,0&0,1&0,1&1][0&1,0&0,1&0,1&1], that is [0,0,0,1][0,0,0,1].'
+b'The process ends when the array stops changing. For a given array aa, determine whether it will consist of only zeros at the end of the process. If yes, also find the number of steps the process will take before it finishes.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The next 2t2t lines contain descriptions of the test cases. '
+b'The first line of each test case description contains two integers: nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 array size and dd (1\xe2\x89\xa4d\xe2\x89\xa4n1\xe2\x89\xa4d\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 cyclic shift offset. The second line of the description contains nn space-separated integers aiai (0\xe2\x89\xa4ai\xe2\x89\xa410\xe2\x89\xa4ai\xe2\x89\xa41)\xc2\xa0\xe2\x80\x94 elements of the array.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 106106.'
+b'Output'
+b'Print tt lines, each line containing the answer to the corresponding test case. The answer to a test case should be a single integer\xc2\xa0\xe2\x80\x94 the number of steps after which the array will contain only zeros for the first time. If there are still elements equal to 11 in the array after the end of the process, print -1.'
+Tags
+brute force, graphs, math, number theory, shortest paths, *1700

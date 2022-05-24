@@ -1,0 +1,16 @@
+b'You are given an array aa of nn integers and a set BB of mm positive integers such that 1\xe2\x89\xa4bi\xe2\x89\xa4\xe2\x8c\x8an2\xe2\x8c\x8b1\xe2\x89\xa4bi\xe2\x89\xa4\xe2\x8c\x8an2\xe2\x8c\x8b for 1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m, where bibi is the ii-th element of BB. '
+b'You can make the following operation on aa:'
+b'  Select some xx such that xx appears in BB. Select an interval from array aa of size xx and multiply by \xe2\x88\x921\xe2\x88\x921 every element in the interval. Formally, select ll and rr such that 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n and r\xe2\x88\x92l+1=xr\xe2\x88\x92l+1=x, then assign ai:=\xe2\x88\x92aiai:=\xe2\x88\x92ai for every ii such that l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r. '
+b'Consider the following example, let a=[0,6,\xe2\x88\x922,1,\xe2\x88\x924,5]a=[0,6,\xe2\x88\x922,1,\xe2\x88\x924,5] and B={1,2}B={1,2}:'
+b'  [0,6,\xe2\x88\x922,\xe2\x88\x921,4,5][0,6,\xe2\x88\x922,\xe2\x88\x921,4,5] is obtained after choosing size 22 and l=4l=4, r=5r=5. [0,6,2,\xe2\x88\x921,4,5][0,6,2,\xe2\x88\x921,4,5] is obtained after choosing size 11 and l=3l=3, r=3r=3. '
+b'Find the maximum \xe2\x88\x91i=1nai\xe2\x88\x91i=1nai you can get after applying such operation any number of times (possibly zero).'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa41062\xe2\x89\xa4n\xe2\x89\xa4106, 1\xe2\x89\xa4m\xe2\x89\xa4\xe2\x8c\x8an2\xe2\x8c\x8b1\xe2\x89\xa4m\xe2\x89\xa4\xe2\x8c\x8an2\xe2\x8c\x8b) \xe2\x80\x94 the number of elements of aa and BB respectively. '
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109). '
+b'The third line of each test case contains mm distinct positive integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (1\xe2\x89\xa4bi\xe2\x89\xa4\xe2\x8c\x8an2\xe2\x8c\x8b1\xe2\x89\xa4bi\xe2\x89\xa4\xe2\x8c\x8an2\xe2\x8c\x8b) \xe2\x80\x94 the elements in the set BB.'
+b"It's guaranteed that the sum of nn over all test cases does not exceed 106106."
+b'Output'
+b'For each test case print a single integer \xe2\x80\x94 the maximum possible sum of all aiai after applying such operation any number of times. '
+Tags
+constructive algorithms, dp, greedy, number theory, *2400

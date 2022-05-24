@@ -1,0 +1,18 @@
+b'You are given a tree of nn nodes. The tree is rooted at node 11, which is not considered as a leaf regardless of its degree.'
+b'Each leaf of the tree has one of the two colors: red or blue. Leaf node vv initially has color svsv.'
+b'The color of each of the internal nodes (including the root) is determined as follows. '
+b'  Let bb be the number of blue immediate children, and rr be the number of red immediate children of a given vertex.  Then the color of this vertex is blue if and only if b\xe2\x88\x92r\xe2\x89\xa5kb\xe2\x88\x92r\xe2\x89\xa5k, otherwise red. '
+b'Integer kk is a parameter that is same for all the nodes.'
+b'You need to handle the following types of queries: '
+b'  1 v: print the color of node vv;  2 v c: change the color of leaf vv to cc (c=0c=0 means red, c=1c=1 means blue);  3 h: update the current value of kk to hh. '
+b'Input'
+b'The first line of the input consists of two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, \xe2\x88\x92n\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x92n\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of nodes and the initial parameter kk.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n), denoting that there is an edge between vertices uu and vv.'
+b'The next line consists of nn space separated integers\xc2\xa0\xe2\x80\x94 the initial array ss (\xe2\x88\x921\xe2\x89\xa4si\xe2\x89\xa41\xe2\x88\x921\xe2\x89\xa4si\xe2\x89\xa41). si=0si=0 means that the color of node ii is red. si=1si=1 means that the color of node ii is blue. si=\xe2\x88\x921si=\xe2\x88\x921 means that the node ii is not a leaf.'
+b'The next line contains an integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105), the number of queries.'
+b'qq lines follow, each containing a query in one of the following queries: '
+b'  1 v (1\xe2\x89\xa4v\xe2\x89\xa4n1\xe2\x89\xa4v\xe2\x89\xa4n): print the color of node vv;  2 v c (1\xe2\x89\xa4v\xe2\x89\xa4n1\xe2\x89\xa4v\xe2\x89\xa4n, c=0c=0 or c=1c=1): change the color of leaf vv to cc (c=0c=0 means red, c=1c=1 means blue). It is guaranteed that vv is a leaf;  3 h (\xe2\x88\x92n\xe2\x89\xa4h\xe2\x89\xa4n\xe2\x88\x92n\xe2\x89\xa4h\xe2\x89\xa4n): update the current value of kk to hh. '
+b'Output'
+b'For each query of the first type, print 00 if the color of vertex vv is red, and 11 otherwise.'
+Tags
+data structures, implementation, trees, *3500

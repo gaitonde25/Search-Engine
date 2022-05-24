@@ -1,0 +1,17 @@
+b"Polycarp wrote on the board a string ss containing only lowercase Latin letters ('a'-'z'). This string is known for you and given in the input."
+b'After that, he erased some letters from the string ss, and he rewrote the remaining letters in any order. As a result, he got some new string tt. You have to find it with some additional information.'
+b"Suppose that the string tt has length mm and the characters are numbered from left to right from 11 to mm. You are given a sequence of mm integers: b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm, where bibi is the sum of the distances |i\xe2\x88\x92j||i\xe2\x88\x92j| from the index ii to all such indices jj that tj>titj>ti (consider that 'a'<'b'<...<'z'). In other words, to calculate bibi, Polycarp finds all such indices jj that the index jj contains a letter that is later in the alphabet than titi and sums all the values |i\xe2\x88\x92j||i\xe2\x88\x92j|."
+b'For example, if tt = "abzb", then:'
+b"  since t1t1='a', all other indices contain letters which are later in the alphabet, that is: b1=|1\xe2\x88\x922|+|1\xe2\x88\x923|+|1\xe2\x88\x924|=1+2+3=6b1=|1\xe2\x88\x922|+|1\xe2\x88\x923|+|1\xe2\x88\x924|=1+2+3=6;  since t2t2='b', only the index j=3j=3 contains the letter, which is later in the alphabet, that is: b2=|2\xe2\x88\x923|=1b2=|2\xe2\x88\x923|=1;  since t3t3='z', then there are no indexes jj such that tj>titj>ti, thus b3=0b3=0;  since t4t4='b', only the index j=3j=3 contains the letter, which is later in the alphabet, that is: b4=|4\xe2\x88\x923|=1b4=|4\xe2\x88\x923|=1. "
+b'Thus, if tt = "abzb", then b=[6,1,0,1]b=[6,1,0,1].'
+b'Given the string ss and the array bb, find any possible string tt for which the following two requirements are fulfilled simultaneously:'
+b'  tt is obtained from ss by erasing some letters (possibly zero) and then writing the rest in any order;  the array, constructed from the string tt according to the rules above, equals to the array bb specified in the input data. '
+b'Input'
+b'The first line contains an integer qq (1\xe2\x89\xa4q\xe2\x89\xa41001\xe2\x89\xa4q\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases in the test. Then qq test cases follow.'
+b'Each test case consists of three lines:'
+b'  the first line contains string ss, which has a length from 11 to 5050 and consists of lowercase English letters;  the second line contains positive integer mm (1\xe2\x89\xa4m\xe2\x89\xa4|s|1\xe2\x89\xa4m\xe2\x89\xa4|s|), where |s||s| is the length of the string ss, and mm is the length of the array bb;  the third line contains the integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (0\xe2\x89\xa4bi\xe2\x89\xa412250\xe2\x89\xa4bi\xe2\x89\xa41225). '
+b'It is guaranteed that in each test case an answer exists.'
+b'Output'
+b'Output qq lines: the kk-th of them should contain the answer (string tt) to the kk-th test case. It is guaranteed that an answer to each test case exists. If there are several answers, output any.'
+Tags
+constructive algorithms, greedy, implementation, sortings, *1800

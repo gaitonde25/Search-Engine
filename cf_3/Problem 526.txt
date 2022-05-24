@@ -1,0 +1,16 @@
+b'El Psy Kongroo.'
+b'Omkar is watching Steins;Gate.'
+b"In Steins;Gate, Okabe Rintarou needs to complete nn tasks (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105). Unfortunately, he doesn't know when he needs to complete the tasks."
+b'Initially, the time is 00. Time travel will now happen according to the following rules:'
+b"For each k=1,2,\xe2\x80\xa6,nk=1,2,\xe2\x80\xa6,n, Okabe will realize at time bkbk that he was supposed to complete the kk-th task at time akak (ak<bkak<bk). When he realizes this, if kk-th task was already completed at time akak, Okabe keeps the usual flow of time. Otherwise, he time travels to time akak then immediately completes the task.If Okabe time travels to time akak, all tasks completed after this time will become incomplete again. That is, for every jj, if aj>akaj>ak, the jj-th task will become incomplete, if it was complete (if it was incomplete, nothing will change).Okabe has bad memory, so he can time travel to time akak only immediately after getting to time bkbk and learning that he was supposed to complete the kk-th task at time akak. That is, even if Okabe already had to perform kk-th task before, he wouldn't remember it before stumbling on the info about this task at time bkbk again."
+b'Please refer to the notes for an example of time travelling.'
+b'There is a certain set ss of tasks such that the first moment that all of the tasks in ss are simultaneously completed (regardless of whether any other tasks are currently completed), a funny scene will take place. Omkar loves this scene and wants to know how many times Okabe will time travel before this scene takes place. Find this number modulo 109+7109+7. It can be proven that eventually all nn tasks will be completed and so the answer always exists.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the number of tasks that Okabe needs to complete.'
+b'nn lines follow. The kk-th of these lines contain two integers akak and bkbk (1\xe2\x89\xa4ak<bk\xe2\x89\xa42n1\xe2\x89\xa4ak<bk\xe2\x89\xa42n) \xc2\xa0\xe2\x80\x94 the time at which Okabe needs to complete the kk-th task and the time that he realizes this respectively. All 2n2n of these times are distinct (so every time from 11 to 2n2n inclusive appears exactly once in the input).'
+b'The next line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4n1\xe2\x89\xa4t\xe2\x89\xa4n) \xc2\xa0\xe2\x80\x94 the size of the set ss of tasks that lead to the funny scene.'
+b'The last line contains tt integers s1,s2,\xe2\x80\xa6,sts1,s2,\xe2\x80\xa6,st \xc2\xa0\xe2\x80\x94 (1\xe2\x89\xa4sk\xe2\x89\xa4n1\xe2\x89\xa4sk\xe2\x89\xa4n, the numbers s1,s2,\xe2\x80\xa6,sts1,s2,\xe2\x80\xa6,st are distinct) \xc2\xa0\xe2\x80\x94 the set ss of tasks.'
+b'Output'
+b'Output a single integer \xc2\xa0\xe2\x80\x94 the number of times that Okabe time travels until all tasks in the set ss are simultaneously completed, modulo 109+7109+7.'
+Tags
+data structures, math, *3000

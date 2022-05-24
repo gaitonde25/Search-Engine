@@ -1,0 +1,17 @@
+b"You are given a number kk and a string ss of length nn, consisting of the characters '.' and '*'. You want to replace some of the '*' characters with 'x' characters so that the following conditions are met: "
+b'  The first character \'*\' in the original string should be replaced with \'x\';  The last character \'*\' in the original string should be replaced with \'x\';  The distance between two neighboring replaced characters \'x\' must not exceed kk (more formally, if you replaced characters at positions ii and jj (i<ji<j) and at positions [i+1,j\xe2\x88\x921][i+1,j\xe2\x88\x921] there is no "x" symbol, then j\xe2\x88\x92ij\xe2\x88\x92i must be no more than kk). '
+b'For example, if n=7n=7, s=s=.**.*** and k=3k=3, then the following strings will satisfy the conditions above: '
+b'  .xx.*xx;  .x*.x*x;  .xx.xxx. '
+b' But, for example, the following strings will not meet the conditions: '
+b"  .**.*xx (the first character '*' should be replaced with 'x');  .x*.xx* (the last character '*' should be replaced with 'x');  .x*.*xx (the distance between characters at positions 22 and 66 is greater than k=3k=3). "
+b"Given nn, kk, and ss, find the minimum number of '*' characters that must be replaced with 'x' in order to meet the above conditions."
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500). Then tt test cases follow.'
+b'The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa450).'
+b"The second line of each test case contains a string ss of length nn, consisting of the characters '.' and '*'."
+b"It is guaranteed that there is at least one '*' in the string ss."
+b"It is guaranteed that the distance between any two neighboring '*' characters does not exceed kk."
+b'Output'
+b"For each test case output the minimum number of '*' characters that must be replaced with 'x' characters in order to satisfy the conditions above."
+Tags
+greedy, implementation, *1100

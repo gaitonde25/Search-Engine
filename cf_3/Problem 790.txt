@@ -1,0 +1,10 @@
+b'This is an interactive problem.'
+b'As he qualified for IOI this year, Little Ericyi was given a gift from all his friends: a tree of nn nodes!'
+b'On the flight to IOI Little Ericyi was very bored, so he decided to play a game with Little Yvonne with his new tree. First, Little Yvonne selects two (not necessarily different) nodes aa and bb on the tree (without telling Ericyi), and then gives him a hint ff (which is some node on the path from aa to bb).'
+b'Then, Little Ericyi is able to ask the following question repeatedly:'
+b' If I rooted the tree at node rr (Ericyi gets to choose rr), what would be the Lowest Common Ancestor of aa and bb?'
+b"Little Ericyi's goal is to find the nodes aa and bb, and report them to Little Yvonne."
+b'However, Little Yvonne thought this game was too easy, so before he gives the hint ff to Little Ericyi, he also wants him to first find the maximum number of queries required to determine aa and bb over all possibilities of aa, bb, and ff assuming Little Ericyi plays optimally. Little Ericyi defines an optimal strategy as one that makes the minimum number of queries. Of course, once Little Ericyi replies with the maximum number of queries, Little Yvonne will only let him use that many queries in the game.'
+b'The tree, aa, bb, and ff are all fixed before the start of the game and do not change as queries are made.'
+Tags
+constructive algorithms, dp, graphs, interactive, sortings, trees, *3500

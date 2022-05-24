@@ -1,0 +1,9 @@
+b"Your task is the exact same as for the easy version. But this time, the marmots subtract the village's population P from their random number before responding to Heidi's request."
+b'Also, there are now villages with as few as a single inhabitant, meaning that .'
+b'Can you help Heidi find out whether a village follows a Poisson or a uniform distribution?'
+b'Input'
+b'Same as for the easy and medium versions. But remember that now 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89P\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000 and that the marmots may provide positive as well as negative integers.'
+b'Output'
+b"Output one line per village, in the same order as provided in the input. The village's line shall state poisson if the village's distribution is of the Poisson type, and uniform if the answers came from a uniform distribution."
+Tags
+math, probabilities, *2800

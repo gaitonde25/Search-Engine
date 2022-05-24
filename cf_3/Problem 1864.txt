@@ -1,0 +1,17 @@
+b"A positive integer is called composite if it can be represented as a product of two positive integers, both greater than 11. For example, the following numbers are composite: 66, 44, 120120, 2727. The following numbers aren't: 11, 22, 33, 1717, 9797."
+b'Alice is given a sequence of nn composite numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b'She wants to choose an integer m\xe2\x89\xa411m\xe2\x89\xa411 and color each element one of mm colors from 11 to mm so that:'
+b'  for each color from 11 to mm there is at least one element of this color;  each element is colored and colored exactly one color;  the greatest common divisor of any two elements that are colored the same color is greater than 11, i.e. gcd(ai,aj)>1gcd(ai,aj)>1 for each pair i,ji,j if these elements are colored the same color. '
+b'Note that equal elements can be colored different colors\xc2\xa0\xe2\x80\x94 you just have to choose one of mm colors for each of the indices from 11 to nn.'
+b'Alice showed already that if all ai\xe2\x89\xa41000ai\xe2\x89\xa41000 then she can always solve the task by choosing some m\xe2\x89\xa411m\xe2\x89\xa411.'
+b"Help Alice to find the required coloring. Note that you don't have to minimize or maximize the number of colors, you just have to find the solution with some mm from 11 to 1111."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. Then the descriptions of the test cases follow.'
+b'The first line of the test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the amount of numbers in a sequence aa.'
+b'The second line of the test case contains nn composite integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (4\xe2\x89\xa4ai\xe2\x89\xa410004\xe2\x89\xa4ai\xe2\x89\xa41000).'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 104104."
+b'Output'
+b"For each test case print 22 lines. The first line should contain a single integer mm (1\xe2\x89\xa4m\xe2\x89\xa4111\xe2\x89\xa4m\xe2\x89\xa411) \xe2\x80\x94 the number of used colors. Consider colors to be numbered from 11 to mm. The second line should contain any coloring that satisfies the above conditions. Print nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa4m1\xe2\x89\xa4ci\xe2\x89\xa4m), where cici is the color of the ii-th element. If there are multiple solutions then you can print any of them. Note that you don't have to minimize or maximize the number of colors, you just have to find the solution with some mm from 11 to 1111."
+b'Remember that each color from 11 to mm should be used at least once. Any two elements of the same color should not be coprime (i.e. their GCD should be greater than 11).'
+Tags
+brute force, constructive algorithms, greedy, math, number theory, *1400

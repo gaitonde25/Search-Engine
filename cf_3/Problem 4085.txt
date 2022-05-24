@@ -1,0 +1,8 @@
+b'You are given n strings s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sn consisting of characters 0 and 1. m operations are performed, on each of them you concatenate two existing strings into a new one. On the i-th operation the concatenation saisbi is saved into a new string sn\xe2\x80\x89+\xe2\x80\x89i (the operations are numbered starting from 1). After each operation you need to find the maximum positive integer k such that all possible strings consisting of 0 and 1 of length k (there are 2k such strings) are substrings of the new string. If there is no such k, print 0.'
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the number of strings. The next n lines contain strings s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|si|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100), one per line. The total length of strings is not greater than 100.'
+b'The next line contains single integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the number of operations. m lines follow, each of them contains two integers ai abd bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89+\xe2\x80\x89i\xe2\x80\x89-\xe2\x80\x891)\xc2\xa0\xe2\x80\x94 the number of strings that are concatenated to form sn\xe2\x80\x89+\xe2\x80\x89i.'
+b'Output'
+b'Print m lines, each should contain one integer\xc2\xa0\xe2\x80\x94 the answer to the question after the corresponding operation.'
+Tags
+bitmasks, brute force, dp, implementation, strings, *2200

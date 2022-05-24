@@ -1,0 +1,16 @@
+b'Allen dreams of one day owning a enormous fleet of electric cars, the car of the future! He knows that this will give him a big status boost. As Allen is planning out all of the different types of cars he will own and how he will arrange them, he realizes that he has a problem. '
+b"Allen's future parking lot can be represented as a rectangle with 44 rows and nn (n\xe2\x89\xa450n\xe2\x89\xa450) columns of rectangular spaces, each of which can contain at most one car at any time. He imagines having kk (k\xe2\x89\xa42nk\xe2\x89\xa42n) cars in the grid, and all the cars are initially in the second and third rows. Each of the cars also has a different designated parking space in the first or fourth row. Allen has to put the cars into corresponding parking places."
+b'  Illustration to the first example. '
+b"However, since Allen would never entrust his cars to anyone else, only one car can be moved at a time. He can drive a car from a space in any of the four cardinal directions to a neighboring empty space. Furthermore, Allen can only move one of his cars into a space on the first or fourth rows if it is the car's designated parking space. "
+b'Allen knows he will be a very busy man, and will only have time to move cars at most 2000020000 times before he realizes that moving cars is not worth his time. Help Allen determine if he should bother parking his cars or leave it to someone less important.'
+b'Input'
+b'The first line of the input contains two space-separated integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450, 1\xe2\x89\xa4k\xe2\x89\xa42n1\xe2\x89\xa4k\xe2\x89\xa42n), representing the number of columns and the number of cars, respectively.'
+b'The next four lines will contain nn integers each between 00 and kk inclusive, representing the initial state of the parking lot. The rows are numbered 11 to 44 from top to bottom and the columns are numbered 11 to nn from left to right.'
+b"In the first and last line, an integer 1\xe2\x89\xa4x\xe2\x89\xa4k1\xe2\x89\xa4x\xe2\x89\xa4k represents a parking spot assigned to car xx (you can only move this car to this place), while the integer 00 represents a empty space (you can't move any car to this place)."
+b'In the second and third line, an integer 1\xe2\x89\xa4x\xe2\x89\xa4k1\xe2\x89\xa4x\xe2\x89\xa4k represents initial position of car xx, while the integer 00 represents an empty space (you can move any car to this place).'
+b'Each xx between 11 and kk appears exactly once in the second and third line, and exactly once in the first and fourth line.'
+b'Output'
+b'If there is a sequence of moves that brings all of the cars to their parking spaces, with at most 2000020000 car moves, then print mm, the number of moves, on the first line. On the following mm lines, print the moves (one move per line) in the format ii rr cc, which corresponds to Allen moving car ii to the neighboring space at row rr and column cc.'
+b'If it is not possible for Allen to move all the cars to the correct spaces with at most 2000020000 car moves, print a single line with the integer \xe2\x88\x921\xe2\x88\x921.'
+Tags
+constructive algorithms, implementation, *2100

@@ -1,0 +1,7 @@
+b'You are given integers N and D. Find N positive integers x1...xN such that the difference of their product and their sum equals D.'
+b'Input'
+b'The only line of input contains integers N (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) and D (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89D\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000).'
+b'Output'
+b'Output N integers that satisfy the given condition in non-decreasing order (in a single line, separated with spaces). Note that some numbers can be equal. Numbers printed by you must not exceed 106.'
+Tags
+*special problem, *1700

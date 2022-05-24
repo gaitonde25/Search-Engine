@@ -1,0 +1,13 @@
+b'Mishka wants to buy some food in the nearby shop. Initially, he has ss burles on his card. '
+b'Mishka can perform the following operation any number of times (possibly, zero): choose some positive integer number 1\xe2\x89\xa4x\xe2\x89\xa4s1\xe2\x89\xa4x\xe2\x89\xa4s, buy food that costs exactly xx burles and obtain \xe2\x8c\x8ax10\xe2\x8c\x8b\xe2\x8c\x8ax10\xe2\x8c\x8b burles as a cashback (in other words, Mishka spends xx burles and obtains \xe2\x8c\x8ax10\xe2\x8c\x8b\xe2\x8c\x8ax10\xe2\x8c\x8b back). The operation \xe2\x8c\x8aab\xe2\x8c\x8b\xe2\x8c\x8aab\xe2\x8c\x8b means aa divided by bb rounded down.'
+b'It is guaranteed that you can always buy some food that costs xx for any possible value of xx.'
+b'Your task is to say the maximum number of burles Mishka can spend if he buys food optimally.'
+b'For example, if Mishka has s=19s=19 burles then the maximum number of burles he can spend is 2121. Firstly, he can spend x=10x=10 burles, obtain 11 burle as a cashback. Now he has s=10s=10 burles, so can spend x=10x=10 burles, obtain 11 burle as a cashback and spend it too.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The next tt lines describe test cases. Each test case is given on a separate line and consists of one integer ss (1\xe2\x89\xa4s\xe2\x89\xa41091\xe2\x89\xa4s\xe2\x89\xa4109) \xe2\x80\x94 the number of burles Mishka initially has.'
+b'Output'
+b'For each test case print the answer on it \xe2\x80\x94 the maximum number of burles Mishka can spend if he buys food optimally.'
+Tags
+math, *900

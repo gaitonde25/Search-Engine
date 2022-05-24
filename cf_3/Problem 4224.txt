@@ -1,0 +1,12 @@
+b'You are playing a game with a bag of red and black balls. Initially, you are told that the bag has n balls total. In addition, you are also told that the bag has probability pi\xe2\x80\x89/\xe2\x80\x89106 of containing exactly i red balls.'
+b'You now would like to buy balls from this bag. You really like the color red, so red balls are worth a unit of 1, while black balls are worth nothing. To buy a ball, if there are still balls in the bag, you pay a cost c with 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891, and draw a ball randomly from the bag. You can choose to stop buying at any point (and you can even choose to not buy anything at all).'
+b'Given that you buy optimally to maximize the expected profit (i.e. # red balls - cost needed to obtain them), print the maximum expected profit.'
+b'Input'
+b'The first line of input will contain two integers n,\xe2\x80\x89X (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89X\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106).'
+b'The next line of input will contain n\xe2\x80\x89+\xe2\x80\x891 integers p0,\xe2\x80\x89p1,\xe2\x80\x89... pn (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106, )'
+b'The value of c can be computed as .'
+b'Output'
+b'Print a single floating point number representing the optimal expected value.'
+b'Your answer will be accepted if it has absolute or relative error at most 10\xe2\x80\x89-\xe2\x80\x899. More specifically, if your answer is a and the jury answer is b, your answer will be accepted if .'
+Tags
+*2800

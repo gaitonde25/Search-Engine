@@ -1,0 +1,13 @@
+b'You are given a permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn. You should answer qq queries. Each query is a pair (li,ri)(li,ri), and you should calculate f(li,ri)f(li,ri).'
+b"Let's denote ml,rml,r as the position of the maximum in subsegment pl,pl+1,\xe2\x80\xa6,prpl,pl+1,\xe2\x80\xa6,pr."
+b'Then f(l,r)=(r\xe2\x88\x92l+1)+f(l,ml,r\xe2\x88\x921)+f(ml,r+1,r)f(l,r)=(r\xe2\x88\x92l+1)+f(l,ml,r\xe2\x88\x921)+f(ml,r+1,r) if l\xe2\x89\xa4rl\xe2\x89\xa4r or 00 otherwise.'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106, 1\xe2\x89\xa4q\xe2\x89\xa41061\xe2\x89\xa4q\xe2\x89\xa4106) \xe2\x80\x94 the size of the permutation pp and the number of queries.'
+b'The second line contains nn pairwise distinct integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n, pi\xe2\x89\xa0pjpi\xe2\x89\xa0pj for i\xe2\x89\xa0ji\xe2\x89\xa0j) \xe2\x80\x94 permutation pp.'
+b'The third line contains qq integers l1,l2,\xe2\x80\xa6,lql1,l2,\xe2\x80\xa6,lq \xe2\x80\x94 the first parts of the queries.'
+b'The fourth line contains qq integers r1,r2,\xe2\x80\xa6,rqr1,r2,\xe2\x80\xa6,rq \xe2\x80\x94 the second parts of the queries.'
+b"It's guaranteed that 1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n for all queries."
+b'Output'
+b'Print qq integers \xe2\x80\x94 the values f(li,ri)f(li,ri) for the corresponding queries.'
+Tags
+data structures, *2500

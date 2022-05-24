@@ -1,0 +1,10 @@
+b'Andrewid the Android is a galaxy-known detective. Now he does not investigate any case and is eating chocolate out of boredom.'
+b"A bar of chocolate can be presented as an n\xe2\x80\x89\xc3\x97\xe2\x80\x89n table, where each cell represents one piece of chocolate. The columns of the table are numbered from 1 to n from left to right and the rows are numbered from top to bottom. Let's call the anti-diagonal to be a diagonal that goes the lower left corner to the upper right corner of the table. First Andrewid eats all the pieces lying below the anti-diagonal. Then he performs the following q actions with the remaining triangular part: first, he chooses a piece on the anti-diagonal and either direction 'up' or 'left', and then he begins to eat all the pieces starting from the selected cell, moving in the selected direction until he reaches the already eaten piece or chocolate bar edge."
+b'After each action, he wants to know how many pieces he ate as a result of this action.'
+b'Input'
+b'The first line contains integers n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the size of the chocolate bar and the number of actions.'
+b'Next q lines contain the descriptions of the actions: the i-th of them contains numbers xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, xi\xe2\x80\x89+\xe2\x80\x89yi\xe2\x80\x89=\xe2\x80\x89n\xe2\x80\x89+\xe2\x80\x891) \xe2\x80\x94 the numbers of the column and row of the chosen cell and the character that represents the direction (L \xe2\x80\x94 left, U \xe2\x80\x94 up).'
+b'Output'
+b'Print q lines, the i-th of them should contain the number of eaten pieces as a result of the i-th action.'
+Tags
+data structures, *2200

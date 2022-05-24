@@ -1,0 +1,16 @@
+b'It was recycling day in Kekoland. To celebrate it Adil and Bera went to Central Perk where they can take bottles from the ground and put them into a recycling bin.'
+b'We can think Central Perk as coordinate plane. There are n bottles on the ground, the i-th bottle is located at position (xi,\xe2\x80\x89yi). Both Adil and Bera can carry only one bottle at once each. '
+b'For both Adil and Bera the process looks as follows: '
+b'  Choose to stop or to continue to collect bottles.  If the choice was to continue then choose some bottle and walk towards it.  Pick this bottle and walk to the recycling bin.  Go to step 1. '
+b"Adil and Bera may move independently. They are allowed to pick bottles simultaneously, all bottles may be picked by any of the two, it's allowed that one of them stays still while the other one continues to pick bottles."
+b'They want to organize the process such that the total distance they walk (the sum of distance walked by Adil and distance walked by Bera) is minimum possible. Of course, at the end all bottles should lie in the recycling bin.'
+b'Input'
+b'First line of the input contains six integers ax, ay, bx, by, tx and ty (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ax,\xe2\x80\x89ay,\xe2\x80\x89bx,\xe2\x80\x89by,\xe2\x80\x89tx,\xe2\x80\x89ty\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 initial positions of Adil, Bera and recycling bin respectively.'
+b'The second line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of bottles on the ground.'
+b'Then follow n lines, each of them contains two integers xi and yi (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 position of the i-th bottle.'
+b"It's guaranteed that positions of Adil, Bera, recycling bin and all bottles are distinct."
+b'Output'
+b'Print one real number\xc2\xa0\xe2\x80\x94 the minimum possible total distance Adil and Bera need to walk in order to put all bottles into recycling bin. Your answer will be considered correct if its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x896.'
+b"Namely: let's assume that your answer is a, and the answer of the jury is b. The checker program will consider your answer correct if ."
+Tags
+dp, geometry, greedy, implementation, *1800

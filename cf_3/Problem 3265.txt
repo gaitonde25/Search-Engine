@@ -1,0 +1,13 @@
+b'You are given a weighed undirected connected graph, consisting of nn vertices and mm edges.'
+b'You should answer qq queries, the ii-th query is to find the shortest distance between vertices uiui and vivi.'
+b'Input'
+b'The first line contains two integers nn and m\xc2\xa0(1\xe2\x89\xa4n,m\xe2\x89\xa4105,m\xe2\x88\x92n\xe2\x89\xa420)m\xc2\xa0(1\xe2\x89\xa4n,m\xe2\x89\xa4105,m\xe2\x88\x92n\xe2\x89\xa420) \xe2\x80\x94 the number of vertices and edges in the graph.'
+b'Next mm lines contain the edges: the ii-th edge is a triple of integers vi,ui,di\xc2\xa0(1\xe2\x89\xa4ui,vi\xe2\x89\xa4n,1\xe2\x89\xa4di\xe2\x89\xa4109,ui\xe2\x89\xa0vi)vi,ui,di\xc2\xa0(1\xe2\x89\xa4ui,vi\xe2\x89\xa4n,1\xe2\x89\xa4di\xe2\x89\xa4109,ui\xe2\x89\xa0vi). This triple means that there is an edge between vertices uiui and vivi of weight didi. It is guaranteed that graph contains no self-loops and multiple edges.'
+b'The next line contains a single integer q\xc2\xa0(1\xe2\x89\xa4q\xe2\x89\xa4105)q\xc2\xa0(1\xe2\x89\xa4q\xe2\x89\xa4105) \xe2\x80\x94 the number of queries.'
+b'Each of the next qq lines contains two integers uiui and vi\xc2\xa0(1\xe2\x89\xa4ui,vi\xe2\x89\xa4n)vi\xc2\xa0(1\xe2\x89\xa4ui,vi\xe2\x89\xa4n) \xe2\x80\x94 descriptions of the queries.'
+b'Pay attention to the restriction m\xe2\x88\x92n\xc2\xa0\xe2\x89\xa4\xc2\xa020m\xe2\x88\x92n\xc2\xa0\xe2\x89\xa4\xc2\xa020.'
+b'Output'
+b'Print qq lines.'
+b'The ii-th line should contain the answer to the ii-th query \xe2\x80\x94 the shortest distance between vertices uiui and vivi.'
+Tags
+graphs, shortest paths, trees, *2400

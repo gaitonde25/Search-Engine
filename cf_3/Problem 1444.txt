@@ -1,0 +1,12 @@
+b'You are given a sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an of non-negative integers.'
+b'You need to find the largest number mm of triples (i1,j1,k1)(i1,j1,k1), (i2,j2,k2)(i2,j2,k2), ..., (im,jm,km)(im,jm,km) such that:'
+b' 1\xe2\x89\xa4ip<jp<kp\xe2\x89\xa4n1\xe2\x89\xa4ip<jp<kp\xe2\x89\xa4n for each pp in 1,2,\xe2\x80\xa6,m1,2,\xe2\x80\xa6,m; aip=akp=0aip=akp=0, ajp\xe2\x89\xa00ajp\xe2\x89\xa00; all aj1,aj2,\xe2\x80\xa6,ajmaj1,aj2,\xe2\x80\xa6,ajm are different; all i1,j1,k1,i2,j2,k2,\xe2\x80\xa6,im,jm,kmi1,j1,k1,i2,j2,k2,\xe2\x80\xa6,im,jm,km are different.'
+b'Input'
+b'The first line of input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa45000001\xe2\x89\xa4t\xe2\x89\xa4500000): the number of test cases.'
+b'The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa45000001\xe2\x89\xa4n\xe2\x89\xa4500000).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4n0\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b'The total sum of nn is at most 500000500000.'
+b'Output'
+b'For each test case, print one integer mm: the largest number of proper triples that you can find.'
+Tags
+binary search, data structures, flows, greedy, *3300

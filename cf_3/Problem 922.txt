@@ -1,0 +1,16 @@
+b"You are given a string ss consisting of the characters '0', '1', and '?'. You need to replace all the characters with '?' in the string ss by '0' or '1' so that the string becomes a palindrome and has exactly aa characters '0' and exactly bb characters '1'. Note that each of the characters '?' is replaced independently from the others."
+b'A string tt of length nn is called a palindrome if the equality t[i]=t[n\xe2\x88\x92i+1]t[i]=t[n\xe2\x88\x92i+1] is true for all ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n).'
+b'For example, if s=s="01?????0", a=4a=4 and b=4b=4, then you can replace the characters \'?\' in the following ways: '
+b'  "01011010";  "01100110". '
+b"For the given string ss and the numbers aa and bb, replace all the characters with '?' in the string ss by '0' or '1' so that the string becomes a palindrome and has exactly aa characters '0' and exactly bb characters '1'."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Then tt test cases follow.'
+b'The first line of each test case contains two integers aa and bb (0\xe2\x89\xa4a,b\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4a,b\xe2\x89\xa42\xe2\x8b\x85105, a+b\xe2\x89\xa51a+b\xe2\x89\xa51).'
+b"The second line of each test case contains the string ss of length a+ba+b, consisting of the characters '0', '1', and '?'."
+b'It is guaranteed that the sum of the string lengths of ss over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output: '
+b'  "-1", if you can\'t replace all the characters \'?\' in the string ss by \'0\' or \'1\' so that the string becomes a palindrome and that it contains exactly aa characters \'0\' and exactly bb characters \'1\';  the string that is obtained as a result of the replacement, otherwise. '
+b'If there are several suitable ways to replace characters, you can output any.'
+Tags
+constructive algorithms, implementation, strings, *1200

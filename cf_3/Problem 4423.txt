@@ -1,0 +1,17 @@
+b"Vova plays a computer game known as Mages and Monsters. Vova's character is a mage. Though as he has just started, his character knows no spells."
+b"Vova's character can learn new spells during the game. Every spell is characterized by two values xi and yi \xe2\x80\x94 damage per second and mana cost per second, respectively. Vova doesn't have to use a spell for an integer amount of seconds. More formally, if he uses a spell with damage x and mana cost y for z seconds, then he will deal x\xc2\xb7z damage and spend y\xc2\xb7z mana (no rounding). If there is no mana left (mana amount is set in the start of the game and it remains the same at the beginning of every fight), then character won't be able to use any spells. It is prohibited to use multiple spells simultaneously."
+b"Also Vova can fight monsters. Every monster is characterized by two values tj and hj \xe2\x80\x94 monster kills Vova's character in tj seconds and has hj health points. Mana refills after every fight (or Vova's character revives with full mana reserve), so previous fights have no influence on further ones."
+b"Vova's character kills a monster, if he deals hj damage to it in no more than tj seconds using his spells (it is allowed to use more than one spell in a fight) and spending no more mana than he had at the beginning of the fight. If monster's health becomes zero exactly in tj seconds (it means that the monster and Vova's character kill each other at the same time), then Vova wins the fight."
+b'You have to write a program which can answer two types of queries:'
+b"  1 x y \xe2\x80\x94 Vova's character learns new spell which deals x damage per second and costs y mana per second.  2 t h \xe2\x80\x94 Vova fights the monster which kills his character in t seconds and has h health points. "
+b"Note that queries are given in a different form. Also remember that Vova's character knows no spells at the beginning of the game."
+b'For every query of second type you have to determine if Vova is able to win the fight with corresponding monster.'
+b'Input'
+b'The first line contains two integer numbers q and m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012) \xe2\x80\x94 the number of queries and the amount of mana at the beginning of every fight.'
+b'i-th of each next q lines contains three numbers ki, ai and bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ki\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106). '
+b'Using them you can restore queries this way: let j be the index of the last query of second type with positive answer (j\xe2\x80\x89=\xe2\x80\x890 if there were none of these). '
+b'  If ki\xe2\x80\x89=\xe2\x80\x891, then character learns spell with x\xe2\x80\x89=\xe2\x80\x89(ai\xe2\x80\x89+\xe2\x80\x89j) mod 106\xe2\x80\x89+\xe2\x80\x891, y\xe2\x80\x89=\xe2\x80\x89(bi\xe2\x80\x89+\xe2\x80\x89j) mod 106\xe2\x80\x89+\xe2\x80\x891.  If ki\xe2\x80\x89=\xe2\x80\x892, then you have to determine if Vova is able to win the fight against monster with t\xe2\x80\x89=\xe2\x80\x89(ai\xe2\x80\x89+\xe2\x80\x89j) mod 106\xe2\x80\x89+\xe2\x80\x891, h\xe2\x80\x89=\xe2\x80\x89(bi\xe2\x80\x89+\xe2\x80\x89j) mod 106\xe2\x80\x89+\xe2\x80\x891. '
+b'Output'
+b'For every query of second type print YES if Vova is able to win the fight with corresponding monster and NO otherwise.'
+Tags
+data structures, geometry, *3100

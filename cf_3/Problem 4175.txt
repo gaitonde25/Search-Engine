@@ -1,0 +1,17 @@
+b'In the computer network of the Berland State University there are n routers numbered from 1 to n. Some pairs of routers are connected by patch cords. Information can be transmitted over patch cords in both direction. The network is arranged in such a way that communication between any two routers (directly or through other routers) is possible. There are no cycles in the network, so there is only one path between each pair of routers over patch cords.'
+b'Unfortunately, the exact topology of the network was lost by administrators. In order to restore it, the following auxiliary information was collected.'
+b'For each patch cord p, directly connected to the router i, list of routers located behind the patch cord p relatively i is known. In other words, all routers path from which to the router i goes through p are known. So for each router i there are ki lists, where ki is the number of patch cords connected to i.'
+b'For example, let the network consists of three routers connected in chain 1\xe2\x80\x89-\xe2\x80\x892\xe2\x80\x89-\xe2\x80\x893. Then:'
+b'  the router 1: for the single patch cord connected to the first router there is a single list containing two routers: 2 and 3;  the router 2: for each of the patch cords connected to the second router there is a list: one list contains the router 1 and the other \xe2\x80\x94 the router 3;  the router 3: for the single patch cord connected to the third router there is a single list containing two routers: 1 and 2. '
+b'Your task is to help administrators to restore the network topology, i. e. to identify all pairs of routers directly connected by a patch cord.'
+b'Input'
+b'The first line contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the number of routers in the network.'
+b'The i-th of the following n lines contains a description of the lists for the router i.'
+b"The description of each list begins with the number of routers in it. Then the symbol ':' follows, and after that the numbers of routers from the list are given. This numbers are separated by comma. Lists are separated by symbol '-'."
+b'It is guaranteed, that for each router i the total number of routers in its lists equals to n\xe2\x80\x89-\xe2\x80\x891 and all the numbers in lists of each router are distinct. For each router i lists do not contain the number i.'
+b'Output'
+b'Print -1 if no solution exists.'
+b'In the other case print to the first line n\xe2\x80\x89-\xe2\x80\x891 \xe2\x80\x94 the total number of patch cords in the network. In each of the following n\xe2\x80\x89-\xe2\x80\x891 lines print two integers \xe2\x80\x94 the routers which are directly connected by a patch cord. Information about each patch cord must be printed exactly once.'
+b'Patch cords and routers can be printed in arbitrary order.'
+Tags
+constructive algorithms, dfs and similar, graphs, hashing, trees, *2400

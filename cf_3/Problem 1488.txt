@@ -1,0 +1,14 @@
+b'You are given nn segments on a coordinate axis OXOX. The ii-th segment has borders [li;ri][li;ri]. All points xx, for which li\xe2\x89\xa4x\xe2\x89\xa4rili\xe2\x89\xa4x\xe2\x89\xa4ri holds, belong to the ii-th segment.'
+b'Your task is to choose the maximum by size (the number of segments) subset of the given set of segments such that each pair of segments in this subset either non-intersecting or one of them lies inside the other one.'
+b'Two segments [li;ri][li;ri] and [lj;rj][lj;rj] are non-intersecting if they have no common points. For example, segments [1;2][1;2] and [3;4][3;4], [1;3][1;3] and [5;5][5;5] are non-intersecting, while segments [1;2][1;2] and [2;3][2;3], [1;2][1;2] and [2;2][2;2] are intersecting.'
+b'The segment [li;ri][li;ri] lies inside the segment [lj;rj][lj;rj] if lj\xe2\x89\xa4lilj\xe2\x89\xa4li and ri\xe2\x89\xa4rjri\xe2\x89\xa4rj. For example, segments [2;2][2;2], [2,3][2,3], [3;4][3;4] and [2;4][2;4] lie inside the segment [2;4][2;4], while [2;5][2;5] and [1;4][1;4] are not.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa430001\xe2\x89\xa4n\xe2\x89\xa43000) \xe2\x80\x94 the number of segments. The next nn lines describe segments. The ii-th segment is given as two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa42\xe2\x8b\x85105), where lili is the left border of the ii-th segment and riri is the right border of the ii-th segment.'
+b'Additional constraint on the input: there are no duplicates in the list of segments.'
+b'It is guaranteed that the sum of nn does not exceed 30003000 (\xe2\x88\x91n\xe2\x89\xa43000\xe2\x88\x91n\xe2\x89\xa43000).'
+b'Output'
+b'For each test case, print the answer: the maximum possible size of the subset of the given set of segments such that each pair of segments in this subset either non-intersecting or one of them lies inside the other one.'
+Tags
+data structures, dp, graphs, sortings, *2300

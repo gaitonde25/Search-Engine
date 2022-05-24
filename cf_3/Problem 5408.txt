@@ -1,0 +1,11 @@
+b'Amr lives in Lala Land. Lala Land is a very beautiful country that is located on a coordinate line. Lala Land is famous with its apple trees growing everywhere.'
+b"Lala Land has exactly n apple trees. Tree number i is located in a position xi and has ai apples growing on it. Amr wants to collect apples from the apple trees. Amr currently stands in x\xe2\x80\x89=\xe2\x80\x890 position. At the beginning, he can choose whether to go right or left. He'll continue in his direction until he meets an apple tree he didn't visit before. He'll take all of its apples and then reverse his direction, continue walking in this direction until he meets another apple tree he didn't visit before and so on. In the other words, Amr reverses his direction when visiting each new apple tree. Amr will stop collecting apples when there are no more trees he didn't visit in the direction he is facing."
+b'What is the maximum number of apples he can collect?'
+b'Input'
+b'The first line contains one number n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100), the number of apple trees in Lala Land.'
+b'The following n lines contains two integers each xi, ai (\xe2\x80\x89-\xe2\x80\x89105\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, xi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x890, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), representing the position of the i-th tree and number of apples on it.'
+b"It's guaranteed that there is at most one apple tree at each coordinate. It's guaranteed that no tree grows in point 0."
+b'Output'
+b'Output the maximum number of apples Amr can collect.'
+Tags
+brute force, implementation, sortings, *1100

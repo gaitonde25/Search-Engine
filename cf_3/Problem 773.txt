@@ -1,0 +1,14 @@
+b'This is the easy version of the problem. The only difference is the constraints on nn and kk. You can make hacks only if all versions of the problem are solved.'
+b'You have a string ss, and you can do two types of operations on it: '
+b'  Delete the last character of the string.  Duplicate the string: s:=s+ss:=s+s, where ++ denotes concatenation. '
+b'You can use each operation any number of times (possibly none).'
+b'Your task is to find the lexicographically smallest string of length exactly kk that can be obtained by doing these operations on string ss.'
+b'A string aa is lexicographically smaller than a string bb if and only if one of the following holds:'
+b'  aa is a prefix of bb, but a\xe2\x89\xa0ba\xe2\x89\xa0b;  In the first position where aa and bb differ, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb. '
+b'Input'
+b'The first line contains two integers nn, kk (1\xe2\x89\xa4n,k\xe2\x89\xa450001\xe2\x89\xa4n,k\xe2\x89\xa45000) \xe2\x80\x94 the length of the original string ss and the length of the desired string.'
+b'The second line contains the string ss, consisting of nn lowercase English letters.'
+b'Output'
+b'Print the lexicographically smallest string of length kk that can be obtained by doing the operations on string ss.'
+Tags
+binary search, brute force, dp, greedy, hashing, implementation, string suffix structures, strings, two pointers, *1600

@@ -1,0 +1,11 @@
+b'You are given a tree with nn nodes. You have to write non-negative integers on its edges so that the following condition would be satisfied:'
+b'For every two nodes ii, jj, look at the path between them and count the sum of numbers on the edges of this path. Write all obtained sums on the blackboard. Then every integer from 11 to \xe2\x8c\x8a2n29\xe2\x8c\x8b\xe2\x8c\x8a2n29\xe2\x8c\x8b has to be written on the blackboard at least once. '
+b'It is guaranteed that such an arrangement exists.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of nodes.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v), meaning that there is an edge between nodes uu and vv. It is guaranteed that these edges form a tree.'
+b'Output'
+b'Output n\xe2\x88\x921n\xe2\x88\x921 lines, each of form uu vv xx (0\xe2\x89\xa4x\xe2\x89\xa41060\xe2\x89\xa4x\xe2\x89\xa4106), which will mean that you wrote number xx on the edge between uu, vv. '
+b'Set of edges (u,v)(u,v) has to coincide with the set of edges of the input graph, but you can output edges in any order. You can also output ends of edges in an order different from the order in input.'
+Tags
+constructive algorithms, trees, *2700

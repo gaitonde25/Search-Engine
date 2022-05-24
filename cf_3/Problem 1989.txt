@@ -1,0 +1,14 @@
+b'You are given a string ss. You can build new string pp from ss using the following operation no more than two times: '
+b'  choose any subsequence si1,si2,\xe2\x80\xa6,siksi1,si2,\xe2\x80\xa6,sik where 1\xe2\x89\xa4i1<i2<\xe2\x8b\xaf<ik\xe2\x89\xa4|s|1\xe2\x89\xa4i1<i2<\xe2\x8b\xaf<ik\xe2\x89\xa4|s|;  erase the chosen subsequence from ss (ss can become empty);  concatenate chosen subsequence to the right of the string pp (in other words, p=p+si1si2\xe2\x80\xa6sikp=p+si1si2\xe2\x80\xa6sik). '
+b'Of course, initially the string pp is empty. '
+b"For example, let s=ababcds=ababcd. At first, let's choose subsequence s1s4s5=abcs1s4s5=abc \xe2\x80\x94 we will get s=bads=bad and p=abcp=abc. At second, let's choose s1s2=bas1s2=ba \xe2\x80\x94 we will get s=ds=d and p=abcbap=abcba. So we can build abcbaabcba from ababcdababcd."
+b'Can you build a given string tt using the algorithm above?'
+b'Input'
+b'The first line contains the single integer TT (1\xe2\x89\xa4T\xe2\x89\xa41001\xe2\x89\xa4T\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'Next 2T2T lines contain test cases \xe2\x80\x94 two per test case. The first line contains string ss consisting of lowercase Latin letters (1\xe2\x89\xa4|s|\xe2\x89\xa44001\xe2\x89\xa4|s|\xe2\x89\xa4400) \xe2\x80\x94 the initial string.'
+b"The second line contains string tt consisting of lowercase Latin letters (1\xe2\x89\xa4|t|\xe2\x89\xa4|s|1\xe2\x89\xa4|t|\xe2\x89\xa4|s|) \xe2\x80\x94 the string you'd like to build."
+b"It's guaranteed that the total length of strings ss doesn't exceed 400400."
+b'Output'
+b"Print TT answers \xe2\x80\x94 one per test case. Print YES (case insensitive) if it's possible to build tt and NO (case insensitive) otherwise."
+Tags
+dp, strings, *2200

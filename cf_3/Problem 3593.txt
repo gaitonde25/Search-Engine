@@ -1,0 +1,14 @@
+b'You are given n switches and m lamps. The i-th switch turns on some subset of the lamps. This information is given as the matrix a consisting of n rows and m columns where ai,\xe2\x80\x89j\xe2\x80\x89=\xe2\x80\x891 if the i-th switch turns on the j-th lamp and ai,\xe2\x80\x89j\xe2\x80\x89=\xe2\x80\x890 if the i-th switch is not connected to the j-th lamp.'
+b'Initially all m lamps are turned off.'
+b'Switches change state only from "off" to "on". It means that if you press two or more switches connected to the same lamp then the lamp will be turned on after any of this switches is pressed and will remain its state even if any switch connected to this lamp is pressed afterwards.'
+b'It is guaranteed that if you push all n switches then all m lamps will be turned on.'
+b'Your think that you have too many switches and you would like to ignore one of them. '
+b'Your task is to say if there exists such a switch that if you will ignore (not use) it but press all the other n\xe2\x80\x89-\xe2\x80\x891 switches then all the m lamps will be turned on.'
+b'Input'
+b'The first line of the input contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000) \xe2\x80\x94 the number of the switches and the number of the lamps.'
+b"The following n lines contain m characters each. The character ai,\xe2\x80\x89j is equal to '1' if the i-th switch turns on the j-th lamp and '0' otherwise."
+b'It is guaranteed that if you press all n switches all m lamps will be turned on.'
+b'Output'
+b'Print "YES" if there is a switch that if you will ignore it and press all the other n\xe2\x80\x89-\xe2\x80\x891 switches then all m lamps will be turned on. Print "NO" if there is no such switch.'
+Tags
+implementation, *1200

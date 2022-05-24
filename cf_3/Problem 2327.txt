@@ -1,0 +1,15 @@
+b'Another Codeforces Round has just finished! It has gathered nn participants, and according to the results, the expected rating change of participant ii is aiai. These rating changes are perfectly balanced\xc2\xa0\xe2\x80\x94 their sum is equal to 00.'
+b'Unfortunately, due to minor technical glitches, the round is declared semi-rated. It means that all rating changes must be divided by two.'
+b'There are two conditions though: '
+b'  For each participant ii, their modified rating change bibi must be integer, and as close to ai2ai2 as possible. It means that either bi=\xe2\x8c\x8aai2\xe2\x8c\x8bbi=\xe2\x8c\x8aai2\xe2\x8c\x8b or bi=\xe2\x8c\x88ai2\xe2\x8c\x89bi=\xe2\x8c\x88ai2\xe2\x8c\x89. In particular, if aiai is even, bi=ai2bi=ai2. Here \xe2\x8c\x8ax\xe2\x8c\x8b\xe2\x8c\x8ax\xe2\x8c\x8b denotes rounding down to the largest integer not greater than xx, and \xe2\x8c\x88x\xe2\x8c\x89\xe2\x8c\x88x\xe2\x8c\x89 denotes rounding up to the smallest integer not smaller than xx.  The modified rating changes must be perfectly balanced\xc2\xa0\xe2\x80\x94 their sum must be equal to 00. '
+b'Can you help with that?'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa4138452\xe2\x89\xa4n\xe2\x89\xa413845), denoting the number of participants.'
+b'Each of the next nn lines contains a single integer aiai (\xe2\x88\x92336\xe2\x89\xa4ai\xe2\x89\xa41164\xe2\x88\x92336\xe2\x89\xa4ai\xe2\x89\xa41164), denoting the rating change of the ii-th participant.'
+b'The sum of all aiai is equal to 00.'
+b'Output'
+b'Output nn integers bibi, each denoting the modified rating change of the ii-th participant in order of input.'
+b'For any ii, it must be true that either bi=\xe2\x8c\x8aai2\xe2\x8c\x8bbi=\xe2\x8c\x8aai2\xe2\x8c\x8b or bi=\xe2\x8c\x88ai2\xe2\x8c\x89bi=\xe2\x8c\x88ai2\xe2\x8c\x89. The sum of all bibi must be equal to 00.'
+b'If there are multiple solutions, print any. We can show that a solution exists for any valid input.'
+Tags
+implementation, math, *1000

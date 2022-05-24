@@ -1,0 +1,12 @@
+b'Amr is a young coder who likes music a lot. He always wanted to learn how to play music but he was busy coding so he got an idea.'
+b'Amr has n instruments, it takes ai days to learn i-th instrument. Being busy, Amr dedicated k days to learn how to play the maximum possible number of instruments.'
+b'Amr asked for your help to distribute his free days between instruments so that he can achieve his goal.'
+b'Input'
+b'The first line contains two numbers n, k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000), the number of instruments and number of days respectively.'
+b'The second line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100), representing number of days required to learn the i-th instrument.'
+b'Output'
+b'In the first line output one integer m representing the maximum number of instruments Amr can learn.'
+b'In the second line output m space-separated integers: the indices of instruments to be learnt. You may output indices in any order.'
+b'if there are multiple optimal solutions output any. It is not necessary to use all days for studying.'
+Tags
+greedy, implementation, sortings, *1000

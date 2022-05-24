@@ -1,0 +1,11 @@
+b'Luntik came out for a morning stroll and found an array aa of length nn. He calculated the sum ss of the elements of the array (s=\xe2\x88\x91ni=1ais=\xe2\x88\x91i=1nai). Luntik calls a subsequence of the array aa nearly full if the sum of the numbers in that subsequence is equal to s\xe2\x88\x921s\xe2\x88\x921.'
+b'Luntik really wants to know the number of nearly full subsequences of the array aa. But he needs to come home so he asks you to solve that problem!'
+b'A sequence xx is a subsequence of a sequence yy if xx can be obtained from yy by deletion of several (possibly, zero or all) elements.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. The next 2\xe2\x8b\x85t2\xe2\x8b\x85t lines contain descriptions of test cases. The description of each test case consists of two lines.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4601\xe2\x89\xa4n\xe2\x89\xa460) \xe2\x80\x94 the length of the array.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the elements of the array aa.'
+b'Output'
+b'For each test case print the number of nearly full subsequences of the array.'
+Tags
+combinatorics, math, *900

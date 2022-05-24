@@ -1,0 +1,12 @@
+b'There are two sisters Alice and Betty. You have nn candies. You want to distribute these nn candies between two sisters in such a way that:'
+b'  Alice will get aa (a>0a>0) candies;  Betty will get bb (b>0b>0) candies;  each sister will get some integer number of candies;  Alice will get a greater amount of candies than Betty (i.e. a>ba>b);  all the candies will be given to one of two sisters (i.e. a+b=na+b=n). '
+b'Your task is to calculate the number of ways to distribute exactly nn candies between sisters in a way described above. Candies are indistinguishable.'
+b'Formally, find the number of ways to represent nn as the sum of n=a+bn=a+b, where aa and bb are positive integers and a>ba>b.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The only line of a test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851091\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85109) \xe2\x80\x94 the number of candies you have.'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 the number of ways to distribute exactly nn candies between two sisters in a way described in the problem statement. If there is no way to satisfy all the conditions, print 00.'
+Tags
+math, *800

@@ -1,0 +1,18 @@
+b'There is a social website with n fanpages, numbered 1 through n. There are also n companies, and the i-th company owns the i-th fanpage.'
+b'Recently, the website created a feature called following. Each fanpage must choose exactly one other fanpage to follow.'
+b"The website doesn\xe2\x80\x99t allow a situation where i follows j and at the same time j follows i. Also, a fanpage can't follow itself."
+b'Let\xe2\x80\x99s say that fanpage i follows some other fanpage j0. Also, let\xe2\x80\x99s say that i is followed by k other fanpages j1,\xe2\x80\x89j2,\xe2\x80\x89...,\xe2\x80\x89jk. Then, when people visit fanpage i they see ads from k\xe2\x80\x89+\xe2\x80\x892 distinct companies: i,\xe2\x80\x89j0,\xe2\x80\x89j1,\xe2\x80\x89...,\xe2\x80\x89jk. Exactly ti people subscribe (like) the i-th fanpage, and each of them will click exactly one add. For each of k\xe2\x80\x89+\xe2\x80\x891 companies j0,\xe2\x80\x89j1,\xe2\x80\x89...,\xe2\x80\x89jk, exactly  people will click their ad. Remaining  people will click an ad from company i (the owner of the fanpage).'
+b'The total income of the company is equal to the number of people who click ads from this copmany.'
+b'Limak and Radewoosh ask you for help. Initially, fanpage i follows fanpage fi. Your task is to handle q queries of three types:'
+b"  1 i j\xc2\xa0\xe2\x80\x94 fanpage i follows fanpage j from now. It's guaranteed that i didn't follow j just before the query. Note an extra constraint for the number of queries of this type (below, in the Input section).  2 i\xc2\xa0\xe2\x80\x94 print the total income of the i-th company.  3\xc2\xa0\xe2\x80\x94 print two integers: the smallest income of one company and the biggest income of one company. "
+b'Input'
+b'The first line of the input contains two integers n and q (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of fanpages and the number of queries, respectively.'
+b'The second line contains n integers t1,\xe2\x80\x89t2,\xe2\x80\x89...,\xe2\x80\x89tn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012) where ti denotes the number of people subscribing the i-th fanpage.'
+b'The third line contains n integers f1,\xe2\x80\x89f2,\xe2\x80\x89...,\xe2\x80\x89fn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89fi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). Initially, fanpage i follows fanpage fi.'
+b'Then, q lines follow. The i-th of them describes the i-th query. The first number in the line is an integer typei (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89typei\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893)\xc2\xa0\xe2\x80\x94 the type of the query.'
+b"There will be at most 50\xe2\x80\x89000 queries of the first type. There will be at least one query of the second or the third type (so, the output won't be empty)."
+b"It's guaranteed that at each moment a fanpage doesn't follow itself, and that no two fanpages follow each other."
+b'Output'
+b'For each query of the second type print one integer in a separate line - the total income of the given company. For each query of the third type print two integers in a separate line - the minimum and the maximum total income, respectively.'
+Tags
+*2900

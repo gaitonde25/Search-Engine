@@ -1,0 +1,10 @@
+b'There are nn cities numbered from 11 to nn, and city ii has beauty aiai.'
+b'A salesman wants to start at city 11, visit every city exactly once, and return to city 11.'
+b'For all i\xe2\x89\xa0ji\xe2\x89\xa0j, a flight from city ii to city jj costs max(ci,aj\xe2\x88\x92ai)max(ci,aj\xe2\x88\x92ai) dollars, where cici is the price floor enforced by city ii. Note that there is no absolute value. Find the minimum total cost for the salesman to complete his trip.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of cities.'
+b'The ii-th of the next nn lines contains two integers aiai, cici (0\xe2\x89\xa4ai,ci\xe2\x89\xa41090\xe2\x89\xa4ai,ci\xe2\x89\xa4109) \xe2\x80\x94 the beauty and price floor of the ii-th city.'
+b'Output'
+b'Output a single integer \xe2\x80\x94 the minimum total cost.'
+Tags
+binary search, data structures, dp, greedy, shortest paths, sortings, two pointers, *2200

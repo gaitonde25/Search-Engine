@@ -1,0 +1,16 @@
+b'You are given three multisets of pairs of colored sticks: '
+b'  RR pairs of red sticks, the first pair has length r1r1, the second pair has length r2r2, \xe2\x80\xa6\xe2\x80\xa6, the RR-th pair has length rRrR;  GG pairs of green sticks, the first pair has length g1g1, the second pair has length g2g2, \xe2\x80\xa6\xe2\x80\xa6, the GG-th pair has length gGgG;  BB pairs of blue sticks, the first pair has length b1b1, the second pair has length b2b2, \xe2\x80\xa6\xe2\x80\xa6, the BB-th pair has length bBbB; '
+b'You are constructing rectangles from these pairs of sticks with the following process: '
+b'  take a pair of sticks of one color;  take a pair of sticks of another color different from the first one;  add the area of the resulting rectangle to the total area. '
+b'Thus, you get such rectangles that their opposite sides are the same color and their adjacent sides are not the same color.'
+b'Each pair of sticks can be used at most once, some pairs can be left unused. You are not allowed to split a pair into independent sticks.'
+b'What is the maximum area you can achieve?'
+b'Input'
+b'The first line contains three integers RR, GG, BB (1\xe2\x89\xa4R,G,B\xe2\x89\xa42001\xe2\x89\xa4R,G,B\xe2\x89\xa4200)\xc2\xa0\xe2\x80\x94 the number of pairs of red sticks, the number of pairs of green sticks and the number of pairs of blue sticks.'
+b'The second line contains RR integers r1,r2,\xe2\x80\xa6,rRr1,r2,\xe2\x80\xa6,rR (1\xe2\x89\xa4ri\xe2\x89\xa420001\xe2\x89\xa4ri\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the lengths of sticks in each pair of red sticks.'
+b'The third line contains GG integers g1,g2,\xe2\x80\xa6,gGg1,g2,\xe2\x80\xa6,gG (1\xe2\x89\xa4gi\xe2\x89\xa420001\xe2\x89\xa4gi\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the lengths of sticks in each pair of green sticks.'
+b'The fourth line contains BB integers b1,b2,\xe2\x80\xa6,bBb1,b2,\xe2\x80\xa6,bB (1\xe2\x89\xa4bi\xe2\x89\xa420001\xe2\x89\xa4bi\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the lengths of sticks in each pair of blue sticks.'
+b'Output'
+b'Print the maximum possible total area of the constructed rectangles.'
+Tags
+dp, greedy, sortings, *1800

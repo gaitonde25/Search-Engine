@@ -1,0 +1,15 @@
+b'Naman has two binary strings ss and tt of length nn (a binary string is a string which only consists of the characters "0" and "1"). He wants to convert ss into tt using the following operation as few times as possible.'
+b'In one operation, he can choose any subsequence of ss and rotate it clockwise once.'
+b'For example, if s=1110100s=1110100, he can choose a subsequence corresponding to indices (11-based) {2,6,7}{2,6,7} and rotate them clockwise. The resulting string would then be s=1010110s=1010110.'
+b'A string aa is said to be a subsequence of string bb if aa can be obtained from bb by deleting some characters without changing the ordering of the remaining characters.'
+b'To perform a clockwise rotation on a sequence cc of size kk is to perform an operation which sets c1:=ck,c2:=c1,c3:=c2,\xe2\x80\xa6,ck:=ck\xe2\x88\x921c1:=ck,c2:=c1,c3:=c2,\xe2\x80\xa6,ck:=ck\xe2\x88\x921 simultaneously.'
+b'Determine the minimum number of operations Naman has to perform to convert ss into tt or say that it is impossible. '
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4106)(1\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the length of the strings.'
+b'The second line contains the binary string ss of length nn.'
+b'The third line contains the binary string tt of length nn.'
+b'Output'
+b'If it is impossible to convert ss to tt after any number of operations, print \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print the minimum number of operations required.'
+Tags
+binary search, constructive algorithms, data structures, greedy, *2100

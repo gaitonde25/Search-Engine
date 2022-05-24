@@ -1,0 +1,17 @@
+b"Vova's family is building the Great Vova Wall (named by Vova himself). Vova's parents, grandparents, grand-grandparents contributed to it. Now it's totally up to Vova to put the finishing touches."
+b'The current state of the wall can be respresented by a sequence aa of nn integers, with aiai being the height of the ii-th part of the wall.'
+b'Vova can only use 2\xc3\x9712\xc3\x971 bricks to put in the wall (he has infinite supply of them, however).'
+b"Vova can put bricks horizontally on the neighboring parts of the wall of equal height. It means that if for some ii the current height of part ii is the same as for part i+1i+1, then Vova can put a brick there and thus increase both heights by 1. Obviously, Vova can't put bricks in such a way that its parts turn out to be off the borders (to the left of part 11 of the wall or to the right of part nn of it)."
+b'The next paragraph is specific to the version 1 of the problem.'
+b'Vova can also put bricks vertically. That means increasing height of any part of the wall by 2.'
+b'Vova is a perfectionist, so he considers the wall completed when:'
+b'  all parts of the wall has the same height;  the wall has no empty spaces inside it. '
+b'Can Vova complete the wall using any amount of bricks (possibly zero)?'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of parts in the wall.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the initial heights of the parts of the wall.'
+b'Output'
+b'Print "YES" if Vova can complete the wall using any amount of bricks (possibly zero).'
+b'Print "NO" otherwise.'
+Tags
+greedy, implementation, math, *2200

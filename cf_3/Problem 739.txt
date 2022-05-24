@@ -1,0 +1,11 @@
+b'This is the hard version of the problem. The only difference is that here 2\xe2\x89\xa4k\xe2\x89\xa41002\xe2\x89\xa4k\xe2\x89\xa4100. You can make hacks only if both the versions of the problem are solved.'
+b'This is an interactive problem!'
+b"Every decimal number has a base kk equivalent. The individual digits of a base kk number are called kk-its. Let's define the kk-itwise XOR of two kk-its aa and bb as (a+b)modk(a+b)modk."
+b'The kk-itwise XOR of two base kk numbers is equal to the new number formed by taking the kk-itwise XOR of their corresponding kk-its. The kk-itwise XOR of two decimal numbers aa and bb is denoted by a\xe2\x8a\x95kba\xe2\x8a\x95kb and is equal to the decimal representation of the kk-itwise XOR of the base kk representations of aa and bb. All further numbers used in the statement below are in decimal unless specified.'
+b"You have hacked the criminal database of Rockport Police Department (RPD), also known as the Rap Sheet. But in order to access it, you require a password. You don't know it, but you are quite sure that it lies between 00 and n\xe2\x88\x921n\xe2\x88\x921 inclusive. So, you have decided to guess it. Luckily, you can try at most nn times without being blocked by the system. But the system is adaptive. Each time you make an incorrect guess, it changes the password. Specifically, if the password before the guess was xx, and you guess a different number yy, then the system changes the password to a number zz such that x\xe2\x8a\x95kz=yx\xe2\x8a\x95kz=y. Guess the password and break into the system."
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) denoting the number of test cases. tt test cases follow.'
+b'The first line of each test case contains two integers nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) and kk (2\xe2\x89\xa4k\xe2\x89\xa4100)(2\xe2\x89\xa4k\xe2\x89\xa4100).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+Tags
+brute force, constructive algorithms, interactive, math, *2200

@@ -1,0 +1,15 @@
+b'You are given two tables AA and BB of size n\xc3\x97mn\xc3\x97m. '
+b'We define a sorting by column as the following: we choose a column and reorder the rows of the table by the value in this column, from the rows with the smallest value to the rows with the largest. In case there are two or more rows with equal value in this column, their relative order does not change (such sorting algorithms are called stable).'
+b'You can find this behavior of sorting by column in many office software for managing spreadsheets. Petya works in one, and he has a table AA opened right now. He wants to perform zero of more sortings by column to transform this table to table BB.'
+b'Determine if it is possible to do so, and if yes, find a sequence of columns to sort by. Note that you do not need to minimize the number of sortings.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa415001\xe2\x89\xa4n,m\xe2\x89\xa41500)\xc2\xa0\xe2\x80\x94 the sizes of the tables.'
+b'Each of the next nn lines contains mm integers ai,jai,j (1\xe2\x89\xa4ai,j\xe2\x89\xa4n1\xe2\x89\xa4ai,j\xe2\x89\xa4n), denoting the elements of the table AA.'
+b'Each of the next nn lines contains mm integers bi,jbi,j (1\xe2\x89\xa4bi,j\xe2\x89\xa4n1\xe2\x89\xa4bi,j\xe2\x89\xa4n), denoting the elements of the table BB.'
+b'Output'
+b'If it is not possible to transform AA into BB, print \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, first print an integer kk (0\xe2\x89\xa4k\xe2\x89\xa450000\xe2\x89\xa4k\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 the number of sortings in your solution.'
+b'Then print kk integers c1,\xe2\x80\xa6,ckc1,\xe2\x80\xa6,ck (1\xe2\x89\xa4ci\xe2\x89\xa4m1\xe2\x89\xa4ci\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the columns, by which Petya needs to perform a sorting.'
+b'We can show that if a solution exists, there is one in no more than 50005000 sortings.'
+Tags
+bitmasks, brute force, constructive algorithms, greedy, two pointers, *2600

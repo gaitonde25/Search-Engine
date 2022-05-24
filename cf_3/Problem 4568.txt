@@ -1,0 +1,17 @@
+b'You are given a tree that has n vertices, which are numbered from 1 to n, where the vertex number one is the root. Each edge has weight wi and strength pi.'
+b"Botanist Innokentiy, who is the only member of the jury of the Olympiad in Informatics, doesn't like broken trees. "
+b"The tree is broken if there is such an edge the strength of which is less than the sum of weight of subtree's edges to which it leads."
+b'It is allowed to reduce weight of any edge by arbitrary integer value, but then the strength of its edge is reduced by the same value. It means if the weight of the edge is 10, and the strength is 12, then by the reducing the weight by 7 its weight will equal 3, and the strength will equal 5. '
+b'It is not allowed to increase the weight of the edge.'
+b'Your task is to get the tree, which is not broken, by reducing the weight of edges of the given tree, and also all edged should have the positive weight, moreover, the total weight of all edges should be as large as possible.'
+b'It is obvious that the strength of edges can not be negative, however it can equal zero if the weight of the subtree equals zero. '
+b'Input'
+b'The first line contains the integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree. The next n\xe2\x80\x89-\xe2\x80\x891 lines contains the description of edges. Each line contains four integers x, y, w, p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109,\xe2\x80\x890\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where x and y\xc2\xa0\xe2\x80\x94 vertices which connect the edge (the vertex number x is the parent of the vertex number y), w and p are the weight and the strength of the edge, accordingly. It is guaranteed that the edges describe the tree with the root in the vertex 1.'
+b'Output'
+b'If it is impossible to get unbroken tree from the given tree, print -1 in the only line.'
+b'Otherwise, the output data should contain n lines:'
+b'In the first line print the number n\xc2\xa0\xe2\x80\x94 the number of vertices on the tree. '
+b'In the next n\xe2\x80\x89-\xe2\x80\x891 lines print the description of edges of the resulting tree. Each line should contain four integers x, y, w, p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109,\xe2\x80\x890\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where x and y\xc2\xa0\xe2\x80\x94 vertices, which the edge connects (the vertex number x is the parent of the vertex number y), w and p are the new weight and the strength of the edge, accordingly. '
+b'Print edges in the same order as they are given in input data: the first two integers of each line should not be changed. '
+Tags
+dfs and similar, dp, graphs, greedy, trees, *2600

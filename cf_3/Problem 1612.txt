@@ -1,0 +1,9 @@
+b'Let f(x)f(x) be the sum of digits of a decimal number xx.'
+b'Find the smallest non-negative integer xx such that f(x)+f(x+1)+\xe2\x8b\xaf+f(x+k)=nf(x)+f(x+1)+\xe2\x8b\xaf+f(x+k)=n.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41501\xe2\x89\xa4t\xe2\x89\xa4150) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of one line containing two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41501\xe2\x89\xa4n\xe2\x89\xa4150, 0\xe2\x89\xa4k\xe2\x89\xa490\xe2\x89\xa4k\xe2\x89\xa49). '
+b'Output'
+b'For each test case, print one integer without leading zeroes. If there is no such xx that f(x)+f(x+1)+\xe2\x8b\xaf+f(x+k)=nf(x)+f(x+1)+\xe2\x8b\xaf+f(x+k)=n, print \xe2\x88\x921\xe2\x88\x921; otherwise, print the minimum xx meeting that constraint.'
+Tags
+brute force, constructive algorithms, dp, greedy, *2200

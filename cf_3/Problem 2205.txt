@@ -1,0 +1,12 @@
+b'You are organizing a boxing tournament, where nn boxers will participate (nn is a power of 22), and your friend is one of them. All boxers have different strength from 11 to nn, and boxer ii wins in the match against boxer jj if and only if ii is stronger than jj.'
+b'The tournament will be organized as follows: nn boxers will be divided into pairs; the loser in each pair leaves the tournament, and n2n2 winners advance to the next stage, where they are divided into pairs again, and the winners in all pairs advance to the next stage, and so on, until only one boxer remains (who is declared the winner).'
+b'Your friend really wants to win the tournament, but he may be not the strongest boxer. To help your friend win the tournament, you may bribe his opponents: if your friend is fighting with a boxer you have bribed, your friend wins even if his strength is lower.'
+b'Furthermore, during each stage you distribute the boxers into pairs as you wish.'
+b'The boxer with strength ii can be bribed if you pay him aiai dollars. What is the minimum number of dollars you have to spend to make your friend win the tournament, provided that you arrange the boxers into pairs during each stage as you wish?'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42182\xe2\x89\xa4n\xe2\x89\xa4218) \xe2\x80\x94 the number of boxers. nn is a power of 22.'
+b'The second line contains nn integers a1a1, a2a2, ..., anan, where aiai is the number of dollars you have to pay if you want to bribe the boxer with strength ii. Exactly one of aiai is equal to \xe2\x88\x921\xe2\x88\x921 \xe2\x80\x94 it means that the boxer with strength ii is your friend. All other values are in the range [1,109][1,109].'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum number of dollars you have to pay so your friend wins.'
+Tags
+brute force, dp, greedy, *2400

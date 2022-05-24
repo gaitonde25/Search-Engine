@@ -1,0 +1,12 @@
+b'The following problem is well-known: given integers n and m, calculate'
+b' , '
+b'where 2n\xe2\x80\x89=\xe2\x80\x892\xc2\xb72\xc2\xb7...\xc2\xb72 (n factors), and  denotes the remainder of division of x by y.'
+b'You are asked to solve the "reverse" problem. Given integers n and m, calculate'
+b' . '
+b'Input'
+b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89108).'
+b'The second line contains a single integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89108).'
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the value of .'
+Tags
+implementation, math, *900

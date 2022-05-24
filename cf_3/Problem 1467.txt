@@ -1,0 +1,14 @@
+b'Alice and Bob are playing a fun game of tree tag.'
+b'The game is played on a tree of nn vertices numbered from 11 to nn. Recall that a tree on nn vertices is an undirected, connected graph with n\xe2\x88\x921n\xe2\x88\x921 edges.'
+b'Initially, Alice is located at vertex aa, and Bob at vertex bb. They take turns alternately, and Alice makes the first move. In a move, Alice can jump to a vertex with distance at most dada from the current vertex. And in a move, Bob can jump to a vertex with distance at most dbdb from the current vertex. The distance between two vertices is defined as the number of edges on the unique simple path between them. In particular, either player is allowed to stay at the same vertex in a move. Note that when performing a move, a player only occupies the starting and ending vertices of their move, not the vertices between them.'
+b'If after at most 1010010100 moves, Alice and Bob occupy the same vertex, then Alice is declared the winner. Otherwise, Bob wins.'
+b'Determine the winner if both players play optimally.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Description of the test cases follows.'
+b"The first line of each test case contains five integers n,a,b,da,dbn,a,b,da,db (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n, a\xe2\x89\xa0ba\xe2\x89\xa0b, 1\xe2\x89\xa4da,db\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4da,db\xe2\x89\xa4n\xe2\x88\x921) \xc2\xa0\xe2\x80\x94 the number of vertices, Alice's vertex, Bob's vertex, Alice's maximum jumping distance, and Bob's maximum jumping distance, respectively."
+b'The following n\xe2\x88\x921n\xe2\x88\x921 lines describe the edges of the tree. The ii-th of these lines contains two integers uu, vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n,u\xe2\x89\xa0v1\xe2\x89\xa4u,v\xe2\x89\xa4n,u\xe2\x89\xa0v), denoting an edge between vertices uu and vv. It is guaranteed that these edges form a tree structure.'
+b'It is guaranteed that the sum of nn across all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, output a single line containing the winner of the game: "Alice" or "Bob".'
+Tags
+dfs and similar, dp, games, trees, *1900

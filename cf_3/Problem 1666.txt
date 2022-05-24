@@ -1,0 +1,8 @@
+b'This is an interactive problem.'
+b'Ayush devised yet another scheme to set the password of his lock. The lock has nn slots where each slot can hold any non-negative integer. The password PP is a sequence of nn integers, ii-th element of which goes into the ii-th slot of the lock.'
+b'To set the password, Ayush comes up with an array AA of nn integers each in the range [0,263\xe2\x88\x921][0,263\xe2\x88\x921]. He then sets the ii-th element of PP as the bitwise OR of all integers in the array except AiAi.'
+b'You need to guess the password. To make a query, you can choose a non-empty subset of indices of the array and ask the bitwise OR all elements of the array with index in this subset. You can ask no more than 13 queries.'
+b'Input'
+b'The first line of input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41000)(2\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of slots in the lock.'
+Tags
+bitmasks, combinatorics, constructive algorithms, interactive, math, *2800

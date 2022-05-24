@@ -1,0 +1,12 @@
+b'One day Masha was walking in the park and found a graph under a tree... Surprised? Did you think that this problem would have some logical and reasoned story? No way! So, the problem...'
+b'Masha has an oriented graph which ii-th vertex contains some positive integer aiai. Initially Masha can put a coin at some vertex. In one operation she can move a coin placed in some vertex uu to any other vertex vv such that there is an oriented edge u\xe2\x86\x92vu\xe2\x86\x92v in the graph. Each time when the coin is placed in some vertex ii, Masha write down an integer aiai in her notebook (in particular, when Masha initially puts a coin at some vertex, she writes an integer written at this vertex in her notebook). Masha wants to make exactly k\xe2\x88\x921k\xe2\x88\x921 operations in such way that the maximum number written in her notebook is as small as possible.'
+b'Input'
+b'The first line contains three integers nn, mm and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 0\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa410181\xe2\x89\xa4k\xe2\x89\xa41018)\xc2\xa0\xe2\x80\x94 the number of vertices and edges in the graph, and the number of operation that Masha should make.'
+b'The second line contains nn integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the numbers written in graph vertices.'
+b'Each of the following mm lines contains two integers uu and vv (1\xe2\x89\xa4u\xe2\x89\xa0v\xe2\x89\xa4n1\xe2\x89\xa4u\xe2\x89\xa0v\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 it means that there is an edge u\xe2\x86\x92vu\xe2\x86\x92v in the graph.'
+b"It's guaranteed that graph doesn't contain loops and multi-edges."
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the minimum value of the maximum number that Masha wrote in her notebook during optimal coin movements.'
+b"If Masha won't be able to perform k\xe2\x88\x921k\xe2\x88\x921 operations, print \xe2\x88\x921\xe2\x88\x921."
+Tags
+binary search, dfs and similar, dp, graphs, *1900

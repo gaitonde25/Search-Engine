@@ -1,0 +1,13 @@
+b'Everybody knows that the mm-coder Tournament will happen soon. mm schools participate in the tournament, and only one student from each school participates.'
+b'There are a total of nn students in those schools. Before the tournament, all students put their names and the names of their schools into the Technogoblet of Fire. After that, Technogoblet selects the strongest student from each school to participate. '
+b"Arkady is a hacker who wants to have kk Chosen Ones selected by the Technogoblet. Unfortunately, not all of them are the strongest in their schools, but Arkady can make up some new school names and replace some names from Technogoblet with those. You can't use each made-up name more than once. In that case, Technogoblet would select the strongest student in those made-up schools too."
+b'You know the power of each student and schools they study in. Calculate the minimal number of schools Arkady has to make up so that kk Chosen Ones would be selected by the Technogoblet.'
+b'Input'
+b'The first line contains three integers nn, mm and kk (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4m,k\xe2\x89\xa4n1\xe2\x89\xa4m,k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the total number of students, the number of schools and the number of the Chosen Ones.'
+b'The second line contains nn different integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n), where pipi denotes the power of ii-th student. The bigger the power, the stronger the student.'
+b'The third line contains nn integers s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (1\xe2\x89\xa4si\xe2\x89\xa4m1\xe2\x89\xa4si\xe2\x89\xa4m), where sisi denotes the school the ii-th student goes to. At least one student studies in each of the schools. '
+b"The fourth line contains kk different integers c1,c2,\xe2\x80\xa6,ckc1,c2,\xe2\x80\xa6,ck (1\xe2\x89\xa4ci\xe2\x89\xa4n1\xe2\x89\xa4ci\xe2\x89\xa4n) \xc2\xa0\xe2\x80\x94 the id's of the Chosen Ones."
+b'Output'
+b'Output a single integer \xc2\xa0\xe2\x80\x94 the minimal number of schools to be made up by Arkady so that kk Chosen Ones would be selected by the Technogoblet.'
+Tags
+implementation, sortings, *1100

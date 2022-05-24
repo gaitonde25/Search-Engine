@@ -1,0 +1,10 @@
+b'This is an interactive problem.'
+b'After completing the last level of the enchanted temple, you received a powerful artifact of the 255th level. Do not rush to celebrate, because this artifact has a powerful rune that can be destroyed with a single spell ss, which you are going to find. '
+b'We define the spell as some non-empty string consisting only of the letters a and b.'
+b'At any time, you can cast an arbitrary non-empty spell tt, and the rune on the artifact will begin to resist. Resistance of the rune is the edit distance between the strings that specify the casted spell tt and the rune-destroying spell ss.'
+b'Edit distance of two strings ss and tt is a value equal to the minimum number of one-character operations of replacing, inserting and deleting characters in ss to get tt. For example, the distance between ababa and aaa is 22, the distance between aaa and aba is 11, the distance between bbaba and abb is 33. The edit distance is 00 if and only if the strings are equal.'
+b'It is also worth considering that the artifact has a resistance limit \xc2\xa0\xe2\x80\x94 if you cast more than n+2n+2 spells, where nn is the length of spell ss, the rune will be blocked.'
+b'Thus, it takes n+2n+2 or fewer spells to destroy the rune that is on your artifact. Keep in mind that the required destructive spell ss must also be counted among these n+2n+2 spells.'
+b'Note that the length nn of the rune-destroying spell ss is not known to you in advance. It is only known that its length nn does not exceed 300300.'
+Tags
+constructive algorithms, interactive, strings, *2300

@@ -1,0 +1,17 @@
+b"You are given a bracket sequence consisting of nn characters '(' and/or )'. You perform several operations with it."
+b'During one operation, you choose the shortest prefix of this string (some amount of first characters of the string) that is good and remove it from the string.'
+b'The prefix is considered good if one of the following two conditions is satisfied:'
+b'  this prefix is a regular bracket sequence;  this prefix is a palindrome of length at least two. '
+b"A bracket sequence is called regular if it is possible to obtain a correct arithmetic expression by inserting characters '+' and '1' into this sequence. For example, sequences (())(), () and (()(())) are regular, while )(, (() and (()))( are not."
+b'The bracket sequence is called palindrome if it reads the same back and forth. For example, the bracket sequences )), (( and )(() are palindromes, while bracket sequences (), )( and ))( are not palindromes.'
+b"You stop performing the operations when it's not possible to find a good prefix. Your task is to find the number of operations you will perform on the given string and the number of remaining characters in the string."
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. The next 2t2t lines describe test cases.'
+b'The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the length of the bracket sequence.'
+b"The second line of the test case contains nn characters '(' and/or ')' \xe2\x80\x94 the bracket sequence itself."
+b'It is guaranteed that the sum of nn over all test cases do not exceed 5\xe2\x8b\x851055\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa45\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa45\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print two integers cc and rr \xe2\x80\x94 the number of operations you will perform on the given bracket sequence and the number of characters that remain in the string after performing all operations.'
+Tags
+greedy, implementation, *1200

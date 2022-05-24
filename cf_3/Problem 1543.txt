@@ -1,0 +1,10 @@
+b'Let LCM(x,y)LCM(x,y) be the minimum positive integer that is divisible by both xx and yy. For example, LCM(13,37)=481LCM(13,37)=481, LCM(9,6)=18LCM(9,6)=18.'
+b'You are given two integers ll and rr. Find two integers xx and yy such that l\xe2\x89\xa4x<y\xe2\x89\xa4rl\xe2\x89\xa4x<y\xe2\x89\xa4r and l\xe2\x89\xa4LCM(x,y)\xe2\x89\xa4rl\xe2\x89\xa4LCM(x,y)\xe2\x89\xa4r.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) \xe2\x80\x94 the number of test cases.'
+b'Each test case is represented by one line containing two integers ll and rr (1\xe2\x89\xa4l<r\xe2\x89\xa41091\xe2\x89\xa4l<r\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print two integers:'
+b'  if it is impossible to find integers xx and yy meeting the constraints in the statement, print two integers equal to \xe2\x88\x921\xe2\x88\x921;  otherwise, print the values of xx and yy (if there are multiple valid answers, you may print any of them). '
+Tags
+constructive algorithms, greedy, math, number theory, *800

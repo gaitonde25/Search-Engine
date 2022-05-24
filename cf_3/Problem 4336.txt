@@ -1,0 +1,9 @@
+b'At regular competition Vladik and Valera won a and b candies respectively. Vladik offered 1 his candy to Valera. After that Valera gave Vladik 2 his candies, so that no one thought that he was less generous. Vladik for same reason gave 3 candies to Valera in next turn.'
+b'More formally, the guys take turns giving each other one candy more than they received in the previous turn.'
+b'This continued until the moment when one of them couldn\xe2\x80\x99t give the right amount of candy. Candies, which guys got from each other, they don\xe2\x80\x99t consider as their own. You need to know, who is the first who can\xe2\x80\x99t give the right amount of candy.'
+b'Input'
+b'Single line of input data contains two space-separated integers a, b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 number of Vladik and Valera candies respectively.'
+b'Output'
+b'Pring a single line "Vladik\xe2\x80\x99\xe2\x80\x99 in case, if Vladik first who can\xe2\x80\x99t give right amount of candy, or "Valera\xe2\x80\x99\xe2\x80\x99 otherwise.'
+Tags
+brute force, implementation, *800

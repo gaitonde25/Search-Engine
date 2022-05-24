@@ -1,0 +1,11 @@
+b'Consider an undirected graph GG with nn vertices. There is a value aiai in each vertex.'
+b'Two vertices ii and jj are connected with an edge if and only if gcd(ai,aj)>1gcd(ai,aj)>1, where gcd(x,y)gcd(x,y) denotes the greatest common divisor (GCD) of integers xx and yy.'
+b"Consider a set of vertices. Let's call a vertex in this set fair if it is connected with an edge with all other vertices in this set."
+b'You need to find a set of kk vertices (where kk is a given integer, 2\xe2\x8b\x85k\xe2\x89\xa4n2\xe2\x8b\x85k\xe2\x89\xa4n) where all vertices are fair or all vertices are not fair. One can show that such a set always exists.'
+b'Input'
+b'The first line contains integers nn and kk (6\xe2\x89\xa42\xe2\x8b\x85k\xe2\x89\xa4n\xe2\x89\xa41056\xe2\x89\xa42\xe2\x8b\x85k\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices and parameter kk.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (2\xe2\x89\xa4ai\xe2\x89\xa41072\xe2\x89\xa4ai\xe2\x89\xa4107)\xc2\xa0\xe2\x80\x94 the values in the vertices.'
+b'Output'
+b'Print exactly kk distinct integers\xc2\xa0\xe2\x80\x94 the indices of the vertices in the chosen set in any order.'
+Tags
+constructive algorithms, graphs, math, number theory, probabilities, *3300

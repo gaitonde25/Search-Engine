@@ -1,0 +1,14 @@
+b'Because the railway system in Gensokyo is often congested, as an enthusiastic engineer, Kawasiro Nitori plans to construct more railway to ease the congestion.'
+b'There are nn stations numbered from 11 to nn and mm two-way railways in Gensokyo. Every two-way railway connects two different stations and has a positive integer length dd. No two two-way railways connect the same two stations. Besides, it is possible to travel from any station to any other using those railways. Among these nn stations, station 11 is the main station. You can get to any station from any other station using only two-way railways.'
+b'Because of the technological limitation, Nitori can only construct one-way railways, whose length can be arbitrary positive integer. Constructing a one-way railway from station uu will costs wuwu units of resources, no matter where the railway ends. To ease the congestion, Nitori plans that after construction there are at least two shortest paths from station 11 to any other station, and these two shortest paths do not pass the same station except station 11 and the terminal. Besides, Nitori also does not want to change the distance of the shortest path from station 11 to any other station.'
+b'Due to various reasons, sometimes the cost of building a new railway will increase uncontrollably. There will be a total of qq occurrences of this kind of incident, and the ii-th event will add additional amount of xixi to the cost of building a new railway from the station kiki.'
+b'To save resources, before all incidents and after each incident, Nitori wants you to help her calculate the minimal cost of railway construction.'
+b'Input'
+b'The first line contains three integers nn, mm, and qq (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x85105, 0\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line contains nn integers w1,w2,\xe2\x80\xa6,wnw1,w2,\xe2\x80\xa6,wn (1\xe2\x89\xa4wi\xe2\x89\xa41091\xe2\x89\xa4wi\xe2\x89\xa4109).'
+b'Each of the next mm lines contains three integers uu, vv, dd (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v, 1\xe2\x89\xa4d\xe2\x89\xa41091\xe2\x89\xa4d\xe2\x89\xa4109), denoting a two-way railway connecting station uu and station vv, with length dd.'
+b'The ii-th of the next qq lines contains two integers ki,xiki,xi (1\xe2\x89\xa4ki\xe2\x89\xa4n,1\xe2\x89\xa4xi\xe2\x89\xa44\xc3\x971081\xe2\x89\xa4ki\xe2\x89\xa4n,1\xe2\x89\xa4xi\xe2\x89\xa44\xc3\x97108).'
+b'Output'
+b'Print q+1q+1 lines, and the ii-th of these lines contains one integer, denoting the minimal cost of railway construction after the i\xe2\x88\x921i\xe2\x88\x921-th incident (especially, the 00-th incident means no incident occurred).'
+Tags
+brute force, constructive algorithms, data structures, graphs, shortest paths, *3400

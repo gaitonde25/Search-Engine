@@ -1,0 +1,12 @@
+b'Andryusha goes through a park each day. The squares and paths between them look boring to Andryusha, so he decided to decorate them.'
+b"The park consists of n squares connected with (n\xe2\x80\x89-\xe2\x80\x891) bidirectional paths in such a way that any square is reachable from any other using these paths. Andryusha decided to hang a colored balloon at each of the squares. The baloons' colors are described by positive integers, starting from 1. In order to make the park varicolored, Andryusha wants to choose the colors in a special way. More precisely, he wants to use such colors that if a, b and c are distinct squares that a and b have a direct path between them, and b and c have a direct path between them, then balloon colors on these three squares are distinct."
+b'Andryusha wants to use as little different colors as possible. Help him to choose the colors!'
+b'Input'
+b'The first line contains single integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of squares in the park.'
+b'Each of the next (n\xe2\x80\x89-\xe2\x80\x891) lines contains two integers x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the indices of two squares directly connected by a path.'
+b'It is guaranteed that any square is reachable from any other using the paths.'
+b'Output'
+b'In the first line print single integer k\xc2\xa0\xe2\x80\x94 the minimum number of colors Andryusha has to use.'
+b'In the second line print n integers, the i-th of them should be equal to the balloon color on the i-th square. Each of these numbers should be within range from 1 to k.'
+Tags
+dfs and similar, graphs, greedy, trees, *1600

@@ -1,0 +1,13 @@
+b'You are given a string ss consisting of the characters 0, 1, and ?.'
+b"Let's call a string unstable if it consists of the characters 0 and 1 and any two adjacent characters are different (i.\xc2\xa0e. it has the form 010101... or 101010...)."
+b"Let's call a string beautiful if it consists of the characters 0, 1, and ?, and you can replace the characters ? to 0 or 1 (for each character, the choice is independent), so that the string becomes unstable."
+b'For example, the strings 0??10, 0, and ??? are beautiful, and the strings 00 and ?1??1 are not.'
+b'Calculate the number of beautiful contiguous substrings of the string ss.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 number of test cases.'
+b'The first and only line of each test case contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4|s|\xe2\x89\xa42\xe2\x8b\x85105) consisting of characters 0, 1, and ?.'
+b'It is guaranteed that the sum of the string lengths over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the number of beautiful substrings of the string ss.'
+Tags
+binary search, dp, greedy, implementation, strings, two pointers, *1400

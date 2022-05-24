@@ -1,0 +1,15 @@
+b"You are given a binary matrix AA of size n\xc3\x97nn\xc3\x97n. Let's denote an xx-compression of the given matrix as a matrix BB of size nx\xc3\x97nxnx\xc3\x97nx such that for every i\xe2\x88\x88[1,n],j\xe2\x88\x88[1,n]i\xe2\x88\x88[1,n],j\xe2\x88\x88[1,n] the condition A[i][j]=B[\xe2\x8c\x88ix\xe2\x8c\x89][\xe2\x8c\x88jx\xe2\x8c\x89]A[i][j]=B[\xe2\x8c\x88ix\xe2\x8c\x89][\xe2\x8c\x88jx\xe2\x8c\x89] is met."
+b'Obviously, xx-compression is possible only if xx divides nn, but this condition is not enough. For example, the following matrix of size 2\xc3\x9722\xc3\x972 does not have any 22-compression:'
+b' 0101 '
+b' '
+b' 1010 '
+b'For the given matrix AA, find maximum xx such that an xx-compression of this matrix is possible.'
+b"Note that the input is given in compressed form. But even though it is compressed, you'd better use fast input."
+b'Input'
+b'The first line contains one number nn (4\xe2\x89\xa4n\xe2\x89\xa452004\xe2\x89\xa4n\xe2\x89\xa45200) \xe2\x80\x94 the number of rows and columns in the matrix AA. It is guaranteed that nn is divisible by 44.'
+b'Then the representation of matrix follows. Each of nn next lines contains n4n4 one-digit hexadecimal numbers (that is, these numbers can be represented either as digits from 00 to 99 or as uppercase Latin letters from AA to FF). Binary representation of each of these numbers denotes next 44 elements of the matrix in the corresponding row. For example, if the number BB is given, then the corresponding elements are 1011, and if the number is 55, then the corresponding elements are 0101.'
+b'Elements are not separated by whitespaces.'
+b'Output'
+b'Print one number: maximum xx such that an xx-compression of the given matrix is possible.'
+Tags
+dp, implementation, math, number theory, *1800

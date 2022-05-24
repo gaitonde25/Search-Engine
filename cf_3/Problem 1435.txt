@@ -1,0 +1,7 @@
+b"We call a positive integer number fair if it is divisible by each of its nonzero digits. For example, 102102 is fair (because it is divisible by 11 and 22), but 282282 is not, because it isn't divisible by 88. Given a positive integer nn. Find the minimum integer xx, such that n\xe2\x89\xa4xn\xe2\x89\xa4x and xx is fair."
+b'Input'
+b'The first line contains number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103). Each of the next tt lines contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018).'
+b'Output'
+b'For each of tt test cases print a single integer\xc2\xa0\xe2\x80\x94 the least fair number, which is not less than nn.'
+Tags
+brute force, number theory, *1000

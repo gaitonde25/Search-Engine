@@ -1,0 +1,11 @@
+b'A string t is called nice if a string "2017" occurs in t as a subsequence but a string "2016" doesn\'t occur in t as a subsequence. For example, strings "203434107" and "9220617" are nice, while strings "20016", "1234" and "20167" aren\'t nice.'
+b"The ugliness of a string is the minimum possible number of characters to remove, in order to obtain a nice string. If it's impossible to make a string nice by removing characters, its ugliness is \xe2\x80\x89-\xe2\x80\x891."
+b'Limak has a string s of length n, with characters indexed 1 through n. He asks you q queries. In the i-th query you should compute and print the ugliness of a substring (continuous subsequence) of s starting at the index ai and ending at the index bi (inclusive).'
+b'Input'
+b'The first line of the input contains two integers n and q (4\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the length of the string s and the number of queries respectively.'
+b"The second line contains a string s of length n. Every character is one of digits '0'\xe2\x80\x93'9'."
+b'The i-th of next q lines contains two integers ai and bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), describing a substring in the i-th query.'
+b'Output'
+b'For each query print the ugliness of the given substring.'
+Tags
+data structures, divide and conquer, dp, matrices, *2600

@@ -1,0 +1,15 @@
+b'Bajtek, known for his unusual gifts, recently got an integer array x0,x1,\xe2\x80\xa6,xk\xe2\x88\x921x0,x1,\xe2\x80\xa6,xk\xe2\x88\x921.'
+b"Unfortunately, after a huge array-party with his extraordinary friends, he realized that he'd lost it. After hours spent on searching for a new toy, Bajtek found on the arrays producer's website another array aa of length n+1n+1. As a formal description of aa says, a0=0a0=0 and for all other ii\xc2\xa0(1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) ai=x(i\xe2\x88\x921)modk+ai\xe2\x88\x921ai=x(i\xe2\x88\x921)modk+ai\xe2\x88\x921, where pmodqpmodq denotes the remainder of division pp by qq."
+b'For example, if the x=[1,2,3]x=[1,2,3] and n=5n=5, then:'
+b'  a0=0a0=0,  a1=x0mod3+a0=x0+0=1a1=x0mod3+a0=x0+0=1,  a2=x1mod3+a1=x1+1=3a2=x1mod3+a1=x1+1=3,  a3=x2mod3+a2=x2+3=6a3=x2mod3+a2=x2+3=6,  a4=x3mod3+a3=x0+6=7a4=x3mod3+a3=x0+6=7,  a5=x4mod3+a4=x1+7=9a5=x4mod3+a4=x1+7=9. '
+b'So, if the x=[1,2,3]x=[1,2,3] and n=5n=5, then a=[0,1,3,6,7,9]a=[0,1,3,6,7,9].'
+b'Now the boy hopes that he will be able to restore xx from aa! Knowing that 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n, help him and find all possible values of kk\xc2\xa0\xe2\x80\x94 possible lengths of the lost array.'
+b'Input'
+b'The first line contains exactly one integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the length of the array aa, excluding the element a0a0.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106).'
+b'Note that a0a0 is always 00 and is not given in the input.'
+b'Output'
+b'The first line of the output should contain one integer ll denoting the number of correct lengths of the lost array.'
+b'The second line of the output should contain ll integers\xc2\xa0\xe2\x80\x94 possible lengths of the lost array in increasing order.'
+Tags
+implementation, *1200

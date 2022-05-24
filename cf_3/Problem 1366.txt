@@ -1,0 +1,12 @@
+b'As you all know, the plum harvesting season is on! Little Milutin had his plums planted in an orchard that can be represented as an nn by mm matrix. While he was harvesting, he wrote the heights of all trees in a matrix of dimensions nn by mm.'
+b'At night, when he has spare time, he likes to perform various statistics on his trees. This time, he is curious to find out the height of his lowest tree. So far, he has discovered some interesting properties of his orchard. There is one particular property that he thinks is useful for finding the tree with the smallest heigh.'
+b'Formally, let L(i)L(i) be the leftmost tree with the smallest height in the ii-th row of his orchard. He knows that L(i)\xe2\x89\xa4L(i+1)L(i)\xe2\x89\xa4L(i+1) for all 1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921. Moreover, if he takes a submatrix induced by any subset of rows and any subset of columns, L(i)\xe2\x89\xa4L(i+1)L(i)\xe2\x89\xa4L(i+1) will hold for all 1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x80\xb2\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x80\xb2\xe2\x88\x921, where n\xe2\x80\xb2n\xe2\x80\xb2 is the number of rows in that submatrix.'
+b'Since the season is at its peak and he is short on time, he asks you to help him find the plum tree with minimal height.'
+b'Input'
+b'This problem is interactive.'
+b"The first line of input will contain two integers nn and mm, representing the number of rows and the number of columns in Milutin's orchard. It is guaranteed that 1\xe2\x89\xa4n,m\xe2\x89\xa41061\xe2\x89\xa4n,m\xe2\x89\xa4106."
+b'The following lines will contain the answers to your queries.'
+b'Output'
+b'Once you know have found the minimum value rr, you should print ! rr to the standard output.'
+Tags
+interactive, *2800

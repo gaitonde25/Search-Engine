@@ -1,0 +1,17 @@
+b'Tanya is learning how to add numbers, but so far she is not doing it correctly. She is adding two numbers aa and bb using the following algorithm:'
+b'  If one of the numbers is shorter than the other, Tanya adds leading zeros so that the numbers are the same length.  The numbers are processed from right to left (that is, from the least significant digits to the most significant).  In the first step, she adds the last digit of aa to the last digit of bb and writes their sum in the answer.  At each next step, she performs the same operation on each pair of digits in the same place and writes the result to the left side of the answer. '
+b' '
+b'For example, the numbers a=17236a=17236 and b=3465b=3465 Tanya adds up as follows:'
+b'+17236034651106911+17236034651106911'
+b'  calculates the sum of 6+5=116+5=11 and writes 1111 in the answer.  calculates the sum of 3+6=93+6=9 and writes the result to the left side of the answer to get 911911.  calculates the sum of 2+4=62+4=6 and writes the result to the left side of the answer to get 69116911.  calculates the sum of 7+3=107+3=10, and writes the result to the left side of the answer to get 106911106911.  calculates the sum of 1+0=11+0=1 and writes the result to the left side of the answer and get 11069111106911. '
+b'As a result, she gets 11069111106911.'
+b'You are given two positive integers aa and ss. Find the number bb such that by adding aa and bb as described above, Tanya will get ss. Or determine that no suitable bb exists.'
+b'Input'
+b'The first line of input data contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of a single line containing two positive integers aa and ss (1\xe2\x89\xa4a<s\xe2\x89\xa410181\xe2\x89\xa4a<s\xe2\x89\xa41018) separated by a space.'
+b'Output'
+b'For each test case print the answer on a separate line.'
+b'If the solution exists, print a single positive integer bb. The answer must be written without leading zeros. If multiple answers exist, print any of them.'
+b'If no suitable number bb exists, output -1.'
+Tags
+implementation, *1200

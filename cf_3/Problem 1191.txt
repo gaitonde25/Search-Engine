@@ -1,0 +1,14 @@
+b"This is the easy version of this problem. The only difference between easy and hard versions is the constraints on kk and mm (in this version k=2k=2 and m=3m=3). Also, in this version of the problem, you DON'T NEED to output the answer by modulo."
+b'You are given a sequence aa of length nn consisting of integers from 11 to nn. The sequence may contain duplicates (i.e. some elements can be equal).'
+b'Find the number of tuples of m=3m=3 elements such that the maximum number in the tuple differs from the minimum by no more than k=2k=2. Formally, you need to find the number of triples of indices i<j<zi<j<z such that'
+b'max(ai,aj,az)\xe2\x88\x92min(ai,aj,az)\xe2\x89\xa42.max(ai,aj,az)\xe2\x88\x92min(ai,aj,az)\xe2\x89\xa42.'
+b'For example, if n=4n=4 and a=[1,2,4,3]a=[1,2,4,3], then there are two such triples (i=1,j=2,z=4i=1,j=2,z=4 and i=2,j=3,z=4i=2,j=3,z=4). If n=4n=4 and a=[1,1,1,1]a=[1,1,1,1], then all four possible triples are suitable.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the sequence aa.'
+b'The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the sequence aa.'
+b'It is guaranteed that the sum of nn for all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b"Output tt answers to the given test cases. Each answer is the required number of triples of elements, such that the maximum value in the triple differs from the minimum by no more than 22. Note that in difference to the hard version of the problem, you don't need to output the answer by modulo. You must output the exact value of the answer."
+Tags
+binary search, combinatorics, math, sortings, two pointers, *1500

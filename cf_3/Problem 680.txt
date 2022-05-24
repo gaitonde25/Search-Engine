@@ -1,0 +1,10 @@
+b'You are given nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and an integer kk. Find the maximum value of i\xe2\x8b\x85j\xe2\x88\x92k\xe2\x8b\x85(ai|aj)i\xe2\x8b\x85j\xe2\x88\x92k\xe2\x8b\x85(ai|aj) over all pairs (i,j)(i,j) of integers with 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n. Here, || is the bitwise OR operator.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) \xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105) and kk (1\xe2\x89\xa4k\xe2\x89\xa4min(n,100)1\xe2\x89\xa4k\xe2\x89\xa4min(n,100)).'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4n0\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 3\xe2\x8b\x851053\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print a single integer \xc2\xa0\xe2\x80\x94 the maximum possible value of i\xe2\x8b\x85j\xe2\x88\x92k\xe2\x8b\x85(ai|aj)i\xe2\x8b\x85j\xe2\x88\x92k\xe2\x8b\x85(ai|aj).'
+Tags
+bitmasks, brute force, greedy, math, *1700

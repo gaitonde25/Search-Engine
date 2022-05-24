@@ -1,0 +1,10 @@
+b' The number "zero" is called "love" (or "l\'oeuf" to be precise, literally means "egg" in French), for example when denoting the zero score in a game of tennis. '
+b'Aki is fond of numbers, especially those with trailing zeros. For example, the number 92009200 has two trailing zeros. Aki thinks the more trailing zero digits a number has, the prettier it is.'
+b'However, Aki believes, that the number of trailing zeros of a number is not static, but depends on the base (radix) it is represented in. Thus, he considers a few scenarios with some numbers and bases. And now, since the numbers he used become quite bizarre, he asks you to help him to calculate the beauty of these numbers.'
+b'Given two integers nn and bb (in decimal notation), your task is to calculate the number of trailing zero digits in the bb-ary (in the base/radix of bb) representation of n!n! (factorial of nn). '
+b'Input'
+b'The only line of the input contains two integers nn and bb (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018, 2\xe2\x89\xa4b\xe2\x89\xa410122\xe2\x89\xa4b\xe2\x89\xa41012).'
+b'Output'
+b'Print an only integer\xc2\xa0\xe2\x80\x94 the number of trailing zero digits in the bb-ary representation of n!n!'
+Tags
+brute force, implementation, math, number theory, *1700

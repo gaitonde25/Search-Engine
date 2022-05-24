@@ -1,0 +1,13 @@
+b"You are given a ternary string (it is a string which consists only of characters '0', '1' and '2')."
+b'You can swap any two adjacent (consecutive) characters \'0\' and \'1\' (i.e. replace "01" with "10" or vice versa) or any two adjacent (consecutive) characters \'1\' and \'2\' (i.e. replace "12" with "21" or vice versa).'
+b'For example, for string "010210" we can perform the following moves: '
+b'  "010210" \xe2\x86\x92\xe2\x86\x92 "100210";  "010210" \xe2\x86\x92\xe2\x86\x92 "001210";  "010210" \xe2\x86\x92\xe2\x86\x92 "010120";  "010210" \xe2\x86\x92\xe2\x86\x92 "010201". '
+b'Note than you cannot swap "02" \xe2\x86\x92\xe2\x86\x92 "20" and vice versa. You cannot perform any other operations with the given string excluding described above.'
+b'You task is to obtain the minimum possible (lexicographically) string by using these swaps arbitrary number of times (possibly, zero).'
+b'String aa is lexicographically less than string bb (if strings aa and bb have the same length) if there exists some position ii (1\xe2\x89\xa4i\xe2\x89\xa4|a|1\xe2\x89\xa4i\xe2\x89\xa4|a|, where |s||s| is the length of the string ss) such that for every j<ij<i holds aj=bjaj=bj, and ai<biai<bi.'
+b'Input'
+b"The first line of the input contains the string ss consisting only of characters '0', '1' and '2', its length is between 11 and 105105 (inclusive)."
+b'Output'
+b'Print a single string \xe2\x80\x94 the minimum possible (lexicographically) string you can obtain by using the swaps described above arbitrary number of times (possibly, zero).'
+Tags
+greedy, implementation, *1400

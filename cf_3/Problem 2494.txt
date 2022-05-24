@@ -1,0 +1,14 @@
+b'The only difference between easy and hard versions is the length of the string.'
+b'You are given a string ss and a string tt, both consisting only of lowercase Latin letters. It is guaranteed that tt can be obtained from ss by removing some (possibly, zero) number of characters (not necessary contiguous) from ss without changing order of remaining characters (in other words, it is guaranteed that tt is a subsequence of ss).'
+b'For example, the strings "test", "tst", "tt", "et" and "" are subsequences of the string "test". But the strings "tset", "se", "contest" are not subsequences of the string "test".'
+b'You want to remove some substring (contiguous subsequence) from ss of maximum possible length such that after removing this substring tt will remain a subsequence of ss.'
+b'If you want to remove the substring s[l;r]s[l;r] then the string ss will be transformed to s1s2\xe2\x80\xa6sl\xe2\x88\x921sr+1sr+2\xe2\x80\xa6s|s|\xe2\x88\x921s|s|s1s2\xe2\x80\xa6sl\xe2\x88\x921sr+1sr+2\xe2\x80\xa6s|s|\xe2\x88\x921s|s| (where |s||s| is the length of ss).'
+b'Your task is to find the maximum possible length of the substring you can remove so that tt is still a subsequence of ss.'
+b'Input'
+b'The first line of the input contains one string ss consisting of at least 11 and at most 2\xe2\x8b\x851052\xe2\x8b\x85105 lowercase Latin letters.'
+b'The second line of the input contains one string tt consisting of at least 11 and at most 2\xe2\x8b\x851052\xe2\x8b\x85105 lowercase Latin letters.'
+b'It is guaranteed that tt is a subsequence of ss.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum possible length of the substring you can remove so that tt is still a subsequence of ss.'
+Tags
+binary search, greedy, implementation, two pointers, *1700

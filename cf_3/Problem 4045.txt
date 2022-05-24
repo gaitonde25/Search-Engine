@@ -1,0 +1,10 @@
+b'A sequence of n integers is written on a blackboard. Soon Sasha will come to the blackboard and start the following actions: let x and y be two adjacent numbers (x before y), then he can remove them and write x\xe2\x80\x89+\xe2\x80\x892y instead of them. He will perform these operations until one number is left. Sasha likes big numbers and will get the biggest possible number.'
+b"Nikita wants to get to the blackboard before Sasha and erase some of the numbers. He has q options, in the option i he erases all numbers to the left of the li-th number and all numbers to the right of ri-th number, i.\xc2\xa0e. all numbers between the li-th and the ri-th, inclusive, remain on the blackboard. For each of the options he wants to know how big Sasha's final number is going to be. This number can be very big, so output it modulo 109\xe2\x80\x89+\xe2\x80\x897."
+b'Input'
+b"The first line contains two integers n and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 the number of integers on the blackboard and the number of Nikita's options."
+b'The next line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the sequence on the blackboard.'
+b"Each of the next q lines contains two integers li and ri (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), describing Nikita's options."
+b'Output'
+b"For each option output Sasha's result modulo 109\xe2\x80\x89+\xe2\x80\x897."
+Tags
+combinatorics, dp, *3300

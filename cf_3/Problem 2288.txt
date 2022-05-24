@@ -1,0 +1,17 @@
+b'Let nn be a positive integer. Let a,b,ca,b,c be nonnegative integers such that a+b+c=na+b+c=n.'
+b'Alice and Bob are gonna play rock-paper-scissors nn times. Alice knows the sequences of hands that Bob will play. However, Alice has to play rock aa times, paper bb times, and scissors cc times.'
+b'Alice wins if she beats Bob in at least \xe2\x8c\x88n2\xe2\x8c\x89\xe2\x8c\x88n2\xe2\x8c\x89 (n2n2 rounded up to the nearest integer) hands, otherwise Alice loses.'
+b'Note that in rock-paper-scissors:'
+b'  rock beats scissors;  paper beats rock;  scissors beat paper. '
+b'The task is, given the sequence of hands that Bob will play, and the numbers a,b,ca,b,c, determine whether or not Alice can win. And if so, find any possible sequence of hands that Alice can use to win.'
+b'If there are multiple answers, print any of them.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'Then, tt testcases follow, each consisting of three lines: '
+b"  The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100).  The second line contains three integers, a,b,ca,b,c (0\xe2\x89\xa4a,b,c\xe2\x89\xa4n0\xe2\x89\xa4a,b,c\xe2\x89\xa4n). It is guaranteed that a+b+c=na+b+c=n.  The third line contains a string ss of length nn. ss is made up of only 'R', 'P', and 'S'. The ii-th character is 'R' if for his ii-th Bob plays rock, 'P' if paper, and 'S' if scissors. "
+b'Output'
+b'For each testcase: '
+b'  If Alice cannot win, print "NO" (without the quotes).  Otherwise, print "YES" (without the quotes). Also, print a string tt of length nn made up of only \'R\', \'P\', and \'S\' \xe2\x80\x94 a sequence of hands that Alice can use to win. tt must contain exactly aa \'R\'s, bb \'P\'s, and cc \'S\'s.  If there are multiple answers, print any of them. '
+b'The "YES" / "NO" part of the output is case-insensitive (i.e. "yEs", "no" or "YEs" are all valid answers). Note that \'R\', \'P\' and \'S\' are case-sensitive.'
+Tags
+constructive algorithms, dp, greedy, *1200

@@ -1,0 +1,15 @@
+b'Polycarp started working at a bank. He was assigned to monitor the ATM. The ATM initially contains ss rubles.'
+b'A queue of nn students lined up to him. Each student wants to either withdraw a certain amount of money or deposit it into an account. If aiai is positive, then the student credits that amount of money via ATM. Otherwise, the student withdraws |ai||ai| rubles.'
+b'In the beginning, the ATM is turned off and an arbitrary number of students are not served. At some point, Polycarp turns on the ATM, which has an initial amount of ss rubles. Then, the remaining students start queueing at the ATM. If at some point in time there is less money in the ATM than the student wants to withdraw, then the student is not served and Polycarp turns off the ATM and does not turn it on anymore.'
+b'More formally, the students that are served are forming a contiguous subsequence.'
+b'Polycarp wants the ATM to serve the maximum number of students. Help him in this matter. Print the numbers of the first and last student, or determine that he will not be able to serve anyone.'
+b'In other words, find such a longest continuous segment of students that, starting with the sum of ss at the ATM, all these students will be served. ATM serves students consistently (i.e. one after another in the order of the queue).'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of two lines. The first one contains integers nn and ss (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 0\xe2\x89\xa4s\xe2\x89\xa41090\xe2\x89\xa4s\xe2\x89\xa4109) \xe2\x80\x94 the length of the aa array and the initial amount of rubles in the ATM. The second contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 elements of the aa array. Note that aiai can be zero.'
+b'It is guaranteed that the sum of the values nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'Print tt lines, each line must contain the answer to the corresponding set of input data: if the answer exists, print the numbers of the first and last served student. If there is no solution, then print -1 on the line.'
+b'If there are several possible answers, print any.'
+Tags
+binary search, data structures, two pointers, *1800

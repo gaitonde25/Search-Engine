@@ -1,0 +1,9 @@
+b'You are given two positive integers nn and kk. Print the kk-th positive integer that is not divisible by nn.'
+b'For example, if n=3n=3, and k=7k=7, then all numbers that are not divisible by 33 are: 1,2,4,5,7,8,10,11,13\xe2\x80\xa61,2,4,5,7,8,10,11,13\xe2\x80\xa6. The 77-th number among them is 1010.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases in the input. Next, tt test cases are given, one per line.'
+b'Each test case is two positive integers nn (2\xe2\x89\xa4n\xe2\x89\xa41092\xe2\x89\xa4n\xe2\x89\xa4109) and kk (1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109).'
+b'Output'
+b'For each test case print the kk-th positive integer that is not divisible by nn.'
+Tags
+binary search, math, *1200

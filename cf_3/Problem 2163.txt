@@ -1,0 +1,13 @@
+b'You are given a tournament\xc2\xa0\xe2\x80\x94 complete directed graph.'
+b'In one operation you can pick any vertex vv and change the direction of all edges with vv on one of the ends (i.e all edges u\xe2\x86\x92vu\xe2\x86\x92v change their orientation to v\xe2\x86\x92uv\xe2\x86\x92u and vice versa).'
+b'You want to make the tournament strongly connected with the smallest possible number of such operations if it is possible. '
+b'Also, if it is possible, you need to find the number of ways to make this number of operations to make graph strongly connected (two ways are different if for some ii vertex that we chose on ii-th operation in one way is different from vertex that we chose on ii-th operation in another way). You only need to find this value modulo 998244353998244353.'
+b'Input'
+b'The first line of input contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa420003\xe2\x89\xa4n\xe2\x89\xa42000): the number of vertices in the tournament.'
+b"Following nn lines contain a description of the given tournament, each of them contains a binary string of length nn. If jj-th character of ii-th string is equal to '1', then the graph has an edge i\xe2\x86\x92ji\xe2\x86\x92j."
+b'It is guaranteed that there are no edges i\xe2\x86\x92ii\xe2\x86\x92i and the graph has exactly one edge among i\xe2\x86\x92ji\xe2\x86\x92j and j\xe2\x86\x92ij\xe2\x86\x92i for different ii and jj.'
+b'Output'
+b'If it is not possible to convert tournament to strongly connected with the given operations, output "-1".'
+b'Otherwise, output two integers: the smallest number of operations that you need to make the given graph strongly connected and the number of ways to do this number of operations to make graph strongly connected, modulo 998244353998244353.'
+Tags
+brute force, divide and conquer, graphs, math, *3200

@@ -1,0 +1,10 @@
+b'You are given three points on a plane. You should choose some segments on the plane that are parallel to coordinate axes, so that all three points become connected. The total length of the chosen segments should be the minimal possible.'
+b'Two points aa and bb are considered connected if there is a sequence of points p0=a,p1,\xe2\x80\xa6,pk=bp0=a,p1,\xe2\x80\xa6,pk=b such that points pipi and pi+1pi+1 lie on the same segment.'
+b'Input'
+b'The input consists of three lines describing three points. Each line contains two integers xx and yy separated by a space\xc2\xa0\xe2\x80\x94 the coordinates of the point (\xe2\x88\x92109\xe2\x89\xa4x,y\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4x,y\xe2\x89\xa4109). The points are pairwise distinct.'
+b'Output'
+b'On the first line output nn\xc2\xa0\xe2\x80\x94 the number of segments, at most 100.'
+b'The next nn lines should contain descriptions of segments. Output four integers x1x1, y1y1, x2x2, y2y2 on a line\xc2\xa0\xe2\x80\x94 the coordinates of the endpoints of the corresponding segment (\xe2\x88\x92109\xe2\x89\xa4x1,y1,x2,y2\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4x1,y1,x2,y2\xe2\x89\xa4109). Each segment should be either horizontal or vertical.'
+b'It is guaranteed that the solution with the given constraints exists.'
+Tags
+brute force, constructive algorithms, geometry, *1800

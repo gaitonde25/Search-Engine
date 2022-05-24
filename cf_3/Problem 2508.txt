@@ -1,0 +1,11 @@
+b'You are given an array aa of nn integers, where nn is odd. You can make the following operation with it:'
+b'  Choose one of the elements of the array (for example aiai) and increase it by 11 (that is, replace it with ai+1ai+1). '
+b'You want to make the median of the array the largest possible using at most kk operations.'
+b'The median of the odd-sized array is the middle element after the array is sorted in non-decreasing order. For example, the median of the array [1,5,2,3,5][1,5,2,3,5] is 33.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, nn is odd, 1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of elements in the array and the largest number of operations you can make.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum possible median after the operations.'
+Tags
+binary search, greedy, math, sortings, *1400

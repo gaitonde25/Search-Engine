@@ -1,0 +1,17 @@
+b'You have an axis-aligned rectangle room with width WW and height HH, so the lower left corner is in point (0,0)(0,0) and the upper right corner is in (W,H)(W,H).'
+b'There is a rectangular table standing in this room. The sides of the table are parallel to the walls, the lower left corner is in (x1,y1)(x1,y1), and the upper right corner in (x2,y2)(x2,y2).'
+b'You want to place another rectangular table in this room with width ww and height hh with the width of the table parallel to the width of the room.'
+b'The problem is that sometimes there is not enough space to place the second table without intersecting with the first one (there are no problems with tables touching, though).'
+b"You can't rotate any of the tables, but you can move the first table inside the room. "
+b'  Example of how you may move the first table. '
+b'What is the minimum distance you should move the first table to free enough space for the second one?'
+b'Input'
+b'The first line contains the single integer tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 the number of the test cases.'
+b'The first line of each test case contains two integers WW and HH (1\xe2\x89\xa4W,H\xe2\x89\xa41081\xe2\x89\xa4W,H\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the width and the height of the room.'
+b'The second line contains four integers x1x1, y1y1, x2x2 and y2y2 (0\xe2\x89\xa4x1<x2\xe2\x89\xa4W0\xe2\x89\xa4x1<x2\xe2\x89\xa4W; 0\xe2\x89\xa4y1<y2\xe2\x89\xa4H0\xe2\x89\xa4y1<y2\xe2\x89\xa4H)\xc2\xa0\xe2\x80\x94 the coordinates of the corners of the first table.'
+b'The third line contains two integers ww and hh (1\xe2\x89\xa4w\xe2\x89\xa4W1\xe2\x89\xa4w\xe2\x89\xa4W; 1\xe2\x89\xa4h\xe2\x89\xa4H1\xe2\x89\xa4h\xe2\x89\xa4H)\xc2\xa0\xe2\x80\x94 the width and the height of the second table.'
+b'Output'
+b'For each test case, print the minimum distance you should move the first table, or \xe2\x88\x921\xe2\x88\x921 if there is no way to free enough space for the second table.'
+b"Your answer will be considered correct if its absolute or relative error doesn't exceed 10\xe2\x88\x92610\xe2\x88\x926."
+Tags
+brute force, *1300

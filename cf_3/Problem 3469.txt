@@ -1,0 +1,14 @@
+b'Polycarp is practicing his problem solving skill. He has a list of nn problems with difficulties a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, respectively. His plan is to practice for exactly kk days. Each day he has to solve at least one problem from his list. Polycarp solves the problems in the order they are given in his list, he cannot skip any problem from his list. He has to solve all nn problems in exactly kk days.'
+b"Thus, each day Polycarp solves a contiguous sequence of (consecutive) problems from the start of the list. He can't skip problems or solve them multiple times. As a result, in kk days he will solve all the nn problems."
+b"The profit of the jj-th day of Polycarp's practice is the maximum among all the difficulties of problems Polycarp solves during the jj-th day (i.e. if he solves problems with indices from ll to rr during a day, then the profit of the day is maxl\xe2\x89\xa4i\xe2\x89\xa4raimaxl\xe2\x89\xa4i\xe2\x89\xa4rai). The total profit of his practice is the sum of the profits over all kk days of his practice."
+b'You want to help Polycarp to get the maximum possible total profit over all valid ways to solve problems. Your task is to distribute all nn problems between kk days satisfying the conditions above in such a way, that the total profit is maximum.'
+b'For example, if n=8,k=3n=8,k=3 and a=[5,4,2,6,5,1,9,2]a=[5,4,2,6,5,1,9,2], one of the possible distributions with maximum total profit is: [5,4,2],[6,5],[1,9,2][5,4,2],[6,5],[1,9,2]. Here the total profit equals 5+6+9=205+6+9=20.'
+b'Input'
+b'The first line of the input contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42000) \xe2\x80\x94 the number of problems and the number of days, respectively.'
+b"The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa420001\xe2\x89\xa4ai\xe2\x89\xa42000) \xe2\x80\x94 difficulties of problems in Polycarp's list, in the order they are placed in the list (i.e. in the order Polycarp will solve them)."
+b'Output'
+b'In the first line of the output print the maximum possible total profit.'
+b'In the second line print exactly kk positive integers t1,t2,\xe2\x80\xa6,tkt1,t2,\xe2\x80\xa6,tk (t1+t2+\xe2\x8b\xaf+tkt1+t2+\xe2\x8b\xaf+tk must equal nn), where tjtj means the number of problems Polycarp will solve during the jj-th day in order to achieve the maximum possible total profit of his practice.'
+b'If there are many possible answers, you may print any of them.'
+Tags
+greedy, implementation, sortings, *1200

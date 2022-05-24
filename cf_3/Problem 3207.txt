@@ -1,0 +1,14 @@
+b'Oleg came to see the maze of mirrors. The maze is a nn by nn room in which each cell is either empty or contains a mirror connecting opposite corners of this cell. Mirrors in this maze reflect light in a perfect way, which causes the interesting visual effects and contributes to the loss of orientation in the maze.'
+b"Oleg is a person of curious nature, so he decided to install nn lasers facing internal of the maze on the south wall of the maze. On the north wall of the maze, Oleg installed nn receivers, also facing internal of the maze. Let's number lasers and receivers from west to east with distinct integers from 11 to nn. Each laser sends a beam of some specific kind and receiver with number aiai should receive the beam sent from laser number ii. Since two lasers' beams can't come to the same receiver, these numbers form a permutation\xc2\xa0\xe2\x80\x94 each of the receiver numbers occurs exactly once."
+b"You came to the maze together with Oleg. Help him to place the mirrors in the initially empty maze so that the maximum number of lasers' beams will come to the receivers they should. There are no mirrors outside the maze, so if the laser beam leaves the maze, it will not be able to go back."
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the size of the maze.'
+b'The second line contains a permutation of nn integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n), where aiai defines the number of the receiver, to which the beam from ii-th laser should come.'
+b'Output'
+b'In the first line print the maximum possible number of laser beams, which can come to the receivers they should.'
+b'In the next nn lines of length nn print the arrangement of mirrors, causing such number of laser beams to come where they should. If the corresponding cell is empty, print ".", otherwise print "/" or "\\", depending on the orientation of the mirror.'
+b'In your output north should be above, south should be below, and west and east should be on left and on the right respectively.'
+b'It is allowed for laser beams to come not to the receivers they correspond to, but they are not counted in the answer.'
+b'If there are multiple arrangements of mirrors leading to the optimal answer\xc2\xa0\xe2\x80\x94 print any of them.'
+Tags
+constructive algorithms, math, *3000

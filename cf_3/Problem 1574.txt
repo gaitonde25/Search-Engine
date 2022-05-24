@@ -1,0 +1,15 @@
+b'After being discouraged by 13 time-limit-exceeded verdicts on an ugly geometry problem, you decided to take a relaxing break for arts and crafts.'
+b'There is a piece of paper in the shape of a simple polygon with nn vertices. The polygon may be non-convex, but we all know that proper origami paper has the property that any horizontal line intersects the boundary of the polygon in at most two points.'
+b'If you fold the paper along the vertical line x=fx=f, what will be the area of the resulting shape? When you fold, the part of the paper to the left of the line is symmetrically reflected on the right side.'
+b'  '
+b'Your task is to answer qq independent queries for values f1,\xe2\x80\xa6,fqf1,\xe2\x80\xa6,fq.'
+b'Input'
+b'The first line contains two integers nn, qq (3\xe2\x89\xa4n\xe2\x89\xa4105,1\xe2\x89\xa4q\xe2\x89\xa41053\xe2\x89\xa4n\xe2\x89\xa4105,1\xe2\x89\xa4q\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of polygon vertices and queries, respectively.'
+b'Each of the next nn lines contains two integers xixi, yiyi (|xi|,|yi|\xe2\x89\xa4105|xi|,|yi|\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the coordinates of the ii-th point of the polygon. The polygon has an edge connecting each pair of adjacent points in the input, and also an edge between (x1,y1)(x1,y1) and (xn,yn)(xn,yn). It is guaranteed that the polygon is non-degenerate and that any horizontal line intersects the boundary of the polygon in at most two points. In particular, no boundary edge is strictly horizontal. Two adjacent sides may be collinear.'
+b'Each of the next qq lines contains a single integer fifi (minj=1n(xj)<fi<maxj=1n(xj)minj=1n(xj)<fi<maxj=1n(xj)) \xc2\xa0\xe2\x80\x94 the xx-coordinate of the ii-th fold query. It is guaranteed that all fifi are distinct.'
+b'Output'
+b'For each query, output the area AiAi of the paper if you fold it along the line x=fix=fi.'
+b'Your answer is considered correct if its absolute or relative error does not exceed 10\xe2\x88\x92410\xe2\x88\x924.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is accepted if and only if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x924|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x924."
+Tags
+geometry, math, sortings, *3300

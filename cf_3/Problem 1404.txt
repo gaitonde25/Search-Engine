@@ -1,0 +1,12 @@
+b'You are given four integers nn, mm, ll and rr.'
+b"Let's name a tuple (x1,y1,x2,y2)(x1,y1,x2,y2) as good if: "
+b'  1\xe2\x89\xa4x1<x2\xe2\x89\xa4n1\xe2\x89\xa4x1<x2\xe2\x89\xa4n;  1\xe2\x89\xa4y2<y1\xe2\x89\xa4m1\xe2\x89\xa4y2<y1\xe2\x89\xa4m;  x1\xe2\x8b\x85y1=x2\xe2\x8b\x85y2x1\xe2\x8b\x85y1=x2\xe2\x8b\x85y2;  l\xe2\x89\xa4x1\xe2\x8b\x85y1\xe2\x89\xa4rl\xe2\x89\xa4x1\xe2\x8b\x85y1\xe2\x89\xa4r. '
+b'Find any good tuple for each x1x1 from 11 to nn inclusive.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line contains two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4nm1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4nm).'
+b'Output'
+b'For each x1x1 from 11 to nn inclusive: '
+b'  if there are no such four integers, print \xe2\x88\x921\xe2\x88\x921;  otherwise, print four integers x1x1, y1y1, x2x2 and y2y2. If there are multiple answers, print any of them. '
+Tags
+data structures, math, number theory, two pointers, *3000

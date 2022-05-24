@@ -1,0 +1,15 @@
+b'Monocarp had a sequence aa consisting of n+mn+m integers a1,a2,\xe2\x80\xa6,an+ma1,a2,\xe2\x80\xa6,an+m. He painted the elements into two colors, red and blue; nn elements were painted red, all other mm elements were painted blue.'
+b'After painting the elements, he has written two sequences r1,r2,\xe2\x80\xa6,rnr1,r2,\xe2\x80\xa6,rn and b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm. The sequence rr consisted of all red elements of aa in the order they appeared in aa; similarly, the sequence bb consisted of all blue elements of aa in the order they appeared in aa as well.'
+b'Unfortunately, the original sequence was lost, and Monocarp only has the sequences rr and bb. He wants to restore the original sequence. In case there are multiple ways to restore it, he wants to choose a way to restore that maximizes the value of '
+b'f(a)=max(0,a1,(a1+a2),(a1+a2+a3),\xe2\x80\xa6,(a1+a2+a3+\xe2\x8b\xaf+an+m))f(a)=max(0,a1,(a1+a2),(a1+a2+a3),\xe2\x80\xa6,(a1+a2+a3+\xe2\x8b\xaf+an+m))'
+b'Help Monocarp to calculate the maximum possible value of f(a)f(a).'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. Then the test cases follow. Each test case consists of four lines.'
+b'The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100).'
+b'The second line contains nn integers r1,r2,\xe2\x80\xa6,rnr1,r2,\xe2\x80\xa6,rn (\xe2\x88\x92100\xe2\x89\xa4ri\xe2\x89\xa4100\xe2\x88\x92100\xe2\x89\xa4ri\xe2\x89\xa4100).'
+b'The third line contains one integer mm (1\xe2\x89\xa4m\xe2\x89\xa41001\xe2\x89\xa4m\xe2\x89\xa4100).'
+b'The fourth line contains mm integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (\xe2\x88\x92100\xe2\x89\xa4bi\xe2\x89\xa4100\xe2\x88\x92100\xe2\x89\xa4bi\xe2\x89\xa4100).'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the maximum possible value of f(a)f(a).'
+Tags
+dp, greedy, *1000

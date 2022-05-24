@@ -1,0 +1,20 @@
+b'You are an environmental activist at heart but the reality is harsh and you are just a cashier in a cinema. But you can still do something!'
+b'You have nn tickets to sell. The price of the ii-th ticket is pipi. As a teller, you have a possibility to select the order in which the tickets will be sold (i.e. a permutation of the tickets). You know that the cinema participates in two ecological restoration programs applying them to the order you chose:'
+b'  The x%x% of the price of each the aa-th sold ticket (aa-th, 2a2a-th, 3a3a-th and so on) in the order you chose is aimed for research and spreading of renewable energy sources.  The y%y% of the price of each the bb-th sold ticket (bb-th, 2b2b-th, 3b3b-th and so on) in the order you chose is aimed for pollution abatement. '
+b"If the ticket is in both programs then the (x+y)%(x+y)% are used for environmental activities. Also, it's known that all prices are multiples of 100100, so there is no need in any rounding."
+b"For example, if you'd like to sell tickets with prices [400,100,300,200][400,100,300,200] and the cinema pays 10%10% of each 22-nd sold ticket and 20%20% of each 33-rd sold ticket, then arranging them in order [100,200,300,400][100,200,300,400] will lead to contribution equal to 100\xe2\x8b\x850+200\xe2\x8b\x850.1+300\xe2\x8b\x850.2+400\xe2\x8b\x850.1=120100\xe2\x8b\x850+200\xe2\x8b\x850.1+300\xe2\x8b\x850.2+400\xe2\x8b\x850.1=120. But arranging them in order [100,300,400,200][100,300,400,200] will lead to 100\xe2\x8b\x850+300\xe2\x8b\x850.1+400\xe2\x8b\x850.2+200\xe2\x8b\x850.1=130100\xe2\x8b\x850+300\xe2\x8b\x850.1+400\xe2\x8b\x850.2+200\xe2\x8b\x850.1=130."
+b"Nature can't wait, so you decided to change the order of tickets in such a way, so that the total contribution to programs will reach at least kk in minimum number of sold tickets. Or say that it's impossible to do so. In other words, find the minimum number of tickets which are needed to be sold in order to earn at least kk."
+b'Input'
+b'The first line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41001\xe2\x89\xa4q\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of independent queries. Each query consists of 55 lines.'
+b'The first line of each query contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of tickets.'
+b'The second line contains nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (100\xe2\x89\xa4pi\xe2\x89\xa4109100\xe2\x89\xa4pi\xe2\x89\xa4109, pimod100=0pimod100=0)\xc2\xa0\xe2\x80\x94 the corresponding prices of tickets.'
+b'The third line contains two integers xx and aa (1\xe2\x89\xa4x\xe2\x89\xa41001\xe2\x89\xa4x\xe2\x89\xa4100, x+y\xe2\x89\xa4100x+y\xe2\x89\xa4100, 1\xe2\x89\xa4a\xe2\x89\xa4n1\xe2\x89\xa4a\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the parameters of the first program.'
+b'The fourth line contains two integers yy and bb (1\xe2\x89\xa4y\xe2\x89\xa41001\xe2\x89\xa4y\xe2\x89\xa4100, x+y\xe2\x89\xa4100x+y\xe2\x89\xa4100, 1\xe2\x89\xa4b\xe2\x89\xa4n1\xe2\x89\xa4b\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the parameters of the second program.'
+b'The fifth line contains single integer kk (1\xe2\x89\xa4k\xe2\x89\xa410141\xe2\x89\xa4k\xe2\x89\xa41014)\xc2\xa0\xe2\x80\x94 the required total contribution.'
+b"It's guaranteed that the total number of tickets per test doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'Print qq integers\xc2\xa0\xe2\x80\x94 one per query. '
+b'For each query, print the minimum number of tickets you need to sell to make the total ecological contribution of at least kk if you can sell tickets in any order.'
+b'If the total contribution can not be achieved selling all the tickets, print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+binary search, greedy, *1600

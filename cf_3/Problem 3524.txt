@@ -1,0 +1,12 @@
+b'You are given a string ss consisting of nn lowercase Latin letters. Polycarp wants to remove exactly kk characters (k\xe2\x89\xa4nk\xe2\x89\xa4n) from the string ss. Polycarp uses the following algorithm kk times:'
+b"  if there is at least one letter 'a', remove the leftmost occurrence and stop the algorithm, otherwise go to next item;  if there is at least one letter 'b', remove the leftmost occurrence and stop the algorithm, otherwise go to next item;  ...  remove the leftmost occurrence of the letter 'z' and stop the algorithm. "
+b'This algorithm removes a single letter from the string. Polycarp performs this algorithm exactly kk times, thus removing exactly kk characters.'
+b'Help Polycarp find the resulting string.'
+b'Input'
+b'The first line of input contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x85105) \xe2\x80\x94 the length of the string and the number of letters Polycarp will remove.'
+b'The second line contains the string ss consisting of nn lowercase Latin letters.'
+b'Output'
+b'Print the string that will be obtained from ss after Polycarp removes exactly kk letters using the above algorithm kk times.'
+b'If the resulting string is empty, print nothing. It is allowed to print nothing or an empty line (line break).'
+Tags
+implementation, *1200

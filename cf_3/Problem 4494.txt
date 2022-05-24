@@ -1,0 +1,11 @@
+b'Stepan has the newest electronic device with a display. Different digits can be shown on it. Each digit is shown on a seven-section indicator like it is shown on the picture below.'
+b'  '
+b'So, for example, to show the digit 3 on the display, 5 sections must be highlighted; and for the digit 6, 6 sections must be highlighted. '
+b'The battery of the newest device allows to highlight at most n sections on the display. '
+b'Stepan wants to know the maximum possible integer number which can be shown on the display of his newest device. Your task is to determine this number. Note that this number must not contain leading zeros. Assume that the size of the display is enough to show any integer.'
+b'Input'
+b'The first line contains the integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000) \xe2\x80\x94 the maximum number of sections which can be highlighted on the display.'
+b'Output'
+b"Print the maximum integer which can be shown on the display of Stepan's newest device."
+Tags
+*special problem, constructive algorithms, greedy, implementation, *1200

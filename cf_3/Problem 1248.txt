@@ -1,0 +1,16 @@
+b'A society can be represented by a connected, undirected graph of nn vertices and mm edges. The vertices represent people, and an edge (i,j)(i,j) represents a friendship between people ii and jj.'
+b'In society, the ii-th person has an income aiai. A person ii is envious of person jj if aj=ai+1aj=ai+1. That is if person jj has exactly 11 more unit of income than person ii.'
+b'The society is called capitalist if for every pair of friends one is envious of the other. For some friendships, you know which friend is envious of the other. For the remaining friendships, you do not know the direction of envy.'
+b'The income inequality of society is defined as max1\xe2\x89\xa4i\xe2\x89\xa4nai\xe2\x88\x92min1\xe2\x89\xa4i\xe2\x89\xa4naimax1\xe2\x89\xa4i\xe2\x89\xa4nai\xe2\x88\x92min1\xe2\x89\xa4i\xe2\x89\xa4nai.'
+b'You only know the friendships and not the incomes. If it is impossible for this society to be capitalist with the given knowledge, you should report about it. Otherwise, you should find an assignment of incomes in which the society is capitalist, and the income inequality is maximized.'
+b'Input'
+b'The first line contains two integers nn, mm (1\xe2\x89\xa4n\xe2\x89\xa42001\xe2\x89\xa4n\xe2\x89\xa4200, n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa42000n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa42000) \xe2\x80\x94 the number of people and friendships, respectively.'
+b'The following mm lines describe the friendships. Each friendship is described by three integers ii, jj, bb (1\xe2\x89\xa4i,j\xe2\x89\xa4n,i\xe2\x89\xa0j,0\xe2\x89\xa4b\xe2\x89\xa411\xe2\x89\xa4i,j\xe2\x89\xa4n,i\xe2\x89\xa0j,0\xe2\x89\xa4b\xe2\x89\xa41). This denotes that people ii and jj are friends. If b=1b=1, we require that person ii is envious of person jj. If b=0b=0, one friend should be envious of the other in either direction.'
+b'There is at most one friendship between each pair of people. It is guaranteed that if we consider the friendships as undirected edges, the graph is connected.'
+b'Output'
+b'Print "YES" if it is possible that the society is capitalist, or "NO" otherwise. You can print characters in any case (upper or lower).'
+b'If the answer is "YES", you should print two additional lines. In the first line, print the maximum possible income inequality. On the next line you should print nn integers a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41060\xe2\x89\xa4ai\xe2\x89\xa4106), where aiai denotes the income of the ii-th person.'
+b'We can prove that if there exists a solution, there exists one where 0\xe2\x89\xa4ai\xe2\x89\xa41060\xe2\x89\xa4ai\xe2\x89\xa4106 for all ii.'
+b'If there exist multiple solutions, print any.'
+Tags
+constructive algorithms, dfs and similar, graphs, shortest paths, *2700

@@ -1,0 +1,13 @@
+b'You are given a rooted tree with nn vertices, the root of the tree is the vertex 11. Each vertex has some non-negative price. A leaf of the tree is a non-root vertex that has degree 11.'
+b'Arkady and Vasily play a strange game on the tree. The game consists of three stages. On the first stage Arkady buys some non-empty set of vertices of the tree. On the second stage Vasily puts some integers into all leaves of the tree. On the third stage Arkady can perform several (possibly none) operations of the following kind: choose some vertex vv he bought on the first stage and some integer xx, and then add xx to all integers in the leaves in the subtree of vv. The integer xx can be positive, negative of zero.'
+b'A leaf aa is in the subtree of a vertex bb if and only if the simple path between aa and the root goes through bb.'
+b"Arkady's task is to make all integers in the leaves equal to zero. What is the minimum total cost ss he has to pay on the first stage to guarantee his own win independently of the integers Vasily puts on the second stage? Also, we ask you to find all such vertices that there is an optimal (i.e. with cost ss) set of vertices containing this one such that Arkady can guarantee his own win buying this set on the first stage."
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42000002\xe2\x89\xa4n\xe2\x89\xa4200000)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The second line contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (0\xe2\x89\xa4ci\xe2\x89\xa41090\xe2\x89\xa4ci\xe2\x89\xa4109), where cici is the price of the ii-th vertex.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n), denoting an edge of the tree.'
+b'Output'
+b'In the first line print two integers: the minimum possible cost ss Arkady has to pay to guarantee his own win, and the number of vertices kk that belong to at least one optimal set.'
+b'In the second line print kk distinct integers in increasing order the indices of the vertices that belong to at least one optimal set.'
+Tags
+dfs and similar, dp, dsu, graphs, greedy, trees, *2500

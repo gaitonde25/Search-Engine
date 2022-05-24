@@ -1,0 +1,11 @@
+b'You are given a description of a depot. It is a rectangular checkered field of n\xe2\x80\x89\xc3\x97\xe2\x80\x89m size. Each cell in a field can be empty (".") or it can be occupied by a wall ("*"). '
+b'You have one bomb. If you lay the bomb at the cell (x,\xe2\x80\x89y), then after triggering it will wipe out all walls in the row x and all walls in the column y.'
+b'You are to determine if it is possible to wipe out all walls in the depot by placing and triggering exactly one bomb. The bomb can be laid both in an empty cell or in a cell occupied by a wall.'
+b'Input'
+b'The first line contains two positive integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the number of rows and columns in the depot field. '
+b'The next n lines contain m symbols "." and "*" each\xc2\xa0\xe2\x80\x94 the description of the field. j-th symbol in i-th of them stands for cell (i,\xe2\x80\x89j). If the symbol is equal to ".", then the corresponding cell is empty, otherwise it equals "*" and the corresponding cell is occupied by a wall.'
+b'Output'
+b'If it is impossible to wipe out all walls by placing and triggering exactly one bomb, then print "NO" in the first line (without quotes).'
+b'Otherwise print "YES" (without quotes) in the first line and two integers in the second line\xc2\xa0\xe2\x80\x94 the coordinates of the cell at which the bomb should be laid. If there are multiple answers, print any of them.'
+Tags
+implementation, *1400

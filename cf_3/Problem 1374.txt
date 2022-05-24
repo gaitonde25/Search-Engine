@@ -1,0 +1,17 @@
+b'After making a strategic plan with carriers for expansion of mobile network throughout the whole country, the government decided to cover rural areas with the last generation of 5G network.'
+b'Since 5G antenna towers will be built in the area of mainly private properties, the government needs an easy way to find information about landowners for each property partially or fully contained in the planned building area. '
+b'The planned building area is represented as a rectangle with sides widthwidth and heightheight.'
+b'Every 5G antenna tower occupies a circle with a center in (x,y)(x,y) and radius rr. '
+b'There is a database of Geodetic Institute containing information about each property. Each property is defined with its identification number and polygon represented as an array of (x,y)(x,y) points in the counter-clockwise direction. '
+b'Your task is to build an IT system which can handle queries of type (x,y,r)(x,y,r) in which (x,y)(x,y) represents a circle center, while rr represents its radius. The IT system should return the total area of properties that need to be acquired for the building of a tower so that the government can estimate the price. Furthermore, the system should return a list of identification numbers of these properties (so that the owners can be contacted for land acquisition).'
+b'A property needs to be acquired if the circle of the antenna tower is intersecting or touching it. '
+b'Input'
+b'The first line contains the size of the building area as double values widthwidth, heightheight, and an integer nn \xe2\x80\x94 the number of properties in the database. '
+b'Each of the next nn lines contains the description of a single property in the form of an integer number vv (3\xe2\x89\xa4v\xe2\x89\xa4403\xe2\x89\xa4v\xe2\x89\xa440) \xe2\x80\x94 the number of points that define a property, as well as 2\xe2\x88\x97v2\xe2\x88\x97v double numbers \xe2\x80\x94 the coordinates (x,y)(x,y) of each property point. Line ii (0\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9210\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921) contains the information for property with id ii.'
+b'The next line contains an integer qq \xe2\x80\x94 the number of queries. '
+b'Each of the next qq lines contains double values xx, yy, rr \xe2\x80\x94 the coordinates of an antenna circle center (x,y)(x,y) and its radius rr.'
+b'1\xe2\x89\xa4n\xe2\x88\x97q\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x88\x97q\xe2\x89\xa4106'
+b'Output'
+b'For each of the qq queries, your program should output a line containing the total area of all the properties that need to be acquired, an integer representing the number of such properties, as well as the list of ids of these properties (separated by blank characters, arbitrary order).'
+Tags
+geometry, *2700

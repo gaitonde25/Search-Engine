@@ -1,0 +1,15 @@
+b'To celebrate your birthday you have prepared a festive table! Now you want to seat as many guests as possible.'
+b'The table can be represented as a rectangle with height hh and width ww, divided into h\xc3\x97wh\xc3\x97w cells. Let (i,j)(i,j) denote the cell in the ii-th row and the jj-th column of the rectangle (1\xe2\x89\xa4i\xe2\x89\xa4h1\xe2\x89\xa4i\xe2\x89\xa4h; 1\xe2\x89\xa4j\xe2\x89\xa4w1\xe2\x89\xa4j\xe2\x89\xa4w).'
+b'Into each cell of the table you can either put a plate or keep it empty.'
+b'As each guest has to be seated next to their plate, you can only put plates on the edge of the table\xc2\xa0\xe2\x80\x94 into the first or the last row of the rectangle, or into the first or the last column. Formally, for each cell (i,j)(i,j) you put a plate into, at least one of the following conditions must be satisfied: i=1i=1, i=hi=h, j=1j=1, j=wj=w.'
+b"To make the guests comfortable, no two plates must be put into cells that have a common side or corner. In other words, if cell (i,j)(i,j) contains a plate, you can't put plates into cells (i\xe2\x88\x921,j)(i\xe2\x88\x921,j), (i,j\xe2\x88\x921)(i,j\xe2\x88\x921), (i+1,j)(i+1,j), (i,j+1)(i,j+1), (i\xe2\x88\x921,j\xe2\x88\x921)(i\xe2\x88\x921,j\xe2\x88\x921), (i\xe2\x88\x921,j+1)(i\xe2\x88\x921,j+1), (i+1,j\xe2\x88\x921)(i+1,j\xe2\x88\x921), (i+1,j+1)(i+1,j+1)."
+b'Put as many plates on the table as possible without violating the rules above.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each of the following tt lines describes one test case and contains two integers hh and ww (3\xe2\x89\xa4h,w\xe2\x89\xa4203\xe2\x89\xa4h,w\xe2\x89\xa420)\xc2\xa0\xe2\x80\x94 the height and the width of the table.'
+b'Output'
+b'For each test case, print hh lines containing ww characters each. Character jj in line ii must be equal to 11 if you are putting a plate into cell (i,j)(i,j), and 00 otherwise. If there are multiple answers, print any.'
+b'All plates must be put on the edge of the table. No two plates can be put into cells that have a common side or corner. The number of plates put on the table under these conditions must be as large as possible.'
+b'You are allowed to print additional empty lines.'
+Tags
+constructive algorithms, implementation, *800

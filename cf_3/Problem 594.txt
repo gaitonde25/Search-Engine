@@ -1,0 +1,10 @@
+b'There are currently nn hot topics numbered from 00 to n\xe2\x88\x921n\xe2\x88\x921 at your local bridge club and 2n2n players numbered from 00 to 2n\xe2\x88\x9212n\xe2\x88\x921. Each player holds a different set of views on those nn topics, more specifically, the ii-th player holds a positive view on the jj-th topic if i\xc2\xa0&\xc2\xa02j>0i\xc2\xa0&\xc2\xa02j>0, and a negative view otherwise. Here && denotes the bitwise AND operation.'
+b'You are going to organize a bridge tournament capable of accommodating at most kk pairs of players (bridge is played in teams of two people). You can select teams arbitrarily while each player is in at most one team, but there is one catch: two players cannot be in the same pair if they disagree on 22 or more of those nn topics, as they would argue too much during the play.'
+b'You know that the ii-th player will pay you aiai dollars if they play in this tournament. Compute the maximum amount of money that you can earn if you pair the players in your club optimally.'
+b'Input'
+b'The first line contains two integers nn, kk (1\xe2\x89\xa4n\xe2\x89\xa4201\xe2\x89\xa4n\xe2\x89\xa420, 1\xe2\x89\xa4k\xe2\x89\xa42001\xe2\x89\xa4k\xe2\x89\xa4200) \xe2\x80\x94 the number of hot topics and the number of pairs of players that your tournament can accommodate.'
+b'The second line contains 2n2n integers a0,a1,\xe2\x80\xa6,a2n\xe2\x88\x921a0,a1,\xe2\x80\xa6,a2n\xe2\x88\x921 (0\xe2\x89\xa4ai\xe2\x89\xa41060\xe2\x89\xa4ai\xe2\x89\xa4106) \xe2\x80\x94 the amounts of money that the players will pay to play in the tournament.'
+b'Output'
+b'Print one integer: the maximum amount of money that you can earn if you pair the players in your club optimally under the above conditions.'
+Tags
+flows, graph matchings, graphs, greedy, *2800

@@ -1,0 +1,12 @@
+b'You, the mighty Blackout, are standing in the upper-left (0,0)(0,0) corner of NNxMM matrix. You must move either right or down each second. '
+b'There are KK transformers jumping around the matrix in the following way. Each transformer starts jumping from position (x,y)(x,y), at time tt, and jumps to the next position each second. The xx-axes grows downwards, and yy-axes grows to the right. The order of jumping positions is defined as (x,y),(x+d,y\xe2\x88\x92d),(x+d,y),(x,y+d)(x,y),(x+d,y\xe2\x88\x92d),(x+d,y),(x,y+d), and is periodic. Before time tt transformer is not in the matrix.'
+b'You want to arrive to the bottom-right corner (N\xe2\x88\x921,M\xe2\x88\x921)(N\xe2\x88\x921,M\xe2\x88\x921), while slaying transformers and losing the least possible amount of energy. When you meet the transformer (or more of them) in the matrix field, you must kill them all, and you lose the sum of the energy amounts required to kill each transformer.'
+b'After the transformer is killed, he of course stops jumping, falls into the abyss and leaves the matrix world. Output minimum possible amount of energy wasted.'
+b'Input'
+b'In the first line, integers NN,MM (1\xe2\x89\xa4N,M\xe2\x89\xa45001\xe2\x89\xa4N,M\xe2\x89\xa4500), representing size of the matrix, and KK (0\xe2\x89\xa4K\xe2\x89\xa45\xe2\x88\x971050\xe2\x89\xa4K\xe2\x89\xa45\xe2\x88\x97105) , the number of jumping transformers.'
+b'In next KK lines, for each transformer, numbers xx, yy, dd (d\xe2\x89\xa51d\xe2\x89\xa51), tt (0\xe2\x89\xa4t\xe2\x89\xa4N+M\xe2\x88\x9220\xe2\x89\xa4t\xe2\x89\xa4N+M\xe2\x88\x922), and ee (0\xe2\x89\xa4e\xe2\x89\xa41090\xe2\x89\xa4e\xe2\x89\xa4109), representing starting coordinates of transformer, jumping positions distance in pattern described above, time when transformer starts jumping, and energy required to kill it.'
+b'It is guaranteed that all 4 of jumping points of the transformers are within matrix coordinates'
+b'Output'
+b'Print single integer, the minimum possible amount of energy wasted, for Blackout to arrive at bottom-right corner.'
+Tags
+dp, *2600

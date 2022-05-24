@@ -1,0 +1,13 @@
+b'The map of the capital of Berland can be viewed on the infinite coordinate plane. Each point with integer coordinates contains a building, and there are streets connecting every building to four neighbouring buildings. All streets are parallel to the coordinate axes.'
+b'The main school of the capital is located in (sx,sy)(sx,sy). There are nn students attending this school, the ii-th of them lives in the house located in (xi,yi)(xi,yi). It is possible that some students live in the same house, but no student lives in (sx,sy)(sx,sy).'
+b'After classes end, each student walks from the school to his house along one of the shortest paths. So the distance the ii-th student goes from the school to his house is |sx\xe2\x88\x92xi|+|sy\xe2\x88\x92yi||sx\xe2\x88\x92xi|+|sy\xe2\x88\x92yi|.'
+b"The Provision Department of Berland has decided to open a shawarma tent somewhere in the capital (at some point with integer coordinates). It is considered that the ii-th student will buy a shawarma if at least one of the shortest paths from the school to the ii-th student's house goes through the point where the shawarma tent is located. It is forbidden to place the shawarma tent at the point where the school is located, but the coordinates of the shawarma tent may coincide with the coordinates of the house of some student (or even multiple students)."
+b'You want to find the maximum possible number of students buying shawarma and the optimal location for the tent itself.'
+b'Input'
+b'The first line contains three integers nn, sxsx, sysy (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000, 0\xe2\x89\xa4sx,sy\xe2\x89\xa41090\xe2\x89\xa4sx,sy\xe2\x89\xa4109) \xe2\x80\x94 the number of students and the coordinates of the school, respectively.'
+b'Then nn lines follow. The ii-th of them contains two integers xixi, yiyi (0\xe2\x89\xa4xi,yi\xe2\x89\xa41090\xe2\x89\xa4xi,yi\xe2\x89\xa4109) \xe2\x80\x94 the location of the house where the ii-th student lives. Some locations of houses may coincide, but no student lives in the same location where the school is situated.'
+b'Output'
+b'The output should consist of two lines. The first of them should contain one integer cc \xe2\x80\x94 the maximum number of students that will buy shawarmas at the tent. '
+b'The second line should contain two integers pxpx and pypy \xe2\x80\x94 the coordinates where the tent should be located. If there are multiple answers, print any of them. Note that each of pxpx and pypy should be not less than 00 and not greater than 109109.'
+Tags
+brute force, geometry, greedy, implementation, *1300

@@ -1,0 +1,13 @@
+b"You are given a garland consisting of nn lamps. States of the lamps are represented by the string ss of length nn. The ii-th character of the string sisi equals '0' if the ii-th lamp is turned off or '1' if the ii-th lamp is turned on. You are also given a positive integer kk."
+b'In one move, you can choose one lamp and change its state (i.e. turn it on if it is turned off and vice versa).'
+b'The garland is called kk-periodic if the distance between each pair of adjacent turned on lamps is exactly kk. Consider the case k=3k=3. Then garlands "00010010", "1001001", "00010" and "0" are good but garlands "00101001", "1000001" and "01001100" are not. Note that the garland is not cyclic, i.e. the first turned on lamp is not going after the last turned on lamp and vice versa.'
+b'Your task is to find the minimum number of moves you need to make to obtain kk-periodic garland from the given one.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa425\xc2\xa00001\xe2\x89\xa4t\xe2\x89\xa425\xc2\xa0000) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b"The first line of the test case contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa4106;1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4n\xe2\x89\xa4106;1\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the length of ss and the required period. The second line of the test case contains the string ss consisting of nn characters '0' and '1'."
+b'It is guaranteed that the sum of nn over all test cases does not exceed 106106 (\xe2\x88\x91n\xe2\x89\xa4106\xe2\x88\x91n\xe2\x89\xa4106).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 the minimum number of moves you need to make to obtain kk-periodic garland from the given one.'
+Tags
+brute force, dp, greedy, *1900

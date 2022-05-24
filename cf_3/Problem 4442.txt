@@ -1,0 +1,14 @@
+b'Rick and his co-workers have made a new radioactive formula and a lot of bad guys are after them. So Rick wants to give his legacy to Morty before bad guys catch them. '
+b"There are n planets in their universe numbered from 1 to n. Rick is in planet number s (the earth) and he doesn't know where Morty is. As we all know, Rick owns a portal gun. With this gun he can open one-way portal from a planet he is in to any other planet (including that planet). But there are limits on this gun because he's still using its free trial."
+b'  '
+b'By default he can not open any portal by this gun. There are q plans in the website that sells these guns. Every time you purchase a plan you can only use it once but you can purchase it again if you want to use it more.'
+b'Plans on the website have three types:'
+b'  With a plan of this type you can open a portal from planet v to planet u.  With a plan of this type you can open a portal from planet v to any planet with index in range [l,\xe2\x80\x89r].  With a plan of this type you can open a portal from any planet with index in range [l,\xe2\x80\x89r] to planet v. '
+b"Rick doesn't known where Morty is, but Unity is going to inform him and he wants to be prepared for when he finds and start his journey immediately. So for each planet (including earth itself) he wants to know the minimum amount of money he needs to get from earth to that planet."
+b'Input'
+b'The first line of input contains three integers n, q and s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 number of planets, number of plans and index of earth respectively.'
+b'The next q lines contain the plans. Each line starts with a number t, type of that plan (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893). If t\xe2\x80\x89=\xe2\x80\x891 then it is followed by three integers v, u and w where w is the cost of that plan (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v,\xe2\x80\x89u\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109). Otherwise it is followed by four integers v, l, r and w where w is the cost of that plan (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b"In the first and only line of output print n integers separated by spaces. i-th of them should be minimum money to get from earth to i-th planet, or \xe2\x80\x89-\xe2\x80\x891 if it's impossible to get to that planet."
+Tags
+data structures, graphs, shortest paths, *2300

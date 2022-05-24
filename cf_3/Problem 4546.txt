@@ -1,0 +1,11 @@
+b'Young Timofey has a birthday today! He got kit of n cubes as a birthday present from his parents. Every cube has a number ai, which is written on it. Timofey put all the cubes in a row and went to unpack other presents.'
+b"In this time, Timofey's elder brother, Dima reordered the cubes using the following rule. Suppose the cubes are numbered from 1 to n in their order. Dima performs several steps, on step i he reverses the segment of cubes from i-th to (n\xe2\x80\x89-\xe2\x80\x89i\xe2\x80\x89+\xe2\x80\x891)-th. He does this while i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x89i\xe2\x80\x89+\xe2\x80\x891."
+b'After performing the operations Dima went away, being very proud of himself. When Timofey returned to his cubes, he understood that their order was changed. Help Timofey as fast as you can and save the holiday\xc2\xa0\xe2\x80\x94 restore the initial order of the cubes using information of their current location.'
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of cubes.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where ai is the number written on the i-th cube after Dima has changed their order.'
+b'Output'
+b'Print n integers, separated by spaces\xc2\xa0\xe2\x80\x94 the numbers written on the cubes in their initial order.'
+b'It can be shown that the answer is unique.'
+Tags
+constructive algorithms, implementation, *900

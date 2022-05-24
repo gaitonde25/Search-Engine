@@ -1,0 +1,13 @@
+b"Monocarp has got an array aa consisting of nn integers. Let's denote kk as the mathematic mean of these elements (note that it's possible that kk is not an integer). "
+b'The mathematic mean of an array of nn elements is the sum of elements divided by the number of these elements (i.\xe2\x80\x89e. sum divided by nn).'
+b'Monocarp wants to delete exactly two elements from aa so that the mathematic mean of the remaining (n\xe2\x88\x922)(n\xe2\x88\x922) elements is still equal to kk.'
+b'Your task is to calculate the number of pairs of positions [i,j][i,j] (i<ji<j) such that if the elements on these positions are deleted, the mathematic mean of (n\xe2\x88\x922)(n\xe2\x88\x922) remaining elements is equal to kk (that is, it is equal to the mathematic mean of nn elements of the original array aa).'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'The first line of each testcase contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements in the array.'
+b'The second line contains a sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is the ii-th element of the array.'
+b"The sum of nn over all testcases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of pairs of positions [i,j][i,j] (i<ji<j) such that if the elements on these positions are deleted, the mathematic mean of (n\xe2\x88\x922)(n\xe2\x88\x922) remaining elements is equal to kk (that is, it is equal to the mathematic mean of nn elements of the original array aa).'
+Tags
+data structures, dp, implementation, math, two pointers, *1200

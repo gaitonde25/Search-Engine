@@ -1,0 +1,12 @@
+b'Vasya had three strings aa, bb and ss, which consist of lowercase English letters. The lengths of strings aa and bb are equal to nn, the length of the string ss is equal to mm. '
+b'Vasya decided to choose a substring of the string aa, then choose a substring of the string bb and concatenate them. Formally, he chooses a segment [l1,r1][l1,r1] (1\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa4n1\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa4n) and a segment [l2,r2][l2,r2] (1\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa4n1\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa4n), and after concatenation he obtains a string a[l1,r1]+b[l2,r2]=al1al1+1\xe2\x80\xa6ar1bl2bl2+1\xe2\x80\xa6br2a[l1,r1]+b[l2,r2]=al1al1+1\xe2\x80\xa6ar1bl2bl2+1\xe2\x80\xa6br2.'
+b'Now, Vasya is interested in counting number of ways to choose those segments adhering to the following conditions:'
+b'  segments [l1,r1][l1,r1] and [l2,r2][l2,r2] have non-empty intersection, i.e. there exists at least one integer xx, such that l1\xe2\x89\xa4x\xe2\x89\xa4r1l1\xe2\x89\xa4x\xe2\x89\xa4r1 and l2\xe2\x89\xa4x\xe2\x89\xa4r2l2\xe2\x89\xa4x\xe2\x89\xa4r2;  the string a[l1,r1]+b[l2,r2]a[l1,r1]+b[l2,r2] is equal to the string ss. '
+b'Input'
+b'The first line contains integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa4500000,2\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85n1\xe2\x89\xa4n\xe2\x89\xa4500000,2\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85n)\xc2\xa0\xe2\x80\x94 the length of strings aa and bb and the length of the string ss.'
+b'The next three lines contain strings aa, bb and ss, respectively. The length of the strings aa and bb is nn, while the length of the string ss is mm.'
+b'All strings consist of lowercase English letters.'
+b'Output'
+b"Print one integer\xc2\xa0\xe2\x80\x94 the number of ways to choose a pair of segments, which satisfy Vasya's conditions."
+Tags
+data structures, hashing, strings, two pointers, *2700

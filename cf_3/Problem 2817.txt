@@ -1,0 +1,16 @@
+b'You are given an array aa consisting of nn integers. You can perform the following operations arbitrary number of times (possibly, zero):'
+b'  Choose a pair of indices (i,j)(i,j) such that |i\xe2\x88\x92j|=1|i\xe2\x88\x92j|=1 (indices ii and jj are adjacent) and set ai:=ai+|ai\xe2\x88\x92aj|ai:=ai+|ai\xe2\x88\x92aj|;  Choose a pair of indices (i,j)(i,j) such that |i\xe2\x88\x92j|=1|i\xe2\x88\x92j|=1 (indices ii and jj are adjacent) and set ai:=ai\xe2\x88\x92|ai\xe2\x88\x92aj|ai:=ai\xe2\x88\x92|ai\xe2\x88\x92aj|. '
+b'The value |x||x| means the absolute value of xx. For example, |4|=4|4|=4, |\xe2\x88\x923|=3|\xe2\x88\x923|=3.'
+b'Your task is to find the minimum number of operations required to obtain the array of equal elements and print the order of operations to do it.'
+b'It is guaranteed that you always can obtain the array of equal elements using such operations.'
+b'Note that after each operation each element of the current array should not exceed 10181018 by absolute value.'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements in aa.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105), where aiai is the ii-th element of aa.'
+b'Output'
+b'In the first line print one integer kk \xe2\x80\x94 the minimum number of operations required to obtain the array of equal elements.'
+b'In the next kk lines print operations itself. The pp-th operation should be printed as a triple of integers (tp,ip,jp)(tp,ip,jp), where tptp is either 11 or 22 (11 means that you perform the operation of the first type, and 22 means that you perform the operation of the second type), and ipip and jpjp are indices of adjacent elements of the array such that 1\xe2\x89\xa4ip,jp\xe2\x89\xa4n1\xe2\x89\xa4ip,jp\xe2\x89\xa4n, |ip\xe2\x88\x92jp|=1|ip\xe2\x88\x92jp|=1. See the examples for better understanding.'
+b'Note that after each operation each element of the current array should not exceed 10181018 by absolute value.'
+b'If there are many possible answers, you can print any.'
+Tags
+constructive algorithms, greedy, *1400

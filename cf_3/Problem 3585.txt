@@ -1,0 +1,8 @@
+b"You are given a set of size mm with integer elements between 00 and 2n\xe2\x88\x9212n\xe2\x88\x921 inclusive. Let's build an undirected graph on these integers in the following way: connect two integers xx and yy with an edge if and only if x&y=0x&y=0. Here && is the bitwise AND operation. Count the number of connected components in that graph."
+b'Input'
+b'In the first line of input there are two integers nn and mm (0\xe2\x89\xa4n\xe2\x89\xa4220\xe2\x89\xa4n\xe2\x89\xa422, 1\xe2\x89\xa4m\xe2\x89\xa42n1\xe2\x89\xa4m\xe2\x89\xa42n).'
+b'In the second line there are mm integers a1,a2,\xe2\x80\xa6,ama1,a2,\xe2\x80\xa6,am (0\xe2\x89\xa4ai<2n0\xe2\x89\xa4ai<2n)\xc2\xa0\xe2\x80\x94 the elements of the set. All aiai are distinct.'
+b'Output'
+b'Print the number of connected components.'
+Tags
+bitmasks, dfs and similar, dsu, graphs, *2500

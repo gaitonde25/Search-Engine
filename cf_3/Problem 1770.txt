@@ -1,0 +1,8 @@
+b'You are given two integers aa and bb. Print a+ba+b.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the input. Then tt test cases follow.'
+b'Each test case is given as a line of two integers aa and bb (\xe2\x88\x921000\xe2\x89\xa4a,b\xe2\x89\xa41000\xe2\x88\x921000\xe2\x89\xa4a,b\xe2\x89\xa41000).'
+b'Output'
+b'Print tt integers \xe2\x80\x94 the required numbers a+ba+b.'
+Tags
+implementation, *800

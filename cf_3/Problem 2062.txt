@@ -1,0 +1,17 @@
+b'You are given a bipartite graph: the first part of this graph contains n1n1 vertices, the second part contains n2n2 vertices, and there are mm edges. The graph can contain multiple edges.'
+b'Initially, each edge is colorless. For each edge, you may either leave it uncolored (it is free), paint it red (it costs rr coins) or paint it blue (it costs bb coins). No edge can be painted red and blue simultaneously.'
+b"There are three types of vertices in this graph \xe2\x80\x94 colorless, red and blue. Colored vertices impose additional constraints on edges' colours:"
+b'  for each red vertex, the number of red edges indicent to it should be strictly greater than the number of blue edges incident to it;  for each blue vertex, the number of blue edges indicent to it should be strictly greater than the number of red edges incident to it. '
+b'Colorless vertices impose no additional constraints.'
+b'Your goal is to paint some (possibly none) edges so that all constraints are met, and among all ways to do so, you should choose the one with minimum total cost. '
+b'Input'
+b'The first line contains five integers n1n1, n2n2, mm, rr and bb (1\xe2\x89\xa4n1,n2,m,r,b\xe2\x89\xa42001\xe2\x89\xa4n1,n2,m,r,b\xe2\x89\xa4200) \xe2\x80\x94 the number of vertices in the first part, the number of vertices in the second part, the number of edges, the amount of coins you have to pay to paint an edge red, and the amount of coins you have to pay to paint an edge blue, respectively.'
+b'The second line contains one string consisting of n1n1 characters. Each character is either U, R or B. If the ii-th character is U, then the ii-th vertex of the first part is uncolored; R corresponds to a red vertex, and B corresponds to a blue vertex.'
+b'The third line contains one string consisting of n2n2 characters. Each character is either U, R or B. This string represents the colors of vertices of the second part in the same way.'
+b'Then mm lines follow, the ii-th line contains two integers uiui and vivi (1\xe2\x89\xa4ui\xe2\x89\xa4n11\xe2\x89\xa4ui\xe2\x89\xa4n1, 1\xe2\x89\xa4vi\xe2\x89\xa4n21\xe2\x89\xa4vi\xe2\x89\xa4n2) denoting an edge connecting the vertex uiui from the first part and the vertex vivi from the second part.'
+b'The graph may contain multiple edges.'
+b'Output'
+b'If there is no coloring that meets all the constraints, print one integer \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print an integer cc denoting the total cost of coloring, and a string consisting of mm characters. The ii-th character should be U if the ii-th edge should be left uncolored, R if the ii-th edge should be painted red, or B if the ii-th edge should be painted blue. If there are multiple colorings with minimum possible cost, print any of them.'
+Tags
+constructive algorithms, flows, *2900

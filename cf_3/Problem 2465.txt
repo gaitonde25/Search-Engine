@@ -1,0 +1,12 @@
+b'You are given nn arrays that can have different sizes. You also have a table with ww columns and nn rows. The ii-th array is placed horizontally in the ii-th row. You can slide each array within its row as long as it occupies several consecutive cells and lies completely inside the table.'
+b'You need to find the maximum sum of the integers in the jj-th column for each jj from 11 to ww independently.'
+b'  Optimal placements for columns 11, 22 and 33 are shown on the pictures from left to right. '
+b'Note that you can exclude any array out of a column provided it remains in the window. In this case its value is considered to be zero.'
+b'Input'
+b'The first line contains two integers nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106) and ww (1\xe2\x89\xa4w\xe2\x89\xa41061\xe2\x89\xa4w\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of arrays and the width of the table.'
+b'Each of the next nn lines consists of an integer lili (1\xe2\x89\xa4li\xe2\x89\xa4w1\xe2\x89\xa4li\xe2\x89\xa4w), the length of the ii-th array, followed by lili integers ai1,ai2,\xe2\x80\xa6,ailiai1,ai2,\xe2\x80\xa6,aili (\xe2\x88\x92109\xe2\x89\xa4aij\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4aij\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'The total length of the arrays does no exceed 106106.'
+b'Output'
+b'Print ww integers, the ii-th of them should be the maximum sum for column ii.'
+Tags
+data structures, implementation, *2200

@@ -1,0 +1,13 @@
+b'An agent called Cypher is decrypting a message, that contains a composite number nn. All divisors of nn, which are greater than 11, are placed in a circle. Cypher can choose the initial order of numbers in the circle.'
+b'In one move Cypher can choose two adjacent numbers in a circle and insert their least common multiple between them. He can do that move as many times as needed.'
+b"A message is decrypted, if every two adjacent numbers are not coprime. Note that for such constraints it's always possible to decrypt the message."
+b'Find the minimal number of moves that Cypher should do to decrypt the message, and show the initial order of numbers in the circle for that.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100)(1\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. Next tt lines describe each test case.'
+b'In a single line of each test case description, there is a single composite number nn (4\xe2\x89\xa4n\xe2\x89\xa4109)(4\xe2\x89\xa4n\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number from the message.'
+b"It's guaranteed that the total number of divisors of nn for all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case in the first line output the initial order of divisors, which are greater than 11, in the circle. In the second line output, the minimal number of moves needed to decrypt the message.'
+b'If there are different possible orders with a correct answer, print any of them.'
+Tags
+constructive algorithms, implementation, math, number theory, *2100

@@ -1,0 +1,10 @@
+b'There is a house with nn flats situated on the main street of Berlatov. Vova is watching this house every night. The house can be represented as an array of nn integer numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, where ai=1ai=1 if in the ii-th flat the light is on and ai=0ai=0 otherwise.'
+b'Vova thinks that people in the ii-th flats are disturbed and cannot sleep if and only if 1<i<n1<i<n and ai\xe2\x88\x921=ai+1=1ai\xe2\x88\x921=ai+1=1 and ai=0ai=0.'
+b'Vova is concerned by the following question: what is the minimum number kk such that if people from exactly kk pairwise distinct flats will turn off the lights then nobody will be disturbed? Your task is to find this number kk.'
+b'Input'
+b'The first line of the input contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa41003\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of flats in the house.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (ai\xe2\x88\x88{0,1}ai\xe2\x88\x88{0,1}), where aiai is the state of light in the ii-th flat.'
+b'Output'
+b'Print only one integer \xe2\x80\x94 the minimum number kk such that if people from exactly kk pairwise distinct flats will turn off the light then nobody will be disturbed.'
+Tags
+greedy, *1000

@@ -1,0 +1,13 @@
+b'Cirno gave AquaMoon a chessboard of size 1\xc3\x97n1\xc3\x97n. Its cells are numbered with integers from 11 to nn from left to right. In the beginning, some of the cells are occupied with at most one pawn, and other cells are unoccupied.'
+b'In each operation, AquaMoon can choose a cell ii with a pawn, and do either of the following (if possible): '
+b'  Move pawn from it to the (i+2)(i+2)-th cell, if i+2\xe2\x89\xa4ni+2\xe2\x89\xa4n and the (i+1)(i+1)-th cell is occupied and the (i+2)(i+2)-th cell is unoccupied.  Move pawn from it to the (i\xe2\x88\x922)(i\xe2\x88\x922)-th cell, if i\xe2\x88\x922\xe2\x89\xa51i\xe2\x88\x922\xe2\x89\xa51 and the (i\xe2\x88\x921)(i\xe2\x88\x921)-th cell is occupied and the (i\xe2\x88\x922)(i\xe2\x88\x922)-th cell is unoccupied. '
+b'You are given an initial state of the chessboard. AquaMoon wants to count the number of states reachable from the initial state with some sequence of operations. But she is not good at programming. Can you help her? As the answer can be large find it modulo 998244353998244353.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) \xe2\x80\x94 the number of test cases.'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the size of the chessboard.'
+b'The second line contains a string of nn characters, consists of characters "0" and "1". If the ii-th character is "1", the ii-th cell is initially occupied; otherwise, the ii-th cell is initially unoccupied.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print the number of states that reachable from the initial state with some sequence of operations modulo 998244353998244353.'
+Tags
+combinatorics, math, *1900

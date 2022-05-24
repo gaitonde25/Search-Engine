@@ -1,0 +1,13 @@
+b'On a plane are n points (xi, yi) with integer coordinates between 0 and 106. The distance between the two points with numbers a and b is said to be the following value:  (the distance calculated by such formula is called Manhattan distance).'
+b'We call a hamiltonian path to be some permutation pi of numbers from 1 to n. We say that the length of this path is value .'
+b'Find some hamiltonian path with a length of no more than 25\xe2\x80\x89\xc3\x97\xe2\x80\x89108. Note that you do not have to minimize the path length.'
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106).'
+b'The i\xe2\x80\x89+\xe2\x80\x891-th line contains the coordinates of the i-th point: xi and yi (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106).'
+b'It is guaranteed that no two points coincide.'
+b'Output'
+b'Print the permutation of numbers pi from 1 to n \xe2\x80\x94 the sought Hamiltonian path. The permutation must meet the inequality .'
+b'If there are multiple possible answers, print any of them.'
+b'It is guaranteed that the answer exists.'
+Tags
+constructive algorithms, divide and conquer, geometry, greedy, sortings, *2100

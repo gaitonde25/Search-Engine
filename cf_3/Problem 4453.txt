@@ -1,0 +1,15 @@
+b'DO YOU EXPECT ME TO FIND THIS OUT?'
+b'WHAT BASE AND/XOR LANGUAGE INCLUDES string?'
+b"DON'T BYTE OF MORE THAN YOU CAN CHEW"
+b'YOU CAN ONLY DISTORT THE LARGEST OF MATHEMATICS SO FAR'
+b'SAYING "ABRACADABRA" WITHOUT A MAGIC AND WON\'T DO YOU ANY GOOD'
+b'THE LAST STACK RUPTURES. ALL DIE. OH, THE EMBARRASSMENT!'
+b'I HAVE NO ARRAY AND I MUST SCREAM'
+b'ELEMENTS MAY NOT BE STORED IN WEST HYPERSPACE'
+b'Input'
+b'The first line of input data contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910).'
+b'The second line of input data contains n space-separated integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8911).'
+b'Output'
+b'Output a single integer.'
+Tags
+*special problem, implementation, *1800

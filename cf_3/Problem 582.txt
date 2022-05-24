@@ -1,0 +1,14 @@
+b'Mr. Chanek lives in a city represented as a plane. He wants to build an amusement park in the shape of a circle of radius rr. The circle must touch the origin (point (0,0)(0,0)).'
+b'There are nn bird habitats that can be a photo spot for the tourists in the park. The ii-th bird habitat is at point pi=(xi,yi)pi=(xi,yi). '
+b'Find the minimum radius rr of a park with at least kk bird habitats inside. '
+b'A point is considered to be inside the park if and only if the distance between pipi and the center of the park is less than or equal to the radius of the park. Note that the center and the radius of the park do not need to be integers.'
+b'In this problem, it is guaranteed that the given input always has a solution with r\xe2\x89\xa42\xe2\x8b\x85105r\xe2\x89\xa42\xe2\x8b\x85105.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the number of bird habitats in the city and the number of bird habitats required to be inside the park.'
+b'The ii-th of the next nn lines contains two integers xixi and yiyi (0\xe2\x89\xa4|xi|,|yi|\xe2\x89\xa41050\xe2\x89\xa4|xi|,|yi|\xe2\x89\xa4105) \xe2\x80\x94 the position of the ii-th bird habitat.'
+b'Output'
+b'Output a single real number rr denoting the minimum radius of a park with at least kk bird habitats inside. It is guaranteed that the given input always has a solution with r\xe2\x89\xa42\xe2\x8b\x85105r\xe2\x89\xa42\xe2\x8b\x85105.'
+b'Your answer is considered correct if its absolute or relative error does not exceed 10\xe2\x88\x92410\xe2\x88\x924.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is accepted if and only if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x924|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x924."
+Tags
+binary search, geometry, *2300

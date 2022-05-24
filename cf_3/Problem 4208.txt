@@ -1,0 +1,13 @@
+b'Today at the lesson Vitya learned a very interesting function\xc2\xa0\xe2\x80\x94 mex. Mex of a sequence of numbers is the minimum non-negative number that is not present in the sequence as element. For example, mex([4,\xe2\x80\x8933,\xe2\x80\x890,\xe2\x80\x891,\xe2\x80\x891,\xe2\x80\x895])\xe2\x80\x89=\xe2\x80\x892 and mex([1,\xe2\x80\x892,\xe2\x80\x893])\xe2\x80\x89=\xe2\x80\x890.'
+b'Vitya quickly understood all tasks of the teacher, but can you do the same?'
+b'You are given an array consisting of n non-negative integers, and m queries. Each query is characterized by one number x and consists of the following consecutive steps:'
+b'  Perform the bitwise addition operation modulo 2 (xor) of each array element with the number x.  Find mex of the resulting array. '
+b'Note that after each query the array changes.'
+b'Input'
+b'First line contains two integer numbers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105)\xc2\xa0\xe2\x80\x94 number of elements in array and number of queries.'
+b'Next line contains n integer numbers ai (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105)\xc2\xa0\xe2\x80\x94 elements of then array.'
+b'Each of next m lines contains query\xc2\xa0\xe2\x80\x94 one integer number x (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105).'
+b'Output'
+b'For each query print the answer on a separate line.'
+Tags
+binary search, data structures, *2000

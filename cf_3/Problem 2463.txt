@@ -1,0 +1,10 @@
+b'You are given two integers nn and kk.'
+b'You need to construct kk regular polygons having same circumcircle, with distinct number of sides ll between 33 and nn. '
+b'  Illustration for the first example. '
+b'You can rotate them to minimize the total number of distinct points on the circle. Find the minimum number of such points.'
+b'Input'
+b'The only line of input contains two integers nn and kk (3\xe2\x89\xa4n\xe2\x89\xa41063\xe2\x89\xa4n\xe2\x89\xa4106, 1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9221\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x922), the maximum number of sides of a polygon and the number of polygons to construct, respectively.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the minimum number of points required for kk polygons.'
+Tags
+greedy, math, number theory, *2800

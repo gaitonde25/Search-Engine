@@ -1,0 +1,15 @@
+b"Lee was planning to get closer to Mashtali's heart to proceed with his evil plan(which we're not aware of, yet), so he decided to beautify Mashtali's graph. But he made several rules for himself. And also he was too busy with his plans that he didn't have time for such minor tasks, so he asked you for help."
+b"Mashtali's graph is an undirected weighted graph with nn vertices and mm edges with weights equal to either 11 or 22. Lee wants to direct the edges of Mashtali's graph so that it will be as beautiful as possible."
+b'Lee thinks that the beauty of a directed weighted graph is equal to the number of its Oddysey vertices. A vertex vv is an Oddysey vertex if |d+(v)\xe2\x88\x92d\xe2\x88\x92(v)|=1|d+(v)\xe2\x88\x92d\xe2\x88\x92(v)|=1, where d+(v)d+(v) is the sum of weights of the outgoing from vv edges, and d\xe2\x88\x92(v)d\xe2\x88\x92(v) is the sum of the weights of the incoming to vv edges.'
+b"Find the largest possible beauty of a graph that Lee can achieve by directing the edges of Mashtali's graph. In addition, find any way to achieve it."
+b'Note that you have to orient each edge.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa4105;1\xe2\x89\xa4m\xe2\x89\xa4105)(1\xe2\x89\xa4n\xe2\x89\xa4105;1\xe2\x89\xa4m\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the numbers of vertices and edges in the graph.'
+b'The ii-th line of the following mm lines contains three integers uiui, vivi and wiwi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n;ui\xe2\x89\xa0vi;wi\xe2\x88\x88{1,2})(1\xe2\x89\xa4ui,vi\xe2\x89\xa4n;ui\xe2\x89\xa0vi;wi\xe2\x88\x88{1,2})\xc2\xa0\xe2\x80\x94 the endpoints of the ii-th edge and its weight.'
+b"Note that the graph doesn't have to be connected, and it might contain multiple edges."
+b'Output'
+b'In the first line print a single integer\xc2\xa0\xe2\x80\x94 the maximum beauty of the graph Lee can achieve.'
+b'In the second line print a string of length mm consisting of 11s and 22s\xc2\xa0\xe2\x80\x94 directions of the edges.'
+b'If you decide to direct the ii-th edge from vertex uiui to vertex vivi, ii-th character of the string should be 11. Otherwise, it should be 22.'
+Tags
+constructive algorithms, dfs and similar, graphs, *3000

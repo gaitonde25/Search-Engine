@@ -1,0 +1,15 @@
+b'A mad scientist Dr.Jubal has made a competitive programming task. Try to solve it!'
+b'You are given integers n,kn,k. Construct a grid AA with size n\xc3\x97nn\xc3\x97n consisting of integers 00 and 11. The very important condition should be satisfied: the sum of all elements in the grid is exactly kk. In other words, the number of 11 in the grid is equal to kk.'
+b"Let's define:"
+b"  Ai,jAi,j as the integer in the ii-th row and the jj-th column.  Ri=Ai,1+Ai,2+...+Ai,nRi=Ai,1+Ai,2+...+Ai,n (for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n).  Cj=A1,j+A2,j+...+An,jCj=A1,j+A2,j+...+An,j (for all 1\xe2\x89\xa4j\xe2\x89\xa4n1\xe2\x89\xa4j\xe2\x89\xa4n).  In other words, RiRi are row sums and CjCj are column sums of the grid AA.  For the grid AA let's define the value f(A)=(max(R)\xe2\x88\x92min(R))2+(max(C)\xe2\x88\x92min(C))2f(A)=(max(R)\xe2\x88\x92min(R))2+(max(C)\xe2\x88\x92min(C))2 (here for an integer sequence XX we define max(X)max(X) as the maximum value in XX and min(X)min(X) as the minimum value in XX). "
+b'Find any grid AA, which satisfies the following condition. Among such grids find any, for which the value f(A)f(A) is the minimum possible. Among such tables, you can find any.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. Next tt lines contain descriptions of test cases.'
+b'For each test case the only line contains two integers nn, kk (1\xe2\x89\xa4n\xe2\x89\xa4300,0\xe2\x89\xa4k\xe2\x89\xa4n2)(1\xe2\x89\xa4n\xe2\x89\xa4300,0\xe2\x89\xa4k\xe2\x89\xa4n2).'
+b'It is guaranteed that the sum of n2n2 for all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, firstly print the minimum possible value of f(A)f(A) among all tables, for which the condition is satisfied.'
+b'After that, print nn lines contain nn characters each. The jj-th character in the ii-th line should be equal to Ai,jAi,j.'
+b'If there are multiple answers you can print any.'
+Tags
+constructive algorithms, greedy, implementation, *1600

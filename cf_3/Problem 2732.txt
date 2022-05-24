@@ -1,0 +1,11 @@
+b'There are nn people in a row. The height of the ii-th person is aiai. You can choose any subset of these people and try to arrange them into a balanced circle.'
+b'A balanced circle is such an order of people that the difference between heights of any adjacent people is no more than 11. For example, let heights of chosen people be [ai1,ai2,\xe2\x80\xa6,aik][ai1,ai2,\xe2\x80\xa6,aik], where kk is the number of people you choose. Then the condition |aij\xe2\x88\x92aij+1|\xe2\x89\xa41|aij\xe2\x88\x92aij+1|\xe2\x89\xa41 should be satisfied for all jj from 11 to k\xe2\x88\x921k\xe2\x88\x921 and the condition |ai1\xe2\x88\x92aik|\xe2\x89\xa41|ai1\xe2\x88\x92aik|\xe2\x89\xa41 should be also satisfied. |x||x| means the absolute value of xx. It is obvious that the circle consisting of one person is balanced.'
+b'Your task is to choose the maximum number of people and construct a balanced circle consisting of all chosen people. It is obvious that the circle consisting of one person is balanced so the answer always exists.'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of people.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105), where aiai is the height of the ii-th person.'
+b'Output'
+b'In the first line of the output print kk \xe2\x80\x94 the number of people in the maximum balanced circle.'
+b'In the second line print kk integers res1,res2,\xe2\x80\xa6,reskres1,res2,\xe2\x80\xa6,resk, where resjresj is the height of the jj-th person in the maximum balanced circle. The condition |resj\xe2\x88\x92resj+1|\xe2\x89\xa41|resj\xe2\x88\x92resj+1|\xe2\x89\xa41 should be satisfied for all jj from 11 to k\xe2\x88\x921k\xe2\x88\x921 and the condition |res1\xe2\x88\x92resk|\xe2\x89\xa41|res1\xe2\x88\x92resk|\xe2\x89\xa41 should be also satisfied.'
+Tags
+constructive algorithms, dp, greedy, two pointers, *2000

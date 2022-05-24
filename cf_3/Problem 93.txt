@@ -1,0 +1,15 @@
+b'Fox Ciel is participating in a party in Prime Kingdom. There are n foxes there (include Fox Ciel). The i-th fox is ai years old.'
+b'They will have dinner around some round tables. You want to distribute foxes such that:'
+b'  Each fox is sitting at some table.  Each table has at least 3 foxes sitting around it.  The sum of ages of any two adjacent foxes around each table should be a prime number. '
+b'If k foxes f1, f2, ..., fk are sitting around table in clockwise order, then for 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89-\xe2\x80\x891: fi and fi\xe2\x80\x89+\xe2\x80\x891 are adjacent, and f1 and fk are also adjacent.'
+b'If it is possible to distribute the foxes in the desired manner, find out a way to do that.'
+b'Input'
+b'The first line contains single integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200): the number of foxes in this party. '
+b'The second line contains n integers ai (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104).'
+b'Output'
+b'If it is impossible to do this, output "Impossible".'
+b'Otherwise, in the first line output an integer m (): the number of tables.'
+b'Then output m lines, each line should start with an integer k -=\xe2\x80\x93 the number of foxes around that table, and then k numbers \xe2\x80\x94 indices of fox sitting around that table in clockwise order.'
+b'If there are several possible arrangements, output any of them.'
+Tags
+flows, *2300

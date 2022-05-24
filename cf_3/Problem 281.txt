@@ -1,0 +1,14 @@
+b'You are given a set of nn (nn is always a power of 22) elements containing all integers 0,1,2,\xe2\x80\xa6,n\xe2\x88\x9210,1,2,\xe2\x80\xa6,n\xe2\x88\x921 exactly once.'
+b'Find n2n2 pairs of elements such that:'
+b'  Each element in the set is in exactly one pair.  The sum over all pairs of the bitwise AND of its elements must be exactly equal to kk. Formally, if aiai and bibi are the elements of the ii-th pair, then the following must hold: \xe2\x88\x91i=1n/2ai&bi=k,\xe2\x88\x91i=1n/2ai&bi=k, where && denotes the bitwise AND operation. '
+b'If there are many solutions, print any of them, if there is no solution, print \xe2\x88\x921\xe2\x88\x921 instead.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa44001\xe2\x89\xa4t\xe2\x89\xa4400) \xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'Each test case consists of a single line with two integers nn and kk (4\xe2\x89\xa4n\xe2\x89\xa42164\xe2\x89\xa4n\xe2\x89\xa4216, nn is a power of 22, 0\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9210\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x921).'
+b'The sum of nn over all test cases does not exceed 216216. All test cases in each individual input will be pairwise different.'
+b'Output'
+b'For each test case, if there is no solution, print a single line with the integer \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print n2n2 lines, the ii-th of them must contain aiai and bibi, the elements in the ii-th pair. '
+b'If there are many solutions, print any of them. Print the pairs and the elements in the pairs in any order.'
+Tags
+bitmasks, constructive algorithms, *1500

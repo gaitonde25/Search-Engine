@@ -1,0 +1,12 @@
+b'The Floral Clock has been standing by the side of Mirror Lake for years. Though unable to keep time, it reminds people of the passage of time and the good old days.'
+b'On the rim of the Floral Clock are 2n flowers, numbered from 1 to 2n clockwise, each of which has a colour among all n possible ones. For each colour, there are exactly two flowers with it, the distance between which either is less than or equal to 2, or equals n. Additionally, if flowers u and v are of the same colour, then flowers opposite to u and opposite to v should be of the same colour as well \xe2\x80\x94 symmetry is beautiful!'
+b'Formally, the distance between two flowers is 1 plus the number of flowers on the minor arc (or semicircle) between them. Below is a possible arrangement with n\xe2\x80\x89=\xe2\x80\x896 that cover all possibilities.'
+b'  '
+b'The beauty of an arrangement is defined to be the product of the lengths of flower segments separated by all opposite flowers of the same colour. In other words, in order to compute the beauty, we remove from the circle all flowers that have the same colour as flowers opposite to them. Then, the beauty is the product of lengths of all remaining segments. Note that we include segments of length 0 in this product. If there are no flowers that have the same colour as flower opposite to them, the beauty equals 0. For instance, the beauty of the above arrangement equals 1\xe2\x80\x89\xc3\x97\xe2\x80\x893\xe2\x80\x89\xc3\x97\xe2\x80\x891\xe2\x80\x89\xc3\x97\xe2\x80\x893\xe2\x80\x89=\xe2\x80\x899 \xe2\x80\x94 the segments are {2}, {4,\xe2\x80\x895,\xe2\x80\x896}, {8} and {10,\xe2\x80\x8911,\xe2\x80\x8912}.'
+b'While keeping the constraints satisfied, there may be lots of different arrangements. Find out the sum of beauty over all possible arrangements, modulo 998\xe2\x80\x89244\xe2\x80\x89353. Two arrangements are considered different, if a pair (u,\xe2\x80\x89v) (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892n) exists such that flowers u and v are of the same colour in one of them, but not in the other.'
+b'Input'
+b'The first and only line of input contains a lonely positive integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of colours present on the Floral Clock.'
+b'Output'
+b'Output one integer \xe2\x80\x94 the sum of beauty over all possible arrangements of flowers, modulo 998\xe2\x80\x89244\xe2\x80\x89353.'
+Tags
+combinatorics, divide and conquer, dp, fft, math, *3400

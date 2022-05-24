@@ -1,0 +1,10 @@
+b'You still have partial information about the score during the historic football match. You are given a set of pairs (ai,bi)(ai,bi), indicating that at some point during the match the score was "aiai: bibi". It is known that if the current score is \xc2\xabxx:yy\xc2\xbb, then after the goal it will change to "x+1x+1:yy" or "xx:y+1y+1". What is the largest number of times a draw could appear on the scoreboard?'
+b'The pairs "aiai:bibi" are given in chronological order (time increases), but you are given score only for some moments of time. The last pair corresponds to the end of the match.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4100001\xe2\x89\xa4n\xe2\x89\xa410000) \xe2\x80\x94 the number of known moments in the match.'
+b'Each of the next nn lines contains integers aiai and bibi (0\xe2\x89\xa4ai,bi\xe2\x89\xa41090\xe2\x89\xa4ai,bi\xe2\x89\xa4109), denoting the score of the match at that moment (that is, the number of goals by the first team and the number of goals by the second team).'
+b'All moments are given in chronological order, that is, sequences xixi and yjyj are non-decreasing. The last score denotes the final result of the match.'
+b'Output'
+b'Print the maximum number of moments of time, during which the score was a draw. The starting moment of the match (with a score 0:0) is also counted.'
+Tags
+greedy, implementation, *1400

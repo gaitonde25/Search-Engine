@@ -1,0 +1,19 @@
+b'In the famous Oh-Suit-United tournament, two teams are playing against each other for the grand prize of precious pepper points.'
+b'The first team consists of nn players, and the second team consists of mm players. Each player has a potential: the potential of the ii-th player in the first team is aiai, and the potential of the ii-th player in the second team is bibi.'
+b'In the tournament, all players will be on the stage in some order. There will be a scoring device, initially assigned to an integer kk, which will be used to value the performance of all players.'
+b"The scores for all players will be assigned in the order they appear on the stage. Let the potential of the current player be xx, and the potential of the previous player be yy (yy equals xx for the first player). Then, x\xe2\x88\x92yx\xe2\x88\x92y is added to the value in the scoring device, Afterwards, if the value in the scoring device becomes negative, the value will be reset to 00. Lastly, the player's score is assigned to the current value on the scoring device. The score of a team is the sum of the scores of all its members."
+b'As an insane fan of the first team, Nezzar desperately wants the biggest win for the first team. He now wonders what is the maximum difference between scores of the first team and the second team.'
+b'Formally, let the score of the first team be scorefscoref and the score of the second team be scoresscores. Nezzar wants to find the maximum value of scoref\xe2\x88\x92scoresscoref\xe2\x88\x92scores over all possible orders of players on the stage.'
+b'However, situation often changes and there are qq events that will happen. There are three types of events:'
+b'  11 pospos xx \xe2\x80\x94 change aposapos to xx;  22 pospos xx \xe2\x80\x94 change bposbpos to xx;  33 xx \xe2\x80\x94 tournament is held with k=xk=x and Nezzar wants you to compute the maximum value of scoref\xe2\x88\x92scoresscoref\xe2\x88\x92scores. '
+b'Can you help Nezzar to answer the queries of the third type?'
+b'Input'
+b'The first line contains three integers nn, mm, and qq (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4q\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4q\xe2\x89\xa45\xe2\x8b\x85105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41060\xe2\x89\xa4ai\xe2\x89\xa4106).'
+b'The third line contains mm integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (0\xe2\x89\xa4bi\xe2\x89\xa41060\xe2\x89\xa4bi\xe2\x89\xa4106).'
+b'The following qq lines contain descriptions of events, described in the statement, each in one of the three possible formats:'
+b'  11 pospos xx (1\xe2\x89\xa4pos\xe2\x89\xa4n1\xe2\x89\xa4pos\xe2\x89\xa4n, 0\xe2\x89\xa4x\xe2\x89\xa41060\xe2\x89\xa4x\xe2\x89\xa4106);  22 pospos xx (1\xe2\x89\xa4pos\xe2\x89\xa4m1\xe2\x89\xa4pos\xe2\x89\xa4m, 0\xe2\x89\xa4x\xe2\x89\xa41060\xe2\x89\xa4x\xe2\x89\xa4106);  33 xx (0\xe2\x89\xa4x\xe2\x89\xa41060\xe2\x89\xa4x\xe2\x89\xa4106). '
+b'Output'
+b'For each query of the third type print the answer to this query.'
+Tags
+data structures, greedy, *3300

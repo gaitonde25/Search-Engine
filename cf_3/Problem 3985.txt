@@ -1,0 +1,8 @@
+b'Students Vasya and Petya are studying at the BSU (Byteland State University). At one of the breaks they decided to order a pizza. In this problem pizza is a circle of some radius. The pizza was delivered already cut into n pieces. The i-th piece is a sector of angle equal to ai. Vasya and Petya want to divide all pieces of pizza into two continuous sectors in such way that the difference between angles of these sectors is minimal. Sector angle is sum of angles of all pieces in it. Pay attention, that one of sectors can be empty.'
+b'Input'
+b'The first line contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89360) \xc2\xa0\xe2\x80\x94 the number of pieces into which the delivered pizza was cut.'
+b'The second line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89360) \xc2\xa0\xe2\x80\x94 the angles of the sectors into which the pizza was cut. The sum of all ai is 360.'
+b'Output'
+b'Print one integer \xc2\xa0\xe2\x80\x94 the minimal difference between angles of sectors that will go to Vasya and Petya.'
+Tags
+brute force, implementation, *1200

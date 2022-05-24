@@ -1,0 +1,11 @@
+b'The Kingdom of Kremland is a tree (a connected undirected graph without cycles) consisting of nn vertices. Each vertex ii has its own value aiai. All vertices are connected in series by edges. Formally, for every 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n there is an edge between the vertices of ii and i+1i+1.'
+b'Denote the function f(l,r)f(l,r), which takes two integers ll and rr (l\xe2\x89\xa4rl\xe2\x89\xa4r):'
+b' \xc2\xa0\xc2\xa0 We leave in the tree only vertices whose values \xe2\x80\x8b\xe2\x80\x8brange from ll to rr. \xc2\xa0\xc2\xa0 The value of the function will be the number of connected components in the new graph. '
+b'Your task is to calculate the following sum: \xe2\x88\x91l=1n\xe2\x88\x91r=lnf(l,r)\xe2\x88\x91l=1n\xe2\x88\x91r=lnf(l,r)'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the values of the vertices.'
+b'Output'
+b'Print one number\xc2\xa0\xe2\x80\x94 the answer to the problem.'
+Tags
+combinatorics, data structures, dp, math, *2100

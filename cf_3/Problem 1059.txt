@@ -1,0 +1,15 @@
+b'A big football championship will occur soon! nn teams will compete in it, and each pair of teams will play exactly one game against each other.'
+b'There are two possible outcomes of a game:'
+b'  the game may result in a tie, then both teams get 11 point;  one team might win in a game, then the winning team gets 33 points and the losing team gets 00 points. '
+b'The score of a team is the number of points it gained during all games that it played.'
+b'You are interested in a hypothetical situation when all teams get the same score at the end of the championship. A simple example of that situation is when all games result in ties, but you want to minimize the number of ties as well.'
+b'Your task is to describe a situation (choose the result of each game) so that all teams get the same score, and the number of ties is the minimum possible.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'Then the test cases follow. Each test case is described by one line containing one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of teams.'
+b'Output'
+b'For each test case, print n(n\xe2\x88\x921)2n(n\xe2\x88\x921)2 integers describing the results of the games in the following order: the first integer should correspond to the match between team 11 and team 22, the second \xe2\x80\x94 between team 11 and team 33, then 11 and 44, ..., 11 and nn, 22 and 33, 22 and 44, ..., 22 and nn, and so on, until the game between the team n\xe2\x88\x921n\xe2\x88\x921 and the team nn.'
+b'The integer corresponding to the game between the team xx and the team yy should be 11 if xx wins, \xe2\x88\x921\xe2\x88\x921 if yy wins, or 00 if the game results in a tie.'
+b'All teams should get the same score, and the number of ties should be the minimum possible. If there are multiple optimal answers, print any of them. It can be shown that there always exists a way to make all teams have the same score.'
+Tags
+brute force, constructive algorithms, dfs and similar, graphs, greedy, implementation, math, *1500

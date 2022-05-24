@@ -1,0 +1,11 @@
+b'Limak is an old brown bear. He often goes bowling with his friends. Today he feels really good and tries to beat his own record!'
+b'For rolling a ball one gets a score \xe2\x80\x94 an integer (maybe negative) number of points. Score for i-th roll is multiplied by i and scores are summed up. So, for k rolls with scores s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sk, total score is . Total score is 0 if there were no rolls.'
+b'Limak made n rolls and got score ai for i-th of them. He wants to maximize his total score and he came up with an interesting idea. He will cancel some rolls, saying that something distracted him or there was a strong wind.'
+b'Limak is able to cancel any number of rolls, maybe even all or none of them. Total score is calculated as if there were only non-canceled rolls. Look at the sample tests for clarification. What maximum total score can Limak get?'
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b"The second line contains n space-separated integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (|ai|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107) - scores for Limak's rolls."
+b'Output'
+b'Print the maximum possible total score after choosing rolls to cancel.'
+Tags
+data structures, greedy, *3200

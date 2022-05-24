@@ -1,0 +1,11 @@
+b'Ember and Storm play a game. First, Ember picks a labelled tree T of n vertices, such that the degree of every vertex is at most d. Then, Storm picks two distinct vertices u and v in this tree and writes down the labels of the vertices in the path from u to v in a sequence a1,\xe2\x80\x89a2... ak. Finally, Ember picks any index i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89k) in the array. Now he performs one of the following two operations exactly once:'
+b'  flip the subrange [i\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89k] and add ai to it. After this, the sequence becomes a1,\xe2\x80\x89... ai,\xe2\x80\x89ak\xe2\x80\x89+\xe2\x80\x89ai,\xe2\x80\x89ak\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x89ai,\xe2\x80\x89... ai\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x89ai  negate the subrange [i\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89k] and add ai to it. i.e., the array becomes a1,\xe2\x80\x89... ai,\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x89ai\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x89ai,\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x89ai\xe2\x80\x89+\xe2\x80\x892\xe2\x80\x89+\xe2\x80\x89ai,\xe2\x80\x89...\xe2\x80\x89-\xe2\x80\x89ak\xe2\x80\x89+\xe2\x80\x89ai '
+b'Ember wins if the array is monotonically increasing or decreasing after this. Otherwise Storm wins.'
+b'The game can be described by the tuple (T,\xe2\x80\x89u,\xe2\x80\x89v,\xe2\x80\x89i,\xe2\x80\x89op) where op is \xc2\xabflip\xc2\xbb or \xc2\xabnegate\xc2\xbb depending on the action Ember chose in the last turn. Find the number of tuples that can occur if Ember and Storm play optimally. When they play optimally, if there are multiple moves by which they are guaranteed to win, then they may play any of the winning moves. Otherwise, if someone loses no matter what they play, then they may play any of the possible moves.'
+b'Report the answer modulo m.'
+b'Input'
+b'The input consists of a single line containing three integers n, d and m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d\xe2\x80\x89<\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109).'
+b'Output'
+b'Print a single number \xc2\xa0\xe2\x80\x94 the number of possible tuples if Ember and Storm play as described, modulo m.'
+Tags
+combinatorics, dp, games, trees, *3400

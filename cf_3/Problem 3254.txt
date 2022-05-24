@@ -1,0 +1,14 @@
+b"Alice has a birthday today, so she invited home her best friend Bob. Now Bob needs to find a way to commute to the Alice's home."
+b'In the city in which Alice and Bob live, the first metro line is being built. This metro line contains nn stations numbered from 11 to nn. Bob lives near the station with number 11, while Alice lives near the station with number ss. The metro line has two tracks. Trains on the first track go from the station 11 to the station nn and trains on the second track go in reverse direction. Just after the train arrives to the end of its track, it goes to the depot immediately, so it is impossible to travel on it after that.'
+b"Some stations are not yet open at all and some are only partially open\xc2\xa0\xe2\x80\x94 for each station and for each track it is known whether the station is closed for that track or not. If a station is closed for some track, all trains going in this track's direction pass the station without stopping on it."
+b"When the Bob got the information on opened and closed stations, he found that traveling by metro may be unexpectedly complicated. Help Bob determine whether he can travel to the Alice's home by metro or he should search for some other transport."
+b'Input'
+b"The first line contains two integers nn and ss (2\xe2\x89\xa4s\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4s\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of stations in the metro and the number of the station where Alice's home is located. Bob lives at station 11."
+b'Next lines describe information about closed and open stations.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (ai=0ai=0 or ai=1ai=1). If ai=1ai=1, then the ii-th station is open on the first track (that is, in the direction of increasing station numbers). Otherwise the station is closed on the first track.'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (bi=0bi=0 or bi=1bi=1). If bi=1bi=1, then the ii-th station is open on the second track (that is, in the direction of decreasing station numbers). Otherwise the station is closed on the second track.'
+b'Output'
+b'Print "YES" (quotes for clarity) if Bob will be able to commute to the Alice\'s home by metro and "NO" (quotes for clarity) otherwise.'
+b'You can print each letter in any case (upper or lower).'
+Tags
+graphs, *900

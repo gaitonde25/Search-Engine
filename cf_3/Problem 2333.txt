@@ -1,0 +1,13 @@
+b'Alice is playing with some stones.'
+b'Now there are three numbered heaps of stones. The first of them contains aa stones, the second of them contains bb stones and the third of them contains cc stones.'
+b'Each time she can do one of two operations:'
+b'  take one stone from the first heap and two stones from the second heap (this operation can be done only if the first heap contains at least one stone and the second heap contains at least two stones);  take one stone from the second heap and two stones from the third heap (this operation can be done only if the second heap contains at least one stone and the third heap contains at least two stones). '
+b"She wants to get the maximum number of stones, but she doesn't know what to do. Initially, she has 00 stones. Can you help her?"
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xc2\xa0\xe2\x80\x94 the number of test cases. Next tt lines describe test cases in the following format:'
+b'Line contains three non-negative integers aa, bb and cc, separated by spaces (0\xe2\x89\xa4a,b,c\xe2\x89\xa41000\xe2\x89\xa4a,b,c\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of stones in the first, the second and the third heap, respectively.'
+b'In hacks it is allowed to use only one test case in the input, so t=1t=1 should be satisfied.'
+b'Output'
+b'Print tt lines, the answers to the test cases in the same order as in the input. The answer to the test case is the integer \xc2\xa0\xe2\x80\x94 the maximum possible number of stones that Alice can take after making some operations. '
+Tags
+brute force, greedy, math, *800

@@ -1,0 +1,13 @@
+b'Medicine faculty of Berland State University has just finished their admission campaign. As usual, about 80%80% of applicants are girls and majority of them are going to live in the university dormitory for the next 44 (hopefully) years.'
+b'The dormitory consists of nn rooms and a single mouse! Girls decided to set mouse traps in some rooms to get rid of the horrible monster. Setting a trap in room number ii costs cici burles. Rooms are numbered from 11 to nn.'
+b"Mouse doesn't sit in place all the time, it constantly runs. If it is in room ii in second tt then it will run to room aiai in second t+1t+1 without visiting any other rooms inbetween (i=aii=ai means that mouse won't leave room ii). It's second 00 in the start. If the mouse is in some room with a mouse trap in it, then the mouse get caught into this trap."
+b"That would have been so easy if the girls actually knew where the mouse at. Unfortunately, that's not the case, mouse can be in any room from 11 to nn at second 00."
+b'What it the minimal total amount of burles girls can spend to set the traps in order to guarantee that the mouse will eventually be caught no matter the room it started from?'
+b'Input'
+b'The first line contains as single integers nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of rooms in the dormitory.'
+b'The second line contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa41041\xe2\x89\xa4ci\xe2\x89\xa4104) \xe2\x80\x94 cici is the cost of setting the trap in room number ii.'
+b'The third line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) \xe2\x80\x94 aiai is the room the mouse will run to the next second after being in room ii.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the minimal total amount of burles girls can spend to set the traps in order to guarantee that the mouse will eventually be caught no matter the room it started from.'
+Tags
+dfs and similar, graphs, *1700

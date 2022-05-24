@@ -1,0 +1,9 @@
+b"The city administration of IT City decided to fix up a symbol of scientific and technical progress in the city's main square, namely an indicator board that shows the effect of Moore's law in real time."
+b"Moore's law is the observation that the number of transistors in a dense integrated circuit doubles approximately every 24 months. The implication of Moore's law is that computer performance as function of time increases exponentially as well."
+b"You are to prepare information that will change every second to display on the indicator board. Let's assume that every second the number of transistors increases exactly 1.000000011 times."
+b'Input'
+b'The only line of the input contains a pair of integers n (1000\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xc2\xa0000) and t (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xa0000\xc2\xa0000\xc2\xa0000)\xc2\xa0\xe2\x80\x94 the number of transistors in the initial time and the number of seconds passed since the initial time.'
+b'Output'
+b'Output one number \xe2\x80\x94 the estimate of the number of transistors in a dence integrated circuit in t seconds since the initial time. The relative error of your answer should not be greater than 10\xe2\x80\x89-\xe2\x80\x896.'
+Tags
+math, *1200

@@ -1,0 +1,15 @@
+b"There is given an integer kk and a grid 2k\xc3\x972k2k\xc3\x972k with some numbers written in its cells, cell (i,j)(i,j) initially contains number aijaij. Grid is considered to be a torus, that is, the cell to the right of (i,2k)(i,2k) is (i,1)(i,1), the cell below the (2k,i)(2k,i) is (1,i)(1,i) There is also given a lattice figure FF, consisting of tt cells, where tt is odd. FF doesn't have to be connected."
+b'We can perform the following operation: place FF at some position on the grid. (Only translations are allowed, rotations and reflections are prohibited). Now choose any nonnegative integer pp. After that, for each cell (i,j)(i,j), covered by FF, replace aijaij by aij\xe2\x8a\x95paij\xe2\x8a\x95p, where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation.'
+b'More formally, let FF be given by cells (x1,y1),(x2,y2),\xe2\x80\xa6,(xt,yt)(x1,y1),(x2,y2),\xe2\x80\xa6,(xt,yt). Then you can do the following operation: choose any x,yx,y with 1\xe2\x89\xa4x,y\xe2\x89\xa42k1\xe2\x89\xa4x,y\xe2\x89\xa42k, any nonnegative integer pp, and for every ii from 11 to nn replace number in the cell (((x+xi\xe2\x88\x921)mod2k)+1,((y+yi\xe2\x88\x921)mod2k)+1)(((x+xi\xe2\x88\x921)mod2k)+1,((y+yi\xe2\x88\x921)mod2k)+1) with a((x+xi\xe2\x88\x921)mod2k)+1,((y+yi\xe2\x88\x921)mod2k)+1\xe2\x8a\x95pa((x+xi\xe2\x88\x921)mod2k)+1,((y+yi\xe2\x88\x921)mod2k)+1\xe2\x8a\x95p.'
+b'Our goal is to make all the numbers equal to 00. Can we achieve it? If we can, find the smallest number of operations in which it is possible to do this.'
+b'Input'
+b'The first line contains a single integer kk (1\xe2\x89\xa4k\xe2\x89\xa491\xe2\x89\xa4k\xe2\x89\xa49).'
+b'The ii-th of the next 2k2k lines contains 2k2k integers ai1,ai2,\xe2\x80\xa6,ai2kai1,ai2,\xe2\x80\xa6,ai2k (0\xe2\x89\xa4aij<2600\xe2\x89\xa4aij<260)\xc2\xa0\xe2\x80\x94 initial values in the ii-th row of the grid.'
+b'The next line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4min(99,4k)1\xe2\x89\xa4t\xe2\x89\xa4min(99,4k), tt is odd)\xc2\xa0\xe2\x80\x94 number of cells of figure.'
+b'ii-th of next tt lines contains two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa42k1\xe2\x89\xa4xi,yi\xe2\x89\xa42k), describing the position of the ii-th cell of the figure.'
+b'It is guaranteed that all cells are different, but it is not guaranteed that the figure is connected. '
+b'Output'
+b'If it is impossible to make all numbers in the grid equal to 00 with these operations, output \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, output a single integer\xc2\xa0\xe2\x80\x94 the minimal number of operations needed to do this. It can be shown that if it is possible to make all numbers equal 00, it is possible to do so in less than 10181018 operations.'
+Tags
+constructive algorithms, fft, math, *3500

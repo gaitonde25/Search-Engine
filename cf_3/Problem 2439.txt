@@ -1,0 +1,13 @@
+b'Polycarp recently became an employee of the company "Double Permutation Inc." Now he is a fan of permutations and is looking for them everywhere!'
+b'A permutation in this problem is a sequence of integers p1,p2,\xe2\x80\xa6,pkp1,p2,\xe2\x80\xa6,pk such that every integer from 11 to kk occurs exactly once in it. For example, the following sequences are permutations of [3,1,4,2][3,1,4,2], [1][1] and [6,1,2,3,5,4][6,1,2,3,5,4]. The following sequences are not permutations: [0,1][0,1], [1,2,2][1,2,2], [1,2,4][1,2,4] and [2,3][2,3].'
+b"In the lobby of the company's headquarter statistics on visits to the company's website for the last nn days are published \xe2\x80\x94 the sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Polycarp wants to color all the elements of this sequence in one of three colors (red, green or blue) so that:"
+b"  all red numbers, being written out of a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an from left to right (that is, without changing their relative order), must form some permutation (let's call it PP);  all green numbers, being written out of a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an from left to right (that is, without changing their relative order), must form the same permutation PP;  among blue numbers there should not be elements that are equal to some element of the permutation PP. "
+b'Help Polycarp to color all nn numbers so that the total number of red and green elements is maximum.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of the sequence aa. The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'Print a string ss of length nn such that:'
+b"  sisi='R', if the element aiai must be colored in red;  sisi='G', if the element aiai must be colored in green;  sisi='B', if the element aiai must be colored in blue. "
+b'The string ss should maximize the total number of red and green elements when fulfilling the requirements from the main part of the problem statement. If there are several optimal answers, print any of them.'
+Tags
+*special problem, binary search, greedy, *2000

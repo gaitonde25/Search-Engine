@@ -1,0 +1,11 @@
+b'You are given an array aa consisting of nn integer numbers.'
+b'You have to color this array in kk colors in such a way that: '
+b'  Each element of the array should be colored in some color;  For each ii from 11 to kk there should be at least one element colored in the ii-th color in the array;  For each ii from 11 to kk all elements colored in the ii-th color should be distinct. '
+b'Obviously, such coloring might be impossible. In this case, print "NO". Otherwise print "YES" and any coloring (i.e. numbers c1,c2,\xe2\x80\xa6cnc1,c2,\xe2\x80\xa6cn, where 1\xe2\x89\xa4ci\xe2\x89\xa4k1\xe2\x89\xa4ci\xe2\x89\xa4k and cici is the color of the ii-th element of the given array) satisfying the conditions above. If there are multiple answers, you can print any.'
+b'Input'
+b'The first line of the input contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa45000) \xe2\x80\x94 the length of the array aa and the number of colors, respectively.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa450001\xe2\x89\xa4ai\xe2\x89\xa45000) \xe2\x80\x94 elements of the array aa.'
+b'Output'
+b'If there is no answer, print "NO". Otherwise print "YES" and any coloring (i.e. numbers c1,c2,\xe2\x80\xa6cnc1,c2,\xe2\x80\xa6cn, where 1\xe2\x89\xa4ci\xe2\x89\xa4k1\xe2\x89\xa4ci\xe2\x89\xa4k and cici is the color of the ii-th element of the given array) satisfying the conditions described in the problem statement. If there are multiple answers, you can print any.'
+Tags
+greedy, sortings, *1400

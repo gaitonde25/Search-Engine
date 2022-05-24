@@ -1,0 +1,12 @@
+b'A factory produces thimbles in bulk. Typically, it can produce up to a thimbles a day. However, some of the machinery is defective, so it can currently only produce b thimbles each day. The factory intends to choose a k-day period to do maintenance and construction; it cannot produce any thimbles during this time, but will be restored to its full production of a thimbles per day after the k days are complete.'
+b'Initially, no orders are pending. The factory receives updates of the form di, ai, indicating that ai new orders have been placed for the di-th day. Each order requires a single thimble to be produced on precisely the specified day. The factory may opt to fill as many or as few of the orders in a single batch as it likes.'
+b'As orders come in, the factory owner would like to know the maximum number of orders he will be able to fill if he starts repairs on a given day pi. Help the owner answer his questions.'
+b'Input'
+b'The first line contains five integers n, k, a, b, and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89<\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910 000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of days, the length of the repair time, the production rates of the factory, and the number of updates, respectively.'
+b'The next q lines contain the descriptions of the queries. Each query is of one of the following two forms: '
+b'  1 di ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910 000), representing an update of ai orders on day di, or  2 pi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x89k\xe2\x80\x89+\xe2\x80\x891), representing a question: at the moment, how many orders could be filled if the factory decided to commence repairs on day pi? '
+b"It's guaranteed that the input will contain at least one query of the second type."
+b'Output'
+b'For each query of the second type, print a line containing a single integer \xe2\x80\x94 the maximum number of orders that the factory can fill over all n days.'
+Tags
+data structures, *1700

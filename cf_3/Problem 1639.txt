@@ -1,0 +1,18 @@
+b"Lee tried so hard to make a good div.2 D problem to balance his recent contest, but it still doesn't feel good at all. Lee invented it so tediously slow that he managed to develop a phobia about div.2 D problem setting instead. And now he is hiding behind the bushes..."
+b"Let's define a Rooted Dead Bush (RDB) of level nn as a rooted tree constructed as described below."
+b'A rooted dead bush of level 11 is a single vertex. To construct an RDB of level ii we, at first, construct an RDB of level i\xe2\x88\x921i\xe2\x88\x921, then for each vertex uu: '
+b'  if uu has no children then we will add a single child to it;  if uu has one child then we will add two children to it;  if uu has more than one child, then we will skip it. '
+b'  Rooted Dead Bushes of level 11, 22 and 33. '
+b"Let's define a claw as a rooted tree with four vertices: one root vertex (called also as center) with three children. It looks like a claw:"
+b'  The center of the claw is the vertex with label 11. '
+b'Lee has a Rooted Dead Bush of level nn. Initially, all vertices of his RDB are green.'
+b"In one move, he can choose a claw in his RDB, if all vertices in the claw are green and all vertices of the claw are children of its center, then he colors the claw's vertices in yellow."
+b"He'd like to know the maximum number of yellow vertices he can achieve. Since the answer might be very large, print it modulo 109+7109+7."
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Next tt lines contain test cases\xc2\xa0\xe2\x80\x94 one per line.'
+b"The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851061\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85106)\xc2\xa0\xe2\x80\x94 the level of Lee's RDB."
+b'Output'
+b'For each test case, print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of yellow vertices Lee can make modulo 109+7109+7.'
+Tags
+dp, graphs, greedy, math, trees, *1900

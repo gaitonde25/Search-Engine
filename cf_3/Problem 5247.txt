@@ -1,0 +1,12 @@
+b'You are given a rooted tree with root in vertex 1. Each vertex is coloured in some colour.'
+b"Let's call colour c dominating in the subtree of vertex v if there are no other colours that appear in the subtree of vertex v more times than colour c. So it's possible that two or more colours will be dominating in the subtree of some vertex."
+b'The subtree of vertex v is the vertex v and all other vertices that contains vertex v in each path to the root.'
+b'For each vertex v find the sum of all dominating colours in the subtree of vertex v.'
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 the number of vertices in the tree.'
+b'The second line contains n integers ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), ci \xe2\x80\x94 the colour of the i-th vertex.'
+b'Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contains two integers xj,\xe2\x80\x89yj (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xj,\xe2\x80\x89yj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the edge of the tree. The first vertex is the root of the tree.'
+b'Output'
+b'Print n integers \xe2\x80\x94 the sums of dominating colours for each vertex.'
+Tags
+data structures, dfs and similar, dsu, trees, *2300

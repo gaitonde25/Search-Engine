@@ -1,0 +1,14 @@
+b'Jeel and Ashish play a game on an n\xc3\x97mn\xc3\x97m matrix. The rows are numbered 11 to nn from top to bottom and the columns are numbered 11 to mm from left to right. They play turn by turn. Ashish goes first.'
+b'Initially, each cell of the matrix contains a non-negative integer. Each turn, a player must perform all of the following actions in order. '
+b'  Choose a starting cell (r1,c1)(r1,c1) with non-zero value.  Choose a finishing cell (r2,c2)(r2,c2) such that r1\xe2\x89\xa4r2r1\xe2\x89\xa4r2 and c1\xe2\x89\xa4c2c1\xe2\x89\xa4c2.  Decrease the value of the starting cell by some positive non-zero integer.  Pick any of the shortest paths between the two cells and either increase, decrease or leave the values of cells on this path unchanged. Note that:   a shortest path is one that passes through the least number of cells;  all cells on this path excluding the starting cell, but the finishing cell may be modified;  the resulting value of each cell must be a non-negative integer;  the cells are modified independently and not necessarily by the same value.  '
+b'If the starting and ending cells are the same, then as per the rules, the value of the cell is decreased. No other operations are performed.'
+b'The game ends when all the values become zero. The player who is unable to make a move loses. It can be shown that the game will end in a finite number of moves if both players play optimally.'
+b'Given the initial matrix, if both players play optimally, can you predict who will win?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of each test case is as follows.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41001\xe2\x89\xa4n,m\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the dimensions of the matrix.'
+b'The next nn lines contain mm space separated integers ai,jai,j (0\xe2\x89\xa4ai,j\xe2\x89\xa41060\xe2\x89\xa4ai,j\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the values of each cell of the matrix.'
+b'Output'
+b'For each test case, if Ashish wins the game, print "Ashish", otherwise print "Jeel" (without the quotes).'
+Tags
+constructive algorithms, games, *2700

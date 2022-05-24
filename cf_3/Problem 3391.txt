@@ -1,0 +1,14 @@
+b'You are given a string ss consisting of nn lowercase Latin letters. nn is even.'
+b"For each position ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) in string ss you are required to change the letter on this position either to the previous letter in alphabetic order or to the next one (letters 'a' and 'z' have only one of these options). Letter in every position must be changed exactly once."
+b"For example, letter 'p' should be changed either to 'o' or to 'q', letter 'a' should be changed to 'b' and letter 'z' should be changed to 'y'."
+b'That way string "codeforces", for example, can be changed to "dpedepqbft" (\'c\' \xe2\x86\x92\xe2\x86\x92 \'d\', \'o\' \xe2\x86\x92\xe2\x86\x92 \'p\', \'d\' \xe2\x86\x92\xe2\x86\x92 \'e\', \'e\' \xe2\x86\x92\xe2\x86\x92 \'d\', \'f\' \xe2\x86\x92\xe2\x86\x92 \'e\', \'o\' \xe2\x86\x92\xe2\x86\x92 \'p\', \'r\' \xe2\x86\x92\xe2\x86\x92 \'q\', \'c\' \xe2\x86\x92\xe2\x86\x92 \'b\', \'e\' \xe2\x86\x92\xe2\x86\x92 \'f\', \'s\' \xe2\x86\x92\xe2\x86\x92 \'t\').'
+b'String ss is called a palindrome if it reads the same from left to right and from right to left. For example, strings "abba" and "zz" are palindromes and strings "abca" and "zy" are not.'
+b'Your goal is to check if it\'s possible to make string ss a palindrome by applying the aforementioned changes to every position. Print "YES" if string ss can be transformed to a palindrome and "NO" otherwise.'
+b'Each testcase contains several strings, for each of them you are required to solve the problem separately.'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa4501\xe2\x89\xa4T\xe2\x89\xa450) \xe2\x80\x94 the number of strings in a testcase.'
+b'Then 2T2T lines follow \xe2\x80\x94 lines (2i\xe2\x88\x921)(2i\xe2\x88\x921) and 2i2i of them describe the ii-th string. The first line of the pair contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100, nn is even) \xe2\x80\x94 the length of the corresponding string. The second line of the pair contains a string ss, consisting of nn lowercase Latin letters.'
+b'Output'
+b'Print TT lines. The ii-th line should contain the answer to the ii-th string of the input. Print "YES" if it\'s possible to make the ii-th string a palindrome by applying the aforementioned changes to every position. Print "NO" otherwise.'
+Tags
+implementation, strings, *1000

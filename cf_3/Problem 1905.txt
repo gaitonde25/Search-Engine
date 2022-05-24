@@ -1,0 +1,8 @@
+b'Given 2 integers uu and vv, find the shortest array such that bitwise-xor of its elements is uu, and the sum of its elements is vv.'
+b'Input'
+b'The only line contains 2 integers uu and vv (0\xe2\x89\xa4u,v\xe2\x89\xa41018)(0\xe2\x89\xa4u,v\xe2\x89\xa41018).'
+b'Output'
+b'If there\'s no array that satisfies the condition, print "-1". Otherwise:'
+b'The first line should contain one integer, nn, representing the length of the desired array. The next line should contain nn positive integers, the array itself. If there are multiple possible answers, print any.'
+Tags
+bitmasks, constructive algorithms, greedy, number theory, *1700

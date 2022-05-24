@@ -1,0 +1,12 @@
+b'Igor is in the museum and he wants to see as many pictures as possible.'
+b"Museum can be represented as a rectangular field of n\xe2\x80\x89\xc3\x97\xe2\x80\x89m cells. Each cell is either empty or impassable. Empty cells are marked with '.', impassable cells are marked with '*'. Every two adjacent cells of different types (one empty and one impassable) are divided by a wall containing one picture."
+b'At the beginning Igor is in some empty cell. At every moment he can move to any empty cell that share a side with the current one.'
+b'For several starting positions you should calculate the maximum number of pictures that Igor can see. Igor is able to see the picture only if he is in the cell adjacent to the wall with this picture. Igor have a lot of time, so he will examine every picture he can see.'
+b'Input'
+b'First line of the input contains three integers n, m and k (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(n\xc2\xb7m,\xe2\x80\x89100\xe2\x80\x89000))\xc2\xa0\xe2\x80\x94 the museum dimensions and the number of starting positions to process.'
+b"Each of the next n lines contains m symbols '.', '*' \xe2\x80\x94 the description of the museum. It is guaranteed that all border cells are impassable, so Igor can't go out from the museum."
+b"Each of the last k lines contains two integers x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m)\xc2\xa0\xe2\x80\x94 the row and the column of one of Igor's starting positions respectively. Rows are numbered from top to bottom, columns \xe2\x80\x94 from left to right. It is guaranteed that all starting positions are empty cells."
+b'Output'
+b'Print k integers\xc2\xa0\xe2\x80\x94 the maximum number of pictures, that Igor can see if he starts in corresponding position.'
+Tags
+dfs and similar, graphs, shortest paths, *1700

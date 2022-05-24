@@ -1,0 +1,11 @@
+b'Johnny has just found the new, great tutorial: "How to become a grandmaster?". The tutorial tells many strange and unexpected for Johnny things, such as you have to be patient or that very important is solving many harder and harder problems. '
+b'The boy has found an online judge with tasks divided by topics they cover. He has picked pkipki problems from ii-th category (pp is his favorite number). He wants to solve them in two weeks (the patience condition is too hard for Johnny, so for simplicity, he looks only at easy tasks, which can be solved in such a period). Now our future grandmaster has to decide which topics to cover first and which the second week. Help him assign topics in such a way, that workload is balanced.'
+b'Formally, given nn numbers pkipki, the boy wants to divide them into two disjoint sets, minimizing the absolute difference between sums of numbers in each set. Find the minimal absolute difference. Output the result modulo 109+7109+7.'
+b'Input'
+b'Input consists of multiple test cases. The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4105)(1\xe2\x89\xa4t\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of test cases. Each test case is described as follows:'
+b'The first line contains two integers nn and pp (1\xe2\x89\xa4n,p\xe2\x89\xa4106)(1\xe2\x89\xa4n,p\xe2\x89\xa4106). The second line contains nn integers kiki (0\xe2\x89\xa4ki\xe2\x89\xa4106)(0\xe2\x89\xa4ki\xe2\x89\xa4106).'
+b"The sum of nn over all test cases doesn't exceed 106106."
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the reminder of division the answer by 10000000071000000007.'
+Tags
+greedy, implementation, math, sortings, *1900

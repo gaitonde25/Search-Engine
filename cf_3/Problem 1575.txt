@@ -1,0 +1,14 @@
+b"There is an undirected tree of nn vertices, connected by n\xe2\x88\x921n\xe2\x88\x921 bidirectional edges. There is also a snake stuck inside of this tree. Its head is at vertex aa and its tail is at vertex bb. The snake's body occupies all vertices on the unique simple path between aa and bb."
+b"The snake wants to know if it can reverse itself \xc2\xa0\xe2\x80\x94 that is, to move its head to where its tail started, and its tail to where its head started. Unfortunately, the snake's movements are restricted to the tree's structure."
+b'In an operation, the snake can move its head to an adjacent vertex not currently occupied by the snake. When it does this, the tail moves one vertex closer to the head, so that the length of the snake remains unchanged. Similarly, the snake can also move its tail to an adjacent vertex not currently occupied by the snake. When it does this, the head moves one unit closer to the tail.'
+b"  Let's denote a snake position by (h,t)(h,t), where hh is the index of the vertex with the snake's head, tt is the index of the vertex with the snake's tail. This snake can reverse itself with the movements (4,7)\xe2\x86\x92(5,1)\xe2\x86\x92(4,2)\xe2\x86\x92(1,3)\xe2\x86\x92(7,2)\xe2\x86\x92(8,1)\xe2\x86\x92(7,4)(4,7)\xe2\x86\x92(5,1)\xe2\x86\x92(4,2)\xe2\x86\x92(1,3)\xe2\x86\x92(7,2)\xe2\x86\x92(8,1)\xe2\x86\x92(7,4). "
+b'Determine if it is possible to reverse the snake with some sequence of operations.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xc2\xa0\xe2\x80\x94 the number of test cases. The next lines contain descriptions of test cases.'
+b'The first line of each test case contains three integers n,a,bn,a,b (2\xe2\x89\xa4n\xe2\x89\xa4105,1\xe2\x89\xa4a,b\xe2\x89\xa4n,a\xe2\x89\xa0b2\xe2\x89\xa4n\xe2\x89\xa4105,1\xe2\x89\xa4a,b\xe2\x89\xa4n,a\xe2\x89\xa0b).'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers ui,viui,vi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n,ui\xe2\x89\xa0vi1\xe2\x89\xa4ui,vi\xe2\x89\xa4n,ui\xe2\x89\xa0vi), indicating an edge between vertices uiui and vivi. It is guaranteed that the given edges form a tree.'
+b'It is guaranteed that the sum of nn across all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, output "YES" if it is possible for the snake to reverse itself, or "NO" otherwise.'
+Tags
+dfs and similar, dp, greedy, trees, two pointers, *3000

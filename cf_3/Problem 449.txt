@@ -1,0 +1,14 @@
+b'Ashish has a binary string ss of length nn that he wants to sort in non-decreasing order.'
+b'He can perform the following operation: '
+b'  Choose a subsequence of any length such that its elements are in non-increasing order. Formally, choose any kk such that 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n and any sequence of kk indices 1\xe2\x89\xa4i1<i2<\xe2\x80\xa6<ik\xe2\x89\xa4n1\xe2\x89\xa4i1<i2<\xe2\x80\xa6<ik\xe2\x89\xa4n such that si1\xe2\x89\xa5si2\xe2\x89\xa5\xe2\x80\xa6\xe2\x89\xa5siksi1\xe2\x89\xa5si2\xe2\x89\xa5\xe2\x80\xa6\xe2\x89\xa5sik.  Reverse this subsequence in-place. Formally, swap si1si1 with siksik, swap si2si2 with sik\xe2\x88\x921sik\xe2\x88\x921, \xe2\x80\xa6\xe2\x80\xa6 and swap si\xe2\x8c\x8ak/2\xe2\x8c\x8bsi\xe2\x8c\x8ak/2\xe2\x8c\x8b with si\xe2\x8c\x88k/2\xe2\x8c\x89+1si\xe2\x8c\x88k/2\xe2\x8c\x89+1 (Here \xe2\x8c\x8ax\xe2\x8c\x8b\xe2\x8c\x8ax\xe2\x8c\x8b denotes the largest integer not exceeding xx, and \xe2\x8c\x88x\xe2\x8c\x89\xe2\x8c\x88x\xe2\x8c\x89 denotes the smallest integer not less than xx) '
+b'Find the minimum number of operations required to sort the string in non-decreasing order. It can be proven that it is always possible to sort the given binary string in at most nn operations.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41000)(1\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000)(1\xe2\x89\xa4n\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the length of the binary string ss.'
+b'The second line of each test case contains a binary string ss of length nn containing only 00s and 11s.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 10001000.'
+b'Output'
+b'For each test case output the following:'
+b'  The minimum number of operations mm in the first line (0\xe2\x89\xa4m\xe2\x89\xa4n0\xe2\x89\xa4m\xe2\x89\xa4n).  Each of the following mm lines should be of the form: kk i1i1 i2i2 ... ikik, where kk is the length and i1<i2<...<iki1<i2<...<ik are the indices of the chosen subsequence. For them the conditions from the statement must hold. '
+Tags
+greedy, sortings, *1000

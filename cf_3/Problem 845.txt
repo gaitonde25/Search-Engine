@@ -1,0 +1,12 @@
+b'This is an interactive problem.'
+b'There is a secret permutation pp (11-indexed) of numbers from 11 to nn. More formally, for 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, 1\xe2\x89\xa4p[i]\xe2\x89\xa4n1\xe2\x89\xa4p[i]\xe2\x89\xa4n and for 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n, p[i]\xe2\x89\xa0p[j]p[i]\xe2\x89\xa0p[j]. It is known that p[1]<p[2]p[1]<p[2].'
+b'In 11 query, you give 33 distinct integers a,b,ca,b,c (1\xe2\x89\xa4a,b,c\xe2\x89\xa4n1\xe2\x89\xa4a,b,c\xe2\x89\xa4n), and receive the median of {|p[a]\xe2\x88\x92p[b]|,|p[b]\xe2\x88\x92p[c]|,|p[a]\xe2\x88\x92p[c]|}{|p[a]\xe2\x88\x92p[b]|,|p[b]\xe2\x88\x92p[c]|,|p[a]\xe2\x88\x92p[c]|}.'
+b'In this case, the median is the 22-nd element (11-indexed) of the sequence when sorted in non-decreasing order. The median of {4,6,2}{4,6,2} is 44 and the median of {0,123,33}{0,123,33} is 3333.'
+b'Can you find the secret permutation in not more than 2n+4202n+420 queries?'
+b'Note: the grader is not adaptive: the permutation is fixed before any queries are made.'
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41000)(1\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of testcases.'
+b'The first line of each testcase consists of a single integer nn (20\xe2\x89\xa4n\xe2\x89\xa4100000)(20\xe2\x89\xa4n\xe2\x89\xa4100000) \xe2\x80\x94 the length of the secret permutation.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 100000100000.'
+Tags
+constructive algorithms, interactive, probabilities, *3000

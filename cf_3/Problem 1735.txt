@@ -1,0 +1,8 @@
+b'Implement a unitary operation on a register of NN qubits that increments the number written in the register modulo 2N2N.'
+b'Your operation should take a register of type LittleEndian - an array of qubits that encodes an unsigned integer in little-endian format, with the least significant bit written first (corresponding to the array element with index 0). The "output" of your solution is the state in which it left the input qubits.'
+b'For example, if the qubits passed to your operation are in the state 12\xe2\x88\x9a(|11\xe2\x9f\xa9+|10\xe2\x9f\xa9)=12\xe2\x88\x9a(|3\xe2\x9f\xa9+|1\xe2\x9f\xa9)12(|11\xe2\x9f\xa9+|10\xe2\x9f\xa9)=12(|3\xe2\x9f\xa9+|1\xe2\x9f\xa9), they should be transformed to the state 12\xe2\x88\x9a(|(3+1)mod22\xe2\x9f\xa9+|(1+1)mod22\xe2\x9f\xa9)=12\xe2\x88\x9a(|0\xe2\x9f\xa9+|2\xe2\x9f\xa9)=12\xe2\x88\x9a(|00\xe2\x9f\xa9+|01\xe2\x9f\xa9)12(|(3+1)mod22\xe2\x9f\xa9+|(1+1)mod22\xe2\x9f\xa9)=12(|0\xe2\x9f\xa9+|2\xe2\x9f\xa9)=12(|00\xe2\x9f\xa9+|01\xe2\x9f\xa9).'
+b'Your code should have the following signature (note that your operation should have Adjoint and Controlled variants defined for it; is Adj+Ctl in the operation signature will generate them automatically based on your code):'
+b'namespace Solution {    open Microsoft.Quantum.Arithmetic;    open Microsoft.Quantum.Intrinsic;    operation Solve (register : LittleEndian) : Unit is Adj+Ctl {        // your code here    }}'
+b'Your code is not allowed to use measurements or arbitrary rotation gates (so, for example, using the library operation IncrementByInteger will cause runtime error). This operation can be implemented using just the X gate and its controlled variants.'
+Tags
+*special problem

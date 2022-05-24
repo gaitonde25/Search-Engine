@@ -1,0 +1,9 @@
+b"Polycarp must pay exactly nn burles at the checkout. He has coins of two nominal values: 11 burle and 22 burles. Polycarp likes both kinds of coins equally. So he doesn't want to pay with more coins of one type than with the other."
+b'Thus, Polycarp wants to minimize the difference between the count of coins of 11 burle and 22 burles being used. Help him by determining two non-negative integer values c1c1 and c2c2 which are the number of coins of 11 burle and 22 burles, respectively, so that the total value of that number of coins is exactly nn (i.\xe2\x80\x89e. c1+2\xe2\x8b\x85c2=nc1+2\xe2\x8b\x85c2=n), and the absolute value of the difference between c1c1 and c2c2 is as little as possible (i.\xe2\x80\x89e. you must minimize |c1\xe2\x88\x92c2||c1\xe2\x88\x92c2|).'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case consists of one line. This line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109) \xe2\x80\x94 the number of burles to be paid by Polycarp.'
+b'Output'
+b'For each test case, output a separate line containing two integers c1c1 and c2c2 (c1,c2\xe2\x89\xa50c1,c2\xe2\x89\xa50) separated by a space where c1c1 is the number of coins of 11 burle and c2c2 is the number of coins of 22 burles. If there are multiple optimal solutions, print any one.'
+Tags
+greedy, math, *800

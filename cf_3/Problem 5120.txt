@@ -1,0 +1,12 @@
+b'A tennis tournament with n participants is running. The participants are playing by an olympic system, so the winners move on and the losers drop out.'
+b'The tournament takes place in the following way (below, m is the number of the participants of the current round):'
+b'  let k be the maximal power of the number 2 such that k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m,  k participants compete in the current round and a half of them passes to the next round, the other m\xe2\x80\x89-\xe2\x80\x89k participants pass to the next round directly,  when only one participant remains, the tournament finishes. '
+b'Each match requires b bottles of water for each participant and one bottle for the judge. Besides p towels are given to each participant for the whole tournament.'
+b'Find the number of bottles and towels needed for the tournament.'
+b"Note that it's a tennis tournament so in each match two participants compete (one of them will win and the other will lose)."
+b'Input'
+b'The only line contains three integers n,\xe2\x80\x89b,\xe2\x80\x89p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89b,\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500) \xe2\x80\x94 the number of participants and the parameters described in the problem statement.'
+b'Output'
+b'Print two integers x and y \xe2\x80\x94 the number of bottles and towels need for the tournament.'
+Tags
+implementation, math, *1000

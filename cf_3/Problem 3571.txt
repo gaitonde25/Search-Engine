@@ -1,0 +1,11 @@
+b' Walking along a riverside, Mino silently takes a note of something."Time," Mino thinks aloud."What?""Time and tide wait for no man," explains Mino. "My name, taken from the river, always reminds me of this.""And what are you recording?""You see it, tide. Everything has its own period, and I think I\'ve figured out this one," says Mino with confidence.Doubtfully, Kanno peeks at Mino\'s records. '
+b"The records are expressed as a string ss of characters '0', '1' and '.', where '0' denotes a low tide, '1' denotes a high tide, and '.' denotes an unknown one (either high or low)."
+b"You are to help Mino determine whether it's possible that after replacing each '.' independently with '0' or '1', a given integer pp is not a period of the resulting string. In case the answer is yes, please also show such a replacement to Mino."
+b'In this problem, a positive integer pp is considered a period of string ss, if for all 1\xe2\x89\xa4i\xe2\x89\xa4|s|\xe2\x88\x92p1\xe2\x89\xa4i\xe2\x89\xa4|s|\xe2\x88\x92p, the ii-th and (i+p)(i+p)-th characters of ss are the same. Here |s||s| is the length of ss.'
+b'Input'
+b'The first line contains two space-separated integers nn and pp (1\xe2\x89\xa4p\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4p\xe2\x89\xa4n\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the length of the given string and the supposed period, respectively.'
+b"The second line contains a string ss of nn characters\xc2\xa0\xe2\x80\x94 Mino's records. ss only contains characters '0', '1' and '.', and contains at least one '.' character."
+b'Output'
+b'Output one line\xc2\xa0\xe2\x80\x94 if it\'s possible that pp is not a period of the resulting string, output any one of such strings; otherwise output "No" (without quotes, you can print letters in any case (upper or lower)).'
+Tags
+constructive algorithms, strings, *1200

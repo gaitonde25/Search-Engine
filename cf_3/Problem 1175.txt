@@ -1,0 +1,12 @@
+b" Whoso in ignorance draws near to them and hears the Sirens' voice, he nevermore returns.Homer, Odyssey"
+b'In the times of Jason and the Argonauts, it was well known that sirens use the sound of their songs to lure sailors into their demise. Yet only a few knew that every time sirens call a sailor by his name, his will weakens, making him more vulnerable. '
+b"For the purpose of this problem, both siren songs and names of the sailors will be represented as strings of lowercase English letters. The more times the sailor's name occurs as a contiguous substring of the song, the greater danger he is in."
+b'Jason found out that sirens can sing one of the n+1n+1 songs, which have the following structure: let sisi (0\xe2\x89\xa4i\xe2\x89\xa4n0\xe2\x89\xa4i\xe2\x89\xa4n) be the ii-th song and tt be a string of length nn, then for every i<ni<n: si+1=sitisisi+1=sitisi. In other words i+1i+1-st song is the concatenation of ii-th song, ii-th letter (00-indexed) of tt and the ii-th song. '
+b"Fortunately, he also knows s0s0 and tt. Jason wonders how many times a sailor's name is mentioned in a particular song. Answer qq queries: given the sailor's name (ww) and the index of a song (ii) output the number of occurrences of ww in sisi as a substring. As this number can be quite large, output its remainder modulo 109+7109+7."
+b'Input'
+b'In the first line of input there are two integers nn, qq ( 1\xe2\x89\xa4n,q\xe2\x89\xa41051\xe2\x89\xa4n,q\xe2\x89\xa4105) meaning that there are n+1n+1 songs and qq queries. In the next two lines strings s0s0 and tt follow (1\xe2\x89\xa4|s0|\xe2\x89\xa4100,|t|=n1\xe2\x89\xa4|s0|\xe2\x89\xa4100,|t|=n). '
+b"Next qq lines describe the queries; each one contains an integer kk (0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n), the index of the song sung by the sirens, and a non-empty string ww, which is the name of a sailor. All strings in this problem consist only of lowercase English letters, and the sum of lengths of sailors' names does not exceed 106106."
+b'Output'
+b'Output qq lines, ii-th of them should contain the remainder modulo 109+7109+7 of the number of occurrences of ww in sksk.'
+Tags
+combinatorics, divide and conquer, hashing, math, string suffix structures, strings, *2600

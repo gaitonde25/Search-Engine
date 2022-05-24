@@ -1,0 +1,10 @@
+b"Polycarp is mad about coding, that is why he writes Sveta encoded messages. He calls the median letter in a word the letter which is in the middle of the word. If the word's length is even, the median letter is the left of the two middle letters. In the following examples, the median letter is highlighted: contest, info. If the word consists of single letter, then according to above definition this letter is the median letter. "
+b'Polycarp encodes each word in the following way: he writes down the median letter of the word, then deletes it and repeats the process until there are no letters left. For example, he encodes the word volga as logva.'
+b'You are given an encoding s of some word, your task is to decode it. '
+b'Input'
+b'The first line contains a positive integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000)\xc2\xa0\xe2\x80\x94 the length of the encoded word.'
+b'The second line contains the string s of length n consisting of lowercase English letters\xc2\xa0\xe2\x80\x94 the encoding.'
+b'Output'
+b'Print the word that Polycarp encoded.'
+Tags
+implementation, strings, *900

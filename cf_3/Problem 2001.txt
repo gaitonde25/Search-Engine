@@ -1,0 +1,16 @@
+b'This is an unusual problem in an unusual contest, here is the announcement: http://codeforces.com/blog/entry/73543'
+b'You are given an array AA of length nn, initially filled with zeros. You need to process qq queries to the array, each of one of the following types: '
+b'  1 x y: you need to assign Ax=yAx=y;  2 l r: you need to print \xe2\x88\x91i=lrAi\xe2\x88\x91i=lrAi. '
+b' Furthermore, there are '
+b''
+b'TT'
+b'T'
+b' independent tests you need to process.'
+b'Input'
+b'The first line contains an integer TT (1\xe2\x89\xa4T\xe2\x89\xa41051\xe2\x89\xa4T\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases.'
+b'Each test case description starts with two integers n,qn,q (1\xe2\x89\xa4n,q\xe2\x89\xa41051\xe2\x89\xa4n,q\xe2\x89\xa4105) \xe2\x80\x94 the length of the array and the number of queries. The following qq lines contain the description of queries: 1\xc2\xa0x\xc2\xa0y1\xc2\xa0x\xc2\xa0y (1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n, 0\xe2\x89\xa4y\xe2\x89\xa41090\xe2\x89\xa4y\xe2\x89\xa4109) for queries of the first type and 2\xc2\xa0l\xc2\xa0r2\xc2\xa0l\xc2\xa0r (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n) for queries of the second type. '
+b'It is guaranteed that the sum of nn as well as the sum of qq does not exceed 106106.'
+b'Output'
+b'For each query of the second type print its result on a separate line.'
+Tags
+data structures

@@ -1,0 +1,9 @@
+b'You are given nn integers. You need to choose a subset and put the chosen numbers in a beautiful rectangle (rectangular matrix). Each chosen number should occupy one of its rectangle cells, each cell must be filled with exactly one chosen number. Some of the nn numbers may not be chosen.'
+b'A rectangle (rectangular matrix) is called beautiful if in each row and in each column all values are different.'
+b'What is the largest (by the total number of cells) beautiful rectangle you can construct? Print the rectangle itself.'
+b'Input'
+b'The first line contains nn (1\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x85105). The second line contains nn integers (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'In the first line print xx (1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n) \xe2\x80\x94 the total number of cells of the required maximum beautiful rectangle. In the second line print pp and qq (p\xe2\x8b\x85q=xp\xe2\x8b\x85q=x): its sizes. In the next pp lines print the required rectangle itself. If there are several answers, print any.'
+Tags
+brute force, combinatorics, constructive algorithms, data structures, greedy, math, *2300

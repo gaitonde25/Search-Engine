@@ -1,0 +1,11 @@
+b"Meka-Naruto plays a computer game. His character has the following ability: given an enemy hero, deal aa instant damage to him, and then heal that enemy bb health points at the end of every second, for exactly cc seconds, starting one second after the ability is used. That means that if the ability is used at time tt, the enemy's health decreases by aa at time tt, and then increases by bb at time points t+1t+1, t+2t+2, ..., t+ct+c due to this ability."
+b"The ability has a cooldown of dd seconds, i.\xc2\xa0e. if Meka-Naruto uses it at time moment tt, next time he can use it is the time t+dt+d. Please note that he can only use the ability at integer points in time, so all changes to the enemy's health also occur at integer times only."
+b'The effects from different uses of the ability may stack with each other; that is, the enemy which is currently under kk spells gets k\xe2\x8b\x85bk\xe2\x8b\x85b amount of heal this time. Also, if several health changes occur at the same moment, they are all counted at once.'
+b"Now Meka-Naruto wonders if he can kill the enemy by just using the ability each time he can (that is, every dd seconds). The enemy is killed if their health points become 00 or less. Assume that the enemy's health is not affected in any way other than by Meka-Naruto's character ability. What is the maximal number of health points the enemy can have so that Meka-Naruto is able to kill them?"
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) standing for the number of testcases.'
+b'Each test case is described with one line containing four numbers aa, bb, cc and dd (1\xe2\x89\xa4a,b,c,d\xe2\x89\xa41061\xe2\x89\xa4a,b,c,d\xe2\x89\xa4106) denoting the amount of instant damage, the amount of heal per second, the number of heals and the ability cooldown, respectively.'
+b'Output'
+b'For each testcase in a separate line print \xe2\x88\x921\xe2\x88\x921 if the skill can kill an enemy hero with an arbitrary number of health points, otherwise print the maximal number of health points of the enemy that can be killed.'
+Tags
+greedy, math, ternary search, *2100

@@ -1,0 +1,11 @@
+b'There are a lot of things which could be cut\xc2\xa0\xe2\x80\x94 trees, paper, "the rope". In this problem you are going to cut a sequence of integers.'
+b'There is a sequence of integers, which contains the equal number of even and odd numbers. Given a limited budget, you need to make maximum possible number of cuts such that each resulting segment will have the same number of odd and even integers.'
+b'Cuts separate a sequence to continuous (contiguous) segments. You may think about each cut as a break between two adjacent elements in a sequence. So after cutting each element belongs to exactly one segment. Say, [4,1,2,3,4,5,4,4,5,5][4,1,2,3,4,5,4,4,5,5] \xe2\x86\x92\xe2\x86\x92 two cuts \xe2\x86\x92\xe2\x86\x92 [4,1|2,3,4,5|4,4,5,5][4,1|2,3,4,5|4,4,5,5]. On each segment the number of even elements should be equal to the number of odd elements.'
+b'The cost of the cut between xx and yy numbers is |x\xe2\x88\x92y||x\xe2\x88\x92y| bitcoins. Find the maximum possible number of cuts that can be made while spending no more than BB bitcoins.'
+b'Input'
+b'First line of the input contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100) and an integer BB (1\xe2\x89\xa4B\xe2\x89\xa41001\xe2\x89\xa4B\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of elements in the sequence and the number of bitcoins you have.'
+b'Second line contains nn integers: a1a1, a2a2, ..., anan (1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 elements of the sequence, which contains the equal number of even and odd numbers'
+b'Output'
+b'Print the maximum possible number of cuts which can be made while spending no more than BB bitcoins.'
+Tags
+dp, greedy, sortings, *1200

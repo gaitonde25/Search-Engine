@@ -1,0 +1,18 @@
+b'Consider a sequence of digits of length 2k2k [a1,a2,\xe2\x80\xa6,a2k][a1,a2,\xe2\x80\xa6,a2k]. We perform the following operation with it: replace pairs (a2i+1,a2i+2)(a2i+1,a2i+2) with (a2i+1+a2i+2)mod10(a2i+1+a2i+2)mod10 for 0\xe2\x89\xa4i<2k\xe2\x88\x9210\xe2\x89\xa4i<2k\xe2\x88\x921. For every ii where a2i+1+a2i+2\xe2\x89\xa510a2i+1+a2i+2\xe2\x89\xa510 we get a candy! As a result, we will get a sequence of length 2k\xe2\x88\x9212k\xe2\x88\x921.'
+b"Less formally, we partition sequence of length 2k2k into 2k\xe2\x88\x9212k\xe2\x88\x921 pairs, each consisting of 2 numbers: the first pair consists of the first and second numbers, the second of the third and fourth \xe2\x80\xa6\xe2\x80\xa6, the last pair consists of the (2k\xe2\x88\x9212k\xe2\x88\x921)-th and (2k2k)-th numbers. For every pair such that sum of numbers in it is at least 1010, we get a candy. After that, we replace every pair of numbers with a remainder of the division of their sum by 1010 (and don't change the order of the numbers)."
+b'Perform this operation with a resulting array until it becomes of length 11. Let f([a1,a2,\xe2\x80\xa6,a2k])f([a1,a2,\xe2\x80\xa6,a2k]) denote the number of candies we get in this process. '
+b'For example: if the starting sequence is [8,7,3,1,7,0,9,4][8,7,3,1,7,0,9,4] then:'
+b'After the first operation the sequence becomes [(8+7)mod10,(3+1)mod10,(7+0)mod10,(9+4)mod10][(8+7)mod10,(3+1)mod10,(7+0)mod10,(9+4)mod10] == [5,4,7,3][5,4,7,3], and we get 22 candies as 8+7\xe2\x89\xa5108+7\xe2\x89\xa510 and 9+4\xe2\x89\xa5109+4\xe2\x89\xa510.'
+b'After the second operation the sequence becomes [(5+4)mod10,(7+3)mod10][(5+4)mod10,(7+3)mod10] == [9,0][9,0], and we get one more candy as 7+3\xe2\x89\xa5107+3\xe2\x89\xa510. '
+b'After the final operation sequence becomes [(9+0)mod10][(9+0)mod10] == [9][9]. '
+b'Therefore, f([8,7,3,1,7,0,9,4])=3f([8,7,3,1,7,0,9,4])=3 as we got 33 candies in total.'
+b'You are given a sequence of digits of length nn s1,s2,\xe2\x80\xa6sns1,s2,\xe2\x80\xa6sn. You have to answer qq queries of the form (li,ri)(li,ri), where for ii-th query you have to output f([sli,sli+1,\xe2\x80\xa6,sri])f([sli,sli+1,\xe2\x80\xa6,sri]). It is guaranteed that ri\xe2\x88\x92li+1ri\xe2\x88\x92li+1 is of form 2k2k for some nonnegative integer kk.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of the sequence.'
+b'The second line contains nn digits s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (0\xe2\x89\xa4si\xe2\x89\xa490\xe2\x89\xa4si\xe2\x89\xa49).'
+b'The third line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Each of the next qq lines contains two integers lili, riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 ii-th query. It is guaranteed that ri\xe2\x88\x92li+1ri\xe2\x88\x92li+1 is a nonnegative integer power of 22.'
+b'Output'
+b'Output qq lines, in ii-th line output single integer\xc2\xa0\xe2\x80\x94 f([sli,sli+1,\xe2\x80\xa6,sri])f([sli,sli+1,\xe2\x80\xa6,sri]), answer to the ii-th query.'
+Tags
+data structures, dp, implementation, math, *1400

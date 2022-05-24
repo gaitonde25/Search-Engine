@@ -1,0 +1,9 @@
+b'The country has n cities and n\xe2\x80\x89-\xe2\x80\x891 bidirectional roads, it is possible to get from every city to any other one if you move only along the roads. The cities are numbered with integers from 1 to n inclusive.'
+b'All the roads are initially bad, but the government wants to improve the state of some roads. We will assume that the citizens are happy about road improvement if the path from the capital located in city x to any other city contains at most one bad road.'
+b"Your task is \xe2\x80\x94 for every possible x determine the number of ways of improving the quality of some roads in order to meet the citizens' condition. As those values can be rather large, you need to print each value modulo 1\xe2\x80\x89000\xe2\x80\x89000\xe2\x80\x89007 (109\xe2\x80\x89+\xe2\x80\x897)."
+b'Input'
+b'The first line of the input contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the number of cities in the country. Next line contains n\xe2\x80\x89-\xe2\x80\x891 positive integers p2,\xe2\x80\x89p3,\xe2\x80\x89p4,\xe2\x80\x89...,\xe2\x80\x89pn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89-\xe2\x80\x891) \xe2\x80\x94 the description of the roads in the country. Number pi means that the country has a road connecting city pi and city i. '
+b'Output'
+b'Print n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an, where ai is the sought number of ways to improve the quality of the roads modulo 1\xe2\x80\x89000\xe2\x80\x89000\xe2\x80\x89007 (109\xe2\x80\x89+\xe2\x80\x897), if the capital of the country is at city number i.'
+Tags
+dp, trees, *2300

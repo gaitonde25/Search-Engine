@@ -1,0 +1,14 @@
+b"There is a street with nn houses in a line, numbered from 11 to nn. The house ii is initially painted in color cici. The street is considered beautiful if all houses are painted in the same color. Tom, the painter, is in charge of making the street beautiful. Tom's painting capacity is defined by an integer, let's call it kk."
+b'On one day, Tom can do the following repainting process that consists of two steps: '
+b'  He chooses two integers ll and rr such that 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n and r\xe2\x88\x92l+1=kr\xe2\x88\x92l+1=k.  For each house ii such that l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r, he can either repaint it with any color he wants, or ignore it and let it keep its current color. '
+b'Note that in the same day Tom can use different colors to repaint different houses.'
+b'Tom wants to know the minimum number of days needed to repaint the street so that it becomes beautiful.'
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104), the number of test cases. Description of test cases follows.'
+b'In the first line of a test case description there are two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains nn space-separated integers. The ii-th of these integers represents cici (1\xe2\x89\xa4ci\xe2\x89\xa41001\xe2\x89\xa4ci\xe2\x89\xa4100), the color which house ii is initially painted in.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'Print tt lines, each with one integer: the minimum number of days Tom needs to make the street beautiful for each test case. '
+Tags
+brute force, brute force, greedy, *1100

@@ -1,0 +1,9 @@
+b'InputThe input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.'
+b'OutputOutput "YES" or "NO".'
+b'ExamplesInputCopyHELP\nOutputCopyYES\nInputCopyAID\nOutputCopyNO\nInputCopyMARY\nOutputCopyNO\nInputCopyANNA\nOutputCopyYES\nInputCopyMUG\nOutputCopyYES\nInputCopyCUP\nOutputCopyNO\nInputCopySUM\nOutputCopyYES\nInputCopyPRODUCT\nOutputCopyNO\n'
+b'Input'
+b'The input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.'
+b'Output'
+b'Output "YES" or "NO".'
+Tags
+*special problem, implementation, *1400

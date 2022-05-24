@@ -1,0 +1,8 @@
+b'Given an integer xx, find 2 integers aa and bb such that: '
+b'  1\xe2\x89\xa4a,b\xe2\x89\xa4x1\xe2\x89\xa4a,b\xe2\x89\xa4x  bb divides aa (aa is divisible by bb).  a\xe2\x8b\x85b>xa\xe2\x8b\x85b>x.  ab<xab<x. '
+b'Input'
+b'The only line contains the integer xx (1\xe2\x89\xa4x\xe2\x89\xa4100)(1\xe2\x89\xa4x\xe2\x89\xa4100).'
+b'Output'
+b'You should output two integers aa and bb, satisfying the given conditions, separated by a space. If no pair of integers satisfy the conditions above, print "-1" (without quotes).'
+Tags
+brute force, constructive algorithms, *800

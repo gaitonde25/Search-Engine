@@ -1,0 +1,18 @@
+b'You have a blackboard and initially only an odd number xx is written on it. Your goal is to write the number 11 on the blackboard.'
+b'You may write new numbers on the blackboard with the following two operations. '
+b'  You may take two numbers (not necessarily distinct) already on the blackboard and write their sum on the blackboard. The two numbers you have chosen remain on the blackboard.  You may take two numbers (not necessarily distinct) already on the blackboard and write their bitwise XOR on the blackboard. The two numbers you have chosen remain on the blackboard. '
+b' Perform a sequence of operations such that at the end the number '
+b''
+b'11'
+b'1'
+b' is on the blackboard.'
+b'Input'
+b'The single line of the input contains the odd integer xx (3\xe2\x89\xa4x\xe2\x89\xa4999,9993\xe2\x89\xa4x\xe2\x89\xa4999,999).'
+b'Output'
+b'Print on the first line the number qq of operations you perform. Then qq lines should follow, each describing one operation. '
+b'  The "sum" operation is described by the line "aa + bb", where a,ba,b must be integers already present on the blackboard.  The "xor" operation is described by the line "aa ^ bb", where a,ba,b must be integers already present on the blackboard. '
+b' '
+b'The operation symbol (+ or ^) must be separated from a,ba,b by a whitespace.'
+b'You can perform at most 100,000100,000 operations (that is, q\xe2\x89\xa4100,000q\xe2\x89\xa4100,000) and all numbers written on the blackboard must be in the range [0,5\xe2\x8b\x851018][0,5\xe2\x8b\x851018]. It can be proven that under such restrictions the required sequence of operations exists. You can output any suitable sequence of operations.'
+Tags
+bitmasks, constructive algorithms, math, matrices, number theory, *2500

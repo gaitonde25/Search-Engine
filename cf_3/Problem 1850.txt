@@ -1,0 +1,11 @@
+b'You are playing another computer game, and now you have to slay nn monsters. These monsters are standing in a circle, numbered clockwise from 11 to nn. Initially, the ii-th monster has aiai health.'
+b'You may shoot the monsters to kill them. Each shot requires exactly one bullet and decreases the health of the targeted monster by 11 (deals 11 damage to it). Furthermore, when the health of some monster ii becomes 00 or less than 00, it dies and explodes, dealing bibi damage to the next monster (monster i+1i+1, if i<ni<n, or monster 11, if i=ni=n). If the next monster is already dead, then nothing happens. If the explosion kills the next monster, it explodes too, damaging the monster after it and possibly triggering another explosion, and so on.'
+b'You have to calculate the minimum number of bullets you have to fire to kill all nn monsters in the circle.'
+b'Input'
+b'The first line contains one integer TT (1\xe2\x89\xa4T\xe2\x89\xa41500001\xe2\x89\xa4T\xe2\x89\xa4150000) \xe2\x80\x94 the number of test cases.'
+b'Then the test cases follow, each test case begins with a line containing one integer nn (2\xe2\x89\xa4n\xe2\x89\xa43000002\xe2\x89\xa4n\xe2\x89\xa4300000) \xe2\x80\x94 the number of monsters. Then nn lines follow, each containing two integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa410121\xe2\x89\xa4ai,bi\xe2\x89\xa41012) \xe2\x80\x94 the parameters of the ii-th monster in the circle.'
+b'It is guaranteed that the total number of monsters in all test cases does not exceed 300000300000.'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the minimum number of bullets you have to fire to kill all of the monsters.'
+Tags
+brute force, constructive algorithms, greedy, math, *1600

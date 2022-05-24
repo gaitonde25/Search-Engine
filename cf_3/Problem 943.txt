@@ -1,0 +1,10 @@
+b'The student council is preparing for the relay race at the sports festival.'
+b'The council consists of nn members. They will run one after the other in the race, the speed of member ii is sisi. The discrepancy didi of the ii-th stage is the difference between the maximum and the minimum running speed among the first ii members who ran. Formally, if aiai denotes the speed of the ii-th member who participated in the race, then di=max(a1,a2,\xe2\x80\xa6,ai)\xe2\x88\x92min(a1,a2,\xe2\x80\xa6,ai)di=max(a1,a2,\xe2\x80\xa6,ai)\xe2\x88\x92min(a1,a2,\xe2\x80\xa6,ai).'
+b'You want to minimize the sum of the discrepancies d1+d2+\xe2\x8b\xaf+dnd1+d2+\xe2\x8b\xaf+dn. To do this, you are allowed to change the order in which the members run. What is the minimum possible sum that can be achieved?'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000) \xc2\xa0\xe2\x80\x94 the number of members of the student council.'
+b'The second line contains nn integers s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (1\xe2\x89\xa4si\xe2\x89\xa41091\xe2\x89\xa4si\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x93 the running speeds of the members.'
+b'Output'
+b'Print a single integer \xc2\xa0\xe2\x80\x94 the minimum possible value of d1+d2+\xe2\x8b\xaf+dnd1+d2+\xe2\x8b\xaf+dn after choosing the order of the members.'
+Tags
+dp, greedy, *1800

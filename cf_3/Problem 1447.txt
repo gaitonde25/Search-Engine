@@ -1,0 +1,17 @@
+b'You are given mm sets of integers A1,A2,\xe2\x80\xa6,AmA1,A2,\xe2\x80\xa6,Am; elements of these sets are integers between 11 and nn, inclusive.'
+b'There are two arrays of positive integers a1,a2,\xe2\x80\xa6,ama1,a2,\xe2\x80\xa6,am and b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn. '
+b'In one operation you can delete an element jj from the set AiAi and pay ai+bjai+bj coins for that.'
+b'You can make several (maybe none) operations (some sets can become empty).'
+b'After that, you will make an edge-colored undirected graph consisting of nn vertices. For each set AiAi you will add an edge (x,y)(x,y) with color ii for all x,y\xe2\x88\x88Aix,y\xe2\x88\x88Ai and x<yx<y. Some pairs of vertices can be connected with more than one edge, but such edges have different colors.'
+b'You call a cycle i1\xe2\x86\x92e1\xe2\x86\x92i2\xe2\x86\x92e2\xe2\x86\x92\xe2\x80\xa6\xe2\x86\x92ik\xe2\x86\x92ek\xe2\x86\x92i1i1\xe2\x86\x92e1\xe2\x86\x92i2\xe2\x86\x92e2\xe2\x86\x92\xe2\x80\xa6\xe2\x86\x92ik\xe2\x86\x92ek\xe2\x86\x92i1 (ejej is some edge connecting vertices ijij and ij+1ij+1 in this graph) rainbow if all edges on it have different colors.'
+b'Find the minimum number of coins you should pay to get a graph without rainbow cycles.'
+b'Input'
+b'The first line contains two integers mm and nn (1\xe2\x89\xa4m,n\xe2\x89\xa41051\xe2\x89\xa4m,n\xe2\x89\xa4105), the number of sets and the number of vertices in the graph.'
+b'The second line contains mm integers a1,a2,\xe2\x80\xa6,ama1,a2,\xe2\x80\xa6,am (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109).'
+b'In the each of the next of mm lines there are descriptions of sets. In the ii-th line the first integer sisi (1\xe2\x89\xa4si\xe2\x89\xa4n1\xe2\x89\xa4si\xe2\x89\xa4n) is equal to the size of AiAi. Then sisi integers follow: the elements of the set AiAi. These integers are from 11 to nn and distinct.'
+b'It is guaranteed that the sum of sisi for all 1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'Print one integer: the minimum number of coins you should pay for operations to avoid rainbow cycles in the obtained graph.'
+Tags
+data structures, dsu, graphs, greedy, sortings, trees, *2400

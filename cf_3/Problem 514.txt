@@ -1,0 +1,13 @@
+b'Petya has an array of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. He only likes sorted arrays. Unfortunately, the given array could be arbitrary, so Petya wants to sort it.'
+b'Petya likes to challenge himself, so he wants to sort array using only 33-cycles. More formally, in one operation he can pick 33 pairwise distinct indices ii, jj, and kk (1\xe2\x89\xa4i,j,k\xe2\x89\xa4n1\xe2\x89\xa4i,j,k\xe2\x89\xa4n) and apply i\xe2\x86\x92j\xe2\x86\x92k\xe2\x86\x92ii\xe2\x86\x92j\xe2\x86\x92k\xe2\x86\x92i cycle to the array aa. It simultaneously places aiai on position jj, ajaj on position kk, and akak on position ii, without changing any other element.'
+b'For example, if aa is [10,50,20,30,40,60][10,50,20,30,40,60] and he chooses i=2i=2, j=1j=1, k=5k=5, then the array becomes [50\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,40\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,20,30,10\xe2\x80\x93\xe2\x80\x93\xe2\x80\x93,60][50_,40_,20,30,10_,60].'
+b'Petya can apply arbitrary number of 33-cycles (possibly, zero). You are to determine if Petya can sort his array aa, i.\xc2\xa0e. make it non-decreasing.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x85105). Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the array aa.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 5\xe2\x8b\x851055\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print "YES" (without quotes) if Petya can sort the array aa using 33-cycles, and "NO" (without quotes) otherwise. You can print each letter in any case (upper or lower).'
+Tags
+data structures, math, *1900

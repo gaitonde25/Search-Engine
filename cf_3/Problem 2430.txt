@@ -1,0 +1,12 @@
+b'The only difference between easy and hard versions is the number of elements in the array.'
+b'You are given an array aa consisting of nn integers. In one move you can choose any aiai and divide it by 22 rounding down (in other words, in one move you can set ai:=\xe2\x8c\x8aai2\xe2\x8c\x8bai:=\xe2\x8c\x8aai2\xe2\x8c\x8b).'
+b'You can perform such an operation any (possibly, zero) number of times with any aiai.'
+b'Your task is to calculate the minimum possible number of operations required to obtain at least kk equal numbers in the array.'
+b"Don't forget that it is possible to have ai=0ai=0 after some operations, thus the answer always exists."
+b'Input'
+b'The first line of the input contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements in the array and the number of equal numbers required.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105), where aiai is the ii-th element of aa.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum possible number of operations required to obtain at least kk equal numbers in the array.'
+Tags
+brute force, math, sortings, *1600

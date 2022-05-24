@@ -1,0 +1,14 @@
+b'There are nn friends living on a circular street. The friends and their houses are numbered clockwise from 00 to n\xe2\x88\x921n\xe2\x88\x921.'
+b'Initially person ii has aiai stones. The friends want to make the distribution of stones among them perfectly balanced: everyone should possess the same number of stones.'
+b'The only way to change the distribution of stones is by conducting meetings. During a meeting, people from exactly kk consecutive houses (remember that the street is circular) gather at the same place and bring all their stones with them. All brought stones may be redistributed among people attending the meeting arbitrarily. The total number of stones they possess before the meeting and after the meeting must stay the same. After the meeting, everyone returns to their home.'
+b'Find a way to make the distribution of stones perfectly balanced conducting as few meetings as possible.'
+b'Input'
+b'The first line contains two integers nn and kk (2\xe2\x89\xa4k<n\xe2\x89\xa41052\xe2\x89\xa4k<n\xe2\x89\xa4105), denoting the number of friends and the size of each meeting.'
+b'The second line contains nn integers a0,a1,\xe2\x80\xa6,an\xe2\x88\x921a0,a1,\xe2\x80\xa6,an\xe2\x88\x921 (0\xe2\x89\xa4ai\xe2\x89\xa41040\xe2\x89\xa4ai\xe2\x89\xa4104), denoting the number of stones people initially have.'
+b'The sum of all aiai is divisible by nn.'
+b'Output'
+b'Output the minimum number of meetings mm (m\xe2\x89\xa50m\xe2\x89\xa50), followed by mm descriptions of meetings in chronological order.'
+b'The ii-th description must consist of an integer sisi (0\xe2\x89\xa4si<n0\xe2\x89\xa4si<n), followed by kk non-negative integers bi,0,bi,1,\xe2\x80\xa6,bi,k\xe2\x88\x921bi,0,bi,1,\xe2\x80\xa6,bi,k\xe2\x88\x921 (bi,j\xe2\x89\xa50bi,j\xe2\x89\xa50). Such a description denotes a meeting of people si,(si+1)modn,\xe2\x80\xa6,(si+k\xe2\x88\x921)modnsi,(si+1)modn,\xe2\x80\xa6,(si+k\xe2\x88\x921)modn, and bi,jbi,j denotes the number of stones person (si+j)modn(si+j)modn must have after the ii-th meeting. The sum of bi,jbi,j must match the total number of stones owned by these people before the ii-th meeting.'
+b'We can show that a solution exists for any valid input, and any correct output contains at most 107107 non-whitespace characters.'
+Tags
+data structures, dp, greedy, *3500

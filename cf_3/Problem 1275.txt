@@ -1,0 +1,12 @@
+b'You are given a tree with each vertex coloured white, black or grey. You can remove elements from the tree by selecting a subset of vertices in a single connected component and removing them and their adjacent edges from the graph. The only restriction is that you are not allowed to select a subset containing a white and a black vertex at once.'
+b'What is the minimum number of removals necessary to remove all vertices from the tree?'
+b'Input'
+b'Each test contains multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41000001\xe2\x89\xa4t\xe2\x89\xa4100000), denoting the number of test cases, followed by a description of the test cases.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000): the number of vertices in the tree.'
+b'The second line of each test case contains nn integers avav (0\xe2\x89\xa4av\xe2\x89\xa420\xe2\x89\xa4av\xe2\x89\xa42): colours of vertices. Gray vertices have av=0av=0, white have av=1av=1, black have av=2av=2.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers u,vu,v (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n): tree edges.'
+b'The sum of all nn throughout the test is guaranteed to not exceed 200000200000.'
+b'Output'
+b'For each test case, print one integer: the minimum number of operations to solve the problem.'
+Tags
+binary search, constructive algorithms, dfs and similar, dp, greedy, trees, *3000

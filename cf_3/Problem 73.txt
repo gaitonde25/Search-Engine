@@ -1,0 +1,13 @@
+b'Let ANDAND denote the bitwise AND operation, and OROR denote the bitwise OR operation.'
+b'You are given an array aa of length nn and a non-negative integer kk. You can perform at most kk operations on the array of the following type:'
+b'  Select an index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and replace aiai with aiai OROR 2j2j where jj is any integer between 00 and 3030 inclusive. In other words, in an operation you can choose an index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and set the jj-th bit of aiai to 11 (0\xe2\x89\xa4j\xe2\x89\xa4300\xe2\x89\xa4j\xe2\x89\xa430). '
+b'Output the maximum possible value of a1a1 ANDAND a2a2 ANDAND \xe2\x80\xa6\xe2\x80\xa6 ANDAND anan after performing at most kk operations. '
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. The description of test cases follows.'
+b'The first line of each test case contains the integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 0\xe2\x89\xa4k\xe2\x89\xa41090\xe2\x89\xa4k\xe2\x89\xa4109).'
+b'Then a single line follows, containing nn integers describing the arrays aa (0\xe2\x89\xa4ai<2310\xe2\x89\xa4ai<231).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output a single line containing the maximum possible ANDAND value of a1a1 ANDAND a2a2 ANDAND \xe2\x80\xa6\xe2\x80\xa6 ANDAND anan after performing at most kk operations.'
+Tags
+bitmasks, greedy, math, *1300

@@ -1,0 +1,11 @@
+b'You are given three positive integers nn, aa and bb. You have to construct a string ss of length nn consisting of lowercase Latin letters such that each substring of length aa has exactly bb distinct letters. It is guaranteed that the answer exists.'
+b'You have to answer tt independent test cases.'
+b'Recall that the substring s[l\xe2\x80\xa6r]s[l\xe2\x80\xa6r] is the string sl,sl+1,\xe2\x80\xa6,srsl,sl+1,\xe2\x80\xa6,sr and its length is r\xe2\x88\x92l+1r\xe2\x88\x92l+1. In this problem you are only interested in substrings of length aa.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa420001\xe2\x89\xa4t\xe2\x89\xa42000) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The only line of a test case contains three space-separated integers nn, aa and bb (1\xe2\x89\xa4a\xe2\x89\xa4n\xe2\x89\xa42000,1\xe2\x89\xa4b\xe2\x89\xa4min(26,a)1\xe2\x89\xa4a\xe2\x89\xa4n\xe2\x89\xa42000,1\xe2\x89\xa4b\xe2\x89\xa4min(26,a)), where nn is the length of the required string, aa is the length of a substring and bb is the required number of distinct letters in each substring of length aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 20002000 (\xe2\x88\x91n\xe2\x89\xa42000\xe2\x88\x91n\xe2\x89\xa42000).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 such a string ss of length nn consisting of lowercase Latin letters that each substring of length aa has exactly bb distinct letters. If there are multiple valid answers, print any of them. It is guaranteed that the answer exists.'
+Tags
+constructive algorithms, *900

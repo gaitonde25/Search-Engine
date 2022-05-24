@@ -1,0 +1,7 @@
+b' In every generation there is a Chosen One. She alone will stand against the vampires, the demons, and the forces of darkness. She is the Slayer. \xe2\x80\x94 Joss Whedon '
+b'Input'
+b'A string ss (3\xe2\x89\xa4|s|\xe2\x89\xa473\xe2\x89\xa4|s|\xe2\x89\xa47) consisting of lowercase English letters.'
+b'Output'
+b'A single string. If there is no answer, print "none" (without the quotes).'
+Tags
+strings

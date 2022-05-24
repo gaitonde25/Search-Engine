@@ -1,0 +1,11 @@
+b'You are given two integers aa and bb.'
+b'In one move, you can choose some integer kk from 11 to 1010 and add it to aa or subtract it from aa. In other words, you choose an integer k\xe2\x88\x88[1;10]k\xe2\x88\x88[1;10] and perform a:=a+ka:=a+k or a:=a\xe2\x88\x92ka:=a\xe2\x88\x92k. You may use different values of kk in different moves.'
+b'Your task is to find the minimum number of moves required to obtain bb from aa.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The only line of the test case contains two integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa41091\xe2\x89\xa4a,b\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print the answer: the minimum number of moves required to obtain bb from aa.'
+Tags
+greedy, math, *800

@@ -1,0 +1,11 @@
+b'A tree is an undirected connected graph without cycles.'
+b'You are given a tree of nn vertices. Find the number of ways to choose exactly kk vertices in this tree (i.\xe2\x80\x89e. a kk-element subset of vertices) so that all pairwise distances between the selected vertices are equal (in other words, there exists an integer cc such that for all u,vu,v (u\xe2\x89\xa0vu\xe2\x89\xa0v, u,vu,v are in selected vertices) du,v=cdu,v=c, where du,vdu,v is the distance from uu to vv).'
+b'Since the answer may be very large, you need to output it modulo 109+7109+7.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case is preceded by an empty line.'
+b'Each test case consists of several lines. The first line of the test case contains two integers nn and kk (2\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of vertices in the tree and the number of vertices to be selected, respectively. Then n\xe2\x88\x921n\xe2\x88\x921 lines follow, each of them contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v) which describe a pair of vertices connected by an edge. It is guaranteed that the given graph is a tree and has no loops or multiple edges.'
+b'Output'
+b'For each test case output in a separate line a single integer \xe2\x80\x94 the number of ways to select exactly kk vertices so that for all pairs of selected vertices the distances between the vertices in the pairs are equal, modulo 109+7109+7 (in other words, print the remainder when divided by 10000000071000000007).'
+Tags
+brute force, combinatorics, dfs and similar, dp, trees, *2200

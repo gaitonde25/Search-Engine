@@ -1,0 +1,15 @@
+b'Arkady bought an air ticket from a city A to a city C. Unfortunately, there are no direct flights, but there are a lot of flights from A to a city B, and from B to C.'
+b'There are nn flights from A to B, they depart at time moments a1a1, a2a2, a3a3, ..., anan and arrive at B tata moments later.'
+b'There are mm flights from B to C, they depart at time moments b1b1, b2b2, b3b3, ..., bmbm and arrive at C tbtb moments later.'
+b'The connection time is negligible, so one can use the ii-th flight from A to B and the jj-th flight from B to C if and only if bj\xe2\x89\xa5ai+tabj\xe2\x89\xa5ai+ta.'
+b'You can cancel at most kk flights. If you cancel a flight, Arkady can not use it.'
+b'Arkady wants to be in C as early as possible, while you want him to be in C as late as possible. Find the earliest time Arkady can arrive at C, if you optimally cancel kk flights. If you can cancel kk or less flights in such a way that it is not possible to reach C at all, print \xe2\x88\x921\xe2\x88\x921.'
+b'Input'
+b'The first line contains five integers nn, mm, tata, tbtb and kk (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa4n+m1\xe2\x89\xa4k\xe2\x89\xa4n+m, 1\xe2\x89\xa4ta,tb\xe2\x89\xa41091\xe2\x89\xa4ta,tb\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of flights from A to B, the number of flights from B to C, the flight time from A to B, the flight time from B to C and the number of flights you can cancel, respectively.'
+b'The second line contains nn distinct integers in increasing order a1a1, a2a2, a3a3, ..., anan (1\xe2\x89\xa4a1<a2<\xe2\x80\xa6<an\xe2\x89\xa41091\xe2\x89\xa4a1<a2<\xe2\x80\xa6<an\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the times the flights from A to B depart.'
+b'The third line contains mm distinct integers in increasing order b1b1, b2b2, b3b3, ..., bmbm (1\xe2\x89\xa4b1<b2<\xe2\x80\xa6<bm\xe2\x89\xa41091\xe2\x89\xa4b1<b2<\xe2\x80\xa6<bm\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the times the flights from B to C depart.'
+b'Output'
+b'If you can cancel kk or less flights in such a way that it is not possible to reach C at all, print \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise print the earliest time Arkady can arrive at C if you cancel kk flights in such a way that maximizes this time.'
+Tags
+binary search, brute force, two pointers, *1600

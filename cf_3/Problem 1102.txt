@@ -1,0 +1,13 @@
+b'Nezzar designs a brand new game "Hidden Permutations" and shares it with his best friend, Nanako.'
+b'At the beginning of the game, Nanako and Nezzar both know integers nn and mm. The game goes in the following way:'
+b'  Firstly, Nezzar hides two permutations p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn and q1,q2,\xe2\x80\xa6,qnq1,q2,\xe2\x80\xa6,qn of integers from 11 to nn, and Nanako secretly selects mm unordered pairs (l1,r1),(l2,r2),\xe2\x80\xa6,(lm,rm)(l1,r1),(l2,r2),\xe2\x80\xa6,(lm,rm);  After that, Nanako sends his chosen pairs to Nezzar;  On receiving those mm unordered pairs, Nezzar checks if there exists 1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m, such that (pli\xe2\x88\x92pri)(pli\xe2\x88\x92pri) and (qli\xe2\x88\x92qri)(qli\xe2\x88\x92qri) have different signs. If so, Nezzar instantly loses the game and gets a score of \xe2\x88\x921\xe2\x88\x921. Otherwise, the score Nezzar gets is equal to the number of indices 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n such that pi\xe2\x89\xa0qipi\xe2\x89\xa0qi. '
+b"However, Nezzar accidentally knows Nanako's unordered pairs and decides to take advantage of them. Please help Nezzar find out two permutations pp and qq such that the score is maximized."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers n,mn,m (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105,0\xe2\x89\xa4m\xe2\x89\xa4min(n(n\xe2\x88\x921)2,5\xe2\x8b\x85105)1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105,0\xe2\x89\xa4m\xe2\x89\xa4min(n(n\xe2\x88\x921)2,5\xe2\x8b\x85105)). '
+b'Then mm lines follow, ii-th of them contains two integers li,rili,ri (1\xe2\x89\xa4li,ri\xe2\x89\xa4n1\xe2\x89\xa4li,ri\xe2\x89\xa4n, li\xe2\x89\xa0rili\xe2\x89\xa0ri), describing the ii-th unordered pair Nanako chooses. It is guaranteed that all mm unordered pairs are distinct.'
+b'It is guaranteed that the sum of nn for all test cases does not exceed 5\xe2\x8b\x851055\xe2\x8b\x85105, and the sum of mm for all test cases does not exceed 5\xe2\x8b\x851055\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print two permutations p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn and q1,q2,\xe2\x80\xa6,qnq1,q2,\xe2\x80\xa6,qn such that the score Nezzar gets is maximized.'
+Tags
+constructive algorithms, dfs and similar, graphs, *2800

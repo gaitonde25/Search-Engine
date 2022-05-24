@@ -1,0 +1,14 @@
+b'There are nn warriors in a row. The power of the ii-th warrior is aiai. All powers are pairwise distinct.'
+b'You have two types of spells which you may cast: '
+b'  Fireball: you spend xx mana and destroy exactly kk consecutive warriors;  Berserk: you spend yy mana, choose two consecutive warriors, and the warrior with greater power destroys the warrior with smaller power. '
+b'For example, let the powers of warriors be [2,3,7,8,11,5,4][2,3,7,8,11,5,4], and k=3k=3. If you cast Berserk on warriors with powers 88 and 1111, the resulting sequence of powers becomes [2,3,7,11,5,4][2,3,7,11,5,4]. Then, for example, if you cast Fireball on consecutive warriors with powers [7,11,5][7,11,5], the resulting sequence of powers becomes [2,3,4][2,3,4].'
+b'You want to turn the current sequence of warriors powers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an into b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm. Calculate the minimum amount of mana you need to spend on it.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of sequence aa and the length of sequence bb respectively.'
+b'The second line contains three integers x,k,yx,k,y (1\xe2\x89\xa4x,y,\xe2\x89\xa4109;1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4x,y,\xe2\x89\xa4109;1\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the cost of fireball, the range of fireball and the cost of berserk respectively.'
+b'The third line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n). It is guaranteed that all integers aiai are pairwise distinct.'
+b'The fourth line contains mm integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (1\xe2\x89\xa4bi\xe2\x89\xa4n1\xe2\x89\xa4bi\xe2\x89\xa4n). It is guaranteed that all integers bibi are pairwise distinct.'
+b'Output'
+b'Print the minimum amount of mana for turning the sequnce a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an into b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm, or \xe2\x88\x921\xe2\x88\x921 if it is impossible.'
+Tags
+constructive algorithms, greedy, implementation, math, two pointers, *2000

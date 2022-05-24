@@ -1,0 +1,10 @@
+b'We get more and more news about DDoS-attacks of popular websites.'
+b'Arseny is an admin and he thinks that a website is under a DDoS-attack if the total number of requests for a some period of time exceeds 100\xe2\x8b\x85t100\xe2\x8b\x85t, where tt \xe2\x80\x94 the number of seconds in this time segment. '
+b'Arseny knows statistics on the number of requests per second since the server is booted. He knows the sequence r1,r2,\xe2\x80\xa6,rnr1,r2,\xe2\x80\xa6,rn, where riri \xe2\x80\x94 the number of requests in the ii-th second after boot. '
+b'Determine the length of the longest continuous period of time, which Arseny considers to be a DDoS-attack. A seeking time period should not go beyond the boundaries of the segment [1,n][1,n].'
+b'Input'
+b'The first line contains nn (1\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4n\xe2\x89\xa45000) \xe2\x80\x94 number of seconds since server has been booted. The second line contains sequence of integers r1,r2,\xe2\x80\xa6,rnr1,r2,\xe2\x80\xa6,rn (0\xe2\x89\xa4ri\xe2\x89\xa450000\xe2\x89\xa4ri\xe2\x89\xa45000), riri \xe2\x80\x94 number of requests in the ii-th second.'
+b'Output'
+b"Print the only integer number \xe2\x80\x94 the length of the longest time period which is considered to be a DDoS-attack by Arseny. If it doesn't exist print 0."
+Tags
+*special problem, brute force, *1400

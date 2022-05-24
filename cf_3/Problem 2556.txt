@@ -1,0 +1,32 @@
+b'You are given a weighted undirected tree on nn vertices and a list of qq updates. Each update changes the weight of one edge. The task is to output the diameter of the tree after each update.'
+b'(The distance between two vertices is the sum of the weights on the unique simple path that connects them. The diameter is the largest of all those distances.)'
+b'Input'
+b'The first line contains three space-separated integers nn, qq and ww\xc2\xa0(2\xe2\x89\xa4n\xe2\x89\xa4100,000,1\xe2\x89\xa4q\xe2\x89\xa4100,0002\xe2\x89\xa4n\xe2\x89\xa4100,000,1\xe2\x89\xa4q\xe2\x89\xa4100,000, 1\xe2\x89\xa4w\xe2\x89\xa420,000,000,000,0001\xe2\x89\xa4w\xe2\x89\xa420,000,000,000,000) \xe2\x80\x93 the number of vertices in the tree, the number of updates and the limit on the weights of edges. The vertices are numbered 11 through nn.'
+b'Next, n\xe2\x88\x921n\xe2\x88\x921 lines describing the initial tree follow. The ii-th of these lines contains three space-separated integers aiai, bibi, cici\xc2\xa0(1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n, 0\xe2\x89\xa4ci<w0\xe2\x89\xa4ci<w) meaning that initially, there is an edge between vertices aiai and bibi with weight cici. It is guaranteed that these n\xe2\x88\x921n\xe2\x88\x921 lines describe a tree.'
+b'Finally, qq lines describing queries follow. The jj-th of these lines contains two space-separated integers djdj, ejej\xc2\xa0(0\xe2\x89\xa4dj<n\xe2\x88\x921,0\xe2\x89\xa4ej<w0\xe2\x89\xa4dj<n\xe2\x88\x921,0\xe2\x89\xa4ej<w). These two integers are then transformed according to the following scheme: '
+b'  d\xe2\x80\xb2j=(dj+last)mod(n\xe2\x88\x921)dj\xe2\x80\xb2=(dj+last)mod(n\xe2\x88\x921)  e\xe2\x80\xb2j=(ej+last)modwej\xe2\x80\xb2=(ej+last)modw '
+b' where '
+b''
+b'lastlast'
+b'last'
+b' is the result of the last query (initially '
+b''
+b'last=0last=0'
+b'last=0'
+b'). Tuple '
+b''
+b'(d\xe2\x80\xb2j,e\xe2\x80\xb2j)(dj\xe2\x80\xb2,ej\xe2\x80\xb2)'
+b"(d'_j, e'_j)"
+b' represents a query which takes the '
+b''
+b'd\xe2\x80\xb2j+1dj\xe2\x80\xb2+1'
+b"d'_j+1"
+b'-th edge from the input and sets its weight to '
+b''
+b'e\xe2\x80\xb2jej\xe2\x80\xb2'
+b"e'_j"
+b'.'
+b'Output'
+b'Output qq lines. For each ii, line ii should contain the diameter of the tree after the ii-th update.'
+Tags
+*special problem, data structures, dfs and similar, divide and conquer, trees

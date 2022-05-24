@@ -1,0 +1,14 @@
+b'In a certain video game, the player controls a hero characterized by a single integer value: power. The hero will have to beat monsters that are also characterized by a single integer value: armor.'
+b'On the current level, the hero is facing nn caves. To pass the level, the hero must enter all the caves in some order, each cave exactly once, and exit every cave safe and sound. When the hero enters cave ii, he will have to fight kiki monsters in a row: first a monster with armor ai,1ai,1, then a monster with armor ai,2ai,2 and so on, finally, a monster with armor ai,kiai,ki.'
+b"The hero can beat a monster if and only if the hero's power is strictly greater than the monster's armor. If the hero can't beat the monster he's fighting, the game ends and the player loses. Note that once the hero enters a cave, he can't exit it before he fights all the monsters in it, strictly in the given order."
+b"Each time the hero beats a monster, the hero's power increases by 11."
+b'Find the smallest possible power the hero must start the level with to be able to enter all the caves in some order and beat all the monsters.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105). Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of caves.'
+b'The ii-th of the next nn lines contains an integer kiki (1\xe2\x89\xa4ki\xe2\x89\xa41051\xe2\x89\xa4ki\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of monsters in the ii-th cave, followed by kiki integers ai,1,ai,2,\xe2\x80\xa6,ai,kiai,1,ai,2,\xe2\x80\xa6,ai,ki (1\xe2\x89\xa4ai,j\xe2\x89\xa41091\xe2\x89\xa4ai,j\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 armor levels of the monsters in cave ii in order the hero has to fight them.'
+b'It is guaranteed that the sum of kiki over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case print a single integer\xc2\xa0\xe2\x80\x94 the smallest possible power the hero must start the level with to be able to enter all the caves in some order and beat all the monsters.'
+Tags
+binary search, greedy, sortings, *1300

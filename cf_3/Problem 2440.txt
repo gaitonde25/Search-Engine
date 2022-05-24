@@ -1,0 +1,10 @@
+b'There are nn table bowling players, the rating of the ii-th player equals riri. Compose a maximum number of teams in a such way that:'
+b'  each player belongs to at most one team;  each team contains exactly a+ba+b players;  each team contains a group of aa players with the same rating and a group of bb players with another same rating, which must be kk times larger than the rating of the players in the first group. '
+b'For example, if n=12n=12, r=[1,1,2,2,2,2,2,3,3,4,6,6]r=[1,1,2,2,2,2,2,3,3,4,6,6], a=1a=1, b=2b=2, k=2k=2, you can compose two teams with ratings [1,2,2][1,2,2] and one team with ratings [3,6,6][3,6,6]. So, the maximum number of teams is 33.'
+b'Find the maximum number of teams by given n,r1\xe2\x80\xa6rn,a,bn,r1\xe2\x80\xa6rn,a,b and kk to compose in respect to the given requirements.'
+b'Input'
+b"The first line of the input contains four integers nn, aa, bb and kk (1\xe2\x89\xa4n,a,b\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n,a,b\xe2\x89\xa43\xe2\x8b\x85105, 2\xe2\x89\xa4k\xe2\x89\xa410002\xe2\x89\xa4k\xe2\x89\xa41000). The second line contains the sequence of player's ratings \xe2\x80\x94 integers r1,r2,\xe2\x80\xa6,rnr1,r2,\xe2\x80\xa6,rn (1\xe2\x89\xa4ri\xe2\x89\xa41061\xe2\x89\xa4ri\xe2\x89\xa4106)."
+b'Output'
+b'Print only one integer \xe2\x80\x94 the maximum number of teams that can be composed from nn given players.'
+Tags
+*special problem, binary search, greedy, math, *2000

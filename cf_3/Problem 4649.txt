@@ -1,0 +1,15 @@
+b'Note that girls in Arpa\xe2\x80\x99s land are really attractive.'
+b'Arpa loves overnight parties. In the middle of one of these parties Mehrdad suddenly appeared. He saw n pairs of friends sitting around a table. i-th pair consisted of a boy, sitting on the ai-th chair, and his girlfriend, sitting on the bi-th chair. The chairs were numbered 1 through 2n in clockwise direction. There was exactly one person sitting on each chair.'
+b'  '
+b'There were two types of food: Kooft and Zahre-mar. Now Mehrdad wonders, was there any way to serve food for the guests such that: '
+b'  Each person had exactly one type of food,  No boy had the same type of food as his girlfriend,  Among any three guests sitting on consecutive chairs, there was two of them who had different type of food. Note that chairs 2n and 1 are considered consecutive. '
+b'Find the answer for the Mehrdad question. If it was possible, find some arrangement of food types that satisfies the conditions.'
+b'Input'
+b'The first line contains an integer n (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89n\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of pairs of guests.'
+b"The i-th of the next n lines contains a pair of integers ai and bi (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x892n)\xc2\xa0\xe2\x80\x94 the number of chair on which the boy in the i-th pair was sitting and the number of chair on which his girlfriend was sitting. It's guaranteed that there was exactly one person sitting on each chair. "
+b'Output'
+b'If there is no solution, print -1.'
+b'Otherwise print n lines, the i-th of them should contain two integers which represent the type of food for the i-th pair. The first integer in the line is the type of food the boy had, and the second integer is the type of food the girl had. If someone had Kooft, print 1, otherwise print 2.'
+b'If there are multiple solutions, print any of them.'
+Tags
+constructive algorithms, dfs and similar, graphs, *2600

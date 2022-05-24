@@ -1,0 +1,13 @@
+b'This version of the problem differs from the next one only in the constraint on nn.'
+b'Note that the memory limit in this problem is lower than in others.'
+b'You have a vertical strip with nn cells, numbered consecutively from 11 to nn from top to bottom.'
+b'You also have a token that is initially placed in cell nn. You will move the token up until it arrives at cell 11.'
+b'Let the token be in cell x>1x>1 at some moment. One shift of the token can have either of the following kinds: '
+b'  Subtraction: you choose an integer yy between 11 and x\xe2\x88\x921x\xe2\x88\x921, inclusive, and move the token from cell xx to cell x\xe2\x88\x92yx\xe2\x88\x92y.  Floored division: you choose an integer zz between 22 and xx, inclusive, and move the token from cell xx to cell \xe2\x8c\x8axz\xe2\x8c\x8b\xe2\x8c\x8axz\xe2\x8c\x8b (xx divided by zz rounded down). '
+b'Find the number of ways to move the token from cell nn to cell 11 using one or more shifts, and print it modulo mm. Note that if there are several ways to move the token from one cell to another in one shift, all these ways are considered distinct (check example explanation for a better understanding).'
+b'Input'
+b'The only line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 108<m<109108<m<109; mm is a prime number)\xc2\xa0\xe2\x80\x94 the length of the strip and the modulo.'
+b'Output'
+b'Print the number of ways to move the token from cell nn to cell 11, modulo mm.'
+Tags
+brute force, data structures, dp, math, number theory, *1700

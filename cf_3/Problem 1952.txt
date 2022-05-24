@@ -1,0 +1,11 @@
+b'You are given two integers nn and mm (m<nm<n). Consider a convex regular polygon of nn vertices. Recall that a regular polygon is a polygon that is equiangular (all angles are equal in measure) and equilateral (all sides have the same length).'
+b'  Examples of convex regular polygons '
+b'Your task is to say if it is possible to build another convex regular polygon with mm vertices such that its center coincides with the center of the initial polygon and each of its vertices is some vertex of the initial polygon.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The next tt lines describe test cases. Each test case is given as two space-separated integers nn and mm (3\xe2\x89\xa4m<n\xe2\x89\xa41003\xe2\x89\xa4m<n\xe2\x89\xa4100) \xe2\x80\x94 the number of vertices in the initial polygon and the number of vertices in the polygon you want to build.'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 "YES" (without quotes), if it is possible to build another convex regular polygon with mm vertices such that its center coincides with the center of the initial polygon and each of its vertices is some vertex of the initial polygon and "NO" otherwise.'
+Tags
+geometry, greedy, math, number theory, *800

@@ -1,0 +1,12 @@
+b'You are given n strings ti. Each string has cost ci.'
+b"Let's define the function of string , where ps,\xe2\x80\x89i is the number of occurrences of s in ti, |s| is the length of the string s. Find the maximal value of function f(s) over all strings."
+b'Note that the string s is not necessarily some string from t.'
+b'Input'
+b'The first line contains the only integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 the number of strings in t.'
+b'Each of the next n lines contains contains a non-empty string ti. ti contains only lowercase English letters.'
+b'It is guaranteed that the sum of lengths of all strings in t is not greater than 5\xc2\xb7105.'
+b'The last line contains n integers ci (\xe2\x80\x89-\xe2\x80\x89107\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107) \xe2\x80\x94 the cost of the i-th string.'
+b'Output'
+b'Print the only integer a \xe2\x80\x94 the maximal value of the function f(s) over all strings s. Note one more time that the string s is not necessarily from t.'
+Tags
+string suffix structures, strings, *2700

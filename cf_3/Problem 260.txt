@@ -1,0 +1,18 @@
+b'Haha, try to solve this, SelectorUnlimited!\xe2\x80\x94 antontrygubO_o'
+b'Your friends Alice and Bob practice fortune telling.'
+b'Fortune telling is performed as follows. There is a well-known array aa of nn non-negative integers indexed from 11 to nn. The tellee starts with some non-negative number dd and performs one of the two operations for each i=1,2,\xe2\x80\xa6,ni=1,2,\xe2\x80\xa6,n, in the increasing order of ii. The possible operations are:'
+b' replace their current number dd with d+aid+ai replace their current number dd with d\xe2\x8a\x95aid\xe2\x8a\x95ai (hereinafter \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation)'
+b'Notice that the chosen operation may be different for different ii and for different tellees.'
+b'One time, Alice decided to start with d=xd=x and Bob started with d=x+3d=x+3. Each of them performed fortune telling and got a particular number in the end. Notice that the friends chose operations independently of each other, that is, they could apply different operations for the same ii.'
+b"You learnt that either Alice or Bob ended up with number yy in the end, but you don't know whose of the two it was. Given the numbers Alice and Bob started with and yy, find out who (Alice or Bob) could get the number yy after performing the operations. It is guaranteed that on the jury tests, exactly one of your friends could have actually gotten that number."
+b'Hacks'
+b'You cannot make hacks in this problem.'
+b'Input'
+b'On the first line of the input, you are given one number tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. The following 2\xe2\x8b\x85t2\xe2\x8b\x85t lines contain test cases.'
+b"The first line of each test case contains three numbers nn, xx, yy (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 0\xe2\x89\xa4x\xe2\x89\xa41090\xe2\x89\xa4x\xe2\x89\xa4109, 0\xe2\x89\xa4y\xe2\x89\xa410150\xe2\x89\xa4y\xe2\x89\xa41015)\xc2\xa0\xe2\x80\x94 the length of array aa, Alice's initial number (Bob's initial number is therefore x+3x+3), and the number that one of the two friends got in the end."
+b'The second line of each test case contains nn numbers\xc2\xa0\xe2\x80\x94 the array aa (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print the name of the friend who could get the number yy: "Alice" or "Bob".'
+Tags
+bitmasks, math, *1400

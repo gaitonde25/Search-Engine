@@ -1,0 +1,14 @@
+b"You are preparing for an exam on scheduling theory. The exam will last for exactly T milliseconds and will consist of n problems. You can either solve problem i in exactly ti milliseconds or ignore it and spend no time. You don't need time to rest after solving a problem, either."
+b'Unfortunately, your teacher considers some of the problems too easy for you. Thus, he assigned an integer ai to every problem i meaning that the problem i can bring you a point to the final score only in case you have solved no more than ai problems overall (including problem i).'
+b'Formally, suppose you solve problems p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pk during the exam. Then, your final score s will be equal to the number of values of j between 1 and k such that k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89apj.'
+b"You have guessed that the real first problem of the exam is already in front of you. Therefore, you want to choose a set of problems to solve during the exam maximizing your final score in advance. Don't forget that the exam is limited in time, and you must have enough time to solve all chosen problems. If there exist different sets of problems leading to the maximum final score, any of them will do."
+b'Input'
+b'The first line contains two integers n and T (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105; 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89T\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the number of problems in the exam and the length of the exam in milliseconds, respectively.'
+b'Each of the next n lines contains two integers ai and ti (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n; 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104). The problems are numbered from 1 to n.'
+b'Output'
+b'In the first line, output a single integer s\xc2\xa0\xe2\x80\x94 your maximum possible final score.'
+b'In the second line, output a single integer k (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the number of problems you should solve.'
+b'In the third line, output k distinct integers p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pk (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the indexes of problems you should solve, in any order.'
+b'If there are several optimal sets of problems, you may output any of them.'
+Tags
+binary search, brute force, data structures, greedy, sortings, *1800

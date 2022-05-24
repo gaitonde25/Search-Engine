@@ -1,0 +1,19 @@
+b'The only difference with E2 is the question of the problem..'
+b'Vlad built a maze out of nn rooms and n\xe2\x88\x921n\xe2\x88\x921 bidirectional corridors. From any room uu any other room vv can be reached through a sequence of corridors. Thus, the room system forms an undirected tree.'
+b'Vlad invited kk friends to play a game with them.'
+b'Vlad starts the game in the room 11 and wins if he reaches a room other than 11, into which exactly one corridor leads.'
+b'Friends are placed in the maze: the friend with number ii is in the room xixi, and no two friends are in the same room (that is, xi\xe2\x89\xa0xjxi\xe2\x89\xa0xj for all i\xe2\x89\xa0ji\xe2\x89\xa0j). Friends win if one of them meets Vlad in any room or corridor before he wins.'
+b'For one unit of time, each participant of the game can go through one corridor. All participants move at the same time. Participants may not move. Each room can fit all participants at the same time. '
+b'Friends know the plan of a maze and intend to win. Vlad is a bit afraid of their ardor. Determine if he can guarantee victory (i.e. can he win in any way friends play).'
+b"In other words, determine if there is such a sequence of Vlad's moves that lets Vlad win in any way friends play."
+b'Input'
+b'The first line of the input contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the input. The input contains an empty string before each test case.'
+b'The first line of the test case contains two numbers nn and kk (1\xe2\x89\xa4k<n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4k<n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of rooms and friends, respectively.'
+b'The next line of the test case contains kk integers x1,x2,\xe2\x80\xa6,xkx1,x2,\xe2\x80\xa6,xk (2\xe2\x89\xa4xi\xe2\x89\xa4n2\xe2\x89\xa4xi\xe2\x89\xa4n) \xe2\x80\x94 numbers of rooms with friends. All xixi are different.'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines contain descriptions of the corridors, two numbers per line vjvj and ujuj (1\xe2\x89\xa4uj,vj\xe2\x89\xa4n1\xe2\x89\xa4uj,vj\xe2\x89\xa4n) \xe2\x80\x94 numbers of rooms that connect the jj corridor. All corridors are bidirectional. From any room, you can go to any other by moving along the corridors.'
+b'It is guaranteed that the sum of the values nn over all test cases in the test is not greater than 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'Print tt lines, each line containing the answer to the corresponding test case. The answer to a test case should be "YES" if Vlad can guarantee himself a victory and "NO" otherwise.'
+b'You may print every letter in any case you want (so, for example, the strings "yEs", "yes", "Yes" and "YES" will all be recognized as positive answers).'
+Tags
+dfs and similar, greedy, shortest paths, trees, two pointers, *1700

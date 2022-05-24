@@ -1,0 +1,19 @@
+b'Petya has a rectangular Board of size n\xc3\x97mn\xc3\x97m. Initially, kk chips are placed on the board, ii-th chip is located in the cell at the intersection of sxisxi-th row and syisyi-th column.'
+b'In one action, Petya can move all the chips to the left, right, down or up by 11 cell.'
+b'If the chip was in the (x,y)(x,y) cell, then after the operation: '
+b'  left, its coordinates will be (x,y\xe2\x88\x921)(x,y\xe2\x88\x921);  right, its coordinates will be (x,y+1)(x,y+1);  down, its coordinates will be (x+1,y)(x+1,y);  up, its coordinates will be (x\xe2\x88\x921,y)(x\xe2\x88\x921,y). '
+b'If the chip is located by the wall of the board, and the action chosen by Petya moves it towards the wall, then the chip remains in its current position.'
+b'Note that several chips can be located in the same cell.'
+b"For each chip, Petya chose the position which it should visit. Note that it's not necessary for a chip to end up in this position."
+b'Since Petya does not have a lot of free time, he is ready to do no more than 2nm2nm actions.'
+b'You have to find out what actions Petya should do so that each chip visits the position that Petya selected for it at least once. Or determine that it is not possible to do this in 2nm2nm actions.'
+b'Input'
+b'The first line contains three integers n,m,kn,m,k (1\xe2\x89\xa4n,m,k\xe2\x89\xa42001\xe2\x89\xa4n,m,k\xe2\x89\xa4200) \xe2\x80\x94 the number of rows and columns of the board and the number of chips, respectively.'
+b'The next kk lines contains two integers each sxi,syisxi,syi (1\xe2\x89\xa4sxi\xe2\x89\xa4n,1\xe2\x89\xa4syi\xe2\x89\xa4m1\xe2\x89\xa4sxi\xe2\x89\xa4n,1\xe2\x89\xa4syi\xe2\x89\xa4m) \xe2\x80\x94 the starting position of the ii-th chip.'
+b'The next kk lines contains two integers each fxi,fyifxi,fyi (1\xe2\x89\xa4fxi\xe2\x89\xa4n,1\xe2\x89\xa4fyi\xe2\x89\xa4m1\xe2\x89\xa4fxi\xe2\x89\xa4n,1\xe2\x89\xa4fyi\xe2\x89\xa4m) \xe2\x80\x94 the position that the ii-chip should visit at least once.'
+b'Output'
+b'In the first line print the number of operations so that each chip visits the position that Petya selected for it at least once.'
+b'In the second line output the sequence of operations. To indicate operations left, right, down, and up, use the characters L,R,D,UL,R,D,U respectively.'
+b'If the required sequence does not exist, print -1 in the single line.'
+Tags
+constructive algorithms, implementation, *1600

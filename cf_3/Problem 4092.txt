@@ -1,0 +1,9 @@
+b"Copying large hexadecimal (base 16) strings by hand can be error prone, but that doesn't stop people from doing it. You've discovered a bug in the code that was likely caused by someone making a mistake when copying such a string. You suspect that whoever copied the string did not change any of the digits in the string, nor the length of the string, but may have permuted the digits arbitrarily. For example, if the original string was 0abc they may have changed it to a0cb or 0bca, but not abc or 0abb."
+b"Unfortunately you don't have access to the original string nor the copied string, but you do know the length of the strings and their numerical absolute difference. You will be given this difference as a hexadecimal string S, which has been zero-extended to be equal in length to the original and copied strings. Determine the smallest possible numerical value of the original string."
+b'Input'
+b'Input will contain a hexadecimal string S consisting only of digits 0 to 9 and lowercase English letters from a to f, with length at most 14. At least one of the characters is non-zero.'
+b'Output'
+b'If it is not possible, print "NO" (without quotes).'
+b'Otherwise, print the lowercase hexadecimal string corresponding to the smallest possible numerical value, including any necessary leading zeros for the length to be correct.'
+Tags
+bitmasks, brute force, dp, graphs, *3300

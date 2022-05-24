@@ -1,0 +1,13 @@
+b"It's our faculty's 34th anniversary! To celebrate this great event, the Faculty of Computer Science, University of Indonesia (Fasilkom), held CPC - Coloring Pavements Competition. The gist of CPC is two players color the predetermined routes of Fasilkom in Blue and Red. There are NN Checkpoints and MM undirected predetermined routes. Routes ii connects checkpoint UiUi and ViVi, for (1\xe2\x89\xa4i\xe2\x89\xa4M)(1\xe2\x89\xa4i\xe2\x89\xa4M). It is guaranteed that any pair of checkpoints are connected by using one or more routes."
+b'The rules of CPC is as follows: '
+b"  Two players play in each round. One player plays as blue, the other plays as red. For simplicity, let's call these players BlueBlue and RedRed.  BlueBlue will color every route in he walks on blue, RedRed will color the route he walks on red. Both players start at checkpoint number 11. Initially, all routes are gray.  Each phase, from their current checkpoint, BlueBlue and RedRed select a different gray route and moves to the checkpoint on the other end of the route simultaneously.  The game ends when BlueBlue or RedRed can no longer move. That is, there is no two distinct gray routes they can choose to continue moving. "
+b'Chaneka is interested in participating. However, she does not want to waste much energy. So, She is only interested in the number of final configurations of the routes after each round. Turns out, counting this is also exhausting, so Chaneka asks you to figure this out!'
+b'Two final configurations are considered different if there is a route UU in a different color in the two configurations.'
+b'Input'
+b'The first line contains two integers NN and MM. NN (2\xe2\x89\xa4N\xe2\x89\xa42\xe2\x8b\x85103)(2\xe2\x89\xa4N\xe2\x89\xa42\xe2\x8b\x85103) denotes the number of checkpoints, MM (1\xe2\x89\xa4M\xe2\x89\xa42\xe2\x8b\x85N)(1\xe2\x89\xa4M\xe2\x89\xa42\xe2\x8b\x85N) denotes the number of routes. It is guaranteed that every checkpoint except checkpoint 11 has exactly two routes connecting it.'
+b'The next MM lines each contains two integers UiUi and ViVi (1\xe2\x89\xa4Ui,Vi\xe2\x89\xa4N,Ui\xe2\x89\xa0Vi)(1\xe2\x89\xa4Ui,Vi\xe2\x89\xa4N,Ui\xe2\x89\xa0Vi), which denotes the checkpoint that route ii connects.'
+b'It is guaranteed that for every pair of checkpoints, there exists a path connecting them directly or indirectly using the routes. '
+b'Output'
+b'Output a single integer which denotes the number of final configurations after each round of CPC modulo 109+7109+7'
+Tags
+divide and conquer, dp, *2600

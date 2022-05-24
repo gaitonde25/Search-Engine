@@ -1,0 +1,8 @@
+b"Tree is a connected acyclic graph. Suppose you are given a tree consisting of n vertices. The vertex of this tree is called centroid if the size of each connected component that appears if this vertex is removed from the tree doesn't exceed ."
+b"You are given a tree of size n and can perform no more than one edge replacement. Edge replacement is the operation of removing one edge from the tree (without deleting incident vertices) and inserting one new edge (without adding new vertices) in such a way that the graph remains a tree. For each vertex you have to determine if it's possible to make it centroid by performing no more than one edge replacement."
+b'Input'
+b'The first line of the input contains an integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89400\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree. Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contains a pair of vertex indices ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 endpoints of the corresponding edge.'
+b'Output'
+b'Print n integers. The i-th of them should be equal to 1 if the i-th vertex can be made centroid by replacing no more than one edge, and should be equal to 0 otherwise.'
+Tags
+data structures, dfs and similar, dp, graphs, greedy, trees, *2300

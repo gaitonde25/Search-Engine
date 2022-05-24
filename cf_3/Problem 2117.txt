@@ -1,0 +1,13 @@
+b'We had a really tough time generating tests for problem D. In order to prepare strong tests, we had to solve the following problem.'
+b'Given an undirected labeled tree consisting of nn vertices, find a set of segments such that:'
+b'  both endpoints of each segment are integers from 11 to 2n2n, and each integer from 11 to 2n2n should appear as an endpoint of exactly one segment;  all segments are non-degenerate;  for each pair (i,j)(i,j) such that i\xe2\x89\xa0ji\xe2\x89\xa0j, i\xe2\x88\x88[1,n]i\xe2\x88\x88[1,n] and j\xe2\x88\x88[1,n]j\xe2\x88\x88[1,n], the vertices ii and jj are connected with an edge if and only if the segments ii and jj intersect, but neither segment ii is fully contained in segment jj, nor segment jj is fully contained in segment ii. '
+b'Can you solve this problem too?'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the number of vertices in the tree.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follow, each containing two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n, xi\xe2\x89\xa0yixi\xe2\x89\xa0yi) denoting the endpoints of the ii-th edge.'
+b'It is guaranteed that the given graph is a tree.'
+b'Output'
+b'Print nn pairs of integers, the ii-th pair should contain two integers lili and riri (1\xe2\x89\xa4li<ri\xe2\x89\xa42n1\xe2\x89\xa4li<ri\xe2\x89\xa42n) \xe2\x80\x94 the endpoints of the ii-th segment. All 2n2n integers you print should be unique.'
+b'It is guaranteed that the answer always exists.'
+Tags
+constructive algorithms, dfs and similar, divide and conquer, trees, *2200

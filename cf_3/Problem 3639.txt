@@ -1,0 +1,11 @@
+b'Little girl Tanya is learning how to decrease a number by one, but she does it wrong with a number consisting of two or more digits. Tanya subtracts one from a number by the following algorithm:'
+b'  if the last digit of the number is non-zero, she decreases the number by one;  if the last digit of the number is zero, she divides the number by 10 (i.e. removes the last digit). '
+b'You are given an integer number nn. Tanya will subtract one from it kk times. Your task is to print the result after all kk subtractions.'
+b'It is guaranteed that the result will be positive integer number.'
+b'Input'
+b'The first line of the input contains two integer numbers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa41092\xe2\x89\xa4n\xe2\x89\xa4109, 1\xe2\x89\xa4k\xe2\x89\xa4501\xe2\x89\xa4k\xe2\x89\xa450) \xe2\x80\x94 the number from which Tanya will subtract and the number of subtractions correspondingly.'
+b'Output'
+b'Print one integer number \xe2\x80\x94 the result of the decreasing nn by one kk times.'
+b'It is guaranteed that the result will be positive integer number. '
+Tags
+implementation, *800

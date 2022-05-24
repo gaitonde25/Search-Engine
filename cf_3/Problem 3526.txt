@@ -1,0 +1,11 @@
+b"Mishka started participating in a programming contest. There are nn problems in the contest. Mishka's problem-solving skill is equal to kk."
+b'Mishka arranges all problems from the contest into a list. Because of his weird principles, Mishka only solves problems from one of the ends of the list. Every time, he chooses which end (left or right) he will solve the next problem from. Thus, each problem Mishka solves is either the leftmost or the rightmost problem in the list.'
+b'Mishka cannot solve a problem with difficulty greater than kk. When Mishka solves the problem, it disappears from the list, so the length of the list decreases by 11. Mishka stops when he is unable to solve any problem from any end of the list.'
+b'How many problems can Mishka solve?'
+b'Input'
+b"The first line of input contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa41001\xe2\x89\xa4n,k\xe2\x89\xa4100) \xe2\x80\x94 the number of problems in the contest and Mishka's problem-solving skill."
+b'The second line of input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100), where aiai is the difficulty of the ii-th problem. The problems are given in order from the leftmost to the rightmost in the list.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum number of problems Mishka can solve.'
+Tags
+brute force, implementation, *800

@@ -1,0 +1,11 @@
+b"Uh oh! Ray lost his array yet again! However, Omkar might be able to help because he thinks he has found the OmkArray of Ray's array. The OmkArray of an array aa with elements a1,a2,\xe2\x80\xa6,a2k\xe2\x88\x921a1,a2,\xe2\x80\xa6,a2k\xe2\x88\x921, is the array bb with elements b1,b2,\xe2\x80\xa6,bkb1,b2,\xe2\x80\xa6,bk such that bibi is equal to the median of a1,a2,\xe2\x80\xa6,a2i\xe2\x88\x921a1,a2,\xe2\x80\xa6,a2i\xe2\x88\x921 for all ii. Omkar has found an array bb of size nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, \xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109). Given this array bb, Ray wants to test Omkar's claim and see if bb actually is an OmkArray of some array aa. Can you help Ray?"
+b'The median of a set of numbers a1,a2,\xe2\x80\xa6,a2i\xe2\x88\x921a1,a2,\xe2\x80\xa6,a2i\xe2\x88\x921 is the number cici where c1,c2,\xe2\x80\xa6,c2i\xe2\x88\x921c1,c2,\xe2\x80\xa6,c2i\xe2\x88\x921 represents a1,a2,\xe2\x80\xa6,a2i\xe2\x88\x921a1,a2,\xe2\x80\xa6,a2i\xe2\x88\x921 sorted in nondecreasing order. '
+b'Input'
+b'Each test contains multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of the array bb.'
+b'The second line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109) \xe2\x80\x94 the elements of bb.'
+b'It is guaranteed the sum of nn across all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105. '
+b'Output'
+b'For each test case, output one line containing YES if there exists an array aa such that bibi is the median of a1,a2,\xe2\x80\xa6,a2i\xe2\x88\x921a1,a2,\xe2\x80\xa6,a2i\xe2\x88\x921 for all ii, and NO otherwise. The case of letters in YES and NO do not matter (so yEs and No will also be accepted).'
+Tags
+data structures, greedy, implementation, *2000

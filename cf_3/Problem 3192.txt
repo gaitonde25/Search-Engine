@@ -1,0 +1,11 @@
+b'You are given two huge binary integer numbers aa and bb of lengths nn and mm respectively. You will repeat the following process: if b>0b>0, then add to the answer the value a\xc2\xa0&\xc2\xa0ba\xc2\xa0&\xc2\xa0b and divide bb by 22 rounding down (i.e. remove the last digit of bb), and repeat the process again, otherwise stop the process.'
+b'The value a\xc2\xa0&\xc2\xa0ba\xc2\xa0&\xc2\xa0b means bitwise AND of aa and bb. Your task is to calculate the answer modulo 998244353998244353.'
+b'Note that you should add the value a\xc2\xa0&\xc2\xa0ba\xc2\xa0&\xc2\xa0b to the answer in decimal notation, not in binary. So your task is to calculate the answer in decimal notation. For example, if a=10102\xc2\xa0(1010)a=10102\xc2\xa0(1010) and b=10002\xc2\xa0(810)b=10002\xc2\xa0(810), then the value a\xc2\xa0&\xc2\xa0ba\xc2\xa0&\xc2\xa0b will be equal to 88, not to 10001000.'
+b'Input'
+b'The first line of the input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of aa and the length of bb correspondingly.'
+b'The second line of the input contains one huge integer aa. It is guaranteed that this number consists of exactly nn zeroes and ones and the first digit is always 11.'
+b'The third line of the input contains one huge integer bb. It is guaranteed that this number consists of exactly mm zeroes and ones and the first digit is always 11.'
+b'Output'
+b'Print the answer to this problem in decimal notation modulo 998244353998244353.'
+Tags
+data structures, implementation, math, *1700

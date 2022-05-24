@@ -1,0 +1,14 @@
+b'In the evening, after the contest Ilya was bored, and he really felt like maximizing. He remembered that he had a set of n sticks and an instrument. Each stick is characterized by its length li.'
+b'Ilya decided to make a rectangle from the sticks. And due to his whim, he decided to make rectangles in such a way that maximizes their total area. Each stick is used in making at most one rectangle, it is possible that some of sticks remain unused. Bending sticks is not allowed.'
+b'Sticks with lengths a1, a2, a3 and a4 can make a rectangle if the following properties are observed:'
+b'  a1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a4  a1\xe2\x80\x89=\xe2\x80\x89a2  a3\xe2\x80\x89=\xe2\x80\x89a4 '
+b'A rectangle can be made of sticks with lengths of, for example, 3\xc2\xa03\xc2\xa03\xc2\xa03 or 2\xc2\xa02\xc2\xa04\xc2\xa04. A rectangle cannot be made of, for example, sticks 5\xc2\xa05\xc2\xa05\xc2\xa07.'
+b'Ilya also has an instrument which can reduce the length of the sticks. The sticks are made of a special material, so the length of each stick can be reduced by at most one. For example, a stick with length 5 can either stay at this length or be transformed into a stick of length 4.'
+b'You have to answer the question \xe2\x80\x94 what maximum total area of the rectangles can Ilya get with a file if makes rectangles from the available sticks?'
+b'Input'
+b'The first line of the input contains a positive integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94\xc2\xa0the number of the available sticks.'
+b'The second line of the input contains n positive integers li (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106)\xc2\xa0\xe2\x80\x94\xc2\xa0the lengths of the sticks.'
+b'Output'
+b'The first line of the output must contain a single non-negative integer\xc2\xa0\xe2\x80\x94\xc2\xa0the maximum total area of the rectangles that Ilya can make from the available sticks.'
+Tags
+greedy, math, sortings, *1600

@@ -1,0 +1,11 @@
+b'You are given a integer nn (n>0n>0). Find any integer ss which satisfies these conditions, or report that there are no such numbers:'
+b'In the decimal representation of ss: '
+b"  s>0s>0,  ss consists of nn digits,  no digit in ss equals 00,  ss is not divisible by any of it's digits. "
+b'Input'
+b'The input consists of multiple test cases. The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa44001\xe2\x89\xa4t\xe2\x89\xa4400), the number of test cases. The next tt lines each describe a test case.'
+b'Each test case contains one positive integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'It is guaranteed that the sum of nn for all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print an integer ss which satisfies the conditions described above, or "-1" (without quotes), if no such number exists. If there are multiple possible solutions for ss, print any solution.'
+Tags
+constructive algorithms, number theory, *1000

@@ -1,0 +1,8 @@
+b"Let's write all the positive integer numbers one after another from 11 without any delimiters (i.e. as a single string). It will be the infinite sequence starting with 123456789101112131415161718192021222324252627282930313233343536..."
+b'Your task is to print the kk-th digit of this sequence.'
+b'Input'
+b'The first and only line contains integer kk (1\xe2\x89\xa4k\xe2\x89\xa4100001\xe2\x89\xa4k\xe2\x89\xa410000) \xe2\x80\x94 the position to process (11-based index).'
+b'Output'
+b'Print the kk-th digit of the resulting infinite sequence.'
+Tags
+implementation, *1000

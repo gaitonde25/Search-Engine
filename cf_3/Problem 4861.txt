@@ -1,0 +1,9 @@
+b'Let\'s call a string "s-palindrome" if it is symmetric about the middle of the string. For example, the string "oHo" is "s-palindrome", but the string "aa" is not. The string "aa" is not "s-palindrome", because the second half of it is not a mirror reflection of the first half.'
+b'  English alphabet '
+b'You are given a string s. Check if the string is "s-palindrome".'
+b'Input'
+b'The only line contains the string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) which consists of only English letters.'
+b'Output'
+b'Print "TAK" if the string s is "s-palindrome" and "NIE" otherwise.'
+Tags
+implementation, strings, *1600

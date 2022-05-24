@@ -1,0 +1,16 @@
+b'You have a string ss consisting of nn characters. Each character is either 0 or 1.'
+b'You can perform operations on the string. Each operation consists of two steps:'
+b'  select an integer ii from 11 to the length of the string ss, then delete the character sisi (the string length gets reduced by 11, the indices of characters to the right of the deleted one also get reduced by 11);  if the string ss is not empty, delete the maximum length prefix consisting of the same characters (the indices of the remaining characters and the string length get reduced by the length of the deleted prefix). '
+b'Note that both steps are mandatory in each operation, and their order cannot be changed.'
+b'For example, if you have a string s=s= 111010, the first operation can be one of the following:'
+b"  select i=1i=1: we'll get 111010 \xe2\x86\x92\xe2\x86\x92 11010 \xe2\x86\x92\xe2\x86\x92 010;  select i=2i=2: we'll get 111010 \xe2\x86\x92\xe2\x86\x92 11010 \xe2\x86\x92\xe2\x86\x92 010;  select i=3i=3: we'll get 111010 \xe2\x86\x92\xe2\x86\x92 11010 \xe2\x86\x92\xe2\x86\x92 010;  select i=4i=4: we'll get 111010 \xe2\x86\x92\xe2\x86\x92 11110 \xe2\x86\x92\xe2\x86\x92 0;  select i=5i=5: we'll get 111010 \xe2\x86\x92\xe2\x86\x92 11100 \xe2\x86\x92\xe2\x86\x92 00;  select i=6i=6: we'll get 111010 \xe2\x86\x92\xe2\x86\x92 11101 \xe2\x86\x92\xe2\x86\x92 01. "
+b'You finish performing operations when the string ss becomes empty. What is the maximum number of operations you can perform?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the string ss.'
+b'The second line contains string ss of nn characters. Each character is either 0 or 1.'
+b"It's guaranteed that the total sum of nn over test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of operations you can perform.'
+Tags
+binary search, data structures, greedy, two pointers, *1700

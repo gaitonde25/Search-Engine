@@ -1,0 +1,14 @@
+b'There is a tree of nn vertices and a permutation pp of size nn. A token is present on vertex xx of the tree.'
+b"Alice and Bob are playing a game. Alice is in control of the permutation pp, and Bob is in control of the token on the tree. In Alice's turn, she must pick two distinct numbers uu and vv (not positions; u\xe2\x89\xa0vu\xe2\x89\xa0v), such that the token is neither at vertex uu nor vertex vv on the tree, and swap their positions in the permutation pp. In Bob's turn, he must move the token to an adjacent vertex from the one it is currently on."
+b'Alice wants to sort the permutation in increasing order. Bob wants to prevent that. Alice wins if the permutation is sorted in increasing order at the beginning or end of her turn. Bob wins if he can make the game go on for an infinite number of moves (which means that Alice is never able to get a sorted permutation). Both players play optimally. Alice makes the first move.'
+b'Given the tree, the permutation pp, and the vertex xx on which the token initially is, find the winner of the game.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of each test case follows.'
+b'The first line of each test case has two integers nn and xx (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n).'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n, a\xe2\x89\xa0ba\xe2\x89\xa0b) indicating an undirected edge between vertex aa and vertex bb. It is guaranteed that the given edges form a tree.'
+b'The next line contains nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n) \xc2\xa0\xe2\x80\x94 the permutation pp.'
+b'The sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output one line containing Alice or Bob\xc2\xa0\xe2\x80\x94 the winner of the game. The output is case-sensitive.'
+Tags
+dfs and similar, games, graphs, trees, *3000

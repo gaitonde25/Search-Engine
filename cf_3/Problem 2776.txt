@@ -1,0 +1,13 @@
+b'Student Dima from Kremland has a matrix aa of size n\xc3\x97mn\xc3\x97m filled with non-negative integers.'
+b'He wants to select exactly one integer from each row of the matrix so that the bitwise exclusive OR of the selected integers is strictly greater than zero. Help him!'
+b'Formally, he wants to choose an integers sequence c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4cj\xe2\x89\xa4m1\xe2\x89\xa4cj\xe2\x89\xa4m) so that the inequality a1,c1\xe2\x8a\x95a2,c2\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95an,cn>0a1,c1\xe2\x8a\x95a2,c2\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95an,cn>0 holds, where ai,jai,j is the matrix element from the ii-th row and the jj-th column.'
+b'Here x\xe2\x8a\x95yx\xe2\x8a\x95y denotes the bitwise XOR operation of integers xx and yy.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa45001\xe2\x89\xa4n,m\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the number of rows and the number of columns in the matrix aa.'
+b'Each of the next nn lines contains mm integers: the jj-th integer in the ii-th line is the jj-th element of the ii-th row of the matrix aa, i.e. ai,jai,j (0\xe2\x89\xa4ai,j\xe2\x89\xa410230\xe2\x89\xa4ai,j\xe2\x89\xa41023). '
+b'Output'
+b'If there is no way to choose one integer from each row so that their bitwise exclusive OR is strictly greater than zero, print "NIE".'
+b'Otherwise print "TAK" in the first line, in the next line print nn integers c1,c2,\xe2\x80\xa6cnc1,c2,\xe2\x80\xa6cn (1\xe2\x89\xa4cj\xe2\x89\xa4m1\xe2\x89\xa4cj\xe2\x89\xa4m), so that the inequality a1,c1\xe2\x8a\x95a2,c2\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95an,cn>0a1,c1\xe2\x8a\x95a2,c2\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95an,cn>0 holds. '
+b'If there is more than one possible answer, you may output any.'
+Tags
+bitmasks, brute force, constructive algorithms, dp, *1600

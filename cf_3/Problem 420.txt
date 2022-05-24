@@ -1,0 +1,12 @@
+b'  '
+b"William arrived at a conference dedicated to cryptocurrencies. Networking, meeting new people, and using friends' connections are essential to stay up to date with the latest news from the world of cryptocurrencies."
+b'The conference has nn participants, who are initially unfamiliar with each other. William can introduce any two people, aa and bb, who were not familiar before, to each other. '
+b"William has dd conditions, ii'th of which requires person xixi to have a connection to person yiyi. Formally, two people xx and yy have a connection if there is such a chain p1=x,p2,p3,\xe2\x80\xa6,pk=yp1=x,p2,p3,\xe2\x80\xa6,pk=y for which for all ii from 11 to k\xe2\x88\x921k\xe2\x88\x921 it's true that two people with numbers pipi and pi+1pi+1 know each other."
+b'For every ii (1\xe2\x89\xa4i\xe2\x89\xa4d1\xe2\x89\xa4i\xe2\x89\xa4d) William wants you to calculate the maximal number of acquaintances one person can have, assuming that William satisfied all conditions from 11 and up to and including ii and performed exactly ii introductions. The conditions are being checked after William performed ii introductions. The answer for each ii must be calculated independently. It means that when you compute an answer for ii, you should assume that no two people have been introduced to each other yet.'
+b'Input'
+b'The first line contains two integers nn and dd (2\xe2\x89\xa4n\xe2\x89\xa4103,1\xe2\x89\xa4d\xe2\x89\xa4n\xe2\x88\x9212\xe2\x89\xa4n\xe2\x89\xa4103,1\xe2\x89\xa4d\xe2\x89\xa4n\xe2\x88\x921), the number of people, and number of conditions, respectively.'
+b'Each of the next dd lines each contain two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n,xi\xe2\x89\xa0yi1\xe2\x89\xa4xi,yi\xe2\x89\xa4n,xi\xe2\x89\xa0yi), the numbers of people which must have a connection according to condition ii.'
+b'Output'
+b'Output dd integers. iith number must equal the number of acquaintances the person with the maximal possible acquaintances will have, if William performed ii introductions and satisfied the first ii conditions.'
+Tags
+dsu, graphs, greedy, implementation, trees, *1600

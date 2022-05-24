@@ -1,0 +1,13 @@
+b'A tuple of positive integers {x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xk} is called simple if for all pairs of positive integers (i,\xe2\x80\x89\xe2\x80\x89j) (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x80\x89<\xe2\x80\x89\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k), xi\xe2\x80\x89\xe2\x80\x89+\xe2\x80\x89\xe2\x80\x89xj is a prime.'
+b'You are given an array a with n positive integers a1,\xe2\x80\x89\xe2\x80\x89a2,\xe2\x80\x89\xe2\x80\x89...,\xe2\x80\x89\xe2\x80\x89an (not necessary distinct). You want to find a simple subset of the array a with the maximum size.'
+b'A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.'
+b"Let's define a subset of the array a as a tuple that can be obtained from a by removing some (possibly all) elements of it."
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the number of integers in the array a.'
+b'The second line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106) \xe2\x80\x94 the elements of the array a.'
+b'Output'
+b'On the first line print integer m \xe2\x80\x94 the maximum possible size of simple subset of a.'
+b'On the second line print m integers bl \xe2\x80\x94 the elements of the simple subset of the array a with the maximum size.'
+b'If there is more than one solution you can print any of them. You can print the elements of the subset in any order.'
+Tags
+constructive algorithms, greedy, number theory, *1800

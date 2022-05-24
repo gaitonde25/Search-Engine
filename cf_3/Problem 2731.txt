@@ -1,0 +1,11 @@
+b'You are given a binary matrix aa of size n\xc3\x97mn\xc3\x97m. A binary matrix is a matrix where each element is either 00 or 11.'
+b'You may perform some (possibly zero) operations with this matrix. During each operation you can inverse the row of this matrix or a column of this matrix. Formally, inverting a row is changing all values in this row to the opposite (00 to 11, 11 to 00). Inverting a column is changing all values in this column to the opposite.'
+b'Your task is to sort the initial matrix by some sequence of such operations. The matrix is considered sorted if the array [a1,1,a1,2,\xe2\x80\xa6,a1,m,a2,1,a2,2,\xe2\x80\xa6,a2,m,\xe2\x80\xa6,an,m\xe2\x88\x921,an,m][a1,1,a1,2,\xe2\x80\xa6,a1,m,a2,1,a2,2,\xe2\x80\xa6,a2,m,\xe2\x80\xa6,an,m\xe2\x88\x921,an,m] is sorted in non-descending order.'
+b'Input'
+b'The first line of the input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42001\xe2\x89\xa4n,m\xe2\x89\xa4200) \xe2\x80\x94 the number of rows and the number of columns in the matrix.'
+b'The next nn lines contain mm integers each. The jj-th element in the ii-th line is ai,jai,j (0\xe2\x89\xa4ai,j\xe2\x89\xa410\xe2\x89\xa4ai,j\xe2\x89\xa41) \xe2\x80\x94 the element of aa at position (i,j)(i,j).'
+b'Output'
+b'If it is impossible to obtain a sorted matrix, print "NO" in the first line.'
+b'Otherwise print "YES" in the first line. In the second line print a string rr of length nn. The ii-th character riri of this string should be \'1\' if the ii-th row of the matrix is inverted and \'0\' otherwise. In the third line print a string cc of length mm. The jj-th character cjcj of this string should be \'1\' if the jj-th column of the matrix is inverted and \'0\' otherwise. If there are multiple answers, you can print any.'
+Tags
+brute force, constructive algorithms, *2200

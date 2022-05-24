@@ -1,0 +1,13 @@
+b"Berland has nn cities, some of which are connected by roads. Each road is bidirectional, connects two distinct cities and for each two cities there's at most one road connecting them."
+b'The president of Berland decided to split country into rr states in such a way that each city will belong to exactly one of these rr states.'
+b'After this split each road will connect either cities of the same state or cities of the different states. Let\'s call roads that connect two cities of the same state "inner" roads.'
+b'The president doesn\'t like odd people, odd cities and odd numbers, so he wants this split to be done in such a way that each city would have even number of "inner" roads connected to it.'
+b'Please help president to find smallest possible rr for which such a split exists.'
+b'Input'
+b'The input contains one or several test cases. The first input line contains a single integer number tt \xe2\x80\x94 number of test cases. Then, tt test cases follow. Solve test cases separately, test cases are completely independent and do not affect each other.'
+b'Then tt blocks of input data follow. Each block starts from empty line which separates it from the remaining input data. The second line of each block contains two space-separated integers nn, mm (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000, 0\xe2\x89\xa4m\xe2\x89\xa4100000\xe2\x89\xa4m\xe2\x89\xa410000) \xe2\x80\x94 the number of cities and number of roads in the Berland. Each of the next mm lines contains two space-separated integers \xe2\x80\x94 xixi, yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n; xi\xe2\x89\xa0yixi\xe2\x89\xa0yi), which denotes that the ii-th road connects cities xixi and yiyi. Each pair of cities are connected by at most one road. '
+b"Sum of values nn across all test cases doesn't exceed 20002000. Sum of values mm across all test cases doesn't exceed 1000010000."
+b'Output'
+b'For each test case first print a line containing a single integer rr \xe2\x80\x94 smallest possible number of states for which required split is possible. In the next line print nn space-separated integers in range from 11 to rr, inclusive, where the jj-th number denotes number of state for the jj-th city. If there are multiple solutions, print any.'
+Tags
+constructive algorithms, *2600

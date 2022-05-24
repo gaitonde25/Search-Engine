@@ -1,0 +1,15 @@
+b"Polycarp is a frequent user of the very popular messenger. He's chatting with his friends all the time. He has nn friends, numbered from 11 to nn."
+b'Recall that a permutation of size nn is an array of size nn such that each integer from 11 to nn occurs exactly once in this array.'
+b'So his recent chat list can be represented with a permutation pp of size nn. p1p1 is the most recent friend Polycarp talked to, p2p2 is the second most recent and so on.'
+b"Initially, Polycarp's recent chat list pp looks like 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n (in other words, it is an identity permutation)."
+b'After that he receives mm messages, the jj-th message comes from the friend ajaj. And that causes friend ajaj to move to the first position in a permutation, shifting everyone between the first position and the current position of ajaj by 11. Note that if the friend ajaj is in the first position already then nothing happens.'
+b'For example, let the recent chat list be p=[4,1,5,3,2]p=[4,1,5,3,2]: '
+b"  if he gets messaged by friend 33, then pp becomes [3,4,1,5,2][3,4,1,5,2];  if he gets messaged by friend 44, then pp doesn't change [4,1,5,3,2][4,1,5,3,2];  if he gets messaged by friend 22, then pp becomes [2,4,1,5,3][2,4,1,5,3]. "
+b'For each friend consider all position he has been at in the beginning and after receiving each message. Polycarp wants to know what were the minimum and the maximum positions.'
+b'Input'
+b"The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of Polycarp's friends and the number of received messages, respectively."
+b'The second line contains mm integers a1,a2,\xe2\x80\xa6,ama1,a2,\xe2\x80\xa6,am (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) \xe2\x80\x94 the descriptions of the received messages.'
+b'Output'
+b'Print nn pairs of integers. For each friend output the minimum and the maximum positions he has been in the beginning and after receiving each message.'
+Tags
+data structures, *2000

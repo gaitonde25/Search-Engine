@@ -1,0 +1,10 @@
+b"Chloe, the same as Vladik, is a competitive programmer. She didn't have any problems to get to the olympiad like Vladik, but she was confused by the task proposed on the olympiad."
+b"Let's consider the following algorithm of generating a sequence of integers. Initially we have a sequence consisting of a single element equal to 1. Then we perform (n\xe2\x80\x89-\xe2\x80\x891) steps. On each step we take the sequence we've got on the previous step, append it to the end of itself and insert in the middle the minimum positive integer we haven't used before. For example, we get the sequence [1,\xe2\x80\x892,\xe2\x80\x891] after the first step, the sequence [1,\xe2\x80\x892,\xe2\x80\x891,\xe2\x80\x893,\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x891] after the second step."
+b'The task is to find the value of the element with index k (the elements are numbered from 1) in the obtained sequence, i.\xc2\xa0e. after (n\xe2\x80\x89-\xe2\x80\x891) steps.'
+b'Please help Chloe to solve the problem!'
+b'Input'
+b'The only line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892n\xe2\x80\x89-\xe2\x80\x891).'
+b'Output'
+b'Print single integer\xc2\xa0\xe2\x80\x94 the integer at the k-th position in the obtained sequence.'
+Tags
+binary search, bitmasks, constructive algorithms, implementation, *1200

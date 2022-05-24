@@ -1,0 +1,9 @@
+b"In one of the games Arkady is fond of the game process happens on a rectangular field. In the game process Arkady can buy extensions for his field, each extension enlarges one of the field sizes in a particular number of times. Formally, there are n extensions, the i-th of them multiplies the width or the length (by Arkady's choice) by ai. Each extension can't be used more than once, the extensions can be used in any order."
+b"Now Arkady's field has size h\xe2\x80\x89\xc3\x97\xe2\x80\x89w. He wants to enlarge it so that it is possible to place a rectangle of size a\xe2\x80\x89\xc3\x97\xe2\x80\x89b on it (along the width or along the length, with sides parallel to the field sides). Find the minimum number of extensions needed to reach Arkady's goal."
+b'Input'
+b'The first line contains five integers a, b, h, w and n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b,\xe2\x80\x89h,\xe2\x80\x89w,\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the sizes of the rectangle needed to be placed, the initial sizes of the field and the number of available extensions.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), where ai equals the integer a side multiplies by when the i-th extension is applied.'
+b'Output'
+b"Print the minimum number of extensions needed to reach Arkady's goal. If it is not possible to place the rectangle on the field with all extensions, print -1. If the rectangle can be placed on the initial field, print 0."
+Tags
+brute force, dp, meet-in-the-middle, *2100

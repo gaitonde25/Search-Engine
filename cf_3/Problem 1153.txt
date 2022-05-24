@@ -1,0 +1,12 @@
+b'A bracket sequence is called regular if it is possible to obtain correct arithmetic expression by inserting characters + and 1 into this sequence. For example, sequences (())(), () and (()(())) are regular, while )(, (() and (()))( are not. Let\'s call a regular bracket sequence "RBS".'
+b'You are given a sequence ss of nn characters (, ), and/or ?. There is exactly one character ( and exactly one character ) in this sequence.'
+b'You have to replace every character ? with either ) or ( (different characters ? can be replaced with different brackets). You cannot reorder the characters, remove them, insert other characters, and each ? must be replaced.'
+b'Determine if it is possible to obtain an RBS after these replacements.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of one line containing ss (2\xe2\x89\xa4|s|\xe2\x89\xa41002\xe2\x89\xa4|s|\xe2\x89\xa4100) \xe2\x80\x94 a sequence of characters (, ), and/or ?. There is exactly one character ( and exactly one character ) in this sequence.'
+b'Output'
+b'For each test case, print YES if it is possible to obtain a regular bracket sequence, or NO otherwise}. '
+b'You may print each letter in any case (for example, YES, Yes, yes, yEs will all be recognized as positive answer).'
+Tags
+constructive algorithms, greedy, *1000

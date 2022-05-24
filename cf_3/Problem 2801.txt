@@ -1,0 +1,10 @@
+b'You are given a rooted tree with nn nodes, labeled from 11 to nn. The tree is rooted at node 11. The parent of the ii-th node is pipi. A leaf is node with no children. For a given set of leaves LL, let f(L)f(L) denote the smallest connected subgraph that contains all leaves LL.'
+b'You would like to partition the leaves such that for any two different sets x,yx,y of the partition, f(x)f(x) and f(y)f(y) are disjoint. '
+b'Count the number of ways to partition the leaves, modulo 998244353998244353. Two ways are different if there are two leaves such that they are in the same set in one way but in different sets in the other.'
+b'Input'
+b'The first line contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa42000002\xe2\x89\xa4n\xe2\x89\xa4200000)\xc2\xa0\xe2\x80\x94 the number of nodes in the tree.'
+b'The next line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3,\xe2\x80\xa6,pnp2,p3,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi<i1\xe2\x89\xa4pi<i). '
+b'Output'
+b'Print a single integer, the number of ways to partition the leaves, modulo 998244353998244353.'
+Tags
+dp, trees, *2500

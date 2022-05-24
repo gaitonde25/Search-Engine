@@ -1,0 +1,7 @@
+b'You are given a quadratic equation with integer coefficients A\xe2\x80\x89*\xe2\x80\x89X2\xe2\x80\x89+\xe2\x80\x89B\xe2\x80\x89*\xe2\x80\x89X\xe2\x80\x89+\xe2\x80\x89C\xe2\x80\x89=\xe2\x80\x890. It is guaranteed that A\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x890 and that the equation has at least one real root. Output the roots of the equation.'
+b'Input'
+b'The only line of input contains integers A,\xe2\x80\x89B and C (\xe2\x80\x89-\xe2\x80\x891000\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89A,\xe2\x80\x89B,\xe2\x80\x89C\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000,\xe2\x80\x89A\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x890), separated by spaces.'
+b'Output'
+b'Output the roots of the equation in increasing order. If the equation has a single root of multiplicity 2, output it once. The root is considered to be correct if its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x894.'
+Tags
+*special problem, *1500

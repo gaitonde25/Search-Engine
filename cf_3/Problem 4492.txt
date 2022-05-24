@@ -1,0 +1,10 @@
+b'Stepan has a very big positive integer.'
+b"Let's consider all cyclic shifts of Stepan's integer (if we look at his integer like at a string) which are also integers (i.e. they do not have leading zeros). Let's call such shifts as good shifts. For example, for the integer 10203 the good shifts are the integer itself 10203 and integers 20310 and 31020."
+b'Stepan wants to know the minimum remainder of the division by the given number m among all good shifts. Your task is to determine the minimum remainder of the division by m.'
+b'Input'
+b"The first line contains the integer which Stepan has. The length of Stepan's integer is between 2 and 200\xe2\x80\x89000 digits, inclusive. It is guaranteed that Stepan's integer does not contain leading zeros."
+b'The second line contains the integer m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89108) \xe2\x80\x94 the number by which Stepan divides good shifts of his integer.'
+b'Output'
+b'Print the minimum remainder which Stepan can get if he divides all good shifts of his integer by the given number m.'
+Tags
+*special problem, math, number theory, *2300

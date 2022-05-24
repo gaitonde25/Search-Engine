@@ -1,0 +1,12 @@
+b'After battling Shikamaru, Tayuya decided that her flute is too predictable, and replaced it with a guitar. The guitar has 66 strings and an infinite number of frets numbered from 11. Fretting the fret number jj on the ii-th string produces the note ai+jai+j.'
+b'Tayuya wants to play a melody of nn notes. Each note can be played on different string-fret combination. The easiness of performance depends on the difference between the maximal and the minimal indices of used frets. The less this difference is, the easier it is to perform the technique. Please determine the minimal possible difference.'
+b'For example, if a=[1,1,2,2,3,3]a=[1,1,2,2,3,3], and the sequence of notes is 4,11,11,12,12,13,134,11,11,12,12,13,13 (corresponding to the second example), we can play the first note on the first string, and all the other notes on the sixth string. Then the maximal fret will be 1010, the minimal one will be 33, and the answer is 10\xe2\x88\x923=710\xe2\x88\x923=7, as shown on the picture.'
+b'  '
+b'Input'
+b"The first line contains 66 space-separated numbers a1a1, a2a2, ..., a6a6 (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) which describe the Tayuya's strings."
+b'The second line contains the only integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000) standing for the number of notes in the melody.'
+b"The third line consists of nn integers b1b1, b2b2, ..., bnbn (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109), separated by space. They describe the notes to be played. It's guaranteed that bi>ajbi>aj for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n and 1\xe2\x89\xa4j\xe2\x89\xa461\xe2\x89\xa4j\xe2\x89\xa46, in other words, you can play each note on any string."
+b'Output'
+b'Print the minimal possible difference of the maximal and the minimal indices of used frets.'
+Tags
+binary search, brute force, dp, implementation, sortings, two pointers, *1900

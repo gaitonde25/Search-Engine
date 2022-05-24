@@ -1,0 +1,12 @@
+b"It was the third month of remote learning, Nastya got sick of staying at dormitory, so she decided to return to her hometown. In order to make her trip more entertaining, one of Nastya's friend presented her an integer array aa. "
+b'Several hours after starting her journey home Nastya remembered about the present. To entertain herself she decided to check, are there four different indices x,y,z,wx,y,z,w such that ax+ay=az+awax+ay=az+aw.'
+b"Her train has already arrived the destination, but she still hasn't found the answer. Can you help her unravel the mystery?"
+b'Input'
+b'The first line contains the single integer nn (4\xe2\x89\xa4n\xe2\x89\xa42000004\xe2\x89\xa4n\xe2\x89\xa4200000)\xc2\xa0\xe2\x80\x94 the size of the array.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa42.5\xe2\x8b\x851061\xe2\x89\xa4ai\xe2\x89\xa42.5\xe2\x8b\x85106).'
+b'Output'
+b'Print "YES" if there are such four indices, and "NO" otherwise.'
+b'If such indices exist, print these indices xx, yy, zz and ww (1\xe2\x89\xa4x,y,z,w\xe2\x89\xa4n1\xe2\x89\xa4x,y,z,w\xe2\x89\xa4n).'
+b'If there are multiple answers, print any of them.'
+Tags
+brute force, hashing, implementation, math, *1800

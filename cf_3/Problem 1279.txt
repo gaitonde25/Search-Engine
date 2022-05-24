@@ -1,0 +1,17 @@
+b'You are given an array aa of nn positive integers.'
+b'You can use the following operation as many times as you like: select any integer 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n and do one of two things: '
+b'  decrement by one kk of the first elements of the array.  decrement by one kk of the last elements of the array. '
+b'For example, if n=5n=5 and a=[3,2,2,1,4]a=[3,2,2,1,4], then you can apply one of the following operations to it (not all possible options are listed below): '
+b'  decrement from the first two elements of the array. After this operation a=[2,1,2,1,4]a=[2,1,2,1,4];  decrement from the last three elements of the array. After this operation a=[3,2,1,0,3]a=[3,2,1,0,3];  decrement from the first five elements of the array. After this operation a=[2,1,1,0,3]a=[2,1,1,0,3]; '
+b'Determine if it is possible to make all the elements of the array equal to zero by applying a certain number of operations.'
+b'Input'
+b'The first line contains one positive integer tt (1\xe2\x89\xa4t\xe2\x89\xa4300001\xe2\x89\xa4t\xe2\x89\xa430000)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case begins with a line containing one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4300001\xe2\x89\xa4n\xe2\x89\xa430000)\xc2\xa0\xe2\x80\x94 the number of elements in the array.'
+b'The second line of each test case contains nn integers a1\xe2\x80\xa6ana1\xe2\x80\xa6an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106).'
+b'The sum of nn over all test cases does not exceed 3000030000.'
+b'Output'
+b'For each test case, output on a separate line: '
+b'  YES, if it is possible to make all elements of the array equal to zero by applying a certain number of operations.  NO, otherwise. '
+b'The letters in the words YES and NO can be outputed in any case.'
+Tags
+constructive algorithms, dp, greedy, *1800

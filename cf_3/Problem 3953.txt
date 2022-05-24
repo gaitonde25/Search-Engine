@@ -1,0 +1,13 @@
+b'You are given a connected undirected graph with n vertices and m edges. The vertices are enumerated from 1 to n. '
+b'You are given n integers c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cn, each of them is between \xe2\x80\x89-\xe2\x80\x89n and n, inclusive. It is also guaranteed that the parity of cv equals the parity of degree of vertex v. The degree of a vertex is the number of edges connected to it.'
+b'You are to write a weight between \xe2\x80\x89-\xe2\x80\x892\xc2\xb7n2 and 2\xc2\xb7n2 (inclusive) on each edge in such a way, that for each vertex v the sum of weights on edges connected to this vertex is equal to cv, or determine that this is impossible.'
+b'Input'
+b'The first line contains two integers n and m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, n\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of vertices and the number of edges.'
+b'The next line contains n integers c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cn (\xe2\x80\x89-\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), where ci is the required sum of weights of edges connected to vertex i. It is guaranteed that the parity of ci equals the parity of degree of vertex i.'
+b'The next m lines describe edges of the graph. The i-th of these lines contains two integers ai and bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n; ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89bi), meaning that the i-th edge connects vertices ai and bi.'
+b'It is guaranteed that the given graph is connected and does not contain loops and multiple edges.'
+b'Output'
+b'If there is no solution, print "NO".'
+b'Otherwise print "YES" and then m lines, the i-th of them is the weight of the i-th edge wi (\xe2\x80\x89-\xe2\x80\x892\xc2\xb7n2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7n2).'
+Tags
+constructive algorithms, dfs and similar, graphs, *2700

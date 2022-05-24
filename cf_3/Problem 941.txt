@@ -1,0 +1,10 @@
+b'You are standing in front of the room with great treasures. The only thing stopping you is the door with a push-button combination lock. This lock has dd buttons with digits from 00 to d\xe2\x88\x921d\xe2\x88\x921. Whenever you press a button, it stays pushed down. You can not pop back up just one button, but there is a "RESET" button\xc2\xa0\xe2\x80\x94 pressing it pops up all other buttons. Initially, no buttons are pushed down.'
+b"The door instantly opens when some specific set of digits is pushed down. Sadly, you don't know the password for it. Having read the documentation for this specific lock, you found out that there are nn possible passwords for this particular lock. "
+b'Find the shortest sequence of button presses, such that all possible passwords appear at least once during its execution. Any shortest correct sequence of button presses will be accepted.'
+b'Input'
+b'The first line contains two integers dd and nn (1\xe2\x89\xa4d\xe2\x89\xa4101\xe2\x89\xa4d\xe2\x89\xa410; 1\xe2\x89\xa4n\xe2\x89\xa42d\xe2\x88\x9211\xe2\x89\xa4n\xe2\x89\xa42d\xe2\x88\x921). Next nn lines describe possible passwords. Each line contains a string sisi of dd zeros and ones: for all jj from 11 to dd the jj-th character is 1 iff the button with the digit j\xe2\x88\x921j\xe2\x88\x921 must be pushed down.'
+b'All strings sisi are different, and each string contains at least one 1.'
+b'Output'
+b'On the first line, print the number kk\xc2\xa0\xe2\x80\x94 the minimum number of button presses. On the second line, print kk tokens, describing the sequence. Whenever you press a button with a digit, print that digit. Whenever you press "RESET", print "R".'
+Tags
+flows, graph matchings, graphs, *2600

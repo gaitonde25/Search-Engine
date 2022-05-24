@@ -1,0 +1,16 @@
+b'You are given an array AA, consisting of nn positive integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, and an array BB, consisting of mm positive integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm. '
+b"Choose some element aa of AA and some element bb of BB such that a+ba+b doesn't belong to AA and doesn't belong to BB. "
+b"For example, if A=[2,1,7]A=[2,1,7] and B=[1,3,4]B=[1,3,4], we can choose 11 from AA and 44 from BB, as number 5=1+45=1+4 doesn't belong to AA and doesn't belong to BB. However, we can't choose 22 from AA and 11 from BB, as 3=2+13=2+1 belongs to BB."
+b'It can be shown that such a pair exists. If there are multiple answers, print any.'
+b'Choose and print any such two numbers.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of elements of AA.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa42001\xe2\x89\xa4ai\xe2\x89\xa4200)\xc2\xa0\xe2\x80\x94 the elements of AA.'
+b'The third line contains one integer mm (1\xe2\x89\xa4m\xe2\x89\xa41001\xe2\x89\xa4m\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of elements of BB.'
+b'The fourth line contains mm different integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (1\xe2\x89\xa4bi\xe2\x89\xa42001\xe2\x89\xa4bi\xe2\x89\xa4200)\xc2\xa0\xe2\x80\x94 the elements of BB.'
+b'It can be shown that the answer always exists.'
+b'Output'
+b"Output two numbers aa and bb such that aa belongs to AA, bb belongs to BB, but a+ba+b doesn't belong to nor AA neither BB."
+b'If there are multiple answers, print any.'
+Tags
+math, sortings, *800

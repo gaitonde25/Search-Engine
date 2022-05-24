@@ -1,0 +1,9 @@
+b'Your friend recently gave you some slimes for your birthday. You have n slimes all initially with value 1.'
+b'You are going to play a game with these slimes. Initially, you put a single slime by itself in a row. Then, you will add the other n\xe2\x80\x89-\xe2\x80\x891 slimes one by one. When you add a slime, you place it at the right of all already placed slimes. Then, while the last two slimes in the row have the same value v, you combine them together to create a slime with value v\xe2\x80\x89+\xe2\x80\x891.'
+b"You would like to see what the final state of the row is after you've added all n slimes. Please print the values of the slimes in the row from left to right."
+b'Input'
+b'The first line of the input will contain a single integer, n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000).'
+b'Output'
+b"Output a single line with k integers, where k is the number of slimes in the row after you've finished the procedure described in the problem statement. The i-th of these numbers should be the value of the i-th slime from the left."
+Tags
+implementation, *800

@@ -1,0 +1,15 @@
+b"After getting bored by playing with crayons, you decided to switch to Legos! Today, you're working with a long strip, with height 11 and length nn, some positions of which are occupied by 11 by 11 Lego pieces."
+b"In one second, you can either remove two adjacent Lego pieces from the strip (if both are present), or add two Lego pieces to adjacent positions (if both are absent). You can only add or remove Lego's at two adjacent positions at the same time, as otherwise your chubby fingers run into precision issues."
+b"You want to know exactly how much time you'll spend playing with Legos. You value efficiency, so given some starting state and some ending state, you'll always spend the least number of seconds to transform the starting state into the ending state. If it's impossible to transform the starting state into the ending state, you just skip it (so you spend 00 seconds)."
+b"The issue is that, for some positions, you don't remember whether there were Legos there or not (in either the starting state, the ending state, or both). Over all pairs of (starting state, ending state) that are consistent with your memory, find the total amount of time it will take to transform the starting state to the ending state. Print this value modulo 10000000071000000007 (109+7109+7). "
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt cases follow.'
+b'The first line of each test case contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa420002\xe2\x89\xa4n\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the size of the Lego strip.'
+b'The second line of each test case contains a string ss of length nn, consisting of the characters 0, 1, and ?\xc2\xa0\xe2\x80\x94 your memory of the starting state: '
+b"  1 represents a position that definitely has a Lego piece,  0 represents a position that definitely does not have a Lego piece,  and ? represents a position that you don't remember. "
+b'The third line of each test case contains a string tt of length nn, consisting of the characters 0, 1, and ?\xc2\xa0\xe2\x80\x94 your memory of the ending state. It follows a similar format to the starting state.'
+b"It's guaranteed that the sum of nn over all test cases doesn't exceed 20002000."
+b'Output'
+b'For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the answer to the problem modulo 10000000071000000007 (109+7109+7). '
+Tags
+combinatorics, dp, math, *2800

@@ -1,0 +1,12 @@
+b'Spring has come, and the management of the AvtoBus bus fleet has given the order to replace winter tires with summer tires on all buses.'
+b'You own a small bus service business and you have just received an order to replace nn tires. You know that the bus fleet owns two types of buses: with two axles (these buses have 44 wheels) and with three axles (these buses have 66 wheels).'
+b"You don't know how many buses of which type the AvtoBus bus fleet owns, so you wonder how many buses the fleet might have. You have to determine the minimum and the maximum number of buses that can be in the fleet if you know that the total number of wheels for all buses is nn."
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. The following lines contain description of test cases.'
+b'The only line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018)\xc2\xa0\xe2\x80\x94 the total number of wheels for all buses.'
+b'Output'
+b'For each test case print the answer in a single line using the following format.'
+b'Print two integers xx and yy (1\xe2\x89\xa4x\xe2\x89\xa4y1\xe2\x89\xa4x\xe2\x89\xa4y)\xc2\xa0\xe2\x80\x94 the minimum and the maximum possible number of buses that can be in the bus fleet.'
+b'If there is no suitable number of buses for the given nn, print the number \xe2\x88\x921\xe2\x88\x921 as the answer.'
+Tags
+brute force, greedy, math, number theory, *900

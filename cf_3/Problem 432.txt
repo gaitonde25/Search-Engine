@@ -1,0 +1,16 @@
+b'A known chef has prepared nn dishes: the ii-th dish consists of aiai grams of fish and bibi grams of meat. '
+b'The banquet organizers estimate the balance of nn dishes as follows. The balance is equal to the absolute value of the difference between the total mass of fish and the total mass of meat.'
+b'Technically, the balance equals to \xe2\x88\xa3\xe2\x88\xa3\xe2\x88\xa3\xe2\x88\x91i=1nai\xe2\x88\x92\xe2\x88\x91i=1nbi\xe2\x88\xa3\xe2\x88\xa3\xe2\x88\xa3|\xe2\x88\x91i=1nai\xe2\x88\x92\xe2\x88\x91i=1nbi|. The smaller the balance, the better.'
+b'In order to improve the balance, a taster was invited. He will eat exactly mm grams of food from each dish. For each dish, the taster determines separately how much fish and how much meat he will eat. The only condition is that he should eat exactly mm grams of each dish in total.'
+b'Determine how much of what type of food the taster should eat from each dish so that the value of the balance is as minimal as possible. If there are several correct answers, you may choose any of them.'
+b'Input'
+b'The first line of input data contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of the test cases.'
+b"Each test case's description is preceded by a blank line. Next comes a line that contains integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 0\xe2\x89\xa4m\xe2\x89\xa41060\xe2\x89\xa4m\xe2\x89\xa4106). The next nn lines describe dishes, the ii-th of them contains a pair of integers aiai and bibi (0\xe2\x89\xa4ai,bi\xe2\x89\xa41060\xe2\x89\xa4ai,bi\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the masses of fish and meat in the ii-th dish."
+b'It is guaranteed that it is possible to eat mm grams of food from each dish. In other words, m\xe2\x89\xa4ai+bim\xe2\x89\xa4ai+bi for all ii from 11 to nn inclusive.'
+b'The sum of all nn values over all test cases in the test does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print on the first line the minimal balance value that can be achieved by eating exactly mm grams of food from each dish.'
+b'Then print nn lines that describe a way to do this: the ii-th line should contain two integers xixi and yiyi (0\xe2\x89\xa4xi\xe2\x89\xa4ai0\xe2\x89\xa4xi\xe2\x89\xa4ai; 0\xe2\x89\xa4yi\xe2\x89\xa4bi0\xe2\x89\xa4yi\xe2\x89\xa4bi; xi+yi=mxi+yi=m), where xixi is how many grams of fish taster should eat from the ii-th meal and yiyi is how many grams of meat.'
+b'If there are several ways to achieve a minimal balance, find any of them.'
+Tags
+greedy, *2200

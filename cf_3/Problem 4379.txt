@@ -1,0 +1,11 @@
+b'Heidi is a statistician to the core, and she likes to study the evolution of marmot populations in each of V (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89V\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) villages! So it comes that every spring, when Heidi sees the first snowdrops sprout in the meadows around her barn, she impatiently dons her snowshoes and sets out to the Alps, to welcome her friends the marmots to a new season of thrilling adventures.'
+b"Arriving in a village, Heidi asks each and every marmot she comes across for the number of inhabitants of that village. This year, the marmots decide to play an April Fools' joke on Heidi. Instead of consistently providing the exact number of inhabitants P (10\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89P\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) of the village, they respond with a random non-negative integer k, drawn from one of two types of probability distributions:"
+b"  Poisson (d'avril) distribution: the probability of getting an answer k is  for k\xe2\x80\x89=\xe2\x80\x890,\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x893,\xe2\x80\x89...,  Uniform distribution: the probability of getting an answer k is  for k\xe2\x80\x89=\xe2\x80\x890,\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x892P. "
+b"Heidi collects exactly 250 answers per village. Every village follows either the Poisson or the uniform distribution. Heidi cannot tell marmots apart, so she may query some marmots several times, and each time the marmot will answer with a new number drawn from the village's distribution."
+b'Can you help Heidi to find out whether a village follows a Poisson or a uniform distribution?'
+b'Input'
+b'The first line of input will contain the number of villages V (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89V\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100). The following V lines each describe one village. The description of each village consists of 250 space-separated integers k, drawn from one of the above distributions.'
+b'Output'
+b"Output one line per village, in the same order as provided in the input. The village's line shall state poisson if the village's distribution is of the Poisson type, and uniform if the answer came from a uniform distribution."
+Tags
+math, *2100

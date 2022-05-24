@@ -1,0 +1,13 @@
+b'There are nn students at your university. The programming skill of the ii-th student is aiai. As a coach, you want to divide them into teams to prepare them for the upcoming ICPC finals. Just imagine how good this university is if it has 2\xe2\x8b\x851052\xe2\x8b\x85105 students ready for the finals!'
+b'Each team should consist of at least three students. Each student should belong to exactly one team. The diversity of a team is the difference between the maximum programming skill of some student that belongs to this team and the minimum programming skill of some student that belongs to this team (in other words, if the team consists of kk students with programming skills a[i1],a[i2],\xe2\x80\xa6,a[ik]a[i1],a[i2],\xe2\x80\xa6,a[ik], then the diversity of this team is maxj=1ka[ij]\xe2\x88\x92minj=1ka[ij]maxj=1ka[ij]\xe2\x88\x92minj=1ka[ij]).'
+b'The total diversity is the sum of diversities of all teams formed.'
+b'Your task is to minimize the total diversity of the division of students and find the optimal way to divide the students.'
+b'Input'
+b'The first line of the input contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of students.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is the programming skill of the ii-th student.'
+b'Output'
+b'In the first line print two integers resres and kk \xe2\x80\x94 the minimum total diversity of the division of students and the number of teams in your division, correspondingly.'
+b'In the second line print nn integers t1,t2,\xe2\x80\xa6,tnt1,t2,\xe2\x80\xa6,tn (1\xe2\x89\xa4ti\xe2\x89\xa4k1\xe2\x89\xa4ti\xe2\x89\xa4k), where titi is the number of team to which the ii-th student belong.'
+b"If there are multiple answers, you can print any. Note that you don't need to minimize the number of teams. Each team should consist of at least three students."
+Tags
+dp, greedy, sortings, *2000

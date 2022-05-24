@@ -1,0 +1,8 @@
+b"It is a balmy spring afternoon, and Farmer John's n cows are ruminating about link-cut cacti in their stalls. The cows, labeled 1 through n, are arranged so that the i-th cow occupies the i-th stall from the left. However, Elsie, after realizing that she will forever live in the shadows beyond Bessie's limelight, has formed the Mischievous Mess Makers and is plotting to disrupt this beautiful pastoral rhythm. While Farmer John takes his k minute long nap, Elsie and the Mess Makers plan to repeatedly choose two distinct stalls and swap the cows occupying those stalls, making no more than one swap each minute."
+b'Being the meticulous pranksters that they are, the Mischievous Mess Makers would like to know the maximum messiness attainable in the k minutes that they have. We denote as pi the label of the cow in the i-th stall. The messiness of an arrangement of cows is defined as the number of pairs (i,\xe2\x80\x89j) such that i\xe2\x80\x89<\xe2\x80\x89j and pi\xe2\x80\x89>\xe2\x80\x89pj.'
+b'Input'
+b"The first line of the input contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of cows and the length of Farmer John's nap, respectively."
+b'Output'
+b'Output a single integer, the maximum messiness that the Mischievous Mess Makers can achieve by performing no more than k swaps. '
+Tags
+greedy, math, *1200

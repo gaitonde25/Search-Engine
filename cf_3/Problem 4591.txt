@@ -1,0 +1,12 @@
+b"PolandBall is playing a game with EnemyBall. The rules are simple. Players have to say words in turns. You cannot say a word which was already said. PolandBall starts. The Ball which can't say a new word loses."
+b"You're given two lists of words familiar to PolandBall and EnemyBall. Can you determine who wins the game, if both play optimally?"
+b'Input'
+b'The first input line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89103)\xc2\xa0\xe2\x80\x94 number of words PolandBall and EnemyBall know, respectively.'
+b'Then n strings follow, one per line\xc2\xa0\xe2\x80\x94 words familiar to PolandBall.'
+b'Then m strings follow, one per line\xc2\xa0\xe2\x80\x94 words familiar to EnemyBall.'
+b'Note that one Ball cannot know a word more than once (strings are unique), but some words can be known by both players.'
+b'Each word is non-empty and consists of no more than 500 lowercase English alphabet letters.'
+b'Output'
+b'In a single line of print the answer\xc2\xa0\xe2\x80\x94 "YES" if PolandBall wins and "NO" otherwise. Both Balls play optimally.'
+Tags
+binary search, data structures, games, greedy, sortings, strings, *1100

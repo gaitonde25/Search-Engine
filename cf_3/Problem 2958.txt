@@ -1,0 +1,15 @@
+b'The tic-tac-toe game is starting on a tree of nn vertices. Some vertices are already colored in white while the remaining are uncolored.'
+b'There are two players\xc2\xa0\xe2\x80\x94 white and black. The players make moves alternatively. The white player starts the game. In his turn, a player must select one uncolored vertex and paint it in his color.'
+b'The player wins if he paints some path of three vertices in his color. In case all vertices are colored and neither player won, the game ends in a draw.'
+b'Could you please find who will win the game or whether it ends as a draw, assuming both players play optimally? '
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa4500001\xe2\x89\xa4T\xe2\x89\xa450000)\xc2\xa0\xe2\x80\x94 the number of test cases. Then descriptions of TT test cases follow.'
+b'The first line of each test contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'Each of the following n\xe2\x88\x921n\xe2\x88\x921 lines contains integers vv, uu (1\xe2\x89\xa4v,u\xe2\x89\xa4n1\xe2\x89\xa4v,u\xe2\x89\xa4n) denoting an edge of the tree connecting vertices vv and uu.'
+b"The last line of a test case contains a string of letters 'W' (for white) and 'N' (for not colored) of length nn denoting already colored vertices. Vertexes already colored in white are denoted as 'W'."
+b"It's guaranteed that the given edges form a tree, that there is at least one uncolored vertex and that there is no path of three white vertices."
+b"It's guaranteed that sum of all nn among all test cases is at most 5\xe2\x8b\x851055\xe2\x8b\x85105."
+b'Output'
+b'For every test case, print either "White", "Draw" or "Black", depending on the result of the game.'
+Tags
+constructive algorithms, games, trees, *3100

@@ -1,0 +1,11 @@
+b"David was given a red checkered rectangle of size n\xc3\x97mn\xc3\x97m. But he doesn't like it. So David cuts the original or any other rectangle piece obtained during the cutting into two new pieces along the grid lines. He can do this operation as many times as he wants."
+b'As a result, he will get a set of rectangles. Rectangles 1\xc3\x9711\xc3\x971 are forbidden.'
+b'David also knows how to paint the cells blue. He wants each rectangle from the resulting set of pieces to be colored such that any pair of adjacent cells by side (from the same piece) have different colors.'
+b'What is the minimum number of cells David will have to paint?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the number of test cases. The next lines contain descriptions of test cases.'
+b'The only line of each test case contains two integers nn, mm (1\xe2\x89\xa4n,m\xe2\x89\xa43\xe2\x8b\x851041\xe2\x89\xa4n,m\xe2\x89\xa43\xe2\x8b\x85104, n\xe2\x8b\x85m\xe2\x89\xa52n\xe2\x8b\x85m\xe2\x89\xa52).'
+b'Output'
+b'For each test case print a single integer \xe2\x80\x94 the minimum number of cells David will have to paint blue.'
+Tags
+greedy, math, *1000

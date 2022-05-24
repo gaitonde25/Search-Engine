@@ -1,0 +1,11 @@
+b'You are given a string ss consisting of nn lowercase Latin letters.'
+b'You have to remove at most one (i.e. zero or one) character of this string in such a way that the string you obtain will be lexicographically smallest among all strings that can be obtained using this operation.'
+b'String s=s1s2\xe2\x80\xa6sns=s1s2\xe2\x80\xa6sn is lexicographically smaller than string t=t1t2\xe2\x80\xa6tmt=t1t2\xe2\x80\xa6tm if n<mn<m and s1=t1,s2=t2,\xe2\x80\xa6,sn=tns1=t1,s2=t2,\xe2\x80\xa6,sn=tn or there exists a number pp such that p\xe2\x89\xa4min(n,m)p\xe2\x89\xa4min(n,m) and s1=t1,s2=t2,\xe2\x80\xa6,sp\xe2\x88\x921=tp\xe2\x88\x921s1=t1,s2=t2,\xe2\x80\xa6,sp\xe2\x88\x921=tp\xe2\x88\x921 and sp<tpsp<tp.'
+b'For example, "aaa" is smaller than "aaaa", "abb" is smaller than "abc", "pqr" is smaller than "z".'
+b'Input'
+b'The first line of the input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of ss.'
+b'The second line of the input contains exactly nn lowercase Latin letters \xe2\x80\x94 the string ss.'
+b'Output'
+b'Print one string \xe2\x80\x94 the smallest possible lexicographically string that can be obtained by removing at most one character from the string ss.'
+Tags
+greedy, strings, *1200

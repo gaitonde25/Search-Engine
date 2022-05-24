@@ -1,0 +1,11 @@
+b'Monocarp is playing a game "Assimilation IV". In this game he manages a great empire: builds cities and conquers new lands.'
+b"Monocarp's empire has nn cities. In order to conquer new lands he plans to build one Monument in each city. The game is turn-based and, since Monocarp is still amateur, he builds exactly one Monument per turn."
+b"Monocarp has mm points on the map he'd like to control using the constructed Monuments. For each point he knows the distance between it and each city. Monuments work in the following way: when built in some city, a Monument controls all points at distance at most 11 to this city. Next turn, the Monument controls all points at distance at most 22, the turn after\xc2\xa0\xe2\x80\x94 at distance at most 33, and so on. Monocarp will build nn Monuments in nn turns and his empire will conquer all points that are controlled by at least one Monument."
+b"Monocarp can't figure out any strategy, so during each turn he will choose a city for a Monument randomly among all remaining cities (cities without Monuments). Monocarp wants to know how many points (among mm of them) he will conquer at the end of turn number nn. Help him to calculate the expected number of conquered points!"
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa4201\xe2\x89\xa4n\xe2\x89\xa420; 1\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x851041\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x85104)\xc2\xa0\xe2\x80\x94 the number of cities and the number of points.'
+b'Next nn lines contains mm integers each: the jj-th integer of the ii-th line di,jdi,j (1\xe2\x89\xa4di,j\xe2\x89\xa4n+11\xe2\x89\xa4di,j\xe2\x89\xa4n+1) is the distance between the ii-th city and the jj-th point.'
+b'Output'
+b'It can be shown that the expected number of points Monocarp conquers at the end of the nn-th turn can be represented as an irreducible fraction xyxy. Print this fraction modulo 998244353998244353, i.\xc2\xa0e. value x\xe2\x8b\x85y\xe2\x88\x921mod998244353x\xe2\x8b\x85y\xe2\x88\x921mod998244353 where y\xe2\x88\x921y\xe2\x88\x921 is such number that y\xe2\x8b\x85y\xe2\x88\x921mod998244353=1y\xe2\x8b\x85y\xe2\x88\x921mod998244353=1.'
+Tags
+combinatorics, dp, math, probabilities, two pointers, *2100

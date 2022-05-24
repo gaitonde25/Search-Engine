@@ -1,0 +1,11 @@
+b"Let's define the function ff of multiset aa as the multiset of number of occurences of every number, that is present in aa."
+b'E.g., f({5,5,1,2,5,2,3,3,9,5})={1,1,2,2,4}f({5,5,1,2,5,2,3,3,9,5})={1,1,2,2,4}.'
+b"Let's define fk(a)fk(a), as applying ff to array aa kk times: fk(a)=f(fk\xe2\x88\x921(a)),f0(a)=afk(a)=f(fk\xe2\x88\x921(a)),f0(a)=a. "
+b'E.g., f2({5,5,1,2,5,2,3,3,9,5})={1,2,2}f2({5,5,1,2,5,2,3,3,9,5})={1,2,2}.'
+b'You are given integers n,kn,k and you are asked how many different values the function fk(a)fk(a) can have, where aa is arbitrary non-empty array with numbers of size no more than nn. Print the answer modulo 998244353998244353.'
+b'Input'
+b'The first and only line of input consists of two integers n,kn,k (1\xe2\x89\xa4n,k\xe2\x89\xa420201\xe2\x89\xa4n,k\xe2\x89\xa42020).'
+b'Output'
+b'Print one number\xc2\xa0\xe2\x80\x94 the number of different values of function fk(a)fk(a) on all possible non-empty arrays with no more than nn elements modulo 998244353998244353.'
+Tags
+dp, *2900

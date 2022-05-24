@@ -1,0 +1,13 @@
+b'Ramesses came to university to algorithms practice, and his professor, who is a fairly known programmer, gave him the following task.'
+b'You are given two matrices AA and BB of size n\xc3\x97mn\xc3\x97m, each of which consists of 00 and 11 only. You can apply the following operation to the matrix AA arbitrary number of times: take any submatrix of the matrix AA that has at least two rows and two columns, and invert the values in its corners (i.e. all corners of the submatrix that contain 00, will be replaced by 11, and all corners of the submatrix that contain 11, will be replaced by 00). You have to answer whether you can obtain the matrix BB from the matrix AA.'
+b'  An example of the operation. The chosen submatrix is shown in blue and yellow, its corners are shown in yellow. '
+b"Ramesses don't want to perform these operations by himself, so he asks you to answer this question."
+b'A submatrix of matrix MM is a matrix which consist of all elements which come from one of the rows with indices x1,x1+1,\xe2\x80\xa6,x2x1,x1+1,\xe2\x80\xa6,x2 of matrix MM and one of the columns with indices y1,y1+1,\xe2\x80\xa6,y2y1,y1+1,\xe2\x80\xa6,y2 of matrix MM, where x1,x2,y1,y2x1,x2,y1,y2 are the edge rows and columns of the submatrix. In other words, a submatrix is a set of elements of source matrix which form a solid rectangle (i.e. without holes) with sides parallel to the sides of the original matrix. The corners of the submatrix are cells (x1,y1)(x1,y1), (x1,y2)(x1,y2), (x2,y1)(x2,y1), (x2,y2)(x2,y2), where the cell (i,j)(i,j) denotes the cell on the intersection of the ii-th row and the jj-th column.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa45001\xe2\x89\xa4n,m\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the number of rows and the number of columns in matrices AA and BB.'
+b'Each of the next nn lines contain mm integers: the jj-th integer in the ii-th line is the jj-th element of the ii-th row of the matrix AA (0\xe2\x89\xa4Aij\xe2\x89\xa410\xe2\x89\xa4Aij\xe2\x89\xa41). '
+b'Each of the next nn lines contain mm integers: the jj-th integer in the ii-th line is the jj-th element of the ii-th row of the matrix BB (0\xe2\x89\xa4Bij\xe2\x89\xa410\xe2\x89\xa4Bij\xe2\x89\xa41). '
+b'Output'
+b'Print "Yes" (without quotes) if it is possible to transform the matrix AA to the matrix BB using the operations described above, and "No" (without quotes), if it is not possible. You can print each letter in any case (upper or lower).'
+Tags
+constructive algorithms, greedy, implementation, math, *1500

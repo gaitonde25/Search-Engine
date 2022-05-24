@@ -1,0 +1,15 @@
+b'Today is the final contest of INOI (Iranian National Olympiad in Informatics). The contest room is a row with nn computers. All computers are numbered with integers from 11 to nn from left to right. There are mm participants, numbered with integers from 11 to mm.'
+b'We have an array aa of length mm where aiai (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) is the computer behind which the ii-th participant wants to sit.'
+b"Also, we have another array bb of length mm consisting of characters 'L' and 'R'. bibi is the side from which the ii-th participant enters the room. 'L' means the participant enters from the left of computer 11 and goes from left to right, and 'R' means the participant enters from the right of computer nn and goes from right to left."
+b"The participants in the order from 11 to mm enter the room one by one. The ii-th of them enters the contest room in the direction bibi and goes to sit behind the aiai-th computer. If it is occupied he keeps walking in his direction until he reaches the first unoccupied computer. After that, he sits behind it. If he doesn't find any computer he gets upset and gives up on the contest."
+b'The madness of the ii-th participant is the distance between his assigned computer (aiai) and the computer he ends up sitting behind. The distance between computers ii and jj is equal to |i\xe2\x88\x92j||i\xe2\x88\x92j|.'
+b'The values in the array aa can be equal. There exist nm\xe2\x8b\x852mnm\xe2\x8b\x852m possible pairs of arrays (a,b)(a,b).'
+b"Consider all pairs of arrays (a,b)(a,b) such that no person becomes upset. For each of them let's calculate the sum of participants madnesses. Find the sum of all these values."
+b'You will be given some prime modulo pp. Find this sum by modulo pp.'
+b'Input'
+b'The only line contains three integers nn, mm, pp (1\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa4500,108\xe2\x89\xa4p\xe2\x89\xa4109+91\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa4500,108\xe2\x89\xa4p\xe2\x89\xa4109+9).'
+b'It is guaranteed, that the number pp is prime.'
+b'Output'
+b'Print only one integer\xc2\xa0\xe2\x80\x94 the required sum by modulo pp.'
+Tags
+combinatorics, dp, fft, *3100

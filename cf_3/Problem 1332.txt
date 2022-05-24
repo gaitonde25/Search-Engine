@@ -1,0 +1,15 @@
+b'This is an interactive problem.'
+b'To prevent the mischievous rabbits from freely roaming around the zoo, Zookeeper has set up a special lock for the rabbit enclosure. This lock is called the Rotary Laser Lock. '
+b' The lock consists of nn concentric rings numbered from 00 to n\xe2\x88\x921n\xe2\x88\x921. The innermost ring is ring 00 and the outermost ring is ring n\xe2\x88\x921n\xe2\x88\x921. All rings are split equally into nmnm sections each. Each of those rings contains a single metal arc that covers exactly mm contiguous sections. At the center of the ring is a core and surrounding the entire lock are nmnm receivers aligned to the nmnm sections.'
+b' The core has nmnm lasers that shine outward from the center, one for each section. The lasers can be blocked by any of the arcs. A display on the outside of the lock shows how many lasers hit the outer receivers.'
+b' '
+b'  '
+b'In the example above, there are n=3n=3 rings, each covering m=4m=4 sections. The arcs are colored in green (ring 00), purple (ring 11), and blue (ring 22) while the lasers beams are shown in red. There are nm=12nm=12 sections and 33 of the lasers are not blocked by any arc, thus the display will show 33 in this case.'
+b' Wabbit is trying to open the lock to free the rabbits, but the lock is completely opaque, and he cannot see where any of the arcs are. Given the relative positions of the arcs, Wabbit can open the lock on his own. '
+b' To be precise, Wabbit needs n\xe2\x88\x921n\xe2\x88\x921 integers p1,p2,\xe2\x80\xa6,pn\xe2\x88\x921p1,p2,\xe2\x80\xa6,pn\xe2\x88\x921 satisfying 0\xe2\x89\xa4pi<nm0\xe2\x89\xa4pi<nm such that for each ii (1\xe2\x89\xa4i<n)(1\xe2\x89\xa4i<n), Wabbit can rotate ring 00 clockwise exactly pipi times such that the sections that ring 00 covers perfectly aligns with the sections that ring ii covers. In the example above, the relative positions are p1=1p1=1 and p2=7p2=7.'
+b' To operate the lock, he can pick any of the nn rings and rotate them by 11 section either clockwise or anti-clockwise. You will see the number on the display after every rotation.'
+b'Because his paws are small, Wabbit has asked you to help him to find the relative positions of the arcs after all of your rotations are completed. You may perform up to 1500015000 rotations before Wabbit gets impatient.'
+b'Input'
+b'The first line consists of 2 integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4100,2\xe2\x89\xa4m\xe2\x89\xa420)(2\xe2\x89\xa4n\xe2\x89\xa4100,2\xe2\x89\xa4m\xe2\x89\xa420), indicating the number of rings and the number of sections each ring covers.'
+Tags
+binary search, interactive, *3500

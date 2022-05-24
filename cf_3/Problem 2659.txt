@@ -1,0 +1,15 @@
+b'You are given a function ff written in some basic language. The function accepts an integer value, which is immediately written into some variable xx. xx is an integer variable and can be assigned values from 00 to 232\xe2\x88\x921232\xe2\x88\x921. The function contains three types of commands:'
+b'  for nn \xe2\x80\x94 for loop;  end \xe2\x80\x94 every command between "for nn" and corresponding "end" is executed nn times;  add \xe2\x80\x94 adds 1 to xx. '
+b'After the execution of these commands, value of xx is returned.'
+b'Every "for nn" is matched with "end", thus the function is guaranteed to be valid. "for nn" can be immediately followed by "end"."add" command can be outside of any for loops.'
+b'Notice that "add" commands might overflow the value of xx! It means that the value of xx becomes greater than 232\xe2\x88\x921232\xe2\x88\x921 after some "add" command. '
+b'Now you run f(0)f(0) and wonder if the resulting value of xx is correct or some overflow made it incorrect.'
+b'If overflow happened then output "OVERFLOW!!!", otherwise print the resulting value of xx.'
+b'Input'
+b'The first line contains a single integer ll (1\xe2\x89\xa4l\xe2\x89\xa41051\xe2\x89\xa4l\xe2\x89\xa4105) \xe2\x80\x94 the number of lines in the function.'
+b'Each of the next ll lines contains a single command of one of three types:'
+b'  for nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 for loop;  end \xe2\x80\x94 every command between "for nn" and corresponding "end" is executed nn times;  add \xe2\x80\x94 adds 1 to xx. '
+b'Output'
+b'If overflow happened during execution of f(0)f(0), then output "OVERFLOW!!!", otherwise print the resulting value of xx.'
+Tags
+data structures, expression parsing, implementation, *1600

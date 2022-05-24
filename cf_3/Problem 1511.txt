@@ -1,0 +1,12 @@
+b'Boboniu gives you'
+b'  rr red balls,  gg green balls,  bb blue balls,  ww white balls. '
+b'He allows you to do the following operation as many times as you want: '
+b'  Pick a red ball, a green ball, and a blue ball and then change their color to white. '
+b"You should answer if it's possible to arrange all the balls into a palindrome after several (possibly zero) number of described operations. "
+b'Input'
+b'The first line contains one integer TT (1\xe2\x89\xa4T\xe2\x89\xa41001\xe2\x89\xa4T\xe2\x89\xa4100) denoting the number of test cases.'
+b'For each of the next TT cases, the first line contains four integers rr, gg, bb and ww (0\xe2\x89\xa4r,g,b,w\xe2\x89\xa41090\xe2\x89\xa4r,g,b,w\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print "Yes" if it\'s possible to arrange all the balls into a palindrome after doing several (possibly zero) number of described operations. Otherwise, print "No".'
+Tags
+brute force, math, *1000

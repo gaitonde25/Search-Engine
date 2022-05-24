@@ -1,0 +1,11 @@
+b"Note that the difference between easy and hard versions is that in hard version unavailable cells can become available again and in easy version can't. You can make hacks only if all versions are solved."
+b'Ildar and Ivan are tired of chess, but they really like the chessboard, so they invented a new game. The field is a chessboard 2n\xc3\x972m2n\xc3\x972m: it has 2n2n rows, 2m2m columns, and the cell in row ii and column jj is colored white if i+ji+j is even, and is colored black otherwise.'
+b'The game proceeds as follows: Ildar marks some of the white cells of the chessboard as unavailable, and asks Ivan to place n\xc3\x97mn\xc3\x97m kings on the remaining white cells in such way, so that there are no kings attacking each other. A king can attack another king if they are located in the adjacent cells, sharing an edge or a corner.'
+b'Ildar would like to explore different combinations of cells. Initially all cells are marked as available, and then he has qq queries. In each query he either marks a cell as unavailable, or marks the previously unavailable cell as available. After each query he would like to know whether it is possible to place the kings on the available cells in a desired way. Please help him!'
+b'Input'
+b'The first line of input contains three integers nn, mm, qq (1\xe2\x89\xa4n,m,q\xe2\x89\xa42000001\xe2\x89\xa4n,m,q\xe2\x89\xa4200000)\xc2\xa0\xe2\x80\x94 the size of the board and the number of queries.'
+b'qq lines follow, each of them contains a description of a query: two integers ii and jj, denoting a white cell on the board (1\xe2\x89\xa4i\xe2\x89\xa42n1\xe2\x89\xa4i\xe2\x89\xa42n, 1\xe2\x89\xa4j\xe2\x89\xa42m1\xe2\x89\xa4j\xe2\x89\xa42m, i+ji+j is even). If the cell (i,j)(i,j) was available before the query, then it becomes unavailable. Otherwise, if the cell was unavailable, it becomes available.'
+b'Output'
+b'Output qq lines, ii-th line should contain answer for a board after ii queries of Ildar. This line should contain "YES" if it is possible to place the kings on the available cells in the desired way, or "NO" otherwise.'
+Tags
+data structures, divide and conquer, *2800

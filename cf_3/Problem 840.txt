@@ -1,0 +1,12 @@
+b'You are given a tree with nn nodes, numerated from 00 to n\xe2\x88\x921n\xe2\x88\x921. For each kk between 00 and nn, inclusive, you have to count the number of unordered pairs (u,v)(u,v), u\xe2\x89\xa0vu\xe2\x89\xa0v, such that the MEX of all the node labels in the shortest path from uu to vv (including end points) is kk.'
+b'The MEX of a sequence of integers is the smallest non-negative integer that does not belong to the sequence.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. '
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines of each test case describe the tree that has to be constructed. These lines contain two integers uu and vv (0\xe2\x89\xa4u,v\xe2\x89\xa4n\xe2\x88\x9210\xe2\x89\xa4u,v\xe2\x89\xa4n\xe2\x88\x921) denoting an edge between uu and vv (u\xe2\x89\xa0vu\xe2\x89\xa0v).'
+b'It is guaranteed that the given edges form a tree.'
+b'It is also guaranteed that the sum of nn for all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print n+1n+1 integers: the number of paths in the tree, such that the MEX of all the node labels in that path is kk for each kk from 00 to nn.'
+Tags
+combinatorics, dfs and similar, implementation, math, trees, *2400

@@ -1,0 +1,7 @@
+b"Ivan has number bb. He is sorting through the numbers aa from 11 to 10181018, and for every aa writes [a,b]a[a,b]a on blackboard. Here [a,b][a,b] stands for least common multiple of aa and bb. Ivan is very lazy, that's why this task bored him soon. But he is interested in how many different numbers he would write on the board if he would finish the task. Help him to find the quantity of different numbers he would write on the board."
+b'Input'
+b'The only line contains one integer\xc2\xa0\xe2\x80\x94 bb (1\xe2\x89\xa4b\xe2\x89\xa41010)(1\xe2\x89\xa4b\xe2\x89\xa41010).'
+b'Output'
+b'Print one number\xc2\xa0\xe2\x80\x94 answer for the problem.'
+Tags
+math, number theory, *1200

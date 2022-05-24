@@ -1,0 +1,14 @@
+b'The government of Berland decided to improve network coverage in his country. Berland has a unique structure: the capital in the center and nn cities in a circle around the capital. The capital already has a good network coverage (so the government ignores it), but the ii-th city contains aiai households that require a connection.'
+b'The government designed a plan to build nn network stations between all pairs of neighboring cities which will maintain connections only for these cities. In other words, the ii-th network station will provide service only for the ii-th and the (i+1)(i+1)-th city (the nn-th station is connected to the nn-th and the 11-st city).'
+b'All network stations have capacities: the ii-th station can provide the connection to at most bibi households.'
+b'Now the government asks you to check can the designed stations meet the needs of all cities or not \xe2\x80\x94 that is, is it possible to assign each household a network station so that each network station ii provides the connection to at most bibi households.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains the single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41062\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of cities and stations.'
+b'The second line of each test case contains nn integers (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of households in the ii-th city.'
+b'The third line of each test case contains nn integers (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the capacities of the designed stations.'
+b"It's guaranteed that the sum of nn over test cases doesn't exceed 106106."
+b'Output'
+b'For each test case, print YES, if the designed stations can meet the needs of all cities, or NO otherwise (case insensitive).'
+Tags
+binary search, constructive algorithms, data structures, greedy, *2400

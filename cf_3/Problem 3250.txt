@@ -1,0 +1,12 @@
+b'You are a given a list of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and ss of its segments [lj;rj][lj;rj] (where 1\xe2\x89\xa4lj\xe2\x89\xa4rj\xe2\x89\xa4n1\xe2\x89\xa4lj\xe2\x89\xa4rj\xe2\x89\xa4n).'
+b"You need to select exactly mm segments in such a way that the kk-th order statistic of the multiset of aiai, where ii is contained in at least one segment, is the smallest possible. If it's impossible to select a set of mm segments in such a way that the multiset contains at least kk elements, print -1."
+b'The kk-th order statistic of a multiset is the value of the kk-th element after sorting the multiset in non-descending order.'
+b'Input'
+b'The first line contains four integers nn, ss, mm and kk (1\xe2\x89\xa4m\xe2\x89\xa4s\xe2\x89\xa415001\xe2\x89\xa4m\xe2\x89\xa4s\xe2\x89\xa41500, 1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa415001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41500)\xc2\xa0\xe2\x80\x94 the size of the list, the number of segments, the number of segments to choose and the statistic number.'
+b'The second line contains nn integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the values of the numbers in the list.'
+b'Each of the next ss lines contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the endpoints of the segments.'
+b'It is possible that some segments coincide.'
+b'Output'
+b"Print exactly one integer\xc2\xa0\xe2\x80\x94 the smallest possible kk-th order statistic, or -1 if it's impossible to choose segments in a way that the multiset contains at least kk elements."
+Tags
+binary search, dp, *2500

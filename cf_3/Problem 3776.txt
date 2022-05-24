@@ -1,0 +1,12 @@
+b'Ancient Egyptians are known to have used a large set of symbols  to write on the walls of the temples. Fafa and Fifa went to one of the temples and found two non-empty words S1 and S2 of equal lengths on the wall of temple written one below the other. Since this temple is very ancient, some symbols from the words were erased. The symbols in the set  have equal probability for being in the position of any erased symbol.'
+b'Fifa challenged Fafa to calculate the probability that S1 is lexicographically greater than S2. Can you help Fafa with this task?'
+b"You know that , i.\xc2\xa0e. there were m distinct characters in Egyptians' alphabet, in this problem these characters are denoted by integers from 1 to m in alphabet order. A word x is lexicographically greater than a word y of the same length, if the words are same up to some position, and then the word x has a larger character, than the word y."
+b'We can prove that the probability equals to some fraction , where P and Q are coprime integers, and . Print as the answer the value , i.\xc2\xa0e. such a non-negative integer less than 109\xe2\x80\x89+\xe2\x80\x897, such that , where  means that a and b give the same remainders when divided by m.'
+b'Input'
+b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 the length of each of the two words and the size of the alphabet , respectively.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m) \xe2\x80\x94 the symbols of S1. If ai\xe2\x80\x89=\xe2\x80\x890, then the symbol at position i was erased.'
+b'The third line contains n integers representing S2 with the same format as S1.'
+b'Output'
+b'Print the value , where P and Q are coprime and  is the answer to the problem.'
+Tags
+math, probabilities, *1900

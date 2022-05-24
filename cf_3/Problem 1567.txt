@@ -1,0 +1,10 @@
+b'Koa the Koala has a binary string ss of length nn. Koa can perform no more than n\xe2\x88\x921n\xe2\x88\x921 (possibly zero) operations of the following form:'
+b'In one operation Koa selects positions ii and i+1i+1 for some ii with 1\xe2\x89\xa4i<|s|1\xe2\x89\xa4i<|s| and sets sisi to max(si,si+1)max(si,si+1). Then Koa deletes position i+1i+1 from ss (after the removal, the remaining parts are concatenated).'
+b'Note that after every operation the length of ss decreases by 11.'
+b'How many different binary strings can Koa obtain by doing no more than n\xe2\x88\x921n\xe2\x88\x921 (possibly zero) operations modulo 109+7109+7 (10000000071000000007)?'
+b'Input'
+b'The only line of input contains binary string ss (1\xe2\x89\xa4|s|\xe2\x89\xa41061\xe2\x89\xa4|s|\xe2\x89\xa4106). For all ii (1\xe2\x89\xa4i\xe2\x89\xa4|s|1\xe2\x89\xa4i\xe2\x89\xa4|s|) si=0si=0 or si=1si=1.'
+b'Output'
+b'On a single line print the answer to the problem modulo 109+7109+7 (10000000071000000007).'
+Tags
+combinatorics, data structures, dp, *2800

@@ -1,0 +1,10 @@
+b'You are given NN qubits in the zero state |0...0\xe2\x9f\xa9|0...0\xe2\x9f\xa9. You are also given four distinct bit vectors which describe four different basis states on NN qubits |\xcf\x88i\xe2\x9f\xa9|\xcf\x88i\xe2\x9f\xa9.'
+b'Your task is to generate a state which is an equal superposition of the given basis states:'
+b'|S\xe2\x9f\xa9=12(|\xcf\x880\xe2\x9f\xa9+|\xcf\x881\xe2\x9f\xa9+|\xcf\x882\xe2\x9f\xa9+|\xcf\x883\xe2\x9f\xa9)|S\xe2\x9f\xa9=12(|\xcf\x880\xe2\x9f\xa9+|\xcf\x881\xe2\x9f\xa9+|\xcf\x882\xe2\x9f\xa9+|\xcf\x883\xe2\x9f\xa9)'
+b'You have to implement an operation which takes the following inputs:'
+b' an array of NN (2\xe2\x89\xa4N\xe2\x89\xa4162\xe2\x89\xa4N\xe2\x89\xa416) qubits, a two-dimensional array of Boolean values bitsbits representing the basis states |\xcf\x88i\xe2\x9f\xa9|\xcf\x88i\xe2\x9f\xa9. bitsbits will have exactly 4 elements, each of bits[i]bits[i] describing the basis state |\xcf\x88i\xe2\x9f\xa9|\xcf\x88i\xe2\x9f\xa9. Each of bits[i]bits[i] will have NN elements, bits[i][j]bits[i][j] giving the state of qubit jj in the basis state |\xcf\x88i\xe2\x9f\xa9|\xcf\x88i\xe2\x9f\xa9. Bit values true and false corresponding to |1\xe2\x9f\xa9|1\xe2\x9f\xa9 and |0\xe2\x9f\xa9|0\xe2\x9f\xa9 states, respectively; for example, for N=2N=2 an array [false, true] will represent the basis state |01\xe2\x9f\xa9|01\xe2\x9f\xa9. Each pair of bits[i]bits[i] and bits[j]bits[j] will differ in at least one position for i\xe2\x89\xa0ji\xe2\x89\xa0j.'
+b'The operation doesn\'t have an output; its "output" is the state in which it leaves the qubits.'
+b'Your code should have the following signature:'
+b'namespace Solution {    open Microsoft.Quantum.Primitive;    open Microsoft.Quantum.Canon;    operation Solve (qs : Qubit[], bits : Bool[][]) : Unit {        // your code here    }}'
+Tags
+

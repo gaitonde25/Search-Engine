@@ -1,0 +1,8 @@
+b'Many people are aware of DMCA \xe2\x80\x93 Digital Millennium Copyright Act. But another recently proposed DMCA \xe2\x80\x93 Digital Millennium Calculation Act \xe2\x80\x93 is much less known.'
+b'In this problem you need to find a root of a number according to this new DMCA law.'
+b'Input'
+b'The input contains a single integer aa (1\xe2\x89\xa4a\xe2\x89\xa410000001\xe2\x89\xa4a\xe2\x89\xa41000000).'
+b'Output'
+b'Output the result \xe2\x80\x93 an integer number.'
+Tags
+*special problem, implementation, number theory, *1600

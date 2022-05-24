@@ -1,0 +1,7 @@
+b'You are given an array of n integer numbers a0,\xe2\x80\x89a1,\xe2\x80\x89...,\xe2\x80\x89an\xe2\x80\x89-\xe2\x80\x891. Find the distance between two closest (nearest) minimums in it. It is guaranteed that in the array a minimum occurs at least two times.'
+b'Input'
+b'The first line contains positive integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 size of the given array. The second line contains n integers a0,\xe2\x80\x89a1,\xe2\x80\x89...,\xe2\x80\x89an\xe2\x80\x89-\xe2\x80\x891 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 elements of the array. It is guaranteed that in the array a minimum occurs at least two times.'
+b'Output'
+b'Print the only number \xe2\x80\x94 distance between two nearest minimums in the array.'
+Tags
+implementation, *1100

@@ -1,0 +1,12 @@
+b'Polycarp analyzes the prices of the new berPhone. At his disposal are the prices for nn last days: a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, where aiai is the price of berPhone on the day ii.'
+b'Polycarp considers the price on the day ii to be bad if later (that is, a day with a greater number) berPhone was sold at a lower price. For example, if n=6n=6 and a=[3,9,4,6,7,5]a=[3,9,4,6,7,5], then the number of days with a bad price is 33 \xe2\x80\x94 these are days 22 (a2=9a2=9), 44 (a4=6a4=6) and 55 (a5=7a5=7).'
+b'Print the number of days with a bad price.'
+b'You have to answer tt independent data sets.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) \xe2\x80\x94 the number of sets of input data in the test. Input data sets must be processed independently, one after another.'
+b'Each input data set consists of two lines. The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41500001\xe2\x89\xa4n\xe2\x89\xa4150000) \xe2\x80\x94 the number of days. The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106), where aiai is the price on the ii-th day.'
+b'It is guaranteed that the sum of nn over all data sets in the test does not exceed 150000150000.'
+b'Output'
+b'Print tt integers, the jj-th of which should be equal to the number of days with a bad price in the jj-th input data set.'
+Tags
+data structures, implementation, *1100

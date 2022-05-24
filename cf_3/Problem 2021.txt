@@ -1,0 +1,14 @@
+b'Treeland consists of nn cities and n\xe2\x88\x921n\xe2\x88\x921 two-way roads connecting pairs of cities. From every city, you can reach every other city moving only by the roads. You are right, the system of cities and roads in this country forms an undirected tree.'
+b'The government has announced a program for the modernization of urban infrastructure of some cities. You have been assigned to select an arbitrary subset of cities SS to upgrade (potentially all the cities) that satisfies the following requirements:'
+b'  the subset of cities must be "connected", that is, from any city of the subset SS you can get to any other city of the subset SS by roads, moving only through cities from SS,  the number of "dead-ends" in SS must be equal to the given number kk. A city is a "dead-end" if it is the only city in SS or connected to exactly one another city from SS. '
+b'  This shows one of the possible ways to select SS (blue vertices) for a given configuration and k=4k=4. Dead-ends are vertices with numbers 11, 44, 66 and 77. '
+b'Help Treeland upgrade its cities. Find any of the possible subsets SS or determine that such a subset does not exist.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the input. This is followed by the test cases themselves.'
+b'Each test case begins with a line that contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the number of cities in Treeland and the number of "dead-end" cities required in the subset SS.'
+b'This is followed by n\xe2\x88\x921n\xe2\x88\x921 lines with road descriptions. Each road is given by two integers xx and yy (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n; x\xe2\x89\xa0yx\xe2\x89\xa0y) \xe2\x80\x94 the numbers of the cities that are connected by this road. It is guaranteed that from every city you can reach any other, moving only by the roads.'
+b'The sum of the values of nn for all test cases in the input does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case print Yes or No (in any case, upper or lower), depending on whether the answer exists or not. If the answer exists, then print an integer mm (1\xe2\x89\xa4m\xe2\x89\xa4n1\xe2\x89\xa4m\xe2\x89\xa4n) \xe2\x80\x94 the number of cities in the found subset. Then print mm different numbers from 11 to nn \xe2\x80\x94 the numbers of the cities in the found subset. City numbers can be printed in any order. If there are several answers, print any of them.'
+Tags
+*special problem, dfs and similar, trees

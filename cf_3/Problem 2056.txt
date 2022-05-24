@@ -1,0 +1,14 @@
+b'You are given nn pairwise non-collinear two-dimensional vectors. You can make shapes in the two-dimensional plane with these vectors in the following fashion:'
+b' Start at the origin (0,0)(0,0). Choose a vector and add the segment of the vector to the current point. For example, if your current point is at (x,y)(x,y) and you choose the vector (u,v)(u,v), draw a segment from your current point to the point at (x+u,y+v)(x+u,y+v) and set your current point to (x+u,y+v)(x+u,y+v). Repeat step 2 until you reach the origin again.'
+b'You can reuse a vector as many times as you want.'
+b'Count the number of different, non-degenerate (with an area greater than 00) and convex shapes made from applying the steps, such that the shape can be contained within a m\xc3\x97mm\xc3\x97m square, and the vectors building the shape are in counter-clockwise fashion. Since this number can be too large, you should calculate it by modulo 998244353998244353.'
+b'Two shapes are considered the same if there exists some parallel translation of the first shape to another.'
+b'A shape can be contained within a m\xc3\x97mm\xc3\x97m square if there exists some parallel translation of this shape so that every point (u,v)(u,v) inside or on the border of the shape satisfies 0\xe2\x89\xa4u,v\xe2\x89\xa4m0\xe2\x89\xa4u,v\xe2\x89\xa4m.'
+b'Input'
+b'The first line contains two integers nn and mm \xc2\xa0\xe2\x80\x94 the number of vectors and the size of the square (1\xe2\x89\xa4n\xe2\x89\xa451\xe2\x89\xa4n\xe2\x89\xa45, 1\xe2\x89\xa4m\xe2\x89\xa41091\xe2\x89\xa4m\xe2\x89\xa4109).'
+b'Each of the next nn lines contains two integers xixi and yiyi \xc2\xa0\xe2\x80\x94 the xx-coordinate and yy-coordinate of the ii-th vector (|xi|,|yi|\xe2\x89\xa44|xi|,|yi|\xe2\x89\xa44, (xi,yi)\xe2\x89\xa0(0,0)(xi,yi)\xe2\x89\xa0(0,0)).'
+b'It is guaranteed, that no two vectors are parallel, so for any two indices ii and jj such that 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n, there is no real value kk such that xi\xe2\x8b\x85k=xjxi\xe2\x8b\x85k=xj and yi\xe2\x8b\x85k=yjyi\xe2\x8b\x85k=yj.'
+b'Output'
+b'Output a single integer \xc2\xa0\xe2\x80\x94 the number of satisfiable shapes by modulo 998244353998244353.'
+Tags
+dp, *3500

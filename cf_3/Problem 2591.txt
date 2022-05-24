@@ -1,0 +1,9 @@
+b'A sequence a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak is called an arithmetic progression if for each ii from 11 to kk elements satisfy the condition ai=a1+c\xe2\x8b\x85(i\xe2\x88\x921)ai=a1+c\xe2\x8b\x85(i\xe2\x88\x921) for some fixed cc.'
+b"For example, these five sequences are arithmetic progressions: [5,7,9,11][5,7,9,11], [101][101], [101,100,99][101,100,99], [13,97][13,97] and [5,5,5,5,5][5,5,5,5,5]. And these four sequences aren't arithmetic progressions: [3,1,2][3,1,2], [1,2,4,8][1,2,4,8], [1,\xe2\x88\x921,1,\xe2\x88\x921][1,\xe2\x88\x921,1,\xe2\x88\x921] and [1,2,3,3,3][1,2,3,3,3]."
+b'You are given a sequence of integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn. Find any index jj (1\xe2\x89\xa4j\xe2\x89\xa4n1\xe2\x89\xa4j\xe2\x89\xa4n), such that if you delete bjbj from the sequence, you can reorder the remaining n\xe2\x88\x921n\xe2\x88\x921 elements, so that you will get an arithmetic progression. If there is no such index, output the number -1.'
+b'Input'
+b'The first line of the input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 length of the sequence bb. The second line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109) \xe2\x80\x94 elements of the sequence bb.'
+b'Output'
+b'Print such index jj (1\xe2\x89\xa4j\xe2\x89\xa4n1\xe2\x89\xa4j\xe2\x89\xa4n), so that if you delete the jj-th element from the sequence, you can reorder the remaining elements, so that you will get an arithmetic progression. If there are multiple solutions, you are allowed to print any of them. If there is no such index, print -1.'
+Tags
+implementation, math, *1700

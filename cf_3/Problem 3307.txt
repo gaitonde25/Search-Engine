@@ -1,0 +1,12 @@
+b"A plane is flying at a constant height of hh meters above the ground surface. Let's consider that it is flying from the point (\xe2\x88\x92109,h)(\xe2\x88\x92109,h) to the point (109,h)(109,h) parallel with OxOx axis."
+b"A glider is inside the plane, ready to start his flight at any moment (for the sake of simplicity let's consider that he may start only when the plane's coordinates are integers). After jumping from the plane, he will fly in the same direction as the plane, parallel to OxOx axis, covering a unit of distance every second. Naturally, he will also descend; thus his second coordinate will decrease by one unit every second."
+b"There are ascending air flows on certain segments, each such segment is characterized by two numbers x1x1 and x2x2 (x1<x2x1<x2) representing its endpoints. No two segments share any common points. When the glider is inside one of such segments, he doesn't descend, so his second coordinate stays the same each second. The glider still flies along OxOx axis, covering one unit of distance every second. "
+b'  If the glider jumps out at 11, he will stop at 1010. Otherwise, if he jumps out at 22, he will stop at 1212. '
+b"Determine the maximum distance along OxOx axis from the point where the glider's flight starts to the point where his flight ends if the glider can choose any integer coordinate to jump from the plane and start his flight. After touching the ground the glider stops altogether, so he cannot glide through an ascending airflow segment if his second coordinate is 00."
+b'Input'
+b'The first line contains two integers nn and hh (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4h\xe2\x89\xa4109)(1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4h\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of ascending air flow segments and the altitude at which the plane is flying, respectively.'
+b'Each of the next nn lines contains two integers xi1xi1 and xi2xi2 (1\xe2\x89\xa4xi1<xi2\xe2\x89\xa4109)(1\xe2\x89\xa4xi1<xi2\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the endpoints of the ii-th ascending air flow segment. No two segments intersect, and they are given in ascending order.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the maximum distance along OxOx axis that the glider can fly from the point where he jumps off the plane to the point where he lands if he can start his flight at any integer coordinate.'
+Tags
+binary search, data structures, two pointers, *1700

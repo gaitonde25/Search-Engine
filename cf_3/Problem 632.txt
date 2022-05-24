@@ -1,0 +1,18 @@
+b'This is the easy version of the problem. The difference between the versions is that the easy version does not require you to output the numbers of the rods to be removed. You can make hacks only if all versions of the problem are solved.'
+b'Stitch likes experimenting with different machines with his friend Sparky. Today they built another machine.'
+b'The main element of this machine are nn rods arranged along one straight line and numbered from 11 to nn inclusive. Each of these rods must carry an electric charge quantitatively equal to either 11 or \xe2\x88\x921\xe2\x88\x921 (otherwise the machine will not work). Another condition for this machine to work is that the sign-variable sum of the charge on all rods must be zero.'
+b'More formally, the rods can be represented as an array of nn numbers characterizing the charge: either 11 or \xe2\x88\x921\xe2\x88\x921. Then the condition must hold: a1\xe2\x88\x92a2+a3\xe2\x88\x92a4+\xe2\x80\xa6=0a1\xe2\x88\x92a2+a3\xe2\x88\x92a4+\xe2\x80\xa6=0, or \xe2\x88\x91i=1n(\xe2\x88\x921)i\xe2\x88\x921\xe2\x8b\x85ai=0\xe2\x88\x91i=1n(\xe2\x88\x921)i\xe2\x88\x921\xe2\x8b\x85ai=0.'
+b"Sparky charged all nn rods with an electric current, but unfortunately it happened that the rods were not charged correctly (the sign-variable sum of the charge is not zero). The friends decided to leave only some of the rods in the machine. Sparky has qq questions. In the iith question Sparky asks: if the machine consisted only of rods with numbers lili to riri inclusive, what minimal number of rods could be removed from the machine so that the sign-variable sum of charges on the remaining ones would be zero? Perhaps the friends got something wrong, and the sign-variable sum is already zero. In that case, you don't have to remove the rods at all."
+b'If the number of rods is zero, we will assume that the sign-variable sum of charges is zero, that is, we can always remove all rods.'
+b"Help your friends and answer all of Sparky's questions!"
+b'Input'
+b'Each test contains multiple test cases.'
+b'The first line contains one positive integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103), denoting the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains two positive integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of rods and the number of questions.'
+b'The second line of each test case contains a non-empty string ss of length nn, where the charge of the ii-th rod is 11 if sisi is the "+" symbol, or \xe2\x88\x921\xe2\x88\x921 if sisi is the "-" symbol.'
+b"Each next line from the next qq lines contains two positive integers lili ans riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 numbers, describing Sparky's questions."
+b'It is guaranteed that the sum of nn over all test cases does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105, and the sum of qq over all test cases does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print a single integer\xc2\xa0\xe2\x80\x94 the minimal number of rods that can be removed.'
+Tags
+data structures, dp, math, *1700

@@ -1,0 +1,11 @@
+b'You are given one integer number nn. Find three distinct integers a,b,ca,b,c such that 2\xe2\x89\xa4a,b,c2\xe2\x89\xa4a,b,c and a\xe2\x8b\x85b\xe2\x8b\x85c=na\xe2\x8b\x85b\xe2\x8b\x85c=n or say that it is impossible to do it.'
+b'If there are several answers, you can print any.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The next nn lines describe test cases. The ii-th test case is given on a new line as one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41092\xe2\x89\xa4n\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print the answer on it. Print "NO" if it is impossible to represent nn as a\xe2\x8b\x85b\xe2\x8b\x85ca\xe2\x8b\x85b\xe2\x8b\x85c for some distinct integers a,b,ca,b,c such that 2\xe2\x89\xa4a,b,c2\xe2\x89\xa4a,b,c.'
+b'Otherwise, print "YES" and any possible such representation.'
+Tags
+greedy, math, number theory, *1300

@@ -1,0 +1,10 @@
+b'Let us define a magic grid to be a square matrix of integers of size n\xc3\x97nn\xc3\x97n, satisfying the following conditions. '
+b'  All integers from 00 to (n2\xe2\x88\x921)(n2\xe2\x88\x921) inclusive appear in the matrix exactly once.  Bitwise XOR of all elements in a row or a column must be the same for each row and column. '
+b'You are given an integer nn which is a multiple of 44. Construct a magic grid of size n\xc3\x97nn\xc3\x97n.'
+b'Input'
+b'The only line of input contains an integer nn (4\xe2\x89\xa4n\xe2\x89\xa410004\xe2\x89\xa4n\xe2\x89\xa41000). It is guaranteed that nn is a multiple of 44.'
+b'Output'
+b'Print a magic grid, i.e. nn lines, the ii-th of which contains nn space-separated integers, representing the ii-th row of the grid.'
+b'If there are multiple answers, print any. We can show that an answer always exists.'
+Tags
+constructive algorithms, *1800

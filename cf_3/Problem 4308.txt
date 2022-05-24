@@ -1,0 +1,13 @@
+b'Captain Bill the Hummingbird and his crew recieved an interesting challenge offer. Some stranger gave them a map, potion of teleportation and said that only this potion might help them to reach the treasure. '
+b'Bottle with potion has two values x and y written on it. These values define four moves which can be performed using the potion:'
+b'         '
+b'Map shows that the position of Captain Bill the Hummingbird is (x1,\xe2\x80\x89y1) and the position of the treasure is (x2,\xe2\x80\x89y2).'
+b'You task is to tell Captain Bill the Hummingbird whether he should accept this challenge or decline. If it is possible for Captain to reach the treasure using the potion then output "YES", otherwise "NO" (without quotes).'
+b'The potion can be used infinite amount of times.'
+b'Input'
+b'The first line contains four integer numbers x1,\xe2\x80\x89y1,\xe2\x80\x89x2,\xe2\x80\x89y2 (\xe2\x80\x89-\xe2\x80\x89105\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x1,\xe2\x80\x89y1,\xe2\x80\x89x2,\xe2\x80\x89y2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 positions of Captain Bill the Hummingbird and treasure respectively.'
+b'The second line contains two integer numbers x,\xe2\x80\x89y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 values on the potion bottle.'
+b'Output'
+b'Print "YES" if it is possible for Captain to reach the treasure using the potion, otherwise print "NO" (without quotes).'
+Tags
+implementation, math, number theory, *1200

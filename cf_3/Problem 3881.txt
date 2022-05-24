@@ -1,0 +1,11 @@
+b'Jamie has recently found undirected weighted graphs with the following properties very interesting:'
+b"  The graph is connected and contains exactly n vertices and m edges.  All edge weights are integers and are in range [1,\xe2\x80\x89109] inclusive.  The length of shortest path from 1 to n is a prime number.  The sum of edges' weights in the minimum spanning tree (MST) of the graph is a prime number.  The graph contains no loops or multi-edges. "
+b'If you are not familiar with some terms from the statement you can find definitions of them in notes section. '
+b'Help Jamie construct any graph with given number of vertices and edges that is interesting!'
+b'Input'
+b'First line of input contains 2 integers n, m \xc2\xa0\xe2\x80\x94 the required number of vertices and edges.'
+b'Output'
+b"In the first line output 2 integers sp, mstw (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89sp,\xe2\x80\x89mstw\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891014)\xc2\xa0\xe2\x80\x94 the length of the shortest path and the sum of edges' weights in the minimum spanning tree."
+b'In the next m lines output the edges of the graph. In each line output 3 integers u, v, w (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) describing the edge connecting u and v and having weight w. '
+Tags
+constructive algorithms, graphs, shortest paths, *1600

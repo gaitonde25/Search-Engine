@@ -1,0 +1,12 @@
+b'In number world, two different numbers are friends if they have a lot in common, but also each one has unique perks.'
+b'More precisely, two different numbers aa and bb are friends if gcd(a,b)gcd(a,b), agcd(a,b)agcd(a,b), bgcd(a,b)bgcd(a,b) can form sides of a triangle.'
+b'Three numbers aa, bb and cc can form sides of a triangle if a+b>ca+b>c, b+c>ab+c>a and c+a>bc+a>b.'
+b"In a group of numbers, a number is lonely if it doesn't have any friends in that group."
+b'Given a group of numbers containing all numbers from 1,2,3,...,n1,2,3,...,n, how many numbers in that group are lonely?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4106)(1\xe2\x89\xa4t\xe2\x89\xa4106) - number of test cases.'
+b'On next line there are tt numbers, nini (1\xe2\x89\xa4ni\xe2\x89\xa4106)(1\xe2\x89\xa4ni\xe2\x89\xa4106) - meaning that in case ii you should solve for numbers 1,2,3,...,ni1,2,3,...,ni.'
+b'Output'
+b'For each test case, print the answer on separate lines: number of lonely numbers in group 1,2,3,...,ni1,2,3,...,ni.'
+Tags
+binary search, math, number theory, two pointers, *1600

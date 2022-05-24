@@ -1,0 +1,11 @@
+b'Four players participate in the playoff tournament. The tournament is held according to the following scheme: the first player will play with the second, and the third player with the fourth, then the winners of the pairs will play in the finals of the tournament.'
+b'It is known that in a match between two players, the one whose skill is greater will win. The skill of the ii-th player is equal to sisi and all skill levels are pairwise different (i.\xe2\x80\x89e. there are no two identical values in the array ss).'
+b'The tournament is called fair if the two players with the highest skills meet in the finals.'
+b'Determine whether the given tournament is fair.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'A single line of test case contains four integers s1,s2,s3,s4s1,s2,s3,s4 (1\xe2\x89\xa4si\xe2\x89\xa41001\xe2\x89\xa4si\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 skill of the players. It is guaranteed that all the numbers in the array are different.'
+b'Output'
+b'For each testcase, output YES if the tournament is fair, or NO otherwise.'
+Tags
+brute force, implementation, *800

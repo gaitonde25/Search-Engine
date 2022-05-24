@@ -1,0 +1,11 @@
+b'This is an unusual problem in an unusual contest, here is the announcement: http://codeforces.com/blog/entry/73543'
+b'You are given a table AA of integers n\xc3\x97mn\xc3\x97m. The cell (x,y)(x,y) is called Nash equilibrium if both of the following conditions hold: '
+b'  for each x1\xe2\x89\xa0xx1\xe2\x89\xa0x Axy>Ax1yAxy>Ax1y;  for each y1\xe2\x89\xa0yy1\xe2\x89\xa0y Axy<Axy1Axy<Axy1. '
+b'Find a Nash equilibrium in AA. If there exist several equilibria, print the one with minimum xx. If still there are several possible answers, print the one with minimum yy.'
+b'Input'
+b'The first line contains two integers n,mn,m (2\xe2\x89\xa4n,m\xe2\x89\xa410002\xe2\x89\xa4n,m\xe2\x89\xa41000), denoting the size of the table.'
+b'Each of next nn lines contain mm space-separated integers AijAij (1\xe2\x89\xa4Aij\xe2\x89\xa41091\xe2\x89\xa4Aij\xe2\x89\xa4109).'
+b'Output'
+b'Output xx and yy \xe2\x80\x94 the coordinates of the lexicographically minimum Nash equilibrium in the table. In case there is no answer, print two zeroes instead.'
+Tags
+

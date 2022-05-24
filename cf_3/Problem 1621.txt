@@ -1,0 +1,10 @@
+b"In Omkar's last class of math, he learned about the least common multiple, or LCMLCM. LCM(a,b)LCM(a,b) is the smallest positive integer xx which is divisible by both aa and bb."
+b'Omkar, having a laudably curious mind, immediately thought of a problem involving the LCMLCM operation: given an integer nn, find positive integers aa and bb such that a+b=na+b=n and LCM(a,b)LCM(a,b) is the minimum value possible.'
+b'Can you help Omkar solve his ludicrously challenging math problem?'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410). Description of the test cases follows.'
+b'Each test case consists of a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41092\xe2\x89\xa4n\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, output two positive integers aa and bb, such that a+b=na+b=n and LCM(a,b)LCM(a,b) is the minimum possible.'
+Tags
+greedy, math, number theory, *1300

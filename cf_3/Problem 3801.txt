@@ -1,0 +1,10 @@
+b"In Arcady's garden there grows a peculiar apple-tree that fruits one time per year. Its peculiarity can be explained in following way: there are n inflorescences, numbered from 1 to n. Inflorescence number 1 is situated near base of tree and any other inflorescence with number i (i\xe2\x80\x89>\xe2\x80\x891) is situated at the top of branch, which bottom is pi-th inflorescence and pi\xe2\x80\x89<\xe2\x80\x89i."
+b'Once tree starts fruiting, there appears exactly one apple in each inflorescence. The same moment as apples appear, they start to roll down along branches to the very base of tree. Each second all apples, except ones in first inflorescence simultaneously roll down one branch closer to tree base, e.g. apple in a-th inflorescence gets to pa-th inflorescence. Apples that end up in first inflorescence are gathered by Arcady in exactly the same moment. Second peculiarity of this tree is that once two apples are in same inflorescence they annihilate. This happens with each pair of apples, e.g. if there are 5 apples in same inflorescence in same time, only one will not be annihilated and if there are 8 apples, all apples will be annihilated. Thus, there can be no more than one apple in each inflorescence in each moment of time.'
+b'Help Arcady with counting number of apples he will be able to collect from first inflorescence during one harvest.'
+b'Input'
+b'First line of input contains single integer number n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000) \xc2\xa0\xe2\x80\x94 number of inflorescences.'
+b'Second line of input contains sequence of n\xe2\x80\x89-\xe2\x80\x891 integer numbers p2,\xe2\x80\x89p3,\xe2\x80\x89...,\xe2\x80\x89pn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89<\xe2\x80\x89i), where pi is number of inflorescence into which the apple from i-th inflorescence rolls down.'
+b'Output'
+b'Single line of output should contain one integer number: amount of apples that Arcady will be able to collect from first inflorescence during one harvest.'
+Tags
+dfs and similar, graphs, trees, *1500

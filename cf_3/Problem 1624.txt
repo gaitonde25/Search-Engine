@@ -1,0 +1,20 @@
+b'This is the hard version of the problem. The difference between versions is the constraints on nn and aiai. You can make hacks only if all versions of the problem are solved.'
+b'First, Aoi came up with the following idea for the competitive programming problem:'
+b'Yuzu is a girl who collecting candies. Originally, she has xx candies. There are also nn enemies numbered with integers from 11 to nn. Enemy ii has aiai candies.'
+b'Yuzu is going to determine a permutation PP. A permutation is an array consisting of nn distinct integers from 11 to nn in arbitrary order. For example, {2,3,1,5,4}{2,3,1,5,4} is a permutation, but {1,2,2}{1,2,2} is not a permutation (22 appears twice in the array) and {1,3,4}{1,3,4} is also not a permutation (because n=3n=3 but there is the number 44 in the array).'
+b'After that, she will do nn duels with the enemies with the following rules:'
+b'  If Yuzu has equal or more number of candies than enemy PiPi, she wins the duel and gets 11 candy. Otherwise, she loses the duel and gets nothing.  The candy which Yuzu gets will be used in the next duels. '
+b'Yuzu wants to win all duels. How many valid permutations PP exist?'
+b"This problem was easy and wasn't interesting for Akari, who is a friend of Aoi. And Akari made the following problem from the above idea:"
+b"Let's define f(x)f(x) as the number of valid permutations for the integer xx."
+b"You are given nn, aa and a prime number p\xe2\x89\xa4np\xe2\x89\xa4n. Let's call a positive integer xx good, if the value f(x)f(x) is not divisible by pp. Find all good integers xx."
+b'Your task is to solve this problem made by Akari.'
+b'Input'
+b'The first line contains two integers nn, pp (2\xe2\x89\xa4p\xe2\x89\xa4n\xe2\x89\xa4105)(2\xe2\x89\xa4p\xe2\x89\xa4n\xe2\x89\xa4105). It is guaranteed, that the number pp is prime (it has exactly two divisors 11 and pp).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4109)(1\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'In the first line, print the number of good integers xx.'
+b'In the second line, output all good integers xx in the ascending order.'
+b'It is guaranteed that the number of good integers xx does not exceed 105105.'
+Tags
+binary search, combinatorics, dp, math, number theory, sortings, *2300

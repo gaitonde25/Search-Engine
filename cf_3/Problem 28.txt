@@ -1,0 +1,13 @@
+b'You are given nn words of equal length mm, consisting of lowercase Latin alphabet letters. The ii-th word is denoted sisi.'
+b'In one move you can choose any position in any single word and change the letter at that position to the previous or next letter in alphabetical order. For example:'
+b"  you can change 'e' to 'd' or to 'f';  'a' can only be changed to 'b';  'z' can only be changed to 'y'. "
+b'The difference between two words is the minimum number of moves required to make them equal. For example, the difference between "best" and "cost" is 1+10+0+0=111+10+0+0=11.'
+b'Find the minimum difference of sisi and sjsj such that (i<j)(i<j). In other words, find the minimum difference over all possible pairs of the nn words.'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. The description of test cases follows.'
+b'The first line of each test case contains 22 integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4502\xe2\x89\xa4n\xe2\x89\xa450, 1\xe2\x89\xa4m\xe2\x89\xa481\xe2\x89\xa4m\xe2\x89\xa48) \xe2\x80\x94 the number of strings and their length respectively.'
+b'Then follows nn lines, the ii-th of which containing a single string sisi of length mm, consisting of lowercase Latin letters.'
+b'Output'
+b'For each test case, print a single integer \xe2\x80\x94 the minimum difference over all possible pairs of the given strings.'
+Tags
+brute force, greedy, implementation, implementation, math, strings, *800

@@ -1,0 +1,10 @@
+b'Polycarp invented a new way to encode strings. Let\'s assume that we have string T, consisting of lowercase English letters. Let\'s choose several pairs of letters of the English alphabet in such a way that each letter occurs in at most one pair. Then let\'s replace each letter in T with its pair letter if there is a pair letter for it. For example, if you chose pairs (l, r), (p, q) and (a, o), then word "parallelogram" according to the given encoding principle transforms to word "qolorreraglom".'
+b'Polycarpus already has two strings, S and T. He suspects that string T was obtained after applying the given encoding method from some substring of string S. Find all positions mi in S (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89mi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|\xe2\x80\x89-\xe2\x80\x89|T|\xe2\x80\x89+\xe2\x80\x891), such that T can be obtained fro substring SmiSmi\xe2\x80\x89+\xe2\x80\x891... Smi\xe2\x80\x89+\xe2\x80\x89|T|\xe2\x80\x89-\xe2\x80\x891 by applying the described encoding operation by using some set of pairs of English alphabet letters'
+b'Input'
+b'The first line of the input contains two integers, |S| and |T| (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|T|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the lengths of string S and string T, respectively.'
+b'The second and third line of the input contain strings S and T, respectively. Both strings consist only of lowercase English letters.'
+b'Output'
+b'Print number k \xe2\x80\x94 the number of suitable positions in string S.'
+b'In the next line print k integers m1,\xe2\x80\x89m2,\xe2\x80\x89...,\xe2\x80\x89mk \xe2\x80\x94 the numbers of the suitable positions in the increasing order.'
+Tags
+hashing, string suffix structures, strings, *2400

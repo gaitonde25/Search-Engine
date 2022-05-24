@@ -1,0 +1,7 @@
+b"There was once young lass called Mary,  Whose jokes were occasionally scary.  On this April's Fool  Fixed limerick rules  Allowed her to trip the unwary.Can she fill all the linesTo work at all times?On juggling the wordsRight around two-thirdsShe nearly ran out of rhymes."
+b'Input'
+b'The input contains a single integer aa (4\xe2\x89\xa4a\xe2\x89\xa49984\xe2\x89\xa4a\xe2\x89\xa4998). Not every integer in the range is a valid input for the problem; you are guaranteed that the input will be a valid integer.'
+b'Output'
+b'Output a single number.'
+Tags
+*special problem, math, number theory

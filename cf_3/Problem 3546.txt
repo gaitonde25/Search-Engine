@@ -1,0 +1,12 @@
+b'You need to execute several tasks, each associated with number of processors it needs, and the compute power it will consume.'
+b'You have sufficient number of analog computers, each with enough processors for any task. Each computer can execute up to one task at a time, and no more than two tasks total. The first task can be any, the second task on each computer must use strictly less power than the first. You will assign between 1 and 2 tasks to each computer. You will then first execute the first task on each computer, wait for all of them to complete, and then execute the second task on each computer that has two tasks assigned.'
+b'If the average compute power per utilized processor (the sum of all consumed powers for all tasks presently running divided by the number of utilized processors) across all computers exceeds some unknown threshold during the execution of the first tasks, the entire system will blow up. There is no restriction on the second tasks execution. Find the lowest threshold for which it is possible.'
+b'Due to the specifics of the task, you need to print the answer multiplied by 1000 and rounded up.'
+b'Input'
+b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950) \xe2\x80\x94 the number of tasks.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89108), where ai represents the amount of power required for the i-th task.'
+b'The third line contains n integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100), where bi is the number of processors that i-th task will utilize.'
+b'Output'
+b'Print a single integer value \xe2\x80\x94 the lowest threshold for which it is possible to assign all tasks in such a way that the system will not blow up after the first round of computation, multiplied by 1000 and rounded up.'
+Tags
+binary search, dp, greedy, *2500

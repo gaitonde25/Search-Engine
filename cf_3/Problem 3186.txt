@@ -1,0 +1,10 @@
+b"Let's define rank of undirected graph as rank of its adjacency matrix in Rn\xc3\x97nRn\xc3\x97n."
+b'Given a tree. Each edge of this tree will be deleted with probability 1/21/2, all these deletions are independent. Let EE be the expected rank of resulting forest. Find E\xe2\x8b\x852n\xe2\x88\x921E\xe2\x8b\x852n\xe2\x88\x921 modulo 998244353998244353 (it is easy to show that E\xe2\x8b\x852n\xe2\x88\x921E\xe2\x8b\x852n\xe2\x88\x921 is an integer).'
+b'Input'
+b'First line of input contains nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 number of vertices.'
+b'Next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n;u\xe2\x89\xa0v1\xe2\x89\xa4u,v\xe2\x89\xa4n;u\xe2\x89\xa0v)\xc2\xa0\xe2\x80\x94 indices of vertices connected by edge.'
+b'It is guaranteed that given graph is a tree.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 answer to the problem.'
+Tags
+dp, graph matchings, math, trees, *2800

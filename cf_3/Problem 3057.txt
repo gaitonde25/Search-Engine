@@ -1,0 +1,17 @@
+b'Mishka is trying really hard to avoid being kicked out of the university. In particular, he was doing absolutely nothing for the whole semester, miraculously passed some exams so that just one is left.'
+b'There were nn classes of that subject during the semester and on ii-th class professor mentioned some non-negative integer aiai to the students. It turned out, the exam was to tell the whole sequence back to the professor. '
+b"Sounds easy enough for those who attended every class, doesn't it?"
+b"Obviously Mishka didn't attend any classes. However, professor left some clues on the values of aa to help out students like Mishka: "
+b'  aa was sorted in non-decreasing order (a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4ana1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4an);  nn was even;  the following sequence bb, consisting of n2n2 elements, was formed and given out to students: bi=ai+an\xe2\x88\x92i+1bi=ai+an\xe2\x88\x92i+1. '
+b'Professor also mentioned that any sequence aa, which produces sequence bb with the presented technique, will be acceptable.'
+b'Help Mishka to pass that last exam. Restore any sorted sequence aa of non-negative integers, which produces sequence bb with the presented technique. It is guaranteed that there exists at least one correct sequence aa, which produces the given sequence bb.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of sequence aa. nn is always even.'
+b'The second line contains n2n2 integers b1,b2,\xe2\x80\xa6,bn2b1,b2,\xe2\x80\xa6,bn2 (0\xe2\x89\xa4bi\xe2\x89\xa410180\xe2\x89\xa4bi\xe2\x89\xa41018) \xe2\x80\x94 sequence bb, where bi=ai+an\xe2\x88\x92i+1bi=ai+an\xe2\x88\x92i+1.'
+b'It is guaranteed that there exists at least one correct sequence aa, which produces the given sequence bb.'
+b'Output'
+b'Print nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa410180\xe2\x89\xa4ai\xe2\x89\xa41018) in a single line.'
+b'a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4ana1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4an should be satisfied.'
+b'bi=ai+an\xe2\x88\x92i+1bi=ai+an\xe2\x88\x92i+1 should be satisfied for all valid ii.'
+Tags
+greedy, *1300

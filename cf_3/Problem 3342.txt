@@ -1,0 +1,9 @@
+b'Little C loves number \xc2\xab3\xc2\xbb very much. He loves all things about it.'
+b'Now he is playing a game on a chessboard of size n\xc3\x97mn\xc3\x97m. The cell in the xx-th row and in the yy-th column is called (x,y)(x,y). Initially, The chessboard is empty. Each time, he places two chessmen on two different empty cells, the Manhattan distance between which is exactly 33. The Manhattan distance between two cells (xi,yi)(xi,yi) and (xj,yj)(xj,yj) is defined as |xi\xe2\x88\x92xj|+|yi\xe2\x88\x92yj||xi\xe2\x88\x92xj|+|yi\xe2\x88\x92yj|.'
+b'He want to place as many chessmen as possible on the chessboard. Please help him find the maximum number of chessmen he can place.'
+b'Input'
+b'A single line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41091\xe2\x89\xa4n,m\xe2\x89\xa4109) \xe2\x80\x94 the number of rows and the number of columns of the chessboard.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum number of chessmen Little C can place.'
+Tags
+brute force, constructive algorithms, flows, graph matchings, *2200

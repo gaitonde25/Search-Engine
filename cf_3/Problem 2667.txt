@@ -1,0 +1,14 @@
+b'Nauuo is a girl who loves playing chess.'
+b'One day she invented a game by herself which needs nn chess pieces to play on a m\xc3\x97mm\xc3\x97m chessboard. The rows and columns are numbered from 11 to mm. We denote a cell on the intersection of the rr-th row and cc-th column as (r,c)(r,c).'
+b"The game's goal is to place nn chess pieces numbered from 11 to nn on the chessboard, the ii-th piece lies on (ri,ci)(ri,ci), while the following rule is satisfied: for all pairs of pieces ii and jj, |ri\xe2\x88\x92rj|+|ci\xe2\x88\x92cj|\xe2\x89\xa5|i\xe2\x88\x92j||ri\xe2\x88\x92rj|+|ci\xe2\x88\x92cj|\xe2\x89\xa5|i\xe2\x88\x92j|. Here |x||x| means the absolute value of xx."
+b"However, Nauuo discovered that sometimes she couldn't find a solution because the chessboard was too small."
+b'She wants to find the smallest chessboard on which she can put nn pieces according to the rules.'
+b'She also wonders how to place the pieces on such a chessboard. Can you help her?'
+b'Input'
+b'The only line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the number of chess pieces for the game.'
+b'Output'
+b'The first line contains a single integer \xe2\x80\x94 the minimum value of mm, where mm is the length of sides of the suitable chessboard.'
+b'The ii-th of the next nn lines contains two integers riri and cici (1\xe2\x89\xa4ri,ci\xe2\x89\xa4m1\xe2\x89\xa4ri,ci\xe2\x89\xa4m) \xe2\x80\x94 the coordinates of the ii-th chess piece.'
+b'If there are multiple answers, print any.'
+Tags
+constructive algorithms, greedy, *1100

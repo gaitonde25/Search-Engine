@@ -1,0 +1,11 @@
+b'Mike has a sequence A\xe2\x80\x89=\xe2\x80\x89[a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an] of length n. He considers the sequence B\xe2\x80\x89=\xe2\x80\x89[b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn] beautiful if the gcd of all its elements is bigger than 1, i.e. . '
+b"Mike wants to change his sequence in order to make it beautiful. In one move he can choose an index i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89n), delete numbers ai,\xe2\x80\x89ai\xe2\x80\x89+\xe2\x80\x891 and put numbers ai\xe2\x80\x89-\xe2\x80\x89ai\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89ai\xe2\x80\x89+\xe2\x80\x89ai\xe2\x80\x89+\xe2\x80\x891 in their place instead, in this order. He wants perform as few operations as possible. Find the minimal number of operations to make sequence A beautiful if it's possible, or tell him that it is impossible to do so."
+b' is the biggest non-negative number d such that d divides bi for every i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Input'
+b'The first line contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000) \xe2\x80\x94 length of sequence A.'
+b'The second line contains n space-separated integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 elements of sequence A.'
+b'Output'
+b'Output on the first line "YES" (without quotes) if it is possible to make sequence A beautiful by performing operations described above, and "NO" (without quotes) otherwise.'
+b'If the answer was "YES", output the minimal number of moves needed to make sequence A beautiful.'
+Tags
+dp, greedy, number theory, *1700

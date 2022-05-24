@@ -1,0 +1,15 @@
+b'There are nn water tanks in a row, ii-th of them contains aiai liters of water. The tanks are numbered from 11 to nn from left to right.'
+b'You can perform the following operation: choose some subsegment [l,r][l,r] (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n), and redistribute water in tanks l,l+1,\xe2\x80\xa6,rl,l+1,\xe2\x80\xa6,r evenly. In other words, replace each of al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar by al+al+1+\xe2\x8b\xaf+arr\xe2\x88\x92l+1al+al+1+\xe2\x8b\xaf+arr\xe2\x88\x92l+1. For example, if for volumes [1,3,6,7][1,3,6,7] you choose l=2,r=3l=2,r=3, new volumes of water will be [1,4.5,4.5,7][1,4.5,4.5,7]. You can perform this operation any number of times.'
+b'What is the lexicographically smallest sequence of volumes of water that you can achieve?'
+b'As a reminder:'
+b'A sequence aa is lexicographically smaller than a sequence bb of the same length if and only if the following holds: in the first (leftmost) position where aa and bb differ, the sequence aa has a smaller element than the corresponding element in bb.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of water tanks.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 initial volumes of water in the water tanks, in liters.'
+b'Because of large input, reading input as doubles is not recommended.'
+b'Output'
+b'Print the lexicographically smallest sequence you can get. In the ii-th line print the final volume of water in the ii-th tank.'
+b'Your answer is considered correct if the absolute or relative error of each aiai does not exceed 10\xe2\x88\x92910\xe2\x88\x929.'
+b"Formally, let your answer be a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, and the jury's answer be b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn. Your answer is accepted if and only if |ai\xe2\x88\x92bi|max(1,|bi|)\xe2\x89\xa410\xe2\x88\x929|ai\xe2\x88\x92bi|max(1,|bi|)\xe2\x89\xa410\xe2\x88\x929 for each ii."
+Tags
+data structures, geometry, greedy, *2100

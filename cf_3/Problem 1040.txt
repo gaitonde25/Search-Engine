@@ -1,0 +1,17 @@
+b'A championship is held in Berland, in which nn players participate. The player with the number ii has aiai (ai\xe2\x89\xa51ai\xe2\x89\xa51) tokens.'
+b'The championship consists of n\xe2\x88\x921n\xe2\x88\x921 games, which are played according to the following rules:'
+b"  in each game, two random players with non-zero tokens are selected;  the player with more tokens is considered the winner of the game (in case of a tie, the winner is chosen randomly);  the winning player takes all of the loser's tokens; "
+b'The last player with non-zero tokens is the winner of the championship.'
+b'All random decisions that are made during the championship are made equally probable and independently.'
+b'For example, if n=4n=4, a=[1,2,4,3]a=[1,2,4,3], then one of the options for the game (there could be other options) is: '
+b"  during the first game, the first and fourth players were selected. The fourth player has more tokens, so he takes the first player's tokens. Now a=[0,2,4,4]a=[0,2,4,4];  during the second game, the fourth and third players were selected. They have the same number of tokens, but in a random way, the third player is the winner. Now a=[0,2,8,0]a=[0,2,8,0];  during the third game, the second and third players were selected. The third player has more tokens, so he takes the second player's tokens. Now a=[0,0,10,0]a=[0,0,10,0];  the third player is declared the winner of the championship. "
+b'Championship winners will receive personalized prizes. Therefore, the judges want to know in advance which players have a chance of winning, i.e have a non-zero probability of winning the championship. You have been asked to find all such players. '
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case consists of one positive integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of players in the championship.'
+b'The second line of each test case contains nn positive integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of tokens the players have.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105. '
+b'Output'
+b'For each test case, print the number of players who have a nonzero probability of winning the championship. On the next line print the numbers of these players in increasing order. Players are numbered starting from one in the order in which they appear in the input. '
+Tags
+binary search, data structures, greedy, *1400

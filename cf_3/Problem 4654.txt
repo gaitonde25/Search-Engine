@@ -1,0 +1,12 @@
+b'Gosha is hunting. His goal is to catch as many Pokemons as possible. Gosha has a Poke Balls and b Ultra Balls. There are n Pokemons. They are numbered 1 through n. Gosha knows that if he throws a Poke Ball at the i-th Pokemon he catches it with probability pi. If he throws an Ultra Ball at the i-th Pokemon he catches it with probability ui. He can throw at most one Ball of each type at any Pokemon.'
+b"The hunting proceeds as follows: at first, Gosha chooses no more than a Pokemons at which he will throw Poke Balls and no more than b Pokemons at which he will throw Ultra Balls. After that, he throws the chosen Balls at the chosen Pokemons. If he throws both Ultra Ball and Poke Ball at some Pokemon, he is caught if and only if he is caught by any of these Balls. The outcome of a throw doesn't depend on the other throws."
+b'Gosha would like to know what is the expected number of the Pokemons he catches if he acts in an optimal way. In other words, he would like to know the maximum possible expected number of Pokemons can catch.'
+b'Input'
+b'The first line contains three integers n, a and b (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the number of Pokemons, the number of Poke Balls and the number of Ultra Balls.'
+b'The second line contains n real values p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pn (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891), where pi is the probability of catching the i-th Pokemon if Gosha throws a Poke Ball to it.'
+b'The third line contains n real values u1,\xe2\x80\x89u2,\xe2\x80\x89...,\xe2\x80\x89un (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891), where ui is the probability of catching the i-th Pokemon if Gosha throws an Ultra Ball to it.'
+b'All the probabilities are given with exactly three digits after the decimal separator.'
+b'Output'
+b"Print the maximum possible expected number of Pokemons Gosha can catch. The answer is considered correct if it's absolute or relative error doesn't exceed 10\xe2\x80\x89-\xe2\x80\x894."
+Tags
+brute force, data structures, dp, flows, math, probabilities, sortings, *3000

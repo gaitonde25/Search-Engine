@@ -1,0 +1,11 @@
+b"Suppose that we have an array of nn distinct numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Let's build a graph on nn vertices as follows: for every pair of vertices i<ji<j let's connect ii and jj with an edge, if ai<ajai<aj. Let's define weight of the array to be the number of connected components in this graph. For example, weight of array [1,4,2][1,4,2] is 11, weight of array [5,4,3][5,4,3] is 33."
+b'You have to perform qq queries of the following form\xc2\xa0\xe2\x80\x94 change the value at some position of the array. After each operation, output the weight of the array. Updates are not independent (the change stays for the future).'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the size of the array and the number of queries.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the initial array.'
+b'Each of the next qq lines contains two integers pospos and xx (1\xe2\x89\xa4pos\xe2\x89\xa4n1\xe2\x89\xa4pos\xe2\x89\xa4n, 1\xe2\x89\xa4x\xe2\x89\xa4106,x\xe2\x89\xa0apos1\xe2\x89\xa4x\xe2\x89\xa4106,x\xe2\x89\xa0apos). It means that you have to make apos=xapos=x.'
+b"It's guaranteed that at every moment of time, all elements of the array are different."
+b'Output'
+b'After each query, output the weight of the array.'
+Tags
+data structures, *3300

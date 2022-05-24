@@ -1,0 +1,13 @@
+b'You are given a set of n\xe2\x89\xa52n\xe2\x89\xa52 pairwise different points with integer coordinates. Your task is to partition these points into two nonempty groups AA and BB, such that the following condition holds:'
+b'For every two points PP and QQ, write the Euclidean distance between them on the blackboard: if they belong to the same group\xc2\xa0\xe2\x80\x94 with a yellow pen, and if they belong to different groups\xc2\xa0\xe2\x80\x94 with a blue pen. Then no yellow number is equal to any blue number.'
+b'It is guaranteed that such a partition exists for any possible input. If there exist multiple partitions, you are allowed to output any of them.'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa4103)(2\xe2\x89\xa4n\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the number of points.'
+b'The ii-th of the next nn lines contains two integers xixi and yiyi (\xe2\x88\x92106\xe2\x89\xa4xi,yi\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4xi,yi\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the coordinates of the ii-th point. '
+b'It is guaranteed that all nn points are pairwise different.'
+b'Output'
+b'In the first line, output aa (1\xe2\x89\xa4a\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4a\xe2\x89\xa4n\xe2\x88\x921)\xc2\xa0\xe2\x80\x94 the number of points in a group AA.'
+b'In the second line, output aa integers\xc2\xa0\xe2\x80\x94 the indexes of points that you include into group AA.'
+b'If there are multiple answers, print any.'
+Tags
+constructive algorithms, geometry, math, *2300

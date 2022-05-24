@@ -1,0 +1,12 @@
+b'You are given a strictly convex polygon with nn vertices.'
+b'You will make kk cuts that meet the following conditions: '
+b'  each cut is a segment that connects two different nonadjacent vertices;  two cuts can intersect only at vertices of the polygon. '
+b'Your task is to maximize the area of the smallest region that will be formed by the polygon and those kk cuts.'
+b'Input'
+b'The first line contains two integers nn, kk (3\xe2\x89\xa4n\xe2\x89\xa42003\xe2\x89\xa4n\xe2\x89\xa4200, 0\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9230\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x923).'
+b'The following nn lines describe vertices of the polygon in anticlockwise direction. The ii-th line contains two integers xixi, yiyi (|xi|,|yi|\xe2\x89\xa4108|xi|,|yi|\xe2\x89\xa4108) \xe2\x80\x94 the coordinates of the ii-th vertex.'
+b'It is guaranteed that the polygon is convex and that no two adjacent sides are parallel.'
+b'Output'
+b'Print one integer: the maximum possible area of the smallest region after making kk cuts multiplied by 22.'
+Tags
+binary search, dp, geometry, *3000

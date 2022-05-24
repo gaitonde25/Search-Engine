@@ -1,0 +1,13 @@
+b'You are given a directed graph with nn vertices and mm directed edges without self-loops or multiple edges.'
+b"Let's denote the kk-coloring of a digraph as following: you color each edge in one of kk colors. The kk-coloring is good if and only if there no cycle formed by edges of same color."
+b'Find a good kk-coloring of given digraph with minimum possible kk.'
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa450002\xe2\x89\xa4n\xe2\x89\xa45000, 1\xe2\x89\xa4m\xe2\x89\xa450001\xe2\x89\xa4m\xe2\x89\xa45000) \xe2\x80\x94 the number of vertices and edges in the digraph, respectively.'
+b'Next mm lines contain description of edges \xe2\x80\x94 one per line. Each edge is a pair of integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v) \xe2\x80\x94 there is directed edge from uu to vv in the graph.'
+b'It is guaranteed that each ordered pair (u,v)(u,v) appears in the list of edges at most once.'
+b'Output'
+b'In the first line print single integer kk \xe2\x80\x94 the number of used colors in a good kk-coloring of given graph.'
+b'In the second line print mm integers c1,c2,\xe2\x80\xa6,cmc1,c2,\xe2\x80\xa6,cm (1\xe2\x89\xa4ci\xe2\x89\xa4k1\xe2\x89\xa4ci\xe2\x89\xa4k), where cici is a color of the ii-th edge (in order as they are given in the input).'
+b'If there are multiple answers print any of them (you still have to minimize kk).'
+Tags
+constructive algorithms, dfs and similar, graphs, *2100

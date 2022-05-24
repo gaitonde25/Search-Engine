@@ -1,0 +1,16 @@
+b'You know, it\'s hard to conduct a show with lots of participants and spectators at the same place nowadays. Still, you are not giving up on your dream to make a car crash showcase! You decided to replace the real cars with remote controlled ones, call the event "Remote Control Kaboom Show" and stream everything online.'
+b'For the preparation you arranged an arena\xc2\xa0\xe2\x80\x94 an infinite 2D-field. You also bought nn remote controlled cars and set them up on the arena. Unfortunately, the cars you bought can only go forward without turning left, right or around. So you additionally put the cars in the direction you want them to go.'
+b'To be formal, for each car ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) you chose its initial position (xi,yixi,yi) and a direction vector (dxi,dyidxi,dyi). Moreover, each car has a constant speed sisi units per second. So after car ii is launched, it stars moving from (xi,yixi,yi) in the direction (dxi,dyidxi,dyi) with constant speed sisi.'
+b"The goal of the show is to create a car collision as fast as possible! You noted that launching every car at the beginning of the show often fails to produce any collisions at all. Thus, you plan to launch the ii-th car at some moment titi. You haven't chosen titi, that's yet to be decided. Note that it's not necessary for titi to be integer and titi is allowed to be equal to tjtj for any i,ji,j."
+b'The show starts at time 00. The show ends when two cars ii and jj (i\xe2\x89\xa0ji\xe2\x89\xa0j) collide (i.\xe2\x80\x89e. come to the same coordinate at the same time). The duration of the show is the time between the start and the end.'
+b"What's the fastest crash you can arrange by choosing all titi? If it's possible to arrange a crash then print the shortest possible duration of the show. Otherwise, report that it's impossible."
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4250001\xe2\x89\xa4n\xe2\x89\xa425000)\xc2\xa0\xe2\x80\x94 the number of cars.'
+b'Each of the next nn lines contains five integers xixi, yiyi, dxidxi, dyidyi, sisi (\xe2\x88\x92103\xe2\x89\xa4xi,yi\xe2\x89\xa4103\xe2\x88\x92103\xe2\x89\xa4xi,yi\xe2\x89\xa4103; 1\xe2\x89\xa4|dxi|\xe2\x89\xa41031\xe2\x89\xa4|dxi|\xe2\x89\xa4103; 1\xe2\x89\xa4|dyi|\xe2\x89\xa41031\xe2\x89\xa4|dyi|\xe2\x89\xa4103; 1\xe2\x89\xa4si\xe2\x89\xa41031\xe2\x89\xa4si\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the initial position of the ii-th car, its direction vector and its speed, respectively.'
+b"It's guaranteed that all cars start at distinct positions (i.\xe2\x80\x89e. (xi,yi)\xe2\x89\xa0(xj,yj)(xi,yi)\xe2\x89\xa0(xj,yj) for i\xe2\x89\xa0ji\xe2\x89\xa0j)."
+b'Output'
+b'Print the shortest possible duration of the show if it\'s possible to arrange a crash by choosing all titi. Otherwise, print "No show :(".'
+b'Your answer is considered correct if its absolute or relative error does not exceed 10\xe2\x88\x92610\xe2\x88\x926.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is accepted if and only if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926."
+Tags
+binary search, brute force, data structures, geometry, math, *2900

@@ -1,0 +1,21 @@
+b'Once Grisha found a tree (connected graph without cycles) with a root in node 11.'
+b'But this tree was not just a tree. A permutation pp of integers from 00 to n\xe2\x88\x921n\xe2\x88\x921 is written in nodes, a number pipi is written in node ii.'
+b'As Grisha likes to invent some strange and interesting problems for himself, but not always can solve them, you need to help him deal with two types of queries on this tree.'
+b"Let's define a function MEX(S)MEX(S), where SS is a set of non-negative integers, as a smallest non-negative integer that is not included in this set."
+b"Let ll be a simple path in this tree. So let's define indices of nodes which lie on ll as u1u1, u2u2, \xe2\x80\xa6\xe2\x80\xa6, ukuk. "
+b'Define V(l)V(l) as a set {pu1pu1, pu2pu2, \xe2\x80\xa6\xe2\x80\xa6 , pukpuk}. '
+b'Then queries are: '
+b'  For two nodes ii and jj, swap pipi and pjpj.  Find the maximum value of MEX(V(l))MEX(V(l)) in all possible ll. '
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of nodes of a tree.'
+b"The second line contains nn integers\xc2\xa0\xe2\x80\x94 p1p1, p2p2, \xe2\x80\xa6\xe2\x80\xa6, pnpn (0\xe2\x89\xa4pi<n0\xe2\x89\xa4pi<n)\xc2\xa0\xe2\x80\x94 the permutation pp, it's guaranteed that all numbers are different ."
+b'The third line contains n\xe2\x88\x921n\xe2\x88\x921 integers\xc2\xa0\xe2\x80\x94 d2d2, d3d3, \xe2\x80\xa6\xe2\x80\xa6, dndn (1\xe2\x89\xa4di<i1\xe2\x89\xa4di<i), where didi is a direct ancestor of node ii in a tree.'
+b'The fourth line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'The following qq lines contain the description of queries:'
+b'At the beginning of each of next qq lines, there is a single integer tt (11 or 22)\xc2\xa0\xe2\x80\x94 the type of a query: '
+b'  If t=1t=1, the line also contains two integers ii and jj (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the indices of nodes, where values of the permutation should be swapped.  If t=2t=2, you need to find the maximum value of MEX(V(l))MEX(V(l)) in all possible ll. '
+b' '
+b'Output'
+b'For each type 2 query print a single integer\xc2\xa0\xe2\x80\x94 the answer for this query.'
+Tags
+data structures, trees, *2900

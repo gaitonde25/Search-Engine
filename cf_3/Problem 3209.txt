@@ -1,0 +1,8 @@
+b'This is an interactive problem.'
+b'In good old times dwarves tried to develop extrasensory abilities:'
+b'  Exactly n dwarves entered completely dark cave.  Each dwarf received a hat\xc2\xa0\xe2\x80\x94 white or black. While in cave, none of the dwarves was able to see either his own hat or hats of other Dwarves.  Dwarves went out of the cave to the meadow and sat at an arbitrary place one after the other. When a dwarf leaves the cave, he sees the colors of all hats of all dwarves that are seating on the meadow (i.e. left the cave before him). However, he is not able to see the color of his own hat and none of the dwarves can give him this information.  The task for dwarves was to got diverged into two parts\xc2\xa0\xe2\x80\x94 one with dwarves with white hats and one with black hats. '
+b'After many centuries, dwarves finally managed to select the right place on the meadow without error. Will you be able to repeat their success?'
+b'You are asked to successively name n different integer points on the plane. After naming each new point you will be given its color\xc2\xa0\xe2\x80\x94 black or white. Your task is to ensure that the named points can be split by a line in such a way that all points of one color lie on the same side from the line and points of different colors lie on different sides. Moreover, no points can belong to the line. Also, you need to report any such line at the end of the process.'
+b'In this problem, the interactor is adaptive\xc2\xa0\xe2\x80\x94 the colors of the points in the tests are not fixed beforehand and the jury program can select them arbitrarily, in particular, depending on your program output.'
+Tags
+binary search, constructive algorithms, geometry, interactive, *1900

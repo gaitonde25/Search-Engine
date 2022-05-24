@@ -1,0 +1,9 @@
+b'You are given a string S of even length s1..s2n . Perform the following manipulations:'
+b' divide it into two halves s1..sn and sn\xe2\x80\x89+\xe2\x80\x891..s2n reverse each of them sn..s1 and s2n..sn\xe2\x80\x89+\xe2\x80\x891 concatenate the resulting strings into sn..s1s2n..sn\xe2\x80\x89+\xe2\x80\x891'
+b'Output the result of these manipulations.'
+b'Input'
+b'The only line of the input contains a string of lowercase Latin letters. The length of the string is between 2 and 20, inclusive, and it is even. '
+b'Output'
+b'Output the string which is the result of the described manipulations.'
+Tags
+*special problem, *1600

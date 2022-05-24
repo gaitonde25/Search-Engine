@@ -1,0 +1,10 @@
+b"In order to celebrate Twice's 5th anniversary, Tzuyu and Sana decided to play a game."
+b'Tzuyu gave Sana two integers aa and bb and a really important quest.'
+b'In order to complete the quest, Sana has to output the smallest possible value of (a\xe2\x8a\x95xa\xe2\x8a\x95x) + (b\xe2\x8a\x95xb\xe2\x8a\x95x) for any given xx, where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation. '
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Description of the test cases follows.'
+b'The only line of each test case contains two integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa41091\xe2\x89\xa4a,b\xe2\x89\xa4109).'
+b'Output'
+b'For each testcase, output the smallest possible value of the given expression.'
+Tags
+bitmasks, greedy, math, *800

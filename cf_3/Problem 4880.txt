@@ -1,0 +1,12 @@
+b"Mike wants to prepare for IMO but he doesn't know geometry, so his teacher gave him an interesting geometry problem. Let's define f([l,\xe2\x80\x89r])\xe2\x80\x89=\xe2\x80\x89r\xe2\x80\x89-\xe2\x80\x89l\xe2\x80\x89+\xe2\x80\x891 to be the number of integer points in the segment [l,\xe2\x80\x89r] with l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r (say that ). You are given two integers n and k and n closed intervals [li,\xe2\x80\x89ri] on OX axis and you have to find:"
+b'  '
+b'In other words, you should find the sum of the number of integer points in the intersection of any k of the segments. '
+b'As the answer may be very large, output it modulo 1000000007 (109\xe2\x80\x89+\xe2\x80\x897).'
+b"Mike can't solve this problem so he needs your help. You will help him, won't you? "
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of segments and the number of segments in intersection groups respectively.'
+b'Then n lines follow, the i-th line contains two integers li,\xe2\x80\x89ri (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), describing i-th segment bounds.'
+b'Output'
+b"Print one integer number\xc2\xa0\xe2\x80\x94 the answer to Mike's problem modulo 1000000007 (109\xe2\x80\x89+\xe2\x80\x897) in the only line."
+Tags
+combinatorics, data structures, dp, geometry, implementation, *2000

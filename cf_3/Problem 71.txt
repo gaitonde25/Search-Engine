@@ -1,0 +1,15 @@
+b"Hosssam decided to sneak into Hemose's room while he is sleeping and change his laptop's password. He already knows the password, which is a string ss of length nn. He also knows that there are kk special letters of the alphabet: c1,c2,\xe2\x80\xa6,ckc1,c2,\xe2\x80\xa6,ck."
+b'Hosssam made a program that can do the following.'
+b'  The program considers the current password ss of some length mm.  Then it finds all positions ii (1\xe2\x89\xa4i<m1\xe2\x89\xa4i<m) such that si+1si+1 is one of the kk special letters.  Then it deletes all of those positions from the password ss even if sisi is a special character. If there are no positions to delete, then the program displays an error message which has a very loud sound. '
+b'For example, suppose the string ss is "abcdef" and the special characters are \'b\' and \'d\'. If he runs the program once, the positions 11 and 33 will be deleted as they come before special characters, so the password becomes "bdef". If he runs the program again, it deletes position 11, and the password becomes "def". If he is wise, he won\'t run it a third time.'
+b"Hosssam wants to know how many times he can run the program on Hemose's laptop without waking him up from the sound of the error message. Can you help him?"
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the initial length of the password.'
+b'The next line contains a string ss consisting of nn lowercase English letters \xe2\x80\x94 the initial password.'
+b'The next line contains an integer kk (1\xe2\x89\xa4k\xe2\x89\xa4261\xe2\x89\xa4k\xe2\x89\xa426), followed by kk distinct lowercase letters c1,c2,\xe2\x80\xa6,ckc1,c2,\xe2\x80\xa6,ck \xe2\x80\x94 the special letters.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print the maximum number of times Hosssam can run the program without displaying the error message, on a new line.'
+Tags
+brute force, implementation, strings, *1100

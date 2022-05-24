@@ -1,0 +1,12 @@
+b"You are given a tree. We will consider simple paths on it. Let's denote path between vertices aa and bb as (a,b)(a,b). Let dd-neighborhood of a path be a set of vertices of the tree located at a distance \xe2\x89\xa4d\xe2\x89\xa4d from at least one vertex of the path (for example, 00-neighborhood of a path is a path itself). Let PP be a multiset of the tree paths. Initially, it is empty. You are asked to maintain the following queries:"
+b'  11 uu vv\xc2\xa0\xe2\x80\x94 add path (u,v)(u,v) into PP (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n).  22 uu vv\xc2\xa0\xe2\x80\x94 delete path (u,v)(u,v) from PP (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n). Notice that (u,v)(u,v) equals to (v,u)(v,u). For example, if P={(1,2),(1,2)}P={(1,2),(1,2)}, than after query 22 22 11, P={(1,2)}P={(1,2)}.  33 dd\xc2\xa0\xe2\x80\x94 if intersection of all dd-neighborhoods of paths from PP is not empty output "Yes", otherwise output "No" (0\xe2\x89\xa4d\xe2\x89\xa4n\xe2\x88\x9210\xe2\x89\xa4d\xe2\x89\xa4n\xe2\x88\x921). '
+b'Input'
+b'The first line contains two integers nn and qq\xc2\xa0\xe2\x80\x94 the number of vertices in the tree and the number of queries, accordingly (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 2\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Each of the following n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers xixi and yiyi\xc2\xa0\xe2\x80\x94 indices of vertices connected by ii-th edge (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n).'
+b'The following qq lines contain queries in the format described in the statement.'
+b"It's guaranteed that: "
+b'  for a query 22 uu vv, path (u,v)(u,v) (or (v,u)(v,u)) is present in PP,  for a query 33 dd, P\xe2\x89\xa0\xe2\x88\x85P\xe2\x89\xa0\xe2\x88\x85,  there is at least one query of the third type. '
+b'Output'
+b'For each query of the third type output answer on a new line.'
+Tags
+data structures, trees, *3500

@@ -1,0 +1,13 @@
+b'Mayor of Yusland just won the lottery and decided to spent money on something good for town. For example, repair all the roads in the town.'
+b'Yusland consists of n intersections connected by n\xe2\x80\x89-\xe2\x80\x891 bidirectional roads. One can travel from any intersection to any other intersection using only these roads.'
+b'There is only one road repairing company in town, named "RC company". Company\'s center is located at the intersection 1. RC company doesn\'t repair roads you tell them. Instead, they have workers at some intersections, who can repair only some specific paths. The i-th worker can be paid ci coins and then he repairs all roads on a path from ui to some vi that lies on the path from ui to intersection 1. '
+b"Mayor asks you to choose the cheapest way to hire some subset of workers in order to repair all the roads in Yusland. It's allowed that some roads will be repaired more than once."
+b"If it's impossible to repair all roads print \xe2\x80\x89-\xe2\x80\x891."
+b'Input'
+b'The first line of the input contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of cities in Yusland and the number of workers respectively.'
+b'Then follow n\xe2\x88\x921 line, each of them contains two integers xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 indices of intersections connected by the i-th road.'
+b"Last m lines provide the description of workers, each line containing three integers ui, vi and ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109). This means that the i-th worker can repair all roads on the path from vi to ui for ci coins. It's guaranteed that vi lies on the path from ui to 1. Note that vi and ui may coincide."
+b'Output'
+b'If it\'s impossible to repair all roads then print \xe2\x80\x89-\xe2\x80\x891. Otherwise print a single integer\xc2\xa0\xe2\x80\x94 minimum cost required to repair all roads using "RC company" workers.'
+Tags
+data structures, dp, greedy, *2900

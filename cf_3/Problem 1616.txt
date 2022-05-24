@@ -1,0 +1,15 @@
+b'There are two rival donut shops.'
+b'The first shop sells donuts at retail: each donut costs aa dollars.'
+b'The second shop sells donuts only in bulk: box of bb donuts costs cc dollars. So if you want to buy xx donuts from this shop, then you have to buy the smallest number of boxes such that the total number of donuts in them is greater or equal to xx.'
+b'You want to determine two positive integer values: '
+b'  how many donuts can you buy so that they are strictly cheaper in the first shop than in the second shop?  how many donuts can you buy so that they are strictly cheaper in the second shop than in the first shop? '
+b"If any of these values doesn't exist then that value should be equal to \xe2\x88\x921\xe2\x88\x921. If there are multiple possible answers, then print any of them."
+b'The printed values should be less or equal to 109109. It can be shown that under the given constraints such values always exist if any values exist at all.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Each of the next tt lines contains three integers aa, bb and cc (1\xe2\x89\xa4a\xe2\x89\xa41091\xe2\x89\xa4a\xe2\x89\xa4109, 2\xe2\x89\xa4b\xe2\x89\xa41092\xe2\x89\xa4b\xe2\x89\xa4109, 1\xe2\x89\xa4c\xe2\x89\xa41091\xe2\x89\xa4c\xe2\x89\xa4109).'
+b'Output'
+b'For each testcase print two positive integers. For both shops print such xx that buying xx donuts in this shop is strictly cheaper than buying xx donuts in the other shop. xx should be greater than 00 and less or equal to 109109.'
+b'If there is no such xx, then print \xe2\x88\x921\xe2\x88\x921. If there are multiple answers, then print any of them.'
+Tags
+greedy, implementation, math, *1000

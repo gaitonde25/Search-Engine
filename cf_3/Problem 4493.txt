@@ -1,0 +1,13 @@
+b'Vasya has a sequence of cubes and exactly one integer is written on each cube. Vasya exhibited all his cubes in a row. So the sequence of numbers written on the cubes in the order from the left to the right equals to a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an.'
+b"While Vasya was walking, his little brother Stepan played with Vasya's cubes and changed their order, so now the sequence of numbers written on the cubes became equal to b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn. "
+b'Stepan said that he swapped only cubes which where on the positions between l and r, inclusive, and did not remove or add any other cubes (i. e. he said that he reordered cubes between positions l and r, inclusive, in some way).'
+b'Your task is to determine if it is possible that Stepan said the truth, or it is guaranteed that Stepan deceived his brother.'
+b'Input'
+b"The first line contains three integers n, l, r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the number of Vasya's cubes and the positions told by Stepan."
+b"The second line contains the sequence a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the sequence of integers written on cubes in the Vasya's order."
+b'The third line contains the sequence b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the sequence of integers written on cubes after Stepan rearranged their order.'
+b"It is guaranteed that Stepan did not remove or add other cubes, he only rearranged Vasya's cubes."
+b'Output'
+b'Print "LIE" (without quotes) if it is guaranteed that Stepan deceived his brother. In the other case, print "TRUTH" (without quotes).'
+Tags
+*special problem, constructive algorithms, implementation, sortings, *1500

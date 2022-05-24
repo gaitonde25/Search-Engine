@@ -1,0 +1,8 @@
+b'This is an interactive problem.'
+b"You are given a tree\xc2\xa0\xe2\x80\x94 connected undirected graph without cycles. One vertex of the tree is special, and you have to find which one. You can ask questions in the following form: given an edge of the tree, which endpoint is closer to the special vertex, meaning which endpoint's shortest path to the special vertex contains fewer edges. You have to find the special vertex by asking the minimum number of questions in the worst case for a given tree."
+b'Please note that the special vertex might not be fixed by the interactor in advance: it might change the vertex to any other one, with the requirement of being consistent with the previously given answers.'
+b'Input'
+b'You are given an integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of vertices in a tree.'
+b'The folloiwing n\xe2\x88\x921n\xe2\x88\x921 lines contain two integers each, uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n), that denote an edge in the tree connecting uu and vv. It is guaranteed that the given edges form a tree.'
+Tags
+brute force, dfs and similar, dp, interactive, trees, *3500

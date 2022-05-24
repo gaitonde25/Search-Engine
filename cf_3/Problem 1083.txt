@@ -1,0 +1,19 @@
+b'Kilani and Abd are neighbors for 3000 years, but then the day came and Kilani decided to move to another house. As a farewell gift, Kilani is going to challenge Abd with a problem written by their other neighbor with the same name Abd.'
+b'  '
+b'The problem is:'
+b'You are given a connected tree rooted at node 11.'
+b"You should assign a character a or b to every node in the tree so that the total number of a's is equal to xx and the total number of b's is equal to n\xe2\x88\x92xn\xe2\x88\x92x."
+b"Let's define a string for each node vv of the tree as follows: "
+b"  if vv is root then the string is just one character assigned to vv:  otherwise, let's take a string defined for the vv's parent pvpv and add to the end of it a character assigned to vv. "
+b'You should assign every node a character in a way that minimizes the number of distinct strings among the strings of all nodes.'
+b'Input'
+b"The first line contains two integers nn and xx (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105; 0\xe2\x89\xa4x\xe2\x89\xa4n0\xe2\x89\xa4x\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree the number of a's."
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3,\xe2\x80\xa6,pnp2,p3,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n; pi\xe2\x89\xa0ipi\xe2\x89\xa0i), where pipi is the parent of node ii.'
+b'It is guaranteed that the input describes a connected tree.'
+b'Output'
+b'In the first line, print the minimum possible total number of distinct strings.'
+b'In the second line, print nn characters, where all characters are either a or b and the ii-th character is the character assigned to the ii-th node.'
+b"Make sure that the total number of a's is equal to xx and the total number of b's is equal to n\xe2\x88\x92xn\xe2\x88\x92x."
+b'If there is more than one answer you can print any of them.'
+Tags
+dp, greedy, trees, *3100

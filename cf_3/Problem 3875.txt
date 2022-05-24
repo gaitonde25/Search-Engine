@@ -1,0 +1,11 @@
+b"Will shares a psychic connection with the Upside Down Monster, so everything the monster knows, Will knows. Suddenly, he started drawing, page after page, non-stop. Joyce, his mom, and Chief Hopper put the drawings together, and they realized, it's a labeled tree!"
+b'  '
+b"A tree is a connected acyclic graph. Will's tree has n vertices. Joyce and Hopper don't know what that means, so they're investigating this tree and similar trees. For each k such that 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891, they're going to investigate all labeled trees with n vertices that share exactly k edges with Will's tree. Two labeled trees are different if and only if there's a pair of vertices (v,\xe2\x80\x89u) such that there's an edge between v and u in one tree and not in the other one."
+b"Hopper and Joyce want to know how much work they have to do, so they asked you to tell them the number of labeled trees with n vertices that share exactly k edges with Will's tree, for each k. The answer could be very large, so they only asked you to tell them the answers modulo 1000000007\xe2\x80\x89=\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x897."
+b'Input'
+b'The first line of input contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the size of the tree.'
+b"The next n\xe2\x80\x89-\xe2\x80\x891 lines contain the edges of Will's tree. Each line contains two integers v and u (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v,\xe2\x80\x89u\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, v\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89u), endpoints of an edge. It is guaranteed that the given graph is a tree."
+b'Output'
+b"Print n integers in one line. i-th integer should be the number of the number of labeled trees with n vertices that share exactly i\xe2\x80\x89-\xe2\x80\x891 edges with Will's tree, modulo 1000\xe2\x80\x89000\xe2\x80\x89007\xe2\x80\x89=\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x897."
+Tags
+dp, math, matrices, trees, *2600

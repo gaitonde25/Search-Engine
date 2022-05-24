@@ -1,0 +1,10 @@
+b'Vika has decided to go on a trip to Bertown. She comes to Bertown on the kk-th day. Vika does not want to spend money on hotels, fortunately she has nn friends who live in Bertown and allow Vika to stay at their houses. The ii-th friend told Vika that she could stay at their house from the lili-th day till the riri-th day, inclusive.'
+b"Vika decided that she would stay at no more than one friend's house. Help Vika determine the maximum number of days that she will be able to stay in Bertown."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b"The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa41001\xe2\x89\xa4n,k\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of Vika's friends and the day when Vika comes to Bertown."
+b"Then follow nn lines, each containing two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa41001\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4100) denoting the period when Vika can stay at the ii-th friend's house."
+b'Output'
+b"For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the maximum number of days that Vika can stay in Bertown (or 00 if none of Vika's friends can host her on day kk)."
+Tags
+*special problem, implementation, math

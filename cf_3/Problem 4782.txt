@@ -1,0 +1,18 @@
+b'There are n casinos lined in a row. If Memory plays at casino i, he has probability pi to win and move to the casino on the right (i\xe2\x80\x89+\xe2\x80\x891) or exit the row (if i\xe2\x80\x89=\xe2\x80\x89n), and a probability 1\xe2\x80\x89-\xe2\x80\x89pi to lose and move to the casino on the left (i\xe2\x80\x89-\xe2\x80\x891) or also exit the row (if i\xe2\x80\x89=\xe2\x80\x891). '
+b'We say that Memory dominates on the interval i... j if he completes a walk such that,'
+b'  He starts on casino i.  He never looses in casino i.  He finishes his walk by winning in casino j. '
+b'Note that Memory can still walk left of the 1-st casino and right of the casino n and that always finishes the process.'
+b'Now Memory has some requests, in one of the following forms:'
+b'  1 i a b: Set .  2 l r: Print the probability that Memory will dominate on the interval l... r, i.e. compute the probability that Memory will first leave the segment l... r after winning at casino r, if she starts in casino l. '
+b'It is guaranteed that at any moment of time p is a non-decreasing sequence, i.e. pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89+\xe2\x80\x891 for all i from 1 to n\xe2\x80\x89-\xe2\x80\x891.'
+b'Please help Memory by answering all his requests!'
+b'Input'
+b'The first line of the input contains two integers n and q(1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), \xc2\xa0\xe2\x80\x94 number of casinos and number of requests respectively.'
+b'The next n lines each contain integers ai and bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89<\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xc2\xa0\xe2\x80\x94  is the probability pi of winning in casino i.'
+b'The next q lines each contain queries of one of the types specified above (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89<\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b"It's guaranteed that there will be at least one query of type 2, i.e. the output will be non-empty. Additionally, it is guaranteed that p forms a non-decreasing sequence at all times."
+b'Output'
+b'Print a real number for every request of type 2\xc2\xa0\xe2\x80\x94 the probability that boy will "dominate" on that interval. Your answer will be considered correct if its absolute error does not exceed 10\xe2\x80\x89-\xe2\x80\x894.'
+b"Namely: let's assume that one of your answers is a, and the corresponding answer of the jury is b. The checker program will consider your answer correct if |a\xe2\x80\x89-\xe2\x80\x89b|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89-\xe2\x80\x894."
+Tags
+data structures, math, probabilities, *2500

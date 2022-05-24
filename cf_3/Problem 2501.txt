@@ -1,0 +1,14 @@
+b'The subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements.'
+b'You are given an integer nn. '
+b'You have to find a sequence ss consisting of digits {1,3,7}{1,3,7} such that it has exactly nn subsequences equal to 13371337.'
+b'For example, sequence 337133377337133377 has 66 subsequences equal to 13371337: '
+b'  3371\xe2\x80\x9333\xe2\x80\x933\xe2\x80\x9377\xe2\x80\x933371_33_3_77_ (you can remove the second and fifth characters);  3371\xe2\x80\x933\xe2\x80\x9333\xe2\x80\x9377\xe2\x80\x933371_3_33_77_ (you can remove the third and fifth characters);  3371\xe2\x80\x933\xe2\x80\x933\xe2\x80\x93377\xe2\x80\x933371_3_3_377_ (you can remove the fourth and fifth characters);  3371\xe2\x80\x9333\xe2\x80\x933\xe2\x80\x937\xe2\x80\x9373371_33_3_7_7 (you can remove the second and sixth characters);  3371\xe2\x80\x933\xe2\x80\x9333\xe2\x80\x937\xe2\x80\x9373371_3_33_7_7 (you can remove the third and sixth characters);  3371\xe2\x80\x933\xe2\x80\x933\xe2\x80\x9337\xe2\x80\x9373371_3_3_37_7 (you can remove the fourth and sixth characters). '
+b'Note that the length of the sequence ss must not exceed 105105.'
+b'You have to answer tt independent queries.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410) \xe2\x80\x94 the number of queries. '
+b'Next tt lines contains a description of queries: the ii-th line contains one integer nini (1\xe2\x89\xa4ni\xe2\x89\xa41091\xe2\x89\xa4ni\xe2\x89\xa4109).'
+b'Output'
+b'For the ii-th query print one string sisi (1\xe2\x89\xa4|si|\xe2\x89\xa41051\xe2\x89\xa4|si|\xe2\x89\xa4105) consisting of digits {1,3,7}{1,3,7}. String sisi must have exactly nini subsequences 13371337. If there are multiple such strings, print any of them.'
+Tags
+combinatorics, constructive algorithms, math, strings, *1900

@@ -1,0 +1,12 @@
+b'In Aramic language words can only represent objects.'
+b'Words in Aramic have special properties: '
+b'  A word is a root if it does not contain the same letter more than once.  A root and all its permutations represent the same object.  The root xx of a word yy is the word that contains all letters that appear in yy in a way that each letter appears once. For example, the root of "aaaa", "aa", "aaa" is "a", the root of "aabb", "bab", "baabb", "ab" is "ab".  Any word in Aramic represents the same object as its root. '
+b'You have an ancient script in Aramic. What is the number of different objects mentioned in the script?'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41031\xe2\x89\xa4n\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the number of words in the script.'
+b'The second line contains nn words s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn\xc2\xa0\xe2\x80\x94 the script itself. The length of each string does not exceed 103103.'
+b'It is guaranteed that all characters of the strings are small latin letters.'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the number of different objects mentioned in the given ancient Aramic script.'
+Tags
+implementation, strings, *900

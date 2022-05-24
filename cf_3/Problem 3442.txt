@@ -1,0 +1,12 @@
+b'Pavel made a photo of his favourite stars in the sky. His camera takes a photo of all points of the sky that belong to some rectangle with sides parallel to the coordinate axes.'
+b'Strictly speaking, it makes a photo of all points with coordinates (x,y)(x,y), such that x1\xe2\x89\xa4x\xe2\x89\xa4x2x1\xe2\x89\xa4x\xe2\x89\xa4x2 and y1\xe2\x89\xa4y\xe2\x89\xa4y2y1\xe2\x89\xa4y\xe2\x89\xa4y2, where (x1,y1)(x1,y1) and (x2,y2)(x2,y2) are coordinates of the left bottom and the right top corners of the rectangle being photographed. The area of this rectangle can be zero.'
+b'After taking the photo, Pavel wrote down coordinates of nn of his favourite stars which appeared in the photo. These points are not necessarily distinct, there can be multiple stars in the same point of the sky.'
+b"Pavel has lost his camera recently and wants to buy a similar one. Specifically, he wants to know the dimensions of the photo he took earlier. Unfortunately, the photo is also lost. His notes are also of not much help; numbers are written in random order all over his notepad, so it's impossible to tell which numbers specify coordinates of which points."
+b'Pavel asked you to help him to determine what are the possible dimensions of the photo according to his notes. As there are multiple possible answers, find the dimensions with the minimal possible area of the rectangle.'
+b'Input'
+b"The first line of the input contains an only integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000), the number of points in Pavel's records."
+b'The second line contains 2\xe2\x8b\x85n2\xe2\x8b\x85n integers a1a1, a2a2, ..., a2\xe2\x8b\x85na2\xe2\x8b\x85n (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), coordinates, written by Pavel in some order.'
+b'Output'
+b"Print the only integer, the minimal area of the rectangle which could have contained all points from Pavel's records."
+Tags
+brute force, implementation, math, sortings, *1500

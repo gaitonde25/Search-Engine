@@ -1,0 +1,14 @@
+b'You are given a 11 by nn pixel image. The ii-th pixel of the image has color aiai. For each color, the number of pixels of that color is at most 2020.'
+b'You can perform the following operation, which works like the bucket tool in paint programs, on this image: '
+b'  pick a color \xe2\x80\x94 an integer from 11 to nn;  choose a pixel in the image;  for all pixels connected to the selected pixel, change their colors to the selected color (two pixels of the same color are considered connected if all the pixels between them have the same color as those two pixels). '
+b'Compute the minimum number of operations needed to make all the pixels in the image have the same color.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103).'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851031\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85103) \xe2\x80\x94 the number of pixels in the image.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) \xe2\x80\x94 the colors of the pixels in the image.'
+b'Note: for each color, the number of pixels of that color is at most 2020.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 3\xe2\x8b\x851033\xe2\x8b\x85103.'
+b'Output'
+b'For each test case, print one integer: the minimum number of operations needed to make all the pixels in the image have the same color.'
+Tags
+dp, greedy, *2700

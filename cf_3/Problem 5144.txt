@@ -1,0 +1,11 @@
+b'You are given array ai of length n. You may consecutively apply two operations to this array:'
+b'  remove some subsegment (continuous subsequence) of length m\xe2\x80\x89<\xe2\x80\x89n and pay for it m\xc2\xb7a coins;  change some elements of the array by at most 1, and pay b coins for each change. '
+b'Please note that each of operations may be applied at most once (and may be not applied at all) so you can remove only one segment and each number may be changed (increased or decreased) by at most 1. Also note, that you are not allowed to delete the whole array.'
+b'Your goal is to calculate the minimum number of coins that you need to spend in order to make the greatest common divisor of the elements of the resulting array be greater than 1.'
+b'Input'
+b'The first line of the input contains integers n, a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000,\xe2\x80\x890\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the length of the array, the cost of removing a single element in the first operation and the cost of changing an element, respectively.'
+b'The second line contains n integers ai (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 elements of the array.'
+b'Output'
+b'Print a single number\xc2\xa0\xe2\x80\x94 the minimum cost of changes needed to obtain an array, such that the greatest common divisor of all its elements is greater than 1.'
+Tags
+dp, greedy, number theory, *2300

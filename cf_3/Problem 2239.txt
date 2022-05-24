@@ -1,0 +1,12 @@
+b"Adding two numbers several times is a time-consuming task, so you want to build a robot. The robot should have a string S=S1S2\xe2\x80\xa6SNS=S1S2\xe2\x80\xa6SN of NN characters on its memory that represents addition instructions. Each character of the string, SiSi, is either 'A' or 'B'."
+b'You want to be able to give QQ commands to the robot, each command is either of the following types: '
+b"  1 LL RR. The robot should toggle all the characters of SiSi where L\xe2\x89\xa4i\xe2\x89\xa4RL\xe2\x89\xa4i\xe2\x89\xa4R. Toggling a character means changing it to 'A' if it was previously 'B', or changing it to 'B' if it was previously 'A'.  2 LL RR AA BB. The robot should call f(L,R,A,B)f(L,R,A,B) and return two integers as defined in the following pseudocode:     function f(L, R, A, B):      FOR i from L to R        if S[i] = 'A'          A = A + B        else          B = A + B      return (A, B)   "
+b"You want to implement the robot's expected behavior."
+b'Input'
+b"Input begins with a line containing two integers: NN QQ (1\xe2\x89\xa4N,Q\xe2\x89\xa41000001\xe2\x89\xa4N,Q\xe2\x89\xa4100000) representing the number of characters in the robot's memory and the number of commands, respectively. The next line contains a string SS containing NN characters (each either 'A' or 'B') representing the initial string in the robot's memory. The next QQ lines each contains a command of the following types. "
+b'  1 LL RR (1\xe2\x89\xa4L\xe2\x89\xa4R\xe2\x89\xa4N1\xe2\x89\xa4L\xe2\x89\xa4R\xe2\x89\xa4N)  2 LL RR AA BB (1\xe2\x89\xa4L\xe2\x89\xa4R\xe2\x89\xa4N1\xe2\x89\xa4L\xe2\x89\xa4R\xe2\x89\xa4N; 0\xe2\x89\xa4A,B\xe2\x89\xa41090\xe2\x89\xa4A,B\xe2\x89\xa4109) '
+b' There is at least one command of the second type.'
+b'Output'
+b'For each command of the second type in the same order as input, output in a line two integers (separated by a single space), the value of AA and BB returned by f(L,R,A,B)f(L,R,A,B), respectively. As this output can be large, you need to modulo the output by 10000000071000000007.'
+Tags
+data structures, math, matrices, *2100

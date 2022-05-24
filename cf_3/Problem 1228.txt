@@ -1,0 +1,14 @@
+b'Gildong has an interesting machine that has an array aa with nn integers. The machine supports two kinds of operations:'
+b'  Increase all elements of a suffix of the array by 11.  Decrease all elements of a suffix of the array by 11. '
+b"A suffix is a subsegment (contiguous elements) of the array that contains anan. In other words, for all ii where aiai is included in the subsegment, all ajaj's where i<j\xe2\x89\xa4ni<j\xe2\x89\xa4n must also be included in the subsegment."
+b'Gildong wants to make all elements of aa equal \xe2\x80\x94 he will always do so using the minimum number of operations necessary. To make his life even easier, before Gildong starts using the machine, you have the option of changing one of the integers in the array to any other integer. You are allowed to leave the array unchanged. You want to minimize the number of operations Gildong performs. With your help, what is the minimum number of operations Gildong will perform?'
+b'Note that even if you change one of the integers in the array, you should not count that as one of the operations because Gildong did not perform it.'
+b'Input'
+b'Each test contains one or more test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000).'
+b'Each test case contains two lines. The first line of each test case consists of an integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements of the array aa.'
+b'The second line of each test case contains nn integers. The ii-th integer is aiai (\xe2\x88\x925\xe2\x8b\x85108\xe2\x89\xa4ai\xe2\x89\xa45\xe2\x8b\x85108\xe2\x88\x925\xe2\x8b\x85108\xe2\x89\xa4ai\xe2\x89\xa45\xe2\x8b\x85108).'
+b'It is guaranteed that the sum of nn in all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the minimum number of operations Gildong has to perform in order to make all elements of the array equal.'
+Tags
+constructive algorithms, implementation, *1400

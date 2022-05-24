@@ -1,0 +1,8 @@
+b'Luke Skywalker got locked up in a rubbish shredder between two presses. R2D2 is already working on his rescue, but Luke needs to stay alive as long as possible. For simplicity we will assume that everything happens on a straight line, the presses are initially at coordinates 0 and L, and they move towards each other with speed v1 and v2, respectively. Luke has width d and is able to choose any position between the presses. Luke dies as soon as the distance between the presses is less than his width. Your task is to determine for how long Luke can stay alive.'
+b'Input'
+b"The first line of the input contains four integers d, L, v1, v2 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d,\xe2\x80\x89L,\xe2\x80\x89v1,\xe2\x80\x89v2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000,\xe2\x80\x89d\xe2\x80\x89<\xe2\x80\x89L)\xc2\xa0\xe2\x80\x94 Luke's width, the initial position of the second press and the speed of the first and second presses, respectively."
+b'Output'
+b'Print a single real value\xc2\xa0\xe2\x80\x94 the maximum period of time Luke can stay alive for. Your answer will be considered correct if its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x896. '
+b"Namely: let's assume that your answer is a, and the answer of the jury is b. The checker program will consider your answer correct, if ."
+Tags
+math, *800

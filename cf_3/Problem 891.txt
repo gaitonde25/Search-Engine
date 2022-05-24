@@ -1,0 +1,15 @@
+b'The 2050 volunteers are organizing the "Run! Chase the Rising Sun" activity. Starting on Apr 25 at 7:30 am, runners will complete the 6km trail around the Yunqi town.'
+b'There are n+1n+1 checkpoints on the trail. They are numbered by 00, 11, ..., nn. A runner must start at checkpoint 00 and finish at checkpoint nn. No checkpoint is skippable\xc2\xa0\xe2\x80\x94 he must run from checkpoint 00 to checkpoint 11, then from checkpoint 11 to checkpoint 22 and so on. Look at the picture in notes section for clarification.'
+b'Between any two adjacent checkpoints, there are mm different paths to choose. For any 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, to run from checkpoint i\xe2\x88\x921i\xe2\x88\x921 to checkpoint ii, a runner can choose exactly one from the mm possible paths. The length of the jj-th path between checkpoint i\xe2\x88\x921i\xe2\x88\x921 and ii is bi,jbi,j for any 1\xe2\x89\xa4j\xe2\x89\xa4m1\xe2\x89\xa4j\xe2\x89\xa4m and 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n.'
+b'To test the trail, we have mm runners. Each runner must run from the checkpoint 00 to the checkpoint nn once, visiting all the checkpoints. Every path between every pair of adjacent checkpoints needs to be ran by exactly one runner. If a runner chooses the path of length lili between checkpoint i\xe2\x88\x921i\xe2\x88\x921 and ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n), his tiredness is mini=1nli,mini=1nli, i.\xc2\xa0e. the minimum length of the paths he takes.'
+b'Please arrange the paths of the mm runners to minimize the sum of tiredness of them.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41001\xe2\x89\xa4n,m\xe2\x89\xa4100).'
+b'The ii-th of the next nn lines contains mm integers bi,1bi,1, bi,2bi,2, ..., bi,mbi,m (1\xe2\x89\xa4bi,j\xe2\x89\xa41091\xe2\x89\xa4bi,j\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of n\xe2\x8b\x85mn\xe2\x8b\x85m over all test cases does not exceed 104104.'
+b'Output'
+b'For each test case, output nn lines. The jj-th number in the ii-th line should contain the length of the path that runner jj chooses to run from checkpoint i\xe2\x88\x921i\xe2\x88\x921 to checkpoint ii. There should be exactly mm integers in the ii-th line and these integers should form a permuatation of bi,1bi,1, ..., bi,mbi,m for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n.'
+b'If there are multiple answers, print any.'
+Tags
+constructive algorithms, greedy, sortings, *1200

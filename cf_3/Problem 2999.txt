@@ -1,0 +1,12 @@
+b'Cardbluff is popular sport game in Telegram. Each Cardbluff player has ever dreamed about entrance in the professional layer. There are nn judges now in the layer and you are trying to pass the entrance exam. You have a number kk \xe2\x80\x94 your skill in Cardbluff.'
+b'Each judge has a number aiai \xe2\x80\x94 an indicator of uncertainty about your entrance to the professional layer and a number eiei \xe2\x80\x94 an experience playing Cardbluff. To pass the exam you need to convince all judges by playing with them. You can play only one game with each judge. As a result of a particular game, you can divide the uncertainty of ii-th judge by any natural divisor of aiai which is at most kk. If GCD of all indicators is equal to 11, you will enter to the professional layer and become a judge.'
+b'Also, you want to minimize the total amount of spent time. So, if you play with xx judges with total experience yy you will spend x\xe2\x8b\x85yx\xe2\x8b\x85y seconds.'
+b"Print minimal time to enter to the professional layer or \xe2\x88\x921\xe2\x88\x921 if it's impossible."
+b'Input'
+b'There are two numbers in the first line nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106, 1\xe2\x89\xa4k\xe2\x89\xa410121\xe2\x89\xa4k\xe2\x89\xa41012) \xe2\x80\x94 the number of judges and your skill in Cardbluff.'
+b'The second line contains nn integers, where ii-th number aiai (1\xe2\x89\xa4ai\xe2\x89\xa410121\xe2\x89\xa4ai\xe2\x89\xa41012) \xe2\x80\x94 the uncertainty of ii-th judge'
+b'The third line contains nn integers in the same format (1\xe2\x89\xa4ei\xe2\x89\xa41091\xe2\x89\xa4ei\xe2\x89\xa4109), eiei \xe2\x80\x94 the experience of ii-th judge.'
+b'Output'
+b"Print the single integer \xe2\x80\x94 minimal number of seconds to pass exam, or \xe2\x88\x921\xe2\x88\x921 if it's impossible"
+Tags
+bitmasks, dp, *3100

@@ -1,0 +1,12 @@
+b"Consider a sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. In one move, you can select any element of the sequence and delete it. After an element is deleted, all elements to the right are shifted to the left by 11 position, so there are no empty spaces in the sequence. So after you make a move, the sequence's length decreases by 11. The indices of the elements after the move are recalculated."
+b"E.\xe2\x80\x89g. let the sequence be a=[3,2,2,1,5]a=[3,2,2,1,5]. Let's select the element a3=2a3=2 in a move. Then after the move the sequence will be equal to a=[3,2,1,5]a=[3,2,1,5], so the 33-rd element of the new sequence will be a3=1a3=1 and the 44-th element will be a4=5a4=5."
+b'You are given a sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and a number kk. You need to find the minimum number of moves you have to make so that in the resulting sequence there will be at least kk elements that are equal to their indices, i.\xe2\x80\x89e. the resulting sequence b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm will contain at least kk indices ii such that bi=ibi=i.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case consists of two consecutive lines. The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42000). The second line contains a sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n). The numbers in the sequence are not necessarily different.'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 20002000."
+b'Output'
+b'For each test case output in a single line:'
+b"  \xe2\x88\x921\xe2\x88\x921 if there's no desired move sequence;  otherwise, the integer xx (0\xe2\x89\xa4x\xe2\x89\xa4n0\xe2\x89\xa4x\xe2\x89\xa4n) \xe2\x80\x94 the minimum number of the moves to be made so that the resulting sequence will contain at least kk elements that are equal to their indices. "
+Tags
+binary search, brute force, dp, *2000

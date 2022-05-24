@@ -1,0 +1,12 @@
+b'The numbers 1,2,\xe2\x80\xa6,n\xe2\x8b\x85k1,2,\xe2\x80\xa6,n\xe2\x8b\x85k are colored with nn colors. These colors are indexed by 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n. For each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, there are exactly kk numbers colored with color ii.'
+b'Let [a,b][a,b] denote the interval of integers between aa and bb inclusive, that is, the set {a,a+1,\xe2\x80\xa6,b}{a,a+1,\xe2\x80\xa6,b}. You must choose nn intervals [a1,b1],[a2,b2],\xe2\x80\xa6,[an,bn][a1,b1],[a2,b2],\xe2\x80\xa6,[an,bn] such that: '
+b'  for each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, it holds 1\xe2\x89\xa4ai<bi\xe2\x89\xa4n\xe2\x8b\x85k1\xe2\x89\xa4ai<bi\xe2\x89\xa4n\xe2\x8b\x85k;  for each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, the numbers aiai and bibi are colored with color ii;  each number 1\xe2\x89\xa4x\xe2\x89\xa4n\xe2\x8b\x85k1\xe2\x89\xa4x\xe2\x89\xa4n\xe2\x8b\x85k belongs to at most \xe2\x8c\x88nk\xe2\x88\x921\xe2\x8c\x89\xe2\x8c\x88nk\xe2\x88\x921\xe2\x8c\x89 intervals. '
+b'One can show that such a family of intervals always exists under the given constraints.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 2\xe2\x89\xa4k\xe2\x89\xa41002\xe2\x89\xa4k\xe2\x89\xa4100) \xe2\x80\x94 the number of colors and the number of occurrences of each color.'
+b'The second line contains n\xe2\x8b\x85kn\xe2\x8b\x85k integers c1,c2,\xe2\x80\xa6,cnkc1,c2,\xe2\x80\xa6,cnk (1\xe2\x89\xa4cj\xe2\x89\xa4n1\xe2\x89\xa4cj\xe2\x89\xa4n), where cjcj is the color of number jj. It is guaranteed that, for each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, it holds cj=icj=i for exactly kk distinct indices jj.'
+b'Output'
+b'Output nn lines. The ii-th line should contain the two integers aiai and bibi.'
+b'If there are multiple valid choices of the intervals, output any.'
+Tags
+constructive algorithms, data structures, greedy, sortings, *2300

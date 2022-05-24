@@ -1,0 +1,11 @@
+b'Watchmen are in a danger and Doctor Manhattan together with his friend Daniel Dreiberg should warn them as soon as possible. There are n watchmen on a plane, the i-th watchman is located at point (xi,\xe2\x80\x89yi).'
+b'They need to arrange a plan, but there are some difficulties on their way. As you know, Doctor Manhattan considers the distance between watchmen i and j to be |xi\xe2\x80\x89-\xe2\x80\x89xj|\xe2\x80\x89+\xe2\x80\x89|yi\xe2\x80\x89-\xe2\x80\x89yj|. Daniel, as an ordinary person, calculates the distance using the formula .'
+b'The success of the operation relies on the number of pairs (i,\xe2\x80\x89j) (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), such that the distance between watchman i and watchmen j calculated by Doctor Manhattan is equal to the distance between them calculated by Daniel. You were asked to compute the number of such pairs.'
+b'Input'
+b'The first line of the input contains the single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of watchmen.'
+b'Each of the following n lines contains two integers xi and yi (|xi|,\xe2\x80\x89|yi|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Some positions may coincide.'
+b'Output'
+b'Print the number of pairs of watchmen such that the distance between them calculated by Doctor Manhattan is equal to the distance calculated by Daniel.'
+Tags
+data structures, geometry, math, *1400

@@ -1,0 +1,12 @@
+b'Monocarp wants to draw four line segments on a sheet of paper. He wants the ii-th segment to have its length equal to aiai (1\xe2\x89\xa4i\xe2\x89\xa441\xe2\x89\xa4i\xe2\x89\xa44). These segments can intersect with each other, and each segment should be either horizontal or vertical.'
+b'Monocarp wants to draw the segments in such a way that they enclose a rectangular space, and the area of that rectangular space should be maximum possible.'
+b'For example, if Monocarp wants to draw four segments with lengths 11, 22, 33 and 44, he can do it the following way:'
+b'  Here, Monocarp has drawn segments ABAB (with length 11), CDCD (with length 22), BCBC (with length 33) and EFEF (with length 44). He got a rectangle ABCFABCF with area equal to 33 that is enclosed by the segments. '
+b'Calculate the maximum area of a rectangle Monocarp can enclose with four segments.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa43\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa43\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of a single line containing four integers a1a1, a2a2, a3a3, a4a4 (1\xe2\x89\xa4ai\xe2\x89\xa41041\xe2\x89\xa4ai\xe2\x89\xa4104) \xe2\x80\x94 the lengths of the segments Monocarp wants to draw.'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the maximum area of a rectangle Monocarp can enclose with four segments (it can be shown that the answer is always an integer).'
+Tags
+greedy, *800

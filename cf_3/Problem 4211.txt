@@ -1,0 +1,10 @@
+b'Kirill plays a new computer game. He came to the potion store where he can buy any potion. Each potion is characterized by two integers\xc2\xa0\xe2\x80\x94 amount of experience and cost. The efficiency of a potion is the ratio of the amount of experience to the cost. Efficiency may be a non-integer number.'
+b'For each two integer numbers a and b such that l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r and x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y there is a potion with experience a and cost b in the store (that is, there are (r\xe2\x80\x89-\xe2\x80\x89l\xe2\x80\x89+\xe2\x80\x891)\xc2\xb7(y\xe2\x80\x89-\xe2\x80\x89x\xe2\x80\x89+\xe2\x80\x891) potions).'
+b'Kirill wants to buy a potion which has efficiency k. Will he be able to do this?'
+b'Input'
+b'First string contains five integer numbers l, r, x, y, k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107).'
+b'Output'
+b'Print "YES" without quotes if a potion with efficiency exactly k can be bought in the store and "NO" without quotes otherwise.'
+b'You can output each of the letters in any register.'
+Tags
+brute force, two pointers, *1200

@@ -1,0 +1,12 @@
+b"Little Timofey likes integers a lot. Unfortunately, he is very young and can't work with very big integers, so he does all the operations modulo his favorite prime m. Also, Timofey likes to look for arithmetical progressions everywhere."
+b'One of his birthday presents was a sequence of distinct integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an. Timofey wants to know whether he can rearrange the elements of the sequence so that is will be an arithmetical progression modulo m, or not.'
+b'Arithmetical progression modulo m of length n with first element x and difference d is sequence of integers x,\xe2\x80\x89x\xe2\x80\x89+\xe2\x80\x89d,\xe2\x80\x89x\xe2\x80\x89+\xe2\x80\x892d,\xe2\x80\x89...,\xe2\x80\x89x\xe2\x80\x89+\xe2\x80\x89(n\xe2\x80\x89-\xe2\x80\x891)\xc2\xb7d, each taken modulo m.'
+b'Input'
+b"The first line contains two integers m and n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x897, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, m is prime)\xc2\xa0\xe2\x80\x94 Timofey's favorite prime module and the length of the sequence."
+b'The second line contains n distinct integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89<\xe2\x80\x89m)\xc2\xa0\xe2\x80\x94 the elements of the sequence.'
+b'Output'
+b'Print -1 if it is not possible to rearrange the elements of the sequence so that is will be an arithmetical progression modulo m.'
+b'Otherwise, print two integers\xc2\xa0\xe2\x80\x94 the first element of the obtained progression x (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89<\xe2\x80\x89m) and its difference d (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d\xe2\x80\x89<\xe2\x80\x89m).'
+b'If there are multiple answers, print any of them.'
+Tags
+brute force, implementation, math, number theory, *2600

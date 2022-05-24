@@ -1,0 +1,13 @@
+b'Once upon a time Mike and Mike decided to come up with an outstanding problem for some stage of ROI (rare olympiad in informatics). One of them came up with a problem prototype but another stole the idea and proposed that problem for another stage of the same olympiad. Since then the first Mike has been waiting for an opportunity to propose the original idea for some other contest... Mike waited until this moment!'
+b'You are given an array aa of nn integers. You are also given qq queries of two types:'
+b'  Replace ii-th element in the array with integer xx.  Replace each element in the array with integer xx. '
+b'After performing each query you have to calculate the sum of all elements in the array.'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of elements in the array and the number of queries, respectively.'
+b'The second line contains nn integers a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 elements of the array aa.'
+b'Each of the following qq lines contains a description of the corresponding query. Description begins with integer tt (t\xe2\x88\x88{1,2}t\xe2\x88\x88{1,2}) which denotes a type of the query:'
+b"  If t=1t=1, then two integers ii and xx are following (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, 1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 position of replaced element and it's new value.  If t=2t=2, then integer xx is following (1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 new value of each element in the array. "
+b'Output'
+b'Print qq integers, each on a separate line. In the ii-th line print the sum of all elements in the array after performing the first ii queries.'
+Tags
+data structures, implementation, *1200

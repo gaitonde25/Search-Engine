@@ -1,0 +1,13 @@
+b"Welcome to Codeforces Stock Exchange! We're pretty limited now as we currently allow trading on one stock, Codeforces Ltd. We hope you'll still be able to make profit from the market!"
+b'In the morning, there are nn opportunities to buy shares. The ii-th of them allows to buy as many shares as you want, each at the price of sisi bourles.'
+b"In the evening, there are mm opportunities to sell shares. The ii-th of them allows to sell as many shares as you want, each at the price of bibi bourles. You can't sell more shares than you have."
+b"It's morning now and you possess rr bourles and no shares."
+b'What is the maximum number of bourles you can hold after the evening?'
+b'Input'
+b'The first line of the input contains three integers n,m,rn,m,r (1\xe2\x89\xa4n\xe2\x89\xa4301\xe2\x89\xa4n\xe2\x89\xa430, 1\xe2\x89\xa4m\xe2\x89\xa4301\xe2\x89\xa4m\xe2\x89\xa430, 1\xe2\x89\xa4r\xe2\x89\xa410001\xe2\x89\xa4r\xe2\x89\xa41000) \xe2\x80\x94 the number of ways to buy the shares on the market, the number of ways to sell the shares on the market, and the number of bourles you hold now.'
+b'The next line contains nn integers s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (1\xe2\x89\xa4si\xe2\x89\xa410001\xe2\x89\xa4si\xe2\x89\xa41000); sisi indicates the opportunity to buy shares at the price of sisi bourles.'
+b'The following line contains mm integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (1\xe2\x89\xa4bi\xe2\x89\xa410001\xe2\x89\xa4bi\xe2\x89\xa41000); bibi indicates the opportunity to sell shares at the price of bibi bourles.'
+b'Output'
+b'Output a single integer \xe2\x80\x94 the maximum number of bourles you can hold after the evening.'
+Tags
+greedy, implementation, *800

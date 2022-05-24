@@ -1,0 +1,17 @@
+b'A running competition is going to be held soon. The stadium where the competition will be held can be represented by several segments on the coordinate plane:'
+b'  two horizontal segments: one connecting the points (0,0)(0,0) and (x,0)(x,0), the other connecting the points (0,y)(0,y) and (x,y)(x,y);  n+1n+1 vertical segments, numbered from 00 to nn. The ii-th segment connects the points (ai,0)(ai,0) and (ai,y)(ai,y); 0=a0<a1<a2<\xe2\x8b\xaf<an\xe2\x88\x921<an=x0=a0<a1<a2<\xe2\x8b\xaf<an\xe2\x88\x921<an=x. '
+b'For example, here is a picture of the stadium with x=10x=10, y=5y=5, n=3n=3 and a=[0,3,5,10]a=[0,3,5,10]:'
+b'  '
+b'A lap is a route that goes along the segments, starts and finishes at the same point, and never intersects itself (the only two points of a lap that coincide are its starting point and ending point). The length of a lap is a total distance travelled around it. For example, the red route in the picture representing the stadium is a lap of length 2424.'
+b"The competition will be held in qq stages. The ii-th stage has length lili, and the organizers want to choose a lap for each stage such that the length of the lap is a divisor of lili. The organizers don't want to choose short laps for the stages, so for each stage, they want to find the maximum possible length of a suitable lap."
+b'Help the organizers to calculate the maximum possible lengths of the laps for the stages! In other words, for every lili, find the maximum possible integer LL such that limodL=0limodL=0, and there exists a lap of length exactly LL.'
+b'If it is impossible to choose such a lap then print \xe2\x88\x921\xe2\x88\x921.'
+b'Input'
+b'The first line contains three integers nn, xx and yy (1\xe2\x89\xa4n,x,y\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,x,y\xe2\x89\xa42\xe2\x8b\x85105, n\xe2\x89\xa4xn\xe2\x89\xa4x).'
+b'The second line contains n+1n+1 integers a0a0, a1a1, ..., anan (0=a0<a1<a2<\xe2\x8b\xaf<an\xe2\x88\x921<an=x0=a0<a1<a2<\xe2\x8b\xaf<an\xe2\x88\x921<an=x).'
+b'The third line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of stages.'
+b'The fourth line contains qq even integers l1l1, l2l2, ..., lqlq (4\xe2\x89\xa4li\xe2\x89\xa41064\xe2\x89\xa4li\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the lengths of the stages. '
+b'Output'
+b'Print qq numbers. The ii-th number should be equal to the maximum possible length of a suitable lap for the ii-th stage, or \xe2\x88\x921\xe2\x88\x921 if it is impossible to choose a lap for that stage.'
+Tags
+bitmasks, fft, math, number theory, *2600

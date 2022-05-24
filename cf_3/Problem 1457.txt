@@ -1,0 +1,10 @@
+b'This is an interactive problem.'
+b'There is an unknown integer xx (1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n). You want to find xx.'
+b'At first, you have a set of integers {1,2,\xe2\x80\xa6,n}{1,2,\xe2\x80\xa6,n}. You can perform the following operations no more than 1000010000 times:'
+b'  A aa: find how many numbers are multiples of aa in the current set.  B aa: find how many numbers are multiples of aa in this set, and then delete all multiples of aa, but xx will never be deleted (even if it is a multiple of aa). In this operation, aa must be greater than 11.  C aa: it means that you know that x=ax=a. This operation can be only performed once. '
+b'Remember that in the operation of type B a>1a>1 must hold.'
+b'Write a program, that will find the value of xx.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105). The remaining parts of the input will be given throughout the interaction process.'
+Tags
+interactive, math, number theory, *2600

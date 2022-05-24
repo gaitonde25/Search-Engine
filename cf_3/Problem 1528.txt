@@ -1,0 +1,14 @@
+b'Omkar is playing his favorite pixelated video game, Bed Wars! In Bed Wars, there are nn players arranged in a circle, so that for all jj such that 2\xe2\x89\xa4j\xe2\x89\xa4n2\xe2\x89\xa4j\xe2\x89\xa4n, player j\xe2\x88\x921j\xe2\x88\x921 is to the left of the player jj, and player jj is to the right of player j\xe2\x88\x921j\xe2\x88\x921. Additionally, player nn is to the left of player 11, and player 11 is to the right of player nn.'
+b'Currently, each player is attacking either the player to their left or the player to their right. This means that each player is currently being attacked by either 00, 11, or 22 other players. A key element of Bed Wars strategy is that if a player is being attacked by exactly 11 other player, then they should logically attack that player in response. If instead a player is being attacked by 00 or 22 other players, then Bed Wars strategy says that the player can logically attack either of the adjacent players.'
+b'Unfortunately, it might be that some players in this game are not following Bed Wars strategy correctly. Omkar is aware of whom each player is currently attacking, and he can talk to any amount of the nn players in the game to make them instead attack another player \xc2\xa0\xe2\x80\x94 i. e. if they are currently attacking the player to their left, Omkar can convince them to instead attack the player to their right; if they are currently attacking the player to their right, Omkar can convince them to instead attack the player to their left. '
+b'Omkar would like all players to be acting logically. Calculate the minimum amount of players that Omkar needs to talk to so that after all players he talked to (if any) have changed which player they are attacking, all players are acting logically according to Bed Wars strategy.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). The descriptions of the test cases follows.'
+b'The first line of each test case contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the amount of players (and therefore beds) in this game of Bed Wars.'
+b'The second line of each test case contains a string ss of length nn. The jj-th character of ss is equal to L if the jj-th player is attacking the player to their left, and R if the jj-th player is attacking the player to their right.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output one integer: the minimum number of players Omkar needs to talk to to make it so that all players are acting logically according to Bed Wars strategy.'
+b'It can be proven that it is always possible for Omkar to achieve this under the given constraints.'
+Tags
+dp, greedy, *1700

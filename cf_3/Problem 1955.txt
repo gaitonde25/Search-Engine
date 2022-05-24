@@ -1,0 +1,11 @@
+b'You are given three integers a\xe2\x89\xa4b\xe2\x89\xa4ca\xe2\x89\xa4b\xe2\x89\xa4c.'
+b'In one move, you can add +1+1 or \xe2\x88\x921\xe2\x88\x921 to any of these integers (i.e. increase or decrease any number by one). You can perform such operation any (possibly, zero) number of times, you can even perform this operation several times with one number. Note that you cannot make non-positive numbers using such operations.'
+b'You have to perform the minimum number of such operations in order to obtain three integers A\xe2\x89\xa4B\xe2\x89\xa4CA\xe2\x89\xa4B\xe2\x89\xa4C such that BB is divisible by AA and CC is divisible by BB.'
+b'You have to answer tt independent test cases. '
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The next tt lines describe test cases. Each test case is given on a separate line as three space-separated integers a,ba,b and cc (1\xe2\x89\xa4a\xe2\x89\xa4b\xe2\x89\xa4c\xe2\x89\xa41041\xe2\x89\xa4a\xe2\x89\xa4b\xe2\x89\xa4c\xe2\x89\xa4104).'
+b'Output'
+b'For each test case, print the answer. In the first line print resres \xe2\x80\x94 the minimum number of operations you have to perform to obtain three integers A\xe2\x89\xa4B\xe2\x89\xa4CA\xe2\x89\xa4B\xe2\x89\xa4C such that BB is divisible by AA and CC is divisible by BB. On the second line print any suitable triple A,BA,B and CC.'
+Tags
+brute force, math, *2000

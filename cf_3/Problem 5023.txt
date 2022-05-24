@@ -1,0 +1,12 @@
+b'You are given a permutation p of length n. Also you are given m foe pairs (ai,\xe2\x80\x89bi) (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89bi). '
+b"Your task is to count the number of different intervals (x,\xe2\x80\x89y) (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) that do not contain any foe pairs. So you shouldn't count intervals (x,\xe2\x80\x89y) that contain at least one foe pair in it (the positions and order of the values from the foe pair are not important)."
+b"Consider some example: p\xe2\x80\x89=\xe2\x80\x89[1,\xe2\x80\x893,\xe2\x80\x892,\xe2\x80\x894] and foe pairs are {(3,\xe2\x80\x892),\xe2\x80\x89(4,\xe2\x80\x892)}. The interval (1,\xe2\x80\x893) is incorrect because it contains a foe pair (3,\xe2\x80\x892). The interval (1,\xe2\x80\x894) is also incorrect because it contains two foe pairs (3,\xe2\x80\x892) and (4,\xe2\x80\x892). But the interval (1,\xe2\x80\x892) is correct because it doesn't contain any foe pair."
+b'Input'
+b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105) \xe2\x80\x94 the length of the permutation p and the number of foe pairs.'
+b'The second line contains n distinct integers pi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the elements of the permutation p.'
+b'Each of the next m lines contains two integers (ai,\xe2\x80\x89bi) (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89bi) \xe2\x80\x94 the i-th foe pair. Note a foe pair can appear multiple times in the given list.'
+b'Output'
+b'Print the only integer c \xe2\x80\x94 the number of different intervals (x,\xe2\x80\x89y) that does not contain any foe pairs.'
+b'Note that the answer can be too large, so you should use 64-bit integer type to store it. In C++ you can use the long long integer type and in Java you can use long integer type.'
+Tags
+combinatorics, sortings, two pointers, *1800

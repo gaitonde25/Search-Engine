@@ -1,0 +1,12 @@
+b'There are nn players numbered from 00 to n\xe2\x88\x921n\xe2\x88\x921 with ranks. The ii-th player has rank ii.'
+b'Players can form teams: the team should consist of three players and no pair of players in the team should have a conflict. The rank of the team is calculated using the following algorithm: let ii, jj, kk be the ranks of players in the team and i<j<ki<j<k, then the rank of the team is equal to A\xe2\x8b\x85i+B\xe2\x8b\x85j+C\xe2\x8b\x85kA\xe2\x8b\x85i+B\xe2\x8b\x85j+C\xe2\x8b\x85k.'
+b'You are given information about the pairs of players who have a conflict. Calculate the total sum of ranks over all possible valid teams modulo 264264.'
+b'Input'
+b'The first line contains two space-separated integers nn and mm (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 0\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of players and the number of conflicting pairs.'
+b'The second line contains three space-separated integers AA, BB and CC (1\xe2\x89\xa4A,B,C\xe2\x89\xa41061\xe2\x89\xa4A,B,C\xe2\x89\xa4106) \xe2\x80\x94 coefficients for team rank calculation.'
+b'Each of the next mm lines contains two space-separated integers uiui and vivi (0\xe2\x89\xa4ui,vi<n,ui\xe2\x89\xa0vi0\xe2\x89\xa4ui,vi<n,ui\xe2\x89\xa0vi) \xe2\x80\x94 pair of conflicting players.'
+b"It's guaranteed that each unordered pair of players appears in the input file no more than once."
+b'Output'
+b'Print single integer \xe2\x80\x94 the total sum of ranks over all possible teams modulo 264264.'
+Tags
+combinatorics, *2700

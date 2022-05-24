@@ -1,0 +1,11 @@
+b'Vasya has a string ss of length nn consisting only of digits 0 and 1. Also he has an array aa of length nn. '
+b'Vasya performs the following operation until the string becomes empty: choose some consecutive substring of equal characters, erase it from the string and glue together the remaining parts (any of them can be empty). For example, if he erases substring 111 from string 111110 he will get the string 110. Vasya gets axax points for erasing substring of length xx.'
+b'Vasya wants to maximize his total points, so help him with this! '
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the length of string ss.'
+b'The second line contains string ss, consisting only of digits 0 and 1.'
+b'The third line contains nn integers a1,a2,\xe2\x80\xa6ana1,a2,\xe2\x80\xa6an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is the number of points for erasing the substring of length ii.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum total points Vasya can get.'
+Tags
+dp, *2400

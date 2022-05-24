@@ -1,0 +1,15 @@
+b'Tanya wants to organize her bookcase. There are nn bookshelves in the bookcase, the ii-th bookshelf contains aiai books on it. Tanya will be satisfied if each bookshelf contains no more than kk books.'
+b'Tanya can do one of the two following operations to achieve her goal: '
+b'  Choose exactly one bookshelf and put all the books from it in the storage room (i.\xe2\x80\x89e. choose some ii and assign ai:=0ai:=0). During this operation she spends xx seconds.  Take all books from all nn bookshelves and distribute them between all nn bookshelves evenly (the definition of the term is given below). During this operation she spends yy seconds. '
+b'Consider the sequence aa of nn integers. Then its even distribution is such a sequence bb of nn integers that the sum of bb equals the sum of aa and the value max(b)\xe2\x88\x92min(b)max(b)\xe2\x88\x92min(b) is the minimum possible.'
+b'For example, if the array a=[5,4,3]a=[5,4,3] then its even distribution is b=[4,4,4]b=[4,4,4]. If a=[1,2,3,4]a=[1,2,3,4] then its even distribution is b=[2,3,3,2]b=[2,3,3,2] (or any permutation of this array).'
+b'Your task is to find the minimum number of seconds Tanya has to spend to obtain the bookcase with no more than kk books on each bookshelf.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains four integers n,k,xn,k,x and yy (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105;1\xe2\x89\xa4x,y\xe2\x89\xa41041\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105;1\xe2\x89\xa4x,y\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of bookshelves, the maximum required number of books on each bookshelf and the number of seconds Tanya spends during the first and the second operation respectively.'
+b'The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n), where aiai is the number of books on the ii-th bookshelf.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print the answer\xc2\xa0\xe2\x80\x94 the minimum number of seconds Tanya has to spend to obtain the bookcase with no more than kk books on each bookshelf.'
+Tags
+*special problem, greedy, sortings, *1600

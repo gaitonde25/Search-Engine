@@ -1,0 +1,15 @@
+b'Little Alyona is celebrating Happy Birthday! Her mother has an array of n flowers. Each flower has some mood, the mood of i-th flower is ai. The mood can be positive, zero or negative.'
+b"Let's define a subarray as a segment of consecutive flowers. The mother suggested some set of subarrays. Alyona wants to choose several of the subarrays suggested by her mother. After that, each of the flowers will add to the girl's happiness its mood multiplied by the number of chosen subarrays the flower is in."
+b'For example, consider the case when the mother has 5 flowers, and their moods are equal to 1,\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x892,\xe2\x80\x891,\xe2\x80\x893,\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x894. Suppose the mother suggested subarrays (1,\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x892), (3,\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x894), (1,\xe2\x80\x893), (1,\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x892,\xe2\x80\x891,\xe2\x80\x893). Then if the girl chooses the third and the fourth subarrays then: '
+b"  the first flower adds 1\xc2\xb71\xe2\x80\x89=\xe2\x80\x891 to the girl's happiness, because he is in one of chosen subarrays,  the second flower adds (\xe2\x80\x89-\xe2\x80\x892)\xc2\xb71\xe2\x80\x89=\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x892, because he is in one of chosen subarrays,  the third flower adds 1\xc2\xb72\xe2\x80\x89=\xe2\x80\x892, because he is in two of chosen subarrays,  the fourth flower adds 3\xc2\xb72\xe2\x80\x89=\xe2\x80\x896, because he is in two of chosen subarrays,  the fifth flower adds (\xe2\x80\x89-\xe2\x80\x894)\xc2\xb70\xe2\x80\x89=\xe2\x80\x890, because he is in no chosen subarrays. "
+b"Thus, in total 1\xe2\x80\x89+\xe2\x80\x89(\xe2\x80\x89-\xe2\x80\x892)\xe2\x80\x89+\xe2\x80\x892\xe2\x80\x89+\xe2\x80\x896\xe2\x80\x89+\xe2\x80\x890\xe2\x80\x89=\xe2\x80\x897 is added to the girl's happiness. Alyona wants to choose such subarrays from those suggested by the mother that the value added to her happiness would be as large as possible. Help her do this!"
+b'Alyona can choose any number of the subarrays, even 0 or all suggested by her mother.'
+b'Input'
+b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the number of flowers and the number of subarrays suggested by the mother.'
+b'The second line contains the flowers moods\xc2\xa0\xe2\x80\x94 n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89100\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100).'
+b'The next m lines contain the description of the subarrays suggested by the mother. The i-th of these lines contain two integers li and ri (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) denoting the subarray a[li],\xe2\x80\x89a[li\xe2\x80\x89+\xe2\x80\x891],\xe2\x80\x89...,\xe2\x80\x89a[ri].'
+b'Each subarray can encounter more than once.'
+b'Output'
+b"Print single integer\xc2\xa0\xe2\x80\x94 the maximum possible value added to the Alyona's happiness."
+Tags
+constructive algorithms, *1200

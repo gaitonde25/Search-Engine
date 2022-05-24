@@ -1,0 +1,11 @@
+b'Bakry got bored of solving problems related to xor, so he asked you to solve this problem for him.'
+b'You are given an array aa of nn integers [a1,a2,\xe2\x80\xa6,an][a1,a2,\xe2\x80\xa6,an].'
+b"Let's call a subarray al,al+1,al+2,\xe2\x80\xa6,aral,al+1,al+2,\xe2\x80\xa6,ar good if al&al+1&al+2\xe2\x80\xa6&ar>al\xe2\x8a\x95al+1\xe2\x8a\x95al+2\xe2\x80\xa6\xe2\x8a\x95aral&al+1&al+2\xe2\x80\xa6&ar>al\xe2\x8a\x95al+1\xe2\x8a\x95al+2\xe2\x80\xa6\xe2\x8a\x95ar, where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation and && denotes the bitwise AND operation."
+b'Find the length of the longest good subarray of aa, or determine that no such subarray exists.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106) \xe2\x80\x94 the length of the array.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106) \xe2\x80\x94 elements of the array.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the length of the longest good subarray. If there are no good subarrays, print 00.'
+Tags
+bitmasks, greedy, math, two pointers, *2400

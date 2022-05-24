@@ -1,0 +1,17 @@
+b'On the way to school, Karen became fixated on the puzzle game on her phone!'
+b'  '
+b'The game is played as follows. In each level, you have a grid with n rows and m columns. Each cell originally contains the number 0.'
+b'One move consists of choosing one row or column, and adding 1 to all of the cells in that row or column.'
+b'To win the level, after all the moves, the number in the cell at the i-th row and j-th column should be equal to gi,\xe2\x80\x89j.'
+b'Karen is stuck on one level, and wants to know a way to beat this level using the minimum number of moves. Please, help her with this task!'
+b'Input'
+b'The first line of input contains two integers, n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100), the number of rows and the number of columns in the grid, respectively.'
+b'The next n lines each contain m integers. In particular, the j-th integer in the i-th of these rows contains gi,\xe2\x80\x89j (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89gi,\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500).'
+b'Output'
+b'If there is an error and it is actually not possible to beat the level, output a single integer -1.'
+b'Otherwise, on the first line, output a single integer k, the minimum number of moves necessary to beat the level.'
+b'The next k lines should each contain one of the following, describing the moves in the order they must be done:'
+b'  row x, (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) describing a move of the form "choose the x-th row".  col x, (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m) describing a move of the form "choose the x-th column". '
+b'If there are multiple optimal solutions, output any one of them.'
+Tags
+brute force, greedy, implementation, *1700

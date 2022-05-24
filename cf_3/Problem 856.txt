@@ -1,0 +1,12 @@
+b'You are given a permutation aa consisting of nn numbers 11, 22, ..., nn (a permutation is an array in which each element from 11 to nn occurs exactly once).'
+b'You can perform the following operation: choose some subarray (contiguous subsegment) of aa and rearrange the elements in it in any way you want. But this operation cannot be applied to the whole array.'
+b'For example, if a=[2,1,4,5,3]a=[2,1,4,5,3] and we want to apply the operation to the subarray a[2,4]a[2,4] (the subarray containing all elements from the 22-nd to the 44-th), then after the operation, the array can become a=[2,5,1,4,3]a=[2,5,1,4,3] or, for example, a=[2,1,5,4,3]a=[2,1,5,4,3].'
+b'Your task is to calculate the minimum number of operations described above to sort the permutation aa in ascending order.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa420001\xe2\x89\xa4t\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of the test case contains a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa4503\xe2\x89\xa4n\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the number of elements in the permutation.'
+b'The second line of the test case contains nn distinct integers from 11 to nn\xc2\xa0\xe2\x80\x94 the given permutation aa.'
+b'Output'
+b'For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the minimum number of operations described above to sort the array aa in ascending order.'
+Tags
+constructive algorithms, greedy, *900

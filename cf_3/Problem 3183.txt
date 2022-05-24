@@ -1,0 +1,17 @@
+b'Ivan is a novice painter. He has nn dyes of different colors. He also knows exactly mm pairs of colors which harmonize with each other.'
+b'Ivan also enjoy playing chess. He has 50005000 rooks. He wants to take kk rooks, paint each of them in one of nn colors and then place this kk rooks on a chessboard of size 109\xc3\x97109109\xc3\x97109.'
+b"Let's call the set of rooks on the board connected if from any rook we can get to any other rook in this set moving only through cells with rooks from this set. Assume that rooks can jump over other rooks, in other words a rook can go to any cell which shares vertical and to any cell which shares horizontal."
+b'Ivan wants his arrangement of rooks to have following properties:'
+b' For any color there is a rook of this color on a board; For any color the set of rooks of this color is connected; For any two different colors aa bb union of set of rooks of color aa and set of rooks of color bb is connected if and only if this two colors harmonize with each other.'
+b'Please help Ivan find such an arrangement.'
+b'Input'
+b'The first line of input contains 22 integers nn, mm (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 0\xe2\x89\xa4m\xe2\x89\xa4min(1000,n(n\xe2\x88\x921)2)0\xe2\x89\xa4m\xe2\x89\xa4min(1000,n(n\xe2\x88\x921)2))\xc2\xa0\xe2\x80\x94 number of colors and number of pairs of colors which harmonize with each other.'
+b'In next mm lines pairs of colors which harmonize with each other are listed. Colors are numbered from 11 to nn. It is guaranteed that no pair occurs twice in this list.'
+b'Output'
+b'Print nn blocks, ii-th of them describes rooks of ii-th color.'
+b'In the first line of block print one number aiai (1\xe2\x89\xa4ai\xe2\x89\xa450001\xe2\x89\xa4ai\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 number of rooks of color ii. In each of next aiai lines print two integers xx and yy (1\xe2\x89\xa4x,y\xe2\x89\xa41091\xe2\x89\xa4x,y\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 coordinates of the next rook.'
+b'All rooks must be on different cells.'
+b'Total number of rooks must not exceed 50005000.'
+b'It is guaranteed that the solution exists.'
+Tags
+constructive algorithms, graphs, *1700

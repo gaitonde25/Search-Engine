@@ -1,0 +1,12 @@
+b"There are nn block towers in a row, where tower ii has a height of aiai. You're part of a building crew, and you want to make the buildings look as nice as possible. In a single day, you can perform the following operation:"
+b'  Choose two indices ii and jj (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n; i\xe2\x89\xa0ji\xe2\x89\xa0j), and move a block from tower ii to tower jj. This essentially decreases aiai by 11 and increases ajaj by 11. '
+b'You think the ugliness of the buildings is the height difference between the tallest and shortest buildings. Formally, the ugliness is defined as max(a)\xe2\x88\x92min(a)max(a)\xe2\x88\x92min(a). '
+b"What's the minimum possible ugliness you can achieve, after any number of days?"
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt cases follow.'
+b'The first line of each test case contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of buildings.'
+b'The second line of each test case contains nn space separated integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41071\xe2\x89\xa4ai\xe2\x89\xa4107)\xc2\xa0\xe2\x80\x94 the heights of the buildings.'
+b'Output'
+b'For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the minimum possible ugliness of the buildings.'
+Tags
+greedy, math, *800

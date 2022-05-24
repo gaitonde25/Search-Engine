@@ -1,0 +1,15 @@
+b'Dima overslept the alarm clock, which was supposed to raise him to school.'
+b'Dima wonders if he will have time to come to the first lesson. To do this, he needs to know the minimum time it will take him to get from home to school.'
+b'The city where Dima lives is a rectangular field of n\xc3\x97mn\xc3\x97m size. Each cell (i,j)(i,j) on this field is denoted by one number aijaij:'
+b'  The number \xe2\x88\x921\xe2\x88\x921 means that the passage through the cell is prohibited;  The number 00 means that the cell is free and Dima can walk though it.  The number xx (1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109) means that the cell contains a portal with a cost of xx. A cell with a portal is also considered free. '
+b'From any portal, Dima can go to any other portal, while the time of moving from the portal (i,j)(i,j) to the portal (x,y)(x,y) corresponds to the sum of their costs aij+axyaij+axy.'
+b'In addition to moving between portals, Dima can also move between unoccupied cells adjacent to one side in time ww. In particular, he can enter a cell with a portal and not use it.'
+b'Initially, Dima is in the upper-left cell (1,1)(1,1), and the school is in the lower right cell (n,m)(n,m).'
+b'Input'
+b'The first line contains three integers nn, mm and ww (2\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851032\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85103, 1\xe2\x89\xa4w\xe2\x89\xa41091\xe2\x89\xa4w\xe2\x89\xa4109), where nn and mm are city size, ww is time during which Dima moves between unoccupied cells.'
+b'The next nn lines each contain mm numbers (\xe2\x88\x921\xe2\x89\xa4aij\xe2\x89\xa4109\xe2\x88\x921\xe2\x89\xa4aij\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 descriptions of cells.'
+b'It is guaranteed that the cells (1,1)(1,1) and (n,m)(n,m) are free.'
+b'Output'
+b'Output the minimum time it will take for Dima to get to school. If he cannot get to school at all, then output "-1".'
+Tags
+brute force, dfs and similar, graphs, greedy, implementation, shortest paths, *2200

@@ -1,0 +1,13 @@
+b'There is a grid with nn rows and mm columns. Some cells are colored black, and the rest of the cells are colored white.'
+b'In one operation, you can select some black cell and do exactly one of the following: '
+b'  color all cells in its row black, or  color all cells in its column black. '
+b'You are given two integers rr and cc. Find the minimum number of operations required to make the cell in row rr and column cc black, or determine that it is impossible.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains four integers nn, mm, rr, and cc (1\xe2\x89\xa4n,m\xe2\x89\xa4501\xe2\x89\xa4n,m\xe2\x89\xa450; 1\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4r\xe2\x89\xa4n; 1\xe2\x89\xa4c\xe2\x89\xa4m1\xe2\x89\xa4c\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the number of rows and the number of columns in the grid, and the row and column of the cell you need to turn black, respectively.'
+b"Then nn lines follow, each containing mm characters. Each of these characters is either 'B' or 'W'\xc2\xa0\xe2\x80\x94 a black and a white cell, respectively."
+b'Output'
+b'For each test case, if it is impossible to make the cell in row rr and column cc black, output \xe2\x88\x921\xe2\x88\x921. '
+b'Otherwise, output a single integer\xc2\xa0\xe2\x80\x94 the minimum number of operations required to make the cell in row rr and column cc black. '
+Tags
+constructive algorithms, implementation, *800

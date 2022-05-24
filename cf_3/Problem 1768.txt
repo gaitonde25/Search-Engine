@@ -1,0 +1,11 @@
+b"Skier rides on a snowy field. Its movements can be described by a string of characters 'S', 'N', 'W', 'E' (which correspond to 11 meter movement in the south, north, west or east direction respectively)."
+b'It is known that if he moves along a previously unvisited segment of a path (i.e. this segment of the path is visited the first time), then the time of such movement is 55 seconds. If he rolls along previously visited segment of a path (i.e., this segment of the path has been covered by his path before), then it takes 11 second.'
+b"Find the skier's time to roll all the path."
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the input. Then tt test cases follow.'
+b"Each set is given by one nonempty string of the characters 'S', 'N', 'W', 'E'. The length of the string does not exceed 105105 characters."
+b'The sum of the lengths of tt given lines over all test cases in the input does not exceed 105105.'
+b'Output'
+b'For each test case, print the desired path time in seconds.'
+Tags
+data structures, implementation, *1400

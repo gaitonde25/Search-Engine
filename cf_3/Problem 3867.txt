@@ -1,0 +1,7 @@
+b'Given an integer xx. Your task is to find out how many positive integers nn (1\xe2\x89\xa4n\xe2\x89\xa4x1\xe2\x89\xa4n\xe2\x89\xa4x) satisfy n\xe2\x8b\x85an\xe2\x89\xa1b(modp),n\xe2\x8b\x85an\xe2\x89\xa1b(modp), where a,b,pa,b,p are all known constants.'
+b'Input'
+b'The only line contains four integers a,b,p,xa,b,p,x (2\xe2\x89\xa4p\xe2\x89\xa4106+32\xe2\x89\xa4p\xe2\x89\xa4106+3, 1\xe2\x89\xa4a,b<p1\xe2\x89\xa4a,b<p, 1\xe2\x89\xa4x\xe2\x89\xa410121\xe2\x89\xa4x\xe2\x89\xa41012). It is guaranteed that pp is a prime.'
+b'Output'
+b'Print a single integer: the number of possible answers nn.'
+Tags
+chinese remainder theorem, math, number theory, *2100

@@ -1,0 +1,10 @@
+b"Robbers, who attacked the Gerda's cab, are very successful in covering from the kingdom police. To make the goal of catching them even harder, they use their own watches."
+b'First, as they know that kingdom police is bad at math, robbers use the positional numeral system with base 7. Second, they divide one day in n hours, and each hour in m minutes. Personal watches of each robber are divided in two parts: first of them has the smallest possible number of places that is necessary to display any integer from 0 to n\xe2\x80\x89-\xe2\x80\x891, while the second has the smallest possible number of places that is necessary to display any integer from 0 to m\xe2\x80\x89-\xe2\x80\x891. Finally, if some value of hours or minutes can be displayed using less number of places in base 7 than this watches have, the required number of zeroes is added at the beginning of notation.'
+b'Note that to display number 0 section of the watches is required to have at least one place.'
+b'Little robber wants to know the number of moments of time (particular values of hours and minutes), such that all digits displayed on the watches are distinct. Help her calculate this number.'
+b'Input'
+b'The first line of the input contains two integers, given in the decimal notation, n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the number of hours in one day and the number of minutes in one hour, respectively.'
+b'Output'
+b'Print one integer in decimal notation\xc2\xa0\xe2\x80\x94 the number of different pairs of hour and minute, such that all digits displayed on the watches are distinct.'
+Tags
+brute force, combinatorics, dp, math, *1700

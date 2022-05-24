@@ -1,0 +1,17 @@
+b'There are nn cities in the country of Berland. Some of them are connected by bidirectional roads in such a way that there exists exactly one path, which visits each road no more than once, between every pair of cities. Each road has its own length. Cities are numbered from 11 to nn.'
+b'The travelling time between some cities vv and uu is the total length of the roads on the shortest path from vv to uu. '
+b'The two most important cities in Berland are cities 11 and nn.'
+b"The Berland Ministry of Transport decided to build a single new road to decrease the traffic between the most important cities. However, lots of people are used to the current travelling time between the most important cities, so the new road shouldn't change it too much. "
+b"The new road can only be built between such cities vv and uu that v\xe2\x89\xa0uv\xe2\x89\xa0u and vv and uu aren't already connected by some road."
+b'They came up with mm possible projects. Each project is just the length xx of the new road.'
+b"Polycarp works as a head analyst at the Berland Ministry of Transport and it's his job to deal with all those mm projects. For the ii-th project he is required to choose some cities vv and uu to build the new road of length xixi between such that the travelling time between the most important cities is maximal possible. "
+b'Unfortunately, Polycarp is not a programmer and no analyst in the world is capable to process all projects using only pen and paper. '
+b'Thus, he asks you to help him to calculate the maximal possible travelling time between the most important cities for each project. Note that the choice of vv and uu can differ for different projects.'
+b'Input'
+b'The first line contains two integers nn and mm (3\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105, 1\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of cities and the number of projects, respectively.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains three integers vivi, uiui and wiwi (1\xe2\x89\xa4vi,ui\xe2\x89\xa4n1\xe2\x89\xa4vi,ui\xe2\x89\xa4n, 1\xe2\x89\xa4wi\xe2\x89\xa41091\xe2\x89\xa4wi\xe2\x89\xa4109) \xe2\x80\x94 the description of the ii-th road. It is guaranteed that there exists exactly one path, which visits each road no more than once, between every pair of cities.'
+b'Each of the next mm lines contains a single integer xjxj (1\xe2\x89\xa4xj\xe2\x89\xa41091\xe2\x89\xa4xj\xe2\x89\xa4109) \xe2\x80\x94 the length of the road for the jj-th project.'
+b'Output'
+b'Print mm lines, the jj-th line should contain a single integer \xe2\x80\x94 the maximal possible travelling time between the most important cities for the jj-th project.'
+Tags
+dfs and similar, dp, trees, *2600

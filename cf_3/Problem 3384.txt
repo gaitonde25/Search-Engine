@@ -1,0 +1,8 @@
+b'Consider a table of size n\xc3\x97mn\xc3\x97m, initially fully white. Rows are numbered 11 through nn from top to bottom, columns 11 through mm from left to right. Some square inside the table with odd side length was painted black. Find the center of this square.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41151\xe2\x89\xa4n,m\xe2\x89\xa4115) \xe2\x80\x94 the number of rows and the number of columns in the table.'
+b"The ii-th of the next nn lines contains a string of mm characters si1si2\xe2\x80\xa6simsi1si2\xe2\x80\xa6sim (sijsij is 'W' for white cells and 'B' for black cells), describing the ii-th row of the table."
+b'Output'
+b'Output two integers rr and cc (1\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4r\xe2\x89\xa4n, 1\xe2\x89\xa4c\xe2\x89\xa4m1\xe2\x89\xa4c\xe2\x89\xa4m) separated by a space \xe2\x80\x94 the row and column numbers of the center of the black square.'
+Tags
+implementation, *800

@@ -1,0 +1,17 @@
+b'You are given an undirected weighted graph, consisting of nn vertices and mm edges.'
+b'Some queries happen with this graph:'
+b'  Delete an existing edge from the graph.  Add a non-existing edge to the graph. '
+b'At the beginning and after each query, you should find four different vertices aa, bb, cc, dd such that there exists a path between aa and bb, there exists a path between cc and dd, and the sum of lengths of two shortest paths from aa to bb and from cc to dd is minimal. The answer to the query is the sum of the lengths of these two shortest paths. The length of the path is equal to the sum of weights of edges in this path.'
+b'Input'
+b'The first line contains two integers nn and mm (4\xe2\x89\xa4n,m\xe2\x89\xa4105)(4\xe2\x89\xa4n,m\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices and edges in the graph respectively.'
+b'Each of the next mm lines contain three integers vv, uu, ww (1\xe2\x89\xa4v,u\xe2\x89\xa4n,v\xe2\x89\xa0u1\xe2\x89\xa4v,u\xe2\x89\xa4n,v\xe2\x89\xa0u, 1\xe2\x89\xa4w\xe2\x89\xa41091\xe2\x89\xa4w\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 this triple means that there is an edge between vertices vv and uu with weight ww.'
+b'The next line contains a single integer qq (0\xe2\x89\xa4q\xe2\x89\xa4105)(0\xe2\x89\xa4q\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'The next qq lines contain the queries of two types:'
+b'  00 vv uu\xc2\xa0\xe2\x80\x94 this query means deleting an edge between vv and uu (1\xe2\x89\xa4v,u\xe2\x89\xa4n,v\xe2\x89\xa0u)(1\xe2\x89\xa4v,u\xe2\x89\xa4n,v\xe2\x89\xa0u). It is guaranteed that such edge exists in the graph.  11 vv uu ww\xc2\xa0\xe2\x80\x94 this query means adding an edge between vertices vv and uu with weight ww (1\xe2\x89\xa4v,u\xe2\x89\xa4n,v\xe2\x89\xa0u1\xe2\x89\xa4v,u\xe2\x89\xa4n,v\xe2\x89\xa0u, 1\xe2\x89\xa4w\xe2\x89\xa41091\xe2\x89\xa4w\xe2\x89\xa4109). It is guaranteed that there was no such edge in the graph. '
+b'It is guaranteed that the initial graph does not contain multiple edges.'
+b"At the beginning and after each query, the graph doesn't need to be connected."
+b'It is guaranteed that at each moment the number of edges will be at least 44. It can be proven, that at each moment there exist some four vertices aa, bb, cc, dd such that there exists a path between vertices aa and bb, and there exists a path between vertices cc and dd.'
+b'Output'
+b'Print q+1q+1 integers\xc2\xa0\xe2\x80\x94 the minimal sum of lengths of shortest paths between chosen pairs of vertices before the queries and after each of them.'
+Tags
+constructive algorithms, data structures, graphs, greedy, implementation, shortest paths, *3100

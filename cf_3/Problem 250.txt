@@ -1,0 +1,12 @@
+b'There are nn weighted points on the OXOX-axis. The coordinate and the weight of the ii-th point is xixi and wiwi, respectively. All points have distinct coordinates and positive weights. Also, xi<xi+1xi<xi+1 holds for any 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n. '
+b'The weighted distance between ii-th point and jj-th point is defined as |xi\xe2\x88\x92xj|\xe2\x8b\x85(wi+wj)|xi\xe2\x88\x92xj|\xe2\x8b\x85(wi+wj), where |val||val| denotes the absolute value of valval.'
+b'You should answer qq queries, where the ii-th query asks the following: Find the minimum weighted distance among all pairs of distinct points among the points in subarray [li,ri][li,ri].'
+b'Input'
+b'The first line contains 2 integers nn and qq (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105;1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105)(2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105;1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of points and the number of queries.'
+b'Then, nn lines follows, the ii-th of them contains two integers xixi and wiwi (\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109;1\xe2\x89\xa4wi\xe2\x89\xa4109)(\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109;1\xe2\x89\xa4wi\xe2\x89\xa4109) \xe2\x80\x94 the coordinate and the weight of the ii-th point.'
+b'It is guaranteed that the points are given in the increasing order of xx.'
+b'Then, qq lines follows, the ii-th of them contains two integers lili and riri (1\xe2\x89\xa4li<ri\xe2\x89\xa4n)(1\xe2\x89\xa4li<ri\xe2\x89\xa4n) \xe2\x80\x94 the given subarray of the ii-th query.'
+b'Output'
+b'For each query output one integer, the minimum weighted distance among all pair of distinct points in the given subarray.'
+Tags
+data structures, greedy, *2800

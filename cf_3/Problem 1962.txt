@@ -1,0 +1,12 @@
+b'VK just opened its second HQ in St. Petersburg! Side of its office building has a huge string ss written on its side. This part of the office is supposed to be split into mm meeting rooms in such way that meeting room walls are strictly between letters on the building. Obviously, meeting rooms should not be of size 0, but can be as small as one letter wide. Each meeting room will be named after the substring of ss written on its side.'
+b''
+b'For each possible arrangement of mm meeting rooms we ordered a test meeting room label for the meeting room with lexicographically minimal name. When delivered, those labels got sorted backward lexicographically.'
+b'What is printed on kkth label of the delivery?'
+b'Input'
+b'In the first line, you are given three integer numbers n,m,kn,m,k\xc2\xa0\xe2\x80\x94 length of string ss, number of planned meeting rooms to split ss into and number of the interesting label (2\xe2\x89\xa4n\xe2\x89\xa41000;1\xe2\x89\xa4m\xe2\x89\xa41000;1\xe2\x89\xa4k\xe2\x89\xa410182\xe2\x89\xa4n\xe2\x89\xa41000;1\xe2\x89\xa4m\xe2\x89\xa41000;1\xe2\x89\xa4k\xe2\x89\xa41018).'
+b'Second input line has string ss, consisting of nn lowercase english letters.'
+b'For given n,m,kn,m,k there are at least kk ways to split ss into mm substrings.'
+b'Output'
+b'Output single string \xe2\x80\x93 name of meeting room printed on kk-th label of the delivery.'
+Tags
+binary search, dp, strings, *2800

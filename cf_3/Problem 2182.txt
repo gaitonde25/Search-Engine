@@ -1,0 +1,16 @@
+b'Bob is playing a game of Spaceship Solitaire. The goal of this game is to build a spaceship. In order to do this, he first needs to accumulate enough resources for the construction. There are nn types of resources, numbered 11 through nn. Bob needs at least aiai pieces of the ii-th resource to build the spaceship. The number aiai is called the goal for resource ii.'
+b'Each resource takes 11 turn to produce and in each turn only one resource can be produced. However, there are certain milestones that speed up production. Every milestone is a triple (sj,tj,uj)(sj,tj,uj), meaning that as soon as Bob has tjtj units of the resource sjsj, he receives one unit of the resource ujuj for free, without him needing to spend a turn. It is possible that getting this free resource allows Bob to claim reward for another milestone. This way, he can obtain a large number of resources in a single turn.'
+b'The game is constructed in such a way that there are never two milestones that have the same sjsj and tjtj, that is, the award for reaching tjtj units of resource sjsj is at most one additional resource.'
+b'A bonus is never awarded for 00 of any resource, neither for reaching the goal aiai nor for going past the goal \xe2\x80\x94 formally, for every milestone 0<tj<asj0<tj<asj.'
+b'A bonus for reaching certain amount of a resource can be the resource itself, that is, sj=ujsj=uj.'
+b'Initially there are no milestones. You are to process qq updates, each of which adds, removes or modifies a milestone. After every update, output the minimum number of turns needed to finish the game, that is, to accumulate at least aiai of ii-th resource for each i\xe2\x88\x88[1,n]i\xe2\x88\x88[1,n].'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of types of resources.'
+b'The second line contains nn space separated integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), the ii-th of which is the goal for the ii-th resource.'
+b'The third line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of updates to the game milestones.'
+b'Then qq lines follow, the jj-th of which contains three space separated integers sjsj, tjtj, ujuj (1\xe2\x89\xa4sj\xe2\x89\xa4n1\xe2\x89\xa4sj\xe2\x89\xa4n, 1\xe2\x89\xa4tj<asj1\xe2\x89\xa4tj<asj, 0\xe2\x89\xa4uj\xe2\x89\xa4n0\xe2\x89\xa4uj\xe2\x89\xa4n). For each triple, perform the following actions: '
+b'  First, if there is already a milestone for obtaining tjtj units of resource sjsj, it is removed.  If uj=0uj=0, no new milestone is added.  If uj\xe2\x89\xa00uj\xe2\x89\xa00, add the following milestone: "For reaching tjtj units of resource sjsj, gain one free piece of ujuj."  Output the minimum number of turns needed to win the game. '
+b'Output'
+b'Output qq lines, each consisting of a single integer, the ii-th represents the answer after the ii-th update.'
+Tags
+data structures, greedy, implementation, *2100

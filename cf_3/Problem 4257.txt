@@ -1,0 +1,13 @@
+b'Array of integers is unimodal, if:'
+b'  it is strictly increasing in the beginning;  after that it is constant;  after that it is strictly decreasing. '
+b'The first block (increasing) and the last block (decreasing) may be absent. It is allowed that both of this blocks are absent.'
+b'For example, the following three arrays are unimodal: [5,\xe2\x80\x897,\xe2\x80\x8911,\xe2\x80\x8911,\xe2\x80\x892,\xe2\x80\x891], [4,\xe2\x80\x894,\xe2\x80\x892], [7], but the following three are not unimodal: [5,\xe2\x80\x895,\xe2\x80\x896,\xe2\x80\x896,\xe2\x80\x891], [1,\xe2\x80\x892,\xe2\x80\x891,\xe2\x80\x892], [4,\xe2\x80\x895,\xe2\x80\x895,\xe2\x80\x896].'
+b'Write a program that checks if an array is unimodal.'
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of elements in the array.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000) \xe2\x80\x94 the elements of the array.'
+b'Output'
+b'Print "YES" if the given array is unimodal. Otherwise, print "NO".'
+b'You can output each letter in any case (upper or lower).'
+Tags
+implementation, *1000

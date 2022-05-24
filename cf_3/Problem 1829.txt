@@ -1,0 +1,13 @@
+b'You have an array aa of length nn. For every positive integer xx you are going to perform the following operation during the xx-th second:'
+b'  Select some distinct indices i1,i2,\xe2\x80\xa6,iki1,i2,\xe2\x80\xa6,ik which are between 11 and nn inclusive, and add 2x\xe2\x88\x9212x\xe2\x88\x921 to each corresponding position of aa. Formally, aij:=aij+2x\xe2\x88\x921aij:=aij+2x\xe2\x88\x921 for j=1,2,\xe2\x80\xa6,kj=1,2,\xe2\x80\xa6,k. Note that you are allowed to not select any indices at all. '
+b'You have to make aa nondecreasing as fast as possible. Find the smallest number TT such that you can make the array nondecreasing after at most TT seconds.'
+b'Array aa is nondecreasing if and only if a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x80\xa6\xe2\x89\xa4ana1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x80\xa6\xe2\x89\xa4an.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of array aa. It is guaranteed that the sum of values of nn over all test cases in the input does not exceed 105105.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print the minimum number of seconds in which you can make aa nondecreasing.'
+Tags
+greedy, math, *1500

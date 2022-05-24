@@ -1,0 +1,13 @@
+b'Polycarp plays a (yet another!) strategic computer game. In this game, he leads an army of mercenaries.'
+b'Polycarp wants to gather his army for a quest. There are nn mercenaries for hire, and the army should consist of some subset of them.'
+b"The ii-th mercenary can be chosen if the resulting number of chosen mercenaries is not less than lili (otherwise he deems the quest to be doomed) and not greater than riri (he doesn't want to share the trophies with too many other mercenaries). Furthermore, mm pairs of mercenaries hate each other and cannot be chosen for the same quest. "
+b'How many non-empty subsets does Polycarp need to consider? In other words, calculate the number of non-empty subsets of mercenaries such that the size of this subset belongs to [li,ri][li,ri] for each chosen mercenary, and there are no two mercenaries in the subset that hate each other.'
+b'The answer may be large, so calculate it modulo 998244353998244353.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105, 0\xe2\x89\xa4m\xe2\x89\xa4min(20,n(n\xe2\x88\x921)2)0\xe2\x89\xa4m\xe2\x89\xa4min(20,n(n\xe2\x88\x921)2)) \xe2\x80\x94 the number of mercenaries and the number of pairs of mercenaries that hate each other.'
+b'Then nn lines follow, the ii-th of them contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n).'
+b'Then mm lines follow, the ii-th of them contains two integers aiai and bibi (1\xe2\x89\xa4ai<bi\xe2\x89\xa4n1\xe2\x89\xa4ai<bi\xe2\x89\xa4n) denoting that the mercenaries aiai and bibi hate each other. There are no two equal pairs in this list.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of non-empty subsets meeting the constraints, taken modulo 998244353998244353.'
+Tags
+bitmasks, brute force, combinatorics, dp, dsu, math, two pointers, *2600

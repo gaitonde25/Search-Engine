@@ -1,0 +1,11 @@
+b'Katya studies in a fifth grade. Recently her class studied right triangles and the Pythagorean theorem. It appeared, that there are triples of positive integers such that you can construct a right triangle with segments of lengths corresponding to triple. Such triples are called Pythagorean triples.'
+b'For example, triples (3,\xe2\x80\x894,\xe2\x80\x895), (5,\xe2\x80\x8912,\xe2\x80\x8913) and (6,\xe2\x80\x898,\xe2\x80\x8910) are Pythagorean triples.'
+b'Here Katya wondered if she can specify the length of some side of right triangle and find any Pythagorean triple corresponding to such length? Note that the side which length is specified can be a cathetus as well as hypotenuse.'
+b'Katya had no problems with completing this task. Will you do the same?'
+b'Input'
+b'The only line of the input contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the length of some side of a right triangle.'
+b'Output'
+b'Print two integers m and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018), such that n, m and k form a Pythagorean triple, in the only line.'
+b'In case if there is no any Pythagorean triple containing integer n, print \xe2\x80\x89-\xe2\x80\x891 in the only line. If there are many answers, print any of them.'
+Tags
+math, number theory, *1500

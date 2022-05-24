@@ -1,0 +1,14 @@
+b'To stay woke and attentive during classes, Karen needs some coffee!'
+b'  '
+b'Karen, a coffee aficionado, wants to know the optimal temperature for brewing the perfect cup of coffee. Indeed, she has spent some time reading several recipe books, including the universally acclaimed "The Art of the Covfefe".'
+b'She knows n coffee recipes. The i-th recipe suggests that coffee should be brewed between li and ri degrees, inclusive, to achieve the optimal taste.'
+b'Karen thinks that a temperature is admissible if at least k recipes recommend it.'
+b'Karen has a rather fickle mind, and so she asks q questions. In each question, given that she only wants to prepare coffee with a temperature between a and b, inclusive, can you tell her how many admissible integer temperatures fall within the range?'
+b'Input'
+b'The first line of input contains three integers, n, k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200000), and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200000), the number of recipes, the minimum number of recipes a certain temperature must be recommended by to be admissible, and the number of questions Karen has, respectively.'
+b'The next n lines describe the recipes. Specifically, the i-th line among these contains two integers li and ri (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200000), describing that the i-th recipe suggests that the coffee be brewed between li and ri degrees, inclusive.'
+b'The next q lines describe the questions. Each of these lines contains a and b, (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200000), describing that she wants to know the number of admissible integer temperatures between a and b degrees, inclusive.'
+b'Output'
+b'For each question, output a single integer on a line by itself, the number of admissible integer temperatures between a and b degrees, inclusive.'
+Tags
+binary search, data structures, implementation, *1400

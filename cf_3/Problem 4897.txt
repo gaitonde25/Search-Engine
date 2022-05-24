@@ -1,0 +1,13 @@
+b"After the piece of a devilish mirror hit the Kay's eye, he is no longer interested in the beauty of the roses. Now he likes to watch snowflakes."
+b'Once upon a time, he found a huge snowflake that has a form of the tree (connected acyclic graph) consisting of n nodes. The root of tree has index 1. Kay is very interested in the structure of this tree.'
+b'After doing some research he formed q queries he is interested in. The i-th query asks to find a centroid of the subtree of the node vi. Your goal is to answer all queries.'
+b"Subtree of a node is a part of tree consisting of this node and all it's descendants (direct or not). In other words, subtree of node v is formed by nodes u, such that node v is present on the path from u to root."
+b'Centroid of a tree (or a subtree) is a node, such that if we erase it from the tree, the maximum size of the connected component will be at least two times smaller than the size of the initial tree (or a subtree).'
+b'Input'
+b'The first line of the input contains two integers n and q (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the size of the initial tree and the number of queries respectively.'
+b"The second line contains n\xe2\x80\x89-\xe2\x80\x891 integer p2,\xe2\x80\x89p3,\xe2\x80\x89...,\xe2\x80\x89pn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the indices of the parents of the nodes from 2 to n. Node 1 is a root of the tree. It's guaranteed that pi define a correct tree."
+b'Each of the following q lines contain a single integer vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the index of the node, that define the subtree, for which we want to find a centroid.'
+b'Output'
+b"For each query print the index of a centroid of the corresponding subtree. If there are many suitable nodes, print any of them. It's guaranteed, that each subtree has at least one centroid."
+Tags
+data structures, dfs and similar, dp, trees, *1900

@@ -1,0 +1,16 @@
+b'Why I have to finish so many assignments???'
+b'Jamie is getting very busy with his school life. He starts to forget the assignments that he has to do. He decided to write the things down on a to-do list. He assigns a value priority for each of his assignment (lower value means more important) so he can decide which he needs to spend more time on.'
+b"After a few days, Jamie finds out the list is too large that he can't even manage the list by himself! As you are a good friend of Jamie, help him write a program to support the following operations on the to-do list:"
+b'  set ai xi\xc2\xa0\xe2\x80\x94 Add assignment ai to the to-do list if it is not present, and set its priority to xi. If assignment ai is already in the to-do list, its priority is changed to xi.  remove ai\xc2\xa0\xe2\x80\x94 Remove assignment ai from the to-do list if it is present in it.  query ai\xc2\xa0\xe2\x80\x94 Output the number of assignments that are more important (have a smaller priority value) than assignment ai, so Jamie can decide a better schedule. Output \xe2\x80\x89-\xe2\x80\x891 if ai is not in the to-do list.  undo di\xc2\xa0\xe2\x80\x94 Undo all changes that have been made in the previous di days (not including the day of this operation) '
+b'At day 0, the to-do list is empty. In each of the following q days, Jamie will do exactly one out of the four operations. If the operation is a query, you should output the result of the query before proceeding to the next day, or poor Jamie cannot make appropriate decisions.'
+b'Input'
+b'The first line consists of a single integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of operations.'
+b'The following q lines consists of the description of the operations. The i-th line consists of the operation that Jamie has done in the i-th day. The query has the following format:'
+b'The first word in the line indicates the type of operation. It must be one of the following four: set, remove, query, undo.'
+b'  If it is a set operation, a string ai and an integer xi follows (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109). ai is the assignment that need to be set to priority xi.  If it is a remove operation, a string ai follows. ai is the assignment that need to be removed.  If it is a query operation, a string ai follows. ai is the assignment that needs to be queried.  If it is a undo operation, an integer di follows (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89<\xe2\x80\x89i). di is the number of days that changes needed to be undone. '
+b'All assignment names ai only consists of lowercase English letters and have a length 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|ai|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8915.'
+b'It is guaranteed that the last operation is a query operation.'
+b'Output'
+b'For each query operation, output a single integer\xc2\xa0\xe2\x80\x94 the number of assignments that have a priority lower than assignment ai, or \xe2\x80\x89-\xe2\x80\x891 if ai is not in the to-do list.'
+Tags
+data structures, interactive, trees, *2200

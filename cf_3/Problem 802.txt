@@ -1,0 +1,15 @@
+b'Polycarp decided to generate a biome map for his game. A map is a matrix divided into cells 1\xc3\x9711\xc3\x971. Each cell of the map must contain one of the available biomes.'
+b'Each biome is defined by two parameters: temperature (an integer from 11 to nn) and humidity (an integer from 11 to mm). But not for every temperature/humidity combination, a corresponding biome is available.'
+b'The biome map should be generated according to the following rules:'
+b'  each cell of the map belongs to exactly one biome;  each available biome has at least one cell on the map;  if two cells of the map are adjacent by the side and they belong to biomes with parameters (t1,h1t1,h1) and (t2,h2t2,h2), respectively, then the equality |t1\xe2\x88\x92t2|+|h1\xe2\x88\x92h2|=1|t1\xe2\x88\x92t2|+|h1\xe2\x88\x92h2|=1 holds;  let the number of available biomes be equal to kk, then the number of rows and columns of the map (separately) should not exceed kk. '
+b'Help Polycarp generate a biome map that meets all the conditions described above (or report that this is impossible).'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4201\xe2\x89\xa4t\xe2\x89\xa420)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa4101\xe2\x89\xa4n,m\xe2\x89\xa410)\xc2\xa0\xe2\x80\x94 maximum temperature and humidity parameters.'
+b'The following nn lines contain mm integers each ai,1,ai,2,\xe2\x80\xa6,ai,mai,1,ai,2,\xe2\x80\xa6,ai,m (0\xe2\x89\xa4ai,j\xe2\x89\xa41000\xe2\x89\xa4ai,j\xe2\x89\xa4100), where ai,jai,j\xc2\xa0\xe2\x80\x94 the biome identifier with the parameters (i,j)(i,j), if ai,j\xe2\x89\xa00ai,j\xe2\x89\xa00, otherwise the biome with such parameters is not available.'
+b'All biome identifiers are different, and there are at least two biomes available.'
+b'Output'
+b'For each test case, print the answer in the following format:'
+b'  print \xe2\x88\x921\xe2\x88\x921 in a single line if there is no map that meets all the conditions;  otherwise, in the first line, print two integers hh and ww\xc2\xa0\xe2\x80\x94 the number of rows and columns of the map, respectively. In the following hh lines, print ww integers\xc2\xa0\xe2\x80\x94 the identifiers of the biomes in the corresponding cells of the map. '
+Tags
+*special problem, constructive algorithms, dfs and similar, graphs

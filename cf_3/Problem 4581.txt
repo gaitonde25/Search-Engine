@@ -1,0 +1,11 @@
+b'There are n types of coins in Byteland. Conveniently, the denomination of the coin type k divides the denomination of the coin type k\xe2\x80\x89+\xe2\x80\x891, the denomination of the coin type 1 equals 1 tugrick. The ratio of the denominations of coin types k\xe2\x80\x89+\xe2\x80\x891 and k equals ak. It is known that for each x there are at most 20 coin types of denomination x.'
+b'Byteasar has bk coins of type k with him, and he needs to pay exactly m tugricks. It is known that Byteasar never has more than 3\xc2\xb7105 coins with him. Byteasar want to know how many ways there are to pay exactly m tugricks. Two ways are different if there is an integer k such that the amount of coins of type k differs in these two ways. As all Byteland citizens, Byteasar wants to know the number of ways modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of coin types.'
+b'The second line contains n\xe2\x80\x89-\xe2\x80\x891 integers a1, a2, ..., an\xe2\x80\x89-\xe2\x80\x891 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ak\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the ratios between the coin types denominations. It is guaranteed that for each x there are at most 20 coin types of denomination x.'
+b"The third line contains n non-negative integers b1, b2, ..., bn\xc2\xa0\xe2\x80\x94 the number of coins of each type Byteasar has. It is guaranteed that the sum of these integers doesn't exceed 3\xc2\xb7105."
+b'The fourth line contains single integer m (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89<\xe2\x80\x891010000)\xc2\xa0\xe2\x80\x94 the amount in tugricks Byteasar needs to pay.'
+b'Output'
+b'Print single integer\xc2\xa0\xe2\x80\x94 the number of ways to pay exactly m tugricks modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+combinatorics, dp, math, *3200

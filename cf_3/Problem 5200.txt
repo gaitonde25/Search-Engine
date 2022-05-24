@@ -1,0 +1,13 @@
+b'Limak is a little polar bear. According to some old traditions, his bear family prepared a New Year cake. And Limak likes cakes.'
+b'As you may know, a New Year cake is a strictly convex polygon with n vertices.'
+b"Parents won't allow Limak to eat more than half of a cake because he would get sick. After some thinking they decided to cut a cake along one of n\xc2\xb7(n\xe2\x80\x89-\xe2\x80\x893)\xe2\x80\x89/\xe2\x80\x892 diagonals. Then Limak will get a non-greater piece."
+b"Limak understands rules but he won't be happy if the second piece happens to be much bigger. Limak's disappointment will be equal to the difference between pieces' areas, multiplied by two. It can be proved that it will be integer for the given constraints."
+b"There are n\xc2\xb7(n\xe2\x80\x89-\xe2\x80\x893)\xe2\x80\x89/\xe2\x80\x892 possible scenarios. Consider them all and find the sum of values of Limak's disappointment, modulo 109\xe2\x80\x89+\xe2\x80\x897."
+b'Input'
+b'The first line of the input contains a single integer n (4\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of vertices in the polygon denoting the cake.'
+b'Each of the next n lines contains two integers xi and yi (|xi|,\xe2\x80\x89|yi|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 coordinates of the i-th point.'
+b"It's guaranteed that all points are distinct, polygon is strictly convex and points are given in the clockwise order."
+b'Output'
+b"Print the sum of values of Limak's disappointment over all possible scenarios modulo 109\xe2\x80\x89+\xe2\x80\x897."
+Tags
+geometry, two pointers, *2900

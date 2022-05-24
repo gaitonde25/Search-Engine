@@ -1,0 +1,12 @@
+b'Toad Pimple has an array of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b'We say that yy is reachable from xx if x<yx<y and there exists an integer array pp such that x=p1<p2<\xe2\x80\xa6<pk=yx=p1<p2<\xe2\x80\xa6<pk=y, and api&api+1>0api&api+1>0 for all integers ii such that 1\xe2\x89\xa4i<k1\xe2\x89\xa4i<k.'
+b'Here && denotes the bitwise AND operation.'
+b'You are given qq pairs of indices, check reachability for each of them.'
+b'Input'
+b'The first line contains two integers nn and qq (2\xe2\x89\xa4n\xe2\x89\xa43000002\xe2\x89\xa4n\xe2\x89\xa4300000, 1\xe2\x89\xa4q\xe2\x89\xa43000001\xe2\x89\xa4q\xe2\x89\xa4300000)\xc2\xa0\xe2\x80\x94 the number of integers in the array and the number of queries you need to answer.'
+b'The second line contains nn space-separated integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa43000000\xe2\x89\xa4ai\xe2\x89\xa4300000)\xc2\xa0\xe2\x80\x94 the given array.'
+b'The next qq lines contain two integers each. The ii-th of them contains two space-separated integers xixi and yiyi (1\xe2\x89\xa4xi<yi\xe2\x89\xa4n1\xe2\x89\xa4xi<yi\xe2\x89\xa4n). You need to check if yiyi is reachable from xixi. '
+b'Output'
+b'Output qq lines. In the ii-th of them print "Shi" if yiyi is reachable from xixi, otherwise, print "Fou".'
+Tags
+bitmasks, dp, *2200

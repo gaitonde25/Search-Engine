@@ -1,0 +1,12 @@
+b'Three friends are going to meet each other. Initially, the first friend stays at the position x=ax=a, the second friend stays at the position x=bx=b and the third friend stays at the position x=cx=c on the coordinate axis OxOx.'
+b"In one minute each friend independently from other friends can change the position xx by 11 to the left or by 11 to the right (i.e. set x:=x\xe2\x88\x921x:=x\xe2\x88\x921 or x:=x+1x:=x+1) or even don't change it."
+b"Let's introduce the total pairwise distance \xe2\x80\x94 the sum of distances between each pair of friends. Let a\xe2\x80\xb2a\xe2\x80\xb2, b\xe2\x80\xb2b\xe2\x80\xb2 and c\xe2\x80\xb2c\xe2\x80\xb2 be the final positions of the first, the second and the third friend, correspondingly. Then the total pairwise distance is |a\xe2\x80\xb2\xe2\x88\x92b\xe2\x80\xb2|+|a\xe2\x80\xb2\xe2\x88\x92c\xe2\x80\xb2|+|b\xe2\x80\xb2\xe2\x88\x92c\xe2\x80\xb2||a\xe2\x80\xb2\xe2\x88\x92b\xe2\x80\xb2|+|a\xe2\x80\xb2\xe2\x88\x92c\xe2\x80\xb2|+|b\xe2\x80\xb2\xe2\x88\x92c\xe2\x80\xb2|, where |x||x| is the absolute value of xx."
+b'Friends are interested in the minimum total pairwise distance they can reach if they will move optimally. Each friend will move no more than once. So, more formally, they want to know the minimum total pairwise distance they can reach after one minute.'
+b'You have to answer qq independent test cases.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa410001\xe2\x89\xa4q\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases.'
+b'The next qq lines describe test cases. The ii-th test case is given as three integers a,ba,b and cc (1\xe2\x89\xa4a,b,c\xe2\x89\xa41091\xe2\x89\xa4a,b,c\xe2\x89\xa4109) \xe2\x80\x94 initial positions of the first, second and third friend correspondingly. The positions of friends can be equal.'
+b'Output'
+b'For each test case print the answer on it \xe2\x80\x94 the minimum total pairwise distance (the minimum sum of distances between each pair of friends) if friends change their positions optimally. Each friend will move no more than once. So, more formally, you have to find the minimum total pairwise distance they can reach after one minute.'
+Tags
+brute force, greedy, math, sortings, *900

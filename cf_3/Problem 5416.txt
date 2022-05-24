@@ -1,0 +1,13 @@
+b'Andrewid the Android is a galaxy-known detective. Now he is preparing a defense against a possible attack by hackers on a major computer network.'
+b'In this network are n vertices, some pairs of vertices are connected by m undirected channels. It is planned to transfer q important messages via this network, the i-th of which must be sent from vertex si to vertex di via one or more channels, perhaps through some intermediate vertices.'
+b"To protect against attacks a special algorithm was developed. Unfortunately it can be applied only to the network containing directed channels. Therefore, as new channels can't be created, it was decided for each of the existing undirected channels to enable them to transmit data only in one of the two directions."
+b'Your task is to determine whether it is possible so to choose the direction for each channel so that each of the q messages could be successfully transmitted.'
+b'Input'
+b'The first line contains three integers n, m and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the number of nodes, channels and important messages.'
+b'Next m lines contain two integers each, vi and ui (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89vi,\xe2\x80\x89ui\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, vi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89ui), that means that between nodes vi and ui is a channel. Between a pair of nodes can exist more than one channel.'
+b'Next q lines contain two integers si and di (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89si,\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, si\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89di) \xe2\x80\x94 the numbers of the nodes of the source and destination of the corresponding message.'
+b'It is not guaranteed that in it initially possible to transmit all the messages.'
+b'Output'
+b'If a solution exists, print on a single line "Yes" (without the quotes). Otherwise, print "No" (without the quotes).'
+Tags
+dfs and similar, graphs, trees, *2800

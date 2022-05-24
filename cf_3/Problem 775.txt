@@ -1,0 +1,13 @@
+b'You are a game designer and want to make an obstacle course. The player will walk from left to right. You have nn heights of mountains already selected and want to arrange them so that the absolute difference of the heights of the first and last mountains is as small as possible. '
+b"In addition, you want to make the game difficult, and since walking uphill or flat is harder than walking downhill, the difficulty of the level will be the number of mountains ii (1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n) such that hi\xe2\x89\xa4hi+1hi\xe2\x89\xa4hi+1 where hihi is the height of the ii-th mountain. You don't want to waste any of the mountains you modelled, so you have to use all of them. "
+b'From all the arrangements that minimize |h1\xe2\x88\x92hn||h1\xe2\x88\x92hn|, find one that is the most difficult. If there are multiple orders that satisfy these requirements, you may find any.'
+b'Input'
+b'The first line will contain a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of mountains.'
+b'The second line of each test case contains nn integers h1,\xe2\x80\xa6,hnh1,\xe2\x80\xa6,hn (1\xe2\x89\xa4hi\xe2\x89\xa41091\xe2\x89\xa4hi\xe2\x89\xa4109), where hihi is the height of the ii-th mountain.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output nn integers \xe2\x80\x94 the given heights in an order that maximizes the difficulty score among all orders that minimize |h1\xe2\x88\x92hn||h1\xe2\x88\x92hn|.'
+b'If there are multiple orders that satisfy these requirements, you may output any.'
+Tags
+constructive algorithms, greedy, implementation, math, *1200

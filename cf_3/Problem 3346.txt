@@ -1,0 +1,7 @@
+b'Bob has a simple undirected connected graph (without self-loops and multiple edges). He wants to learn whether his graph is bipartite (that is, you can paint all vertices of the graph into two colors so that there is no edge connecting two vertices of the same color) or not. As he is not very good at programming, he asked Alice for help. He does not want to disclose his graph to Alice, but he agreed that Alice can ask him some questions about the graph.'
+b"The only question that Alice can ask is the following: she sends ss\xc2\xa0\xe2\x80\x94 a subset of vertices of the original graph. Bob answers with the number of edges that have both endpoints in ss. Since he doesn't want Alice to learn too much about the graph, he allows her to ask no more than 2000020000 questions. Furthermore, he suspects that Alice might introduce false messages to their communication channel, so when Alice finally tells him whether the graph is bipartite or not, she also needs to provide a proof\xc2\xa0\xe2\x80\x94 either the partitions themselves or a cycle of odd length."
+b'Your task is to help Alice to construct the queries, find whether the graph is bipartite. '
+b'Input'
+b"The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa46001\xe2\x89\xa4n\xe2\x89\xa4600)\xc2\xa0\xe2\x80\x94 the number of vertices in Bob's graph."
+Tags
+binary search, constructive algorithms, dfs and similar, graphs, interactive, *2800

@@ -1,0 +1,9 @@
+b'Igor likes hexadecimal notation and considers positive integer in the hexadecimal notation interesting if each digit and each letter in it appears no more than t times. For example, if t\xe2\x80\x89=\xe2\x80\x893, then integers 13a13322, aaa, abcdef0123456789 are interesting, but numbers aaaa, abababab and 1000000 are not interesting.'
+b'Your task is to find the k-th smallest interesting for Igor integer in the hexadecimal notation. The integer should not contain leading zeros.'
+b'Input'
+b'The first line contains the two integers k and t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910) \xe2\x80\x94 the number of the required integer and the maximum number of times some integer or letter can appear in interesting integer.'
+b'It can be shown that the answer always exists for such constraints.'
+b'Output'
+b'Print in the hexadecimal notation the only integer that is the k-th smallest interesting integer for Igor.'
+Tags
+brute force, combinatorics, dp, math, *2500

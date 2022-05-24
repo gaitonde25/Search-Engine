@@ -1,0 +1,13 @@
+b'A simplified arithmetic expression (SAE) is an arithmetic expression defined by the following grammar:'
+b'  <SAE> ::= <Number> | <SAE>+<SAE> | <SAE>*<SAE> | (<SAE>)  <Number> ::= <Digit> | <Digit><Number>  <Digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 '
+b'In other words it\'s a correct arithmetic expression that is allowed to contain brackets, numbers (possibly with leading zeros), multiplications and additions. For example expressions "(0+01)", "0" and "1*(0)" are simplified arithmetic expressions, but expressions "2-1", "+1" and "1+2)" are not.'
+b"Given a string s1s2...s|s| that represents a SAE; si denotes the i-th character of the string which can be either a digit ('0'-'9'), a plus sign ('+'), a multiplication sign ('*'), an opening round bracket '(' or a closing round bracket ')'."
+b'A part slsl\xe2\x80\x89+\xe2\x80\x891...sr of this string is called a sub-expression if and only if it is a SAE.'
+b"You task is to answer m queries, each of which is a pair of integers li, ri (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|). For each query determine whether the corresponding part of the given string is a sub-expression and in case it's a sub-expression calculate its value modulo 1000000007\xc2\xa0(109\xe2\x80\x89+\xe2\x80\x897). The values should be calculated using standard operator priorities."
+b'Input'
+b"The first line of the input contains non-empty string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x894\xc2\xb7105) which represents a correct SAE. Each character of the string can be one of the following characters: '*', '+', '(', ')' or a digit ('0'-'9'). The expression might contain extra-huge numbers."
+b'The second line contains an integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x894\xc2\xb7105) which is the number of queries. Each of the next m lines contains two space-separated integers li, ri (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|) \xe2\x80\x94 the i-th query.'
+b'Output'
+b'The i-th number of output should be the answer for the i-th query. If the i-th query corresponds to a valid sub-expression output the value of the sub-expression modulo 1000000007\xc2\xa0(109\xe2\x80\x89+\xe2\x80\x897). Otherwise output -1 as an answer for the query. Print numbers on separate lines.'
+Tags
+data structures, *3200

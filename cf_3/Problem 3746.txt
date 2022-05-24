@@ -1,0 +1,10 @@
+b'You have two variables a and b. Consider the following sequence of actions performed with these variables:'
+b' If a\xe2\x80\x89=\xe2\x80\x890 or b\xe2\x80\x89=\xe2\x80\x890, end the process. Otherwise, go to step 2; If a\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x892\xc2\xb7b, then set the value of a to a\xe2\x80\x89-\xe2\x80\x892\xc2\xb7b, and repeat step 1. Otherwise, go to step 3; If b\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x892\xc2\xb7a, then set the value of b to b\xe2\x80\x89-\xe2\x80\x892\xc2\xb7a, and repeat step 1. Otherwise, end the process.'
+b'Initially the values of a and b are positive integers, and so the process will be finite.'
+b'You have to determine the values of a and b after the process ends.'
+b'Input'
+b'The only line of the input contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018). n is the initial value of variable a, and m is the initial value of variable b.'
+b'Output'
+b'Print two integers \xe2\x80\x94 the values of a and b after the end of the process.'
+Tags
+math, number theory, *1100

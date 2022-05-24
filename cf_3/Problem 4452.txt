@@ -1,0 +1,9 @@
+b'InputThe only line of the input contains a string of digits. The length of the string is between 1 and 10, inclusive.'
+b'OutputOutput "Yes" or "No".'
+b'ExamplesInputCopy373OutputCopyYesInputCopy121OutputCopyNoInputCopy436OutputCopyYes'
+b'Input'
+b'The only line of the input contains a string of digits. The length of the string is between 1 and 10, inclusive.'
+b'Output'
+b'Output "Yes" or "No".'
+Tags
+*special problem, implementation, *1900

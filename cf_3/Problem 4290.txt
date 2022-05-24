@@ -1,0 +1,10 @@
+b'Mister B once received a gift: it was a book about aliens, which he started read immediately. This book had c pages.'
+b"At first day Mister B read v0 pages, but after that he started to speed up. Every day, starting from the second, he read a pages more than on the previous day (at first day he read v0 pages, at second\xc2\xa0\xe2\x80\x94 v0\xe2\x80\x89+\xe2\x80\x89a pages, at third\xc2\xa0\xe2\x80\x94 v0\xe2\x80\x89+\xe2\x80\x892a pages, and so on). But Mister B is just a human, so he physically wasn't able to read more than v1 pages per day."
+b'Also, to refresh his memory, every day, starting from the second, Mister B had to reread last l pages he read on the previous day. Mister B finished the book when he read the last page for the first time.'
+b'Help Mister B to calculate how many days he needed to finish the book.'
+b'Input'
+b'First and only line contains five space-separated integers: c, v0, v1, a and l (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89<\xe2\x80\x89v0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the length of the book in pages, the initial reading speed, the maximum reading speed, the acceleration in reading speed and the number of pages for rereading.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of days Mister B needed to finish the book.'
+Tags
+implementation, *900

@@ -1,0 +1,16 @@
+b'Alice lives on a flat planet that can be modeled as a square grid of size n\xc3\x97nn\xc3\x97n, with rows and columns enumerated from 11 to nn. We represent the cell at the intersection of row rr and column cc with ordered pair (r,c)(r,c). Each cell in the grid is either land or water.'
+b'  An example planet with n=5n=5. It also appears in the first sample test. '
+b'Alice resides in land cell (r1,c1)(r1,c1). She wishes to travel to land cell (r2,c2)(r2,c2). At any moment, she may move to one of the cells adjacent to where she is\xe2\x80\x94in one of the four directions (i.e., up, down, left, or right).'
+b"Unfortunately, Alice cannot swim, and there is no viable transportation means other than by foot (i.e., she can walk only on land). As a result, Alice's trip may be impossible."
+b'To help Alice, you plan to create at most one tunnel between some two land cells. The tunnel will allow Alice to freely travel between the two endpoints. Indeed, creating a tunnel is a lot of effort: the cost of creating a tunnel between cells (rs,cs)(rs,cs) and (rt,ct)(rt,ct) is (rs\xe2\x88\x92rt)2+(cs\xe2\x88\x92ct)2(rs\xe2\x88\x92rt)2+(cs\xe2\x88\x92ct)2.'
+b'For now, your task is to find the minimum possible cost of creating at most one tunnel so that Alice could travel from (r1,c1)(r1,c1) to (r2,c2)(r2,c2). If no tunnel needs to be created, the cost is 00.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450) \xe2\x80\x94 the width of the square grid.'
+b'The second line contains two space-separated integers r1r1 and c1c1 (1\xe2\x89\xa4r1,c1\xe2\x89\xa4n1\xe2\x89\xa4r1,c1\xe2\x89\xa4n) \xe2\x80\x94 denoting the cell where Alice resides.'
+b'The third line contains two space-separated integers r2r2 and c2c2 (1\xe2\x89\xa4r2,c2\xe2\x89\xa4n1\xe2\x89\xa4r2,c2\xe2\x89\xa4n) \xe2\x80\x94 denoting the cell to which Alice wishes to travel.'
+b'Each of the following nn lines contains a string of nn characters. The jj-th character of the ii-th such line (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n) is 0 if (i,j)(i,j) is land or 1 if (i,j)(i,j) is water.'
+b'It is guaranteed that (r1,c1)(r1,c1) and (r2,c2)(r2,c2) are land.'
+b'Output'
+b'Print an integer that is the minimum possible cost of creating at most one tunnel so that Alice could travel from (r1,c1)(r1,c1) to (r2,c2)(r2,c2).'
+Tags
+brute force, dfs and similar, dsu, *1400

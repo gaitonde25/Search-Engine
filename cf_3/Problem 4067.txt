@@ -1,0 +1,11 @@
+b'Ivan is playing a strange game.'
+b'He has a matrix a with n rows and m columns. Each element of the matrix is equal to either 0 or 1. Rows and columns are 1-indexed. Ivan can replace any number of ones in this matrix with zeroes. After that, his score in the game will be calculated as follows:'
+b"  Initially Ivan's score is 0;  In each column, Ivan will find the topmost 1 (that is, if the current column is j, then he will find minimum i such that ai,\xe2\x80\x89j\xe2\x80\x89=\xe2\x80\x891). If there are no 1's in the column, this column is skipped;  Ivan will look at the next min(k,\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x89i\xe2\x80\x89+\xe2\x80\x891) elements in this column (starting from the element he found) and count the number of 1's among these elements. This number will be added to his score. "
+b"Of course, Ivan wants to maximize his score in this strange game. Also he doesn't want to change many elements, so he will replace the minimum possible number of ones with zeroes. Help him to determine the maximum possible score he can get and the minimum possible number of replacements required to achieve that score."
+b'Input'
+b'The first line contains three integer numbers n, m and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100).'
+b'Then n lines follow, i-th of them contains m integer numbers \xe2\x80\x94 the elements of i-th row of matrix a. Each number is either 0 or 1.'
+b'Output'
+b'Print two numbers: the maximum possible score Ivan can get and the minimum number of replacements required to get this score.'
+Tags
+greedy, two pointers, *1600

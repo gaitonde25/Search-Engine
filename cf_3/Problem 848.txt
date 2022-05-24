@@ -1,0 +1,11 @@
+b'This is the hard version of the problem. The only difference is that in this version n\xe2\x89\xa4200000n\xe2\x89\xa4200000. You can make hacks only if both versions of the problem are solved.'
+b'There are nn potions in a line, with potion 11 on the far left and potion nn on the far right. Each potion will increase your health by aiai when drunk. aiai can be negative, meaning that potion will decrease will health.'
+b'You start with 00 health and you will walk from left to right, from first potion to the last one. At each potion, you may choose to drink it or ignore it. You must ensure that your health is always non-negative.'
+b'What is the largest number of potions you can drink?'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000) \xe2\x80\x94 the number of potions. '
+b'The next line contains nn integers a1a1, a2a2, ... ,anan (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109) which represent the change in health after drinking that potion.'
+b'Output'
+b'Output a single integer, the maximum number of potions you can drink without your health becoming negative.'
+Tags
+data structures, greedy, *1600

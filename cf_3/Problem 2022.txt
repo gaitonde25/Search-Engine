@@ -1,0 +1,17 @@
+b"For the first time, Polycarp's startup ended the year with a profit! Now he is about to distribute kk burles as a bonus among nn employees."
+b'It is known that the current salary of the ii-th employee is aiai and all the values of aiai in the company are different.'
+b'Polycarp wants to distribute the kk burles between nn employees so this month the ii-th employee will be paid not aiai, but ai+diai+di (di\xe2\x89\xa50di\xe2\x89\xa50, didi is an integer), where didi is the bonus for the ii-th employee. Of course, d1+d2+\xe2\x8b\xaf+dn=kd1+d2+\xe2\x8b\xaf+dn=k.'
+b'Polycarp will follow two rules for choosing the values didi:'
+b'  the relative order of the salaries should not be changed: the employee with originally the highest salary (aiai is the maximum) should have the highest total payment after receiving their bonus (ai+diai+di is also the maximum), the employee whose salary was originally the second-largest should receive the second-largest total payment after receiving their bonus and so on.  to emphasize that annual profit is a group effort, Polycarp wants to minimize the maximum total payment to an employee (i.e minimize the maximum value of ai+diai+di). '
+b'Help Polycarp decide the non-negative integer bonuses didi such that:'
+b'  their sum is kk,  for each employee, the number of those who receive strictly more than them remains unchanged (that is, if you sort employees by aiai and by ai+diai+di, you get the same order of employees),  all ai+diai+di are different,  the maximum of the values ai+diai+di is the minimum possible. '
+b'Help Polycarp and print any of the possible answers d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the input. Then tt test cases follow.'
+b'The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of employees and the total bonus.'
+b'The second line of each test case contains nn different integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is the current salary of the ii-th employee.'
+b'It is guaranteed that the sum of all nn values in the input does not exceed 105105.'
+b'Output'
+b'Print the answers to tt test cases in the order they appear in the input. Print each answer as a sequence of non-negative integers d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn. If there are several answers, print any of them.'
+Tags
+*special problem, binary search, greedy, sortings

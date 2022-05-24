@@ -1,0 +1,11 @@
+b'We define the sum of prefix sums of an array [s1,s2,\xe2\x80\xa6,sk][s1,s2,\xe2\x80\xa6,sk] as s1+(s1+s2)+(s1+s2+s3)+\xe2\x8b\xaf+(s1+s2+\xe2\x8b\xaf+sk)s1+(s1+s2)+(s1+s2+s3)+\xe2\x8b\xaf+(s1+s2+\xe2\x8b\xaf+sk).'
+b'You are given a tree consisting of nn vertices. Each vertex ii has an integer aiai written on it. We define the value of the simple path from vertex uu to vertex vv as follows: consider all vertices appearing on the path from uu to vv, write down all the numbers written on these vertices in the order they appear on the path, and compute the sum of prefix sums of the resulting sequence.'
+b'Your task is to calculate the maximum value over all paths in the tree.'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41500002\xe2\x89\xa4n\xe2\x89\xa4150000) \xe2\x80\x94 the number of vertices in the tree.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follow, representing the edges of the tree. Each line contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi), denoting an edge between vertices uiui and vivi. It is guaranteed that these edges form a tree.'
+b'The last line contains nn integers a1a1, a2a2, ..., anan (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106).'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum value over all paths in the tree.'
+Tags
+data structures, divide and conquer, geometry, trees, *2700

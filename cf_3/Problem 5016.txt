@@ -1,0 +1,12 @@
+b'Niwel is a little golden bear. As everyone knows, bears live in forests, but Niwel got tired of seeing all the trees so he decided to move to the city.'
+b'In the city, Niwel took on a job managing bears to deliver goods. The city that he lives in can be represented as a directed graph with n nodes and m edges. Each edge has a weight capacity. A delivery consists of a bear carrying weights with their bear hands on a simple path from node 1 to node n. The total weight that travels across a particular edge must not exceed the weight capacity of that edge.'
+b'Niwel has exactly x bears. In the interest of fairness, no bear can rest, and the weight that each bear carries must be exactly the same. However, each bear may take different paths if they like.'
+b"Niwel would like to determine, what is the maximum amount of weight he can deliver (it's the sum of weights carried by bears). Find the maximum weight."
+b'Input'
+b'The first line contains three integers n, m and x (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of nodes, the number of directed edges and the number of bears, respectively.'
+b"Each of the following m lines contains three integers ai, bi and ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89bi, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000). This represents a directed edge from node ai to bi with weight capacity ci. There are no self loops and no multiple edges from one city to the other city. More formally, for each i and j that i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89j it's guaranteed that ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89aj or bi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89bj. It is also guaranteed that there is at least one path from node 1 to node n."
+b'Output'
+b'Print one real value on a single line\xc2\xa0\xe2\x80\x94 the maximum amount of weight Niwel can deliver if he uses exactly x bears. Your answer will be considered correct if its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x896.'
+b"Namely: let's assume that your answer is a, and the answer of the jury is b. The checker program will consider your answer correct if ."
+Tags
+binary search, flows, graphs, *2200

@@ -1,0 +1,11 @@
+b'You generate real numbers s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sn as follows: '
+b'  s0\xe2\x80\x89=\xe2\x80\x890;  si\xe2\x80\x89=\xe2\x80\x89si\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x89ti, where ti is a real number chosen independently uniformly at random between 0 and 1, inclusive. '
+b'You are given real numbers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn. You are interested in the probability that si\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi is true for all i simultaneously.'
+b'It can be shown that this can be represented as , where P and Q are coprime integers, and . Print the value of P\xc2\xb7Q\xe2\x80\x89-\xe2\x80\x891 modulo 998244353.'
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8930).'
+b'The next n lines contain real numbers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn, given with at most six digits after the decimal point (0\xe2\x80\x89<\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Output'
+b'Print a single integer, the answer to the problem.'
+Tags
+math, probabilities, *3400

@@ -1,0 +1,13 @@
+b"Stephen Queen wants to write a story. He is a very unusual writer, he uses only letters 'a', 'b', 'c', 'd' and 'e'!"
+b'To compose a story, Stephen wrote out nn words consisting of the first 55 lowercase letters of the Latin alphabet. He wants to select the maximum number of words to make an interesting story.'
+b'Let a story be a sequence of words that are not necessarily different. A story is called interesting if there exists a letter which occurs among all words of the story more times than all other letters together.'
+b'For example, the story consisting of three words "bac", "aaada", "e" is interesting (the letter \'a\' occurs 55 times, all other letters occur 44 times in total). But the story consisting of two words "aba", "abcde" is not (no such letter that it occurs more than all other letters in total).'
+b"You are given a sequence of nn words consisting of letters 'a', 'b', 'c', 'd' and 'e'. Your task is to choose the maximum number of them to make an interesting story. If there's no way to make a non-empty story, output 00."
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b"The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of the words in the sequence. Then nn lines follow, each of them contains a word \xe2\x80\x94 a non-empty string consisting of lowercase letters of the Latin alphabet. The words in the sequence may be non-distinct (i.\xe2\x80\x89e. duplicates are allowed). Only the letters 'a', 'b', 'c', 'd' and 'e' may occur in the words."
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105; the sum of the lengths of all words over all test cases doesn't exceed 4\xe2\x8b\x851054\xe2\x8b\x85105."
+b'Output'
+b"For each test case, output the maximum number of words that compose an interesting story. Print 0 if there's no way to make a non-empty interesting story."
+Tags
+greedy, sortings, strings, *1500

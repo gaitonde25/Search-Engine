@@ -1,0 +1,12 @@
+b'Having problems with tram routes in the morning, Arkady decided to return home by metro. Fortunately for Arkady, there is only one metro line in the city.'
+b'Unfortunately for Arkady, the line is circular. It means that the stations are enumerated from 11 to nn and there is a tunnel between any pair of consecutive stations as well as between the station 11 and the station nn. Trains that go in clockwise direction visit the stations in order 1\xe2\x86\x922\xe2\x86\x923\xe2\x86\x92\xe2\x80\xa6\xe2\x86\x92n\xe2\x86\x9211\xe2\x86\x922\xe2\x86\x923\xe2\x86\x92\xe2\x80\xa6\xe2\x86\x92n\xe2\x86\x921 while the trains that go in the counter-clockwise direction visit the stations in the reverse order.'
+b'The stations that have numbers from 11 to mm have interior mostly in red colors while the stations that have numbers from m+1m+1 to nn have blue interior. Arkady entered the metro at station ss and decided to use the following algorithm to choose his way home.'
+b'  Initially he has a positive integer tt in his mind.  If the current station has red interior, he takes a clockwise-directed train, otherwise he takes a counter-clockwise-directed train.  He rides exactly tt stations on the train and leaves the train.  He decreases tt by one. If tt is still positive, he returns to step 22. Otherwise he exits the metro. '
+b"You have already realized that this algorithm most probably won't bring Arkady home. Find the station he will exit the metro at so that you can continue helping him."
+b'Input'
+b'The first line contains two integers nn and mm (3\xe2\x89\xa4n\xe2\x89\xa41053\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4m<n1\xe2\x89\xa4m<n)\xc2\xa0\xe2\x80\x94 the total number of stations and the number of stations that have red interior.'
+b'The second line contains two integers ss and tt (1\xe2\x89\xa4s\xe2\x89\xa4n1\xe2\x89\xa4s\xe2\x89\xa4n, 1\xe2\x89\xa4t\xe2\x89\xa410121\xe2\x89\xa4t\xe2\x89\xa41012)\xc2\xa0\xe2\x80\x94 the starting station and the initial value of tt.'
+b'Output'
+b'Output the only integer\xc2\xa0\xe2\x80\x94 the station where Arkady will exit the metro.'
+Tags
+brute force, data structures, graphs, *2900

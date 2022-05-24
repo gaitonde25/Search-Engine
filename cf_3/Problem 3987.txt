@@ -1,0 +1,12 @@
+b'Ralph is in the Binary Country. The Binary Country consists of n cities and (n\xe2\x80\x89-\xe2\x80\x891) bidirectional roads connecting the cities. The roads are numbered from 1 to (n\xe2\x80\x89-\xe2\x80\x891), the i-th road connects the city labeled  (here \xe2\x8c\x8a x\xe2\x8c\x8b denotes the x rounded down to the nearest integer) and the city labeled (i\xe2\x80\x89+\xe2\x80\x891), and the length of the i-th road is Li.'
+b'Now Ralph gives you m queries. In each query he tells you some city Ai and an integer Hi. He wants to make some tours starting from this city. He can choose any city in the Binary Country (including Ai) as the terminal city for a tour. He gains happiness (Hi\xe2\x80\x89-\xe2\x80\x89L) during a tour, where L is the distance between the city Ai and the terminal city.'
+b'Ralph is interested in tours from Ai in which he can gain positive happiness. For each query, compute the sum of happiness gains for all such tours.'
+b'Ralph will never take the same tour twice or more (in one query), he will never pass the same city twice or more in one tour.'
+b'Input'
+b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'(n\xe2\x80\x89-\xe2\x80\x891) lines follow, each line contains one integer Li (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), which denotes the length of the i-th road.'
+b'm lines follow, each line contains two integers Ai and Hi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Hi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107).'
+b'Output'
+b'Print m lines, on the i-th line print one integer\xc2\xa0\xe2\x80\x94 the answer for the i-th query.'
+Tags
+brute force, data structures, trees, *2200

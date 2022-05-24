@@ -1,0 +1,11 @@
+b'Three little pigs from all over the world are meeting for a convention! Every minute, a triple of 3 new pigs arrives on the convention floor. After the nn-th minute, the convention ends.'
+b'The big bad wolf has learned about this convention, and he has an attack plan. At some minute in the convention, he will arrive and eat exactly xx pigs. Then he will get away.'
+b'The wolf wants Gregor to help him figure out the number of possible attack plans that involve eating exactly xx pigs for various values of xx (1\xe2\x89\xa4x\xe2\x89\xa43n1\xe2\x89\xa4x\xe2\x89\xa43n). Two attack plans are considered different, if they occur at different times or if the sets of little pigs to eat are different.'
+b'Note that all queries are independent, that is, the wolf does not eat the little pigs, he only makes plans!'
+b'Input'
+b'The first line of input contains two integers nn and qq (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106, 1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105), the number of minutes the convention lasts and the number of queries the wolf asks.'
+b'Each of the next qq lines contains a single integer xixi (1\xe2\x89\xa4xi\xe2\x89\xa43n1\xe2\x89\xa4xi\xe2\x89\xa43n), the number of pigs the wolf will eat in the ii-th query.'
+b'Output'
+b'You should print qq lines, with line ii representing the number of attack plans if the wolf wants to eat xixi pigs. Since each query answer can be large, output each answer modulo 109+7109+7.'
+Tags
+combinatorics, dp, fft, math, *2500

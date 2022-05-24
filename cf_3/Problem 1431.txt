@@ -1,0 +1,12 @@
+b'According to a legend the Hanoi Temple holds a permutation of integers from 11 to nn. There are nn stones of distinct colors lying in one line in front of the temple. Monks can perform the following operation on stones: choose a position ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and cyclically shift stones at positions ii, p[i]p[i], p[p[i]]p[p[i]], .... That is, a stone from position ii will move to position p[i]p[i], a stone from position p[i]p[i] will move to position p[p[i]]p[p[i]], and so on, a stone from position jj, such that p[j]=ip[j]=i, will move to position ii.'
+b'Each day the monks must obtain a new arrangement of stones using an arbitrary number of these operations. When all possible arrangements will have been obtained, the world will end. You are wondering, what if some elements of the permutation could be swapped just before the beginning? How many days would the world last?'
+b'You want to get a permutation that will allow the world to last as long as possible, using the minimum number of exchanges of two elements of the permutation.'
+b'Two arrangements of stones are considered different if there exists a position ii such that the colors of the stones on that position are different in these arrangements.'
+b'Input'
+b'Each test consists of multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103). Description of the test cases follows.'
+b'The first line of each test case contains nn (3\xe2\x89\xa4n\xe2\x89\xa41063\xe2\x89\xa4n\xe2\x89\xa4106). The next line contains nn integers p1,\xe2\x80\xa6,pnp1,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n). It is guaranteed that pp is a permutation.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 106106. '
+b'Output'
+b'For each of the tt test cases, print two integers on a new line: the largest possible number of days the world can last, modulo 109+7109+7, and the minimum number of exchanges required for that.'
+Tags
+greedy, math, *3000

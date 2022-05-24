@@ -1,0 +1,8 @@
+b'There are nn computers in a row, all originally off, and Phoenix wants to turn all of them on. He will manually turn on computers one at a time. At any point, if computer i\xe2\x88\x921i\xe2\x88\x921 and computer i+1i+1 are both on, computer ii (2\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921)(2\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921) will turn on automatically if it is not already on. Note that Phoenix cannot manually turn on a computer that already turned on automatically.'
+b'If we only consider the sequence of computers that Phoenix turns on manually, how many ways can he turn on all the computers? Two sequences are distinct if either the set of computers turned on manually is distinct, or the order of computers turned on manually is distinct. Since this number may be large, please print it modulo MM.'
+b'Input'
+b'The first line contains two integers nn and MM (3\xe2\x89\xa4n\xe2\x89\xa44003\xe2\x89\xa4n\xe2\x89\xa4400; 108\xe2\x89\xa4M\xe2\x89\xa4109108\xe2\x89\xa4M\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of computers and the modulo. It is guaranteed that MM is prime.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the number of ways to turn on the computers modulo MM.'
+Tags
+combinatorics, dp, math, *2200

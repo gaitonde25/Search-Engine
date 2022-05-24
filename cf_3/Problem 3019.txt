@@ -1,0 +1,13 @@
+b'NN is an experienced internet user and that means he spends a lot of time on the social media. Once he found the following image on the Net, which asked him to compare the sizes of inner circles:'
+b'  '
+b'It turned out that the circles are equal. NN was very surprised by this fact, so he decided to create a similar picture himself.'
+b"He managed to calculate the number of outer circles nn and the radius of the inner circle rr. NN thinks that, using this information, you can exactly determine the radius of the outer circles RR so that the inner circle touches all of the outer ones externally and each pair of neighboring outer circles also touches each other. While NN tried very hard to guess the required radius, he didn't manage to do that. "
+b'Help NN find the required radius for building the required picture.'
+b'Input'
+b'The first and the only line of the input file contains two numbers nn and rr (3\xe2\x89\xa4n\xe2\x89\xa41003\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4r\xe2\x89\xa41001\xe2\x89\xa4r\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of the outer circles and the radius of the inner circle respectively.'
+b'Output'
+b'Output a single number RR\xc2\xa0\xe2\x80\x94 the radius of the outer circle required for building the required picture. '
+b'Your answer will be accepted if its relative or absolute error does not exceed 10\xe2\x88\x92610\xe2\x88\x926.'
+b"Formally, if your answer is aa and the jury's answer is bb. Your answer is accepted if and only when |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926."
+Tags
+binary search, geometry, math, *1200

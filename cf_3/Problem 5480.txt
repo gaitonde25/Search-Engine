@@ -1,0 +1,15 @@
+b"Ivan Anatolyevich's agency is starting to become famous in the town. "
+b"They have already ordered and made n TV commercial videos. Each video is made in a special way: the colors and the soundtrack are adjusted to the time of the day and the viewers' mood. That's why the i-th video can only be shown within the time range of [li,\xe2\x80\x89ri] (it is not necessary to use the whole segment but the broadcast time should be within this segment)."
+b"Now it's time to choose a TV channel to broadcast the commercial. Overall, there are m TV channels broadcasting in the city, the j-th one has cj viewers, and is ready to sell time [aj,\xe2\x80\x89bj] to broadcast the commercial."
+b'Ivan Anatolyevich is facing a hard choice: he has to choose exactly one video i and exactly one TV channel j to broadcast this video and also a time range to broadcast [x,\xe2\x80\x89y]. At that the time range should be chosen so that it is both within range [li,\xe2\x80\x89ri] and within range [aj,\xe2\x80\x89bj].'
+b"Let's define the efficiency of the broadcast as value (y\xe2\x80\x89-\xe2\x80\x89x)\xc2\xb7cj \xe2\x80\x94 the total sum of time that all the viewers of the TV channel are going to spend watching the commercial. Help Ivan Anatolyevich choose the broadcast with the maximum efficiency!"
+b'Input'
+b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of commercial videos and channels, respectively.'
+b'Each of the following n lines contains two integers li, ri (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the segment of time when it is possible to show the corresponding video.'
+b'Each of the following m lines contains three integers aj, bj, cj (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89aj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), characterizing the TV channel.'
+b'Output'
+b'In the first line print an integer \xe2\x80\x94 the maximum possible efficiency of the broadcast. If there is no correct way to get a strictly positive efficiency, print a zero.'
+b'If the maximum efficiency is strictly positive, in the second line also print the number of the video i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) and the number of the TV channel j (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m) in the most effective broadcast.'
+b'If there are multiple optimal answers, you can print any of them.'
+Tags
+data structures, sortings, *2400

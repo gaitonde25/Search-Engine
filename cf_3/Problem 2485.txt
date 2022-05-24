@@ -1,0 +1,9 @@
+b"Natasha's favourite numbers are nn and 11, and Sasha's favourite numbers are mm and \xe2\x88\x921\xe2\x88\x921. One day Natasha and Sasha met and wrote down every possible array of length n+mn+m such that some nn of its elements are equal to 11 and another mm elements are equal to \xe2\x88\x921\xe2\x88\x921. For each such array they counted its maximal prefix sum, probably an empty one which is equal to 00 (in another words, if every nonempty prefix sum is less to zero, then it is considered equal to zero). Formally, denote as f(a)f(a) the maximal prefix sum of an array a1,\xe2\x80\xa6,la1,\xe2\x80\xa6,l of length l\xe2\x89\xa50l\xe2\x89\xa50. Then: "
+b'f(a)=max(0,max1\xe2\x89\xa4i\xe2\x89\xa4l\xe2\x88\x91j=1iaj)f(a)=max(0,max1\xe2\x89\xa4i\xe2\x89\xa4l\xe2\x88\x91j=1iaj)'
+b'Now they want to count the sum of maximal prefix sums for each such an array and they are asking you to help. As this sum can be very large, output it modulo 998244853998244853.'
+b'Input'
+b'The only line contains two integers nn and mm (0\xe2\x89\xa4n,m\xe2\x89\xa420000\xe2\x89\xa4n,m\xe2\x89\xa42000).'
+b'Output'
+b'Output the answer to the problem modulo 998244853998244853.'
+Tags
+combinatorics, dp, math, number theory, *2300

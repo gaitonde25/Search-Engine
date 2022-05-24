@@ -1,0 +1,9 @@
+b"Ralph has a magic field which is divided into n\xe2\x80\x89\xc3\x97\xe2\x80\x89m blocks. That is to say, there are n rows and m columns on the field. Ralph can put an integer in each block. However, the magic field doesn't always work properly. It works only if the product of integers in each row and each column equals to k, where k is either 1 or -1."
+b'Now Ralph wants you to figure out the number of ways to put numbers in each block in such a way that the magic field works properly. Two ways are considered different if and only if there exists at least one block where the numbers in the first way and in the second way are different. You are asked to output the answer modulo 1000000007\xe2\x80\x89=\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x897.'
+b'Note that there is no range of the numbers to put in the blocks, but we can prove that the answer is not infinity.'
+b'Input'
+b'The only line contains three integers n, m and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018, k is either 1 or -1).'
+b'Output'
+b'Print a single number denoting the answer modulo 1000000007.'
+Tags
+combinatorics, constructive algorithms, math, number theory, *1800

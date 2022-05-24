@@ -1,0 +1,14 @@
+b'You are given a tree (an undirected connected graph without cycles) and an integer ss.'
+b'Vanya wants to put weights on all edges of the tree so that all weights are non-negative real numbers and their sum is ss. At the same time, he wants to make the diameter of the tree as small as possible.'
+b"Let's define the diameter of a weighed tree as the maximum sum of the weights of the edges lying on the path between two some vertices of the tree. In other words, the diameter of a weighed tree is the length of the longest simple path in the tree, where length of a path is equal to the sum of weights over all edges in the path."
+b'Find the minimum possible diameter that Vanya can get.'
+b'Input'
+b'The first line contains two integer numbers nn and ss (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4s\xe2\x89\xa41091\xe2\x89\xa4s\xe2\x89\xa4109) \xe2\x80\x94 the number of vertices in the tree and the sum of edge weights.'
+b'Each of the following n\xe2\x88\x921n\xe2\x88\x921 lines contains two space-separated integer numbers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n, ai\xe2\x89\xa0biai\xe2\x89\xa0bi) \xe2\x80\x94 the indexes of vertices connected by an edge. The edges are undirected.'
+b'It is guaranteed that the given edges form a tree.'
+b'Output'
+b'Print the minimum diameter of the tree that Vanya can get by placing some non-negative real weights on its edges with the sum equal to ss.'
+b'Your answer will be considered correct if its absolute or relative error does not exceed 10\xe2\x88\x92610\xe2\x88\x926.'
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is considered correct if |a\xe2\x88\x92b|max(1,b)\xe2\x89\xa410\xe2\x88\x926|a\xe2\x88\x92b|max(1,b)\xe2\x89\xa410\xe2\x88\x926."
+Tags
+constructive algorithms, implementation, trees, *1700

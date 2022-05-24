@@ -1,0 +1,10 @@
+b'For a given prime integer p and integers \xce\xb1,\xe2\x80\x89A calculate the number of pairs of integers (n,\xe2\x80\x89k), such that 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89A and  is divisible by p\xce\xb1. '
+b'As the answer can be rather large, print the remainder of the answer moduly 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Let us remind you that  is the number of ways k objects can be chosen from the set of n objects.'
+b'Input'
+b'The first line contains two integers, p and \xce\xb1 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p,\xe2\x80\x89\xce\xb1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, p is prime). '
+b'The second line contains the decimal record of integer A (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89A\xe2\x80\x89<\xe2\x80\x89101000) without leading zeroes.'
+b'Output'
+b'In the single line print the answer to the problem.'
+Tags
+dp, math, number theory, *3300

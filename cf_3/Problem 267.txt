@@ -1,0 +1,10 @@
+b'You are given an integer nn. You have to change the minimum number of digits in it in such a way that the resulting number does not have any leading zeroes and is divisible by 77.'
+b'If there are multiple ways to do it, print any of them. If the given number is already divisible by 77, leave it unchanged.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa49901\xe2\x89\xa4t\xe2\x89\xa4990) \xe2\x80\x94 the number of test cases.'
+b'Then the test cases follow, each test case consists of one line containing one integer nn (10\xe2\x89\xa4n\xe2\x89\xa499910\xe2\x89\xa4n\xe2\x89\xa4999).'
+b'Output'
+b'For each test case, print one integer without any leading zeroes \xe2\x80\x94 the result of your changes (i.\xe2\x80\x89e. the integer that is divisible by 77 and can be obtained by changing the minimum possible number of digits in nn).'
+b'If there are multiple ways to apply changes, print any resulting number. If the given number is already divisible by 77, just print it.'
+Tags
+brute force, *800

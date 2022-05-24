@@ -1,0 +1,8 @@
+b'  '
+b'You can preview the image in better quality by the link: http://assets.codeforces.com/files/656/without-text.png'
+b'Input'
+b'The only line of the input is a string (between 1 and 50 characters long, inclusive). Each character will be an alphanumeric character or a full stop ".".'
+b'Output'
+b'Output the required answer.'
+Tags
+*special problem, *2000

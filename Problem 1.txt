@@ -1,0 +1,12 @@
+You are given a simple connected undirected graph, consisting of nn vertices and mm edges. The vertices are numbered from 11 to nn.
+A vertex cover of a graph is a set of vertices such that each edge has at least one of its endpoints in the set.
+Let's call a lenient vertex cover such a vertex cover that at most one edge in it has both endpoints in the set.
+Find a lenient vertex cover of a graph or report that there is none. If there are multiple answers, then print any of them.
+Input
+The first line contains a single integer tt (1≤t≤1041≤t≤104) — the number of testcases.
+The first line of each testcase contains two integers nn and mm (2≤n≤1062≤n≤106; n−1≤m≤min(106,n⋅(n−1)2)n−1≤m≤min(106,n⋅(n−1)2)) — the number of vertices and the number of edges of the graph.
+Each of the next mm lines contains two integers vv and uu (1≤v,u≤n1≤v,u≤n; v≠uv≠u) — the descriptions of the edges.
+For each testcase, the graph is connected and doesn't have multiple edges. The sum of nn over all testcases doesn't exceed 106106. The sum of mm over all testcases doesn't exceed 106106.
+Output
+For each testcase, the first line should contain YES if a lenient vertex cover exists, and NO otherwise. If it exists, the second line should contain a binary string ss of length nn, where si=1si=1 means that vertex ii is in the vertex cover, and si=0si=0 means that vertex ii isn't.
+If there are multiple answers, then print any of them.

@@ -1,0 +1,14 @@
+b'There is an infinite chessboard, divided into cells. The cell (x,y)(x,y) is the cell on the intersection of the xixi-th row and yiyi-th column. nn black pawns are placed on the board, the ii-th black pawn occupies the cell (xi,yi)(xi,yi).'
+b'You want to capture all black pawns. In order to do so, you may perform the following actions:'
+b"  place a white pawn into any empty cell (any cell having integer coordinates can be chosen, as long as it doesn't contain any pawns);  make a move with one of the white pawns according to the chess rules. "
+b'Recall that when you make a move with a white pawn in the cell (x,y)(x,y), the chess rules allow you to choose exactly one of these actions: '
+b'  if there is a black pawn in the cell (x+1,y\xe2\x88\x921)(x+1,y\xe2\x88\x921), you can capture it \xe2\x80\x94 the black pawn is removed from the board, and the white pawn moves to (x+1,y\xe2\x88\x921)(x+1,y\xe2\x88\x921);  if there is a black pawn in the cell (x+1,y+1)(x+1,y+1), you can capture it \xe2\x80\x94 the black pawn is removed from the board, and the white pawn moves to (x+1,y+1)(x+1,y+1);  if the cell (x+1,y)(x+1,y) is empty, you can move the white pawn to that cell. '
+b'You may perform any finite sequence of actions (placing white pawns and moving them). You want to capture all of the black pawns, and it can be shown that it is always possible; and you want to do it placing as few white pawns as possible.'
+b'What is the minimum number of white pawns you have to place to capture all nn black pawns?'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the number of black pawns.'
+b'Then nn lines follow. The ii-th line contains two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4xi,yi\xe2\x89\xa45\xe2\x8b\x85105) denoting a black pawn in the cell (xi,yi)(xi,yi). No cell is occupied by two or more black pawns.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum number of white pawns you have to place to capture all nn black pawns.'
+Tags
+*special problem

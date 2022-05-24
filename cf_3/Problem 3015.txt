@@ -1,0 +1,11 @@
+b'You are given qq queries in the following form:'
+b'Given three integers lili, riri and didi, find minimum positive integer xixi such that it is divisible by didi and it does not belong to the segment [li,ri][li,ri].'
+b'Can you answer all the queries?'
+b'Recall that a number xx belongs to segment [l,r][l,r] if l\xe2\x89\xa4x\xe2\x89\xa4rl\xe2\x89\xa4x\xe2\x89\xa4r.'
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa45001\xe2\x89\xa4q\xe2\x89\xa4500) \xe2\x80\x94 the number of queries.'
+b'Then qq lines follow, each containing a query given in the format lili riri didi (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa41091\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4109, 1\xe2\x89\xa4di\xe2\x89\xa41091\xe2\x89\xa4di\xe2\x89\xa4109). lili, riri and didi are integers.'
+b'Output'
+b'For each query print one integer: the answer to this query.'
+Tags
+math, *1000

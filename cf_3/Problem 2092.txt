@@ -1,0 +1,13 @@
+b'There are nn Christmas trees on an infinite number line. The ii-th tree grows at the position xixi. All xixi are guaranteed to be distinct.'
+b'Each integer point can be either occupied by the Christmas tree, by the human or not occupied at all. Non-integer points cannot be occupied by anything.'
+b'There are mm people who want to celebrate Christmas. Let y1,y2,\xe2\x80\xa6,ymy1,y2,\xe2\x80\xa6,ym be the positions of people (note that all values x1,x2,\xe2\x80\xa6,xn,y1,y2,\xe2\x80\xa6,ymx1,x2,\xe2\x80\xa6,xn,y1,y2,\xe2\x80\xa6,ym should be distinct and all yjyj should be integer). You want to find such an arrangement of people that the value \xe2\x88\x91j=1mmini=1n|xi\xe2\x88\x92yj|\xe2\x88\x91j=1mmini=1n|xi\xe2\x88\x92yj| is the minimum possible (in other words, the sum of distances to the nearest Christmas tree for all people should be minimized).'
+b'In other words, let djdj be the distance from the jj-th human to the nearest Christmas tree (dj=mini=1n|yj\xe2\x88\x92xi|dj=mini=1n|yj\xe2\x88\x92xi|). Then you need to choose such positions y1,y2,\xe2\x80\xa6,ymy1,y2,\xe2\x80\xa6,ym that \xe2\x88\x91j=1mdj\xe2\x88\x91j=1mdj is the minimum possible.'
+b'Input'
+b'The first line of the input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of Christmas trees and the number of people.'
+b'The second line of the input contains nn integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn (\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109), where xixi is the position of the ii-th Christmas tree. It is guaranteed that all xixi are distinct.'
+b'Output'
+b'In the first line print one integer resres \xe2\x80\x94 the minimum possible value of \xe2\x88\x91j=1mmini=1n|xi\xe2\x88\x92yj|\xe2\x88\x91j=1mmini=1n|xi\xe2\x88\x92yj| (in other words, the sum of distances to the nearest Christmas tree for all people).'
+b'In the second line print mm integers y1,y2,\xe2\x80\xa6,ymy1,y2,\xe2\x80\xa6,ym (\xe2\x88\x922\xe2\x8b\x85109\xe2\x89\xa4yj\xe2\x89\xa42\xe2\x8b\x85109\xe2\x88\x922\xe2\x8b\x85109\xe2\x89\xa4yj\xe2\x89\xa42\xe2\x8b\x85109), where yjyj is the position of the jj-th human. All yjyj should be distinct and all values x1,x2,\xe2\x80\xa6,xn,y1,y2,\xe2\x80\xa6,ymx1,x2,\xe2\x80\xa6,xn,y1,y2,\xe2\x80\xa6,ym should be distinct.'
+b'If there are multiple answers, print any of them.'
+Tags
+graphs, greedy, shortest paths, *1800

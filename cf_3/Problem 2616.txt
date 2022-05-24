@@ -1,0 +1,14 @@
+b'There are nn products in the shop. The price of the ii-th product is aiai. The owner of the shop wants to equalize the prices of all products. However, he wants to change prices smoothly.'
+b'In fact, the owner of the shop can change the price of some product ii in such a way that the difference between the old price of this product aiai and the new price bibi is at most kk. In other words, the condition |ai\xe2\x88\x92bi|\xe2\x89\xa4k|ai\xe2\x88\x92bi|\xe2\x89\xa4k should be satisfied (|x||x| is the absolute value of xx).'
+b'He can change the price for each product not more than once. Note that he can leave the old prices for some products. The new price bibi of each product ii should be positive (i.e. bi>0bi>0 should be satisfied for all ii from 11 to nn).'
+b'Your task is to find out the maximum possible equal price BB of all productts with the restriction that for all products the condiion |ai\xe2\x88\x92B|\xe2\x89\xa4k|ai\xe2\x88\x92B|\xe2\x89\xa4k should be satisfied (where aiai is the old price of the product and BB is the same new price of all products) or report that it is impossible to find such price BB.'
+b'Note that the chosen price BB should be integer.'
+b'You should answer qq independent queries.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41001\xe2\x89\xa4q\xe2\x89\xa4100) \xe2\x80\x94 the number of queries. Each query is presented by two lines.'
+b'The first line of the query contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa4100,1\xe2\x89\xa4k\xe2\x89\xa41081\xe2\x89\xa4n\xe2\x89\xa4100,1\xe2\x89\xa4k\xe2\x89\xa4108) \xe2\x80\x94 the number of products and the value kk. The second line of the query contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41081\xe2\x89\xa4ai\xe2\x89\xa4108), where aiai is the price of the ii-th product.'
+b'Output'
+b'Print qq integers, where the ii-th integer is the answer BB on the ii-th query.'
+b'If it is impossible to equalize prices of all given products with restriction that for all products the condition |ai\xe2\x88\x92B|\xe2\x89\xa4k|ai\xe2\x88\x92B|\xe2\x89\xa4k should be satisfied (where aiai is the old price of the product and BB is the new equal price of all products), print -1. Otherwise print the maximum possible equal price of all products.'
+Tags
+math, *900

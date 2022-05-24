@@ -1,0 +1,15 @@
+b"You have a simple undirected graph consisting of nn vertices and mm edges. The graph doesn't contain self-loops, there is at most one edge between a pair of vertices. The given graph can be disconnected."
+b"Let's make a definition."
+b'Let v1v1 and v2v2 be two some nonempty subsets of vertices that do not intersect. Let f(v1,v2)f(v1,v2) be true if and only if all the conditions are satisfied:'
+b'  There are no edges with both endpoints in vertex set v1v1.  There are no edges with both endpoints in vertex set v2v2.  For every two vertices xx and yy such that xx is in v1v1 and yy is in v2v2, there is an edge between xx and yy. '
+b'Create three vertex sets (v1v1, v2v2, v3v3) which satisfy the conditions below;'
+b'  All vertex sets should not be empty.  Each vertex should be assigned to only one vertex set.  f(v1,v2)f(v1,v2), f(v2,v3)f(v2,v3), f(v3,v1)f(v3,v1) are all true. '
+b"Is it possible to create such three vertex sets? If it's possible, print matching vertex set for each vertex."
+b'Input'
+b'The first line contains two integers nn and mm (3\xe2\x89\xa4n\xe2\x89\xa41053\xe2\x89\xa4n\xe2\x89\xa4105, 0\xe2\x89\xa4m\xe2\x89\xa4min(3\xe2\x8b\x85105,n(n\xe2\x88\x921)2)0\xe2\x89\xa4m\xe2\x89\xa4min(3\xe2\x8b\x85105,n(n\xe2\x88\x921)2))\xc2\xa0\xe2\x80\x94 the number of vertices and edges in the graph.'
+b"The ii-th of the next mm lines contains two integers aiai and bibi (1\xe2\x89\xa4ai<bi\xe2\x89\xa4n1\xe2\x89\xa4ai<bi\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 it means there is an edge between aiai and bibi. The graph doesn't contain self-loops, there is at most one edge between a pair of vertices. The given graph can be disconnected."
+b'Output'
+b'If the answer exists, print nn integers. ii-th integer means the vertex set number (from 11 to 33) of ii-th vertex. Otherwise, print \xe2\x88\x921\xe2\x88\x921.'
+b'If there are multiple answers, print any.'
+Tags
+brute force, constructive algorithms, graphs, hashing, implementation, *1900

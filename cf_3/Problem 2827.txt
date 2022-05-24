@@ -1,0 +1,14 @@
+b'Recently Lynyrd and Skynyrd went to a shop where Lynyrd bought a permutation pp of length nn, and Skynyrd bought an array aa of length mm, consisting of integers from 11 to nn. '
+b'Lynyrd and Skynyrd became bored, so they asked you qq queries, each of which has the following form: "does the subsegment of aa from the ll-th to the rr-th positions, inclusive, have a subsequence that is a cyclic shift of pp?" Please answer the queries.'
+b'A permutation of length nn is a sequence of nn integers such that each integer from 11 to nn appears exactly once in it.'
+b'A cyclic shift of a permutation (p1,p2,\xe2\x80\xa6,pn)(p1,p2,\xe2\x80\xa6,pn) is a permutation (pi,pi+1,\xe2\x80\xa6,pn,p1,p2,\xe2\x80\xa6,pi\xe2\x88\x921)(pi,pi+1,\xe2\x80\xa6,pn,p1,p2,\xe2\x80\xa6,pi\xe2\x88\x921) for some ii from 11 to nn. For example, a permutation (2,1,3)(2,1,3) has three distinct cyclic shifts: (2,1,3)(2,1,3), (1,3,2)(1,3,2), (3,2,1)(3,2,1).'
+b'A subsequence of a subsegment of array aa from the ll-th to the rr-th positions, inclusive, is a sequence ai1,ai2,\xe2\x80\xa6,aikai1,ai2,\xe2\x80\xa6,aik for some i1,i2,\xe2\x80\xa6,iki1,i2,\xe2\x80\xa6,ik such that l\xe2\x89\xa4i1<i2<\xe2\x80\xa6<ik\xe2\x89\xa4rl\xe2\x89\xa4i1<i2<\xe2\x80\xa6<ik\xe2\x89\xa4r.'
+b'Input'
+b'The first line contains three integers nn, mm, qq (1\xe2\x89\xa4n,m,q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m,q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the permutation pp, the length of the array aa and the number of queries.'
+b'The next line contains nn integers from 11 to nn, where the ii-th of them is the ii-th element of the permutation. Each integer from 11 to nn appears exactly once.'
+b'The next line contains mm integers from 11 to nn, the ii-th of them is the ii-th element of the array aa.'
+b'The next qq lines describe queries. The ii-th of these lines contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4m1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4m), meaning that the ii-th query is about the subsegment of the array from the lili-th to the riri-th positions, inclusive.'
+b'Output'
+b'Print a single string of length qq, consisting of 00 and 11, the digit on the ii-th positions should be 11, if the subsegment of array aa from the lili-th to the riri-th positions, inclusive, contains a subsequence that is a cyclic shift of pp, and 00 otherwise.'
+Tags
+data structures, dfs and similar, dp, math, trees, *2000

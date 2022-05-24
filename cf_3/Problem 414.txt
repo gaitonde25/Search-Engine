@@ -1,0 +1,16 @@
+b'An array [b1,b2,\xe2\x80\xa6,bm][b1,b2,\xe2\x80\xa6,bm] is a palindrome, if bi=bm+1\xe2\x88\x92ibi=bm+1\xe2\x88\x92i for each ii from 11 to mm. Empty array is also a palindrome.'
+b'An array is called kalindrome, if the following condition holds:'
+b" It's possible to select some integer xx and delete some of the elements of the array equal to xx, so that the remaining array (after gluing together the remaining parts) is a palindrome. "
+b"Note that you don't have to delete all elements equal to xx, and you don't have to delete at least one element equal to xx."
+b'For example : '
+b'  [1,2,1][1,2,1] is kalindrome because you can simply not delete a single element.  [3,1,2,3,1][3,1,2,3,1] is kalindrome because you can choose x=3x=3 and delete both elements equal to 33, obtaining array [1,2,1][1,2,1], which is a palindrome.  [1,2,3][1,2,3] is not kalindrome. '
+b'You are given an array [a1,a2,\xe2\x80\xa6,an][a1,a2,\xe2\x80\xa6,an]. Determine if aa is kalindrome or not.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 elements of the array.'
+b"It's guaranteed that the sum of nn over all test cases won't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print YES if aa is kalindrome and NO otherwise. You can print each letter in any case.'
+Tags
+greedy, two pointers, *1100

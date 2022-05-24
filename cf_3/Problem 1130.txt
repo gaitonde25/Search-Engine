@@ -1,0 +1,15 @@
+b'You have a sequence aa with nn elements 1,2,3,\xe2\x80\xa6,k\xe2\x88\x921,k,k\xe2\x88\x921,k\xe2\x88\x922,\xe2\x80\xa6,k\xe2\x88\x92(n\xe2\x88\x92k)1,2,3,\xe2\x80\xa6,k\xe2\x88\x921,k,k\xe2\x88\x921,k\xe2\x88\x922,\xe2\x80\xa6,k\xe2\x88\x92(n\xe2\x88\x92k) (k\xe2\x89\xa4n<2kk\xe2\x89\xa4n<2k).'
+b"Let's call as inversion in aa a pair of indices i<ji<j such that a[i]>a[j]a[i]>a[j]."
+b'Suppose, you have some permutation pp of size kk and you build a sequence bb of size nn in the following manner: b[i]=p[a[i]]b[i]=p[a[i]].'
+b"Your goal is to find such permutation pp that the total number of inversions in bb doesn't exceed the total number of inversions in aa, and bb is lexicographically maximum."
+b'Small reminder: the sequence of kk integers is called a permutation if it contains all integers from 11 to kk exactly once.'
+b'Another small reminder: a sequence ss is lexicographically smaller than another sequence tt, if either ss is a prefix of tt, or for the first ii such that si\xe2\x89\xa0tisi\xe2\x89\xa0ti, si<tisi<ti holds (in the first position that these sequences are different, ss has smaller number than tt).'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first and only line of each test case contains two integers nn and kk (k\xe2\x89\xa4n<2kk\xe2\x89\xa4n<2k; 1\xe2\x89\xa4k\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of the sequence aa and its maximum.'
+b"It's guaranteed that the total sum of kk over test cases doesn't exceed 105105."
+b'Output'
+b'For each test case, print kk integers\xc2\xa0\xe2\x80\x94 the permutation pp which maximizes bb lexicographically without increasing the total number of inversions.'
+b'It can be proven that pp exists and is unique.'
+Tags
+constructive algorithms, math, *1500

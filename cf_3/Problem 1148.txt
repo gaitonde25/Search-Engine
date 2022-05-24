@@ -1,0 +1,15 @@
+b'// We decided to drop the legend about the power sockets but feel free to come up with your own :^)'
+b'Define a chain: '
+b'  a chain of length 11 is a single vertex;  a chain of length xx is a chain of length x\xe2\x88\x921x\xe2\x88\x921 with a new vertex connected to the end of it with a single edge. '
+b'You are given nn chains of lengths l1,l2,\xe2\x80\xa6,lnl1,l2,\xe2\x80\xa6,ln. You plan to build a tree using some of them.'
+b'  Each vertex of the tree is either white or black.  The tree initially only has a white root vertex.  All chains initially consist only of white vertices.  You can take one of the chains and connect any of its vertices to any white vertex of the tree with an edge. The chain becomes part of the tree. Both endpoints of this edge become black.  Each chain can be used no more than once.  Some chains can be left unused. '
+b'The distance between two vertices of the tree is the number of edges on the shortest path between them.'
+b'If there is at least kk white vertices in the resulting tree, then the value of the tree is the distance between the root and the kk-th closest white vertex.'
+b"What's the minimum value of the tree you can obtain? If there is no way to build a tree with at least kk white vertices, then print -1."
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 2\xe2\x89\xa4k\xe2\x89\xa41092\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of chains and the minimum number of white vertices a tree should have to have a value.'
+b'The second line contains nn integers l1,l2,\xe2\x80\xa6,lnl1,l2,\xe2\x80\xa6,ln (3\xe2\x89\xa4li\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4li\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the lengths of the chains.'
+b'Output'
+b'Print a single integer. If there is no way to build a tree with at least kk white vertices, then print -1. Otherwise, print the minimum value the tree can have.'
+Tags
+binary search, data structures, greedy, *2600

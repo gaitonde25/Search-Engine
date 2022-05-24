@@ -1,0 +1,12 @@
+b'Polycarp likes arithmetic progressions. A sequence [a1,a2,\xe2\x80\xa6,an][a1,a2,\xe2\x80\xa6,an] is called an arithmetic progression if for each ii (1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n) the value ai+1\xe2\x88\x92aiai+1\xe2\x88\x92ai is the same. For example, the sequences [42][42], [5,5,5][5,5,5], [2,11,20,29][2,11,20,29] and [3,2,1,0][3,2,1,0] are arithmetic progressions, but [1,0,1][1,0,1], [1,3,9][1,3,9] and [2,3,1][2,3,1] are not.'
+b'It follows from the definition that any sequence of length one or two is an arithmetic progression.'
+b'Polycarp found some sequence of positive integers [b1,b2,\xe2\x80\xa6,bn][b1,b2,\xe2\x80\xa6,bn]. He agrees to change each element by at most one. In the other words, for each element there are exactly three options: an element can be decreased by 11, an element can be increased by 11, an element can be left unchanged.'
+b'Determine a minimum possible number of elements in bb which can be changed (by exactly one), so that the sequence bb becomes an arithmetic progression, or report that it is impossible.'
+b'It is possible that the resulting sequence contains element equals 00.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4100000)(1\xe2\x89\xa4n\xe2\x89\xa4100000) \xe2\x80\x94 the number of elements in bb.'
+b'The second line contains a sequence b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa4109)(1\xe2\x89\xa4bi\xe2\x89\xa4109).'
+b'Output'
+b"If it is impossible to make an arithmetic progression with described operations, print -1. In the other case, print non-negative integer \xe2\x80\x94 the minimum number of elements to change to make the given sequence becomes an arithmetic progression. The only allowed operation is to add/to subtract one from an element (can't use operation twice to the same position)."
+Tags
+brute force, implementation, math, *1500

@@ -1,0 +1,20 @@
+b'Ancient Egyptians are known to have understood difficult concepts in mathematics. The ancient Egyptian mathematician Ahmes liked to write a kind of arithmetic expressions on papyrus paper which he called as Ahmes arithmetic expression.'
+b'An Ahmes arithmetic expression can be defined as: '
+b'  "d" is an Ahmes arithmetic expression, where d is a one-digit positive integer;  "(E1\xe2\x80\x89op\xe2\x80\x89E2)" is an Ahmes arithmetic expression, where E1 and E2 are valid Ahmes arithmetic expressions (without spaces) and op is either plus (\xe2\x80\x89+\xe2\x80\x89) or minus (\xe2\x80\x89-\xe2\x80\x89). '
+b' For example '
+b'5'
+b', '
+b'(1-1)'
+b' and '
+b'((1+(2-3))-5)'
+b' are valid Ahmes arithmetic expressions.'
+b'On his trip to Egypt, Fafa found a piece of papyrus paper having one of these Ahmes arithmetic expressions written on it. Being very ancient, the papyrus piece was very worn out. As a result, all the operators were erased, keeping only the numbers and the brackets. Since Fafa loves mathematics, he decided to challenge himself with the following task:'
+b'Given the number of plus and minus operators in the original expression, find out the maximum possible value for the expression on the papyrus paper after putting the plus and minus operators in the place of the original erased operators.'
+b'Input'
+b"The first line contains a string E (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|E|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104) \xe2\x80\x94 a valid Ahmes arithmetic expression. All operators are erased and replaced with '?'."
+b'The second line contains two space-separated integers P and M (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(P,\xe2\x80\x89M)\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of plus and minus operators, respectively. '
+b'It is guaranteed that P\xe2\x80\x89+\xe2\x80\x89M\xe2\x80\x89=\xe2\x80\x89 the number of erased operators.'
+b'Output'
+b'Print one line containing the answer to the problem.'
+Tags
+dfs and similar, dp, trees, *2300

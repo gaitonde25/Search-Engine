@@ -1,0 +1,9 @@
+b'You are given an undirected graph with nn vertices and mm edges. You have to write a number on each vertex of this graph, each number should be either 00 or 11. After that, you write a number on each edge equal to the sum of numbers on vertices incident to that edge.'
+b'You have to choose the numbers you will write on the vertices so that there is at least one edge with 00 written on it, at least one edge with 11 and at least one edge with 22. How many ways are there to do it? Two ways to choose numbers are different if there exists at least one vertex which has different numbers written on it in these two ways.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa4401\xe2\x89\xa4n\xe2\x89\xa440, 0\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)20\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)2) \xe2\x80\x94 the number of vertices and the number of edges, respectively.'
+b'Then mm lines follow, each line contains two numbers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n, xi\xe2\x89\xa0yixi\xe2\x89\xa0yi) \xe2\x80\x94 the endpoints of the ii-th edge. It is guaranteed that each pair of vertices is connected by at most one edge.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of ways to write numbers on all vertices so that there exists at least one edge with 00 written on it, at least one edge with 11 and at least one edge with 22.'
+Tags
+bitmasks, brute force, combinatorics, dp, meet-in-the-middle, *2900

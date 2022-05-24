@@ -1,0 +1,15 @@
+b'You found a painting on a canvas of size n\xc3\x97mn\xc3\x97m. The canvas can be represented as a grid with nn rows and mm columns. Each cell has some color. Cell (i,j)(i,j) has color ci,jci,j.'
+b'Near the painting you also found a brush in the shape of a 2\xc3\x9722\xc3\x972 square, so the canvas was surely painted in the following way: initially, no cell was painted. Then, the following painting operation has been performed some number of times:'
+b'  Choose two integers ii and jj (1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n, 1\xe2\x89\xa4j<m1\xe2\x89\xa4j<m) and some color kk (1\xe2\x89\xa4k\xe2\x89\xa4nm1\xe2\x89\xa4k\xe2\x89\xa4nm).  Paint cells (i,j)(i,j), (i+1,j)(i+1,j), (i,j+1)(i,j+1), (i+1,j+1)(i+1,j+1) in color kk. '
+b'All cells must be painted at least once. A cell can be painted multiple times. In this case, its final color will be the last one.'
+b"Find any sequence of at most nmnm operations that could have led to the painting you found or state that it's impossible."
+b'Input'
+b'The first line of input contains two integers nn and mm (2\xe2\x89\xa4n,m\xe2\x89\xa410002\xe2\x89\xa4n,m\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the dimensions of the canvas.'
+b'On the ii-th of the next nn lines of input, there will be mm integers. The jj-th of them is ai,jai,j (1\xe2\x89\xa4ai,j\xe2\x89\xa4nm1\xe2\x89\xa4ai,j\xe2\x89\xa4nm) \xe2\x80\x94 the color of cell (i,j)(i,j).'
+b'Output'
+b'If there is no solution, print a single integer \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, on the first line, print one integer qq (1\xe2\x89\xa4q\xe2\x89\xa4nm1\xe2\x89\xa4q\xe2\x89\xa4nm)\xc2\xa0\xe2\x80\x94 the number of operations.'
+b'Next, print the operations in order. On the kk-th of the next qq lines, print three integers ii, jj, cc (1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n, 1\xe2\x89\xa4j<m1\xe2\x89\xa4j<m, 1\xe2\x89\xa4c\xe2\x89\xa4nm1\xe2\x89\xa4c\xe2\x89\xa4nm)\xc2\xa0\xe2\x80\x94 the description of the kk-th operation.'
+b'If there are multiple solutions, print any.'
+Tags
+constructive algorithms, data structures, greedy, implementation, *2000

@@ -1,0 +1,17 @@
+b'We guessed a permutation pp consisting of nn integers. The permutation of length nn is the array of length nn where each element from 11 to nn appears exactly once. This permutation is a secret for you.'
+b'For each position rr from 22 to nn we chose some other index ll (l<rl<r) and gave you the segment pl,pl+1,\xe2\x80\xa6,prpl,pl+1,\xe2\x80\xa6,pr in sorted order (i.e. we rearranged the elements of this segment in a way that the elements of this segment are sorted). Thus, you are given exactly n\xe2\x88\x921n\xe2\x88\x921 segments of the initial permutation but elements inside each segment are sorted. The segments are given to you in random order.'
+b'For example, if the secret permutation is p=[3,1,4,6,2,5]p=[3,1,4,6,2,5] then the possible given set of segments can be:'
+b'  [2,5,6][2,5,6]  [4,6][4,6]  [1,3,4][1,3,4]  [1,3][1,3]  [1,2,4,6][1,2,4,6] '
+b'Your task is to find any suitable permutation (i.e. any permutation corresponding to the given input data). It is guaranteed that the input data corresponds to some permutation (i.e. such permutation exists).'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42002\xe2\x89\xa4n\xe2\x89\xa4200) \xe2\x80\x94 the length of the permutation.'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines describe given segments.'
+b'The ii-th line contains the description of the ii-th segment. The line starts with the integer kiki (2\xe2\x89\xa4ki\xe2\x89\xa4n2\xe2\x89\xa4ki\xe2\x89\xa4n) \xe2\x80\x94 the length of the ii-th segment. Then kiki integers follow. All integers in a line are distinct, sorted in ascending order, between 11 and nn, inclusive.'
+b'It is guaranteed that the required pp exists for each test case.'
+b'It is also guaranteed that the sum of nn over all test cases does not exceed 200200 (\xe2\x88\x91n\xe2\x89\xa4200\xe2\x88\x91n\xe2\x89\xa4200).'
+b'Output'
+b'For each test case, print the answer: nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n, all pipi should be distinct) \xe2\x80\x94 any suitable permutation (i.e. any permutation corresponding to the test case input).'
+Tags
+brute force, constructive algorithms, data structures, greedy, implementation, *2400

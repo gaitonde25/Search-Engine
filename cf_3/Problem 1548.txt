@@ -1,0 +1,17 @@
+b"Despite his bad reputation, Captain Flint is a friendly person (at least, friendly to animals). Now Captain Flint is searching worthy sailors to join his new crew (solely for peaceful purposes). A sailor is considered as worthy if he can solve Flint's task."
+b"Recently, out of blue Captain Flint has been interested in math and even defined a new class of integers. Let's define a positive integer xx as nearly prime if it can be represented as p\xe2\x8b\x85qp\xe2\x8b\x85q, where 1<p<q1<p<q and pp and qq are prime numbers. For example, integers 66 and 1010 are nearly primes (since 2\xe2\x8b\x853=62\xe2\x8b\x853=6 and 2\xe2\x8b\x855=102\xe2\x8b\x855=10), but integers 11, 33, 44, 1616, 1717 or 4444 are not."
+b'Captain Flint guessed an integer nn and asked you: can you represent it as the sum of 44 different positive integers where at least 33 of them should be nearly prime.'
+b'Uncle Bogdan easily solved the task and joined the crew. Can you do the same?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Next tt lines contain test cases\xc2\xa0\xe2\x80\x94 one per line. The first and only line of each test case contains the single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)(1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number Flint guessed.'
+b'Output'
+b'For each test case print: '
+b'  YES and 44 different positive integers such that at least 33 of them are nearly prime and their sum is equal to nn (if there are multiple answers print any of them);  NO if there is no way to represent nn as the sum of 44 different positive integers where at least 33 of them are nearly prime. '
+b' You can print each character of '
+b'YES'
+b' or '
+b'NO'
+b' in any case.'
+Tags
+brute force, greedy, math, number theory, *800

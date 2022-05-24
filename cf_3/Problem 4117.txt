@@ -1,0 +1,10 @@
+b'n evenly spaced points have been marked around the edge of a circle. There is a number written at each point. You choose a positive real number k. Then you may repeatedly select a set of 2 or more points which are evenly spaced, and either increase all numbers at points in the set by k or decrease all numbers at points in the set by k. You would like to eventually end up with all numbers equal to 0. Is it possible?'
+b'A set of 2 points is considered evenly spaced if they are diametrically opposed, and a set of 3 or more points is considered evenly spaced if they form a regular polygon.'
+b'Input'
+b'The first line of input contains an integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000), the number of points along the circle.'
+b'The following line contains a string s with exactly n digits, indicating the numbers initially present at each of the points, in clockwise order.'
+b'Output'
+b'Print "YES" (without quotes) if there is some sequence of operations that results in all numbers being 0, otherwise "NO" (without quotes).'
+b'You can print each letter in any case (upper or lower).'
+Tags
+math, *3000

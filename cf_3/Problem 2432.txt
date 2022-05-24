@@ -1,0 +1,10 @@
+b'Polycarp is reading a book consisting of nn pages numbered from 11 to nn. Every time he finishes the page with the number divisible by mm, he writes down the last digit of this page number. For example, if n=15n=15 and m=5m=5, pages divisible by mm are 5,10,155,10,15. Their last digits are 5,0,55,0,5 correspondingly, their sum is 1010.'
+b'Your task is to calculate the sum of all digits Polycarp has written down.'
+b'You have to answer qq independent queries.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa410001\xe2\x89\xa4q\xe2\x89\xa41000) \xe2\x80\x94 the number of queries.'
+b'The following qq lines contain queries, one per line. Each query is given as two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa410161\xe2\x89\xa4n,m\xe2\x89\xa41016) \xe2\x80\x94 the number of pages in the book and required divisor, respectively.'
+b'Output'
+b'For each query print the answer for it \xe2\x80\x94 the sum of digits written down by Polycarp.'
+Tags
+math, *1200

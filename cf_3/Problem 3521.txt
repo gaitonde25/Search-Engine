@@ -1,0 +1,13 @@
+b'There are nn players sitting at the card table. Each player has a favorite number. The favorite number of the jj-th player is fjfj.'
+b'There are k\xe2\x8b\x85nk\xe2\x8b\x85n cards on the table. Each card contains a single integer: the ii-th card contains number cici. Also, you are given a sequence h1,h2,\xe2\x80\xa6,hkh1,h2,\xe2\x80\xa6,hk. Its meaning will be explained below.'
+b'The players have to distribute all the cards in such a way that each of them will hold exactly kk cards. After all the cards are distributed, each player counts the number of cards he has that contains his favorite number. The joy level of a player equals htht if the player holds tt cards containing his favorite number. If a player gets no cards with his favorite number (i.e., t=0t=0), his joy level is 00.'
+b'Print the maximum possible total joy levels of the players after the cards are distributed. Note that the sequence h1,\xe2\x80\xa6,hkh1,\xe2\x80\xa6,hk is the same for all the players.'
+b'Input'
+b'The first line of input contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa4500,1\xe2\x89\xa4k\xe2\x89\xa4101\xe2\x89\xa4n\xe2\x89\xa4500,1\xe2\x89\xa4k\xe2\x89\xa410) \xe2\x80\x94 the number of players and the number of cards each player will get.'
+b'The second line contains k\xe2\x8b\x85nk\xe2\x8b\x85n integers c1,c2,\xe2\x80\xa6,ck\xe2\x8b\x85nc1,c2,\xe2\x80\xa6,ck\xe2\x8b\x85n (1\xe2\x89\xa4ci\xe2\x89\xa41051\xe2\x89\xa4ci\xe2\x89\xa4105) \xe2\x80\x94 the numbers written on the cards.'
+b'The third line contains nn integers f1,f2,\xe2\x80\xa6,fnf1,f2,\xe2\x80\xa6,fn (1\xe2\x89\xa4fj\xe2\x89\xa41051\xe2\x89\xa4fj\xe2\x89\xa4105) \xe2\x80\x94 the favorite numbers of the players.'
+b'The fourth line contains kk integers h1,h2,\xe2\x80\xa6,hkh1,h2,\xe2\x80\xa6,hk (1\xe2\x89\xa4ht\xe2\x89\xa41051\xe2\x89\xa4ht\xe2\x89\xa4105), where htht is the joy level of a player if he gets exactly tt cards with his favorite number written on them. It is guaranteed that the condition ht\xe2\x88\x921<htht\xe2\x88\x921<ht holds for each t\xe2\x88\x88[2..k]t\xe2\x88\x88[2..k].'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum possible total joy levels of the players among all possible card distributions.'
+Tags
+dp, *2000

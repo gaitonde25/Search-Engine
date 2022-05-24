@@ -1,0 +1,12 @@
+b"Andrey thinks he is truly a successful developer, but in reality he didn't know about the binary search algorithm until recently. After reading some literature Andrey understood that this algorithm allows to quickly find a certain number xx in an array. For an array aa indexed from zero, and an integer xx the pseudocode of the algorithm is as follows:"
+b'  '
+b'Note that the elements of the array are indexed from zero, and the division is done in integers (rounding down).'
+b'Andrey read that the algorithm only works if the array is sorted. However, he found this statement untrue, because there certainly exist unsorted arrays for which the algorithm find xx!'
+b'Andrey wants to write a letter to the book authors, but before doing that he must consider the permutations of size nn such that the algorithm finds xx in them. A permutation of size nn is an array consisting of nn distinct integers between 11 and nn in arbitrary order.'
+b'Help Andrey and find the number of permutations of size nn which contain xx at position pospos and for which the given implementation of the binary search algorithm finds xx (returns true). As the result may be extremely large, print the remainder of its division by 109+7109+7.'
+b'Input'
+b'The only line of input contains integers nn, xx and pospos (1\xe2\x89\xa4x\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4x\xe2\x89\xa4n\xe2\x89\xa41000, 0\xe2\x89\xa4pos\xe2\x89\xa4n\xe2\x88\x9210\xe2\x89\xa4pos\xe2\x89\xa4n\xe2\x88\x921) \xe2\x80\x94 the required length of the permutation, the number to search, and the required position of that number, respectively.'
+b'Output'
+b'Print a single number\xc2\xa0\xe2\x80\x94 the remainder of the division of the number of valid permutations by 109+7109+7.'
+Tags
+binary search, combinatorics, *1500

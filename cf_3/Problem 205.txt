@@ -1,0 +1,14 @@
+b'There are nn players, numbered from 11 to nn sitting around a round table. The (i+1)(i+1)-th player sits to the right of the ii-th player for 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n, and the 11-st player sits to the right of the nn-th player.'
+b'There are n2n2 cards, each of which has an integer between 11 and nn written on it. For each integer from 11 to nn, there are exactly nn cards having this number.'
+b'Initially, all these cards are distributed among all the players, in such a way that each of them has exactly nn cards. In one operation, each player chooses one of his cards and passes it to the player to his right. All these actions are performed simultaneously. '
+b'Player ii is called solid if all his cards have the integer ii written on them. Their objective is to reach a configuration in which everyone is solid. Find a way to do it using at most (n2\xe2\x88\x92n)(n2\xe2\x88\x92n) operations. You do not need to minimize the number of operations.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100).'
+b'Then nn lines follow. The ii-th of them contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4cj\xe2\x89\xa4n1\xe2\x89\xa4cj\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the initial cards of the ii-th player.'
+b'It is guaranteed that for each integer ii from 11 to nn, there are exactly nn cards having the number ii.'
+b'Output'
+b'In the first line print an integer kk (0\xe2\x89\xa4k\xe2\x89\xa4(n2\xe2\x88\x92n)0\xe2\x89\xa4k\xe2\x89\xa4(n2\xe2\x88\x92n))\xc2\xa0\xe2\x80\x94 the numbers of operations you want to make.'
+b'Then kk lines should follow. In the ii-th of them print nn integers d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn (1\xe2\x89\xa4dj\xe2\x89\xa4n1\xe2\x89\xa4dj\xe2\x89\xa4n) where djdj is the number written on the card which jj-th player passes to the player to his right in the ii-th operation.'
+b'We can show that an answer always exists under the given constraints. If there are multiple answers, print any.'
+Tags
+constructive algorithms, greedy, implementation, *2900

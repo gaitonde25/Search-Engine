@@ -1,0 +1,11 @@
+b"A rectangle with sides AA and BB is cut into rectangles with cuts parallel to its sides. For example, if pp horizontal and qq vertical cuts were made, (p+1)\xe2\x8b\x85(q+1)(p+1)\xe2\x8b\x85(q+1) rectangles were left after the cutting. After the cutting, rectangles were of nn different types. Two rectangles are different if at least one side of one rectangle isn't equal to the corresponding side of the other. Note that the rectangle can't be rotated, this means that rectangles a\xc3\x97ba\xc3\x97b and b\xc3\x97ab\xc3\x97a are considered different if a\xe2\x89\xa0ba\xe2\x89\xa0b."
+b'For each type of rectangles, lengths of the sides of rectangles are given along with the amount of the rectangles of this type that were left after cutting the initial rectangle.'
+b'Calculate the amount of pairs (A;B)(A;B) such as the given rectangles could be created by cutting the rectangle with sides of lengths AA and BB. Note that pairs (A;B)(A;B) and (B;A)(B;A) are considered different when A\xe2\x89\xa0BA\xe2\x89\xa0B.'
+b'Input'
+b'The first line consists of a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 amount of different types of rectangles left after cutting the initial rectangle.'
+b'The next nn lines each consist of three integers wi,hi,ciwi,hi,ci (1\xe2\x89\xa4wi,hi,ci\xe2\x89\xa41012)(1\xe2\x89\xa4wi,hi,ci\xe2\x89\xa41012)\xc2\xa0\xe2\x80\x94 the lengths of the sides of the rectangles of this type and the amount of the rectangles of this type.'
+b'It is guaranteed that the rectangles of the different types are different.'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the answer to the problem.'
+Tags
+brute force, math, number theory, *2600

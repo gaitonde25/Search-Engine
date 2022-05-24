@@ -1,0 +1,9 @@
+b'This is an interactive problem.'
+b'Chouti was tired of studying, so he opened the computer and started playing a puzzle game.'
+b'Long long ago, the boy found a sequence s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn of length nn, kept by a tricky interactor. It consisted of 00s and 11s only and the number of 11s is tt. The boy knows nothing about this sequence except nn and tt, but he can try to find it out with some queries with the interactor.'
+b'We define an operation called flipping. Flipping [l,r][l,r] (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n) means for each x\xe2\x88\x88[l,r]x\xe2\x88\x88[l,r], changing sxsx to 1\xe2\x88\x92sx1\xe2\x88\x92sx.'
+b"In each query, the boy can give the interactor two integers l,rl,r satisfying 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n and the interactor will either flip [1,r][1,r] or [l,n][l,n] (both outcomes have the same probability and all decisions made by interactor are independent from each other, see Notes section for more details). The interactor will tell the current number of 11s after each operation. Note, that the sequence won't be restored after each operation."
+b'Help the boy to find the original sequence in no more than 1000010000 interactions.'
+b'"Weird legend, dumb game." he thought. However, after several tries, he is still stuck with it. Can you help him beat this game?'
+Tags
+constructive algorithms, implementation, interactive, *2600

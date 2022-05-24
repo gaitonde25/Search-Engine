@@ -1,0 +1,12 @@
+b"Petya has got an interesting flower. Petya is a busy person, so he sometimes forgets to water it. You are given nn days from Petya's live and you have to determine what happened with his flower in the end."
+b'The flower grows as follows: '
+b"  If the flower isn't watered for two days in a row, it dies.  If the flower is watered in the ii-th day, it grows by 11 centimeter.  If the flower is watered in the ii-th and in the (i\xe2\x88\x921)(i\xe2\x88\x921)-th day (i>1i>1), then it grows by 55 centimeters instead of 11.  If the flower is not watered in the ii-th day, it does not grow. "
+b'At the beginning of the 11-st day the flower is 11 centimeter tall. What is its height after nn days?'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first line of each test case contains the only integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100).'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (ai=0ai=0 or ai=1ai=1). If ai=1ai=1, the flower is watered in the ii-th day, otherwise it is not watered.'
+b'Output'
+b"For each test case print a single integer kk \xe2\x80\x94 the flower's height after nn days, or \xe2\x88\x921\xe2\x88\x921, if the flower dies."
+Tags
+implementation, *800

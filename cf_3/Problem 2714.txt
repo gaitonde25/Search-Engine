@@ -1,0 +1,9 @@
+b'During a normal walk in the forest, Katie has stumbled upon a mysterious code! However, the mysterious code had some characters unreadable. She has written down this code as a string cc consisting of lowercase English characters and asterisks ("*"), where each of the asterisks denotes an unreadable character. Excited with her discovery, Katie has decided to recover the unreadable characters by replacing each asterisk with arbitrary lowercase English letter (different asterisks might be replaced with different letters).'
+b"Katie has a favorite string ss and a not-so-favorite string tt and she would love to recover the mysterious code so that it has as many occurrences of ss as possible and as little occurrences of tt as possible. Formally, let's denote f(x,y)f(x,y) as the number of occurrences of yy in xx (for example, f(aababa,ab)=2f(aababa,ab)=2). Katie wants to recover the code c\xe2\x80\xb2c\xe2\x80\xb2 conforming to the original cc, such that f(c\xe2\x80\xb2,s)\xe2\x88\x92f(c\xe2\x80\xb2,t)f(c\xe2\x80\xb2,s)\xe2\x88\x92f(c\xe2\x80\xb2,t) is largest possible. However, Katie is not very good at recovering codes in general, so she would like you to help her out."
+b'Input'
+b'The first line contains string cc (1\xe2\x89\xa4|c|\xe2\x89\xa410001\xe2\x89\xa4|c|\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the mysterious code . It is guaranteed that cc consists of lowercase English characters and asterisks "*" only.'
+b'The second and third line contain strings ss and tt respectively (1\xe2\x89\xa4|s|,|t|\xe2\x89\xa4501\xe2\x89\xa4|s|,|t|\xe2\x89\xa450, s\xe2\x89\xa0ts\xe2\x89\xa0t). It is guaranteed that ss and tt consist of lowercase English characters only.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the largest possible value of f(c\xe2\x80\xb2,s)\xe2\x88\x92f(c\xe2\x80\xb2,t)f(c\xe2\x80\xb2,s)\xe2\x88\x92f(c\xe2\x80\xb2,t) of the recovered code.'
+Tags
+dp, strings, *2100

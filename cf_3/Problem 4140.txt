@@ -1,0 +1,14 @@
+b"Harry, Ron and Hermione have figured out that Helga Hufflepuff's cup is a horcrux. Through her encounter with Bellatrix Lestrange, Hermione came to know that the cup is present in Bellatrix's family vault in Gringott's Wizarding Bank. "
+b'The Wizarding bank is in the form of a tree with total n vaults where each vault has some type, denoted by a number between 1 to m. A tree is an undirected connected graph with no cycles.'
+b'The vaults with the highest security are of type k, and all vaults of type k have the highest security.'
+b'There can be at most x vaults of highest security. '
+b'Also, if a vault is of the highest security, its adjacent vaults are guaranteed to not be of the highest security and their type is guaranteed to be less than k.'
+b"Harry wants to consider every possibility so that he can easily find the best path to reach Bellatrix's vault. So, you have to tell him, given the tree structure of Gringotts, the number of possible ways of giving each vault a type such that the above conditions hold."
+b'Input'
+b'The first line of input contains two space separated integers, n and m\xc2\xa0\xe2\x80\x94 the number of vaults and the number of different vault types possible. (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contain two space separated integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) representing the i-th edge, which shows there is a path between the two vaults ui and vi. It is guaranteed that the given graph is a tree.'
+b'The last line of input contains two integers k and x (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910), the type of the highest security vault and the maximum possible number of vaults of highest security.'
+b'Output'
+b'Output a single integer, the number of ways of giving each vault a type following the conditions modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+dp, trees, *2000

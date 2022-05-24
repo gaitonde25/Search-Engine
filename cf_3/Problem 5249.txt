@@ -1,0 +1,9 @@
+b'A string is called palindrome if it reads the same from left to right and from right to left. For example "kazak", "oo", "r" and "mikhailrubinchikkihcniburliahkim" are palindroms, but strings "abb" and "ij" are not.'
+b"You are given string s consisting of lowercase Latin letters. At once you can choose any position in the string and change letter in that position to any other lowercase letter. So after each changing the length of the string doesn't change. At first you can change some letters in s. Then you can permute the order of letters as you want. Permutation doesn't count as changes. "
+b'You should obtain palindrome with the minimal number of changes. If there are several ways to do that you should get the lexicographically (alphabetically) smallest palindrome. So firstly you should minimize the number of changes and then minimize the palindrome lexicographically.'
+b'Input'
+b'The only line contains string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) consisting of only lowercase Latin letters.'
+b'Output'
+b'Print the lexicographically smallest palindrome that can be obtained with the minimal number of changes.'
+Tags
+constructive algorithms, greedy, strings, *1800

@@ -1,0 +1,13 @@
+b'You are given a table aa of size 2\xc3\x97n2\xc3\x97n (i.e. two rows and nn columns) consisting of integers from 11 to nn.'
+b'In one move, you can choose some column jj (1\xe2\x89\xa4j\xe2\x89\xa4n1\xe2\x89\xa4j\xe2\x89\xa4n) and swap values a1,ja1,j and a2,ja2,j in it. Each column can be chosen no more than once.'
+b'Your task is to find the minimum number of moves required to obtain permutations of size nn in both first and second rows of the table or determine if it is impossible to do that.'
+b'You have to answer tt independent test cases.'
+b"Recall that the permutation of size nn is such an array of size nn that contains each integer from 11 to nn exactly once (the order of elements doesn't matter)."
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of columns in the table. The second line of the test case contains nn integers a1,1,a1,2,\xe2\x80\xa6,a1,na1,1,a1,2,\xe2\x80\xa6,a1,n (1\xe2\x89\xa4a1,i\xe2\x89\xa4n1\xe2\x89\xa4a1,i\xe2\x89\xa4n), where a1,ia1,i is the ii-th element of the first row of the table. The third line of the test case contains nn integers a2,1,a2,2,\xe2\x80\xa6,a2,na2,1,a2,2,\xe2\x80\xa6,a2,n (1\xe2\x89\xa4a2,i\xe2\x89\xa4n1\xe2\x89\xa4a2,i\xe2\x89\xa4n), where a2,ia2,i is the ii-th element of the second row of the table.'
+b'It is guaranteed that the sum of nn does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case print the answer: -1 if it is impossible to obtain permutation of size nn in both first and the second rows of the table, or one integer kk in the first line, where kk is the minimum number of moves required to obtain permutations in both rows, and kk distinct integers pos1,pos2,\xe2\x80\xa6,poskpos1,pos2,\xe2\x80\xa6,posk in the second line (1\xe2\x89\xa4posi\xe2\x89\xa4n1\xe2\x89\xa4posi\xe2\x89\xa4n) in any order \xe2\x80\x94 indices of columns in which you need to swap values to obtain permutations in both rows. If there are several answers, you can print any.'
+Tags
+2-sat, dfs and similar, dsu, graphs, implementation, *2300

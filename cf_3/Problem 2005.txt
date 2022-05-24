@@ -1,0 +1,17 @@
+b"Warawreh created a great company called Nanosoft. The only thing that Warawreh still has to do is to place a large picture containing its logo on top of the company's building."
+b'The logo of Nanosoft can be described as four squares of the same size merged together into one large square. The top left square is colored with red, the top right square is colored with green, the bottom left square is colored with yellow and the bottom right square is colored with blue.'
+b'An Example of some correct logos:'
+b''
+b'An Example of some incorrect logos:'
+b''
+b"Warawreh went to Adhami's store in order to buy the needed picture. Although Adhami's store is very large he has only one picture that can be described as a grid of nn rows and mm columns. The color of every cell in the picture will be green (the symbol 'G'), red (the symbol 'R'), yellow (the symbol 'Y') or blue (the symbol 'B')."
+b'Adhami gave Warawreh qq options, in every option he gave him a sub-rectangle from that picture and told him that he can cut that sub-rectangle for him. To choose the best option, Warawreh needs to know for every option the maximum area of sub-square inside the given sub-rectangle that can be a Nanosoft logo. If there are no such sub-squares, the answer is 00.'
+b"Warawreh couldn't find the best option himself so he asked you for help, can you help him?"
+b'Input'
+b'The first line of input contains three integers nn, mm and qq (1\xe2\x89\xa4n,m\xe2\x89\xa4500,1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105)(1\xe2\x89\xa4n,m\xe2\x89\xa4500,1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the number of row, the number columns and the number of options.'
+b"For the next nn lines, every line will contain mm characters. In the ii-th line the jj-th character will contain the color of the cell at the ii-th row and jj-th column of the Adhami's picture. The color of every cell will be one of these: {'G','Y','R','B'}."
+b'For the next qq lines, the input will contain four integers r1r1, c1c1, r2r2 and c2c2 (1\xe2\x89\xa4r1\xe2\x89\xa4r2\xe2\x89\xa4n,1\xe2\x89\xa4c1\xe2\x89\xa4c2\xe2\x89\xa4m)(1\xe2\x89\xa4r1\xe2\x89\xa4r2\xe2\x89\xa4n,1\xe2\x89\xa4c1\xe2\x89\xa4c2\xe2\x89\xa4m). In that option, Adhami gave to Warawreh a sub-rectangle of the picture with the upper-left corner in the cell (r1,c1)(r1,c1) and with the bottom-right corner in the cell (r2,c2)(r2,c2).'
+b'Output'
+b'For every option print the maximum area of sub-square inside the given sub-rectangle, which can be a NanoSoft Logo. If there are no such sub-squares, print 00.'
+Tags
+binary search, data structures, dp, implementation, *2500

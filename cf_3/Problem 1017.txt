@@ -1,0 +1,17 @@
+b"You are given a string aa, consisting of nn characters, nn is even. For each ii from 11 to nn aiai is one of 'A', 'B' or 'C'."
+b'A bracket sequence is a string containing only characters "(" and ")". A regular bracket sequence is a bracket sequence that can be transformed into a correct arithmetic expression by inserting characters "1" and "+" between the original characters of the sequence. For example, bracket sequences "()()" and "(())" are regular (the resulting expressions are: "(1)+(1)" and "((1+1)+1)"), and ")(", "(" and ")" are not.'
+b'You want to find a string bb that consists of nn characters such that: '
+b'  bb is a regular bracket sequence;  if for some ii and jj (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n) ai=ajai=aj, then bi=bjbi=bj. '
+b"In other words, you want to replace all occurrences of 'A' with the same type of bracket, then all occurrences of 'B' with the same type of bracket and all occurrences of 'C' with the same type of bracket."
+b'Your task is to determine if such a string bb exists.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Then the descriptions of tt testcases follow.'
+b"The only line of each testcase contains a string aa. aa consists only of uppercase letters 'A', 'B' and 'C'. Let nn be the length of aa. It is guaranteed that nn is even and 2\xe2\x89\xa4n\xe2\x89\xa4502\xe2\x89\xa4n\xe2\x89\xa450."
+b'Output'
+b'For each testcase print "YES" if there exists such a string bb that: '
+b'  bb is a regular bracket sequence;  if for some ii and jj (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n) ai=ajai=aj, then bi=bjbi=bj. '
+b'Otherwise, print "NO".'
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES are all recognized as positive answer).'
+Tags
+bitmasks, brute force, implementation, *900

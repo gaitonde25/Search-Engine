@@ -1,0 +1,13 @@
+b"Sometimes Mister B has free evenings when he doesn't know what to do. Fortunately, Mister B found a new game, where the player can play against aliens."
+b'All characters in this game are lowercase English letters. There are two players: Mister B and his competitor.'
+b'Initially the players have a string s consisting of the first a English letters in alphabetical order (for example, if a\xe2\x80\x89=\xe2\x80\x895, then s equals to "abcde").'
+b'The players take turns appending letters to string s. Mister B moves first.'
+b'Mister B must append exactly b letters on each his move. He can arbitrary choose these letters. His opponent adds exactly a letters on each move.'
+b'Mister B quickly understood that his opponent was just a computer that used a simple algorithm. The computer on each turn considers the suffix of string s of length a and generates a string t of length a such that all letters in the string t are distinct and don\'t appear in the considered suffix. From multiple variants of t lexicographically minimal is chosen (if a\xe2\x80\x89=\xe2\x80\x894 and the suffix is "bfdd", the computer chooses string t equal to "aceg"). After that the chosen string t is appended to the end of s.'
+b'Mister B soon found the game boring and came up with the following question: what can be the minimum possible number of different letters in string s on the segment between positions l and r, inclusive. Letters of string s are numerated starting from 1.'
+b'Input'
+b'First and only line contains four space-separated integers: a, b, l and r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8912, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the numbers of letters each player appends and the bounds of the segment.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum possible number of different letters in the segment from position l to position r, inclusive, in string s.'
+Tags
+games, greedy, *2200

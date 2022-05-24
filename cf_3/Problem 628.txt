@@ -1,0 +1,9 @@
+b'You are given two positive integers nn and ss. Find the maximum possible median of an array of nn non-negative integers (not necessarily distinct), such that the sum of its elements is equal to ss.'
+b'A median of an array of integers of length mm is the number standing on the \xe2\x8c\x88m2\xe2\x8c\x89\xe2\x8c\x88m2\xe2\x8c\x89-th (rounding up) position in the non-decreasing ordering of its elements. Positions are numbered starting from 11. For example, a median of the array [20,40,20,50,50,30][20,40,20,50,50,30] is the \xe2\x8c\x88m2\xe2\x8c\x89\xe2\x8c\x88m2\xe2\x8c\x89-th element of [20,20,30,40,50,50][20,20,30,40,50,50], so it is 3030. There exist other definitions of the median, but in this problem we use the described definition.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'Each test case contains a single line with two integers nn and ss (1\xe2\x89\xa4n,s\xe2\x89\xa41091\xe2\x89\xa4n,s\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the length of the array and the required sum of the elements.'
+b'Output'
+b'For each test case print a single integer\xc2\xa0\xe2\x80\x94 the maximum possible median.'
+Tags
+binary search, greedy, math, *800

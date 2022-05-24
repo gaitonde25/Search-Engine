@@ -1,0 +1,11 @@
+b'An array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an is good if and only if for every subsegment 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n, the following holds: al+al+1+\xe2\x80\xa6+ar=12(al+ar)\xe2\x8b\x85(r\xe2\x88\x92l+1)al+al+1+\xe2\x80\xa6+ar=12(al+ar)\xe2\x8b\x85(r\xe2\x88\x92l+1). '
+b'You are given an array of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. In one operation, you can replace any one element of this array with any real number. Find the minimum number of operations you need to make this array good.'
+b'Input'
+b'The first line of input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100): the number of test cases.'
+b'Each of the next tt lines contains the description of a test case.'
+b'In the first line you are given one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4701\xe2\x89\xa4n\xe2\x89\xa470): the number of integers in the array.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92100\xe2\x89\xa4ai\xe2\x89\xa4100\xe2\x88\x92100\xe2\x89\xa4ai\xe2\x89\xa4100): the initial array.'
+b'Output'
+b'For each test case, print one integer: the minimum number of elements that you need to replace to make the given array good.'
+Tags
+brute force, geometry, implementation, math, *1500

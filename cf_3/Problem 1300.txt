@@ -1,0 +1,14 @@
+b'You got a job as a marketer in a pet shop, and your current task is to boost sales of cat food. One of the strategies is to sell cans of food in packs with discounts. '
+b'Suppose you decided to sell packs with aa cans in a pack with a discount and some customer wants to buy xx cans of cat food. Then he follows a greedy strategy: '
+b'  he buys \xe2\x8c\x8axa\xe2\x8c\x8b\xe2\x8c\x8axa\xe2\x8c\x8b packs with a discount;  then he wants to buy the remaining (xmoda)(xmoda) cans one by one. '
+b'\xe2\x8c\x8axa\xe2\x8c\x8b\xe2\x8c\x8axa\xe2\x8c\x8b is xx divided by aa rounded down, xmodaxmoda is the remainer of xx divided by aa.'
+b'But customers are greedy in general, so if the customer wants to buy (xmoda)(xmoda) cans one by one and it happens that (xmoda)\xe2\x89\xa5a2(xmoda)\xe2\x89\xa5a2 he decides to buy the whole pack of aa cans (instead of buying (xmoda)(xmoda) cans). It makes you, as a marketer, happy since the customer bought more than he wanted initially.'
+b'You know that each of the customers that come to your shop can buy any number of cans from ll to rr inclusive. Can you choose such size of pack aa that each customer buys more cans than they wanted initially?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first and only line of each test case contains two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa41091\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the range of the number of cans customers can buy.'
+b'Output'
+b'For each test case, print YES if you can choose such size of pack aa that each customer buys more cans than they wanted initially. Otherwise, print NO.'
+b'You can print each character in any case.'
+Tags
+brute force, constructive algorithms, greedy, math, *800

@@ -1,0 +1,14 @@
+b'You are given an array aa consisting of nn positive integers, numbered from 11 to nn. You can perform the following operation no more than 3n3n times:'
+b'  choose three integers ii, jj and xx (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n; 0\xe2\x89\xa4x\xe2\x89\xa41090\xe2\x89\xa4x\xe2\x89\xa4109);  assign ai:=ai\xe2\x88\x92x\xe2\x8b\x85iai:=ai\xe2\x88\x92x\xe2\x8b\x85i, aj:=aj+x\xe2\x8b\x85iaj:=aj+x\xe2\x8b\x85i. '
+b'After each operation, all elements of the array should be non-negative.'
+b'Can you find a sequence of no more than 3n3n operations after which all elements of the array are equal?'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41041\xe2\x89\xa4n\xe2\x89\xa4104) \xe2\x80\x94 the number of elements in the array. The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105) \xe2\x80\x94 the elements of the array.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 104104.'
+b'Output'
+b'For each test case print the answer to it as follows:'
+b'  if there is no suitable sequence of operations, print \xe2\x88\x921\xe2\x88\x921;  otherwise, print one integer kk (0\xe2\x89\xa4k\xe2\x89\xa43n0\xe2\x89\xa4k\xe2\x89\xa43n) \xe2\x80\x94 the number of operations in the sequence. Then print kk lines, the mm-th of which should contain three integers ii, jj and xx (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n; 0\xe2\x89\xa4x\xe2\x89\xa41090\xe2\x89\xa4x\xe2\x89\xa4109) for the mm-th operation. '
+b"If there are multiple suitable sequences of operations, print any of them. Note that you don't have to minimize kk."
+Tags
+constructive algorithms, greedy, math, *2000

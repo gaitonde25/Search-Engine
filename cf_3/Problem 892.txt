@@ -1,0 +1,10 @@
+b'A number is called 2050-number if it is 20502050, 2050020500, ..., (2050\xe2\x8b\x8510k2050\xe2\x8b\x8510k for integer k\xe2\x89\xa50k\xe2\x89\xa50).'
+b'Given a number nn, you are asked to represent nn as the sum of some (not necessarily distinct) 2050-numbers. Compute the minimum number of 2050-numbers required for that.'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa410001\xe2\x89\xa4T\xe2\x89\xa41000) denoting the number of test cases.'
+b'The only line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018) denoting the number to be represented.'
+b'Output'
+b'For each test case, output the minimum number of 2050-numbers in one line. '
+b'If nn cannot be represented as the sum of 2050-numbers, output \xe2\x88\x921\xe2\x88\x921 instead. '
+Tags
+greedy, math, *800

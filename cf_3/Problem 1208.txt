@@ -1,0 +1,12 @@
+b'There are nn glasses on the table numbered 1,\xe2\x80\xa6,n1,\xe2\x80\xa6,n. The glass ii can hold up to aiai units of water, and currently contains bibi units of water.'
+b"You would like to choose kk glasses and collect as much water in them as possible. To that effect you can pour water from one glass to another as many times as you like. However, because of the glasses' awkward shape (and totally unrelated to your natural clumsiness), each time you try to transfer any amount of water, half of the amount is spilled on the floor."
+b"Formally, suppose a glass ii currently contains cici units of water, and a glass jj contains cjcj units of water. Suppose you try to transfer xx units from glass ii to glass jj (naturally, xx can not exceed cici). Then, x/2x/2 units is spilled on the floor. After the transfer is done, the glass ii will contain ci\xe2\x88\x92xci\xe2\x88\x92x units, and the glass jj will contain min(aj,cj+x/2)min(aj,cj+x/2) units (excess water that doesn't fit in the glass is also spilled)."
+b'Each time you transfer water, you can arbitrarlly choose from which glass ii to which glass jj to pour, and also the amount xx transferred can be any positive real number.'
+b'For each k=1,\xe2\x80\xa6,nk=1,\xe2\x80\xa6,n, determine the largest possible total amount of water that can be collected in arbitrarily chosen kk glasses after transferring water between glasses zero or more times.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of glasses.'
+b'The following nn lines describe the glasses. The ii-th of these lines contains two integers aiai and bibi (0\xe2\x89\xa4bi\xe2\x89\xa4ai\xe2\x89\xa41000\xe2\x89\xa4bi\xe2\x89\xa4ai\xe2\x89\xa4100, ai>0ai>0)\xc2\xa0\xe2\x80\x94 capacity, and water amount currently contained for the glass ii, respectively.'
+b'Output'
+b'Print nn real numbers\xc2\xa0\xe2\x80\x94 the largest amount of water that can be collected in 1,\xe2\x80\xa6,n1,\xe2\x80\xa6,n glasses respectively. Your answer will be accepted if each number is within 10\xe2\x88\x92910\xe2\x88\x929 absolute or relative tolerance of the precise answer.'
+Tags
+dp, *2000

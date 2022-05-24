@@ -1,0 +1,9 @@
+b'You are given several queries. Each query consists of three integers pp, qq and bb. You need to answer whether the result of p/qp/q in notation with base bb is a finite fraction.'
+b'A fraction in notation with base bb is finite if it contains finite number of numerals after the decimal point. It is also possible that a fraction has zero numerals after the decimal point.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Next nn lines contain queries, one per line. Each line contains three integers pp, qq, and bb (0\xe2\x89\xa4p\xe2\x89\xa410180\xe2\x89\xa4p\xe2\x89\xa41018, 1\xe2\x89\xa4q\xe2\x89\xa410181\xe2\x89\xa4q\xe2\x89\xa41018, 2\xe2\x89\xa4b\xe2\x89\xa410182\xe2\x89\xa4b\xe2\x89\xa41018). All numbers are given in notation with base 1010.'
+b'Output'
+b'For each question, in a separate line, print Finite if the fraction is finite and Infinite otherwise.'
+Tags
+implementation, math, *1700

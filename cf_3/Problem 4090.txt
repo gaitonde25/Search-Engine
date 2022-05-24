@@ -1,0 +1,13 @@
+b"It's Piegirl's birthday soon, and Pieguy has decided to buy her a bouquet of flowers and a basket of chocolates."
+b'The flower shop has F different types of flowers available. The i-th type of flower always has exactly pi petals. Pieguy has decided to buy a bouquet consisting of exactly N flowers. He may buy the same type of flower multiple times. The N flowers are then arranged into a bouquet. The position of the flowers within a bouquet matters. You can think of a bouquet as an ordered list of flower types.'
+b'The chocolate shop sells chocolates in boxes. There are B different types of boxes available. The i-th type of box contains ci pieces of chocolate. Pieguy can buy any number of boxes, and can buy the same type of box multiple times. He will then place these boxes into a basket. The position of the boxes within the basket matters. You can think of the basket as an ordered list of box types.'
+b'Pieguy knows that Piegirl likes to pluck a petal from a flower before eating each piece of chocolate. He would like to ensure that she eats the last piece of chocolate from the last box just after plucking the last petal from the last flower. That is, the total number of petals on all the flowers in the bouquet should equal the total number of pieces of chocolate in all the boxes in the basket.'
+b'How many different bouquet+basket combinations can Pieguy buy? The answer may be very large, so compute it modulo 1000000007\xe2\x80\x89=\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'The first line of input will contain integers F, B, and N (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89F\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89B\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018), the number of types of flowers, the number of types of boxes, and the number of flowers that must go into the bouquet, respectively.'
+b'The second line of input will contain F integers p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pF (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), the numbers of petals on each of the flower types.'
+b'The third line of input will contain B integers c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cB (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89250), the number of pieces of chocolate in each of the box types.'
+b'Output'
+b'Print the number of bouquet+basket combinations Pieguy can buy, modulo 1000000007\xe2\x80\x89=\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+combinatorics, math, matrices, *3300

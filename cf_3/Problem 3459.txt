@@ -1,0 +1,10 @@
+b'Vitya has just started learning Berlanese language. It is known that Berlanese uses the Latin alphabet. Vowel letters are "a", "o", "u", "i", and "e". Other letters are consonant.'
+b'In Berlanese, there has to be a vowel after every consonant, but there can be any letter after any vowel. The only exception is a consonant "n"; after this letter, there can be any letter (not only a vowel) or there can be no letter at all. For example, the words "harakiri", "yupie", "man", and "nbo" are Berlanese while the words "horse", "king", "my", and "nz" are not.'
+b'Help Vitya find out if a word ss is Berlanese.'
+b'Input'
+b'The first line of the input contains the string ss consisting of |s||s| (1\xe2\x89\xa4|s|\xe2\x89\xa41001\xe2\x89\xa4|s|\xe2\x89\xa4100) lowercase Latin letters.'
+b'Output'
+b'Print "YES" (without quotes) if there is a vowel after every consonant except "n", otherwise print "NO".'
+b'You can print each letter in any case (upper or lower).'
+Tags
+implementation, strings, *900

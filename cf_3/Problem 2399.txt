@@ -1,0 +1,11 @@
+b'You are in charge of the BubbleReactor. It consists of NN BubbleCores connected with NN lines of electrical wiring. Each electrical wiring connects two distinct BubbleCores. There are no BubbleCores connected with more than one line of electrical wiring.'
+b'Your task is to start the BubbleReactor by starting each BubbleCore. In order for a BubbleCore to be started it needs to be receiving power from a directly connected BubbleCore which is already started. However, you can kick-start one BubbleCore manually without needing power. It is guaranteed that all BubbleCores can be started.'
+b'Before the BubbleCore boot up procedure its potential is calculated as the number of BubbleCores it can power on (the number of inactive BubbleCores which are connected to it directly or with any number of inactive BubbleCores in between, itself included)'
+b"Start the BubbleReactor so that the sum of all BubbleCores' potentials is maximum."
+b'Input'
+b'First line contains one integer N(3\xe2\x89\xa4N\xe2\x89\xa415.000)N(3\xe2\x89\xa4N\xe2\x89\xa415.000), the number of BubbleCores.'
+b'The following N lines contain two integers U,V(0\xe2\x89\xa4U\xe2\x89\xa0V<N)U,V(0\xe2\x89\xa4U\xe2\x89\xa0V<N) denoting that there exists electrical wiring between BubbleCores UU and VV.'
+b'Output'
+b"Single integer, the maximum sum of all BubbleCores' potentials."
+Tags
+dp, graphs, *2800

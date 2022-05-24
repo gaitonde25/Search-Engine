@@ -1,0 +1,12 @@
+b'An ant moves on the real line with constant speed of 11 unit per second. It starts at 00 and always moves to the right (so its position increases by 11 each second).'
+b'There are nn portals, the ii-th of which is located at position xixi and teleports to position yi<xiyi<xi. Each portal can be either active or inactive. The initial state of the ii-th portal is determined by sisi: if si=0si=0 then the ii-th portal is initially inactive, if si=1si=1 then the ii-th portal is initially active. When the ant travels through a portal (i.e., when its position coincides with the position of a portal): '
+b'  if the portal is inactive, it becomes active (in this case the path of the ant is not affected);  if the portal is active, it becomes inactive and the ant is instantly teleported to the position yiyi, where it keeps on moving as normal. '
+b'How long (from the instant it starts moving) does it take for the ant to reach the position xn+1xn+1? It can be shown that this happens in a finite amount of time. Since the answer may be very large, compute it modulo 998244353998244353.'
+b'Input'
+b'The first line contains the integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of portals.'
+b'The ii-th of the next nn lines contains three integers xixi, yiyi and sisi (1\xe2\x89\xa4yi<xi\xe2\x89\xa41091\xe2\x89\xa4yi<xi\xe2\x89\xa4109, si\xe2\x88\x88{0,1}si\xe2\x88\x88{0,1}) \xe2\x80\x94 the position of the ii-th portal, the position where the ant is teleported when it travels through the ii-th portal (if it is active), and the initial state of the ii-th portal.'
+b'The positions of the portals are strictly increasing, that is x1<x2<\xe2\x8b\xaf<xnx1<x2<\xe2\x8b\xaf<xn. It is guaranteed that the 2n2n integers x1,x2,\xe2\x80\xa6,xn,y1,y2,\xe2\x80\xa6,ynx1,x2,\xe2\x80\xa6,xn,y1,y2,\xe2\x80\xa6,yn are all distinct.'
+b'Output'
+b'Output the amount of time elapsed, in seconds, from the instant the ant starts moving to the instant it reaches the position xn+1xn+1. Since the answer may be very large, output it modulo 998244353998244353.'
+Tags
+binary search, data structures, dp, sortings, *2200

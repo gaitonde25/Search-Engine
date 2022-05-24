@@ -1,0 +1,15 @@
+b'Polycarp is developing an RPG game where the main character fights monsters and searches for treasure in dungeons. Now Polycarp is making one of the dungeons the character can explore.'
+b'The dungeon consists of nn rooms connected by mm two-way tunnels, and it is possible to reach every room from every other room using tunnels. The rooms are guarded by monsters (the number of monsters in the ii-th room is aiai), and the tunnels contain gold coins (the number of coins in the ii-th tunnel is wiwi). The ii-th two-way tunnel connects rooms vivi and uiui.'
+b'Polycarp has already fixed the number of coins in each tunnel (the values of wiwi are already known), and now he tries to place the monsters in the rooms (the values of aiai are not known yet). Polycarp wants to choose the number of monsters in each room in such a way that the following two conditions are met:'
+b'  the number of coins for the tunnel connecting the rooms xx and yy should be equal to the minimum of axax and ayay. That is, for each tunnel ii, wi=min(avi,aui)wi=min(avi,aui);  the number of monsters in the dungeon is as small as possible. That is, the value of a1+a2+\xe2\x8b\xaf+ana1+a2+\xe2\x8b\xaf+an is minimum possible. '
+b'Help Polycarp to choose the values a1a1, a2a2, ..., anan, or tell him that it is impossible and he has to change something in his dungeon plan.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41000001\xe2\x89\xa4t\xe2\x89\xa4100000) \xe2\x80\x94 the number of test cases. Then the test cases follow.'
+b'The first line of each test case contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa42000002\xe2\x89\xa4n\xe2\x89\xa4200000; n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4min(200000,n(n\xe2\x88\x921)2)n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4min(200000,n(n\xe2\x88\x921)2)) \xe2\x80\x94 the number of rooms and tunnels in the dungeon, respectively.'
+b'Then mm lines follow, each line describing one of the tunnels in the dungeon. The ii-th line contains three integers vivi, uiui and wiwi (1\xe2\x89\xa4vi,ui\xe2\x89\xa4n1\xe2\x89\xa4vi,ui\xe2\x89\xa4n; vi\xe2\x89\xa0uivi\xe2\x89\xa0ui; 1\xe2\x89\xa4wi\xe2\x89\xa41091\xe2\x89\xa4wi\xe2\x89\xa4109) denoting a two-way tunnel that connects rooms vivi and uiui, and contains wiwi coins. The tunnel system is connected in each test case (it is possible to reach every room from every other room using the tunnels). Each pair of rooms is connected by at most one tunnel.'
+b'The sum of nn over all test cases does not exceed 200000200000. Similarly, the sum of mm over all test cases does not exceed 200000200000.'
+b'Output'
+b'For each test case, print the answer as follows:'
+b'If it is impossible to find the values of a1a1, a2a2, ..., anan satisfying all the constraints, print one single string NO on a separate line. Otherwise, print YES in the first line, and nn integers a1a1, a2a2, ..., anan in the second line. If there are multiple valid answers, print any of them.'
+Tags
+*special problem, graphs, greedy, *1600

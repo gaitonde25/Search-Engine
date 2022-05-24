@@ -1,0 +1,11 @@
+b'You are given an array of integers aa of size nn. This array is non-decreasing, i.\xe2\x80\x89e. a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4ana1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4an.'
+b'You have to find arrays of integers bb of size 2n\xe2\x88\x9212n\xe2\x88\x921, such that:'
+b'  b2i\xe2\x88\x921=aib2i\xe2\x88\x921=ai (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n);  array bb is non-decreasing;  b1\xe2\x8a\x95b2\xe2\x8a\x95\xe2\x8b\xaf\xe2\x8a\x95b2n\xe2\x88\x921=0b1\xe2\x8a\x95b2\xe2\x8a\x95\xe2\x8b\xaf\xe2\x8a\x95b2n\xe2\x88\x921=0 (\xe2\x8a\x95\xe2\x8a\x95 denotes bitwise XOR operation: https://en.wikipedia.org/wiki/Exclusive_or. In Kotlin, it is xor function). '
+b'Calculate the number of arrays that meet all the above conditions, modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa4172\xe2\x89\xa4n\xe2\x89\xa417) \xe2\x80\x94 the size of the array aa.'
+b'The second line contains nn integers (0\xe2\x89\xa4ai\xe2\x89\xa4260\xe2\x88\x921;ai\xe2\x89\xa4ai+10\xe2\x89\xa4ai\xe2\x89\xa4260\xe2\x88\x921;ai\xe2\x89\xa4ai+1) \xe2\x80\x94 elements of the array aa.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the number of arrays that meet all the above conditions, modulo 998244353998244353.'
+Tags
+*special problem, dp, *3400

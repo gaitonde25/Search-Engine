@@ -1,0 +1,16 @@
+b'You are given two strings aa and bb consisting of lowercase English letters, both of length nn. The characters of both strings have indices from 11 to nn, inclusive. '
+b'You are allowed to do the following changes: '
+b'  Choose any index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and swap characters aiai and bibi;  Choose any index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and swap characters aiai and an\xe2\x88\x92i+1an\xe2\x88\x92i+1;  Choose any index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and swap characters bibi and bn\xe2\x88\x92i+1bn\xe2\x88\x92i+1. '
+b'Note that if nn is odd, you are formally allowed to swap a\xe2\x8c\x88n2\xe2\x8c\x89a\xe2\x8c\x88n2\xe2\x8c\x89 with a\xe2\x8c\x88n2\xe2\x8c\x89a\xe2\x8c\x88n2\xe2\x8c\x89 (and the same with the string bb) but this move is useless. Also you can swap two equal characters but this operation is useless as well.'
+b'You have to make these strings equal by applying any number of changes described above, in any order. But it is obvious that it may be impossible to make two strings equal by these swaps.'
+b'In one preprocess move you can replace a character in aa with another character. In other words, in a single preprocess move you can choose any index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n), any character cc and set ai:=cai:=c.'
+b'Your task is to find the minimum number of preprocess moves to apply in such a way that after them you can make strings aa and bb equal by applying some number of changes described in the list above.'
+b'Note that the number of changes you make after the preprocess moves does not matter. Also note that you cannot apply preprocess moves to the string bb or make any preprocess moves after the first change is made.'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the length of strings aa and bb.'
+b'The second line contains the string aa consisting of exactly nn lowercase English letters.'
+b'The third line contains the string bb consisting of exactly nn lowercase English letters.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the minimum number of preprocess moves to apply before changes, so that it is possible to make the string aa equal to string bb with a sequence of changes from the list above.'
+Tags
+implementation, *1700

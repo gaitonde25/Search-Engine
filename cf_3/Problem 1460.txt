@@ -1,0 +1,10 @@
+b'You are given an array of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Find the maximum possible value of aiajakalataiajakalat among all five indices (i,j,k,l,t)(i,j,k,l,t) (i<j<k<l<ti<j<k<l<t).'
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (5\xe2\x89\xa4n\xe2\x89\xa41055\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the size of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x923\xc3\x97103\xe2\x89\xa4ai\xe2\x89\xa43\xc3\x97103\xe2\x88\x923\xc3\x97103\xe2\x89\xa4ai\xe2\x89\xa43\xc3\x97103) \xe2\x80\x94 given array.'
+b"It's guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the answer to the problem.'
+Tags
+brute force, dp, greedy, implementation, sortings, *1200

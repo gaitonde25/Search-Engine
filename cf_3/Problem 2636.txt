@@ -1,0 +1,11 @@
+b"Recently, on the course of algorithms and data structures, Valeriy learned how to use a deque. He built a deque filled with nn elements. The ii-th element is aiai (ii = 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n). He gradually takes the first two leftmost elements from the deque (let's call them AA and BB, respectively), and then does the following: if A>BA>B, he writes AA to the beginning and writes BB to the end of the deque, otherwise, he writes to the beginning BB, and AA writes to the end of the deque. We call this sequence of actions an operation."
+b'For example, if deque was [2,3,4,5,1][2,3,4,5,1], on the operation he will write B=3B=3 to the beginning and A=2A=2 to the end, so he will get [3,4,5,1,2][3,4,5,1,2].'
+b'The teacher of the course, seeing Valeriy, who was passionate about his work, approached him and gave him qq queries. Each query consists of the singular number mjmj (j=1,2,\xe2\x80\xa6,q)(j=1,2,\xe2\x80\xa6,q). It is required for each query to answer which two elements he will pull out on the mjmj-th operation.'
+b'Note that the queries are independent and for each query the numbers AA and BB should be printed in the order in which they will be pulled out of the deque.'
+b'Deque is a data structure representing a list of elements where insertion of new elements or deletion of existing elements can be made from both sides.'
+b'Input'
+b'The first line contains two integers nn and qq (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 0\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x851050\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of elements in the deque and the number of queries. The second line contains nn integers a1a1, a2a2, ..., anan, where aiai (0\xe2\x89\xa4ai\xe2\x89\xa4109)(0\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the deque element in ii-th position. The next qq lines contain one number each, meaning mjmj (1\xe2\x89\xa4mj\xe2\x89\xa410181\xe2\x89\xa4mj\xe2\x89\xa41018).'
+b'Output'
+b"For each teacher's query, output two numbers AA and BB\xc2\xa0\xe2\x80\x94 the numbers that Valeriy pulls out of the deque for the mjmj-th operation."
+Tags
+data structures, implementation, *1500

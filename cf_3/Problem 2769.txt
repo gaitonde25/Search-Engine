@@ -1,0 +1,10 @@
+b'Neko loves divisors. During the latest number theory lesson, he got an interesting exercise from his math teacher.'
+b'Neko has two integers aa and bb. His goal is to find a non-negative integer kk such that the least common multiple of a+ka+k and b+kb+k is the smallest possible. If there are multiple optimal integers kk, he needs to choose the smallest one.'
+b'Given his mathematical talent, Neko had no trouble getting Wrong Answer on this problem. Can you help him solve it?'
+b'Input'
+b'The only line contains two integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa41091\xe2\x89\xa4a,b\xe2\x89\xa4109).'
+b'Output'
+b'Print the smallest non-negative integer kk (k\xe2\x89\xa50k\xe2\x89\xa50) such that the lowest common multiple of a+ka+k and b+kb+k is the smallest possible.'
+b'If there are many possible integers kk giving the same value of the least common multiple, print the smallest one.'
+Tags
+brute force, math, number theory, *1800

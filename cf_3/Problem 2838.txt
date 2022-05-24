@@ -1,0 +1,10 @@
+b"For a given set of two-dimensional points SS, let's denote its extension E(S)E(S) as the result of the following algorithm:"
+b'Create another set of two-dimensional points RR, which is initially equal to SS. Then, while there exist four numbers x1x1, y1y1, x2x2 and y2y2 such that (x1,y1)\xe2\x88\x88R(x1,y1)\xe2\x88\x88R, (x1,y2)\xe2\x88\x88R(x1,y2)\xe2\x88\x88R, (x2,y1)\xe2\x88\x88R(x2,y1)\xe2\x88\x88R and (x2,y2)\xe2\x88\x89R(x2,y2)\xe2\x88\x89R, add (x2,y2)(x2,y2) to RR. When it is impossible to find such four integers, let RR be the result of the algorithm.'
+b'Now for the problem itself. You are given a set of two-dimensional points SS, which is initially empty. You have to process two types of queries: add some point to SS, or remove some point from it. After each query you have to compute the size of E(S)E(S).'
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of queries.'
+b'Then qq lines follow, each containing two integers xixi, yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4xi,yi\xe2\x89\xa43\xe2\x8b\x85105), denoting ii-th query as follows: if (xi,yi)\xe2\x88\x88S(xi,yi)\xe2\x88\x88S, erase it from SS, otherwise insert (xi,yi)(xi,yi) into SS.'
+b'Output'
+b'Print qq integers. ii-th integer should be equal to the size of E(S)E(S) after processing first ii queries.'
+Tags
+data structures, divide and conquer, dsu, *2600

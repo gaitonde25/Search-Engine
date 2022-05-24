@@ -1,0 +1,12 @@
+b'The Fair Nut got stacked in planar world. He should solve this task to get out.'
+b'You are given nn rectangles with vertexes in (0,0)(0,0), (xi,0)(xi,0), (xi,yi)(xi,yi), (0,yi)(0,yi). For each rectangle, you are also given a number aiai. Choose some of them that the area of union minus sum of aiai of the chosen ones is maximum.'
+b'It is guaranteed that there are no nested rectangles.'
+b'Nut has no idea how to find the answer, so he asked for your help.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of rectangles.'
+b'Each of the next nn lines contains three integers xixi, yiyi and aiai (1\xe2\x89\xa4xi,yi\xe2\x89\xa41091\xe2\x89\xa4xi,yi\xe2\x89\xa4109, 0\xe2\x89\xa4ai\xe2\x89\xa4xi\xe2\x8b\x85yi0\xe2\x89\xa4ai\xe2\x89\xa4xi\xe2\x8b\x85yi).'
+b'It is guaranteed that there are no nested rectangles.'
+b'Output'
+b'In a single line print the answer to the problem\xc2\xa0\xe2\x80\x94 the maximum value which you can achieve.'
+Tags
+data structures, dp, geometry, *2400

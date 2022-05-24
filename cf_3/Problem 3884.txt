@@ -1,0 +1,9 @@
+b"Let's call an array a of size n coprime iff gcd(a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an)\xe2\x80\x89=\xe2\x80\x891, where gcd is the greatest common divisor of the arguments."
+b'You are given two numbers n and k. For each i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k) you have to determine the number of coprime arrays a of size n such that for every j (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89aj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i. Since the answers can be very large, you have to calculate them modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7106) \xe2\x80\x94 the size of the desired arrays and the maximum upper bound on elements, respectively.'
+b'Output'
+b'Since printing 2\xc2\xb7106 numbers may take a lot of time, you have to output the answer in such a way:'
+b'Let bi be the number of coprime arrays with elements in range [1,\xe2\x80\x89i], taken modulo 109\xe2\x80\x89+\xe2\x80\x897. You have to print , taken modulo 109\xe2\x80\x89+\xe2\x80\x897. Here  denotes bitwise xor operation (^ in C++ or Java, xor in Pascal).'
+Tags
+math, number theory, *2300

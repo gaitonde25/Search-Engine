@@ -1,0 +1,15 @@
+b'After realizing that Zookeeper is just a duck, the animals have overthrown Zookeeper. They now have to decide a new ruler among themselves through a fighting tournament of the following format:'
+b'Initially, animal 00 is king, while everyone else queues up with animal 11 at the front of the queue and animal n\xe2\x88\x921n\xe2\x88\x921 at the back. The animal at the front of the queue will challenge the king to a fight, and the animal with greater strength will win the fight. The winner will become king, while the loser joins the back of the queue.'
+b'An animal who wins 33 times consecutively will be crowned ruler for the whole zoo. The strength of each animal depends on how many consecutive fights he won. Animal ii has strength AiAi with 00 consecutive win, BiBi with 11 consecutive win, and CiCi with 22 consecutive wins. Initially, everyone has 00 consecutive win.'
+b'For all animals, Ai>BiAi>Bi and Ci>BiCi>Bi. Also, the values of AiAi, BiBi, CiCi are distinct (all 3n3n values are pairwise different). '
+b'In other words, an animal who is not a king has strength AiAi. A king usually has a strength of BiBi or CiCi. The exception is on the first turn, the first king (animal 00) has strength AiAi.'
+b'Who is the new ruler, and after how many fights? Or will it end up that animals fight forever with no one ending up as ruler?'
+b'Input'
+b'The first line contains one integer nn (4\xe2\x89\xa4n\xe2\x89\xa460004\xe2\x89\xa4n\xe2\x89\xa46000) \xe2\x80\x94 number of the animals. '
+b'ii-th of the next nn lines contains 33 integers AiAi, BiBi and CiCi (0\xe2\x89\xa4Ai,Bi,Ci\xe2\x89\xa41090\xe2\x89\xa4Ai,Bi,Ci\xe2\x89\xa4109).'
+b'It is guaranteed that Ai>BiAi>Bi and Ci>BiCi>Bi, and that all values of AiAi, BiBi and CiCi are distinct.'
+b'Output'
+b'Output two integers in a single line. The first is the index of the animal that will become ruler, and the second is the number of fights passed until some animal becomes the ruler.'
+b'If the animals will fight for infinitely long, output -1 -1 instead.'
+Tags
+brute force, data structures, *3500

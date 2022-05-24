@@ -1,0 +1,12 @@
+b'You are given an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. You can perform operations on the array. In each operation you can choose an integer ii (1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n), and swap elements aiai and ai+1ai+1 of the array, if ai+ai+1ai+ai+1 is odd.'
+b'Determine whether it can be sorted in non-decreasing order using this operation any number of times.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print "Yes" or "No" depending on whether you can or can not sort the given array.'
+b'You may print each letter in any case (for example, "YES", "Yes", "yes", "yEs" will all be recognized as positive answer).'
+Tags
+data structures, math, sortings, *1100

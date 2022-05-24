@@ -1,0 +1,11 @@
+b'Vasiliy has a car and he wants to get from home to the post office. The distance which he needs to pass equals to d kilometers.'
+b"Vasiliy's car is not new \xe2\x80\x94 it breaks after driven every k kilometers and Vasiliy needs t seconds to repair it. After repairing his car Vasiliy can drive again (but after k kilometers it will break again, and so on). In the beginning of the trip the car is just from repair station."
+b'To drive one kilometer on car Vasiliy spends a seconds, to walk one kilometer on foot he needs b seconds (a\xe2\x80\x89<\xe2\x80\x89b).'
+b'Your task is to find minimal time after which Vasiliy will be able to reach the post office. Consider that in every moment of time Vasiliy can left his car and start to go on foot.'
+b'Input'
+b'The first line contains 5 positive integers d,\xe2\x80\x89k,\xe2\x80\x89a,\xe2\x80\x89b,\xe2\x80\x89t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012; 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k,\xe2\x80\x89a,\xe2\x80\x89b,\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106; a\xe2\x80\x89<\xe2\x80\x89b), where:'
+b'  d \xe2\x80\x94 the distance from home to the post office;  k \xe2\x80\x94 the distance, which car is able to drive before breaking;  a \xe2\x80\x94 the time, which Vasiliy spends to drive 1 kilometer on his car;  b \xe2\x80\x94 the time, which Vasiliy spends to walk 1 kilometer on foot;  t \xe2\x80\x94 the time, which Vasiliy spends to repair his car. '
+b'Output'
+b'Print the minimal time after which Vasiliy will be able to reach the post office.'
+Tags
+math, *1900

@@ -1,0 +1,17 @@
+b'Bob programmed a robot to navigate through a 2d maze.'
+b"The maze has some obstacles. Empty cells are denoted by the character '.', where obstacles are denoted by '#'."
+b"There is a single robot in the maze. Its start position is denoted with the character 'S'. This position has no obstacle in it. There is also a single exit in the maze. Its position is denoted with the character 'E'. This position has no obstacle in it."
+b'The robot can only move up, left, right, or down.'
+b'When Bob programmed the robot, he wrote down a string of digits consisting of the digits 0 to 3, inclusive. He intended for each digit to correspond to a distinct direction, and the robot would follow the directions in order to reach the exit. Unfortunately, he forgot to actually assign the directions to digits.'
+b'The robot will choose some random mapping of digits to distinct directions. The robot will map distinct digits to distinct directions. The robot will then follow the instructions according to the given string in order and chosen mapping. If an instruction would lead the robot to go off the edge of the maze or hit an obstacle, the robot will crash and break down. If the robot reaches the exit at any point, then the robot will stop following any further instructions.'
+b'Bob is having trouble debugging his robot, so he would like to determine the number of mappings of digits to directions that would lead the robot to the exit.'
+b'Input'
+b'The first line of input will contain two integers n and m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950), denoting the dimensions of the maze.'
+b'The next n lines will contain exactly m characters each, denoting the maze.'
+b"Each character of the maze will be '.', '#', 'S', or 'E'."
+b"There will be exactly one 'S' and exactly one 'E' in the maze."
+b'The last line will contain a single string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the instructions given to the robot. Each character of s is a digit from 0 to 3.'
+b'Output'
+b'Print a single integer, the number of mappings of digits to directions that will lead the robot to the exit.'
+Tags
+brute force, implementation, *1200

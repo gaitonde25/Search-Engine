@@ -1,0 +1,15 @@
+b"Imagine that you are the CEO of a big old-fashioned company. Unlike any modern and progressive company (such as JetBrains), your company has a dress code. That's why you have already allocated a spacious room for your employees where they can change their clothes. Moreover, you've already purchased an mm-compartment wardrobe, so the ii-th employee can keep his/her belongings in the ii-th cell (of course, all compartments have equal widths)."
+b"The issue has occurred: the wardrobe has sliding doors! More specifically, the wardrobe has nn doors (numbered from left to right) and the jj-th door has width equal to ajaj wardrobe's cells. The wardrobe has single rails so that no two doors can slide past each other."
+b'  Extremely schematic example of a wardrobe: m=9m=9, n=2n=2, a1=2a1=2, a2=3a2=3. '
+b'The problem is as follows: sometimes to open some cells you must close some other cells (since all doors are placed on the single track). For example, if you have a 44-compartment wardrobe (i.e. m=4m=4) with n=2n=2 one-cell doors (i.e. a1=a2=1a1=a2=1) and you need to open the 11-st and the 33-rd cells, you have to close the 22-nd and the 44-th cells.'
+b'As CEO, you have a complete schedule for the next qq days. Now you are wondering: is it possible that all employees who will come on the kk-th day can access their cells simultaneously?'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4m\xe2\x89\xa44\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa44\xe2\x8b\x85105) \xe2\x80\x94 the number of doors and compartments respectively.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4m1\xe2\x89\xa4ai\xe2\x89\xa4m, \xe2\x88\x91ai\xe2\x89\xa4m\xe2\x88\x91ai\xe2\x89\xa4m) \xe2\x80\x94 the corresponding widths of the doors.'
+b'The third line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of days you have to process.'
+b'The next qq lines describe schedule of each day. Each schedule is represented as an integer ckck followed by ckck integers w1,w2,\xe2\x80\xa6,wckw1,w2,\xe2\x80\xa6,wck (1\xe2\x89\xa4ck\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ck\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4w1<w2<\xe2\x8b\xaf<wck\xe2\x89\xa4m1\xe2\x89\xa4w1<w2<\xe2\x8b\xaf<wck\xe2\x89\xa4m) \xe2\x80\x94 the number of employees who will come on the kk-th day, and their indices in ascending order.'
+b"It's guaranteed that \xe2\x88\x91ck\xe2\x88\x91ck doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'Print qq answers. Each answer is "YES" or "NO" (case insensitive). Print "YES" if it is possible, that all employees on the corresponding day can access their compartments simultaneously.'
+Tags
+*special problem, binary search

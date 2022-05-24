@@ -1,0 +1,16 @@
+b'Initially there was an array aa consisting of nn integers. Positions in it are numbered from 11 to nn.'
+b"Exactly qq queries were performed on the array. During the ii-th query some segment (li,ri)(li,ri) (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n)(1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n) was selected and values of elements on positions from lili to riri inclusive got changed to ii. The order of the queries couldn't be changed and all qq queries were applied. It is also known that every position from 11 to nn got covered by at least one segment."
+b'We could have offered you the problem about checking if some given array (consisting of nn integers with values from 11 to qq) can be obtained by the aforementioned queries. However, we decided that it will come too easy for you.'
+b'So the enhancement we introduced to it is the following. Some set of positions (possibly empty) in this array is selected and values of elements on these positions are set to 00.'
+b'Your task is to check if this array can be obtained by the aforementioned queries. Also if it can be obtained then restore this array.'
+b'If there are multiple possible arrays then print any of them.'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements of the array and the number of queries perfomed on it.'
+b'The second line contains nn integer numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4q0\xe2\x89\xa4ai\xe2\x89\xa4q) \xe2\x80\x94 the resulting array. If element at some position jj is equal to 00 then the value of element at this position can be any integer from 11 to qq.'
+b'Output'
+b'Print "YES" if the array aa can be obtained by performing qq queries. Segments (li,ri)(li,ri) (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n)(1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n) are chosen separately for each query. Every position from 11 to nn should be covered by at least one segment. '
+b'Otherwise print "NO".'
+b'If some array can be obtained then print nn integers on the second line \xe2\x80\x94 the ii-th number should be equal to the ii-th element of the resulting array and should have value from 11 to qq. This array should be obtainable by performing exactly qq queries.'
+b'If there are multiple possible arrays then print any of them.'
+Tags
+constructive algorithms, data structures, *1700

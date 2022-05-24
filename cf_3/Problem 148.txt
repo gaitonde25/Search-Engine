@@ -1,0 +1,17 @@
+b'The cuteness of a binary string is the number of 11s divided by the length of the string. For example, the cuteness of 0110101101 is 3535.'
+b'Juju has a binary string ss of length nn. She wants to choose some non-intersecting subsegments of ss such that their concatenation has length mm and it has the same cuteness as the string ss. '
+b'More specifically, she wants to find two arrays ll and rr of equal length kk such that 1\xe2\x89\xa4l1\xe2\x89\xa4r1<l2\xe2\x89\xa4r2<\xe2\x80\xa6<lk\xe2\x89\xa4rk\xe2\x89\xa4n1\xe2\x89\xa4l1\xe2\x89\xa4r1<l2\xe2\x89\xa4r2<\xe2\x80\xa6<lk\xe2\x89\xa4rk\xe2\x89\xa4n, and also:'
+b'  \xe2\x88\x91i=1k(ri\xe2\x88\x92li+1)=m\xe2\x88\x91i=1k(ri\xe2\x88\x92li+1)=m;  The cuteness of s[l1,r1]+s[l2,r2]+\xe2\x80\xa6+s[lk,rk]s[l1,r1]+s[l2,r2]+\xe2\x80\xa6+s[lk,rk] is equal to the cuteness of ss, where s[x,y]s[x,y] denotes the subsegment sxsx+1\xe2\x80\xa6sysxsx+1\xe2\x80\xa6sy, and ++ denotes string concatenation. '
+b'Juju does not like splitting the string into many parts, so she also wants to minimize the value of kk. Find the minimum value of kk such that there exist ll and rr that satisfy the constraints above or determine that it is impossible to find such ll and rr for any kk.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line of each test case contains a binary string ss of length nn.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, if there is no valid pair of ll and rr, print \xe2\x88\x921\xe2\x88\x921. '
+b'Otherwise, print k+1k+1 lines.'
+b'In the first line, print a number kk (1\xe2\x89\xa4k\xe2\x89\xa4m1\xe2\x89\xa4k\xe2\x89\xa4m) \xe2\x80\x94 the minimum number of subsegments required.'
+b'Then print kk lines, the ii-th should contain lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n) \xe2\x80\x94 the range of the ii-th subsegment. Note that you should output the subsegments such that the inequality l1\xe2\x89\xa4r1<l2\xe2\x89\xa4r2<\xe2\x80\xa6<lk\xe2\x89\xa4rkl1\xe2\x89\xa4r1<l2\xe2\x89\xa4r2<\xe2\x80\xa6<lk\xe2\x89\xa4rk is true.'
+Tags
+brute force, constructive algorithms, greedy, math, *2700

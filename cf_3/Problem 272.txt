@@ -1,0 +1,13 @@
+b'It has finally been decided to build a roof over the football field in School 179. Its construction will require placing nn consecutive vertical pillars. Furthermore, the headmaster wants the heights of all the pillars to form a permutation pp of integers from 00 to n\xe2\x88\x921n\xe2\x88\x921, where pipi is the height of the ii-th pillar from the left (1\xe2\x89\xa4i\xe2\x89\xa4n)(1\xe2\x89\xa4i\xe2\x89\xa4n).'
+b'As the chief, you know that the cost of construction of consecutive pillars is equal to the maximum value of the bitwise XOR of heights of all pairs of adjacent pillars. In other words, the cost of construction is equal to max1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921pi\xe2\x8a\x95pi+1max1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921pi\xe2\x8a\x95pi+1, where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation.'
+b'Find any sequence of pillar heights pp of length nn with the smallest construction cost.'
+b'In this problem, a permutation is an array consisting of nn distinct integers from 00 to n\xe2\x88\x921n\xe2\x88\x921 in arbitrary order. For example, [2,3,1,0,4][2,3,1,0,4] is a permutation, but [1,0,1][1,0,1] is not a permutation (11 appears twice in the array) and [1,0,3][1,0,3] is also not a permutation (n=3n=3, but 33 is in the array).'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Description of the test cases follows.'
+b'The only line for each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of pillars for the construction of the roof.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case print nn integers p1p1, p2p2, \xe2\x80\xa6\xe2\x80\xa6, pnpn \xe2\x80\x94 the sequence of pillar heights with the smallest construction cost.'
+b'If there are multiple answers, print any of them.'
+Tags
+bitmasks, constructive algorithms, *1000

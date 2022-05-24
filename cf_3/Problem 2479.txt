@@ -1,0 +1,9 @@
+b'Define the beauty of a permutation of numbers from 11 to nn (p1,p2,\xe2\x80\xa6,pn)(p1,p2,\xe2\x80\xa6,pn) as number of pairs (L,R)(L,R) such that 1\xe2\x89\xa4L\xe2\x89\xa4R\xe2\x89\xa4n1\xe2\x89\xa4L\xe2\x89\xa4R\xe2\x89\xa4n and numbers pL,pL+1,\xe2\x80\xa6,pRpL,pL+1,\xe2\x80\xa6,pR are consecutive R\xe2\x88\x92L+1R\xe2\x88\x92L+1 numbers in some order. For example, the beauty of the permutation (1,2,5,3,4)(1,2,5,3,4) equals 99, and segments, corresponding to pairs, are [1][1], [2][2], [5][5], [4][4], [3][3], [1,2][1,2], [3,4][3,4], [5,3,4][5,3,4], [1,2,5,3,4][1,2,5,3,4].'
+b'Answer qq independent queries. In each query, you will be given integers nn and kk. Determine if there exists a permutation of numbers from 11 to nn with beauty equal to kk, and if there exists, output one of them.'
+b'Input'
+b'The first line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa4100001\xe2\x89\xa4q\xe2\x89\xa410000)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Follow qq lines. Each line contains two integers nn, kk (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4k\xe2\x89\xa4n(n+1)21\xe2\x89\xa4k\xe2\x89\xa4n(n+1)2)\xc2\xa0\xe2\x80\x94 the length of permutation and needed beauty respectively.'
+b'Output'
+b'For a query output "NO", if such a permutation doesn\'t exist. Otherwise, output "YES", and in the next line output nn numbers\xc2\xa0\xe2\x80\x94 elements of permutation in the right order.'
+Tags
+constructive algorithms, math, *3400

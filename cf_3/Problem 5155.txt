@@ -1,0 +1,9 @@
+b'Today, Wet Shark is given n bishops on a 1000 by 1000 grid. Both rows and columns of the grid are numbered from 1 to 1000. Rows are numbered from top to bottom, while columns are numbered from left to right.'
+b'Wet Shark thinks that two bishops attack each other if they share the same diagonal. Note, that this is the only criteria, so two bishops may attack each other (according to Wet Shark) even if there is another bishop located between them. Now Wet Shark wants to count the number of pairs of bishops that attack each other.'
+b'Input'
+b'The first line of the input contains n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of bishops.'
+b"Each of next n lines contains two space separated integers xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the number of row and the number of column where i-th bishop is positioned. It's guaranteed that no two bishops share the same position."
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the number of pairs of bishops which attack each other. '
+Tags
+combinatorics, implementation, *1300

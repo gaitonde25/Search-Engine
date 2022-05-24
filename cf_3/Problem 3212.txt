@@ -1,0 +1,11 @@
+b"There are nn cities in the kingdom XX, numbered from 11 through nn. People travel between cities by some one-way roads. As a passenger, JATC finds it weird that from any city uu, he can't start a trip in it and then return back to it using the roads of the kingdom. That is, the kingdom can be viewed as an acyclic graph."
+b'Being annoyed by the traveling system, JATC decides to meet the king and ask him to do something. In response, the king says that he will upgrade some cities to make it easier to travel. Because of the budget, the king will only upgrade those cities that are important or semi-important. A city uu is called important if for every city v\xe2\x89\xa0uv\xe2\x89\xa0u, there is either a path from uu to vv or a path from vv to uu. A city uu is called semi-important if it is not important and we can destroy exactly one city v\xe2\x89\xa0uv\xe2\x89\xa0u so that uu becomes important.'
+b'The king will start to act as soon as he finds out all those cities. Please help him to speed up the process.'
+b'Input'
+b'The first line of the input contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa43000002\xe2\x89\xa4n\xe2\x89\xa4300000, 1\xe2\x89\xa4m\xe2\x89\xa43000001\xe2\x89\xa4m\xe2\x89\xa4300000)\xc2\xa0\xe2\x80\x94 the number of cities and the number of one-way roads.'
+b'Next mm lines describe the road system of the kingdom. Each of them contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi), denoting one-way road from uiui to vivi.'
+b"It is guaranteed, that the kingdoms' roads make an acyclic graph, which doesn't contain multiple edges and self-loops."
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of cities that the king has to upgrade.'
+Tags
+dfs and similar, graphs, *2900

@@ -1,0 +1,12 @@
+b"Vupsen and Pupsen were gifted an integer array. Since Vupsen doesn't like the number 00, he threw away all numbers equal to 00 from the array. As a result, he got an array aa of length nn."
+b"Pupsen, on the contrary, likes the number 00 and he got upset when he saw the array without zeroes. To cheer Pupsen up, Vupsen decided to come up with another array bb of length nn such that \xe2\x88\x91ni=1ai\xe2\x8b\x85bi=0\xe2\x88\x91i=1nai\xe2\x8b\x85bi=0. Since Vupsen doesn't like number 00, the array bb must not contain numbers equal to 00. Also, the numbers in that array must not be huge, so the sum of their absolute values cannot exceed 109109. Please help Vupsen to find any such array bb!"
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. The next 2\xe2\x8b\x85t2\xe2\x8b\x85t lines contain the description of test cases. The description of each test case consists of two lines.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the length of the array.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92104\xe2\x89\xa4ai\xe2\x89\xa4104\xe2\x88\x92104\xe2\x89\xa4ai\xe2\x89\xa4104, ai\xe2\x89\xa00ai\xe2\x89\xa00) \xe2\x80\x94 the elements of the array aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case print nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn \xe2\x80\x94 elements of the array bb (|b1|+|b2|+\xe2\x80\xa6+|bn|\xe2\x89\xa4109|b1|+|b2|+\xe2\x80\xa6+|bn|\xe2\x89\xa4109, bi\xe2\x89\xa00bi\xe2\x89\xa00, \xe2\x88\x91ni=1ai\xe2\x8b\x85bi=0\xe2\x88\x91i=1nai\xe2\x8b\x85bi=0).'
+b'It can be shown that the answer always exists.'
+Tags
+constructive algorithms, math, *1600

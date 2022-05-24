@@ -1,0 +1,19 @@
+b'There are nn officers in the Army of Byteland. Each officer has some power associated with him. The power of the ii-th officer is denoted by pipi. As the war is fast approaching, the General would like to know the strength of the army.'
+b'The strength of an army is calculated in a strange way in Byteland. The General selects a random subset of officers from these nn officers and calls this subset a battalion.(All 2n2n subsets of the nn officers can be chosen equally likely, including empty subset and the subset of all officers).'
+b'The strength of a battalion is calculated in the following way:'
+b'Let the powers of the chosen officers be a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak, where a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4aka1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4ak. The strength of this battalion is equal to a1a2+a2a3+\xe2\x8b\xaf+ak\xe2\x88\x921aka1a2+a2a3+\xe2\x8b\xaf+ak\xe2\x88\x921ak. (If the size of Battalion is \xe2\x89\xa41\xe2\x89\xa41, then the strength of this battalion is 00).'
+b'The strength of the army is equal to the expected value of the strength of the battalion.'
+b'As the war is really long, the powers of officers may change. Precisely, there will be qq changes. Each one of the form ii xx indicating that pipi is changed to xx.'
+b'You need to find the strength of the army initially and after each of these qq updates.'
+b'Note that the changes are permanent.'
+b'The strength should be found by modulo 109+7109+7. Formally, let M=109+7M=109+7. It can be shown that the answer can be expressed as an irreducible fraction p/qp/q, where pp and qq are integers and q\xe2\x89\xa1\xcc\xb80modMq\xe2\x89\xa20modM). Output the integer equal to p\xe2\x8b\x85q\xe2\x88\x921modMp\xe2\x8b\x85q\xe2\x88\x921modM. In other words, output such an integer xx that 0\xe2\x89\xa4x<M0\xe2\x89\xa4x<M and x\xe2\x8b\x85q\xe2\x89\xa1pmodMx\xe2\x8b\x85q\xe2\x89\xa1pmodM).'
+b'Input'
+b"The first line of the input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the number of officers in Byteland's Army."
+b'The second line contains nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa41091\xe2\x89\xa4pi\xe2\x89\xa4109).'
+b'The third line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa43\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the number of updates.'
+b'Each of the next qq lines contains two integers ii and xx (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, 1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109), indicating that pipi is updated to xx .'
+b'Output'
+b'In the first line output the initial strength of the army.'
+b'In ii-th of the next qq lines, output the strength of the army after ii-th update.'
+Tags
+data structures, divide and conquer, probabilities, *2800

@@ -1,0 +1,13 @@
+b'Alex studied well and won the trip to student camp Alushta, located on the seashore. '
+b"Unfortunately, it's the period of the strong winds now and there is a chance the camp will be destroyed! Camp building can be represented as the rectangle of n\xe2\x80\x89+\xe2\x80\x892 concrete blocks height and m blocks width."
+b'Every day there is a breeze blowing from the sea. Each block, except for the blocks of the upper and lower levers, such that there is no block to the left of it is destroyed with the probability . Similarly, each night the breeze blows in the direction to the sea. Thus, each block (again, except for the blocks of the upper and lower levers) such that there is no block to the right of it is destroyed with the same probability p. Note, that blocks of the upper and lower level are indestructible, so there are only n\xc2\xb7m blocks that can be destroyed.'
+b'The period of the strong winds will last for k days and k nights. If during this period the building will split in at least two connected components, it will collapse and Alex will have to find another place to spend summer.'
+b"Find the probability that Alex won't have to look for other opportunities and will be able to spend the summer in this camp."
+b'Input'
+b'The first line of the input contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891500) that define the size of the destructible part of building.'
+b"The second line of the input contains two integers a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) that define the probability p. It's guaranteed that integers a and b are coprime. "
+b'The third line contains a single integer k (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of days and nights strong wind will blow for.'
+b'Output'
+b"Consider the answer as an irreducible fraction is equal to . Print one integer equal to . It's guaranteed that within the given constraints ."
+Tags
+dp, math, *3100

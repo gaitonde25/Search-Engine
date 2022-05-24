@@ -1,0 +1,14 @@
+b'Vasya has a tree consisting of nn vertices with root in vertex 11. At first all vertices has 00 written on it.'
+b"Let d(i,j)d(i,j) be the distance between vertices ii and jj, i.e. number of edges in the shortest path from ii to jj. Also, let's denote kk-subtree of vertex xx \xe2\x80\x94 set of vertices yy such that next two conditions are met: "
+b'  xx is the ancestor of yy (each vertex is the ancestor of itself);  d(x,y)\xe2\x89\xa4kd(x,y)\xe2\x89\xa4k. '
+b'Vasya needs you to process mm queries. The ii-th query is a triple vivi, didi and xixi. For each query Vasya adds value xixi to each vertex from didi-subtree of vivi.'
+b'Report to Vasya all values, written on vertices of the tree after processing all queries.'
+b'Input'
+b'The first line contains single integer nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 number of vertices in the tree.'
+b'Each of next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers xx and yy (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n) \xe2\x80\x94 edge between vertices xx and yy. It is guarantied that given graph is a tree.'
+b'Next line contains single integer mm (1\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 number of queries.'
+b'Each of next mm lines contains three integers vivi, didi, xixi (1\xe2\x89\xa4vi\xe2\x89\xa4n1\xe2\x89\xa4vi\xe2\x89\xa4n, 0\xe2\x89\xa4di\xe2\x89\xa41090\xe2\x89\xa4di\xe2\x89\xa4109, 1\xe2\x89\xa4xi\xe2\x89\xa41091\xe2\x89\xa4xi\xe2\x89\xa4109) \xe2\x80\x94 description of the ii-th query.'
+b'Output'
+b'Print nn integers. The ii-th integers is the value, written in the ii-th vertex after processing all queries.'
+Tags
+data structures, trees, *1900

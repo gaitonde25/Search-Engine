@@ -1,0 +1,21 @@
+b'Shichikuji is the new resident deity of the South Black Snail Temple. Her first job is as follows:'
+b'There are nn new cities located in Prefecture X. Cities are numbered from 11 to nn. City ii is located xixi km North of the shrine and yiyi km East of the shrine. It is possible that (xi,yi)=(xj,yj)(xi,yi)=(xj,yj) even when i\xe2\x89\xa0ji\xe2\x89\xa0j.'
+b'Shichikuji must provide electricity to each city either by building a power station in that city, or by making a connection between that city and another one that already has electricity. So the City has electricity if it has a power station in it or it is connected to a City which has electricity by a direct connection or via a chain of connections.'
+b'    Building a power station in City ii will cost cici yen;     Making a connection between City ii and City jj will cost ki+kjki+kj yen per km of wire used for the connection. However, wires can only go the cardinal directions (North, South, East, West). Wires can cross each other. Each wire must have both of its endpoints in some cities. If City ii and City jj are connected by a wire, the wire will go through any shortest path from City ii to City jj. Thus, the length of the wire if City ii and City jj are connected is |xi\xe2\x88\x92xj|+|yi\xe2\x88\x92yj||xi\xe2\x88\x92xj|+|yi\xe2\x88\x92yj| km. '
+b"Shichikuji wants to do this job spending as little money as possible, since according to her, there isn't really anything else in the world other than money. However, she died when she was only in fifth grade so she is not smart enough for this. And thus, the new resident deity asks for your help."
+b'And so, you have to provide Shichikuji with the following information: minimum amount of yen needed to provide electricity to all cities, the cities in which power stations will be built, and the connections to be made.'
+b'If there are multiple ways to choose the cities and the connections to obtain the construction of minimum price, then print any of them.'
+b'Input'
+b'First line of input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000) \xe2\x80\x94 the number of cities.'
+b'Then, nn lines follow. The ii-th line contains two space-separated integers xixi (1\xe2\x89\xa4xi\xe2\x89\xa41061\xe2\x89\xa4xi\xe2\x89\xa4106) and yiyi (1\xe2\x89\xa4yi\xe2\x89\xa41061\xe2\x89\xa4yi\xe2\x89\xa4106) \xe2\x80\x94 the coordinates of the ii-th city.'
+b'The next line contains nn space-separated integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa41091\xe2\x89\xa4ci\xe2\x89\xa4109) \xe2\x80\x94 the cost of building a power station in the ii-th city.'
+b'The last line contains nn space-separated integers k1,k2,\xe2\x80\xa6,knk1,k2,\xe2\x80\xa6,kn (1\xe2\x89\xa4ki\xe2\x89\xa41091\xe2\x89\xa4ki\xe2\x89\xa4109).'
+b'Output'
+b'In the first line print a single integer, denoting the minimum amount of yen needed.'
+b'Then, print an integer vv \xe2\x80\x94 the number of power stations to be built.'
+b'Next, print vv space-separated integers, denoting the indices of cities in which a power station will be built. Each number should be from 11 to nn and all numbers should be pairwise distinct. You can print the numbers in arbitrary order.'
+b'After that, print an integer ee \xe2\x80\x94 the number of connections to be made.'
+b'Finally, print ee pairs of integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n, a\xe2\x89\xa0ba\xe2\x89\xa0b), denoting that a connection between City aa and City bb will be made. Each unordered pair of cities should be included at most once (for each (a,b)(a,b) there should be no more (a,b)(a,b) or (b,a)(b,a) pairs). You can print the pairs in arbitrary order.'
+b'If there are multiple ways to choose the cities and the connections to obtain the construction of minimum price, then print any of them.'
+Tags
+dsu, graphs, greedy, shortest paths, trees, *1900

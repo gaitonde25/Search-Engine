@@ -1,0 +1,14 @@
+b"Students of one unknown college don't have PE courses. That's why qq of them decided to visit a gym nearby by themselves. The gym is open for nn days and has a ticket system. At the ii-th day, the cost of one ticket is equal to aiai. You are free to buy more than one ticket per day."
+b'You can activate a ticket purchased at day ii either at day ii or any day later. Each activated ticket is valid only for kk days. In other words, if you activate ticket at day tt, it will be valid only at days t,t+1,\xe2\x80\xa6,t+k\xe2\x88\x921t,t+1,\xe2\x80\xa6,t+k\xe2\x88\x921. '
+b'You know that the jj-th student wants to visit the gym at each day from ljlj to rjrj inclusive. Each student will use the following strategy of visiting the gym at any day ii (lj\xe2\x89\xa4i\xe2\x89\xa4rjlj\xe2\x89\xa4i\xe2\x89\xa4rj):'
+b'  person comes to a desk selling tickets placed near the entrance and buy several tickets with cost aiai apiece (possibly, zero tickets);  if the person has at least one activated and still valid ticket, they just go in. Otherwise, they activate one of tickets purchased today or earlier and go in. '
+b'Note that each student will visit gym only starting ljlj, so each student has to buy at least one ticket at day ljlj.'
+b'Help students to calculate the minimum amount of money they have to spend in order to go to the gym.'
+b'Input'
+b'The first line contains three integers nn, qq and kk (1\xe2\x89\xa4n,q\xe2\x89\xa43000001\xe2\x89\xa4n,q\xe2\x89\xa4300000; 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of days, the number of students and the number of days each ticket is still valid. '
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the cost of one ticket at the corresponding day.'
+b'Each of the next qq lines contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the segment of days the corresponding student want to visit the gym.'
+b'Output'
+b'For each student, print the minimum possible amount of money they have to spend in order to go to the gym at desired days.'
+Tags
+data structures, dp, greedy, *2900

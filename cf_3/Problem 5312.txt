@@ -1,0 +1,11 @@
+b'Dima loves representing an odd number as the sum of multiple primes, and Lisa loves it when there are at most three primes. Help them to represent the given number as the sum of at most than three primes.'
+b'More formally, you are given an odd numer n. Find a set of numbers pi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k), such that'
+b' 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893 pi is a prime '
+b'The numbers pi do not necessarily have to be distinct. It is guaranteed that at least one possible solution exists.'
+b'Input'
+b'The single line contains an odd number n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89<\xe2\x80\x89109).'
+b'Output'
+b'In the first line print k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893), showing how many numbers are in the representation you found.'
+b'In the second line print numbers pi in any order. If there are multiple possible solutions, you can print any of them.'
+Tags
+brute force, math, number theory, *1800

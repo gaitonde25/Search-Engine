@@ -1,0 +1,10 @@
+b'You are given an undirected graph, constisting of n vertices and m edges. Each edge of the graph has some non-negative integer written on it.'
+b"Let's call a triple (u,\xe2\x80\x89v,\xe2\x80\x89s) interesting, if 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u\xe2\x80\x89<\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n and there is a path (possibly non-simple, i.e. it can visit the same vertices and edges multiple times) between vertices u and v such that xor of all numbers written on the edges of this path is equal to s. When we compute the value s for some path, each edge is counted in xor as many times, as it appear on this path. It's not hard to prove that there are finite number of such triples."
+b'Calculate the sum over modulo 109\xe2\x80\x89+\xe2\x80\x897 of the values of s over all interesting triples.'
+b'Input'
+b'The first line of the input contains two integers n and\xc2\xa0m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 numbers of vertices and edges in the given graph.'
+b"The follow m lines contain three integers ui, vi and\xc2\xa0ti (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018, ui\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89vi)\xc2\xa0\xe2\x80\x94 vertices connected by the edge and integer written on it. It is guaranteed that graph doesn't contain self-loops and multiple edges."
+b'Output'
+b'Print the single integer, equal to the described sum over modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+bitmasks, graphs, math, number theory, trees, *2600

@@ -1,0 +1,12 @@
+b'Alice is visiting New York City. To make the trip fun, Alice will take photos of the city skyline and give the set of photos as a present to Bob. However, she wants to find the set of photos with maximum beauty and she needs your help. '
+b'There are nn buildings in the city, the ii-th of them has positive height hihi. All nn building heights in the city are different. In addition, each building has a beauty value bibi. Note that beauty can be positive or negative, as there are ugly buildings in the city too. '
+b'A set of photos consists of one or more photos of the buildings in the skyline. Each photo includes one or more buildings in the skyline that form a contiguous segment of indices. Each building needs to be in exactly one photo. This means that if a building does not appear in any photo, or if a building appears in more than one photo, the set of pictures is not valid. '
+b'The beauty of a photo is equivalent to the beauty bibi of the shortest building in it. The total beauty of a set of photos is the sum of the beauty of all photos in it. Help Alice to find the maximum beauty a valid set of photos can have. '
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105), the number of buildings on the skyline. '
+b'The second line contains nn distinct integers h1,h2,\xe2\x80\xa6,hnh1,h2,\xe2\x80\xa6,hn (1\xe2\x89\xa4hi\xe2\x89\xa4n1\xe2\x89\xa4hi\xe2\x89\xa4n). The ii-th number represents the height of building ii.'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109). The ii-th number represents the beauty of building ii.'
+b'Output'
+b'Print one number representing the maximum beauty Alice can achieve for a valid set of photos of the skyline. '
+Tags
+data structures, divide and conquer, dp, *2100

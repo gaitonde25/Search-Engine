@@ -1,0 +1,8 @@
+b'Given a positive integer n, find k integers (not necessary distinct) such that all these integers are strictly greater than 1, and their product is equal to n.'
+b'Input'
+b'The first line contains two integers n and k (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8920).'
+b'Output'
+b"If it's impossible to find the representation of n as a product of k numbers, print -1."
+b'Otherwise, print k integers in any order. Their product must be equal to n. If there are multiple answers, print any of them.'
+Tags
+implementation, math, number theory, *1100

@@ -1,0 +1,13 @@
+b"It is Professor R's last class of his teaching career. Every time Professor R taught a class, he gave a special problem for the students to solve. You being his favourite student, put your heart into solving it one last time."
+b'You are given two polynomials f(x)=a0+a1x+\xe2\x8b\xaf+an\xe2\x88\x921xn\xe2\x88\x921f(x)=a0+a1x+\xe2\x8b\xaf+an\xe2\x88\x921xn\xe2\x88\x921 and g(x)=b0+b1x+\xe2\x8b\xaf+bm\xe2\x88\x921xm\xe2\x88\x921g(x)=b0+b1x+\xe2\x8b\xaf+bm\xe2\x88\x921xm\xe2\x88\x921, with positive integral coefficients. It is guaranteed that the cumulative GCD of the coefficients is equal to 11 for both the given polynomials. In other words, gcd(a0,a1,\xe2\x80\xa6,an\xe2\x88\x921)=gcd(b0,b1,\xe2\x80\xa6,bm\xe2\x88\x921)=1gcd(a0,a1,\xe2\x80\xa6,an\xe2\x88\x921)=gcd(b0,b1,\xe2\x80\xa6,bm\xe2\x88\x921)=1. Let h(x)=f(x)\xe2\x8b\x85g(x)h(x)=f(x)\xe2\x8b\x85g(x). Suppose that h(x)=c0+c1x+\xe2\x8b\xaf+cn+m\xe2\x88\x922xn+m\xe2\x88\x922h(x)=c0+c1x+\xe2\x8b\xaf+cn+m\xe2\x88\x922xn+m\xe2\x88\x922. '
+b"You are also given a prime number pp. Professor R challenges you to find any tt such that ctct isn't divisible by pp. He guarantees you that under these conditions such tt always exists. If there are several such tt, output any of them."
+b'As the input is quite large, please use fast input reading methods.'
+b'Input'
+b'The first line of the input contains three integers, nn, mm and pp (1\xe2\x89\xa4n,m\xe2\x89\xa4106,2\xe2\x89\xa4p\xe2\x89\xa41091\xe2\x89\xa4n,m\xe2\x89\xa4106,2\xe2\x89\xa4p\xe2\x89\xa4109), \xc2\xa0\xe2\x80\x94 nn and mm are the number of terms in f(x)f(x) and g(x)g(x) respectively (one more than the degrees of the respective polynomials) and pp is the given prime number.'
+b'It is guaranteed that pp is prime.'
+b'The second line contains nn integers a0,a1,\xe2\x80\xa6,an\xe2\x88\x921a0,a1,\xe2\x80\xa6,an\xe2\x88\x921 (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 aiai is the coefficient of xixi in f(x)f(x).'
+b'The third line contains mm integers b0,b1,\xe2\x80\xa6,bm\xe2\x88\x921b0,b1,\xe2\x80\xa6,bm\xe2\x88\x921 (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 bibi is the coefficient of xixi in g(x)g(x).'
+b'Output'
+b"Print a single integer tt (0\xe2\x89\xa4t\xe2\x89\xa4n+m\xe2\x88\x9220\xe2\x89\xa4t\xe2\x89\xa4n+m\xe2\x88\x922) \xc2\xa0\xe2\x80\x94 the appropriate power of xx in h(x)h(x) whose coefficient isn't divisible by the given prime pp. If there are multiple powers of xx that satisfy the condition, print any."
+Tags
+constructive algorithms, math, ternary search, *1800

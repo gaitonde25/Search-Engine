@@ -1,0 +1,14 @@
+b'The main city magazine offers its readers an opportunity to publish their ads. The format of the ad should be like this:'
+b'There are space-separated non-empty words of lowercase and uppercase Latin letters.'
+b"There are hyphen characters '-' in some words, their positions set word wrapping points. Word can include more than one hyphen. "
+b'It is guaranteed that there are no adjacent spaces and no adjacent hyphens. No hyphen is adjacent to space. There are no spaces and no hyphens before the first word and after the last word. '
+b'When the word is wrapped, the part of the word before hyphen and the hyphen itself stay on current line and the next part of the word is put on the next line. You can also put line break between two words, in that case the space stays on current line. Check notes for better understanding.'
+b'The ad can occupy no more that k lines and should have minimal width. The width of the ad is the maximal length of string (letters, spaces and hyphens are counted) in it.'
+b'You should write a program that will find minimal width of the ad.'
+b'Input'
+b'The first line contains number k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b"The second line contains the text of the ad \xe2\x80\x94 non-empty space-separated words of lowercase and uppercase Latin letters and hyphens. Total length of the ad don't exceed 106 characters."
+b'Output'
+b'Output minimal width of the ad.'
+Tags
+binary search, greedy, *1900

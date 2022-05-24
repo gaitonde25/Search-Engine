@@ -1,0 +1,15 @@
+b'Today Peter has got an additional homework for tomorrow. The teacher has given three integers to him: n, m and k, and asked him to mark one or more squares on a square grid of size n\xe2\x80\x89\xc3\x97\xe2\x80\x89m. '
+b'The marked squares must form a connected figure, and there must be exactly k triples of marked squares that form an L-shaped tromino\xc2\xa0\xe2\x80\x94 all three squares are inside a 2\xe2\x80\x89\xc3\x97\xe2\x80\x892 square.'
+b'The set of squares forms a connected figure if it is possible to get from any square to any other one if you are allowed to move from a square to any adjacent by a common side square.'
+b'Peter cannot fulfill the task, so he asks you for help. Help him to create such figure.'
+b'Input'
+b'Input data contains one or more test cases. The first line contains the number of test cases t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100).'
+b'Each of the following t test cases is described by a line that contains three integers: n, m and k (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m, n\xe2\x80\x89\xc3\x97\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b"The sum of values of n\xe2\x80\x89\xc3\x97\xe2\x80\x89m for all tests in one input data doesn't exceed 105."
+b'Output'
+b'For each test case print the answer.'
+b"If it is possible to create such figure, print n lines, m characters each, use asterisk '*' to denote the marked square, and dot '.' to denote the unmarked one."
+b'If there is no solution, print -1.'
+b'Print empty line between test cases.'
+Tags
+constructive algorithms, *3100

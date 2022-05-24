@@ -1,0 +1,9 @@
+b'Today, hedgehog Filya went to school for the very first time! Teacher gave him a homework which Filya was unable to complete without your help.'
+b'Filya is given an array of non-negative integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an. First, he pick an integer x and then he adds x to some elements of the array (no more than once), subtract x from some other elements (also, no more than once) and do no change other elements. He wants all elements of the array to be equal.'
+b"Now he wonders if it's possible to pick such integer x and change some elements of the array using this x in order to make all elements equal."
+b'Input'
+b"The first line of the input contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of integers in the Filya's array. The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 elements of the array."
+b'Output'
+b'If it\'s impossible to make all elements of the array equal using the process given in the problem statement, then print "NO" (without quotes) in the only line of the output. Otherwise print "YES" (without quotes).'
+Tags
+implementation, sortings, *1200

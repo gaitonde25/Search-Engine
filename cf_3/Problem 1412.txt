@@ -1,0 +1,16 @@
+b'Another dull quarantine day was going by when BThero decided to start researching matrices of size n\xc3\x97mn\xc3\x97m. The rows are numerated 11 through nn from top to bottom, and the columns are numerated 11 through mm from left to right. The cell in the ii-th row and jj-th column is denoted as (i,j)(i,j).'
+b'For each cell (i,j)(i,j) BThero had two values: '
+b'  The cost of the cell, which is a single positive integer.  The direction of the cell, which is one of characters L, R, D, U. Those characters correspond to transitions to adjacent cells (i,j\xe2\x88\x921)(i,j\xe2\x88\x921), (i,j+1)(i,j+1), (i+1,j)(i+1,j) or (i\xe2\x88\x921,j)(i\xe2\x88\x921,j), respectively. No transition pointed outside of the matrix. '
+b'Let us call a cell (i2,j2)(i2,j2) reachable from (i1,j1)(i1,j1), if, starting from (i1,j1)(i1,j1) and repeatedly moving to the adjacent cell according to our current direction, we will, sooner or later, visit (i2,j2)(i2,j2). '
+b'BThero decided to create another matrix from the existing two. For a cell (i,j)(i,j), let us denote Si,jSi,j as a set of all reachable cells from it (including (i,j)(i,j) itself). Then, the value at the cell (i,j)(i,j) in the new matrix will be equal to the sum of costs of all cells in Si,jSi,j. '
+b'After quickly computing the new matrix, BThero immediately sent it to his friends. However, he did not save any of the initial matrices! Help him to restore any two valid matrices, which produce the current one.'
+b'Input'
+b'The first line of input file contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa41001\xe2\x89\xa4T\xe2\x89\xa4100) denoting the number of test cases. The description of TT test cases follows.'
+b'First line of a test case contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x8b\x85m\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x8b\x85m\xe2\x89\xa4105).'
+b'Each of the following nn lines contain exactly mm integers \xe2\x80\x94 the elements of the produced matrix. Each element belongs to the segment [2,109][2,109].'
+b'It is guaranteed that \xe2\x88\x91(n\xe2\x8b\x85m)\xe2\x88\x91(n\xe2\x8b\x85m) over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, if an answer does not exist, print a single word NO. Otherwise, print YES and both matrices in the same format as in the input.'
+b'  The first matrix should be the cost matrix and the second matrix should be the direction matrix.  All integers in the cost matrix should be positive.  All characters in the direction matrix should be valid. No direction should point outside of the matrix. '
+Tags
+flows, graph matchings, greedy, implementation, *3300

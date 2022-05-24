@@ -1,0 +1,11 @@
+b'Vasya has an array of nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Vasya thinks that all numbers in his array are strange for some reason. To calculate how strange the ii-th number is, Vasya created the following algorithm.'
+b'He chooses a subsegment al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar, such that 1\xe2\x89\xa4l\xe2\x89\xa4i\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4i\xe2\x89\xa4r\xe2\x89\xa4n, sort its elements in increasing order in his head (he can arrange equal elements arbitrary). After that he finds the center of the segment. The center of a segment is the element at position (l+r)/2(l+r)/2, if the length of the segment is odd, and at position (l+r+1)/2(l+r+1)/2 otherwise. Now Vasya finds the element that was at position ii before the sorting, and calculates the distance between its current position and the center of the subsegment (the distance between the elements with indices jj and kk is |j\xe2\x88\x92k||j\xe2\x88\x92k|).'
+b'The strangeness of the number at position ii is the maximum distance among all suitable choices of ll and rr. '
+b'Vasya wants to calculate the strangeness of each number in his array. Help him to do it. '
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000)\xc2\xa0\xe2\x80\x94 the size of the array.'
+b"The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 Vasya's array."
+b'Output'
+b'Print a single line with nn numbers. The ii-th of them must be equal to the strangeness of the ii-th element of the array.'
+Tags
+data structures, greedy, sortings, *2600

@@ -1,0 +1,11 @@
+b'Mishka is decorating the Christmas tree. He has got three garlands, and all of them will be put on the tree. After that Mishka will switch these garlands on.'
+b'When a garland is switched on, it periodically changes its state \xe2\x80\x94 sometimes it is lit, sometimes not. Formally, if i-th garland is switched on during x-th second, then it is lit only during seconds x, x\xe2\x80\x89+\xe2\x80\x89ki, x\xe2\x80\x89+\xe2\x80\x892ki, x\xe2\x80\x89+\xe2\x80\x893ki and so on.'
+b'Mishka wants to switch on the garlands in such a way that during each second after switching the garlands on there would be at least one lit garland. Formally, Mishka wants to choose three integers x1, x2 and x3 (not necessarily distinct) so that he will switch on the first garland during x1-th second, the second one \xe2\x80\x94 during x2-th second, and the third one \xe2\x80\x94 during x3-th second, respectively, and during each second starting from max(x1,\xe2\x80\x89x2,\xe2\x80\x89x3) at least one garland will be lit.'
+b'Help Mishka by telling him if it is possible to do this!'
+b'Input'
+b'The first line contains three integers k1, k2 and k3 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ki\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891500) \xe2\x80\x94 time intervals of the garlands.'
+b'Output'
+b'If Mishka can choose moments of time to switch on the garlands in such a way that each second after switching the garlands on at least one garland will be lit, print YES.'
+b'Otherwise, print NO.'
+Tags
+brute force, constructive algorithms, *1400

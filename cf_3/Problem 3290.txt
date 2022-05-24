@@ -1,0 +1,9 @@
+b"You are playing a strange game with Li Chen. You have a tree with nn nodes drawn on a piece of paper. All nodes are unlabeled and distinguishable. Each of you independently labeled the vertices from 11 to nn. Neither of you know the other's labelling of the tree."
+b"You and Li Chen each chose a subtree (i.e., a connected subgraph) in that tree. Your subtree consists of the vertices labeled x1,x2,\xe2\x80\xa6,xk1x1,x2,\xe2\x80\xa6,xk1 in your labeling, Li Chen's subtree consists of the vertices labeled y1,y2,\xe2\x80\xa6,yk2y1,y2,\xe2\x80\xa6,yk2 in his labeling. The values of x1,x2,\xe2\x80\xa6,xk1x1,x2,\xe2\x80\xa6,xk1 and y1,y2,\xe2\x80\xa6,yk2y1,y2,\xe2\x80\xa6,yk2 are known to both of you."
+b'  '
+b" The picture shows two labelings of a possible tree: yours on the left and Li Chen's on the right. The selected trees are highlighted. There are two common nodes. "
+b'You want to determine whether your subtrees have at least one common vertex. Luckily, your friend Andrew knows both labelings of the tree. You can ask Andrew at most 55 questions, each of which is in one of the following two forms: '
+b"  A x: Andrew will look at vertex xx in your labeling and tell you the number of this vertex in Li Chen's labeling.  B y: Andrew will look at vertex yy in Li Chen's labeling and tell you the number of this vertex in your labeling. "
+b'Determine whether the two subtrees have at least one common vertex after asking some questions. If there is at least one common vertex, determine one of your labels for any of the common vertices.'
+Tags
+dfs and similar, interactive, trees, *1900

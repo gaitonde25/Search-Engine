@@ -1,0 +1,10 @@
+b'You are given a multiset SS. Over all pairs of subsets AA and BB, such that:'
+b'  B\xe2\x8a\x82AB\xe2\x8a\x82A;  |B|=|A|\xe2\x88\x921|B|=|A|\xe2\x88\x921;  greatest common divisor of all elements in AA is equal to one; '
+b'find the sum of \xe2\x88\x91x\xe2\x88\x88Ax\xe2\x8b\x85\xe2\x88\x91x\xe2\x88\x88Bx\xe2\x88\x91x\xe2\x88\x88Ax\xe2\x8b\x85\xe2\x88\x91x\xe2\x88\x88Bx, modulo 998244353998244353.'
+b'Input'
+b'The first line contains one integer mm (1\xe2\x89\xa4m\xe2\x89\xa41051\xe2\x89\xa4m\xe2\x89\xa4105): the number of different values in the multiset SS.'
+b'Each of the next mm lines contains two integers aiai, freqifreqi (1\xe2\x89\xa4ai\xe2\x89\xa4105,1\xe2\x89\xa4freqi\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4105,1\xe2\x89\xa4freqi\xe2\x89\xa4109). Element aiai appears in the multiset SS freqifreqi times. All aiai are different.'
+b'Output'
+b'Print the required sum, modulo 998244353998244353.'
+Tags
+combinatorics, math, number theory, *2800

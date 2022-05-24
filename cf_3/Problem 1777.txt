@@ -1,0 +1,15 @@
+b'Please notice the unusual memory limit of this problem.'
+b'Orac likes games. Recently he came up with the new game, "Game of Life".'
+b'You should play this game on a black and white grid with nn rows and mm columns. Each cell is either black or white.'
+b'For each iteration of the game (the initial iteration is 00), the color of each cell will change under the following rules:'
+b' If there are no adjacent cells with the same color as this cell on the current iteration, the color of it on the next iteration will be the same. Otherwise, the color of the cell on the next iteration will be different.'
+b'Two cells are adjacent if they have a mutual edge.'
+b'Now Orac has set an initial situation, and he wants to know for the cell (i,j)(i,j) (in ii-th row and jj-th column), what will be its color at the iteration pp. He may ask you these questions several times. '
+b'Input'
+b'The first line contains three integers n,m,t\xc2\xa0(1\xe2\x89\xa4n,m\xe2\x89\xa41000,1\xe2\x89\xa4t\xe2\x89\xa4100000)n,m,t\xc2\xa0(1\xe2\x89\xa4n,m\xe2\x89\xa41000,1\xe2\x89\xa4t\xe2\x89\xa4100000), representing the number of rows, columns, and the number of Orac queries.'
+b"Each of the following nn lines contains a binary string of length mm, the jj-th character in ii-th line represents the initial color of cell (i,j)(i,j). '0' stands for white, '1' stands for black."
+b'Each of the following tt lines contains three integers i,j,p\xc2\xa0(1\xe2\x89\xa4i\xe2\x89\xa4n,1\xe2\x89\xa4j\xe2\x89\xa4m,1\xe2\x89\xa4p\xe2\x89\xa41018)i,j,p\xc2\xa0(1\xe2\x89\xa4i\xe2\x89\xa4n,1\xe2\x89\xa4j\xe2\x89\xa4m,1\xe2\x89\xa4p\xe2\x89\xa41018), representing a query from Orac.'
+b'Output'
+b"Print tt lines, in ii-th line you should print the answer to the ii-th query by Orac. If the color of this cell is black, you should print '1'; otherwise, you should write '0'."
+Tags
+dfs and similar, graphs, implementation, shortest paths, *2000

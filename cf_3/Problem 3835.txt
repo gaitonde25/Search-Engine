@@ -1,0 +1,13 @@
+b"Alice has a string consisting of characters 'A', 'B' and 'C'. Bob can use the following transitions on any substring of our string in any order any number of times: "
+b'  A  BC  B  AC  C  AB  AAA  empty string '
+b'Note that a substring is one or more consecutive characters. For given queries, determine whether it is possible to obtain the target string from source.'
+b'Input'
+b"The first line contains a string S (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105). The second line contains a string T (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|T|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), each of these strings consists only of uppercase English letters 'A', 'B' and 'C'."
+b'The third line contains the number of queries Q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'The following Q lines describe queries. The i-th of these lines contains four space separated integers ai, bi, ci, di. These represent the i-th query: is it possible to create T[ci..di] from S[ai..bi] by applying the above transitions finite amount of times?'
+b'Here, U[x..y] is a substring of U that begins at index x (indexed from 1) and ends at index y. In particular, U[1..|U|] is the whole string U.'
+b'It is guaranteed that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S| and 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|T|.'
+b'Output'
+b"Print a string of Q characters, where the i-th character is '1' if the answer to the i-th query is positive, and '0' otherwise."
+Tags
+constructive algorithms, implementation, strings, *2500

@@ -1,0 +1,13 @@
+b'Baby Ehab has a piece of Cut and Stick with an array aa of length nn written on it. He plans to grab a pair of scissors and do the following to it:'
+b'  pick a range (l,r)(l,r) and cut out every element alal, al+1al+1, ..., arar in this range;  stick some of the elements together in the same order they were in the array;  end up with multiple pieces, where every piece contains some of the elements and every element belongs to some piece. '
+b'More formally, he partitions the sequence alal, al+1al+1, ..., arar into subsequences. He thinks a partitioning is beautiful if for every piece (subsequence) it holds that, if it has length xx, then no value occurs strictly more than \xe2\x8c\x88x2\xe2\x8c\x89\xe2\x8c\x88x2\xe2\x8c\x89 times in it.'
+b"He didn't pick a range yet, so he's wondering: for qq ranges (l,r)(l,r), what is the minimum number of pieces he needs to partition the elements alal, al+1al+1, ..., arar into so that the partitioning is beautiful."
+b'A sequence bb is a subsequence of an array aa if bb can be obtained from aa by deleting some (possibly zero) elements. Note that it does not have to be contiguous.'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the array aa and the number of queries.'
+b'The second line contains nn integers a1a1, a2a2, ..., anan (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'Each of the next qq lines contains two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the range of this query.'
+b'Output'
+b'For each query, print the minimum number of subsequences you need to partition this range into so that the partitioning is beautiful. We can prove such partitioning always exists.'
+Tags
+binary search, data structures, greedy, implementation, sortings, *2000

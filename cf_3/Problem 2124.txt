@@ -1,0 +1,12 @@
+b'Hooray! Polycarp turned nn years old! The Technocup Team sincerely congratulates Polycarp!'
+b'Polycarp celebrated all of his nn birthdays: from the 11-th to the nn-th. At the moment, he is wondering: how many times he turned beautiful number of years?'
+b'According to Polycarp, a positive integer is beautiful if it consists of only one digit repeated one or more times. For example, the following numbers are beautiful: 11, 7777, 777777, 4444 and 999999999999. The following numbers are not beautiful: 1212, 1111011110, 69696969 and 987654321987654321.'
+b'Of course, Polycarpus uses the decimal numeral system (i.e. radix is 10).'
+b'Help Polycarpus to find the number of numbers from 11 to nn (inclusive) that are beautiful.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the input. Then tt test cases follow.'
+b'Each test case consists of one line, which contains a positive integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109) \xe2\x80\x94 how many years Polycarp has turned.'
+b'Output'
+b'Print tt integers \xe2\x80\x94 the answers to the given test cases in the order they are written in the test. Each answer is an integer: the number of beautiful years between 11 and nn, inclusive.'
+Tags
+implementation, *1000

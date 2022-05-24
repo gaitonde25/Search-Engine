@@ -1,0 +1,10 @@
+b'This is an unusual problem in an unusual contest, here is the announcement: http://codeforces.com/blog/entry/73543'
+b'You run a string shop. During a day your customers want to buy strings of certain lengths and sometimes satisfying other properties.'
+b'Today your first customer asked you if you have a string of length kk. In fact, you have a string of length nn and can cut a string of length kk starting at any position out of it. You wonder how many distinct values this string can equal.'
+b'Please note that in your shop strings are over an alphabet of size 22.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4200000). The second line contains a binary string ss of length nn.'
+b'Output'
+b'In the only line print the number of distinct substrings of length kk of the string ss.'
+Tags
+

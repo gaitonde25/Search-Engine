@@ -1,0 +1,15 @@
+b'There are nn squares drawn from left to right on the floor. The ii-th square has three integers pi,ai,bipi,ai,bi, written on it. The sequence p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn forms a permutation.'
+b'Each round you will start from the leftmost square 11 and jump to the right. If you are now on the ii-th square, you can do one of the following two operations:'
+b'  Jump to the i+1i+1-th square and pay the cost aiai. If i=ni=n, then you can end the round and pay the cost aiai.  Jump to the jj-th square and pay the cost bibi, where jj is the leftmost square that satisfies j>i,pj>pij>i,pj>pi. If there is no such jj then you can end the round and pay the cost bibi. '
+b'There are qq rounds in the game. To make the game more difficult, you need to maintain a square set SS (initially it is empty). You must pass through these squares during the round (other squares can also be passed through). The square set SS for the ii-th round is obtained by adding or removing a square from the square set for the (i\xe2\x88\x921)(i\xe2\x88\x921)-th round. '
+b'For each round find the minimum cost you should pay to end it.'
+b'Input'
+b'The first line contains two integers nn, qq (1\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the number of squares and the number of rounds.'
+b'The second line contains nn distinct integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n). It is guaranteed that the sequence p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn forms a permutation.'
+b'The third line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'The fourth line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109).'
+b'Then qq lines follow, ii-th of them contains a single integer xixi (1\xe2\x89\xa4xi\xe2\x89\xa4n1\xe2\x89\xa4xi\xe2\x89\xa4n). If xixi was in the set SS on the (i\xe2\x88\x921)(i\xe2\x88\x921)-th round you should remove it, otherwise, you should add it.'
+b'Output'
+b'Print qq lines, each of them should contain a single integer \xc2\xa0\xe2\x80\x94 the minimum cost you should pay to end the corresponding round.'
+Tags
+constructive algorithms, data structures, dp, graphs, trees, *3300

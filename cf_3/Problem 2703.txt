@@ -1,0 +1,10 @@
+b'Tom loves vowels, and he likes long words with many vowels. His favorite words are vowelly words. We say a word of length kk is vowelly if there are positive integers nn and mm such that n\xe2\x8b\x85m=kn\xe2\x8b\x85m=k and when the word is written by using nn rows and mm columns (the first row is filled first, then the second and so on, with each row filled from left to right), every vowel of the English alphabet appears at least once in every row and every column.'
+b'You are given an integer kk and you must either print a vowelly word of length kk or print \xe2\x88\x921\xe2\x88\x921 if no such word exists.'
+b"In this problem the vowels of the English alphabet are 'a', 'e', 'i', 'o' ,'u'."
+b'Input'
+b'Input consists of a single line containing the integer kk (1\xe2\x89\xa4k\xe2\x89\xa41041\xe2\x89\xa4k\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the required length.'
+b'Output'
+b'The output must consist of a single line, consisting of a vowelly word of length kk consisting of lowercase English letters if it exists or \xe2\x88\x921\xe2\x88\x921 if it does not.'
+b'If there are multiple possible words, you may output any of them.'
+Tags
+constructive algorithms, math, number theory, *1100

@@ -1,0 +1,15 @@
+b'A lot of people in Berland hates rain, but you do not. Rain pacifies, puts your thoughts in order. By these years you have developed a good tradition \xe2\x80\x94 when it rains, you go on the street and stay silent for a moment, contemplate all around you, enjoy freshness, think about big deeds you have to do. '
+b'Today everything had changed quietly. You went on the street with a cup contained water, your favorite drink. In a moment when you were drinking a water you noticed that the process became quite long: the cup still contained water because of rain. You decided to make a formal model of what was happening and to find if it was possible to drink all water in that situation. '
+b'Thus, your cup is a cylinder with diameter equals d centimeters. Initial level of water in cup equals h centimeters from the bottom. '
+b'  '
+b'You drink a water with a speed equals v milliliters per second. But rain goes with such speed that if you do not drink a water from the cup, the level of water increases on e centimeters per second. The process of drinking water from the cup and the addition of rain to the cup goes evenly and continuously. '
+b'Find the time needed to make the cup empty or find that it will never happen. It is guaranteed that if it is possible to drink all water, it will happen not later than after 104 seconds.'
+b'Note one milliliter equals to one cubic centimeter.'
+b'Input'
+b'The only line of the input contains four integer numbers d,\xe2\x80\x89h,\xe2\x80\x89v,\xe2\x80\x89e (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d,\xe2\x80\x89h,\xe2\x80\x89v,\xe2\x80\x89e\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104), where:'
+b'  d \xe2\x80\x94 the diameter of your cylindrical cup,  h \xe2\x80\x94 the initial level of water in the cup,  v \xe2\x80\x94 the speed of drinking process from the cup in milliliters per second,  e \xe2\x80\x94 the growth of water because of rain if you do not drink from the cup. '
+b'Output'
+b'If it is impossible to make the cup empty, print "NO" (without quotes).'
+b'Otherwise print "YES" (without quotes) in the first line. In the second line print a real number \xe2\x80\x94 time in seconds needed the cup will be empty. The answer will be considered correct if its relative or absolute error doesn\'t exceed 10\xe2\x80\x89-\xe2\x80\x894. It is guaranteed that if the answer exists, it doesn\'t exceed 104.'
+Tags
+geometry, math, *1100

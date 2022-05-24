@@ -1,0 +1,12 @@
+b'You are given an array aa consisting of nn integers.'
+b"Let's call a pair of indices ii, jj good if 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n and gcd(ai,2aj)>1gcd(ai,2aj)>1 (where gcd(x,y)gcd(x,y) is the greatest common divisor of xx and yy)."
+b'Find the maximum number of good index pairs if you can reorder the array aa in an arbitrary way.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of the test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa420002\xe2\x89\xa4n\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the number of elements in the array.'
+b'The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 20002000.'
+b'Output'
+b'For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the maximum number of good index pairs if you can reorder the array aa in an arbitrary way.'
+Tags
+brute force, greedy, math, number theory, sortings, *900

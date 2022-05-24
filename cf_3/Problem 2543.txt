@@ -1,0 +1,16 @@
+b"Each evening after the dinner the SIS's students gather together to play the game of Sport Mafia. "
+b'For the tournament, Alya puts candies into the box, which will serve as a prize for a winner. To do that, she performs nn actions. The first action performed is to put a single candy into the box. For each of the remaining moves she can choose from two options:'
+b'  the first option, in case the box contains at least one candy, is to take exactly one candy out and eat it. This way the number of candies in the box decreased by 11;  the second option is to put candies in the box. In this case, Alya will put 11 more candy, than she put in the previous time. '
+b'Thus, if the box is empty, then it can only use the second option.'
+b"For example, one possible sequence of Alya's actions look as follows:"
+b'  put one candy into the box;  put two candies into the box;  eat one candy from the box;  eat one candy from the box;  put three candies into the box;  eat one candy from the box;  put four candies into the box;  eat one candy from the box;  put five candies into the box; '
+b'This way she will perform 99 actions, the number of candies at the end will be 1111, while Alya will eat 44 candies in total.'
+b"You know the total number of actions nn and the number of candies at the end kk. You need to find the total number of sweets Alya ate. That is the number of moves of the first option. It's guaranteed, that for the given nn and kk the answer always exists."
+b'Please note, that during an action of the first option, Alya takes out and eats exactly one candy.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109; 0\xe2\x89\xa4k\xe2\x89\xa41090\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the total number of moves and the number of candies in the box at the end. '
+b"It's guaranteed, that for the given nn and kk the answer exists."
+b'Output'
+b"Print a single integer\xc2\xa0\xe2\x80\x94 the number of candies, which Alya ate. Please note, that in this problem there aren't multiple possible answers\xc2\xa0\xe2\x80\x94 the answer is unique for any input data. "
+Tags
+binary search, brute force, math, *1000

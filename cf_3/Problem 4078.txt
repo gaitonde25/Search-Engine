@@ -1,0 +1,12 @@
+b"The fundamental prerequisite for justice is not to be correct, but to be strong. That's why justice is always the victor."
+b'The Cinderswarm Bee. Koyomi knows it.'
+b'The bees, according to their nature, live in a tree. To be more specific, a complete binary tree with n nodes numbered from 1 to n. The node numbered 1 is the root, and the parent of the i-th (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) node is . Note that, however, all edges in the tree are undirected.'
+b"Koyomi adds m extra undirected edges to the tree, creating more complication to trick the bees. And you're here to count the number of simple paths in the resulting graph, modulo 109\xe2\x80\x89+\xe2\x80\x897. A simple path is an alternating sequence of adjacent nodes and undirected edges, which begins and ends with nodes and does not contain any node more than once. Do note that a single node is also considered a valid simple path under this definition. Please refer to the examples and notes below for instances."
+b'Input'
+b'The first line of input contains two space-separated integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x894) \xe2\x80\x94 the number of nodes in the tree and the number of extra edges respectively.'
+b'The following m lines each contains two space-separated integers u and v (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, u\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89v) \xe2\x80\x94 describing an undirected extra edge whose endpoints are u and v.'
+b'Note that there may be multiple edges between nodes in the resulting graph.'
+b'Output'
+b'Output one integer \xe2\x80\x94 the number of simple paths in the resulting graph, modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+brute force, dfs and similar, graphs, *2800

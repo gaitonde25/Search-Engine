@@ -1,0 +1,12 @@
+b'It is a holiday season, and Koala is decorating his house with cool lights! He owns nn lights, all of which flash periodically.'
+b'After taking a quick glance at them, Koala realizes that each of his lights can be described with two parameters aiai and bibi. Light with parameters aiai and bibi will toggle (on to off, or off to on) every aiai seconds starting from the bibi-th second. In other words, it will toggle at the moments bibi, bi+aibi+ai, bi+2\xe2\x8b\x85aibi+2\xe2\x8b\x85ai and so on.'
+b"You know for each light whether it's initially on or off and its corresponding parameters aiai and bibi. Koala is wondering what is the maximum number of lights that will ever be on at the same time. So you need to find that out."
+b'  Here is a graphic for the first example. '
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100), the number of lights.'
+b'The next line contains a string ss of nn characters. The ii-th character is "1", if the ii-th lamp is initially on. Otherwise, ii-th character is "0".'
+b'The ii-th of the following nn lines contains two integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa451\xe2\x89\xa4ai,bi\xe2\x89\xa45) \xc2\xa0\xe2\x80\x94 the parameters of the ii-th light.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of lights that will ever be on at the same time.'
+Tags
+implementation, math, number theory, *1300

@@ -1,0 +1,13 @@
+b'You have a bag of size nn. Also you have mm boxes. The size of ii-th box is aiai, where each aiai is an integer non-negative power of two.'
+b'You can divide boxes into two parts of equal size. Your goal is to fill the bag completely.'
+b'For example, if n=10n=10 and a=[1,1,32]a=[1,1,32] then you have to divide the box of size 3232 into two parts of size 1616, and then divide the box of size 1616. So you can fill the bag with boxes of size 11, 11 and 88.'
+b'Calculate the minimum number of divisions required to fill the bag of size nn.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41018,1\xe2\x89\xa4m\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa41018,1\xe2\x89\xa4m\xe2\x89\xa4105) \xe2\x80\x94 the size of bag and the number of boxes, respectively.'
+b'The second line of each test case contains mm integers a1,a2,\xe2\x80\xa6,ama1,a2,\xe2\x80\xa6,am (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the sizes of boxes. It is guaranteed that each aiai is a power of two.'
+b'It is also guaranteed that sum of all mm over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case print one integer \xe2\x80\x94 the minimum number of divisions required to fill the bag of size nn (or \xe2\x88\x921\xe2\x88\x921, if it is impossible).'
+Tags
+bitmasks, greedy, *1900

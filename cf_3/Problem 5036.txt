@@ -1,0 +1,10 @@
+b'While Farmer John rebuilds his farm in an unfamiliar portion of Bovinia, Bessie is out trying some alternative jobs. In her new gig as a reporter, Bessie needs to know about programming competition results as quickly as possible. When she covers the 2016 Robot Rap Battle Tournament, she notices that all of the robots operate under deterministic algorithms. In particular, robot i will beat robot j if and only if robot i has a higher skill level than robot j. And if robot i beats robot j and robot j beats robot k, then robot i will beat robot k. Since rapping is such a subtle art, two robots can never have the same skill level.'
+b'Given the results of the rap battles in the order in which they were played, determine the minimum number of first rap battles that needed to take place before Bessie could order all of the robots by skill level.'
+b'Input'
+b'The first line of the input consists of two integers, the number of robots n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000) and the number of rap battles m ().'
+b'The next m lines describe the results of the rap battles in the order they took place. Each consists of two integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, ui\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89vi), indicating that robot ui beat robot vi in the i-th rap battle. No two rap battles involve the same pair of robots.'
+b'It is guaranteed that at least one ordering of the robots satisfies all m relations.'
+b'Output'
+b'Print the minimum k such that the ordering of the robots by skill level is uniquely defined by the first k rap battles. If there exists more than one ordering that satisfies all m relations, output -1.'
+Tags
+binary search, dp, graphs, *1800

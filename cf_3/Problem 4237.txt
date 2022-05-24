@@ -1,0 +1,11 @@
+b'In the Kingdom K., there are n towns numbered with integers from 1 to n. The towns are connected by n bi-directional roads numbered with integers from 1 to n. The i-th road connects the towns ui and vi and its length is li. There is no more than one road between two towns. Also, there are no roads that connect the towns with itself.'
+b"Let's call the inconvenience of the roads the maximum of the shortest distances between all pairs of towns."
+b'Because of lack of money, it was decided to close down one of the roads so that after its removal it is still possible to reach any town from any other. You have to find the minimum possible inconvenience of the roads after closing down one of the roads.'
+b'Input'
+b'The first line contains the integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of towns and roads.'
+b'The next n lines contain the roads description. The i-th from these lines contains three integers ui, vi, li (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the numbers of towns connected by the i-th road and the length of the i-th road. No road connects a town to itself, no two roads connect the same towns.'
+b"It's guaranteed that it's always possible to close down one of the roads so that all the towns are still reachable from each other."
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum possible inconvenience of the roads after the refusal from one of the roads.'
+Tags
+dfs and similar, dp, graphs, trees, *2500

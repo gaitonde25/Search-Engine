@@ -1,0 +1,14 @@
+b'Maksim walks on a Cartesian plane. Initially, he stands at the point (0,0)(0,0) and in one move he can go to any of four adjacent points (left, right, up, down). For example, if Maksim is currently at the point (0,0)(0,0), he can go to any of the following points in one move: '
+b'  (1,0)(1,0);  (0,1)(0,1);  (\xe2\x88\x921,0)(\xe2\x88\x921,0);  (0,\xe2\x88\x921)(0,\xe2\x88\x921). '
+b'There are also nn distinct key points at this plane. The ii-th point is pi=(xi,yi)pi=(xi,yi). It is guaranteed that 0\xe2\x89\xa4xi0\xe2\x89\xa4xi and 0\xe2\x89\xa4yi0\xe2\x89\xa4yi and there is no key point (0,0)(0,0).'
+b"Let the first level points be such points that max(xi,yi)=1max(xi,yi)=1, the second level points be such points that max(xi,yi)=2max(xi,yi)=2 and so on. Maksim wants to visit all the key points. But he shouldn't visit points of level i+1i+1 if he does not visit all the points of level ii. He starts visiting the points from the minimum level of point from the given set."
+b'The distance between two points (x1,y1)(x1,y1) and (x2,y2)(x2,y2) is |x1\xe2\x88\x92x2|+|y1\xe2\x88\x92y2||x1\xe2\x88\x92x2|+|y1\xe2\x88\x92y2| where |v||v| is the absolute value of vv.'
+b'Maksim wants to visit all the key points in such a way that the total distance he walks will be minimum possible. Your task is to find this distance.'
+b'If you are Python programmer, consider using PyPy instead of Python when you submit your code.'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of key points.'
+b'Each of the next nn lines contains two integers xixi, yiyi (0\xe2\x89\xa4xi,yi\xe2\x89\xa41090\xe2\x89\xa4xi,yi\xe2\x89\xa4109) \xe2\x80\x94 xx-coordinate of the key point pipi and yy-coordinate of the key point pipi. It is guaranteed that all the points are distinct and the point (0,0)(0,0) is not in this set.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum possible total distance Maksim has to travel if he needs to visit all key points in a way described above.'
+Tags
+dp, *2100

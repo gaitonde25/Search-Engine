@@ -1,0 +1,15 @@
+b'Hemose was shopping with his friends Samez, AhmedZ, AshrafEzz, TheSawan and O_E in Germany. As you know, Hemose and his friends are problem solvers, so they are very clever. Therefore, they will go to all discount markets in Germany.'
+b'Hemose has an array of nn integers. He wants Samez to sort the array in the non-decreasing order. Since it would be a too easy problem for Samez, Hemose allows Samez to use only the following operation:'
+b'Choose indices ii and jj such that 1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n, and |i\xe2\x88\x92j|\xe2\x89\xa5x|i\xe2\x88\x92j|\xe2\x89\xa5x. Then, swap elements aiai and ajaj.'
+b"Can you tell Samez if there's a way to sort the array in the non-decreasing order by using the operation written above some finite number of times (possibly 00)?"
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa4105)(1\xe2\x89\xa4t\xe2\x89\xa4105). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and xx (1\xe2\x89\xa4x\xe2\x89\xa4n\xe2\x89\xa4105)(1\xe2\x89\xa4x\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line of each test case contains nn integers a1,a2,...,ana1,a2,...,an (1\xe2\x89\xa4ai\xe2\x89\xa4109)(1\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, you should output a single string. '
+b'If Samez can sort the array in non-decreasing order using the operation written above, output "YES" (without quotes). Otherwise, output "NO" (without quotes).'
+b'You can print each letter of "YES" and "NO" in any case (upper or lower).'
+Tags
+constructive algorithms, dsu, math, sortings, *1200

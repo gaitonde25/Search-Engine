@@ -1,0 +1,11 @@
+b'Limak is a little bear who loves to play. Today he is playing by destroying block towers. He built n towers in a row. The i-th tower is made of hi identical blocks. For clarification see picture for the first sample.'
+b'Limak will repeat the following operation till everything is destroyed.'
+b'Block is called internal if it has all four neighbors, i.e. it has each side (top, left, down and right) adjacent to other block or to the floor. Otherwise, block is boundary. In one operation Limak destroys all boundary blocks. His paws are very fast and he destroys all those blocks at the same time.'
+b'Limak is ready to start. You task is to count how many operations will it take him to destroy all towers.'
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'The second line contains n space-separated integers h1,\xe2\x80\x89h2,\xe2\x80\x89...,\xe2\x80\x89hn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89hi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 sizes of towers.'
+b'Output'
+b'Print the number of operations needed to destroy all towers.'
+Tags
+binary search, data structures, dp, math, *1600

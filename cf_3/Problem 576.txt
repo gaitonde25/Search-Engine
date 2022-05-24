@@ -1,0 +1,12 @@
+b"The Winter holiday will be here soon. Mr. Chanek wants to decorate his house's wall with ornaments. The wall can be represented as a binary string aa of length nn. His favorite nephew has another binary string bb of length mm (m\xe2\x89\xa4nm\xe2\x89\xa4n)."
+b"Mr. Chanek's nephew loves the non-negative integer kk. His nephew wants exactly kk occurrences of bb as substrings in aa. "
+b'However, Mr. Chanek does not know the value of kk. So, for each kk (0\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x92m+10\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x92m+1), find the minimum number of elements in aa that have to be changed such that there are exactly kk occurrences of bb in aa.'
+b'A string ss occurs exactly kk times in tt if there are exactly kk different pairs (p,q)(p,q) such that we can obtain ss by deleting pp characters from the beginning and qq characters from the end of tt.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa45001\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa4500) \xe2\x80\x94 size of the binary string aa and bb respectively.'
+b'The second line contains a binary string aa of length nn.'
+b'The third line contains a binary string bb of length mm.'
+b'Output'
+b'Output n\xe2\x88\x92m+2n\xe2\x88\x92m+2 integers \xe2\x80\x94 the (k+1)(k+1)-th integer denotes the minimal number of elements in aa that have to be changed so there are exactly kk occurrences of bb as a substring in aa.'
+Tags
+dp, strings, *2200

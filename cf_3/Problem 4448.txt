@@ -1,0 +1,13 @@
+b"Anton's favourite geometric figures are regular polyhedrons. Note that there are five kinds of regular polyhedrons: "
+b'  Tetrahedron. Tetrahedron has 4 triangular faces.  Cube. Cube has 6 square faces.  Octahedron. Octahedron has 8 triangular faces.  Dodecahedron. Dodecahedron has 12 pentagonal faces.  Icosahedron. Icosahedron has 20 triangular faces. '
+b'All five kinds of polyhedrons are shown on the picture below:'
+b'  '
+b'Anton has a collection of n polyhedrons. One day he decided to know, how many faces his polyhedrons have in total. Help Anton and find this number!'
+b'Input'
+b"The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of polyhedrons in Anton's collection."
+b"Each of the following n lines of the input contains a string si\xc2\xa0\xe2\x80\x94 the name of the i-th polyhedron in Anton's collection. The string can look like this:"
+b'  "Tetrahedron" (without quotes), if the i-th polyhedron in Anton\'s collection is a tetrahedron.  "Cube" (without quotes), if the i-th polyhedron in Anton\'s collection is a cube.  "Octahedron" (without quotes), if the i-th polyhedron in Anton\'s collection is an octahedron.  "Dodecahedron" (without quotes), if the i-th polyhedron in Anton\'s collection is a dodecahedron.  "Icosahedron" (without quotes), if the i-th polyhedron in Anton\'s collection is an icosahedron. '
+b'Output'
+b"Output one number\xc2\xa0\xe2\x80\x94 the total number of faces in all the polyhedrons in Anton's collection."
+Tags
+implementation, strings, *800

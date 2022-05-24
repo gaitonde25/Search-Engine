@@ -1,0 +1,11 @@
+b'In Morse code, an letter of English alphabet is represented as a string of some length from 11 to 44. Moreover, each Morse code representation of an English letter contains only dots and dashes. In this task, we will represent a dot with a "0" and a dash with a "1".'
+b'Because there are 21+22+23+24=3021+22+23+24=30 strings with length 11 to 44 containing only "0" and/or "1", not all of them correspond to one of the 2626 English letters. In particular, each string of "0" and/or "1" of length at most 44 translates into a distinct English letter, except the following four strings that do not correspond to any English alphabet: "0011", "0101", "1110", and "1111".'
+b'You will work with a string SS, which is initially empty. For mm times, either a dot or a dash will be appended to SS, one at a time. Your task is to find and report, after each of these modifications to string SS, the number of non-empty sequences of English letters that are represented with some substring of SS in Morse code.'
+b'Since the answers can be incredibly tremendous, print them modulo 109+7109+7.'
+b'Input'
+b'The first line contains an integer mm (1\xe2\x89\xa4m\xe2\x89\xa430001\xe2\x89\xa4m\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the number of modifications to SS. '
+b'Each of the next mm lines contains either a "0" (representing a dot) or a "1" (representing a dash), specifying which character should be appended to SS.'
+b'Output'
+b'Print mm lines, the ii-th of which being the answer after the ii-th modification to SS.'
+Tags
+binary search, data structures, dp, hashing, sortings, string suffix structures, strings, *2400

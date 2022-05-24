@@ -1,0 +1,10 @@
+b'There are nn people participating in some contest, they start participating in xx minutes intervals. That means the first participant starts at time 00, the second participant starts at time xx, the third\xc2\xa0\xe2\x80\x94 at time 2\xe2\x8b\x85x2\xe2\x8b\x85x, and so on.'
+b"Duration of contest is tt minutes for each participant, so the first participant finishes the contest at time tt, the second\xc2\xa0\xe2\x80\x94 at time t+xt+x, and so on. When a participant finishes the contest, their dissatisfaction equals to the number of participants that started the contest (or starting it now), but haven't yet finished it."
+b'Determine the sum of dissatisfaction of all participants.'
+b'Input'
+b'The first line contains a single integer kk (1\xe2\x89\xa4k\xe2\x89\xa410001\xe2\x89\xa4k\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each of the next kk lines contains three integers nn, xx, tt (1\xe2\x89\xa4n,x,t\xe2\x89\xa42\xe2\x8b\x851091\xe2\x89\xa4n,x,t\xe2\x89\xa42\xe2\x8b\x85109)\xc2\xa0\xe2\x80\x94 the number of participants, the start interval and the contest duration.'
+b'Output'
+b'Print kk lines, in the ii-th line print the total dissatisfaction of participants in the ii-th test case.'
+Tags
+combinatorics, geometry, greedy, math, *1000

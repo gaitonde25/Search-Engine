@@ -1,0 +1,9 @@
+b'Leo has developed a new programming language C+=. In C+=, integer variables can only be changed with a "+=" operation that adds the right-hand side value to the left-hand side variable. For example, performing "a += b" when a = 22, b = 33 changes the value of a to 55 (the value of b does not change).'
+b'In a prototype program Leo has two integer variables a and b, initialized with some positive values. He can perform any number of operations "a += b" or "b += a". Leo wants to test handling large integers, so he wants to make the value of either a or b strictly greater than a given value nn. What is the smallest number of operations he has to perform?'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa41001\xe2\x89\xa4T\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each of the following TT lines describes a single test case, and contains three integers a,b,na,b,n (1\xe2\x89\xa4a,b\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4a,b\xe2\x89\xa4n\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 initial values of a and b, and the value one of the variables has to exceed, respectively.'
+b'Output'
+b'For each test case print a single integer\xc2\xa0\xe2\x80\x94 the smallest number of operations needed. Separate answers with line breaks.'
+Tags
+brute force, greedy, implementation, math, *800

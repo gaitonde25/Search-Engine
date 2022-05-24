@@ -1,0 +1,15 @@
+b'Monocarp is the coach of the Berland State University programming teams. He decided to compose a problemset for a training session for his teams.'
+b'Monocarp has nn problems that none of his students have seen yet. The ii-th problem has a topic aiai (an integer from 11 to nn) and a difficulty bibi (an integer from 11 to nn). All problems are different, that is, there are no two tasks that have the same topic and difficulty at the same time.'
+b'Monocarp decided to select exactly 33 problems from nn problems for the problemset. The problems should satisfy at least one of two conditions (possibly, both):'
+b'  the topics of all three selected problems are different;  the difficulties of all three selected problems are different. '
+b'Your task is to determine the number of ways to select three problems for the problemset.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4500001\xe2\x89\xa4t\xe2\x89\xa450000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'The first line of each testcase contains an integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of problems that Monocarp have.'
+b'In the ii-th of the following nn lines, there are two integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the topic and the difficulty of the ii-th problem.'
+b'It is guaranteed that there are no two problems that have the same topic and difficulty at the same time.'
+b"The sum of nn over all testcases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'Print the number of ways to select three training problems that meet either of the requirements described in the statement.'
+Tags
+combinatorics, data structures, geometry, implementation, math, *1700

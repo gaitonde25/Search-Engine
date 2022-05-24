@@ -1,0 +1,15 @@
+b'What-The-Fatherland is a strange country! All phone numbers there are strings consisting of lowercase English letters. What is double strange that a phone number can be associated with several bears!'
+b'In that country there is a rock band called CF consisting of n bears (including Mike) numbered from 1 to n. '
+b'  '
+b'Phone number of i-th member of CF is si. May 17th is a holiday named Phone Calls day. In the last Phone Calls day, everyone called all the numbers that are substrings of his/her number (one may call some number several times). In particular, everyone called himself (that was really strange country).'
+b'Denote as call(i,\xe2\x80\x89j) the number of times that i-th member of CF called the j-th member of CF. '
+b'The geek Mike has q questions that he wants to ask you. In each question he gives you numbers l,\xe2\x80\x89r and k and you should tell him the number '
+b''
+b'Input'
+b'The first line of input contains integers n and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xe2\x80\x89\xc3\x97\xe2\x80\x89105 and 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xe2\x80\x89\xc3\x97\xe2\x80\x89105).'
+b'The next n lines contain the phone numbers, i-th line contains a string si consisting of lowercase English letters ().'
+b'The next q lines contain the information about the questions, each of them contains integers l,\xe2\x80\x89r and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n and 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Output'
+b'Print the answer for each question in a separate line.'
+Tags
+data structures, string suffix structures, strings, trees, *2800

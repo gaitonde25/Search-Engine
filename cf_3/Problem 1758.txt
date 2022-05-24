@@ -1,0 +1,14 @@
+b'You are given a board of size n\xc3\x97nn\xc3\x97n, where nn is odd (not divisible by 22). Initially, each cell of the board contains one figure.'
+b'In one move, you can select exactly one figure presented in some cell and move it to one of the cells sharing a side or a corner with the current cell, i.e. from the cell (i,j)(i,j) you can move the figure to cells: '
+b'  (i\xe2\x88\x921,j\xe2\x88\x921)(i\xe2\x88\x921,j\xe2\x88\x921);  (i\xe2\x88\x921,j)(i\xe2\x88\x921,j);  (i\xe2\x88\x921,j+1)(i\xe2\x88\x921,j+1);  (i,j\xe2\x88\x921)(i,j\xe2\x88\x921);  (i,j+1)(i,j+1);  (i+1,j\xe2\x88\x921)(i+1,j\xe2\x88\x921);  (i+1,j)(i+1,j);  (i+1,j+1)(i+1,j+1); '
+b'Of course, you can not move figures to cells out of the board. It is allowed that after a move there will be several figures in one cell.'
+b'Your task is to find the minimum number of moves needed to get all the figures into one cell (i.e. n2\xe2\x88\x921n2\xe2\x88\x921 cells should contain 00 figures and one cell should contain n2n2 figures).'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42001\xe2\x89\xa4t\xe2\x89\xa4200) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The only line of the test case contains one integer nn (1\xe2\x89\xa4n<5\xe2\x8b\x851051\xe2\x89\xa4n<5\xe2\x8b\x85105) \xe2\x80\x94 the size of the board. It is guaranteed that nn is odd (not divisible by 22).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 5\xe2\x8b\x851055\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa45\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa45\xe2\x8b\x85105).'
+b'Output'
+b'For each test case print the answer \xe2\x80\x94 the minimum number of moves needed to get all the figures into one cell.'
+Tags
+math, *1000

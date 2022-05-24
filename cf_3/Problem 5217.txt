@@ -1,0 +1,11 @@
+b'Sean is trying to save a large file to a USB flash drive. He has n USB flash drives with capacities equal to a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an megabytes. The file size is equal to m megabytes. '
+b"Find the minimum number of USB flash drives needed to write Sean's file, if he can split the file between drives."
+b'Input'
+b'The first line contains positive integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of USB flash drives.'
+b"The second line contains positive integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 the size of Sean's file."
+b'Each of the next n lines contains positive integer ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the sizes of USB flash drives in megabytes.'
+b'It is guaranteed that the answer exists, i. e. the sum of all ai is not less than m.'
+b'Output'
+b"Print the minimum number of USB flash drives to write Sean's file, if he can split the file between drives."
+Tags
+greedy, implementation, sortings, *800

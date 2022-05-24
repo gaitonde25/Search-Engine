@@ -1,0 +1,11 @@
+b'You are given three positive (i.e. strictly greater than zero) integers xx, yy and zz.'
+b'Your task is to find positive integers aa, bb and cc such that x=max(a,b)x=max(a,b), y=max(a,c)y=max(a,c) and z=max(b,c)z=max(b,c), or determine that it is impossible to find such aa, bb and cc.'
+b'You have to answer tt independent test cases. Print required aa, bb and cc in any (arbitrary) order.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The only line of the test case contains three integers xx, yy, and zz (1\xe2\x89\xa4x,y,z\xe2\x89\xa41091\xe2\x89\xa4x,y,z\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print the answer:'
+b'  "NO" in the only line of the output if a solution doesn\'t exist;  or "YES" in the first line and any valid triple of positive integers aa, bb and cc (1\xe2\x89\xa4a,b,c\xe2\x89\xa41091\xe2\x89\xa4a,b,c\xe2\x89\xa4109) in the second line. You can print aa, bb and cc in any order. '
+Tags
+math, *800

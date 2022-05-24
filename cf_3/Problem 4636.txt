@@ -1,0 +1,14 @@
+b"Hongcow really likes the color red. Hongcow doesn't like the color blue."
+b'Hongcow is standing in an infinite field where there are n red points and m blue points.'
+b'Hongcow wants to draw a circle in the field such that this circle contains at least one red point, and no blue points. Points that line exactly on the boundary of the circle can be counted as either inside or outside.'
+b'Compute the radius of the largest circle that satisfies this condition. If this circle can have arbitrarily large size, print \xe2\x80\x89-\xe2\x80\x891. Otherwise, your answer will be accepted if it has relative or absolute error at most 10\xe2\x80\x89-\xe2\x80\x894.'
+b'Input'
+b'The first line of the input will contain two integers n,\xe2\x80\x89m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891,\xe2\x80\x89000).'
+b'The next n lines will contain two integers xi,\xe2\x80\x89yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104). This denotes the coordinates of a red point.'
+b'The next m lines will contain two integers xi,\xe2\x80\x89yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104). This denotes the coordinates of a blue point.'
+b'No two points will have the same coordinates.'
+b'Output'
+b'Print \xe2\x80\x89-\xe2\x80\x891 if the circle can have arbitrary size. Otherwise, print a floating point number representing the largest radius circle that satisfies the conditions. Your answer will be considered correct if its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x894.'
+b"Namely, let's assume that your answer is a and the answer of the jury is b. The checker program will consider your answer correct if ."
+Tags
+geometry, *3200

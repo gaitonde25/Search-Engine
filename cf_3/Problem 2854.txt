@@ -1,0 +1,14 @@
+b'This is an interactive problem.'
+b'Misha likes to play cooperative games with incomplete information. Today he suggested ten his friends to play a cooperative game "Lake".'
+b'Misha has already come up with a field for the upcoming game. The field for this game is a directed graph consisting of two parts. The first part is a road along the coast of the lake which is a cycle of cc vertices. The second part is a path from home to the lake which is a chain of tt vertices, and there is an edge from the last vertex of this chain to the vertex of the road along the coast which has the most beautiful view of the lake, also known as the finish vertex. Misha decided to keep the field secret, so nobody knows neither tt nor cc.'
+b'  '
+b'Note that each vertex of the field has exactly one outgoing edge and all the vertices except the home vertex and the finish vertex have exactly one ingoing edge. The home vertex has no incoming edges, the finish vertex has two incoming edges.'
+b'At the beginning of the game pieces of all the ten players, indexed with consecutive integers from 00 to 99, are at the home vertex. After that on each turn some of the players can ask Misha to simultaneously move their pieces along the corresponding edges. Misha will not answer more than qq such queries. After each move Misha will tell players whose pieces are at the same vertices and whose pieces are at different vertices.'
+b"The goal of the game is to move all the pieces to the finish vertex. Misha's friends have no idea how to win in such a game without knowledge of cc, tt and qq, but luckily they are your friends. Help them: coordinate their actions to win the game. "
+b'Misha has drawn such a field that 1\xe2\x89\xa4t,c1\xe2\x89\xa4t,c, (t+c)\xe2\x89\xa41000(t+c)\xe2\x89\xa41000 and q=3\xe2\x8b\x85(t+c)q=3\xe2\x8b\x85(t+c).'
+b'Input'
+b'There is no input\xc2\xa0\xe2\x80\x94 go to the interaction part straight away.'
+b'Output'
+b'After all friends gather at the finish vertex, print "done" and terminate your program.'
+Tags
+constructive algorithms, interactive, number theory, *2400

@@ -1,0 +1,12 @@
+b'You have array of nn numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. '
+b"Rearrange these numbers to satisfy |a1\xe2\x88\x92a2|\xe2\x89\xa4|a2\xe2\x88\x92a3|\xe2\x89\xa4\xe2\x80\xa6\xe2\x89\xa4|an\xe2\x88\x921\xe2\x88\x92an||a1\xe2\x88\x92a2|\xe2\x89\xa4|a2\xe2\x88\x92a3|\xe2\x89\xa4\xe2\x80\xa6\xe2\x89\xa4|an\xe2\x88\x921\xe2\x88\x92an|, where |x||x| denotes absolute value of xx. It's always possible to find such rearrangement."
+b'Note that all numbers in aa are not necessarily different. In other words, some numbers of aa may be same.'
+b'You have to answer independent tt test cases.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains single integer nn (3\xe2\x89\xa4n\xe2\x89\xa41053\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of array aa. It is guaranteed that the sum of values of nn over all test cases in the input does not exceed 105105.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print the rearranged version of array aa which satisfies given condition. If there are multiple valid rearrangements, print any of them.'
+Tags
+constructive algorithms, sortings, *1200

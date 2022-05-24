@@ -1,0 +1,13 @@
+b'You are given two positive integers aa and bb.'
+b'In one move, you can change aa in the following way:'
+b'  Choose any positive odd integer xx (x>0x>0) and replace aa with a+xa+x;  choose any positive even integer yy (y>0y>0) and replace aa with a\xe2\x88\x92ya\xe2\x88\x92y. '
+b'You can perform as many such operations as you want. You can choose the same numbers xx and yy in different moves.'
+b'Your task is to find the minimum number of moves required to obtain bb from aa. It is guaranteed that you can always obtain bb from aa.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'Then tt test cases follow. Each test case is given as two space-separated integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa41091\xe2\x89\xa4a,b\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 the minimum number of moves required to obtain bb from aa if you can perform any number of moves described in the problem statement. It is guaranteed that you can always obtain bb from aa.'
+Tags
+greedy, implementation, math, *800

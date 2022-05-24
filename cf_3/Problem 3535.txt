@@ -1,0 +1,7 @@
+b'Allen has a LOT of money. He has nn dollars in the bank. For security reasons, he wants to withdraw it in cash (we will not disclose the reasons here). The denominations for dollar bills are 11, 55, 1010, 2020, 100100. What is the minimum number of bills Allen could receive after withdrawing his entire balance?'
+b'Input'
+b'The first and only line of input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109).'
+b'Output'
+b'Output the minimum number of bills that Allen could receive.'
+Tags
+dp, greedy, *800

@@ -1,0 +1,15 @@
+b'There are nn detachments on the surface, numbered from 11 to nn, the ii-th detachment is placed in a point with coordinates (xi,yi)(xi,yi). All detachments are placed in different points.'
+b'Brimstone should visit each detachment at least once. You can choose the detachment where Brimstone starts.'
+b'To move from one detachment to another he should first choose one of four directions of movement (up, right, left or down) and then start moving with the constant speed of one unit interval in a second until he comes to a detachment. After he reaches an arbitrary detachment, he can repeat the same process.'
+b'Each tt seconds an orbital strike covers the whole surface, so at that moment Brimstone should be in a point where some detachment is located. He can stay with any detachment as long as needed.'
+b"Brimstone is a good commander, that's why he can create at most one detachment and place it in any empty point with integer coordinates he wants before his trip. Keep in mind that Brimstone will need to visit this detachment, too."
+b'Help Brimstone and find such minimal tt that it is possible to check each detachment. If there is no such tt report about it.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41000)(2\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of detachments.'
+b'In each of the next nn lines there is a pair of integers xixi, yiyi (|xi|,|yi|\xe2\x89\xa4109)(|xi|,|yi|\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the coordinates of ii-th detachment.'
+b'It is guaranteed that all points are different.'
+b'Output'
+b'Output such minimal integer tt that it is possible to check all the detachments adding at most one new detachment.'
+b'If there is no such tt, print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+binary search, data structures, dfs and similar, dsu, graphs, implementation, *2800

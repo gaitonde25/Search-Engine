@@ -1,0 +1,15 @@
+b'You are given a rectangular matrix of size n\xc3\x97mn\xc3\x97m consisting of integers from 11 to 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'In one move, you can:'
+b'  choose any element of the matrix and change its value to any integer between 11 and n\xe2\x8b\x85mn\xe2\x8b\x85m, inclusive;  take any column and shift it one cell up cyclically (see the example of such cyclic shift below). '
+b'A cyclic shift is an operation such that you choose some jj (1\xe2\x89\xa4j\xe2\x89\xa4m1\xe2\x89\xa4j\xe2\x89\xa4m) and set a1,j:=a2,j,a2,j:=a3,j,\xe2\x80\xa6,an,j:=a1,ja1,j:=a2,j,a2,j:=a3,j,\xe2\x80\xa6,an,j:=a1,j simultaneously.'
+b'  Example of cyclic shift of the first column '
+b'You want to perform the minimum number of moves to make this matrix look like this:'
+b'  '
+b'In other words, the goal is to obtain the matrix, where a1,1=1,a1,2=2,\xe2\x80\xa6,a1,m=m,a2,1=m+1,a2,2=m+2,\xe2\x80\xa6,an,m=n\xe2\x8b\x85ma1,1=1,a1,2=2,\xe2\x80\xa6,a1,m=m,a2,1=m+1,a2,2=m+2,\xe2\x80\xa6,an,m=n\xe2\x8b\x85m (i.e. ai,j=(i\xe2\x88\x921)\xe2\x8b\x85m+jai,j=(i\xe2\x88\x921)\xe2\x8b\x85m+j) with the minimum number of moves performed.'
+b'Input'
+b'The first line of the input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105,n\xe2\x8b\x85m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105,n\xe2\x8b\x85m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the size of the matrix.'
+b'The next nn lines contain mm integers each. The number at the line ii and position jj is ai,jai,j (1\xe2\x89\xa4ai,j\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ai,j\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum number of moves required to obtain the matrix, where a1,1=1,a1,2=2,\xe2\x80\xa6,a1,m=m,a2,1=m+1,a2,2=m+2,\xe2\x80\xa6,an,m=n\xe2\x8b\x85ma1,1=1,a1,2=2,\xe2\x80\xa6,a1,m=m,a2,1=m+1,a2,2=m+2,\xe2\x80\xa6,an,m=n\xe2\x8b\x85m (ai,j=(i\xe2\x88\x921)m+jai,j=(i\xe2\x88\x921)m+j).'
+Tags
+greedy, implementation, math, *1900

@@ -1,0 +1,16 @@
+b'A popular reality show is recruiting a new cast for the third season! nn candidates numbered from 11 to nn have been interviewed. The candidate ii has aggressiveness level lili, and recruiting this candidate will cost the show sisi roubles.'
+b'The show host reviewes applications of all candidates from i=1i=1 to i=ni=n by increasing of their indices, and for each of them she decides whether to recruit this candidate or not. If aggressiveness level of the candidate ii is strictly higher than that of any already accepted candidates, then the candidate ii will definitely be rejected. Otherwise the host may accept or reject this candidate at her own discretion. The host wants to choose the cast so that to maximize the total profit.'
+b'The show makes revenue as follows. For each aggressiveness level vv a corresponding profitability value cvcv is specified, which can be positive as well as negative. All recruited participants enter the stage one by one by increasing of their indices. When the participant ii enters the stage, events proceed as follows:'
+b'  The show makes clicli roubles, where lili is initial aggressiveness level of the participant ii.  If there are two participants with the same aggressiveness level on stage, they immediately start a fight. The outcome of this is:  the defeated participant is hospitalized and leaves the show.  aggressiveness level of the victorious participant is increased by one, and the show makes ctct roubles, where tt is the new aggressiveness level.  The fights continue until all participants on stage have distinct aggressiveness levels. '
+b'It is allowed to select an empty set of participants (to choose neither of the candidates).'
+b'The host wants to recruit the cast so that the total profit is maximized. The profit is calculated as the total revenue from the events on stage, less the total expenses to recruit all accepted participants (that is, their total sisi). Help the host to make the show as profitable as possible.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa420001\xe2\x89\xa4n,m\xe2\x89\xa42000) \xe2\x80\x94 the number of candidates and an upper bound for initial aggressiveness levels.'
+b'The second line contains nn integers lili (1\xe2\x89\xa4li\xe2\x89\xa4m1\xe2\x89\xa4li\xe2\x89\xa4m) \xe2\x80\x94 initial aggressiveness levels of all candidates.'
+b'The third line contains nn integers sisi (0\xe2\x89\xa4si\xe2\x89\xa450000\xe2\x89\xa4si\xe2\x89\xa45000) \xe2\x80\x94 the costs (in roubles) to recruit each of the candidates.'
+b'The fourth line contains n+mn+m integers cici (|ci|\xe2\x89\xa45000|ci|\xe2\x89\xa45000) \xe2\x80\x94 profitability for each aggrressiveness level.'
+b'It is guaranteed that aggressiveness level of any participant can never exceed n+mn+m under given conditions.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the largest profit of the show.'
+Tags
+bitmasks, dp, *2800

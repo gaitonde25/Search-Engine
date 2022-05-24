@@ -1,0 +1,15 @@
+b'You are given three integers aa, bb and cc.'
+b'Find two positive integers xx and yy (x>0x>0, y>0y>0) such that: '
+b'  the decimal representation of xx without leading zeroes consists of aa digits;  the decimal representation of yy without leading zeroes consists of bb digits;  the decimal representation of gcd(x,y)gcd(x,y) without leading zeroes consists of cc digits. '
+b'gcd(x,y)gcd(x,y) denotes the greatest common divisor (GCD) of integers xx and yy.'
+b'Output xx and yy. If there are multiple answers, output any of them.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa42851\xe2\x89\xa4t\xe2\x89\xa4285)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Each of the next tt lines contains three integers aa, bb and cc (1\xe2\x89\xa4a,b\xe2\x89\xa491\xe2\x89\xa4a,b\xe2\x89\xa49, 1\xe2\x89\xa4c\xe2\x89\xa4min(a,b)1\xe2\x89\xa4c\xe2\x89\xa4min(a,b))\xc2\xa0\xe2\x80\x94 the required lengths of the numbers.'
+b'It can be shown that the answer exists for all testcases under the given constraints.'
+b'Additional constraint on the input: all testcases are different.'
+b'Output'
+b'For each testcase print two positive integers\xc2\xa0\xe2\x80\x94 xx and yy (x>0x>0, y>0y>0) such that '
+b'  the decimal representation of xx without leading zeroes consists of aa digits;  the decimal representation of yy without leading zeroes consists of bb digits;  the decimal representation of gcd(x,y)gcd(x,y) without leading zeroes consists of cc digits. '
+Tags
+constructive algorithms, math, number theory, *1100

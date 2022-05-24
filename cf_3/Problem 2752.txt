@@ -1,0 +1,10 @@
+b'You are given an array aa consisting of nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b'Your problem is to find such pair of indices i,ji,j (1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n) that lcm(ai,aj)lcm(ai,aj) is minimum possible.'
+b'lcm(x,y)lcm(x,y) is the least common multiple of xx and yy (minimum positive number such that both xx and yy are divisors of this number).'
+b'Input'
+b'The first line of the input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41062\xe2\x89\xa4n\xe2\x89\xa4106) \xe2\x80\x94 the number of elements in aa.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41071\xe2\x89\xa4ai\xe2\x89\xa4107), where aiai is the ii-th element of aa.'
+b'Output'
+b'Print two integers ii and jj (1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n) such that the value of lcm(ai,aj)lcm(ai,aj) is minimum among all valid pairs i,ji,j. If there are multiple answers, you can print any.'
+Tags
+brute force, greedy, math, number theory, *2200

@@ -1,0 +1,9 @@
+b'While Vasya finished eating his piece of pizza, the lesson has already started. For being late for the lesson, the teacher suggested Vasya to solve one interesting problem. Vasya has an array a and integer x. He should find the number of different ordered pairs of indexes (i,\xe2\x80\x89j) such that ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89aj and there are exactly k integers y such that ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89aj and y is divisible by x.'
+b'In this problem it is meant that pair (i,\xe2\x80\x89j) is equal to (j,\xe2\x80\x89i) only if i is equal to j. For example pair (1,\xe2\x80\x892) is not the same as (2,\xe2\x80\x891).'
+b'Input'
+b'The first line contains 3 integers n,\xe2\x80\x89x,\xe2\x80\x89k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109,\xe2\x80\x890\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where n is the size of the array a and x and k are numbers from the statement.'
+b'The second line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the elements of the array a.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the answer to the problem.'
+Tags
+binary search, math, sortings, two pointers, *1700

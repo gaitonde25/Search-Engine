@@ -1,0 +1,18 @@
+b'Tavas lives in Tavaspolis. Tavaspolis has n cities numbered from 1 to n connected by n\xe2\x80\x89-\xe2\x80\x891 bidirectional roads. There exists a path between any two cities. Also each road has a length.'
+b'  '
+b"Tavas' favorite strings are binary strings (they contain only 0 and 1). For any binary string like s\xe2\x80\x89=\xe2\x80\x89s1s2... sk, T(s) is its Goodness. T(s) can be calculated as follows:"
+b'Consider there are exactly m blocks of 1s in this string (a block of 1s in s is a maximal consecutive substring of s that only contains 1) with lengths x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xm.'
+b'Define  where f is a given sequence (if m\xe2\x80\x89=\xe2\x80\x890, then T(s)\xe2\x80\x89=\xe2\x80\x890).'
+b'Tavas loves queries. He asks you to answer q queries. In each query he gives you numbers v,\xe2\x80\x89u,\xe2\x80\x89l and you should print following number:'
+b'Consider the roads on the path from city v to city u: e1,\xe2\x80\x89e2,\xe2\x80\x89...,\xe2\x80\x89ex.'
+b'Build the binary string b of length x such that: bi\xe2\x80\x89=\xe2\x80\x891 if and only if l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w(ei) where w(e) is the length of road e.'
+b'You should print T(b) for this query.'
+b'Input'
+b'The first line of input contains integers n and q (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105 and 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'The next line contains n\xe2\x80\x89-\xe2\x80\x891 space separated integers f1,\xe2\x80\x89f2,\xe2\x80\x89...,\xe2\x80\x89fn\xe2\x80\x89-\xe2\x80\x891 (|fi|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000).'
+b"The next n\xe2\x80\x89-\xe2\x80\x891 lines contain the details of the roads. Each line contains integers v,\xe2\x80\x89u and w and it means that there's a road between cities v and u of length w (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v,\xe2\x80\x89u\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n and 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)."
+b'The next q lines contain the details of the queries. Each line contains integers v,\xe2\x80\x89u,\xe2\x80\x89l (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v,\xe2\x80\x89u\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, v\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89u and 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b'Print the answer of each query in a single line.'
+Tags
+data structures, divide and conquer, trees, *3100

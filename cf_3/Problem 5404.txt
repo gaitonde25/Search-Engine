@@ -1,0 +1,10 @@
+b'This task is very simple. Given a string S of length n and q queries each query is on the format i j k which means sort the substring consisting of the characters from i to j in non-decreasing order if k\xe2\x80\x89=\xe2\x80\x891 or in non-increasing order if k\xe2\x80\x89=\xe2\x80\x890.'
+b'Output the final string after applying the queries.'
+b'Input'
+b'The first line will contain two integers n,\xe2\x80\x89q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950\xe2\x80\x89000), the length of the string and the number of queries respectively. '
+b'Next line contains a string S itself. It contains only lowercase English letters.'
+b'Next q lines will contain three integers each i,\xe2\x80\x89j,\xe2\x80\x89k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, ).'
+b'Output'
+b'Output one line, the string S after applying the queries.'
+Tags
+data structures, sortings, strings, *2300

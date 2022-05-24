@@ -1,0 +1,12 @@
+b'During the research on properties of the greatest common divisor (GCD) of a set of numbers, Ildar, a famous mathematician, introduced a brand new concept of the weakened common divisor (WCD) of a list of pairs of integers.'
+b'For a given list of pairs of integers (a1,b1)(a1,b1), (a2,b2)(a2,b2), ..., (an,bn)(an,bn) their WCD is arbitrary integer greater than 11, such that it divides at least one element in each pair. WCD may not exist for some lists.'
+b'For example, if the list looks like [(12,15),(25,18),(10,24)][(12,15),(25,18),(10,24)], then their WCD can be equal to 22, 33, 55 or 66 (each of these numbers is strictly greater than 11 and divides at least one number in each pair).'
+b"You're currently pursuing your PhD degree under Ildar's mentorship, and that's why this problem was delegated to you. Your task is to calculate WCD efficiently."
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41500001\xe2\x89\xa4n\xe2\x89\xa4150000)\xc2\xa0\xe2\x80\x94 the number of pairs.'
+b'Each of the next nn lines contains two integer values aiai, bibi (2\xe2\x89\xa4ai,bi\xe2\x89\xa42\xe2\x8b\x851092\xe2\x89\xa4ai,bi\xe2\x89\xa42\xe2\x8b\x85109).'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the WCD of the set of pairs. '
+b'If there are multiple possible answers, output any; if there is no answer, print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+brute force, greedy, number theory, *1600

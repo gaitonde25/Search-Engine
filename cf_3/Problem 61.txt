@@ -1,0 +1,9 @@
+b'Calculate the number of permutations pp of size nn with exactly kk inversions (pairs of indices (i,j)(i,j) such that i<ji<j and pi>pjpi>pj) and exactly xx indices ii such that pi>pi+1pi>pi+1.'
+b"Yep, that's the whole problem. Good luck!"
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa43\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa43\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of one line which contains three integers nn, kk and xx (1\xe2\x89\xa4n\xe2\x89\xa49982443521\xe2\x89\xa4n\xe2\x89\xa4998244352; 1\xe2\x89\xa4k\xe2\x89\xa4111\xe2\x89\xa4k\xe2\x89\xa411; 1\xe2\x89\xa4x\xe2\x89\xa4111\xe2\x89\xa4x\xe2\x89\xa411).'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the answer to the problem, taken modulo 998244353998244353.'
+Tags
+brute force, combinatorics, dp, fft, math, *2700

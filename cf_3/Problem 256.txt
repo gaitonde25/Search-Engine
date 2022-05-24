@@ -1,0 +1,13 @@
+b'One of my most productive days was throwing away 1,000 lines of code.\xe2\x80\x94 Ken Thompson'
+b'Fibonacci addition is an operation on an array XX of integers, parametrized by indices ll and rr. Fibonacci addition increases XlXl by F1F1, increases Xl+1Xl+1 by F2F2, and so on up to XrXr which is increased by Fr\xe2\x88\x92l+1Fr\xe2\x88\x92l+1.'
+b'FiFi denotes the ii-th Fibonacci number (F1=1F1=1, F2=1F2=1, Fi=Fi\xe2\x88\x921+Fi\xe2\x88\x922Fi=Fi\xe2\x88\x921+Fi\xe2\x88\x922 for i>2i>2), and all operations are performed modulo MODMOD.'
+b'You are given two arrays AA and BB of the same length. We will ask you to perform several Fibonacci additions on these arrays with different parameters, and after each operation you have to report whether arrays AA and BB are equal modulo MODMOD.'
+b'Input'
+b'The first line contains 3 numbers nn, qq and MODMOD (1\xe2\x89\xa4n,q\xe2\x89\xa43\xe2\x8b\x85105,1\xe2\x89\xa4MOD\xe2\x89\xa4109+71\xe2\x89\xa4n,q\xe2\x89\xa43\xe2\x8b\x85105,1\xe2\x89\xa4MOD\xe2\x89\xa4109+7)\xc2\xa0\xe2\x80\x94 the length of the arrays, the number of operations, and the number modulo which all operations are performed.'
+b'The second line contains nn numbers\xc2\xa0\xe2\x80\x94 array AA (0\xe2\x89\xa4Ai<MOD0\xe2\x89\xa4Ai<MOD).'
+b'The third line also contains nn numbers\xc2\xa0\xe2\x80\x94 array BB (0\xe2\x89\xa4Bi<MOD0\xe2\x89\xa4Bi<MOD).'
+b'The next qq lines contain character cc and two numbers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 operation parameters. If cc is "A", Fibonacci addition is to be performed on array AA, and if it is is "B", the operation is to be performed on BB.'
+b'Output'
+b'After each operation, print "YES" (without quotes) if the arrays are equal and "NO" otherwise. Letter case does not matter.'
+Tags
+brute force, data structures, hashing, implementation, math, *2700

@@ -1,0 +1,17 @@
+b"You are given a directed weighted graph with n nodes and 2n\xe2\x80\x89-\xe2\x80\x892 edges. The nodes are labeled from 1 to n, while the edges are labeled from 1 to 2n\xe2\x80\x89-\xe2\x80\x892. The graph's edges can be split into two parts."
+b'  The first n\xe2\x80\x89-\xe2\x80\x891 edges will form a rooted spanning tree, with node 1 as the root. All these edges will point away from the root.  The last n\xe2\x80\x89-\xe2\x80\x891 edges will be from node i to node 1, for all 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n. '
+b'You are given q queries. There are two types of queries'
+b'  1 i w: Change the weight of the i-th edge to w  2 u v: Print the length of the shortest path between nodes u to v '
+b'Given these queries, print the shortest path lengths.'
+b'Input'
+b'The first line of input will contain two integers n,\xe2\x80\x89q (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000), the number of nodes, and the number of queries, respectively.'
+b'The next 2n\xe2\x80\x89-\xe2\x80\x892 integers will contain 3 integers ai,\xe2\x80\x89bi,\xe2\x80\x89ci, denoting a directed edge from node ai to node bi with weight ci.'
+b'The first n\xe2\x80\x89-\xe2\x80\x891 of these lines will describe a rooted spanning tree pointing away from node 1, while the last n\xe2\x80\x89-\xe2\x80\x891 of these lines will have bi\xe2\x80\x89=\xe2\x80\x891.'
+b'More specifically, '
+b'  The edges (a1,\xe2\x80\x89b1),\xe2\x80\x89(a2,\xe2\x80\x89b2),\xe2\x80\x89... (an\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89bn\xe2\x80\x89-\xe2\x80\x891) will describe a rooted spanning tree pointing away from node 1.  bj\xe2\x80\x89=\xe2\x80\x891 for n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892n\xe2\x80\x89-\xe2\x80\x892.  an,\xe2\x80\x89an\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89...,\xe2\x80\x89a2n\xe2\x80\x89-\xe2\x80\x892 will be distinct and between 2 and n. '
+b'The next q lines will contain 3 integers, describing a query in the format described in the statement.'
+b'All edge weights will be between 1 and 106.'
+b'Output'
+b'For each type 2 query, print the length of the shortest path in its own line.'
+Tags
+data structures, dfs and similar, trees, *2100

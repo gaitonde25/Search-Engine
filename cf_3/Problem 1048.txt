@@ -1,0 +1,9 @@
+b'You are given nn integers, each integer is from 11 to nn, all of them are pairwise distinct. You have to paint them red and blue (each integer should have exactly one color).'
+b'The cost of painting is the number of pairs (x,y)(x,y) such that ymodx=0ymodx=0, yy is red and xx is blue.'
+b'For each k\xe2\x88\x88[1,n]k\xe2\x88\x88[1,n], calculate the maximum cost of painting if exactly kk integers should have a red color.'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'Output'
+b'For each k\xe2\x88\x88[1,n]k\xe2\x88\x88[1,n] print one integer \xe2\x80\x94 the maximum cost of painting, if exactly kk integers should be red.'
+Tags
+*special problem, data structures, greedy, number theory, *2500

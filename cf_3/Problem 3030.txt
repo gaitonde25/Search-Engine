@@ -1,0 +1,7 @@
+b"You are given an n\xc3\x97mn\xc3\x97m table, consisting of characters \xc2\xabA\xc2\xbb, \xc2\xabG\xc2\xbb, \xc2\xabC\xc2\xbb, \xc2\xabT\xc2\xbb. Let's call a table nice, if every 2\xc3\x9722\xc3\x972 square contains all four distinct characters. Your task is to find a nice table (also consisting of \xc2\xabA\xc2\xbb, \xc2\xabG\xc2\xbb, \xc2\xabC\xc2\xbb, \xc2\xabT\xc2\xbb), that differs from the given table in the minimum number of characters."
+b'Input'
+b'First line contains two positive integers nn and mm\xc2\xa0\xe2\x80\x94 number of rows and columns in the table you are given (2\xe2\x89\xa4n,m,n\xc3\x97m\xe2\x89\xa43000002\xe2\x89\xa4n,m,n\xc3\x97m\xe2\x89\xa4300000). Then, nn lines describing the table follow. Each line contains exactly mm characters \xc2\xabA\xc2\xbb, \xc2\xabG\xc2\xbb, \xc2\xabC\xc2\xbb, \xc2\xabT\xc2\xbb.'
+b'Output'
+b'Output nn lines, mm characters each. This table must be nice and differ from the input table in the minimum number of characters.'
+Tags
+brute force, constructive algorithms, greedy, math, *2100

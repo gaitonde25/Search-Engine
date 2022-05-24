@@ -1,0 +1,12 @@
+b"The only difference between this problem and D2 is that you don't have to provide the way to construct the answer in this problem, but you have to do it in D2."
+b"There's a table of n\xc3\x97mn\xc3\x97m cells (nn rows and mm columns). The value of n\xe2\x8b\x85mn\xe2\x8b\x85m is even."
+b'A domino is a figure that consists of two cells having a common side. It may be horizontal (one of the cells is to the right of the other) or vertical (one of the cells is above the other).'
+b'You need to find out whether it is possible to place nm2nm2 dominoes on the table so that exactly kk of them are horizontal and all the other dominoes are vertical. The dominoes cannot overlap and must fill the whole table.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case consists of a single line. The line contains three integers nn, mm, kk (1\xe2\x89\xa4n,m\xe2\x89\xa41001\xe2\x89\xa4n,m\xe2\x89\xa4100, 0\xe2\x89\xa4k\xe2\x89\xa4nm20\xe2\x89\xa4k\xe2\x89\xa4nm2, n\xe2\x8b\x85mn\xe2\x8b\x85m is even) \xe2\x80\x94 the number of rows, columns and horizontal dominoes, respectively.'
+b'Output'
+b'For each test case output "YES", if it is possible to place dominoes in the desired way, or "NO" otherwise.'
+b'You may print each letter in any case (YES, yes, Yes will all be recognized as positive answer, NO, no and nO will all be recognized as negative answer).'
+Tags
+constructive algorithms, math, *1700

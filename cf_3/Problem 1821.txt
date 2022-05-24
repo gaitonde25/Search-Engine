@@ -1,0 +1,15 @@
+b" Denis, after buying flowers and sweets (you will learn about this story in the next task), went to a date with Nastya to ask her to become a couple. Now, they are sitting in the cafe and finally... Denis asks her to be together, but ... Nastya doesn't give any answer. "
+b'The poor boy was very upset because of that. He was so sad that he punched some kind of scoreboard with numbers. The numbers are displayed in the same way as on an electronic clock: each digit position consists of 77 segments, which can be turned on or off to display different numbers. The picture shows how all 1010 decimal digits are displayed: '
+b'  '
+b'After the punch, some segments stopped working, that is, some segments might stop glowing if they glowed earlier. But Denis remembered how many sticks were glowing and how many are glowing now. Denis broke exactly kk segments and he knows which sticks are working now. Denis came up with the question: what is the maximum possible number that can appear on the board if you turn on exactly kk sticks (which are off now)? '
+b'It is allowed that the number includes leading zeros.'
+b'Input'
+b'The first line contains integer nn (1\xe2\x89\xa4n\xe2\x89\xa42000)(1\xe2\x89\xa4n\xe2\x89\xa42000) \xc2\xa0\xe2\x80\x94 the number of digits on scoreboard and kk (0\xe2\x89\xa4k\xe2\x89\xa42000)(0\xe2\x89\xa4k\xe2\x89\xa42000) \xc2\xa0\xe2\x80\x94 the number of segments that stopped working.'
+b'The next nn lines contain one binary string of length 77, the ii-th of which encodes the ii-th digit of the scoreboard.'
+b'Each digit on the scoreboard consists of 77 segments. We number them, as in the picture below, and let the ii-th place of the binary string be 00 if the ii-th stick is not glowing and 11 if it is glowing. Then a binary string of length 77 will specify which segments are glowing now.'
+b'  '
+b'Thus, the sequences "1110111", "0010010", "1011101", "1011011", "0111010", "1101011", "1101111", "1010010", "1111111", "1111011" encode in sequence all digits from 00 to 99 inclusive.'
+b'Output'
+b'Output a single number consisting of nn digits \xc2\xa0\xe2\x80\x94 the maximum number that can be obtained if you turn on exactly kk sticks or \xe2\x88\x921\xe2\x88\x921, if it is impossible to turn on exactly kk sticks so that a correct number appears on the scoreboard digits.'
+Tags
+bitmasks, dp, graphs, greedy, *1700

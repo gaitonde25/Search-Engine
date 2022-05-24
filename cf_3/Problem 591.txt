@@ -1,0 +1,13 @@
+b'You are given a digital clock with nn digits. Each digit shows an integer from 00 to 99, so the whole clock shows an integer from 00 to 10n\xe2\x88\x92110n\xe2\x88\x921. The clock will show leading zeroes if the number is smaller than 10n\xe2\x88\x92110n\xe2\x88\x921.'
+b'You want the clock to show 00 with as few operations as possible. In an operation, you can do one of the following: '
+b"  decrease the number on the clock by 11, or  swap two digits (you can choose which digits to swap, and they don't have to be adjacent). "
+b'Your task is to determine the minimum number of operations needed to make the clock show 00.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103).'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 number of digits on the clock.'
+b'The second line of each test case contains a string of nn digits s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (0\xe2\x89\xa4s1,s2,\xe2\x80\xa6,sn\xe2\x89\xa490\xe2\x89\xa4s1,s2,\xe2\x80\xa6,sn\xe2\x89\xa49) \xe2\x80\x94 the number on the clock.'
+b'Note: If the number is smaller than 10n\xe2\x88\x92110n\xe2\x88\x921 the clock will show leading zeroes.'
+b'Output'
+b'For each test case, print one integer: the minimum number of operations needed to make the clock show 00.'
+Tags
+greedy, *800

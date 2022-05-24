@@ -1,0 +1,11 @@
+b'Everybody seems to think that the Martians are green, but it turns out they are metallic pink and fat. Ajs has two bags of distinct nonnegative integers. The bags are disjoint, and the union of the sets of numbers in the bags is {0,1,\xe2\x80\xa6,M\xe2\x88\x921}{0,1,\xe2\x80\xa6,M\xe2\x88\x921}, for some positive integer MM. Ajs draws a number from the first bag and a number from the second bag, and then sums them modulo MM.'
+b'What are the residues modulo MM that Ajs cannot obtain with this action?'
+b'Input'
+b'The first line contains two positive integer NN (1\xe2\x89\xa4N\xe2\x89\xa42000001\xe2\x89\xa4N\xe2\x89\xa4200000) and MM (N+1\xe2\x89\xa4M\xe2\x89\xa4109N+1\xe2\x89\xa4M\xe2\x89\xa4109), denoting the number of the elements in the first bag and the modulus, respectively.'
+b'The second line contains NN nonnegative integers a1,a2,\xe2\x80\xa6,aNa1,a2,\xe2\x80\xa6,aN (0\xe2\x89\xa4a1<a2<\xe2\x80\xa6<aN<M0\xe2\x89\xa4a1<a2<\xe2\x80\xa6<aN<M), the contents of the first bag.'
+b' '
+b'Output'
+b'In the first line, output the cardinality KK of the set of residues modulo MM which Ajs cannot obtain.'
+b'In the second line of the output, print KK space-separated integers greater or equal than zero and less than MM, which represent the residues Ajs cannot obtain. The outputs should be sorted in increasing order of magnitude. If KK=0, do not output the second line.'
+Tags
+hashing, number theory, *2400

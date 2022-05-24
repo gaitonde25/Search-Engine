@@ -1,0 +1,11 @@
+b"Kuroni isn't good at economics. So he decided to found a new financial pyramid called Antihype. It has the following rules:"
+b'  You can join the pyramid for free and get 00 coins.  If you are already a member of Antihype, you can invite your friend who is currently not a member of Antihype, and get a number of coins equal to your age (for each friend you invite). '
+b"nn people have heard about Antihype recently, the ii-th person's age is aiai. Some of them are friends, but friendship is a weird thing now: the ii-th person is a friend of the jj-th person if and only if ai\xc2\xa0AND\xc2\xa0aj=0ai\xc2\xa0AND\xc2\xa0aj=0, where ANDAND denotes the bitwise AND operation."
+b'Nobody among the nn people is a member of Antihype at the moment. They want to cooperate to join and invite each other to Antihype in a way that maximizes their combined gainings. Could you help them? '
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the number of people.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the ages of the people.'
+b'Output'
+b'Output exactly one integer \xc2\xa0\xe2\x80\x94 the maximum possible combined gainings of all nn people.'
+Tags
+bitmasks, brute force, dp, dsu, graphs, *3500

@@ -1,0 +1,12 @@
+b'Alyona decided to go on a diet and went to the forest to get some apples. There she unexpectedly found a magic rooted tree with root in the vertex 1, every vertex and every edge of which has a number written on.'
+b"The girl noticed that some of the tree's vertices are sad, so she decided to play with them. Let's call vertex v sad if there is a vertex u in subtree of vertex v such that dist(v,\xe2\x80\x89u)\xe2\x80\x89>\xe2\x80\x89au, where au is the number written on vertex u, dist(v,\xe2\x80\x89u) is the sum of the numbers written on the edges on the path from v to u."
+b'Leaves of a tree are vertices connected to a single vertex by a single edge, but the root of a tree is a leaf if and only if the tree consists of a single vertex\xc2\xa0\xe2\x80\x94 root.'
+b'Thus Alyona decided to remove some of tree leaves until there will be no any sad vertex left in the tree. What is the minimum number of leaves Alyona needs to remove?'
+b'Input'
+b'In the first line of the input integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) is given\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'In the second line the sequence of n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) is given, where ai is the number written on vertex i.'
+b'The next n\xe2\x80\x89-\xe2\x80\x891 lines describe tree edges: ith of them consists of two integers pi and ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, \xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), meaning that there is an edge connecting vertices i\xe2\x80\x89+\xe2\x80\x891 and pi with number ci written on it.'
+b'Output'
+b'Print the only integer\xc2\xa0\xe2\x80\x94 the minimum number of leaves Alyona needs to remove such that there will be no any sad vertex left in the tree.'
+Tags
+dfs and similar, dp, graphs, trees, *1600

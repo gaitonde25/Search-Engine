@@ -1,0 +1,14 @@
+b'Alice and Bob have decided to play the game "Rock, Paper, Scissors". '
+b'The game consists of several rounds, each round is independent of each other. In each round, both players show one of the following things at the same time: rock, paper or scissors. If both players showed the same things then the round outcome is a draw. Otherwise, the following rules applied:'
+b'  if one player showed rock and the other one showed scissors, then the player who showed rock is considered the winner and the other one is considered the loser;  if one player showed scissors and the other one showed paper, then the player who showed scissors is considered the winner and the other one is considered the loser;  if one player showed paper and the other one showed rock, then the player who showed paper is considered the winner and the other one is considered the loser. '
+b'Alice and Bob decided to play exactly nn rounds of the game described above. Alice decided to show rock a1a1 times, show scissors a2a2 times and show paper a3a3 times. Bob decided to show rock b1b1 times, show scissors b2b2 times and show paper b3b3 times. Though, both Alice and Bob did not choose the sequence in which they show things. It is guaranteed that a1+a2+a3=na1+a2+a3=n and b1+b2+b3=nb1+b2+b3=n.'
+b'Your task is to find two numbers:'
+b'  the minimum number of round Alice can win;  the maximum number of rounds Alice can win. '
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109) \xe2\x80\x94 the number of rounds.'
+b'The second line of the input contains three integers a1,a2,a3a1,a2,a3 (0\xe2\x89\xa4ai\xe2\x89\xa4n0\xe2\x89\xa4ai\xe2\x89\xa4n) \xe2\x80\x94 the number of times Alice will show rock, scissors and paper, respectively. It is guaranteed that a1+a2+a3=na1+a2+a3=n.'
+b'The third line of the input contains three integers b1,b2,b3b1,b2,b3 (0\xe2\x89\xa4bj\xe2\x89\xa4n0\xe2\x89\xa4bj\xe2\x89\xa4n) \xe2\x80\x94 the number of times Bob will show rock, scissors and paper, respectively. It is guaranteed that b1+b2+b3=nb1+b2+b3=n.'
+b'Output'
+b'Print two integers: the minimum and the maximum number of rounds Alice can win.'
+Tags
+brute force, constructive algorithms, flows, greedy, math, *1800

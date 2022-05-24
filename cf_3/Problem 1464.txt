@@ -1,0 +1,12 @@
+b'A brick is defined as a rectangle with integer side lengths with either width 11 or height 11 (or both).'
+b'There is an n\xc3\x97mn\xc3\x97m grid, and each cell is colored either black or white. A tiling is a way to place bricks onto the grid such that each black cell is covered by exactly one brick, and each white cell is not covered by any brick. In other words, bricks are placed on black cells only, cover all black cells, and no two bricks overlap.'
+b'  An example tiling of the first test case using 55 bricks. It is possible to do better, using only 44 bricks. '
+b'What is the minimum number of bricks required to make a valid tiling?'
+b'Input'
+b'The first line contains two integers nn, mm (1\xe2\x89\xa4n,m\xe2\x89\xa42001\xe2\x89\xa4n,m\xe2\x89\xa4200) \xe2\x80\x94 the number of rows and columns, respectively.'
+b'The next nn lines describe the grid. The ii-th of these lines contains a string of length mm, where the jj-th character denotes the color of the cell in row ii, column jj. A black cell is given by "#", and a white cell is given by ".".'
+b'It is guaranteed that there is at least one black cell.'
+b'Output'
+b'Output a single integer, the minimum number of bricks required.'
+Tags
+flows, graph matchings, graphs, *2800

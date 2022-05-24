@@ -1,0 +1,17 @@
+b'Holidays are coming up really soon. Rick realized that it\'s time to think about buying a traditional spruce tree. But Rick doesn\'t want real trees to get hurt so he decided to find some in an n\xc3\x97mn\xc3\x97m matrix consisting of "*" and ".".'
+b'  '
+b"To find every spruce first let's define what a spruce in the matrix is. A set of matrix cells is called a spruce of height kk with origin at point (x,y)(x,y) if:"
+b'  All cells in the set contain an "*".  For each 1\xe2\x89\xa4i\xe2\x89\xa4k1\xe2\x89\xa4i\xe2\x89\xa4k all cells with the row number x+i\xe2\x88\x921x+i\xe2\x88\x921 and columns in range [y\xe2\x88\x92i+1,y+i\xe2\x88\x921][y\xe2\x88\x92i+1,y+i\xe2\x88\x921] must be a part of the set. All other cells cannot belong to the set. '
+b' '
+b'Examples of correct and incorrect spruce trees:'
+b'  '
+b'Now Rick wants to know how many spruces his n\xc3\x97mn\xc3\x97m matrix contains. Help Rick solve this problem.'
+b'Input'
+b'Each test contains one or more test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410).'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa45001\xe2\x89\xa4n,m\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 matrix size.'
+b'Next nn lines of each test case contain mm characters ci,jci,j\xc2\xa0\xe2\x80\x94 matrix contents. It is guaranteed that ci,jci,j is either a "." or an "*".'
+b'It is guaranteed that the sum of n\xe2\x8b\x85mn\xe2\x8b\x85m over all test cases does not exceed 50025002 (\xe2\x88\x91n\xe2\x8b\x85m\xe2\x89\xa45002\xe2\x88\x91n\xe2\x8b\x85m\xe2\x89\xa45002).'
+b'Output'
+b'For each test case, print single integer\xc2\xa0\xe2\x80\x94 the total number of spruces in the matrix.'
+Tags
+brute force, dp, implementation, *1400

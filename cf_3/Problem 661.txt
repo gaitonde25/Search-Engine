@@ -1,0 +1,15 @@
+b'Moamen has an array of nn distinct integers. He wants to sort that array in non-decreasing order by doing the following operations in order exactly once:'
+b'  Split the array into exactly kk non-empty subarrays such that each element belongs to exactly one subarray.  Reorder these subarrays arbitrary.  Merge the subarrays in their new order. '
+b'A sequence aa is a subarray of a sequence bb if aa can be obtained from bb by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b'Can you tell Moamen if there is a way to sort the array in non-decreasing order using the operations written above?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4|ai|\xe2\x89\xa41090\xe2\x89\xa4|ai|\xe2\x89\xa4109). It is guaranteed that all numbers are distinct.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, you should output a single string.'
+b'If Moamen can sort the array in non-decreasing order, output "YES" (without quotes). Otherwise, output "NO" (without quotes).'
+b'You can print each letter of "YES" and "NO" in any case (upper or lower).'
+Tags
+greedy, sortings, *1100

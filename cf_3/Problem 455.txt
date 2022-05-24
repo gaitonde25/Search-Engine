@@ -1,0 +1,10 @@
+b'For two positive integers ll and rr (l\xe2\x89\xa4rl\xe2\x89\xa4r) let c(l,r)c(l,r) denote the number of integer pairs (i,j)(i,j) such that l\xe2\x89\xa4i\xe2\x89\xa4j\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4j\xe2\x89\xa4r and gcd(i,j)\xe2\x89\xa5lgcd\xe2\x81\xa1(i,j)\xe2\x89\xa5l. Here, gcd(i,j)gcd\xe2\x81\xa1(i,j) is the greatest common divisor (GCD) of integers ii and jj.'
+b'YouKn0wWho has two integers nn and kk where 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n. Let f(n,k)f(n,k) denote the minimum of \xe2\x88\x91i=1kc(xi+1,xi+1)\xe2\x88\x91i=1kc(xi+1,xi+1) over all integer sequences 0=x1<x2<\xe2\x80\xa6<xk<xk+1=n0=x1<x2<\xe2\x80\xa6<xk<xk+1=n.'
+b'Help YouKn0wWho find f(n,k)f(n,k). '
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4t\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first and only line of each test case contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4105). '
+b'Output'
+b'For each test case, print a single integer\xc2\xa0\xe2\x80\x94 f(n,k)f(n,k).'
+Tags
+divide and conquer, dp, number theory, *3000

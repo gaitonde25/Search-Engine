@@ -1,0 +1,10 @@
+b'You are given a positive integer nn, written without leading zeroes (for example, the number 04 is incorrect). '
+b'In one operation you can delete any digit of the given integer so that the result remains a positive integer without leading zeros.'
+b'Determine the minimum number of operations that you need to consistently apply to the given integer nn to make from it the square of some positive integer or report that it is impossible.'
+b'An integer xx is the square of some positive integer if and only if x=y2x=y2 for some positive integer yy.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851091\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85109). The number is given without leading zeroes.'
+b'Output'
+b'If it is impossible to make the square of some positive integer from nn, print -1. In the other case, print the minimal number of operations required to do it.'
+Tags
+brute force, implementation, math, *1400

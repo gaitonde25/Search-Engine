@@ -1,0 +1,24 @@
+b"As Kevin is in BigMan's house, suddenly a trap sends him onto a grid with nn rows and mm columns."
+b"BigMan's trap is configured by two arrays: an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and an array b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm."
+b'In the ii-th row there is a heater which heats the row by aiai degrees, and in the jj-th column there is a heater which heats the column by bjbj degrees, so that the temperature of cell (i,j)(i,j) is ai+bjai+bj.'
+b'Fortunately, Kevin has a suit with one parameter xx and two modes:'
+b'  heat resistance. In this mode suit can stand all temperatures greater or equal to xx, but freezes as soon as reaches a cell with temperature less than xx.  cold resistance. In this mode suit can stand all temperatures less than xx, but will burn as soon as reaches a cell with temperature at least xx.'
+b'Once Kevin lands on a cell the suit automatically turns to cold resistance mode if the cell has temperature less than xx, or to heat resistance mode otherwise, and cannot change after that.'
+b'We say that two cells are adjacent if they share an edge.'
+b'Let a path be a sequence c1,c2,\xe2\x80\xa6,ckc1,c2,\xe2\x80\xa6,ck of cells such that cici and ci+1ci+1 are adjacent for 1\xe2\x89\xa4i\xe2\x89\xa4k\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4k\xe2\x88\x921.'
+b'We say that two cells are connected if there is a path between the two cells consisting only of cells that Kevin can step on.'
+b'A connected component is a maximal set of pairwise connected cells.'
+b"We say that a connected component is good if Kevin can escape the grid starting from it \xc2\xa0\xe2\x80\x94 when it contains at least one border cell of the grid, and that it's bad otherwise."
+b'To evaluate the situation, Kevin gives a score of 11 to each good component and a score of 22 for each bad component.'
+b'The final score will be the difference between the total score of components with temperatures bigger than or equal to xx and the score of components with temperatures smaller than xx.'
+b'There are qq possible values of xx that Kevin can use, and for each of them Kevin wants to know the final score.'
+b'Help Kevin defeat BigMan!'
+b'Input'
+b'The first line contains three integers nn,mm,qq (1\xe2\x89\xa4n,m,q\xe2\x89\xa41051\xe2\x89\xa4n,m,q\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x93 the number of rows, columns, and the number of possible values for xx respectively.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105).'
+b'The third line contains mm integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (1\xe2\x89\xa4bi\xe2\x89\xa41051\xe2\x89\xa4bi\xe2\x89\xa4105).'
+b'Each of the next qq lines contains one integer xx (1\xe2\x89\xa4x\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4x\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'Output qq lines, in the ii-th line output the answer for the ii-th possible value of xx from the input.'
+Tags
+fft, graphs, math, *3300

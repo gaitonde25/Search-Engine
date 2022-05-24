@@ -1,0 +1,15 @@
+b'Alex has bought a new novel that was published in nn volumes. He has read these volumes one by one, and each volume has taken him several (maybe one) full days to read. So, on the first day, he was reading the first volume, and on each of the following days, he was reading either the same volume he had been reading on the previous day, or the next volume.'
+b'Let vivi be the number of the volume Alex was reading on the ii-th day. Here are some examples:'
+b"  one of the possible situations is v1=1v1=1, v2=1v2=1, v3=2v3=2, v4=3v4=3, v5=3v5=3\xc2\xa0\xe2\x80\x94 this situation means that Alex has spent two days (11-st and 22-nd) on the first volume, one day (33-rd) on the second volume, and two days (44-th and 55-th) on the third volume;  a situation v1=2v1=2, v2=2v2=2, v3=3v3=3 is impossible, since Alex started with the first volume (so v1v1 cannot be anything but 11);  a situation v1=1v1=1, v2=2v2=2, v3=3v3=3, v4=1v4=1 is impossible, since Alex won't return to the first volume after reading the third one;  a situation v1=1v1=1, v2=3v2=3 is impossible, since Alex doesn't skip volumes. "
+b"You know that Alex was reading the volume vava on the day aa, and the volume vcvc on the day cc. Now you want to guess which volume was he reading on the day bb, which is between the days aa and cc (so a<b<ca<b<c). There may be some ambiguity, so you want to make any valid guess (i.\xe2\x80\x89e. choose some volume number vbvb so it's possible that Alex was reading volume vava on day aa, volume vbvb on day bb, and volume vcvc on day cc)."
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of volumes the novel consists of.'
+b'The second line of each test case contains two integers aa and vava (1\xe2\x89\xa4a\xe2\x89\xa4981\xe2\x89\xa4a\xe2\x89\xa498; 1\xe2\x89\xa4va\xe2\x89\xa4a1\xe2\x89\xa4va\xe2\x89\xa4a) denoting that Alex was reading volume vava at day aa.'
+b'The third line of each test case contains two integers cc and vcvc (a+2\xe2\x89\xa4c\xe2\x89\xa4100a+2\xe2\x89\xa4c\xe2\x89\xa4100; va\xe2\x89\xa4vc\xe2\x89\xa4cva\xe2\x89\xa4vc\xe2\x89\xa4c) denoting that Alex was reading volume vcvc at day cc.'
+b'The fourth line of each test case contains one integer bb (a<b<ca<b<c)\xc2\xa0\xe2\x80\x94 the day you are interested in.'
+b"It's guaranteed that the input is not controversial, in other words, Alex could read volume vava at day aa and volume vcvc at day cc."
+b'Output'
+b'For each test case, print the possible index of volume Alex could read at day bb. If there are multiple answers, print any.'
+Tags
+*special problem, math, *1300

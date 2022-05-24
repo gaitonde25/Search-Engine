@@ -1,0 +1,14 @@
+b'Alicia has an array, a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, of non-negative integers. For each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, she has found a non-negative integer xi=max(0,a1,\xe2\x80\xa6,ai\xe2\x88\x921)xi=max(0,a1,\xe2\x80\xa6,ai\xe2\x88\x921). Note that for i=1i=1, xi=0xi=0.'
+b'For example, if Alicia had the array a={0,1,2,0,3}a={0,1,2,0,3}, then x={0,0,1,2,2}x={0,0,1,2,2}.'
+b'Then, she calculated an array, b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn: bi=ai\xe2\x88\x92xibi=ai\xe2\x88\x92xi.'
+b'For example, if Alicia had the array a={0,1,2,0,3}a={0,1,2,0,3}, b={0\xe2\x88\x920,1\xe2\x88\x920,2\xe2\x88\x921,0\xe2\x88\x922,3\xe2\x88\x922}={0,1,1,\xe2\x88\x922,1}b={0\xe2\x88\x920,1\xe2\x88\x920,2\xe2\x88\x921,0\xe2\x88\x922,3\xe2\x88\x922}={0,1,1,\xe2\x88\x922,1}.'
+b'Alicia gives you the values b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn and asks you to restore the values a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Can you help her solve the problem?'
+b'Input'
+b"The first line contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa42000003\xe2\x89\xa4n\xe2\x89\xa4200000)\xc2\xa0\xe2\x80\x93 the number of elements in Alicia's array."
+b'The next line contains nn integers, b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109).'
+b'It is guaranteed that for the given array bb there is a solution a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, for all elements of which the following is true: 0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109.'
+b'Output'
+b'Print nn integers, a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109), such that if you calculate xx according to the statement, b1b1 will be equal to a1\xe2\x88\x92x1a1\xe2\x88\x92x1, b2b2 will be equal to a2\xe2\x88\x92x2a2\xe2\x88\x92x2, ..., and bnbn will be equal to an\xe2\x88\x92xnan\xe2\x88\x92xn.'
+b'It is guaranteed that there exists at least one solution for the given tests. It can be shown that the solution is unique.'
+Tags
+implementation, math, *900

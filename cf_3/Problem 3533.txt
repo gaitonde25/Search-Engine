@@ -1,0 +1,13 @@
+b"You've got a string a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, consisting of zeros and ones."
+b"Let's call a sequence of consecutive elements ai,ai\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\xa6,\xe2\x80\x89ajai,ai\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\xa6,\xe2\x80\x89aj (1\xe2\x89\xa4\xe2\x80\x89i\xe2\x89\xa4\xe2\x80\x89j\xe2\x89\xa4\xe2\x80\x89n1\xe2\x89\xa4\xe2\x80\x89i\xe2\x89\xa4\xe2\x80\x89j\xe2\x89\xa4\xe2\x80\x89n) a substring of string aa. "
+b'You can apply the following operations any number of times:'
+b'  Choose some substring of string aa (for example, you can choose entire string) and reverse it, paying xx coins for it (for example, \xc2\xab0101101\xc2\xbb \xe2\x86\x92\xe2\x86\x92 \xc2\xab0111001\xc2\xbb);  Choose some substring of string aa (for example, you can choose entire string or just one symbol) and replace each symbol to the opposite one (zeros are replaced by ones, and ones\xc2\xa0\xe2\x80\x94 by zeros), paying yy coins for it (for example, \xc2\xab0101101\xc2\xbb \xe2\x86\x92\xe2\x86\x92 \xc2\xab0110001\xc2\xbb). '
+b'You can apply these operations in any order. It is allowed to apply the operations multiple times to the same substring.'
+b'What is the minimum number of coins you need to spend to get a string consisting only of ones?'
+b'Input'
+b'The first line of input contains integers nn, xx and yy (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300000,0\xe2\x89\xa4x,y\xe2\x89\xa41091\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300000,0\xe2\x89\xa4x,y\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 length of the string, cost of the first operation (substring reverse) and cost of the second operation (inverting all elements of substring).'
+b'The second line contains the string aa of length nn, consisting of zeros and ones.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum total cost of operations you need to spend to get a string consisting only of ones. Print 00, if you do not need to perform any operations.'
+Tags
+brute force, greedy, implementation, math, *1500

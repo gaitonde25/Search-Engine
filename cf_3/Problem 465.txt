@@ -1,0 +1,14 @@
+b'Frog Gorf is traveling through Swamp kingdom. Unfortunately, after a poor jump, he fell into a well of nn meters depth. Now Gorf is on the bottom of the well and has a long way up.'
+b"The surface of the well's walls vary in quality: somewhere they are slippery, but somewhere have convenient ledges. In other words, if Gorf is on xx meters below ground level, then in one jump he can go up on any integer distance from 00 to axax meters inclusive. (Note that Gorf can't jump down, only up)."
+b"Unfortunately, Gorf has to take a break after each jump (including jump on 00 meters). And after jumping up to position xx meters below ground level, he'll slip exactly bxbx meters down while resting."
+b'Calculate the minimum number of jumps Gorf needs to reach ground level.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa43000001\xe2\x89\xa4n\xe2\x89\xa4300000)\xc2\xa0\xe2\x80\x94 the depth of the well.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4i0\xe2\x89\xa4ai\xe2\x89\xa4i), where aiai is the maximum height Gorf can jump from ii meters below ground level.'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (0\xe2\x89\xa4bi\xe2\x89\xa4n\xe2\x88\x92i0\xe2\x89\xa4bi\xe2\x89\xa4n\xe2\x88\x92i), where bibi is the distance Gorf will slip down if he takes a break on ii meters below ground level.'
+b'Output'
+b"If Gorf can't reach ground level, print \xe2\x88\x921\xe2\x88\x921. Otherwise, firstly print integer kk\xc2\xa0\xe2\x80\x94 the minimum possible number of jumps."
+b"Then print the sequence d1,d2,\xe2\x80\xa6,dkd1,d2,\xe2\x80\xa6,dk where djdj is the depth Gorf'll reach after the jj-th jump, but before he'll slip down during the break. Ground level is equal to 00."
+b'If there are multiple answers, print any of them.'
+Tags
+data structures, dfs and similar, dp, graphs, shortest paths, two pointers, *1900

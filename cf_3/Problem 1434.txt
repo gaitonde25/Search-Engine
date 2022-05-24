@@ -1,0 +1,13 @@
+b'You are given a n\xc3\x97nn\xc3\x97n chessboard. Rows and columns of the board are numbered from 11 to nn. Cell (x,y)(x,y) lies on the intersection of column number xx and row number yy.'
+b'Rook is a chess piece, that can in one turn move any number of cells vertically or horizontally. There are mm rooks (m<nm<n) placed on the chessboard in such a way that no pair of rooks attack each other. I.e. there are no pair of rooks that share a row or a column.'
+b"In one turn you can move one of the rooks any number of cells vertically or horizontally. Additionally, it shouldn't be attacked by any other rook after movement. What is the minimum number of moves required to place all the rooks on the main diagonal?"
+b'The main diagonal of the chessboard is all the cells (i,i)(i,i), where 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n.'
+b'Input'
+b'The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103). Description of the tt test cases follows.'
+b"The first line of each test case contains two integers nn and mm\xc2\xa0\xe2\x80\x94 size of the chessboard and the number of rooks (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4m<n1\xe2\x89\xa4m<n). Each of the next mm lines contains two integers xixi and yiyi\xc2\xa0\xe2\x80\x94 positions of rooks, ii-th rook is placed in the cell (xi,yi)(xi,yi) (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n). It's guaranteed that no two rooks attack each other in the initial placement."
+b'The sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each of tt test cases print a single integer\xc2\xa0\xe2\x80\x94 the minimum number of moves required to place all the rooks on the main diagonal.'
+b'It can be proved that this is always possible.'
+Tags
+dfs and similar, dsu, graphs, *1700

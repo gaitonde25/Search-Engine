@@ -1,0 +1,13 @@
+b'This is the hard version of the problem. The difference between the versions is the constraint on nn and the required number of operations. You can make hacks only if all versions of the problem are solved.'
+b'There are two binary strings aa and bb of length nn (a binary string is a string consisting of symbols 00 and 11). In an operation, you select a prefix of aa, and simultaneously invert the bits in the prefix (00 changes to 11 and 11 changes to 00) and reverse the order of the bits in the prefix.'
+b'For example, if a=001011a=001011 and you select the prefix of length 33, it becomes 011011011011. Then if you select the entire string, it becomes 001001001001.'
+b'Your task is to transform the string aa into bb in at most 2n2n operations. It can be proved that it is always possible.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases. Next 3t3t lines contain descriptions of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the length of the binary strings.'
+b'The next two lines contain two binary strings aa and bb of length nn.'
+b'It is guaranteed that the sum of nn across all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, output an integer kk (0\xe2\x89\xa4k\xe2\x89\xa42n0\xe2\x89\xa4k\xe2\x89\xa42n), followed by kk integers p1,\xe2\x80\xa6,pkp1,\xe2\x80\xa6,pk (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n). Here kk is the number of operations you use and pipi is the length of the prefix you flip in the ii-th operation.'
+Tags
+constructive algorithms, data structures, implementation, strings, two pointers, *1700

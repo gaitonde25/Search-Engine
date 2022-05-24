@@ -1,0 +1,10 @@
+b'In the Kingdom of Wakanda, the 2020 economic crisis has made a great impact on each city and its surrounding area. Cities have made a plan to build a fast train rail between them to boost the economy, but because of the insufficient funds, each city can only build a rail with one other city, and they want to do it together.'
+b'Cities which are paired up in the plan will share the cost of building the rail between them, and one city might need to pay more than the other. Each city knows the estimated cost of building their part of the rail to every other city. One city can not have the same cost of building the rail with two different cities.'
+b"If in a plan, there are two cities that are not connected, but the cost to create a rail between them is lower for each of them than the cost to build the rail with their current pairs, then that plan is not acceptable and the collaboration won't go on. Your task is to create a suitable plan for the cities (pairing of the cities) or say that such plan doesn't exist."
+b'Input'
+b'First line contains one integer N(2\xe2\x89\xa4N\xe2\x89\xa4103)N(2\xe2\x89\xa4N\xe2\x89\xa4103) \xe2\x80\x94 the number of cities.'
+b'Each of the next NN lines contains N\xe2\x88\x921N\xe2\x88\x921 integers Ai,1,Ai,2,...,Ai,i\xe2\x88\x921,Ai,i+1,...,Ai,N\xe2\x88\x921(1\xe2\x89\xa4Ai,j\xe2\x89\xa4109)Ai,1,Ai,2,...,Ai,i\xe2\x88\x921,Ai,i+1,...,Ai,N\xe2\x88\x921(1\xe2\x89\xa4Ai,j\xe2\x89\xa4109) \xe2\x80\x94 where Ai,jAi,j represents the cost for city ii to build the rail to city jj. Note that in each line Ai,iAi,i is skipped.'
+b'Output'
+b'Output should contain NN integers O1,O2,...,ONO1,O2,...,ON, where OiOi represents the city with which city ii should build the rail with, or \xe2\x88\x921\xe2\x88\x921 if it is not possible to find the stable pairing.'
+Tags
+*3500

@@ -1,0 +1,12 @@
+b'Denote a cyclic sequence of size nn as an array ss such that snsn is adjacent to s1s1. The segment s[r,l]s[r,l] where l<rl<r is the concatenation of s[r,n]s[r,n] and s[1,l]s[1,l].'
+b'You are given an array aa consisting of nn integers. Define bb as the cyclic sequence obtained from concatenating mm copies of aa. Note that bb has size n\xe2\x8b\x85mn\xe2\x8b\x85m.'
+b'You are given an integer kk where k=1k=1 or kk is a prime number. Find the number of different segments in bb where the sum of elements in the segment is divisible by kk.'
+b'Two segments are considered different if the set of indices of the segments are different. For example, when n=3n=3 and m=2m=2, the set of indices for segment s[2,5]s[2,5] is {2,3,4,5}{2,3,4,5}, and for segment s[5,2]s[5,2] is {5,6,1,2}{5,6,1,2}. In particular, the segments s[1,6],s[2,1],\xe2\x80\xa6,s[6,5]s[1,6],s[2,1],\xe2\x80\xa6,s[6,5] are considered as the same segment.'
+b'Output the answer modulo 109+7109+7.'
+b'Input'
+b'The first line contains three integers nn, mm, and kk (1\xe2\x89\xa4n,m,k\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m,k\xe2\x89\xa42\xe2\x8b\x85105, k=1k=1 or kk is a prime number).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'Output an integer denoting the number of different segments in bb where the sum of elements in the segment is divisible by kk, modulo 109+7109+7.'
+Tags
+data structures, fft, number theory, *3000

@@ -1,0 +1,11 @@
+b'Baby Ehab is known for his love for a certain operation. He has an array aa of length nn, and he decided to keep doing the following operation on it: '
+b'  he picks 22 adjacent elements; he then removes them and places a single integer in their place: their bitwise XOR. Note that the length of the array decreases by one. '
+b'Now he asks you if he can make all elements of the array equal. Since babies like to make your life harder, he requires that you leave at least 22 elements remaining.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4151\xe2\x89\xa4t\xe2\x89\xa415)\xc2\xa0\xe2\x80\x94 the number of test cases you need to solve.'
+b'The first line of each test case contains an integers nn (2\xe2\x89\xa4n\xe2\x89\xa420002\xe2\x89\xa4n\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the number of elements in the array aa.'
+b'The second line contains nn space-separated integers a1a1, a2a2, \xe2\x80\xa6\xe2\x80\xa6, anan (0\xe2\x89\xa4ai<2300\xe2\x89\xa4ai<230)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'Output'
+b'If Baby Ehab can make all elements equal while leaving at least 22 elements standing, print "YES". Otherwise, print "NO".'
+Tags
+bitmasks, brute force, dp, greedy, *1500

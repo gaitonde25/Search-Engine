@@ -1,0 +1,11 @@
+b'Recently a Golden Circle of Beetlovers was found in Byteland. It is a circle route going through n\xe2\x8b\x85kn\xe2\x8b\x85k cities. The cities are numerated from 11 to n\xe2\x8b\x85kn\xe2\x8b\x85k, the distance between the neighboring cities is exactly 11 km.'
+b'Sergey does not like beetles, he loves burgers. Fortunately for him, there are nn fast food restaurants on the circle, they are located in the 11-st, the (k+1)(k+1)-st, the (2k+1)(2k+1)-st, and so on, the ((n\xe2\x88\x921)k+1)((n\xe2\x88\x921)k+1)-st cities, i.e. the distance between the neighboring cities with fast food restaurants is kk km.'
+b'Sergey began his journey at some city ss and traveled along the circle, making stops at cities each ll km (l>0l>0), until he stopped in ss once again. Sergey then forgot numbers ss and ll, but he remembers that the distance from the city ss to the nearest fast food restaurant was aa km, and the distance from the city he stopped at after traveling the first ll km from ss to the nearest fast food restaurant was bb km. Sergey always traveled in the same direction along the circle, but when he calculated distances to the restaurants, he considered both directions.'
+b'Now Sergey is interested in two integers. The first integer xx is the minimum number of stops (excluding the first) Sergey could have done before returning to ss. The second integer yy is the maximum number of stops (excluding the first) Sergey could have done before returning to ss.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa41000001\xe2\x89\xa4n,k\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the number of fast food restaurants on the circle and the distance between the neighboring restaurants, respectively.'
+b'The second line contains two integers aa and bb (0\xe2\x89\xa4a,b\xe2\x89\xa4k20\xe2\x89\xa4a,b\xe2\x89\xa4k2)\xc2\xa0\xe2\x80\x94 the distances to the nearest fast food restaurants from the initial city and from the city Sergey made the first stop at, respectively.'
+b'Output'
+b'Print the two integers xx and yy.'
+Tags
+brute force, math, *1700

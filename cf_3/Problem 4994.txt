@@ -1,0 +1,8 @@
+b'You are given n points on a plane. All the points are distinct and no three of them lie on the same line. Find the number of parallelograms with the vertices at the given points.'
+b'Input'
+b'The first line of the input contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000) \xe2\x80\x94 the number of points.'
+b'Each of the next n lines contains two integers (xi,\xe2\x80\x89yi) (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the coordinates of the i-th point.'
+b'Output'
+b'Print the only integer c \xe2\x80\x94 the number of parallelograms with the vertices at the given points.'
+Tags
+geometry, *1900

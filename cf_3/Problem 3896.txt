@@ -1,0 +1,12 @@
+b"The Travelling Salesman spends a lot of time travelling so he tends to get bored. To pass time, he likes to perform operations on numbers. One such operation is to take a positive integer x and reduce it to the number of bits set to 1 in the binary representation of x. For example for number 13 it's true that 1310\xe2\x80\x89=\xe2\x80\x8911012, so it has 3 bits set and 13 will be reduced to 3 in one operation."
+b'He calls a number special if the minimum number of operations to reduce it to 1 is k.'
+b'He wants to find out how many special numbers exist which are not greater than n. Please help the Travelling Salesman, as he is about to reach his destination!'
+b'Since the answer can be large, output it modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89<\xe2\x80\x8921000).'
+b'The second line contains integer k (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000).'
+b'Note that n is given in its binary representation without any leading zeros.'
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the number of special numbers not greater than n, modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+brute force, combinatorics, dp, *1800

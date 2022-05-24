@@ -1,0 +1,11 @@
+b'Victor tries to write his own text editor, with word correction included. However, the rules of word correction are really strange.'
+b"Victor thinks that if a word contains two consecutive vowels, then it's kinda weird and it needs to be replaced. So the word corrector works in such a way: as long as there are two consecutive vowels in the word, it deletes the first vowel in a word such that there is another vowel right before it. If there are no two consecutive vowels in the word, it is considered to be correct."
+b'You are given a word s. Can you predict what will it become after correction?'
+b'In this problem letters a, e, i, o, u and y are considered to be vowels.'
+b'Input'
+b'The first line contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of letters in word s before the correction.'
+b'The second line contains a string s consisting of exactly n lowercase Latin letters \xe2\x80\x94 the word before the correction.'
+b'Output'
+b'Output the word s after the correction.'
+Tags
+implementation, *800

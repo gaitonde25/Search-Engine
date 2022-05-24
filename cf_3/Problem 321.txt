@@ -1,0 +1,9 @@
+b"Let's call a set of positive integers a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak quadratic if the product of the factorials of its elements is a square of an integer, i.\xe2\x80\x89e. \xe2\x88\x8fi=1kai!=m2\xe2\x88\x8fi=1kai!=m2, for some integer mm."
+b'You are given a positive integer nn.'
+b'Your task is to find a quadratic subset of a set 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n of maximum size. If there are multiple answers, print any of them.'
+b'Input'
+b'A single line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106).'
+b'Output'
+b'In the first line, print a single integer\xc2\xa0\xe2\x80\x94 the size of the maximum subset. In the second line, print the subset itself in an arbitrary order.'
+Tags
+constructive algorithms, hashing, math, number theory, *2900

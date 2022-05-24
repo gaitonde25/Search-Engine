@@ -1,0 +1,17 @@
+b'Some time ago Homer lived in a beautiful city. There were nn blocks numbered from 11 to nn and mm directed roads between them. Each road had a positive length, and each road went from the block with the smaller index to the block with the larger index. For every two (different) blocks, there was at most one road between them. '
+b'Homer discovered that for some two numbers LL and RR the city was (L,R)(L,R)-continuous. '
+b'The city is said to be (L,R)(L,R)-continuous, if '
+b'  all paths from block 11 to block nn are of length between LL and RR (inclusive); and  for every L\xe2\x89\xa4d\xe2\x89\xa4RL\xe2\x89\xa4d\xe2\x89\xa4R, there is exactly one path from block 11 to block nn whose length is dd. '
+b'A path from block uu to block vv is a sequence u=x0\xe2\x86\x92x1\xe2\x86\x92x2\xe2\x86\x92\xe2\x8b\xaf\xe2\x86\x92xk=vu=x0\xe2\x86\x92x1\xe2\x86\x92x2\xe2\x86\x92\xe2\x8b\xaf\xe2\x86\x92xk=v, where there is a road from block xi\xe2\x88\x921xi\xe2\x88\x921 to block xixi for every 1\xe2\x89\xa4i\xe2\x89\xa4k1\xe2\x89\xa4i\xe2\x89\xa4k. The length of a path is the sum of lengths over all roads in the path. Two paths x0\xe2\x86\x92x1\xe2\x86\x92\xe2\x8b\xaf\xe2\x86\x92xkx0\xe2\x86\x92x1\xe2\x86\x92\xe2\x8b\xaf\xe2\x86\x92xk and y0\xe2\x86\x92y1\xe2\x86\x92\xe2\x8b\xaf\xe2\x86\x92yly0\xe2\x86\x92y1\xe2\x86\x92\xe2\x8b\xaf\xe2\x86\x92yl are different, if k\xe2\x89\xa0lk\xe2\x89\xa0l or xi\xe2\x89\xa0yixi\xe2\x89\xa0yi for some 0\xe2\x89\xa4i\xe2\x89\xa4min{k,l}0\xe2\x89\xa4i\xe2\x89\xa4min{k,l}. '
+b'After moving to another city, Homer only remembers the two special numbers LL and RR but forgets the numbers nn and mm of blocks and roads, respectively, and how blocks are connected by roads. However, he believes the number of blocks should be no larger than 3232 (because the city was small).'
+b'As the best friend of Homer, please tell him whether it is possible to find a (L,R)(L,R)-continuous city or not. '
+b'Input'
+b'The single line contains two integers LL and RR (1\xe2\x89\xa4L\xe2\x89\xa4R\xe2\x89\xa41061\xe2\x89\xa4L\xe2\x89\xa4R\xe2\x89\xa4106).'
+b'Output'
+b'If it is impossible to find a (L,R)(L,R)-continuous city within 3232 blocks, print "NO" in a single line.'
+b'Otherwise, print "YES" in the first line followed by a description of a (L,R)(L,R)-continuous city. '
+b'The second line should contain two integers nn (2\xe2\x89\xa4n\xe2\x89\xa4322\xe2\x89\xa4n\xe2\x89\xa432) and mm (1\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)21\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)2), where nn denotes the number of blocks and mm denotes the number of roads.'
+b'Then mm lines follow. The ii-th of the mm lines should contain three integers aiai, bibi (1\xe2\x89\xa4ai<bi\xe2\x89\xa4n1\xe2\x89\xa4ai<bi\xe2\x89\xa4n) and cici (1\xe2\x89\xa4ci\xe2\x89\xa41061\xe2\x89\xa4ci\xe2\x89\xa4106) indicating that there is a directed road from block aiai to block bibi of length cici. '
+b'It is required that for every two blocks, there should be no more than 1 road connecting them. That is, for every 1\xe2\x89\xa4i<j\xe2\x89\xa4m1\xe2\x89\xa4i<j\xe2\x89\xa4m, either ai\xe2\x89\xa0ajai\xe2\x89\xa0aj or bi\xe2\x89\xa0bjbi\xe2\x89\xa0bj.'
+Tags
+bitmasks, constructive algorithms, *2500

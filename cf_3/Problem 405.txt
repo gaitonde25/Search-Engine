@@ -1,0 +1,12 @@
+b'The All-Berland Team Programming Contest will take place very soon. This year, teams of four are allowed to participate.'
+b'There are aa programmers and bb mathematicians at Berland State University. How many maximum teams can be made if:'
+b'  each team must consist of exactly 44 students,  teams of 44 mathematicians or 44 programmers are unlikely to perform well, so the decision was made not to compose such teams. '
+b'Thus, each team must have at least one programmer and at least one mathematician.'
+b'Print the required maximum number of teams. Each person can be a member of no more than one team.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94the number of test cases.'
+b'This is followed by descriptions of tt sets, one per line. Each set is given by two integers aa and bb (0\xe2\x89\xa4a,b\xe2\x89\xa41090\xe2\x89\xa4a,b\xe2\x89\xa4109).'
+b'Output'
+b'Print tt lines. Each line must contain the answer to the corresponding set of input data\xc2\xa0\xe2\x80\x94 the required maximum number of teams.'
+Tags
+binary search, constructive algorithms, math, *800

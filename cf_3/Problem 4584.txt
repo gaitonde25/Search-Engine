@@ -1,0 +1,13 @@
+b'A new innovative ticketing systems for public transport is introduced in Bytesburg. Now there is a single travel card for all transport. To make a trip a passenger scan his card and then he is charged according to the fare.'
+b'The fare is constructed in the following manner. There are three types of tickets: '
+b'  a ticket for one trip costs 20 byteland rubles,  a ticket for 90 minutes costs 50 byteland rubles,  a ticket for one day (1440 minutes) costs 120 byteland rubles. '
+b'Note that a ticket for x minutes activated at time t can be used for trips started in time range from t to t\xe2\x80\x89+\xe2\x80\x89x\xe2\x80\x89-\xe2\x80\x891, inclusive. Assume that all trips take exactly one minute.'
+b'To simplify the choice for the passenger, the system automatically chooses the optimal tickets. After each trip starts, the system analyses all the previous trips and the current trip and chooses a set of tickets for these trips with a minimum total cost. Let the minimum total cost of tickets to cover all trips from the first to the current is a, and the total sum charged before is b. Then the system charges the passenger the sum a\xe2\x80\x89-\xe2\x80\x89b.'
+b'You have to write a program that, for given trips made by a passenger, calculates the sum the passenger is charged after each trip.'
+b'Input'
+b'The first line of input contains integer number n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of trips made by passenger.'
+b'Each of the following n lines contains the time of trip ti (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), measured in minutes from the time of starting the system. All ti are different, given in ascending order, i.\xc2\xa0e. ti\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89>\xe2\x80\x89ti holds for all 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89n.'
+b'Output'
+b'Output n integers. For each trip, print the sum the passenger is charged after it.'
+Tags
+binary search, dp, *1600

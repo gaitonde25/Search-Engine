@@ -1,0 +1,12 @@
+b'Stepan had a favorite string s which consisted of the lowercase letters of the Latin alphabet. '
+b"After graduation, he decided to remember it, but it was a long time ago, so he can't now remember it. But Stepan remembers some information about the string, namely the sequence of integers c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cn, where n equals the length of the string s, and ci equals the number of substrings in the string s with the length i, consisting of the same letters. The substring is a sequence of consecutive characters in the string s."
+b'For example, if the Stepan\'s favorite string is equal to "tttesst", the sequence c looks like: c\xe2\x80\x89=\xe2\x80\x89[7,\xe2\x80\x893,\xe2\x80\x891,\xe2\x80\x890,\xe2\x80\x890,\xe2\x80\x890,\xe2\x80\x890].'
+b'Stepan asks you to help to repair his favorite string s according to the given sequence c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cn. '
+b'Input'
+b"The first line contains the integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000) \xe2\x80\x94 the length of the Stepan's favorite string."
+b'The second line contains the sequence of integers c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cn (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000), where ci equals the number of substrings of the string s with the length i, consisting of the same letters.'
+b'It is guaranteed that the input data is such that the answer always exists.'
+b'Output'
+b"Print the repaired Stepan's favorite string. If there are several answers, it is allowed to print any of them. The string should contain only lowercase letters of the English alphabet. "
+Tags
+*special problem, constructive algorithms, *2200

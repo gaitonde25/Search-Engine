@@ -1,0 +1,11 @@
+b'You are given an array aa of nn integers and an integer ss. It is guaranteed that nn is odd.'
+b'In one operation you can either increase or decrease any single element by one. Calculate the minimum number of operations required to make the median of the array being equal to ss.'
+b'The median of the array with odd length is the value of the element which is located on the middle position after the array is sorted. For example, the median of the array 6,5,86,5,8 is equal to 66, since if we sort this array we will get 5,6,85,6,8, and 66 is located on the middle position.'
+b'Input'
+b'The first line contains two integers nn and ss (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x9211\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x921, 1\xe2\x89\xa4s\xe2\x89\xa41091\xe2\x89\xa4s\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the length of the array and the required value of median.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'It is guaranteed that nn is odd.'
+b'Output'
+b'In a single line output the minimum number of operations to make the median being equal to ss.'
+Tags
+greedy, *1300

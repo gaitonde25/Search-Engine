@@ -1,0 +1,21 @@
+b'Daisy is a senior software engineer at RainyDay, LLC. She has just implemented three new features in their product: the first feature makes their product work, the second one makes their product fast, and the third one makes their product correct. The company encourages at least some testing of new features, so Daisy appointed her intern Demid to write some tests for the new features.'
+b"Interestingly enough, these three features pass all the tests on Demid's development server, which has index 1, but might fail the tests on some other servers."
+b'After Demid has completed this task, Daisy appointed you to deploy these three features to all nn\xc2\xa0servers of your company. For every feature ff and every server ss, Daisy told you whether she wants the feature ff to be deployed on the server ss. If she wants it to be deployed, it must be done even if the feature ff fails the tests on the server ss. If she does not want it to be deployed, you may not deploy it there.'
+b'Your company has two important instruments for the deployment of new features to servers: Continuous Deployment (CD) and Continuous Testing (CT). CD can be established between several pairs of servers, forming a directed graph. CT can be set up on some set of servers.'
+b'If CD is configured from the server s1s1 to the server s2s2 then every time s1s1 receives a new feature ff the system starts the following deployment process of ff to s2s2:'
+b'  If the feature ff is already deployed on the server s2s2, then nothing is done.  Otherwise, if CT is not set up on the server s1s1, then the server s1s1 just deploys the feature ff to the server s2s2 without any testing.  Otherwise, the server s1s1 runs tests for the feature ff. If the tests fail on the server s1s1, nothing is done. If the tests pass, then the server s1s1 deploys the feature ff to the server s2s2. '
+b'You are to configure the CD/CT system, and after that Demid will deploy all three features on his development server. Your CD/CT system must deploy each feature exactly to the set of servers that Daisy wants.'
+b'Your company does not have a lot of computing resources, so you can establish CD from one server to another at most 264264 times.'
+b'Input'
+b'The first line contains integer nn (2\xe2\x89\xa4n\xe2\x89\xa42562\xe2\x89\xa4n\xe2\x89\xa4256)\xc2\xa0\xe2\x80\x94 the number of servers in your company.'
+b'Next nn lines contain three integers each. The jj-th integer in the ii-th line is 11 if Daisy wants the jj-th feature to be deployed to the ii-th server, or 00 otherwise.'
+b'Next nn lines contain three integers each. The jj-th integer in the ii-th line is 11 if tests pass for the jj-th feature on the ii-th server, or 00 otherwise.'
+b"Demid's development server has index 11. It is guaranteed that Daisy wants all three features to be deployed to the server number 1, and all three features pass their tests on the server number 1."
+b'Output'
+b'If it is impossible to configure CD/CT system with CD being set up between at most 264264 pairs of servers, then output the single line "Impossible".'
+b'Otherwise, the first line of the output must contain the line "Possible".'
+b'Next line must contain nn space-separated integers\xc2\xa0\xe2\x80\x94 the configuration of CT. The ii-th integer should be 11 if you set up CT on the ii-th server, or 00 otherwise.'
+b'Next line must contain the integer mm (0\xe2\x89\xa4m\xe2\x89\xa42640\xe2\x89\xa4m\xe2\x89\xa4264)\xc2\xa0\xe2\x80\x94 the number of CD pairs you want to set up.'
+b'Each of the next mm lines must describe CD configuration, each line with two integers sisi and titi (1\xe2\x89\xa4si,ti\xe2\x89\xa4n1\xe2\x89\xa4si,ti\xe2\x89\xa4n; si\xe2\x89\xa0tisi\xe2\x89\xa0ti), establishing automated deployment of new features from the server sisi to the server titi.'
+Tags
+constructive algorithms, *2800

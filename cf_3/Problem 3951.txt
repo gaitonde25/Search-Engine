@@ -1,0 +1,17 @@
+b'Pig is visiting a friend.'
+b"Pig's house is located at point 0, and his friend's house is located at point m on an axis."
+b'Pig can use teleports to move along the axis.'
+b'To use a teleport, Pig should come to a certain point (where the teleport is located) and choose where to move: for each teleport there is the rightmost point it can move Pig to, this point is known as the limit of the teleport.'
+b'Formally, a teleport located at point x with limit y can move Pig from point x to any point within the segment [x;\xe2\x80\x89y], including the bounds.'
+b'  '
+b'Determine if Pig can visit the friend using teleports only, or he should use his car.'
+b'Input'
+b"The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the number of teleports and the location of the friend's house."
+b'The next n lines contain information about teleports.'
+b'The i-th of these lines contains two integers ai and bi (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m), where ai is the location of the i-th teleport, and bi is its limit.'
+b'It is guaranteed that ai\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x89ai\xe2\x80\x89-\xe2\x80\x891 for every i (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Output'
+b'Print "YES" if there is a path from Pig\'s house to his friend\'s house that uses only teleports, and "NO" otherwise.'
+b'You can print each letter in arbitrary case (upper or lower).'
+Tags
+greedy, implementation, *1100

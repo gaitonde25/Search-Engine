@@ -1,0 +1,14 @@
+b'You have an undirected graph consisting of nn vertices with weighted edges.'
+b'A simple cycle is a cycle of the graph without repeated vertices. Let the weight of the cycle be the XOR of weights of edges it consists of.'
+b"Let's say the graph is good if all its simple cycles have weight 11. A graph is bad if it's not good."
+b'Initially, the graph is empty. Then qq queries follow. Each query has the next type: '
+b"  uu vv xx\xc2\xa0\xe2\x80\x94 add edge between vertices uu and vv of weight xx if it doesn't make the graph bad. "
+b'For each query print, was the edge added or not.'
+b'Input'
+b'The first line contains two integers nn and qq (3\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105; 1\xe2\x89\xa4q\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of vertices and queries.'
+b'Next qq lines contain queries\xc2\xa0\xe2\x80\x94 one per line. Each query contains three integers uu, vv and xx (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n; u\xe2\x89\xa0vu\xe2\x89\xa0v; 0\xe2\x89\xa4x\xe2\x89\xa410\xe2\x89\xa4x\xe2\x89\xa41)\xc2\xa0\xe2\x80\x94 the vertices of the edge and its weight.'
+b"It's guaranteed that there are no multiple edges in the input."
+b'Output'
+b'For each query, print YES if the edge was added to the graph, or NO otherwise (both case-insensitive).'
+Tags
+data structures, dsu, graphs, trees, *2700

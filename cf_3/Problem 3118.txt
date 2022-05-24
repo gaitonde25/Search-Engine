@@ -1,0 +1,16 @@
+b'The Fair Nut has two arrays aa and bb, consisting of nn numbers. He found them so long ago that no one knows when they came to him.'
+b'The Fair Nut often changes numbers in his arrays. He also is interested in how similar aa and bb are after every modification.'
+b"Let's denote similarity of two arrays as the minimum number of operations to apply to make arrays equal (every operation can be applied for both arrays). If it is impossible, similarity will be equal \xe2\x88\x921\xe2\x88\x921."
+b'Per one operation you can choose a subarray with length kk (kk is fixed), and change every element aiai, which belongs to the chosen subarray, to ai\xe2\x8a\x95xai\xe2\x8a\x95x (xx can be chosen), where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation. '
+b'Nut has already calculated the similarity of the arrays after every modification. Can you do it?'
+b'Note that you just need to calculate those values, that is you do not need to apply any operations.'
+b'Input'
+b'The first line contains three numbers nn, kk and qq (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 0\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the arrays, the length of the subarrays, to which the operations are applied, and the number of queries.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai<2140\xe2\x89\xa4ai<214)\xc2\xa0\xe2\x80\x94 elements of array aa.'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (0\xe2\x89\xa4bi<2140\xe2\x89\xa4bi<214)\xc2\xa0\xe2\x80\x94 elements of array bb.'
+b'Each of the next qq lines describes query and contains string ss and two integers pp and vv (1\xe2\x89\xa4p\xe2\x89\xa4n1\xe2\x89\xa4p\xe2\x89\xa4n, 0\xe2\x89\xa4v<2140\xe2\x89\xa4v<214)\xc2\xa0\xe2\x80\x94 array, which this query changes (\xc2\xaba\xc2\xbb or \xc2\xabb\xc2\xbb without quotes), index of changing element and its new value.'
+b'Output'
+b'On the first line print initial similarity of arrays aa and bb.'
+b'On the ii-th of following qq lines print similarity of aa and bb after applying first ii modifications.'
+Tags
+data structures, *3300

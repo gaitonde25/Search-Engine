@@ -1,0 +1,11 @@
+b'Thanos wants to destroy the avengers base, but he needs to destroy the avengers along with their base.'
+b'Let we represent their base with an array, where each position can be occupied by many avengers, but one avenger can occupy only one position. Length of their base is a perfect power of 22. Thanos wants to destroy the base using minimum power. He starts with the whole base and in one step he can do either of following: '
+b'  if the current length is at least 22, divide the base into 22 equal halves and destroy them separately, or  burn the current base. If it contains no avenger in it, it takes AA amount of power, otherwise it takes his B\xe2\x8b\x85na\xe2\x8b\x85lB\xe2\x8b\x85na\xe2\x8b\x85l amount of power, where nana is the number of avengers and ll is the length of the current base.'
+b" Output the minimum power needed by Thanos to destroy the avengers' base."
+b'Input'
+b'The first line contains four integers nn, kk, AA and BB (1\xe2\x89\xa4n\xe2\x89\xa4301\xe2\x89\xa4n\xe2\x89\xa430, 1\xe2\x89\xa4k\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4105, 1\xe2\x89\xa4A,B\xe2\x89\xa41041\xe2\x89\xa4A,B\xe2\x89\xa4104), where 2n2n is the length of the base, kk is the number of avengers and AA and BB are the constants explained in the question.'
+b'The second line contains kk integers a1,a2,a3,\xe2\x80\xa6,aka1,a2,a3,\xe2\x80\xa6,ak (1\xe2\x89\xa4ai\xe2\x89\xa42n1\xe2\x89\xa4ai\xe2\x89\xa42n), where aiai represents the position of avenger in the base.'
+b'Output'
+b'Output one integer \xe2\x80\x94 the minimum power needed to destroy the avengers base.'
+Tags
+binary search, brute force, divide and conquer, math, *1700

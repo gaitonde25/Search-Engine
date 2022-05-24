@@ -1,0 +1,15 @@
+b'You are given a program that consists of nn instructions. Initially a single variable xx is assigned to 00. Afterwards, the instructions are of two types: '
+b'  increase xx by 11;  decrease xx by 11. '
+b'You are given mm queries of the following format: '
+b'  query ll rr\xc2\xa0\xe2\x80\x94 how many distinct values is xx assigned to if all the instructions between the ll-th one and the rr-th one inclusive are ignored and the rest are executed without changing the order? '
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Then the description of tt testcases follows.'
+b'The first line of each testcase contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of instructions in the program and the number of queries.'
+b"The second line of each testcase contains a program\xc2\xa0\xe2\x80\x94 a string of nn characters: each character is either '+' or '-'\xc2\xa0\xe2\x80\x94 increment and decrement instruction, respectively."
+b'Each of the next mm lines contains two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the description of the query.'
+b"The sum of nn over all testcases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105. The sum of mm over all testcases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105. "
+b'Output'
+b'For each testcase print mm integers\xc2\xa0\xe2\x80\x94 for each query ll, rr print the number of distinct values variable xx is assigned to if all the instructions between the ll-th one and the rr-th one inclusive are ignored and the rest are executed without changing the order.'
+Tags
+data structures, dp, implementation, strings, *1700

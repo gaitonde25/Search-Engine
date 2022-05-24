@@ -1,0 +1,12 @@
+b'Palindromic characteristics of string s with length |s| is a sequence of |s| integers, where k-th number is the total number of non-empty substrings of s which are k-palindromes.'
+b'A string is 1-palindrome if and only if it reads the same backward as forward.'
+b'A string is k-palindrome (k\xe2\x80\x89>\xe2\x80\x891) if and only if: '
+b'  Its left half equals to its right half.  Its left and right halfs are non-empty (k\xe2\x80\x89-\xe2\x80\x891)-palindromes. '
+b'The left half of string t is its prefix of length \xe2\x8c\x8a|t|\xe2\x80\x89/\xe2\x80\x892\xe2\x8c\x8b, and right half\xc2\xa0\xe2\x80\x94 the suffix of the same length. \xe2\x8c\x8a|t|\xe2\x80\x89/\xe2\x80\x892\xe2\x8c\x8b denotes the length of string t divided by 2, rounded down.'
+b'Note that each substring is counted as many times as it appears in the string. For example, in the string "aaa" the substring "a" appears 3 times.'
+b'Input'
+b'The first line contains the string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000) consisting of lowercase English letters.'
+b'Output'
+b'Print |s| integers\xc2\xa0\xe2\x80\x94 palindromic characteristics of string s.'
+Tags
+brute force, dp, hashing, strings, *1900

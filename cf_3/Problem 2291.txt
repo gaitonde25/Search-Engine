@@ -1,0 +1,13 @@
+b'There are nn chips arranged in a circle, numbered from 11 to nn. '
+b'Initially each chip has black or white color. Then kk iterations occur. During each iteration the chips change their colors according to the following rules. For each chip ii, three chips are considered: chip ii itself and two its neighbours. If the number of white chips among these three is greater than the number of black chips among these three chips, then the chip ii becomes white. Otherwise, the chip ii becomes black. '
+b'Note that for each ii from 22 to (n\xe2\x88\x921)(n\xe2\x88\x921) two neighbouring chips have numbers (i\xe2\x88\x921)(i\xe2\x88\x921) and (i+1)(i+1). The neighbours for the chip i=1i=1 are nn and 22. The neighbours of i=ni=n are (n\xe2\x88\x921)(n\xe2\x88\x921) and 11.'
+b'The following picture describes one iteration with n=6n=6. The chips 11, 33 and 44 are initially black, and the chips 22, 55 and 66 are white. After the iteration 22, 33 and 44 become black, and 11, 55 and 66 become white.'
+b'  '
+b'Your task is to determine the color of each chip after kk iterations.'
+b'Input'
+b'The first line contains two integers nn and kk (3\xe2\x89\xa4n\xe2\x89\xa4200000,1\xe2\x89\xa4k\xe2\x89\xa4109)(3\xe2\x89\xa4n\xe2\x89\xa4200000,1\xe2\x89\xa4k\xe2\x89\xa4109) \xe2\x80\x94 the number of chips and the number of iterations, respectively.'
+b'The second line contains a string consisting of nn characters "W" and "B". If the ii-th character is "W", then the ii-th chip is white initially. If the ii-th character is "B", then the ii-th chip is black initially.'
+b'Output'
+b'Print a string consisting of nn characters "W" and "B". If after kk iterations the ii-th chip is white, then the ii-th character should be "W". Otherwise the ii-th character should be "B".'
+Tags
+constructive algorithms, implementation, *2300

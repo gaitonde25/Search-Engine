@@ -1,0 +1,9 @@
+b'InputThe input contains a single integer aa (0\xe2\x89\xa4a\xe2\x89\xa4630\xe2\x89\xa4a\xe2\x89\xa463).'
+b'OutputOutput a single number.'
+b'ExamplesInputCopy2\nOutputCopy2\nInputCopy5\nOutputCopy24\nInputCopy35\nOutputCopy50\n'
+b'Input'
+b'The input contains a single integer aa (0\xe2\x89\xa4a\xe2\x89\xa4630\xe2\x89\xa4a\xe2\x89\xa463).'
+b'Output'
+b'Output a single number.'
+Tags
+*special problem, bitmasks

@@ -1,0 +1,16 @@
+b"After destroying all of Voldemort's Horcruxes, Harry and Voldemort are up for the final battle. They each cast spells from their wands and the spells collide."
+b'The battle scene is Hogwarts, which can be represented in the form of a tree. There are, in total, n places in Hogwarts joined using n\xe2\x80\x89-\xe2\x80\x891 undirected roads.'
+b'Ron, who was viewing this battle between Harry and Voldemort, wondered how many triplets of places (u,\xe2\x80\x89v,\xe2\x80\x89w) are there such that if Harry is standing at place u and Voldemort is standing at place v, their spells collide at a place w. This is possible for a triplet only when u, v and w are distinct, and there exist paths from u to w and from v to w which do not pass through the same roads.'
+b'Now, due to the battle havoc, new paths are being added all the time. You have to tell Ron the answer after each addition.'
+b'Formally, you are given a tree with n vertices and n\xe2\x80\x89-\xe2\x80\x891 edges. q new edges are being added between the nodes of the tree. After each addition you need to tell the number of triplets (u,\xe2\x80\x89v,\xe2\x80\x89w) such that u, v and w are distinct and there exist two paths, one between u and w, another between v and w such that these paths do not have an edge in common.'
+b'Input'
+b'First line contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), the number of places in Hogwarts.'
+b'Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contains two space separated integers u and v (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) indicating a road between places u and v. It is guaranteed that the given roads form a connected tree.'
+b'Next line contains a single integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), the number of new edges being added.'
+b'Each of the next q lines contains two space separated integers u and v (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) representing the new road being added.'
+b'Note that it is possible that a newly added road connects places that were connected by a road before. Also, a newly added road may connect a place to itself.'
+b'Output'
+b'In the first line print the value for the number of triplets before any changes occurred.'
+b'After that print q lines, a single integer ansi in each line containing the value for the number of triplets after i-th edge addition.'
+Tags
+dfs and similar, dp, graphs, trees, *3300

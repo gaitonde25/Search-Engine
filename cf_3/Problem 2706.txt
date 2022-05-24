@@ -1,0 +1,15 @@
+b'The only difference between easy and hard versions is constraints.'
+b"Ivan plays a computer game that contains some microtransactions to make characters look cooler. Since Ivan wants his character to be really cool, he wants to use some of these microtransactions \xe2\x80\x94 and he won't start playing until he gets all of them."
+b'Each day (during the morning) Ivan earns exactly one burle.'
+b'There are nn types of microtransactions in the game. Each microtransaction costs 22 burles usually and 11 burle if it is on sale. Ivan has to order exactly kiki microtransactions of the ii-th type (he orders microtransactions during the evening).'
+b'Ivan can order any (possibly zero) number of microtransactions of any types during any day (of course, if he has enough money to do it). If the microtransaction he wants to order is on sale then he can buy it for 11 burle and otherwise he can buy it for 22 burles.'
+b'There are also mm special offers in the game shop. The jj-th offer (dj,tj)(dj,tj) means that microtransactions of the tjtj-th type are on sale during the djdj-th day.'
+b'Ivan wants to order all microtransactions as soon as possible. Your task is to calculate the minimum day when he can buy all microtransactions he want and actually start playing.'
+b'Input'
+b'The first line of the input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa410001\xe2\x89\xa4n,m\xe2\x89\xa41000) \xe2\x80\x94 the number of types of microtransactions and the number of special offers in the game shop.'
+b'The second line of the input contains nn integers k1,k2,\xe2\x80\xa6,knk1,k2,\xe2\x80\xa6,kn (0\xe2\x89\xa4ki\xe2\x89\xa410000\xe2\x89\xa4ki\xe2\x89\xa41000), where kiki is the number of copies of microtransaction of the ii-th type Ivan has to order. It is guaranteed that sum of all kiki is not less than 11 and not greater than 10001000.'
+b'The next mm lines contain special offers. The jj-th of these lines contains the jj-th special offer. It is given as a pair of integers (dj,tj)(dj,tj) (1\xe2\x89\xa4dj\xe2\x89\xa41000,1\xe2\x89\xa4tj\xe2\x89\xa4n1\xe2\x89\xa4dj\xe2\x89\xa41000,1\xe2\x89\xa4tj\xe2\x89\xa4n) and means that microtransactions of the tjtj-th type are on sale during the djdj-th day.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum day when Ivan can order all microtransactions he wants and actually start playing.'
+Tags
+binary search, greedy, *2000

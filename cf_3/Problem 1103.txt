@@ -1,0 +1,15 @@
+b'Nezzar loves the game osu!.'
+b'osu! is played on beatmaps, which can be seen as an array consisting of distinct points on a plane. A beatmap is called nice if for any three consecutive points A,B,CA,B,C listed in order, the angle between these three points, centered at BB, is strictly less than 9090 degrees.'
+b'  Points A,B,CA,B,C on the left have angle less than 9090 degrees, so they can be three consecutive points of a nice beatmap; Points A\xe2\x80\xb2,B\xe2\x80\xb2,C\xe2\x80\xb2A\xe2\x80\xb2,B\xe2\x80\xb2,C\xe2\x80\xb2 on the right have angle greater or equal to 9090 degrees, so they cannot be three consecutive points of a nice beatmap. '
+b'Now Nezzar has a beatmap of nn distinct points A1,A2,\xe2\x80\xa6,AnA1,A2,\xe2\x80\xa6,An. Nezzar would like to reorder these nn points so that the resulting beatmap is nice.'
+b'Formally, you are required to find a permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn of integers from 11 to nn, such that beatmap Ap1,Ap2,\xe2\x80\xa6,ApnAp1,Ap2,\xe2\x80\xa6,Apn is nice. If it is impossible, you should determine it.'
+b'Input'
+b'The first line contains a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa450003\xe2\x89\xa4n\xe2\x89\xa45000).'
+b'Then nn lines follow, ii-th of them contains two integers xixi, yiyi (\xe2\x88\x92109\xe2\x89\xa4xi,yi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4xi,yi\xe2\x89\xa4109) \xe2\x80\x94 coordinates of point AiAi.'
+b'It is guaranteed that all points are distinct.'
+b'Output'
+b'If there is no solution, print \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print nn integers, representing a valid permutation pp.'
+b'If there are multiple possible answers, you can print any.'
+Tags
+constructive algorithms, geometry, greedy, math, sortings, *2200

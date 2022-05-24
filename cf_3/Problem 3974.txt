@@ -1,0 +1,11 @@
+b' \xe2\x80\x94 Thanks a lot for today.\xe2\x80\x94 I experienced so many great things.\xe2\x80\x94 You gave me memories like dreams... But I have to leave now...\xe2\x80\x94 One last request, can you...\xe2\x80\x94 Help me solve a Codeforces problem?\xe2\x80\x94 ......\xe2\x80\x94 What?'
+b'Chtholly has been thinking about a problem for days:'
+b'If a number is palindrome and length of its decimal representation without leading zeros is even, we call it a zcy number. A number is palindrome means when written in decimal representation, it contains no leading zeros and reads the same forwards and backwards. For example 12321 and 1221 are palindromes and 123 and 12451 are not. Moreover, 1221 is zcy number and 12321 is not.'
+b'Given integers k and p, calculate the sum of the k smallest zcy numbers and output this sum modulo p.'
+b"Unfortunately, Willem isn't good at solving this kind of problems, so he asks you for help!"
+b'Input'
+b'The first line contains two integers k and p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b'Output single integer\xc2\xa0\xe2\x80\x94 answer to the problem.'
+Tags
+brute force, *1300

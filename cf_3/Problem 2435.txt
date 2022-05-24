@@ -1,0 +1,15 @@
+b'Ivan on his birthday was presented with array of non-negative integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. He immediately noted that all aiai satisfy the condition 0\xe2\x89\xa4ai\xe2\x89\xa4150\xe2\x89\xa4ai\xe2\x89\xa415.'
+b'Ivan likes graph theory very much, so he decided to transform his sequence to the graph.'
+b'There will be nn vertices in his graph, and vertices uu and vv will present in the graph if and only if binary notations of integers auau and avav are differ in exactly one bit (in other words, au\xe2\x8a\x95av=2kau\xe2\x8a\x95av=2k for some integer k\xe2\x89\xa50k\xe2\x89\xa50. Where \xe2\x8a\x95\xe2\x8a\x95 is Bitwise XOR).'
+b'A terrible thing happened in a couple of days, Ivan forgot his sequence aa, and all that he remembers is constructed graph!'
+b'Can you help him, and find any sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, such that graph constructed by the same rules that Ivan used will be the same as his graph?'
+b'Input'
+b"The first line of input contain two integers n,mn,m (1\xe2\x89\xa4n\xe2\x89\xa4500,0\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)21\xe2\x89\xa4n\xe2\x89\xa4500,0\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)2): number of vertices and edges in Ivan's graph."
+b'Next mm lines contain the description of edges: ii-th line contain two integers ui,viui,vi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n;ui\xe2\x89\xa0vi1\xe2\x89\xa4ui,vi\xe2\x89\xa4n;ui\xe2\x89\xa0vi), describing undirected edge connecting vertices uiui and vivi in the graph.'
+b'It is guaranteed that there are no multiple edges in the graph. It is guaranteed that there exists some solution for the given graph.'
+b'Output'
+b'Output nn space-separated integers, a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4150\xe2\x89\xa4ai\xe2\x89\xa415). '
+b'Printed numbers should satisfy the constraints: edge between vertices uu and vv present in the graph if and only if au\xe2\x8a\x95av=2kau\xe2\x8a\x95av=2k for some integer k\xe2\x89\xa50k\xe2\x89\xa50.'
+b'It is guaranteed that there exists some solution for the given graph. If there are multiple possible solutions, you can output any.'
+Tags
+*special problem, graphs, *3000

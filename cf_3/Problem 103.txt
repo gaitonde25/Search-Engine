@@ -1,0 +1,15 @@
+b'A tree is a connected graph without cycles. A rooted tree has a special vertex called the root. The parent of a vertex vv (different from root) is the previous to vv vertex on the shortest path from the root to the vertex vv. Children of the vertex vv are all vertices for which vv is the parent.'
+b'You are given a rooted tree with nn vertices. The vertex 11 is the root. Initially, all vertices are healthy.'
+b'Each second you do two operations, the spreading operation and, after that, the injection operation: '
+b'  Spreading: for each vertex vv, if at least one child of vv is infected, you can spread the disease by infecting at most one other child of vv of your choice.  Injection: you can choose any healthy vertex and infect it. '
+b'This process repeats each second until the whole tree is infected. You need to find the minimal number of seconds needed to infect the whole tree.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of the vertices in the given tree.'
+b'The second line of each test case contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3,\xe2\x80\xa6,pnp2,p3,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n), where pipi is the ancestor of the ii-th vertex in the tree.'
+b'It is guaranteed that the given graph is a tree.'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case you should output a single integer\xc2\xa0\xe2\x80\x94 the minimal number of seconds needed to infect the whole tree.'
+Tags
+binary search, greedy, sortings, trees, *1600

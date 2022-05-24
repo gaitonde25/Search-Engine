@@ -1,0 +1,21 @@
+b'\xc3\x86sir - CHAOS'
+b' '
+b'\xc3\x86sir - V.'
+b'"Everything has been planned out. No more hidden concerns. The condition of Cytus is also perfect.'
+b'The time right now...... 00:01:12......'
+b'It\'s time."'
+b"The emotion samples are now sufficient. After almost 3 years, it's time for Ivy to awake her bonded sister, Vanessa."
+b"The system inside A.R.C.'s Library core can be considered as an undirected graph with infinite number of processing nodes, numbered with all positive integers (1,2,3,\xe2\x80\xa61,2,3,\xe2\x80\xa6). The node with a number xx (x>1x>1), is directly connected with a node with number xf(x)xf(x), with f(x)f(x) being the lowest prime divisor of xx."
+b"Vanessa's mind is divided into nn fragments. Due to more than 500 years of coma, the fragments have been scattered: the ii-th fragment is now located at the node with a number ki!ki! (a factorial of kiki)."
+b'To maximize the chance of successful awakening, Ivy decides to place the samples in a node PP, so that the total length of paths from each fragment to PP is smallest possible. If there are multiple fragments located at the same node, the path from that node to PP needs to be counted multiple times.'
+b'In the world of zeros and ones, such a requirement is very simple for Ivy. Not longer than a second later, she has already figured out such a node.'
+b'But for a mere human like you, is this still possible?'
+b"For simplicity, please answer the minimal sum of paths' lengths from every fragment to the emotion samples' assembly node PP."
+b'Input'
+b"The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 number of fragments of Vanessa's mind."
+b"The second line contains nn integers: k1,k2,\xe2\x80\xa6,knk1,k2,\xe2\x80\xa6,kn (0\xe2\x89\xa4ki\xe2\x89\xa450000\xe2\x89\xa4ki\xe2\x89\xa45000), denoting the nodes where fragments of Vanessa's mind are located: the ii-th fragment is at the node with a number ki!ki!."
+b'Output'
+b'Print a single integer, denoting the minimal sum of path from every fragment to the node with the emotion samples (a.k.a. node PP).'
+b'As a reminder, if there are multiple fragments at the same node, the distance from that node to PP needs to be counted multiple times as well.'
+Tags
+dp, graphs, greedy, math, number theory, trees, *2700

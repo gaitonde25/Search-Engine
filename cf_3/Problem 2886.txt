@@ -1,0 +1,9 @@
+b'You are given an array of nn integers: a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Your task is to find some non-zero integer dd (\xe2\x88\x92103\xe2\x89\xa4d\xe2\x89\xa4103\xe2\x88\x92103\xe2\x89\xa4d\xe2\x89\xa4103) such that, after each number in the array is divided by dd, the number of positive numbers that are presented in the array is greater than or equal to half of the array size (i.e., at least \xe2\x8c\x88n2\xe2\x8c\x89\xe2\x8c\x88n2\xe2\x8c\x89). Note that those positive numbers do not need to be an integer (e.g., a 2.52.5 counts as a positive number). If there are multiple values of dd that satisfy the condition, you may print any of them. In case that there is no such dd, print a single integer 00.'
+b'Recall that \xe2\x8c\x88x\xe2\x8c\x89\xe2\x8c\x88x\xe2\x8c\x89 represents the smallest integer that is not less than xx and that zero (00) is neither positive nor negative.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of elements in the array.'
+b'The second line contains nn space-separated integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92103\xe2\x89\xa4ai\xe2\x89\xa4103\xe2\x88\x92103\xe2\x89\xa4ai\xe2\x89\xa4103).'
+b'Output'
+b'Print one integer dd (\xe2\x88\x92103\xe2\x89\xa4d\xe2\x89\xa4103\xe2\x88\x92103\xe2\x89\xa4d\xe2\x89\xa4103 and d\xe2\x89\xa00d\xe2\x89\xa00) that satisfies the given condition. If there are multiple values of dd that satisfy the condition, you may print any of them. In case that there is no such dd, print a single integer 00.'
+Tags
+implementation, *800

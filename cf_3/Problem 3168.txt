@@ -1,0 +1,13 @@
+b'You are given a string ss, consisting of nn lowercase Latin letters.'
+b'A substring of string ss is a continuous segment of letters from ss. For example, "defor" is a substring of "codeforces" and "fors" is not. '
+b'The length of the substring is the number of letters in it.'
+b'Let\'s call some string of length nn diverse if and only if there is no letter to appear strictly more than n2n2 times. For example, strings "abc" and "iltlml" are diverse and strings "aab" and "zz" are not.'
+b'Your task is to find any diverse substring of string ss or report that there is none. Note that it is not required to maximize or minimize the length of the resulting substring.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the length of string ss.'
+b'The second line is the string ss, consisting of exactly nn lowercase Latin letters.'
+b'Output'
+b'Print "NO" if there is no diverse substring in the string ss.'
+b'Otherwise the first line should contain "YES". The second line should contain any diverse substring of string ss.'
+Tags
+implementation, strings, *1000

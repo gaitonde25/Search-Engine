@@ -1,0 +1,9 @@
+b'Given an array aa of nn integers and an integer kk (2\xe2\x89\xa4k\xe2\x89\xa4n2\xe2\x89\xa4k\xe2\x89\xa4n), where each element of the array is denoted by aiai (0\xe2\x89\xa4i<n0\xe2\x89\xa4i<n). Perform the operation zz given below on aa and print the value of z(a,k)z(a,k) modulo 109+7109+7.'
+b'function z(array a, integer k):    if length(a) < k:        return 0    else:        b = empty array        ans = 0        for i = 0 .. (length(a) - k):            temp = a[i]            for j = i .. (i + k - 1):                temp = max(temp, a[j])            append temp to the end of b            ans = ans + temp        return ans + z(b, k)'
+b'Input'
+b'The first line of input contains two integers nn and kk (2\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41062\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the length of the initial array aa and the parameter kk.'
+b'The second line of input contains nn integers a0,a1,\xe2\x80\xa6,an\xe2\x88\x921a0,a1,\xe2\x80\xa6,an\xe2\x88\x921 (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'Output'
+b'Output the only integer, the value of z(a,k)z(a,k) modulo 109+7109+7.'
+Tags
+combinatorics, data structures, math, *2500

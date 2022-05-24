@@ -1,0 +1,9 @@
+b'Consider an array A with N elements, all being the same integer a.'
+b'Define the product transformation as a simultaneous update Ai\xe2\x80\x89=\xe2\x80\x89Ai\xc2\xb7Ai\xe2\x80\x89+\xe2\x80\x891, that is multiplying each element to the element right to it for , with the last number AN remaining the same. For example, if we start with an array A with a\xe2\x80\x89=\xe2\x80\x892 and N\xe2\x80\x89=\xe2\x80\x894, then after one product transformation A\xe2\x80\x89=\xe2\x80\x89[4,\xe2\x80\x89 4,\xe2\x80\x89 4,\xe2\x80\x89 2], and after two product transformations A\xe2\x80\x89=\xe2\x80\x89[16,\xe2\x80\x89 16,\xe2\x80\x89 8,\xe2\x80\x89 2].'
+b'Your simple task is to calculate the array A after M product transformations. Since the numbers can get quite big you should output them modulo Q.'
+b'Input'
+b'The first and only line of input contains four integers N, M, a, Q (7\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x89123, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106\xe2\x80\x89+\xe2\x80\x89123, ,  is prime), where  is the multiplicative order of the integer a modulo Q, see notes for definition.'
+b'Output'
+b'You should output the array A from left to right.'
+Tags
+combinatorics, math, number theory, *2200

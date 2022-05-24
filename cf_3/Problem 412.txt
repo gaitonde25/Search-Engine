@@ -1,0 +1,13 @@
+b"Lee couldn't sleep lately, because he had nightmares. In one of his nightmares (which was about an unbalanced global round), he decided to fight back and propose a problem below (which you should solve) to balance the round, hopefully setting him free from the nightmares."
+b'A non-empty array b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm is called good, if there exist mm integer sequences which satisfy the following properties:'
+b'  The ii-th sequence consists of bibi consecutive integers (for example if bi=3bi=3 then the ii-th sequence can be (\xe2\x88\x921,0,1)(\xe2\x88\x921,0,1) or (\xe2\x88\x925,\xe2\x88\x924,\xe2\x88\x923)(\xe2\x88\x925,\xe2\x88\x924,\xe2\x88\x923) but not (0,\xe2\x88\x921,1)(0,\xe2\x88\x921,1) or (1,2,3,4)(1,2,3,4)).  Assuming the sum of integers in the ii-th sequence is sumisumi, we want sum1+sum2+\xe2\x80\xa6+summsum1+sum2+\xe2\x80\xa6+summ to be equal to 00. '
+b'You are given an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. It has 2n\xe2\x88\x9212n\xe2\x88\x921 nonempty subsequences. Find how many of them are good.'
+b'As this number can be very large, output it modulo 109+7109+7.'
+b'An array cc is a subsequence of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the size of array aa.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 elements of the array.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of nonempty good subsequences of aa, modulo 109+7109+7.'
+Tags
+combinatorics, dp, math, number theory, *2000

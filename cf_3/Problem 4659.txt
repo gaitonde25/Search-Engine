@@ -1,0 +1,13 @@
+b"After one of celebrations there is a stack of dirty plates in Nikita's kitchen. Nikita has to wash them and put into a dryer. In dryer, the plates should be also placed in a stack also, and the plates sizes should increase down up. The sizes of all plates are distinct."
+b'Nikita has no so much free space, specifically, he has a place for only one more stack of plates. Therefore, he can perform only such two operations: '
+b'  Take any number of plates from 1 to a from the top of the dirty stack, wash them and put them to the intermediate stack.  Take any number of plates from 1 to b from the top of the intermediate stack and put them to the stack in the dryer. '
+b'Note that after performing each of the operations, the plates are put in the same order as they were before the operation.'
+b'You are given the sizes of the plates s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sn in the down up order in the dirty stack, and integers a and b. All the sizes are distinct. Write a program that determines whether or not Nikita can put the plates in increasing down up order in the dryer. If he is able to do so, the program should find some sequence of operations (not necessary optimal) to achieve it.'
+b'Input'
+b'The first line contains three integers n, a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). The second line contains integers s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89si\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the sizes of the plates in down up order. All the sizes are distinct.'
+b'Output'
+b'In the first line print "YES" if there is a solution. In this case, in the second line print integer k\xc2\xa0\xe2\x80\x94 the number of operations. Then in k lines print the operations, one per line. Each operation is described by two integers tj and cj, where tj\xe2\x80\x89=\xe2\x80\x891, if the operation is to wash the top cj places from the dirty stack and put them onto the intermediate stack, and tj\xe2\x80\x89=\xe2\x80\x892, if the operation is to move th top cj plates from the intermediate stack to the dryer. '
+b'In case there is no solution, print single line "NO".'
+b'If there are multiple solutions, print any of them. Note that it is not necessary to minimize the number of operations.'
+Tags
+constructive algorithms, math, *3300

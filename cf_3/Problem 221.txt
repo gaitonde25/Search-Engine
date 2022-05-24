@@ -1,0 +1,11 @@
+b'Sam changed his school and on the first biology lesson he got a very interesting task about genes.'
+b'You are given nn arrays, the ii-th of them contains mm different integers \xe2\x80\x94 ai,1,ai,2,\xe2\x80\xa6,ai,mai,1,ai,2,\xe2\x80\xa6,ai,m. Also you are given an array of integers ww of length nn.'
+b'Find the minimum value of wi+wjwi+wj among all pairs of integers (i,j)(i,j) (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n), such that the numbers ai,1,ai,2,\xe2\x80\xa6,ai,m,aj,1,aj,2,\xe2\x80\xa6,aj,mai,1,ai,2,\xe2\x80\xa6,ai,m,aj,1,aj,2,\xe2\x80\xa6,aj,m are distinct.'
+b'Input'
+b'The first line contains two integers nn, mm (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4m\xe2\x89\xa451\xe2\x89\xa4m\xe2\x89\xa45).'
+b'The ii-th of the next nn lines starts with mm distinct integers ai,1,ai,2,\xe2\x80\xa6,ai,mai,1,ai,2,\xe2\x80\xa6,ai,m and then wiwi follows (1\xe2\x89\xa4ai,j\xe2\x89\xa41091\xe2\x89\xa4ai,j\xe2\x89\xa4109, 1\xe2\x89\xa4wi\xe2\x89\xa41091\xe2\x89\xa4wi\xe2\x89\xa4109).'
+b'Output'
+b'Print a single number \xe2\x80\x94 the answer to the problem. '
+b'If there are no suitable pairs (i,j)(i,j), print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+bitmasks, brute force, combinatorics, greedy, hashing, math, two pointers, *2700

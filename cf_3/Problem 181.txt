@@ -1,0 +1,15 @@
+b'There is a classroom with two rows of computers. There are nn computers in each row and each computer has its own grade. Computers in the first row has grades a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and in the second row\xc2\xa0\xe2\x80\x94 b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn.'
+b'Initially, all pairs of neighboring computers in each row are connected by wire (pairs (i,i+1)(i,i+1) for all 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n), so two rows form two independent computer networks.'
+b'Your task is to combine them in one common network by connecting one or more pairs of computers from different rows. Connecting the ii-th computer from the first row and the jj-th computer from the second row costs |ai\xe2\x88\x92bj||ai\xe2\x88\x92bj|.'
+b"You can connect one computer to several other computers, but you need to provide at least a basic fault tolerance: you need to connect computers in such a way that the network stays connected, despite one of its computer failing. In other words, if one computer is broken (no matter which one), the network won't split in two or more parts."
+b'That is the minimum total cost to make a fault-tolerant network?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Next tt cases follow.'
+b'The first line of each test case contains the single integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of computers in each row.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the grades of computers in the first row.'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the grades of computers in the second row.'
+b"It's guaranteed that the total sum of nn doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print a single integer\xc2\xa0\xe2\x80\x94 the minimum total cost to make a fault-tolerant network.'
+Tags
+brute force, data structures, implementation, *1500

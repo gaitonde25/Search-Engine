@@ -1,0 +1,16 @@
+b'Developer Petr thinks that he invented a perpetual motion machine. Namely, he has a lot of elements, which work in the following way.'
+b'Each element has one controller that can be set to any non-negative real value. If a controller is set on some value x, then the controller consumes x2 energy units per second. At the same time, any two elements connected by a wire produce y\xc2\xb7z energy units per second, where y and z are the values set on their controllers.'
+b"Petr has only a limited number of wires, so he has already built some scheme of elements and wires, and is now interested if it's possible to set the controllers in such a way that the system produces at least as much power as it consumes, and at least one controller is set on the value different from 0. Help him check this, and if it's possible, find the required integer values that should be set."
+b"It is guaranteed that if there exist controllers' settings satisfying the above conditions, then there exist required integer values not greater than 106."
+b'Input'
+b'There are several (at least one) test cases in the input. The first line contains single integer\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'There is an empty line before each test case. The first line of test case contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of elements in the scheme and the number of wires.'
+b'After that, m lines follow, each of them contains two integers a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 two elements connected by a wire. No element is connected with itself, no two elements are connected by more than one wire.'
+b'It is guaranteed that the sum of n and the sum of m over all test cases do not exceed 105.'
+b'For hacks you can only use tests with one test case.'
+b'Output'
+b'Print answer for each test case.'
+b'For each test case print "YES" if it\'s possible to set the controllers in such a way that the consumed power is not greater than the power produced, and the required values on the next line. The settings should be integers from 0 to 106, inclusive, and at least one value should be different from 0. If there are multiple answers, print any of them.'
+b'If it\'s not possible to set the controllers in the required way, print one line "NO".'
+Tags
+constructive algorithms, dp, graphs, implementation, math, trees, *3100

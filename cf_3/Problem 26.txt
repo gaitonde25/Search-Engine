@@ -1,0 +1,14 @@
+b'Timur has nn candies. The ii-th candy has a quantity of sugar equal to aiai. So, by eating the ii-th candy, Timur consumes a quantity of sugar equal to aiai.'
+b"Timur will ask you qq queries regarding his candies. For the jj-th query you have to answer what is the minimum number of candies he needs to eat in order to reach a quantity of sugar greater than or equal to xjxj or print -1 if it's not possible to obtain such a quantity. In other words, you should print the minimum possible kk such that after eating kk candies, Timur consumes a quantity of sugar of at least xjxj or say that no possible kk exists."
+b"Note that he can't eat the same candy twice and queries are independent of each other (Timur can use the same candy in different queries)."
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of test cases follows.'
+b'The first line contains 22 integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa41.5\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa41.5\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of candies Timur has and the number of queries you have to print an answer for respectively.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41041\xe2\x89\xa4ai\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the quantity of sugar in each of the candies respectively.'
+b'Then qq lines follow. '
+b'Each of the next qq lines contains a single integer xjxj (1\xe2\x89\xa4xj\xe2\x89\xa42\xe2\x8b\x851091\xe2\x89\xa4xj\xe2\x89\xa42\xe2\x8b\x85109)\xc2\xa0\xe2\x80\x93 the quantity Timur wants to reach for the given query.'
+b'It is guaranteed that the sum of nn and the sum of qq over all test cases do not exceed 1.5\xe2\x8b\x851051.5\xe2\x8b\x85105.'
+b'Output'
+b"For each test case output qq lines. For the jj-th line output the number of candies Timur needs to eat in order to reach a quantity of sugar greater than or equal to xjxj or print -1 if it's not possible to obtain such a quantity."
+Tags
+binary search, greedy, sortings, *1100

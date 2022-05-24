@@ -1,0 +1,8 @@
+b'There is a square grid of size n\xc3\x97nn\xc3\x97n. Some cells are colored in black, all others are colored in white. In one operation you can select some rectangle and color all its cells in white. It costs max(h,w)max(h,w) to color a rectangle of size h\xc3\x97wh\xc3\x97w. You are to make all cells white for minimum total cost.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the size of the square grid.'
+b"Each of the next nn lines contains a string of length nn, consisting of characters '.' and '#'. The jj-th character of the ii-th line is '#' if the cell with coordinates (i,j)(i,j) is black, otherwise it is white."
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum total cost to paint all cells in white.'
+Tags
+dp, *2300

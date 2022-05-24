@@ -1,0 +1,16 @@
+b'Parsa has a humongous tree on nn vertices.'
+b'On each vertex vv he has written two integers lvlv and rvrv.'
+b"To make Parsa's tree look even more majestic, Nima wants to assign a number avav (lv\xe2\x89\xa4av\xe2\x89\xa4rvlv\xe2\x89\xa4av\xe2\x89\xa4rv) to each vertex vv such that the beauty of Parsa's tree is maximized."
+b"Nima's sense of the beauty is rather bizarre. He defines the beauty of the tree as the sum of |au\xe2\x88\x92av||au\xe2\x88\x92av| over all edges (u,v)(u,v) of the tree."
+b"Since Parsa's tree is too large, Nima can't maximize its beauty on his own. Your task is to find the maximum possible beauty for Parsa's tree."
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4250)(1\xe2\x89\xa4t\xe2\x89\xa4250) \xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b"The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa4105)(2\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of vertices in Parsa's tree."
+b'The ii-th of the following nn lines contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4109)(1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4109).'
+b"Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n,u\xe2\x89\xa0v)(1\xe2\x89\xa4u,v\xe2\x89\xa4n,u\xe2\x89\xa0v) meaning that there is an edge between the vertices uu and vv in Parsa's tree."
+b'It is guaranteed that the given graph is a tree.'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b"For each test case print the maximum possible beauty for Parsa's tree."
+Tags
+dfs and similar, divide and conquer, dp, greedy, trees, *1600

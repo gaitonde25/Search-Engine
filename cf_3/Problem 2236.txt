@@ -1,0 +1,20 @@
+b'The Central Company has an office with a sophisticated security system. There are 106106 employees, numbered from 11 to 106106.'
+b'The security system logs entrances and departures. The entrance of the ii-th employee is denoted by the integer ii, while the departure of the ii-th employee is denoted by the integer \xe2\x88\x92i\xe2\x88\x92i.'
+b'The company has some strict rules about access to its office:'
+b"  An employee can enter the office at most once per day.  He obviously can't leave the office if he didn't enter it earlier that day.  In the beginning and at the end of every day, the office is empty (employees can't stay at night). It may also be empty at any moment of the day. "
+b'Any array of events satisfying these conditions is called a valid day.'
+b'Some examples of valid or invalid days:'
+b"  [1,7,\xe2\x88\x927,3,\xe2\x88\x921,\xe2\x88\x923][1,7,\xe2\x88\x927,3,\xe2\x88\x921,\xe2\x88\x923] is a valid day (11 enters, 77 enters, 77 leaves, 33 enters, 11 leaves, 33 leaves).  [2,\xe2\x88\x922,3,\xe2\x88\x923][2,\xe2\x88\x922,3,\xe2\x88\x923] is also a valid day.  [2,5,\xe2\x88\x925,5,\xe2\x88\x925,\xe2\x88\x922][2,5,\xe2\x88\x925,5,\xe2\x88\x925,\xe2\x88\x922] is not a valid day, because 55 entered the office twice during the same day.  [\xe2\x88\x924,4][\xe2\x88\x924,4] is not a valid day, because 44 left the office without being in it.  [4][4] is not a valid day, because 44 entered the office and didn't leave it before the end of the day. "
+b"There are nn events a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, in the order they occurred. This array corresponds to one or more consecutive days. The system administrator erased the dates of events by mistake, but he didn't change the order of the events."
+b"You must partition (to cut) the array aa of events into contiguous subarrays, which must represent non-empty valid days (or say that it's impossible). Each array element should belong to exactly one contiguous subarray of a partition. Each contiguous subarray of a partition should be a valid day."
+b'For example, if n=8n=8 and a=[1,\xe2\x88\x921,1,2,\xe2\x88\x921,\xe2\x88\x922,3,\xe2\x88\x923]a=[1,\xe2\x88\x921,1,2,\xe2\x88\x921,\xe2\x88\x922,3,\xe2\x88\x923] then he can partition it into two contiguous subarrays which are valid days: a=[1,\xe2\x88\x921\xc2\xa0|\xc2\xa01,2,\xe2\x88\x921,\xe2\x88\x922,3,\xe2\x88\x923]a=[1,\xe2\x88\x921\xc2\xa0|\xc2\xa01,2,\xe2\x88\x921,\xe2\x88\x922,3,\xe2\x88\x923].'
+b'Help the administrator to partition the given array aa in the required way or report that it is impossible to do. Find any required partition, you should not minimize or maximize the number of parts.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92106\xe2\x89\xa4ai\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4ai\xe2\x89\xa4106 and ai\xe2\x89\xa00ai\xe2\x89\xa00).'
+b'Output'
+b'If there is no valid partition, print \xe2\x88\x921\xe2\x88\x921. Otherwise, print any valid partition in the following format:'
+b'  On the first line print the number dd of days (1\xe2\x89\xa4d\xe2\x89\xa4n1\xe2\x89\xa4d\xe2\x89\xa4n).  On the second line, print dd integers c1,c2,\xe2\x80\xa6,cdc1,c2,\xe2\x80\xa6,cd (1\xe2\x89\xa4ci\xe2\x89\xa4n1\xe2\x89\xa4ci\xe2\x89\xa4n and c1+c2+\xe2\x80\xa6+cd=nc1+c2+\xe2\x80\xa6+cd=n), where cici is the number of events in the ii-th day. '
+b"If there are many valid solutions, you can print any of them. You don't have to minimize nor maximize the number of days."
+Tags
+greedy, implementation, *1400

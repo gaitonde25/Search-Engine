@@ -1,0 +1,11 @@
+b'You are given an undirected unweighted connected graph consisting of nn vertices and mm edges. It is guaranteed that there are no self-loops or multiple edges in the given graph.'
+b'Your task is to find any spanning tree of this graph such that the degree of the first vertex (vertex with label 11 on it) is equal to DD (or say that there are no such spanning trees). Recall that the degree of a vertex is the number of edges incident to it.'
+b'Input'
+b'The first line contains three integers nn, mm and DD (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4min(2\xe2\x8b\x85105,n(n\xe2\x88\x921)2),1\xe2\x89\xa4D<nn\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4min(2\xe2\x8b\x85105,n(n\xe2\x88\x921)2),1\xe2\x89\xa4D<n) \xe2\x80\x94 the number of vertices, the number of edges and required degree of the first vertex, respectively.'
+b'The following mm lines denote edges: edge ii is represented by a pair of integers vivi, uiui (1\xe2\x89\xa4vi,ui\xe2\x89\xa4n1\xe2\x89\xa4vi,ui\xe2\x89\xa4n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi), which are the indices of vertices connected by the edge. There are no loops or multiple edges in the given graph, i.\xe2\x80\x89e. for each pair (vi,uivi,ui) there are no other pairs (vi,uivi,ui) or (ui,viui,vi) in the list of edges, and for each pair (vi,ui)(vi,ui) the condition vi\xe2\x89\xa0uivi\xe2\x89\xa0ui is satisfied.'
+b'Output'
+b'If there is no spanning tree satisfying the condition from the problem statement, print "NO" in the first line.'
+b'Otherwise print "YES" in the first line and then print n\xe2\x88\x921n\xe2\x88\x921 lines describing the edges of a spanning tree such that the degree of the first vertex (vertex with label 11 on it) is equal to DD. Make sure that the edges of the printed spanning tree form some subset of the input edges (order doesn\'t matter and edge (v,u)(v,u) is considered the same as the edge (u,v)(u,v)).'
+b'If there are multiple possible answers, print any of them.'
+Tags
+constructive algorithms, dfs and similar, dsu, graphs, greedy, *1900

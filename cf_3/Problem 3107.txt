@@ -1,0 +1,16 @@
+b'Berland forest was planted several decades ago in a formation of an infinite grid with a single tree in every cell. Now the trees are grown up and they form a pretty dense structure.'
+b'So dense, actually, that the fire became a real danger for the forest. This season had been abnormally hot in Berland and some trees got caught on fire! '
+b'The second fire started is considered the second 00. Every second fire lit up all intact neightbouring trees to every currently burning tree. The tree is neighbouring if it occupies adjacent by side or by corner cell. Luckily, after tt seconds Berland fire department finally reached the location of fire and instantaneously extinguished it all.'
+b'Now they want to calculate the destructive power of the fire. Let valx,yvalx,y be the second the tree in cell (x,y)(x,y) got caught on fire. The destructive power is the sum of valx,yvalx,y over all (x,y)(x,y) of burnt trees.'
+b'Clearly, all the workers of fire department are firefighters, not programmers, thus they asked you to help them calculate the destructive power of the fire.'
+b'The result can be rather big, so print it modulo 998244353998244353.'
+b'Input'
+b'The first line contains two integers nn and tt (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450, 0\xe2\x89\xa4t\xe2\x89\xa41080\xe2\x89\xa4t\xe2\x89\xa4108) \xe2\x80\x94 the number of trees that initially got caught on fire and the time fire department extinguished the fire, respectively.'
+b'Each of the next nn lines contains two integers xx and yy (\xe2\x88\x92108\xe2\x89\xa4x,y\xe2\x89\xa4108\xe2\x88\x92108\xe2\x89\xa4x,y\xe2\x89\xa4108) \xe2\x80\x94 the positions of trees that initially got caught on fire.'
+b"Obviously, the position of cell (0,0)(0,0) on the grid and the directions of axes is irrelevant as the grid is infinite and the answer doesn't depend on them."
+b'It is guaranteed that all the given tree positions are pairwise distinct.'
+b"The grid is infinite so the fire doesn't stop once it reaches \xe2\x88\x92108\xe2\x88\x92108 or 108108. It continues beyond these borders."
+b'Output'
+b'Print a single integer \xe2\x80\x94 the sum of valx,yvalx,y over all (x,y)(x,y) of burnt trees modulo 998244353998244353.'
+Tags
+math, *3500

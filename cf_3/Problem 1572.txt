@@ -1,0 +1,11 @@
+b'There are nn piles of stones, where the ii-th pile has aiai stones. Two people play a game, where they take alternating turns removing stones.'
+b'In a move, a player may remove a positive number of stones from the first non-empty pile (the pile with the minimal index, that has at least one stone). The first player who cannot make a move (because all piles are empty) loses the game. If both players play optimally, determine the winner of the game.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases. Next 2t2t lines contain descriptions of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of piles.'
+b'The second line of each test case contains nn integers a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 aiai is equal to the number of stones in the ii-th pile.'
+b'It is guaranteed that the sum of nn for all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, if the player who makes the first move will win, output "First". Otherwise, output "Second".'
+Tags
+dp, games, *1100

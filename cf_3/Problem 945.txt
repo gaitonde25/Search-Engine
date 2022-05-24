@@ -1,0 +1,13 @@
+b'Sayaka Saeki is a member of the student council, which has nn other members (excluding Sayaka). The ii-th member has a height of aiai millimeters.'
+b"It's the end of the school year and Sayaka wants to take a picture of all other members of the student council. Being the hard-working and perfectionist girl as she is, she wants to arrange all the members in a line such that the amount of photogenic consecutive pairs of members is as large as possible."
+b'A pair of two consecutive members uu and vv on a line is considered photogenic if their average height is an integer, i.e. au+av2au+av2 is an integer.'
+b'Help Sayaka arrange the other members to maximize the number of photogenic consecutive pairs.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa420002\xe2\x89\xa4n\xe2\x89\xa42000) \xc2\xa0\xe2\x80\x94 the number of other council members.'
+b'The second line of each test case contains nn integers a1a1, a2a2, ..., anan (1\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105) \xc2\xa0\xe2\x80\x94 the heights of each of the other members in millimeters.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 20002000.'
+b'Output'
+b'For each test case, output on one line nn integers representing the heights of the other members in the order, which gives the largest number of photogenic consecutive pairs. If there are multiple such orders, output any of them.'
+Tags
+constructive algorithms, *800

@@ -1,0 +1,13 @@
+b"Today the kindergarten has a new group of nn kids who need to be seated at the dinner table. The chairs at the table are numbered from 11 to 4n4n. Two kids can't sit on the same chair. It is known that two kids who sit on chairs with numbers aa and bb (a\xe2\x89\xa0ba\xe2\x89\xa0b) will indulge if: "
+b'  gcd(a,b)=1gcd(a,b)=1 or,  aa divides bb or bb divides aa. '
+b'gcd(a,b)gcd(a,b)\xc2\xa0\xe2\x80\x94 the maximum number xx such that aa is divisible by xx and bb is divisible by xx.'
+b'For example, if n=3n=3 and the kids sit on chairs with numbers 22, 33, 44, then they will indulge since 44 is divided by 22 and gcd(2,3)=1gcd(2,3)=1. If kids sit on chairs with numbers 44, 66, 1010, then they will not indulge.'
+b"The teacher really doesn't want the mess at the table, so she wants to seat the kids so there are no 22 of the kid that can indulge. More formally, she wants no pair of chairs aa and bb that the kids occupy to fulfill the condition above."
+b'Since the teacher is very busy with the entertainment of the kids, she asked you to solve this problem.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case consists of one line containing an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of kids.'
+b'Output'
+b'Output tt lines, which contain nn distinct integers from 11 to 4n4n\xc2\xa0\xe2\x80\x94 the numbers of chairs that the kids should occupy in the corresponding test case. If there are multiple answers, print any of them. You can print nn numbers in any order.'
+Tags
+constructive algorithms, math, *800

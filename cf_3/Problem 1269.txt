@@ -1,0 +1,12 @@
+b"Oleg's favorite subjects are History and Math, and his favorite branch of mathematics is division."
+b'To improve his division skills, Oleg came up with tt pairs of integers pipi and qiqi and for each pair decided to find the greatest integer xixi, such that: '
+b'  pipi is divisible by xixi;  xixi is not divisible by qiqi. '
+b' Oleg is really good at division and managed to find all the answers quickly, how about you?'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4501\xe2\x89\xa4t\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the number of pairs.'
+b'Each of the following tt lines contains two integers pipi and qiqi (1\xe2\x89\xa4pi\xe2\x89\xa410181\xe2\x89\xa4pi\xe2\x89\xa41018; 2\xe2\x89\xa4qi\xe2\x89\xa41092\xe2\x89\xa4qi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the ii-th pair of integers.'
+b'Output'
+b'Print tt integers: the ii-th integer is the largest xixi such that pipi is divisible by xixi, but xixi is not divisible by qiqi.'
+b'One can show that there is always at least one value of xixi satisfying the divisibility conditions for the given constraints.'
+Tags
+brute force, math, number theory, *1500

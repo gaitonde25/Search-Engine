@@ -1,0 +1,9 @@
+b'Consider every tree (connected undirected acyclic graph) with nn vertices (nn is odd, vertices numbered from 11 to nn), and for each 2\xe2\x89\xa4i\xe2\x89\xa4n2\xe2\x89\xa4i\xe2\x89\xa4n the ii-th vertex is adjacent to exactly one vertex with a smaller index.'
+b'For each ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) calculate the number of trees for which the ii-th vertex will be the centroid. The answer can be huge, output it modulo 998244353998244353.'
+b'A vertex is called a centroid if its removal splits the tree into subtrees with at most (n\xe2\x88\x921)/2(n\xe2\x88\x921)/2 vertices each.'
+b'Input'
+b'The first line contains an odd integer nn (3\xe2\x89\xa4n<2\xe2\x8b\x851053\xe2\x89\xa4n<2\xe2\x8b\x85105, nn is odd) \xe2\x80\x94 the number of the vertices in the tree.'
+b'Output'
+b'Print nn integers in a single line, the ii-th integer is the answer for the ii-th vertex (modulo 998244353998244353).'
+Tags
+combinatorics, dp, fft, math, *3000

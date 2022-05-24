@@ -1,0 +1,8 @@
+b'A year ago on the bench in public park Leha found an array of n numbers. Leha believes that permutation p is right if for all 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89n condition, that api\xc2\xb7api\xe2\x80\x89+\xe2\x80\x891 is not perfect square, holds. Leha wants to find number of right permutations modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'First line of input data contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300) \xe2\x80\x94 length of the array.'
+b'Next line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89... ,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 found array.'
+b'Output'
+b'Output single integer \xe2\x80\x94 number of right permutations modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+combinatorics, dp, *2500

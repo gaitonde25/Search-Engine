@@ -1,0 +1,15 @@
+b'Polycarp has a string ss. Polycarp performs the following actions until the string ss is empty (tt is initially an empty string):'
+b'  he adds to the right to the string tt the string ss, i.e. he does t=t+st=t+s, where t+st+s is a concatenation of the strings tt and ss;  he selects an arbitrary letter of ss and removes from ss all its occurrences (the selected letter must occur in the string ss at the moment of performing this action). '
+b'Polycarp performs this sequence of actions strictly in this order.'
+b'Note that after Polycarp finishes the actions, the string ss will be empty and the string tt will be equal to some value (that is undefined and depends on the order of removing).'
+b'E.g. consider ss="abacaba" so the actions may be performed as follows:'
+b'  tt="abacaba", the letter \'b\' is selected, then ss="aacaa";  tt="abacabaaacaa", the letter \'a\' is selected, then ss="c";  tt="abacabaaacaac", the letter \'c\' is selected, then ss="" (the empty string). '
+b'You need to restore the initial value of the string ss using only the final value of tt and find the order of removing letters from ss.'
+b'Input'
+b'The first line contains one integer TT (1\xe2\x89\xa4T\xe2\x89\xa41041\xe2\x89\xa4T\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then TT test cases follow.'
+b"Each test case contains one string tt consisting of lowercase letters of the Latin alphabet. The length of tt doesn't exceed 5\xe2\x8b\x851055\xe2\x8b\x85105. The sum of lengths of all strings tt in the test cases doesn't exceed 5\xe2\x8b\x851055\xe2\x8b\x85105."
+b'Output'
+b'For each test case output in a separate line:'
+b'  \xe2\x88\x921\xe2\x88\x921, if the answer doesn\'t exist;  two strings separated by spaces. The first one must contain a possible initial value of ss. The second one must contain a sequence of letters \xe2\x80\x94 it\'s in what order one needs to remove letters from ss to make the string tt. E.g. if the string "bac" is outputted, then, first, all occurrences of the letter \'b\' were deleted, then all occurrences of \'a\', and then, finally, all occurrences of \'c\'. If there are multiple solutions, print any one. '
+Tags
+binary search, implementation, sortings, strings, *1800

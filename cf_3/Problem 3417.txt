@@ -1,0 +1,17 @@
+b'Childan is making up a legendary story and trying to sell his forgery\xc2\xa0\xe2\x80\x94 a necklace with a strong sense of "Wu" to the Kasouras. But Mr. Kasoura is challenging the truth of Childan\'s story. So he is going to ask a few questions about Childan\'s so-called "personal treasure" necklace.'
+b'This "personal treasure" is a multiset SS of mm "01-strings".'
+b'A "01-string" is a string that contains nn characters "0" and "1". For example, if n=4n=4, strings "0110", "0000", and "1110" are "01-strings", but "00110" (there are 55 characters, not 44) and "zero" (unallowed characters) are not.'
+b'Note that the multiset SS can contain equal elements.'
+b'Frequently, Mr. Kasoura will provide a "01-string" tt and ask Childan how many strings ss are in the multiset SS such that the "Wu" value of the pair (s,t)(s,t) is not greater than kk. '
+b'Mrs. Kasoura and Mr. Kasoura think that if si=tisi=ti (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) then the "Wu" value of the character pair equals to wiwi, otherwise 00. The "Wu" value of the "01-string" pair is the sum of the "Wu" values of every character pair. Note that the length of every "01-string" is equal to nn.'
+b'For example, if w=[4,5,3,6]w=[4,5,3,6], "Wu" of ("1001", "1100") is 77 because these strings have equal characters only on the first and third positions, so w1+w3=4+3=7w1+w3=4+3=7.'
+b'You need to help Childan to answer Mr. Kasoura\'s queries. That is to find the number of strings in the multiset SS such that the "Wu" value of the pair is not greater than kk.'
+b'Input'
+b'The first line contains three integers nn, mm, and qq (1\xe2\x89\xa4n\xe2\x89\xa4121\xe2\x89\xa4n\xe2\x89\xa412, 1\xe2\x89\xa4q,m\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4q,m\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the "01-strings", the size of the multiset SS, and the number of queries.'
+b'The second line contains nn integers w1,w2,\xe2\x80\xa6,wnw1,w2,\xe2\x80\xa6,wn (0\xe2\x89\xa4wi\xe2\x89\xa41000\xe2\x89\xa4wi\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the value of the ii-th caracter.'
+b'Each of the next mm lines contains the "01-string" ss of length nn\xc2\xa0\xe2\x80\x94 the string in the multiset SS.'
+b'Each of the next qq lines contains the "01-string" tt of length nn and integer kk (0\xe2\x89\xa4k\xe2\x89\xa41000\xe2\x89\xa4k\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the query.'
+b'Output'
+b'For each query, print the answer for this query.'
+Tags
+bitmasks, brute force, data structures, *1900

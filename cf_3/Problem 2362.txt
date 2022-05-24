@@ -1,0 +1,12 @@
+b'You are at the top left cell (1,1)(1,1) of an n\xc3\x97mn\xc3\x97m labyrinth. Your goal is to get to the bottom right cell (n,m)(n,m). You can only move right or down, one cell per step. Moving right from a cell (x,y)(x,y) takes you to the cell (x,y+1)(x,y+1), while moving down takes you to the cell (x+1,y)(x+1,y).'
+b"Some cells of the labyrinth contain rocks. When you move to a cell with rock, the rock is pushed to the next cell in the direction you're moving. If the next cell contains a rock, it gets pushed further, and so on."
+b'The labyrinth is surrounded by impenetrable walls, thus any move that would put you or any rock outside of the labyrinth is illegal.'
+b'Count the number of different legal paths you can take from the start to the goal modulo 109+7109+7. Two paths are considered different if there is at least one cell that is visited in one path, but not visited in the other.'
+b'Input'
+b'The first line contains two integers n,mn,m\xc2\xa0\xe2\x80\x94 dimensions of the labyrinth (1\xe2\x89\xa4n,m\xe2\x89\xa420001\xe2\x89\xa4n,m\xe2\x89\xa42000).'
+b'Next nn lines describe the labyrinth. Each of these lines contains mm characters. The jj-th character of the ii-th of these lines is equal to "R" if the cell (i,j)(i,j) contains a rock, or "." if the cell (i,j)(i,j) is empty.'
+b'It is guaranteed that the starting cell (1,1)(1,1) is empty.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of different legal paths from (1,1)(1,1) to (n,m)(n,m) modulo 109+7109+7.'
+Tags
+binary search, dp, *2200

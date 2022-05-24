@@ -1,0 +1,12 @@
+b'You are given two arrays aa and bb of nn positive integers each. You can apply the following operation to them any number of times:'
+b'  Select an index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and swap aiai with bibi (i.\xc2\xa0e. aiai becomes bibi and vice versa). '
+b'Find the minimum possible value of max(a1,a2,\xe2\x80\xa6,an)\xe2\x8b\x85max(b1,b2,\xe2\x80\xa6,bn)max(a1,a2,\xe2\x80\xa6,an)\xe2\x8b\x85max(b1,b2,\xe2\x80\xa6,bn) you can get after applying such operation any number of times (possibly zero). '
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the length of the arrays.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4100001\xe2\x89\xa4ai\xe2\x89\xa410000) where aiai is the ii-th element of the array aa.'
+b'The third line of each test case contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa4100001\xe2\x89\xa4bi\xe2\x89\xa410000) where bibi is the ii-th element of the array bb.'
+b'Output'
+b'For each test case, print a single integer, the minimum possible value of max(a1,a2,\xe2\x80\xa6,an)\xe2\x8b\x85max(b1,b2,\xe2\x80\xa6,bn)max(a1,a2,\xe2\x80\xa6,an)\xe2\x8b\x85max(b1,b2,\xe2\x80\xa6,bn) you can get after applying such operation any number of times.'
+Tags
+greedy, *800

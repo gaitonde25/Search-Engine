@@ -1,0 +1,13 @@
+b"Recently a new building with a new layout was constructed in Monocarp's hometown. According to this new layout, the building consists of three types of apartments: three-room, five-room, and seven-room apartments. It's also known that each room of each apartment has exactly one window. In other words, a three-room apartment has three windows, a five-room\xc2\xa0\xe2\x80\x94 five windows, and a seven-room\xc2\xa0\xe2\x80\x94 seven windows."
+b'Monocarp went around the building and counted nn windows. Now he is wondering, how many apartments of each type the building may have.'
+b'Unfortunately, Monocarp only recently has learned to count, so he is asking you to help him to calculate the possible quantities of three-room, five-room, and seven-room apartments in the building that has nn windows. If there are multiple answers, you can print any of them.'
+b'Here are some examples:'
+b'  if Monocarp has counted 3030 windows, there could have been 22 three-room apartments, 22 five-room apartments and 22 seven-room apartments, since 2\xe2\x8b\x853+2\xe2\x8b\x855+2\xe2\x8b\x857=302\xe2\x8b\x853+2\xe2\x8b\x855+2\xe2\x8b\x857=30;  if Monocarp has counted 6767 windows, there could have been 77 three-room apartments, 55 five-room apartments and 33 seven-room apartments, since 7\xe2\x8b\x853+5\xe2\x8b\x855+3\xe2\x8b\x857=677\xe2\x8b\x853+5\xe2\x8b\x855+3\xe2\x8b\x857=67;  if Monocarp has counted 44 windows, he should have mistaken since no building with the aforementioned layout can have 44 windows. '
+b'Input'
+b'Th first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The only line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of windows in the building.'
+b'Output'
+b"For each test case, if a building with the new layout and the given number of windows just can't exist, print \xe2\x88\x921\xe2\x88\x921."
+b'Otherwise, print three non-negative integers\xc2\xa0\xe2\x80\x94 the possible number of three-room, five-room, and seven-room apartments. If there are multiple answers, print any of them.'
+Tags
+brute force, constructive algorithms, math, *900

@@ -1,0 +1,9 @@
+b"Let's define a function f(p)f(p) on a permutation pp as follows. Let gigi be the greatest common divisor (GCD) of elements p1p1, p2p2, ..., pipi (in other words, it is the GCD of the prefix of length ii). Then f(p)f(p) is the number of distinct elements among g1g1, g2g2, ..., gngn."
+b'Let fmax(n)fmax(n) be the maximum value of f(p)f(p) among all permutations pp of integers 11, 22, ..., nn.'
+b'Given an integers nn, count the number of permutations pp of integers 11, 22, ..., nn, such that f(p)f(p) is equal to fmax(n)fmax(n). Since the answer may be large, print the remainder of its division by 1000000007=109+71000000007=109+7.'
+b'Input'
+b'The only line contains the integer nn (2\xe2\x89\xa4n\xe2\x89\xa41062\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the length of the permutations.'
+b'Output'
+b'The only line should contain your answer modulo 109+7109+7.'
+Tags
+combinatorics, dp, math, number theory, *2500

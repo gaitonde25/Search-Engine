@@ -1,0 +1,12 @@
+b'You are given a tree (a connected acyclic undirected graph) of n vertices. Vertices are numbered from 1 to n and each vertex is assigned a character from a to t.'
+b'A path in the tree is said to be palindromic if at least one permutation of the labels in the path is a palindrome.'
+b'For each vertex, output the number of palindromic paths passing through it. '
+b'Note: The path from vertex u to vertex v is considered to be the same as the path from vertex v to vertex u, and this path will be counted only once for each of the vertices it passes through.'
+b'Input'
+b'The first line contains an integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The next n\xe2\x80\x89-\xe2\x80\x891 lines each contain two integers u and v (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89n,\xe2\x80\x89u\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89v) denoting an edge connecting vertex u and vertex v. It is guaranteed that the given graph is a tree.'
+b'The next line contains a string consisting of n lowercase characters from a to t where the i-th (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) character is the label of vertex i in the tree.'
+b'Output'
+b'Print n integers in a single line, the i-th of which is the number of palindromic paths passing through vertex i in the tree.'
+Tags
+bitmasks, data structures, divide and conquer, trees, *2400

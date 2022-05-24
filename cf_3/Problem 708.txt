@@ -1,0 +1,13 @@
+b'There is an infinite pond that can be represented with a number line. There are nn rocks in the pond, numbered from 11 to nn. The ii-th rock is located at an integer coordinate aiai. The coordinates of the rocks are pairwise distinct. The rocks are numbered in the increasing order of the coordinate, so a1<a2<\xe2\x8b\xaf<ana1<a2<\xe2\x8b\xaf<an.'
+b'A robot frog sits on the rock number ss. The frog is programmable. It has a base jumping distance parameter dd. There also is a setting for the jumping distance range. If the jumping distance range is set to some integer kk, then the frog can jump from some rock to any rock at a distance from d\xe2\x88\x92kd\xe2\x88\x92k to d+kd+k inclusive in any direction. The distance between two rocks is an absolute difference between their coordinates.'
+b'You are assigned a task to implement a feature for the frog. Given two integers ii and kk determine if the frog can reach a rock number ii from a rock number ss performing a sequence of jumps with the jumping distance range set to kk. The sequence can be arbitrarily long or empty.'
+b'You will be given qq testcases for that feature, the jj-th testcase consists of two integers ii and kk. Print "Yes" if the ii-th rock is reachable and "No" otherwise.'
+b'You can output "YES" and "NO" in any case (for example, strings "yEs", "yes", "Yes" and \'YES"\' will be recognized as a positive answer).'
+b'Input'
+b'The first line contains four integers nn, qq, ss and dd (1\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,q\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4s\xe2\x89\xa4n1\xe2\x89\xa4s\xe2\x89\xa4n; 1\xe2\x89\xa4d\xe2\x89\xa41061\xe2\x89\xa4d\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of rocks, the number of testcases, the starting rock and the base jumping distance parameter.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the coordinates of the rocks. The coordinates of the rocks are pairwise distinct. The rocks are numbered in the increasing order of distance from the land, so a1<a2<\xe2\x8b\xaf<ana1<a2<\xe2\x8b\xaf<an.'
+b'Each of the next qq lines contains two integers ii and kk (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n; 1\xe2\x89\xa4k\xe2\x89\xa41061\xe2\x89\xa4k\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the parameters to the testcase.'
+b'Output'
+b'For each of the testcases print an answer. If there is a sequence of jumps from a rock number ss to a rock number ii with the jumping distance range set to kk, then print "Yes". Otherwise, print "No".'
+Tags
+binary search, data structures, divide and conquer, dp, dsu, graphs, shortest paths, *2700

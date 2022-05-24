@@ -1,0 +1,13 @@
+b'Elections in Berland are coming. There are only two candidates \xe2\x80\x94 Alice and Bob.'
+b'The main Berland TV channel plans to show political debates. There are nn people who want to take part in the debate as a spectator. Each person is described by their influence and political views. There are four kinds of political views:'
+b'  supporting none of candidates (this kind is denoted as "00"),  supporting Alice but not Bob (this kind is denoted as "10"),  supporting Bob but not Alice (this kind is denoted as "01"),  supporting both candidates (this kind is denoted as "11"). '
+b'The direction of the TV channel wants to invite some of these people to the debate. The set of invited spectators should satisfy three conditions:'
+b'  at least half of spectators support Alice (i.e. 2\xe2\x8b\x85a\xe2\x89\xa5m2\xe2\x8b\x85a\xe2\x89\xa5m, where aa is number of spectators supporting Alice and mm is the total number of spectators),  at least half of spectators support Bob (i.e. 2\xe2\x8b\x85b\xe2\x89\xa5m2\xe2\x8b\x85b\xe2\x89\xa5m, where bb is number of spectators supporting Bob and mm is the total number of spectators),  the total influence of spectators is maximal possible. '
+b'Help the TV channel direction to select such non-empty set of spectators, or tell that this is impossible.'
+b'Input'
+b'The first line contains integer nn (1\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x85105) \xe2\x80\x94 the number of people who want to take part in the debate as a spectator.'
+b'These people are described on the next nn lines. Each line describes a single person and contains the string sisi and integer aiai separated by space (1\xe2\x89\xa4ai\xe2\x89\xa450001\xe2\x89\xa4ai\xe2\x89\xa45000), where sisi denotes person\'s political views (possible values \xe2\x80\x94 "00", "10", "01", "11") and aiai \xe2\x80\x94 the influence of the ii-th person.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 maximal possible total influence of a set of spectators so that at least half of them support Alice and at least half of them support Bob. If it is impossible print 0 instead.'
+Tags
+greedy, *1500

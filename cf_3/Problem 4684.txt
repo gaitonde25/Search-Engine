@@ -1,0 +1,13 @@
+b"Recently a dog was bought for Polycarp. The dog's name is Cormen. Now Polycarp has a lot of troubles. For example, Cormen likes going for a walk. "
+b'Empirically Polycarp learned that the dog needs at least k walks for any two consecutive days in order to feel good. For example, if k\xe2\x80\x89=\xe2\x80\x895 and yesterday Polycarp went for a walk with Cormen 2 times, today he has to go for a walk at least 3 times. '
+b'Polycarp analysed all his affairs over the next n days and made a sequence of n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an, where ai is the number of times Polycarp will walk with the dog on the i-th day while doing all his affairs (for example, he has to go to a shop, throw out the trash, etc.).'
+b'Help Polycarp determine the minimum number of walks he needs to do additionaly in the next n days so that Cormen will feel good during all the n days. You can assume that on the day before the first day and on the day after the n-th day Polycarp will go for a walk with Cormen exactly k times. '
+b'Write a program that will find the minumum number of additional walks and the appropriate schedule\xc2\xa0\xe2\x80\x94 the sequence of integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn (bi\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x89ai), where bi means the total number of walks with the dog on the i-th day.'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500)\xc2\xa0\xe2\x80\x94 the number of days and the minimum number of walks with Cormen for any two consecutive days. '
+b'The second line contains integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500)\xc2\xa0\xe2\x80\x94 the number of walks with Cormen on the i-th day which Polycarp has already planned. '
+b'Output'
+b'In the first line print the smallest number of additional walks that Polycarp should do during the next n days so that Cormen will feel good during all days. '
+b'In the second line print n integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn, where bi\xc2\xa0\xe2\x80\x94 the total number of walks on the i-th day according to the found solutions (ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi for all i from 1 to n). If there are multiple solutions, print any of them. '
+Tags
+dp, greedy, *1000

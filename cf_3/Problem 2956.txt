@@ -1,0 +1,12 @@
+b'We all know that a superhero can transform to certain other superheroes. But not all Superheroes can transform to any other superhero. A superhero with name ss can transform to another superhero with name tt if ss can be made equal to tt by changing any vowel in ss to any other vowel and any consonant in ss to any other consonant. Multiple changes can be made.'
+b"In this problem, we consider the letters 'a', 'e', 'i', 'o' and 'u' to be vowels and all the other letters to be consonants."
+b'Given the names of two superheroes, determine if the superhero with name ss can be transformed to the Superhero with name tt.'
+b'Input'
+b'The first line contains the string ss having length between 11 and 10001000, inclusive.'
+b'The second line contains the string tt having length between 11 and 10001000, inclusive.'
+b'Both strings ss and tt are guaranteed to be different and consist of lowercase English letters only.'
+b'Output'
+b'Output "Yes" (without quotes) if the superhero with name ss can be transformed to the superhero with name tt and "No" (without quotes) otherwise.'
+b'You can print each letter in any case (upper or lower).'
+Tags
+implementation, strings, *1000

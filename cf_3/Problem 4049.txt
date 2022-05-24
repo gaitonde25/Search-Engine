@@ -1,0 +1,11 @@
+b'Petya learned a new programming language CALPAS. A program in this language always takes one non-negative integer and returns one non-negative integer as well.'
+b'In the language, there are only three commands: apply a bitwise operation AND, OR or XOR with a given constant to the current integer. A program can contain an arbitrary sequence of these operations with arbitrary constants from 0 to 1023. When the program is run, all operations are applied (in the given order) to the argument and in the end the result integer is returned.'
+b"Petya wrote a program in this language, but it turned out to be too long. Write a program in CALPAS that does the same thing as the Petya's program, and consists of no more than 5 lines. Your program should return the same integer as Petya's program for all arguments from 0 to 1023."
+b'Input'
+b'The first line contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105) \xe2\x80\x94 the number of lines.'
+b'Next n lines contain commands. A command consists of a character that represents the operation ("&", "|" or "^" for AND, OR or XOR respectively), and the constant xi 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891023.'
+b'Output'
+b'Output an integer k (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895) \xe2\x80\x94 the length of your program.'
+b'Next k lines must contain commands in the same format as in the input.'
+Tags
+bitmasks, constructive algorithms, *1600

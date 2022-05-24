@@ -1,0 +1,14 @@
+b'Recently, your friend discovered one special operation on an integer array aa: '
+b'  Choose two indices ii and jj (i\xe2\x89\xa0ji\xe2\x89\xa0j);  Set ai=aj=|ai\xe2\x88\x92aj|ai=aj=|ai\xe2\x88\x92aj|. '
+b'After playing with this operation for a while, he came to the next conclusion: '
+b'  For every array aa of nn integers, where 1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109, you can find a pair of indices (i,j)(i,j) such that the total sum of aa will decrease after performing the operation. '
+b'This statement sounds fishy to you, so you want to find a counterexample for a given integer nn. Can you find such counterexample and prove him wrong?'
+b"In other words, find an array aa consisting of nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) such that for all pairs of indices (i,j)(i,j) performing the operation won't decrease the total sum (it will increase or not change the sum)."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first and only line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the length of array aa.'
+b'Output'
+b'For each test case, if there is no counterexample array aa of size nn, print NO.'
+b'Otherwise, print YES followed by the array aa itself (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109). If there are multiple counterexamples, print any.'
+Tags
+constructive algorithms, greedy, *800

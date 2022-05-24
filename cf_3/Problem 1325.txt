@@ -1,0 +1,12 @@
+b'You are given a directed acyclic graph (a directed graph that does not contain cycles) of nn vertices and mm arcs. The ii-th arc leads from the vertex xixi to the vertex yiyi and has the weight wiwi.'
+b'Your task is to select an integer avav for each vertex vv, and then write a number bibi on each arcs ii such that bi=axi\xe2\x88\x92ayibi=axi\xe2\x88\x92ayi. You must select the numbers so that:'
+b'  all bibi are positive;  the value of the expression \xe2\x88\x91i=1mwibi\xe2\x88\x91i=1mwibi is the lowest possible. '
+b'It can be shown that for any directed acyclic graph with non-negative wiwi, such a way to choose numbers exists.'
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4182\xe2\x89\xa4n\xe2\x89\xa418; 0\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)20\xe2\x89\xa4m\xe2\x89\xa4n(n\xe2\x88\x921)2).'
+b'Then mm lines follow, the ii-th of them contains three integers xixi, yiyi and wiwi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n, 1\xe2\x89\xa4wi\xe2\x89\xa41051\xe2\x89\xa4wi\xe2\x89\xa4105, xi\xe2\x89\xa0yixi\xe2\x89\xa0yi) \xe2\x80\x94 the description of the ii-th arc.'
+b'It is guaranteed that the lines describe mm arcs of a directed acyclic graph without multiple arcs between the same pair of vertices.'
+b'Output'
+b'Print nn integers a1a1, a2a2, ..., anan (0\xe2\x89\xa4av\xe2\x89\xa41090\xe2\x89\xa4av\xe2\x89\xa4109), which must be written on the vertices so that all bibi are positive, and the value of the expression \xe2\x88\x91i=1mwibi\xe2\x88\x91i=1mwibi is the lowest possible. If there are several answers, print any of them. It can be shown that the answer always exists, and at least one of the optimal answers satisfies the constraints 0\xe2\x89\xa4av\xe2\x89\xa41090\xe2\x89\xa4av\xe2\x89\xa4109.'
+Tags
+bitmasks, dfs and similar, dp, flows, graphs, math, *2600

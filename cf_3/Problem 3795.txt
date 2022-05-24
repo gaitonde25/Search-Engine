@@ -1,0 +1,11 @@
+b'The last stage of Football World Cup is played using the play-off system.'
+b'There are n teams left in this stage, they are enumerated from 1 to n. Several rounds are held, in each round the remaining teams are sorted in the order of their ids, then the first in this order plays with the second, the third\xc2\xa0\xe2\x80\x94 with the fourth, the fifth\xc2\xa0\xe2\x80\x94 with the sixth, and so on. It is guaranteed that in each round there is even number of teams. The winner of each game advances to the next round, the loser is eliminated from the tournament, there are no draws. In the last round there is the only game with two remaining teams: the round is called the Final, the winner is called the champion, and the tournament is over.'
+b'Arkady wants his two favorite teams to play in the Final. Unfortunately, the team ids are already determined, and it may happen that it is impossible for teams to meet in the Final, because they are to meet in some earlier stage, if they are strong enough. Determine, in which round the teams with ids a and b can meet.'
+b'Input'
+b'The only line contains three integers n, a and b (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89256, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the total number of teams, and the ids of the teams that Arkady is interested in. '
+b'It is guaranteed that n is such that in each round an even number of team advance, and that a and b are not equal.'
+b'Output'
+b'In the only line print "Final!" (without quotes), if teams a and b can meet in the Final.'
+b'Otherwise, print a single integer\xc2\xa0\xe2\x80\x94 the number of the round in which teams a and b can meet. The round are enumerated from 1.'
+Tags
+constructive algorithms, implementation, *1200

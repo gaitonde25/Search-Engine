@@ -1,0 +1,11 @@
+b'You are given four integer values aa, bb, cc and mm.'
+b'Check if there exists a string that contains: '
+b"  aa letters 'A';  bb letters 'B';  cc letters 'C';  no other letters;  exactly mm pairs of adjacent equal letters (exactly mm such positions ii that the ii-th letter is equal to the (i+1)(i+1)-th one). "
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Each of the next tt lines contains the description of the testcase\xc2\xa0\xe2\x80\x94 four integers aa, bb, cc and mm (1\xe2\x89\xa4a,b,c\xe2\x89\xa41081\xe2\x89\xa4a,b,c\xe2\x89\xa4108; 0\xe2\x89\xa4m\xe2\x89\xa41080\xe2\x89\xa4m\xe2\x89\xa4108).'
+b'Output'
+b'For each testcase print "YES" if there exists a string that satisfies all the requirements. Print "NO" if there are no such strings.'
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES will all be recognized as positive answer).'
+Tags
+combinatorics, greedy, math, *1100

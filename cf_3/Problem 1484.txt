@@ -1,0 +1,11 @@
+b'You are given an array a1,a2\xe2\x80\xa6ana1,a2\xe2\x80\xa6an. Calculate the number of tuples (i,j,k,l)(i,j,k,l) such that: '
+b'  1\xe2\x89\xa4i<j<k<l\xe2\x89\xa4n1\xe2\x89\xa4i<j<k<l\xe2\x89\xa4n;  ai=akai=ak and aj=alaj=al; '
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (4\xe2\x89\xa4n\xe2\x89\xa430004\xe2\x89\xa4n\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the size of the array aa.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the array aa.'
+b"It's guaranteed that the sum of nn in one test doesn't exceed 30003000."
+b'Output'
+b'For each test case, print the number of described tuples.'
+Tags
+brute force, combinatorics, data structures, math, two pointers, *1900

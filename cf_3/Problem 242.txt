@@ -1,0 +1,12 @@
+b'You are given a permutation pp of length nn.'
+b'You can choose any subsequence, remove it from the permutation, and insert it at the beginning of the permutation keeping the same order.'
+b'For every kk from 00 to nn, find the minimal possible number of inversions in the permutation after you choose a subsequence of length exactly kk.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4500001\xe2\x89\xa4t\xe2\x89\xa450000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the permutation.'
+b'The second line of each test case contains the permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n).'
+b"It is guaranteed that the total sum of nn doesn't exceed 5\xe2\x8b\x851055\xe2\x8b\x85105."
+b'Output'
+b'For each test case output n+1n+1 integers. The ii-th of them must be the answer for the subsequence length of i\xe2\x88\x921i\xe2\x88\x921.'
+Tags
+data structures, greedy, math, sortings, *3500

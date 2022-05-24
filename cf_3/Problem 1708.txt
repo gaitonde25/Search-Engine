@@ -1,0 +1,13 @@
+b'Levian works as an accountant in a large company. Levian knows how much the company has earned in each of the nn consecutive months \xe2\x80\x94 in the ii-th month the company had income equal to aiai (positive income means profit, negative income means loss, zero income means no change). Because of the general self-isolation, the first \xe2\x8c\x88n2\xe2\x8c\x89\xe2\x8c\x88n2\xe2\x8c\x89 months income might have been completely unstable, but then everything stabilized and for the last \xe2\x8c\x8an2\xe2\x8c\x8b\xe2\x8c\x8an2\xe2\x8c\x8b months the income was the same.'
+b'Levian decided to tell the directors n\xe2\x88\x92k+1n\xe2\x88\x92k+1 numbers \xe2\x80\x94 the total income of the company for each kk consecutive months. In other words, for each ii between 11 and n\xe2\x88\x92k+1n\xe2\x88\x92k+1 he will say the value ai+ai+1+\xe2\x80\xa6+ai+k\xe2\x88\x921ai+ai+1+\xe2\x80\xa6+ai+k\xe2\x88\x921. For example, if a=[\xe2\x88\x921,0,1,2,2]a=[\xe2\x88\x921,0,1,2,2] and k=3k=3 he will say the numbers 0,3,50,3,5.'
+b'Unfortunately, if at least one total income reported by Levian is not a profit (income \xe2\x89\xa40\xe2\x89\xa40), the directors will get angry and fire the failed accountant.'
+b"Save Levian's career: find any such kk, that for each kk months in a row the company had made a profit, or report that it is impossible."
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the number of months for which Levian must account.'
+b'The second line contains \xe2\x8c\x88n2\xe2\x8c\x89\xe2\x8c\x88n2\xe2\x8c\x89 integers a1,a2,\xe2\x80\xa6,a\xe2\x8c\x88n2\xe2\x8c\x89a1,a2,\xe2\x80\xa6,a\xe2\x8c\x88n2\xe2\x8c\x89, where aiai (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the income of the company in the ii-th month.'
+b'Third line contains a single integer xx (\xe2\x88\x92109\xe2\x89\xa4x\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4x\xe2\x89\xa4109) \xe2\x80\x94 income in every month from \xe2\x8c\x88n2\xe2\x8c\x89+1\xe2\x8c\x88n2\xe2\x8c\x89+1 to nn.'
+b'Output'
+b'In a single line, print the appropriate integer kk or \xe2\x88\x921\xe2\x88\x921, if it does not exist.'
+b'If there are multiple possible answers, you can print any.'
+Tags
+constructive algorithms, data structures, greedy, implementation, *2400

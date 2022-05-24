@@ -1,0 +1,13 @@
+b'It is the hard version of the problem. The only difference is that in this version 3\xe2\x89\xa4k\xe2\x89\xa4n3\xe2\x89\xa4k\xe2\x89\xa4n.'
+b'You are given a positive integer nn. Find kk positive integers a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak, such that:'
+b'  a1+a2+\xe2\x80\xa6+ak=na1+a2+\xe2\x80\xa6+ak=n  LCM(a1,a2,\xe2\x80\xa6,ak)\xe2\x89\xa4n2LCM(a1,a2,\xe2\x80\xa6,ak)\xe2\x89\xa4n2 '
+b'Here LCMLCM is the least common multiple of numbers a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak.'
+b'We can show that for given constraints the answer always exists.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4104)(1\xe2\x89\xa4t\xe2\x89\xa4104) \xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The only line of each test case contains two integers nn, kk (3\xe2\x89\xa4n\xe2\x89\xa41093\xe2\x89\xa4n\xe2\x89\xa4109, 3\xe2\x89\xa4k\xe2\x89\xa4n3\xe2\x89\xa4k\xe2\x89\xa4n).'
+b'It is guaranteed that the sum of kk over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case print kk positive integers a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak, for which all conditions are satisfied.'
+Tags
+constructive algorithms, math, *1600

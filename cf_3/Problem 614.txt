@@ -1,0 +1,11 @@
+b'Alice has an empty grid with nn rows and mm columns. Some of the cells are marked, and no marked cells are adjacent to the edge of the grid. (Two squares are adjacent if they share a side.) '
+b'Alice wants to fill each cell with a number such that the following statements are true: '
+b'  every unmarked cell contains either the number 11 or 44;  every marked cell contains the sum of the numbers in all unmarked cells adjacent to it (if a marked cell is not adjacent to any unmarked cell, this sum is 00);  every marked cell contains a multiple of 55. '
+b" Alice couldn't figure it out, so she asks Bob to help her. Help Bob find any such grid, or state that no such grid exists."
+b'Input'
+b'The first line of input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa45001\xe2\x89\xa4n,m\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the number of rows and the number of columns in the grid, respectively.'
+b"Then nn lines follow, each containing mm characters. Each of these characters is either '.' or 'X'\xc2\xa0\xe2\x80\x94 an unmarked and a marked cell, respectively. No marked cells are adjacent to the edge of the grid."
+b'Output'
+b'Output "\'NO" if no suitable grid exists. Otherwise, output "\'YES"\'. Then output nn lines of mm space-separated integers\xc2\xa0\xe2\x80\x94 the integers in the grid.'
+Tags
+2-sat, constructive algorithms, dfs and similar, dsu, graphs, implementation, *2700

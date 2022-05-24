@@ -1,0 +1,8 @@
+b'A rectangular swamp is inhabited by 10 species of frogs. Frogs of species i can jump from hillocks to hillock exactly i units along X-axis or Y-axis. Initially frogs of all types sit at the hillock at coordinates (0, 0). You are given coordinates of all other hillocks in the swamp. Find the largest Manhattan distance from (0, 0) to any hillock to which one of the frogs can travel by jumping between hillocks.'
+b'Manhattan distance between (x1,\xe2\x80\x89y1) and (x2,\xe2\x80\x89y2) is |x1\xe2\x80\x89-\xe2\x80\x89x2|\xe2\x80\x89+\xe2\x80\x89|y1\xe2\x80\x89-\xe2\x80\x89y2|.'
+b'Input'
+b'The first line of the input contains an integer N (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) - the number of hillocks. The following N lines contain the coordinates of the hillocks, formatted as "X Y" (\xe2\x80\x89-\xe2\x80\x8920\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89X,\xe2\x80\x89Y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8920). All hillocks are distinct, and none of them is located at (0, 0).'
+b'Output'
+b'Output a single integer \xe2\x80\x94 the largest Manhattan distance to any hillock reachable by one of the frogs by jumping between hillocks.'
+Tags
+*special problem, *2100

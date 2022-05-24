@@ -1,0 +1,12 @@
+b"There is one apple tree in Arkady's garden. It can be represented as a set of junctions connected with branches so that there is only one way to reach any junctions from any other one using branches. The junctions are enumerated from 11 to nn, the junction 11 is called the root."
+b'A subtree of a junction vv is a set of junctions uu such that the path from uu to the root must pass through vv. Note that vv itself is included in a subtree of vv.'
+b'A leaf is such a junction that its subtree contains exactly one junction.'
+b'The New Year is coming, so Arkady wants to decorate the tree. He will put a light bulb of some color on each leaf junction and then count the number happy junctions. A happy junction is such a junction tt that all light bulbs in the subtree of tt have different colors.'
+b'Arkady is interested in the following question: for each kk from 11 to nn, what is the minimum number of different colors needed to make the number of happy junctions be greater than or equal to kk?'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of junctions in the tree.'
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2p2, p3p3, ..., pnpn (1\xe2\x89\xa4pi<i1\xe2\x89\xa4pi<i), where pipi means there is a branch between junctions ii and pipi. It is guaranteed that this set of branches forms a tree.'
+b'Output'
+b'Output nn integers. The ii-th of them should be the minimum number of colors needed to make the number of happy junctions be at least ii.'
+Tags
+constructive algorithms, dfs and similar, dp, graphs, greedy, sortings, trees, *1600

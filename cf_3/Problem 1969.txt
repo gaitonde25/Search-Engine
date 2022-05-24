@@ -1,0 +1,9 @@
+b'Bessie the cow has just intercepted a text that Farmer John sent to Burger Queen! However, Bessie is sure that there is a secret message hidden inside.'
+b'The text is a string ss of lowercase Latin letters. She considers a string tt as hidden in string ss if tt exists as a subsequence of ss whose indices form an arithmetic progression. For example, the string aab is hidden in string aaabb because it occurs at indices 11, 33, and 55, which form an arithmetic progression with a common difference of 22. Bessie thinks that any hidden string that occurs the most times is the secret message. Two occurrences of a subsequence of SS are distinct if the sets of indices are different. Help her find the number of occurrences of the secret message!'
+b'For example, in the string aaabb, a is hidden 33 times, b is hidden 22 times, ab is hidden 66 times, aa is hidden 33 times, bb is hidden 11 time, aab is hidden 22 times, aaa is hidden 11 time, abb is hidden 11 time, aaab is hidden 11 time, aabb is hidden 11 time, and aaabb is hidden 11 time. The number of occurrences of the secret message is 66.'
+b'Input'
+b'The first line contains a string ss of lowercase Latin letters (1\xe2\x89\xa4|s|\xe2\x89\xa41051\xe2\x89\xa4|s|\xe2\x89\xa4105) \xe2\x80\x94 the text that Bessie intercepted.'
+b'Output'
+b'Output a single integer \xc2\xa0\xe2\x80\x94 the number of occurrences of the secret message.'
+Tags
+brute force, dp, math, strings, *1500

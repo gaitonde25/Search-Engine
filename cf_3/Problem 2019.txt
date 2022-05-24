@@ -1,0 +1,8 @@
+b'For a given positive integer mm, a positive number is called a mm-number if the product of its digits is mm. For example, the beginning of a series of 2424-numbers are as follows: 3838, 4646, 6464, 8383, 138138, 146146, 164164, 183183, 226226 ...'
+b'You are given a positive integer mm and kk. Print kk-th among mm-numbers if all mm-numbers are sorted in ascending order.'
+b'Input'
+b'A single line of input contains two integers mm and kk (2\xe2\x89\xa4m\xe2\x89\xa41092\xe2\x89\xa4m\xe2\x89\xa4109, 1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109).'
+b'Output'
+b'Print the desired number\xc2\xa0\xe2\x80\x94 kk-th among all mm-numbers if mm-numbers are sorted in ascending order. If the answer does not exist, print -1.'
+Tags
+*special problem, dp, math

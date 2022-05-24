@@ -1,0 +1,13 @@
+b"Mateusz likes to travel! However, on his 4242nd visit to Saint Computersburg there is not much left to sightsee. That's why he decided to go to an escape room with his friends!"
+b'The team has solved all riddles flawlessly. There is only one riddle remaining \xe2\x80\x94 a huge circular table! There are nn weighing scales lying on top of the table, distributed along the circle. Each scale is adjacent to exactly two other scales: for each i\xe2\x88\x88{1,2,\xe2\x80\xa6,n\xe2\x88\x921}i\xe2\x88\x88{1,2,\xe2\x80\xa6,n\xe2\x88\x921}, the ii-th and the (i+1)(i+1)-th scales are adjacent to each other, as well as the first and the nn-th scale.'
+b'The ii-th scale initially contains aiai heavy coins. Mateusz can perform moves \xe2\x80\x94 each move consists of fetching a single coin from one scale and putting it on any adjacent scale.'
+b"It turns out that the riddle will be solved when there is a specific amount of coins on each of the scales. Specifically, each scale has parameters lili and riri. If each coin lies on a single scale and for each ii, the ii-th scale contains at least lili and at most riri coins, the riddle will be solved and Mateusz's team will win!"
+b'Mateusz is aiming for the best possible time. Therefore, he wants to solved the riddle as quickly as possible. What is the minimum possible number of moves required to fulfill all the conditions?'
+b'Input'
+b'The first line contains an integer nn (3\xe2\x89\xa4n\xe2\x89\xa4350003\xe2\x89\xa4n\xe2\x89\xa435000) \xe2\x80\x94 the number of weighing scales in the circle.'
+b'The following nn lines describe the scales. The ii-th of these lines describes the ii-th scale and consists of three integers ai,li,riai,li,ri (0\xe2\x89\xa4ai\xe2\x89\xa4350000\xe2\x89\xa4ai\xe2\x89\xa435000, 0\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4350000\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa435000).'
+b"It's guaranteed that the riddle is solvable, that is, \xe2\x88\x91ni=1li\xe2\x89\xa4\xe2\x88\x91ni=1ai\xe2\x89\xa4\xe2\x88\x91ni=1ri\xe2\x88\x91i=1nli\xe2\x89\xa4\xe2\x88\x91i=1nai\xe2\x89\xa4\xe2\x88\x91i=1nri."
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the minimum number of operations required to solve the riddle.'
+Tags
+dp, *3500

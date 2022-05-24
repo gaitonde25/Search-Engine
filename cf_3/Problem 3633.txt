@@ -1,0 +1,10 @@
+b'Petya has an array aa consisting of nn integers. He wants to remove duplicate (equal) elements.'
+b'Petya wants to leave only the rightmost entry (occurrence) for each element of the array. The relative order of the remaining unique elements should not be changed.'
+b'Input'
+b"The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450) \xe2\x80\x94 the number of elements in Petya's array."
+b"The following line contains a sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa410001\xe2\x89\xa4ai\xe2\x89\xa41000) \xe2\x80\x94 the Petya's array."
+b'Output'
+b"In the first line print integer xx \xe2\x80\x94 the number of elements which will be left in Petya's array after he removed the duplicates."
+b"In the second line print xx integers separated with a space \xe2\x80\x94 Petya's array after he removed the duplicates. For each unique element only the rightmost entry should be left."
+Tags
+implementation, *800

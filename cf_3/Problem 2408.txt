@@ -1,0 +1,11 @@
+b'The only difference between the easy and the hard versions is the maximum value of kk.'
+b'You are given an infinite sequence of form "112123123412345\xe2\x80\xa6\xe2\x80\xa6" which consist of blocks of all consecutive positive integers written one after another. The first block consists of all numbers from 11 to 11, the second one \xe2\x80\x94 from 11 to 22, the third one \xe2\x80\x94 from 11 to 33, \xe2\x80\xa6\xe2\x80\xa6, the ii-th block consists of all numbers from 11 to ii. '
+b'So the first 5656 elements of the sequence are "11212312341234512345612345671234567812345678912345678910". Elements of the sequence are numbered from one. For example, the 11-st element of the sequence is 11, the 33-rd element of the sequence is 22, the 2020-th element of the sequence is 55, the 3838-th element is 22, the 5656-th element of the sequence is 00.'
+b'Your task is to answer qq independent queries. In the ii-th query you are given one integer kiki. Calculate the digit at the position kiki of the sequence.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa45001\xe2\x89\xa4q\xe2\x89\xa4500) \xe2\x80\x94 the number of queries.'
+b'The ii-th of the following qq lines contains one integer kiki (1\xe2\x89\xa4ki\xe2\x89\xa4109)(1\xe2\x89\xa4ki\xe2\x89\xa4109) \xe2\x80\x94 the description of the corresponding query.'
+b'Output'
+b'Print qq lines. In the ii-th line print one digit xixi (0\xe2\x89\xa4xi\xe2\x89\xa49)(0\xe2\x89\xa4xi\xe2\x89\xa49) \xe2\x80\x94 the answer to the query ii, i.e. xixi should be equal to the element at the position kiki of the sequence.'
+Tags
+binary search, brute force, math, *1900

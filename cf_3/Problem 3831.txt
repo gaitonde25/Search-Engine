@@ -1,0 +1,15 @@
+b'An atom of element X can exist in n distinct states with energies E1\xe2\x80\x89<\xe2\x80\x89E2\xe2\x80\x89<\xe2\x80\x89...\xe2\x80\x89<\xe2\x80\x89En. Arkady wants to build a laser on this element, using a three-level scheme. Here is a simplified description of the scheme. '
+b'Three distinct states i, j and k are selected, where i\xe2\x80\x89<\xe2\x80\x89j\xe2\x80\x89<\xe2\x80\x89k. After that the following process happens: '
+b'  initially the atom is in the state i, we spend Ek\xe2\x80\x89-\xe2\x80\x89Ei energy to put the atom in the state k, the atom emits a photon with useful energy Ek\xe2\x80\x89-\xe2\x80\x89Ej and changes its state to the state j, the atom spontaneously changes its state to the state i, losing energy Ej\xe2\x80\x89-\xe2\x80\x89Ei, the process repeats from step 1. '
+b"Let's define the energy conversion efficiency as , i.\xc2\xa0e. the ration between the useful energy of the photon and spent energy."
+b'Due to some limitations, Arkady can only choose such three states that Ek\xe2\x80\x89-\xe2\x80\x89Ei\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89U.'
+b'Help Arkady to find such the maximum possible energy conversion efficiency within the above constraints.'
+b'Input'
+b'The first line contains two integers n and U (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89U\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the number of states and the maximum possible difference between Ek and Ei.'
+b'The second line contains a sequence of integers E1,\xe2\x80\x89E2,\xe2\x80\x89...,\xe2\x80\x89En (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89E1\xe2\x80\x89<\xe2\x80\x89E2...\xe2\x80\x89<\xe2\x80\x89En\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109). It is guaranteed that all Ei are given in increasing order.'
+b'Output'
+b'If it is not possible to choose three states that satisfy all constraints, print -1.'
+b'Otherwise, print one real number \xce\xb7\xc2\xa0\xe2\x80\x94 the maximum possible energy conversion efficiency. Your answer is considered correct its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x899.'
+b"Formally, let your answer be a, and the jury's answer be b. Your answer is considered correct if ."
+Tags
+binary search, greedy, two pointers, *1600

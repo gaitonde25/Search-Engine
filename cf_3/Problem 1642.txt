@@ -1,0 +1,11 @@
+b'Lee is going to fashionably decorate his house for a party, using some regular convex polygons...'
+b'Lee thinks a regular nn-sided (convex) polygon is beautiful if and only if he can rotate it in such a way that at least one of its edges is parallel to the OXOX-axis and at least one of its edges is parallel to the OYOY-axis at the same time.'
+b'Recall that a regular nn-sided polygon is a convex polygon with nn vertices such that all the edges and angles are equal.'
+b'Now he is shopping: the market has tt regular polygons. For each of them print YES if it is beautiful and NO otherwise.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of polygons in the market. '
+b'Each of the next tt lines contains a single integer nini (3\xe2\x89\xa4ni\xe2\x89\xa41093\xe2\x89\xa4ni\xe2\x89\xa4109): it means that the ii-th polygon is a regular nini-sided polygon. '
+b'Output'
+b"For each polygon, print YES if it's beautiful or NO otherwise (case insensitive)."
+Tags
+geometry, math, *800

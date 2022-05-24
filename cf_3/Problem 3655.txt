@@ -1,0 +1,11 @@
+b'kk people want to split nn candies between them. Each candy should be given to exactly one of them or be thrown away.'
+b'The people are numbered from 11 to kk, and Arkady is the first of them. To split the candies, Arkady will choose an integer xx and then give the first xx candies to himself, the next xx candies to the second person, the next xx candies to the third person and so on in a cycle. The leftover (the remainder that is not divisible by xx) will be thrown away.'
+b"Arkady can't choose xx greater than MM as it is considered greedy. Also, he can't choose such a small xx that some person will receive candies more than DD times, as it is considered a slow splitting."
+b'Please find what is the maximum number of candies Arkady can receive by choosing some valid xx.'
+b'Input'
+b'The only line contains four integers nn, kk, MM and DD (2\xe2\x89\xa4n\xe2\x89\xa410182\xe2\x89\xa4n\xe2\x89\xa41018, 2\xe2\x89\xa4k\xe2\x89\xa4n2\xe2\x89\xa4k\xe2\x89\xa4n, 1\xe2\x89\xa4M\xe2\x89\xa4n1\xe2\x89\xa4M\xe2\x89\xa4n, 1\xe2\x89\xa4D\xe2\x89\xa4min(n,1000)1\xe2\x89\xa4D\xe2\x89\xa4min(n,1000), M\xe2\x8b\x85D\xe2\x8b\x85k\xe2\x89\xa5nM\xe2\x8b\x85D\xe2\x8b\x85k\xe2\x89\xa5n)\xc2\xa0\xe2\x80\x94 the number of candies, the number of people, the maximum number of candies given to a person at once, the maximum number of times a person can receive candies.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum possible number of candies Arkady can give to himself.'
+b'Note that it is always possible to choose some valid xx.'
+Tags
+math, *2000

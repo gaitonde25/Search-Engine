@@ -1,0 +1,11 @@
+b'Bear Limak prepares problems for a programming competition. Of course, it would be unprofessional to mention the sponsor name in the statement. Limak takes it seriously and he is going to change some words. To make it still possible to read, he will try to modify each word as little as possible.'
+b'Limak has a string s that consists of uppercase English letters. In one move he can swap two adjacent letters of the string. For example, he can transform a string "ABBC" into "BABC" or "ABCB" in one move.'
+b'Limak wants to obtain a string without a substring "VK" (i.e. there should be no letter \'V\' immediately followed by letter \'K\'). It can be easily proved that it\'s possible for any initial string s.'
+b'What is the minimum possible number of moves Limak can do?'
+b'Input'
+b'The first line of the input contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8975)\xc2\xa0\xe2\x80\x94 the length of the string.'
+b'The second line contains a string s, consisting of uppercase English letters. The length of the string is equal to n.'
+b'Output'
+b'Print one integer, denoting the minimum possible number of moves Limak can do, in order to obtain a string without a substring "VK".'
+Tags
+dp, *2500

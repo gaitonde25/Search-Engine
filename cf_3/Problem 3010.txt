@@ -1,0 +1,12 @@
+b'There are nn cities along the road, which can be represented as a straight line. The ii-th city is situated at the distance of aiai kilometers from the origin. All cities are situated in the same direction from the origin. There are mm trucks travelling from one city to another. '
+b'Each truck can be described by 44 integers: starting city sisi, finishing city fifi, fuel consumption cici and number of possible refuelings riri. The ii-th truck will spend cici litres of fuel per one kilometer. '
+b"When a truck arrives in some city, it can be refueled (but refueling is impossible in the middle of nowhere). The ii-th truck can be refueled at most riri times. Each refueling makes truck's gas-tank full. All trucks start with full gas-tank."
+b'All trucks will have gas-tanks of the same size VV litres. You should find minimum possible VV such that all trucks can reach their destinations without refueling more times than allowed.'
+b'Input'
+b'First line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa44002\xe2\x89\xa4n\xe2\x89\xa4400, 1\xe2\x89\xa4m\xe2\x89\xa42500001\xe2\x89\xa4m\xe2\x89\xa4250000) \xe2\x80\x94 the number of cities and trucks.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109, ai<ai+1ai<ai+1) \xe2\x80\x94 positions of cities in the ascending order.'
+b'Next mm lines contains 44 integers each. The ii-th line contains integers sisi, fifi, cici, riri (1\xe2\x89\xa4si<fi\xe2\x89\xa4n1\xe2\x89\xa4si<fi\xe2\x89\xa4n, 1\xe2\x89\xa4ci\xe2\x89\xa41091\xe2\x89\xa4ci\xe2\x89\xa4109, 0\xe2\x89\xa4ri\xe2\x89\xa4n0\xe2\x89\xa4ri\xe2\x89\xa4n) \xe2\x80\x94 the description of the ii-th truck.'
+b'Output'
+b'Print the only integer \xe2\x80\x94 minimum possible size of gas-tanks VV such that all trucks can reach their destinations.'
+Tags
+binary search, dp, *2400

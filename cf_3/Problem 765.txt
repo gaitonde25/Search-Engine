@@ -1,0 +1,12 @@
+b"You are given two integers ll and rr, where l<rl<r. We will add 11 to ll until the result is equal to rr. Thus, there will be exactly r\xe2\x88\x92lr\xe2\x88\x92l additions performed. For each such addition, let's look at the number of digits that will be changed after it."
+b'For example: '
+b'  if l=909l=909, then adding one will result in 910910 and 22 digits will be changed;  if you add one to l=9l=9, the result will be 1010 and 22 digits will also be changed;  if you add one to l=489999l=489999, the result will be 490000490000 and 55 digits will be changed. '
+b'Changed digits always form a suffix of the result written in the decimal system.'
+b'Output the total number of changed digits, if you want to get rr from ll, adding 11 each time.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Then tt test cases follow.'
+b'Each test case is characterized by two integers ll and rr (1\xe2\x89\xa4l<r\xe2\x89\xa41091\xe2\x89\xa4l<r\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, calculate the total number of changed digits if you want to get rr from ll, adding one each time.'
+Tags
+binary search, dp, math, number theory, *1500

@@ -1,0 +1,9 @@
+b'The sequence of integers a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak is called a good array if a1=k\xe2\x88\x921a1=k\xe2\x88\x921 and a1>0a1>0. For example, the sequences [3,\xe2\x88\x921,44,0],[1,\xe2\x88\x9299][3,\xe2\x88\x921,44,0],[1,\xe2\x88\x9299] are good arrays, and the sequences [3,7,8],[2,5,4,1],[0][3,7,8],[2,5,4,1],[0] \xe2\x80\x94 are not.'
+b'A sequence of integers is called good if it can be divided into a positive number of good arrays. Each good array should be a subsegment of sequence and each element of the sequence should belong to exactly one array. For example, the sequences [2,\xe2\x88\x923,0,1,4][2,\xe2\x88\x923,0,1,4], [1,2,3,\xe2\x88\x923,\xe2\x88\x929,4][1,2,3,\xe2\x88\x923,\xe2\x88\x929,4] are good, and the sequences [2,\xe2\x88\x923,0,1][2,\xe2\x88\x923,0,1], [1,2,3,\xe2\x88\x923\xe2\x88\x929,4,1][1,2,3,\xe2\x88\x923\xe2\x88\x929,4,1] \xe2\x80\x94 are not.'
+b'For a given sequence of numbers, count the number of its subsequences that are good sequences, and print the number of such subsequences modulo 998244353.'
+b'Input'
+b'The first line contains the number n\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa4103)n\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa4103) \xe2\x80\x94 the length of the initial sequence. The following line contains nn integers a1,a2,\xe2\x80\xa6,an\xc2\xa0(\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109)a1,a2,\xe2\x80\xa6,an\xc2\xa0(\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the sequence itself.'
+b'Output'
+b'In the single line output one integer \xe2\x80\x94 the number of subsequences of the original sequence that are good sequences, taken modulo 998244353.'
+Tags
+combinatorics, dp, *1900

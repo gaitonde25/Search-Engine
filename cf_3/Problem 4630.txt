@@ -1,0 +1,12 @@
+b'The tram in Berland goes along a straight line from the point 0 to the point s and back, passing 1 meter per t1 seconds in both directions. It means that the tram is always in the state of uniform rectilinear motion, instantly turning around at points x\xe2\x80\x89=\xe2\x80\x890 and x\xe2\x80\x89=\xe2\x80\x89s.'
+b'Igor is at the point x1. He should reach the point x2. Igor passes 1 meter per t2 seconds. '
+b'Your task is to determine the minimum time Igor needs to get from the point x1 to the point x2, if it is known where the tram is and in what direction it goes at the moment Igor comes to the point x1.'
+b"Igor can enter the tram unlimited number of times at any moment when his and the tram's positions coincide. It is not obligatory that points in which Igor enter and exit the tram are integers. Assume that any boarding and unboarding happens instantly. Igor can move arbitrary along the line (but not faster than 1 meter per t2 seconds). He can also stand at some point for some time."
+b'Input'
+b'The first line contains three integers s, x1 and x2 (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x1,\xe2\x80\x89x2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s, x1\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89x2)\xc2\xa0\xe2\x80\x94 the maximum coordinate of the point to which the tram goes, the point Igor is at, and the point he should come to.'
+b'The second line contains two integers t1 and t2 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t1,\xe2\x80\x89t2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the time in seconds in which the tram passes 1 meter and the time in seconds in which Igor passes 1 meter.'
+b'The third line contains two integers p and d (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89-\xe2\x80\x891, d is either 1 or )\xc2\xa0\xe2\x80\x94 the position of the tram in the moment Igor came to the point x1 and the direction of the tram at this moment. If , the tram goes in the direction from the point s to the point 0. If d\xe2\x80\x89=\xe2\x80\x891, the tram goes in the direction from the point 0 to the point s.'
+b'Output'
+b'Print the minimum time in seconds which Igor needs to get from the point x1 to the point x2.'
+Tags
+constructive algorithms, implementation, math, *1600

@@ -1,0 +1,13 @@
+b'You are given two strings ss and tt, both consisting only of lowercase Latin letters.'
+b'The substring s[l..r]s[l..r] is the string which is obtained by taking characters sl,sl+1,\xe2\x80\xa6,srsl,sl+1,\xe2\x80\xa6,sr without changing the order.'
+b'Each of the occurrences of string aa in a string bb is a position ii (1\xe2\x89\xa4i\xe2\x89\xa4|b|\xe2\x88\x92|a|+11\xe2\x89\xa4i\xe2\x89\xa4|b|\xe2\x88\x92|a|+1) such that b[i..i+|a|\xe2\x88\x921]=ab[i..i+|a|\xe2\x88\x921]=a (|a||a| is the length of string aa).'
+b'You are asked qq queries: for the ii-th query you are required to calculate the number of occurrences of string tt in a substring s[li..ri]s[li..ri].'
+b'Input'
+b'The first line contains three integer numbers nn, mm and qq (1\xe2\x89\xa4n,m\xe2\x89\xa41031\xe2\x89\xa4n,m\xe2\x89\xa4103, 1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105) \xe2\x80\x94 the length of string ss, the length of string tt and the number of queries, respectively.'
+b'The second line is a string ss (|s|=n|s|=n), consisting only of lowercase Latin letters.'
+b'The third line is a string tt (|t|=m|t|=m), consisting only of lowercase Latin letters.'
+b'Each of the next qq lines contains two integer numbers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n) \xe2\x80\x94 the arguments for the ii-th query.'
+b'Output'
+b'Print qq lines \xe2\x80\x94 the ii-th line should contain the answer to the ii-th query, that is the number of occurrences of string tt in a substring s[li..ri]s[li..ri].'
+Tags
+brute force, implementation, *1300

@@ -1,0 +1,7 @@
+b'It is an interactive problem.'
+b'Vasya enjoys solving quizzes. He found a strange device and wants to know how it works.'
+b'This device encrypted with the tree (connected undirected graph without cycles) with nn vertices, numbered with integers from 11 to nn. To solve this quiz you should guess this tree.'
+b"Fortunately, this device can make one operation, using which you should guess the cipher. You can give the device an array d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn of non-negative integers. On the device, there are nn lamps, ii-th of them is connected with ii-th vertex of the tree. For all ii the light will turn on the ii-th lamp, if there exist such vertex of the tree with number j\xe2\x89\xa0ij\xe2\x89\xa0i that dist(i,j)\xe2\x89\xa4djdist(i,j)\xe2\x89\xa4dj. Let's define dist(i,j)dist(i,j) as the distance between vertices ii and jj in tree or number of edges on the simple path between vertices ii and jj."
+b'Vasya wants to solve this quiz using \xe2\x89\xa480\xe2\x89\xa480 operations with the device and guess the tree. Help him! '
+Tags
+binary search, interactive, math, trees, *3400

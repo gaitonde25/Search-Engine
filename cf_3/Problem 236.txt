@@ -1,0 +1,12 @@
+b'You want to advertise your new business, so you are going to place two posters on a billboard in the city center. The billboard consists of nn vertical panels of width 11 and varying integer heights, held together by a horizontal bar. The ii-th of the nn panels has height hihi.'
+b'  '
+b'Initially, all panels hang down from the bar (their top edges lie on it), but before placing the two posters, you are allowed to move each panel up by any integer length, as long as it is still connected to the bar (its bottom edge lies below or on it).'
+b'After the moves are done, you will place two posters: one below the bar and one above it. They are not allowed to go over the bar and they must be positioned completely inside of the panels.'
+b'What is the maximum total area the two posters can cover together if you make the optimal moves? Note that you can also place a poster of 00 area. This case is equivalent to placing a single poster.'
+b'Input'
+b'The first line of input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41041\xe2\x89\xa4n\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of vertical panels.'
+b'The second line of input contains nn integers h1,h2,...,hnh1,h2,...,hn (1\xe2\x89\xa4hi\xe2\x89\xa410121\xe2\x89\xa4hi\xe2\x89\xa41012)\xc2\xa0\xe2\x80\x94 the heights of the nn vertical panels.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum total area the two posters can cover together.'
+Tags
+brute force, data structures, greedy, two pointers, *3200

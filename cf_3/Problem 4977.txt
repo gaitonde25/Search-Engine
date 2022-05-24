@@ -1,0 +1,8 @@
+b'Greatest common divisor GCD(a,\xe2\x80\x89b) of two positive integers a and b is equal to the biggest integer d such that both integers a and b are divisible by d. There are many efficient algorithms to find greatest common divisor GCD(a,\xe2\x80\x89b), for example, Euclid algorithm. '
+b'Formally, find the biggest integer d, such that all integers a,\xe2\x80\x89a\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89a\xe2\x80\x89+\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89b are divisible by d. To make the problem even more complicated we allow a and b to be up to googol, 10100\xc2\xa0\xe2\x80\x94 such number do not fit even in 64-bit integer type!'
+b'Input'
+b'The only line of the input contains two integers a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910100).'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 greatest common divisor of all integers from a to b inclusive.'
+Tags
+math, number theory, *800

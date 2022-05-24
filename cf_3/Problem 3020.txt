@@ -1,0 +1,11 @@
+b'Arkady coordinates rounds on some not really famous competitive programming platform. Each round features nn problems of distinct difficulty, the difficulties are numbered from 11 to nn.'
+b"To hold a round Arkady needs nn new (not used previously) problems, one for each difficulty. As for now, Arkady creates all the problems himself, but unfortunately, he can't just create a problem of a desired difficulty. Instead, when he creates a problem, he evaluates its difficulty from 11 to nn and puts it into the problems pool."
+b'At each moment when Arkady can choose a set of nn new problems of distinct difficulties from the pool, he holds a round with these problems and removes them from the pool. Arkady always creates one problem at a time, so if he can hold a round after creating a problem, he immediately does it.'
+b"You are given a sequence of problems' difficulties in the order Arkady created them. For each problem, determine whether Arkady held the round right after creating this problem, or not. Initially the problems pool is empty."
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa41051\xe2\x89\xa4n,m\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of difficulty levels and the number of problems Arkady created.'
+b"The second line contains mm integers a1,a2,\xe2\x80\xa6,ama1,a2,\xe2\x80\xa6,am (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the problems' difficulties in the order Arkady created them."
+b'Output'
+b'Print a line containing mm digits. The ii-th digit should be 11 if Arkady held the round after creation of the ii-th problem, and 00 otherwise.'
+Tags
+data structures, implementation, *1300

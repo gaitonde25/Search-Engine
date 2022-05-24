@@ -1,0 +1,13 @@
+b'Try guessing the statement from this picture: '
+b'  '
+b'You are given a non-negative integer dd. You have to find two non-negative real numbers aa and bb such that a+b=da+b=d and a\xe2\x8b\x85b=da\xe2\x8b\x85b=d.'
+b'Input'
+b'The first line contains tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103) \xe2\x80\x94 the number of test cases.'
+b'Each test case contains one integer dd (0\xe2\x89\xa4d\xe2\x89\xa4103)(0\xe2\x89\xa4d\xe2\x89\xa4103).'
+b'Output'
+b'For each test print one line.'
+b'If there is an answer for the ii-th test, print "Y", and then the numbers aa and bb.'
+b'If there is no answer for the ii-th test, print "N".'
+b'Your answer will be considered correct if |(a+b)\xe2\x88\x92a\xe2\x8b\x85b|\xe2\x89\xa410\xe2\x88\x926|(a+b)\xe2\x88\x92a\xe2\x8b\x85b|\xe2\x89\xa410\xe2\x88\x926 and |(a+b)\xe2\x88\x92d|\xe2\x89\xa410\xe2\x88\x926|(a+b)\xe2\x88\x92d|\xe2\x89\xa410\xe2\x88\x926.'
+Tags
+binary search, math, *1300

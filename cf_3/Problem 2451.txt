@@ -1,0 +1,13 @@
+b'Anadi has a set of dominoes. Every domino has two parts, and each part contains some dots. For every aa and bb such that 1\xe2\x89\xa4a\xe2\x89\xa4b\xe2\x89\xa461\xe2\x89\xa4a\xe2\x89\xa4b\xe2\x89\xa46, there is exactly one domino with aa dots on one half and bb dots on the other half. The set contains exactly 2121 dominoes. Here is an exact illustration of his set:'
+b'  '
+b"Also, Anadi has an undirected graph without self-loops and multiple edges. He wants to choose some dominoes and place them on the edges of this graph. He can use at most one domino of each type. Each edge can fit at most one domino. It's not necessary to place a domino on each edge of the graph."
+b"When placing a domino on an edge, he also chooses its direction. In other words, one half of any placed domino must be directed toward one of the endpoints of the edge and the other half must be directed toward the other endpoint. There's a catch: if there are multiple halves of dominoes directed toward the same vertex, each of these halves must contain the same number of dots."
+b'How many dominoes at most can Anadi place on the edges of his graph?'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa471\xe2\x89\xa4n\xe2\x89\xa47, 0\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x8b\x85(n\xe2\x88\x921)20\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x8b\x85(n\xe2\x88\x921)2) \xe2\x80\x94 the number of vertices and the number of edges in the graph.'
+b'The next mm lines contain two integers each. Integers in the ii-th line are aiai and bibi (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n, a\xe2\x89\xa0ba\xe2\x89\xa0b) and denote that there is an edge which connects vertices aiai and bibi.'
+b"The graph might be disconnected. It's however guaranteed that the graph doesn't contain any self-loops, and that there is at most one edge between any pair of vertices."
+b'Output'
+b'Output one integer which denotes the maximum number of dominoes which Anadi can place on the edges of the graph.'
+Tags
+brute force, graphs, *1700

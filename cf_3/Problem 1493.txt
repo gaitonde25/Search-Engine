@@ -1,0 +1,14 @@
+b"You have nn gifts and you want to give all of them to children. Of course, you don't want to offend anyone, so all gifts should be equal between each other. The ii-th gift consists of aiai candies and bibi oranges."
+b'During one move, you can choose some gift 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n and do one of the following operations:'
+b'  eat exactly one candy from this gift (decrease aiai by one);  eat exactly one orange from this gift (decrease bibi by one);  eat exactly one candy and exactly one orange from this gift (decrease both aiai and bibi by one). '
+b"Of course, you can not eat a candy or orange if it's not present in the gift (so neither aiai nor bibi can become less than zero)."
+b'As said above, all gifts should be equal. This means that after some sequence of moves the following two conditions should be satisfied: a1=a2=\xe2\x8b\xaf=ana1=a2=\xe2\x8b\xaf=an and b1=b2=\xe2\x8b\xaf=bnb1=b2=\xe2\x8b\xaf=bn (and aiai equals bibi is not necessary).'
+b'Your task is to find the minimum number of moves required to equalize all the given gifts.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450) \xe2\x80\x94 the number of gifts. The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is the number of candies in the ii-th gift. The third line of the test case contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109), where bibi is the number of oranges in the ii-th gift.'
+b'Output'
+b'For each test case, print one integer: the minimum number of moves required to equalize all the given gifts.'
+Tags
+greedy, *800

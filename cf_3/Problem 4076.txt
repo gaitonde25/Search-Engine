@@ -1,0 +1,10 @@
+b'You are given two lists of non-zero digits.'
+b"Let's call an integer pretty if its (base 10) representation has at least one digit from the first list and at least one digit from the second list. What is the smallest positive pretty integer?"
+b'Input'
+b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x899) \xe2\x80\x94 the lengths of the first and the second lists, respectively.'
+b'The second line contains n distinct digits a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x899) \xe2\x80\x94 the elements of the first list.'
+b'The third line contains m distinct digits b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bm (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x899) \xe2\x80\x94 the elements of the second list.'
+b'Output'
+b'Print the smallest pretty integer.'
+Tags
+brute force, implementation, *900

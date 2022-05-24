@@ -1,0 +1,12 @@
+b'Berland State University invites people from all over the world as guest students. You can come to the capital of Berland and study with the best teachers in the country.'
+b'Berland State University works every day of the week, but classes for guest students are held on the following schedule. You know the sequence of seven integers a1,a2,\xe2\x80\xa6,a7a1,a2,\xe2\x80\xa6,a7 (ai=0ai=0 or ai=1ai=1):'
+b'  a1=1a1=1 if and only if there are classes for guest students on Sundays;  a2=1a2=1 if and only if there are classes for guest students on Mondays;  ...   a7=1a7=1 if and only if there are classes for guest students on Saturdays. '
+b'The classes for guest students are held in at least one day of a week.'
+b'You want to visit the capital of Berland and spend the minimum number of days in it to study kk days as a guest student in Berland State University. Write a program to find the length of the shortest continuous period of days to stay in the capital to study exactly kk days as a guest student.'
+b'Input'
+b'The first line of the input contains integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) \xe2\x80\x94 the number of test cases to process. For each test case independently solve the problem and print the answer. '
+b'Each test case consists of two lines. The first of them contains integer kk (1\xe2\x89\xa4k\xe2\x89\xa41081\xe2\x89\xa4k\xe2\x89\xa4108) \xe2\x80\x94 the required number of days to study as a guest student. The second line contains exactly seven integers a1,a2,\xe2\x80\xa6,a7a1,a2,\xe2\x80\xa6,a7 (ai=0ai=0 or ai=1ai=1) where ai=1ai=1 if and only if classes for guest students are held on the ii-th day of a week.'
+b'Output'
+b'Print tt lines, the ii-th line should contain the answer for the ii-th test case \xe2\x80\x94 the length of the shortest continuous period of days you need to stay to study exactly kk days as a guest student.'
+Tags
+math, *1500

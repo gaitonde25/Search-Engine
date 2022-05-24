@@ -1,0 +1,11 @@
+b'JATC and his friend Giraffe are currently in their room, solving some problems. Giraffe has written on the board an array a1a1, a2a2, ..., anan of integers, such that 1\xe2\x89\xa4a1<a2<\xe2\x80\xa6<an\xe2\x89\xa41031\xe2\x89\xa4a1<a2<\xe2\x80\xa6<an\xe2\x89\xa4103, and then went to the bathroom.'
+b"JATC decided to prank his friend by erasing some consecutive elements in the array. Since he doesn't want for the prank to go too far, he will only erase in a way, such that Giraffe can still restore the array using the information from the remaining elements. Because Giraffe has created the array, he's also aware that it's an increasing array and all the elements are integers in the range [1,103][1,103]."
+b'JATC wonders what is the greatest number of elements he can erase?'
+b'Input'
+b'The first line of the input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of elements in the array.'
+b'The second line of the input contains nn integers aiai (1\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<an\xe2\x89\xa41031\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<an\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the array written by Giraffe.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of consecutive elements in the array that JATC can erase.'
+b'If it is impossible to erase even a single element, print 00.'
+Tags
+greedy, implementation, *1300

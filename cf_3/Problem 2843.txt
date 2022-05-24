@@ -1,0 +1,10 @@
+b'Ivan recently bought a detective book. The book is so interesting that each page of this book introduces some sort of a mystery, which will be explained later. The ii-th page contains some mystery that will be explained on page aiai (ai\xe2\x89\xa5iai\xe2\x89\xa5i).'
+b"Ivan wants to read the whole book. Each day, he reads the first page he didn't read earlier, and continues to read the following pages one by one, until all the mysteries he read about are explained and clear to him (Ivan stops if there does not exist any page ii such that Ivan already has read it, but hasn't read page aiai). After that, he closes the book and continues to read it on the following day from the next page."
+b'How many days will it take to read the whole book?'
+b'Input'
+b'The first line contains single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41041\xe2\x89\xa4n\xe2\x89\xa4104) \xe2\x80\x94 the number of pages in the book.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (i\xe2\x89\xa4ai\xe2\x89\xa4ni\xe2\x89\xa4ai\xe2\x89\xa4n), where aiai is the number of page which contains the explanation of the mystery on page ii.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of days it will take to read the whole book.'
+Tags
+implementation, *1000

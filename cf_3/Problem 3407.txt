@@ -1,0 +1,12 @@
+b"You are looking at the floor plan of the Summer Informatics School's new building. You were tasked with SIS logistics, so you really care about travel time between different locations: it is important to know how long it would take to get from the lecture room to the canteen, or from the gym to the server room."
+b'The building consists of n towers, h floors each, where the towers are labeled from 1 to n, the floors are labeled from 1 to h. There is a passage between any two adjacent towers (two towers i and i\xe2\x80\x89+\xe2\x80\x891 for all i: 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891) on every floor x, where a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b. It takes exactly one minute to walk between any two adjacent floors of a tower, as well as between any two adjacent towers, provided that there is a passage on that floor. It is not permitted to leave the building.'
+b' The picture illustrates the first example. '
+b'You have given k pairs of locations (ta,\xe2\x80\x89fa), (tb,\xe2\x80\x89fb): floor fa of tower ta and floor fb of tower tb. For each pair you need to determine the minimum walking time between these locations.'
+b'Input'
+b'The first line of the input contains following integers:'
+b"  n: the number of towers in the building (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89108),  h: the number of floors in each tower (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89h\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89108),  a and b: the lowest and highest floor where it's possible to move between adjacent towers (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89h),  k: total number of queries (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104). "
+b'Next k lines contain description of the queries. Each description consists of four integers ta, fa, tb, fb (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ta,\xe2\x80\x89tb\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89fa,\xe2\x80\x89fb\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89h). This corresponds to a query to find the minimum travel time between fa-th floor of the ta-th tower and fb-th floor of the tb-th tower.'
+b'Output'
+b'For each query print a single integer: the minimum walking time between the locations in minutes.'
+Tags
+math, *1000

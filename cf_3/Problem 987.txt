@@ -1,0 +1,9 @@
+b'You are given three positive (greater than zero) integers cc, dd and xx. '
+b'You have to find the number of pairs of positive integers (a,b)(a,b) such that equality c\xe2\x8b\x85lcm(a,b)\xe2\x88\x92d\xe2\x8b\x85gcd(a,b)=xc\xe2\x8b\x85lcm(a,b)\xe2\x88\x92d\xe2\x8b\x85gcd(a,b)=x holds. Where lcm(a,b)lcm(a,b) is the least common multiple of aa and bb and gcd(a,b)gcd(a,b) is the greatest common divisor of aa and bb.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of one line containing three integer cc, dd and xx (1\xe2\x89\xa4c,d,x\xe2\x89\xa41071\xe2\x89\xa4c,d,x\xe2\x89\xa4107).'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the number of pairs (a,ba,b) such that the above equality holds.'
+Tags
+dp, math, number theory, *2100

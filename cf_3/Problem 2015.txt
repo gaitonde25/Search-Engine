@@ -1,0 +1,14 @@
+b'Guy-Manuel and Thomas are going to build a polygon spaceship. '
+b"You're given a strictly convex (i. e. no three points are collinear) polygon PP which is defined by coordinates of its vertices. Define P(x,y)P(x,y) as a polygon obtained by translating PP by vector (x,y)\xe2\x88\x92\xe2\x86\x92\xe2\x88\x92\xe2\x88\x92(x,y)\xe2\x86\x92. The picture below depicts an example of the translation:"
+b''
+b'Define TT as a set of points which is the union of all P(x,y)P(x,y) such that the origin (0,0)(0,0) lies in P(x,y)P(x,y) (both strictly inside and on the boundary). There is also an equivalent definition: a point (x,y)(x,y) lies in TT only if there are two points A,BA,B in PP such that AB\xe2\x88\x92\xe2\x86\x92\xe2\x88\x92=(x,y)\xe2\x88\x92\xe2\x86\x92\xe2\x88\x92\xe2\x88\x92AB\xe2\x86\x92=(x,y)\xe2\x86\x92. One can prove TT is a polygon too. For example, if PP is a regular triangle then TT is a regular hexagon. At the picture below PP is drawn in black and some P(x,y)P(x,y) which contain the origin are drawn in colored: '
+b''
+b'The spaceship has the best aerodynamic performance if PP and TT are similar. Your task is to check whether the polygons PP and TT are similar.'
+b'Input'
+b'The first line of input will contain a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa41053\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of points.'
+b'The ii-th of the next nn lines contains two integers xi,yixi,yi (|xi|,|yi|\xe2\x89\xa4109|xi|,|yi|\xe2\x89\xa4109), denoting the coordinates of the ii-th vertex.'
+b'It is guaranteed that these points are listed in counterclockwise order and these points form a strictly convex polygon.'
+b'Output'
+b'Output "YES" in a separate line, if PP and TT are similar. Otherwise, output "NO" in a separate line. You can print each letter in any case (upper or lower).'
+Tags
+geometry, *1800

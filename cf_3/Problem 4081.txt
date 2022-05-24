@@ -1,0 +1,14 @@
+b'Rock... Paper!'
+b'After Karen have found the deterministic winning (losing?) strategy for rock-paper-scissors, her brother, Koyomi, comes up with a new game as a substitute. The game works as follows.'
+b'A positive integer n is decided first. Both Koyomi and Karen independently choose n distinct positive integers, denoted by x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn and y1,\xe2\x80\x89y2,\xe2\x80\x89...,\xe2\x80\x89yn respectively. They reveal their sequences, and repeat until all of 2n integers become distinct, which is the only final state to be kept and considered.'
+b'Then they count the number of ordered pairs (i,\xe2\x80\x89j) (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i,\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) such that the value xi xor yj equals to one of the 2n integers. Here xor means the bitwise exclusive or operation on two integers, and is denoted by operators ^ and/or xor in most programming languages.'
+b"Karen claims a win if the number of such pairs is even, and Koyomi does otherwise. And you're here to help determine the winner of their latest game."
+b'Input'
+b'The first line of input contains a positive integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xe2\x80\x89000) \xe2\x80\x94 the length of both sequences.'
+b'The second line contains n space-separated integers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7106) \xe2\x80\x94 the integers finally chosen by Koyomi.'
+b'The third line contains n space-separated integers y1,\xe2\x80\x89y2,\xe2\x80\x89...,\xe2\x80\x89yn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7106) \xe2\x80\x94 the integers finally chosen by Karen.'
+b'Input guarantees that the given 2n integers are pairwise distinct, that is, no pair (i,\xe2\x80\x89j) (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i,\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) exists such that one of the following holds: xi\xe2\x80\x89=\xe2\x80\x89yj; i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89j and xi\xe2\x80\x89=\xe2\x80\x89xj; i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89j and yi\xe2\x80\x89=\xe2\x80\x89yj.'
+b'Output'
+b'Output one line \xe2\x80\x94 the name of the winner, that is, "Koyomi" or "Karen" (without quotes). Please be aware of the capitalization.'
+Tags
+brute force, implementation, *1100

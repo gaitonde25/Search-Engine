@@ -1,0 +1,10 @@
+b'Mislove had an array a1a1, a2a2, \xe2\x8b\xaf\xe2\x8b\xaf, anan of nn positive integers, but he has lost it. He only remembers the following facts about it:'
+b" The number of different numbers in the array is not less than ll and is not greater than rr; For each array's element aiai either ai=1ai=1 or aiai is even and there is a number ai2ai2 in the array."
+b"For example, if n=5n=5, l=2l=2, r=3r=3 then an array could be [1,2,2,4,4][1,2,2,4,4] or [1,1,1,1,2][1,1,1,1,2]; but it couldn't be [1,2,2,4,8][1,2,2,4,8] because this array contains 44 different numbers; it couldn't be [1,2,2,3,3][1,2,2,3,3] because 33 is odd and isn't equal to 11; and it couldn't be [1,1,2,2,16][1,1,2,2,16] because there is a number 1616 in the array but there isn't a number 162=8162=8."
+b'According to these facts, he is asking you to count the minimal and the maximal possible sums of all elements in an array. '
+b'Input'
+b"The only input line contains three integers nn, ll and rr (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000, 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4min(n,20)1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4min(n,20))\xc2\xa0\xe2\x80\x94 an array's size, the minimal number and the maximal number of distinct elements in an array."
+b'Output'
+b'Output two numbers\xc2\xa0\xe2\x80\x94 the minimal and the maximal possible sums of all elements in an array.'
+Tags
+greedy, math, *900

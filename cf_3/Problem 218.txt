@@ -1,0 +1,13 @@
+b'Sam lives in Awesomeburg, its downtown has a triangular shape. Also, the following is true about the triangle:'
+b'  its vertices have integer coordinates,  the coordinates of vertices are non-negative, and  its vertices are not on a single line. '
+b"He calls a point on the downtown's border (that is the border of the triangle) safe if he can reach this point from at least one point of the line y=0y=0 walking along some straight line, without crossing the interior of the triangle."
+b'  In the picture the downtown is marked with grey color. The first path is invalid because it does not go along a straight line. The second path is invalid because it intersects with the interior of the downtown. The third and fourth paths are correct. '
+b'Find the total length of the unsafe parts of the downtown border. It can be proven that these parts are segments and their number is finite.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b"Each test case contains three lines, each of them contains two integers xixi, yiyi (0\xe2\x89\xa4xi,yi\xe2\x89\xa41090\xe2\x89\xa4xi,yi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 coordinates of the vertices of the downtown's border."
+b'Output'
+b'For each test case print a single number\xc2\xa0\xe2\x80\x94 the answer to the problem.'
+b'Your answer will be considered correct if its absolute or relative error does not exceed 10\xe2\x88\x92910\xe2\x88\x929. Formally let your answer be aa, jury answer be bb. Your answer will be considered correct if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x929|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x929.'
+Tags
+geometry, *800

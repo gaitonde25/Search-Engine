@@ -1,0 +1,11 @@
+b'This is an interactive problem.'
+b"Igor wants to find the key to Olha's heart. The problem is, that it's at the root of a binary tree."
+b'There is a perfect binary tree of height hh consisting of n=2h\xe2\x88\x921n=2h\xe2\x88\x921 nodes. The nodes have been assigned distinct labels from 11 to nn. However, Igor only knows hh and does not know which label corresponds to which node. '
+b"To find key to Olha's heart he needs to find the label assigned to the root by making queries of the following type at most n+420n+420 times: "
+b'  Select three distinct labels uu, vv and ww (1\xe2\x89\xa4u,v,w\xe2\x89\xa4n1\xe2\x89\xa4u,v,w\xe2\x89\xa4n).  In response, Olha (the grader) will tell him the label of the lowest common ancestor of nodes labelled uu and vv, if the tree was rooted at the node labelled ww instead. '
+b'Help Igor to find the root!'
+b'Note: the grader is not adaptive: the labels are fixed before any queries are made.'
+b'Input'
+b'The first and only line contains a single integer hh (3\xe2\x89\xa4h\xe2\x89\xa4183\xe2\x89\xa4h\xe2\x89\xa418)\xc2\xa0\xe2\x80\x94 the height of the tree.'
+Tags
+interactive, probabilities, trees, *3000

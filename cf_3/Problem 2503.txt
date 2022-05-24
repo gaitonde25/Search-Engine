@@ -1,0 +1,13 @@
+b'Suppose you have a special xx-yy-counter. This counter can store some value as a decimal number; at first, the counter has value 00. '
+b'The counter performs the following algorithm: it prints its lowest digit and, after that, adds either xx or yy to its value. So all sequences this counter generates are starting from 00. For example, a 44-22-counter can act as follows:'
+b'  it prints 00, and adds 44 to its value, so the current value is 44, and the output is 00;  it prints 44, and adds 44 to its value, so the current value is 88, and the output is 0404;  it prints 88, and adds 44 to its value, so the current value is 1212, and the output is 048048;  it prints 22, and adds 22 to its value, so the current value is 1414, and the output is 04820482;  it prints 44, and adds 44 to its value, so the current value is 1818, and the output is 0482404824. '
+b'This is only one of the possible outputs; for example, the same counter could generate 02468024680240246802468024 as the output, if we chose to add 22 during each step.'
+b'You wrote down a printed sequence from one of such xx-yy-counters. But the sequence was corrupted and several elements from the sequence could be erased.'
+b"Now you'd like to recover data you've lost, but you don't even know the type of the counter you used. You have a decimal string ss \xe2\x80\x94 the remaining data of the sequence. "
+b"For all 0\xe2\x89\xa4x,y<100\xe2\x89\xa4x,y<10, calculate the minimum number of digits you have to insert in the string ss to make it a possible output of the xx-yy-counter. Note that you can't change the order of digits in string ss or erase any of them; only insertions are allowed."
+b'Input'
+b"The first line contains a single string ss (1\xe2\x89\xa4|s|\xe2\x89\xa42\xe2\x8b\x851061\xe2\x89\xa4|s|\xe2\x89\xa42\xe2\x8b\x85106, si\xe2\x88\x88{0\xe2\x88\x929}si\xe2\x88\x88{0\xe2\x88\x929}) \xe2\x80\x94 the remaining data you have. It's guaranteed that s1=0s1=0."
+b'Output'
+b'Print a 10\xc3\x971010\xc3\x9710 matrix, where the jj-th integer (00-indexed) on the ii-th line (00-indexed too) is equal to the minimum number of digits you have to insert in the string ss to make it a possible output of the ii-jj-counter, or \xe2\x88\x921\xe2\x88\x921 if there is no way to do so.'
+Tags
+brute force, dp, shortest paths, *1700

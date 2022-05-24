@@ -1,0 +1,10 @@
+b'Let GG be a simple graph. Let WW be a non-empty subset of vertices. Then WW is almost-kk-uniform if for each pair of distinct vertices u,v\xe2\x88\x88Wu,v\xe2\x88\x88W the distance between uu and vv is either kk or k+1k+1.'
+b'You are given a tree on nn vertices. For each ii between 11 and nn, find the maximum size of an almost-ii-uniform set.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x93 the number of vertices of the tree.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follows, the ii-th of which consisting of two space separated integers uiui, vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n) meaning that there is an edge between vertices uiui and vivi. '
+b'It is guaranteed that the given graph is tree. '
+b'Output'
+b'Output a single line containing nn space separated integers aiai, where aiai is the maximum size of an almost-ii-uniform set.'
+Tags
+dfs and similar, graphs, *2900

@@ -1,0 +1,17 @@
+b"In order to do some research, n2n2 labs are built on different heights of a mountain. Let's enumerate them with integers from 11 to n2n2, such that the lab with the number 11 is at the lowest place, the lab with the number 22 is at the second-lowest place, \xe2\x80\xa6\xe2\x80\xa6, the lab with the number n2n2 is at the highest place."
+b'To transport water between the labs, pipes are built between every pair of labs. A pipe can transport at most one unit of water at a time from the lab with the number uu to the lab with the number vv if u>vu>v.'
+b"Now the labs need to be divided into nn groups, each group should contain exactly nn labs. The labs from different groups can transport water to each other. The sum of units of water that can be sent from a group AA to a group BB is equal to the number of pairs of labs (u,vu,v) such that the lab with the number uu is from the group AA, the lab with the number vv is from the group BB and u>vu>v. Let's denote this value as f(A,B)f(A,B) (i.e. f(A,B)f(A,B) is the sum of units of water that can be sent from a group AA to a group BB)."
+b'For example, if n=3n=3 and there are 33 groups XX, YY and ZZ: X={1,5,6},Y={2,4,9}X={1,5,6},Y={2,4,9} and Z={3,7,8}Z={3,7,8}. In this case, the values of ff are equal to:'
+b'  f(X,Y)=4f(X,Y)=4 because of 5\xe2\x86\x9225\xe2\x86\x922, 5\xe2\x86\x9245\xe2\x86\x924, 6\xe2\x86\x9226\xe2\x86\x922, 6\xe2\x86\x9246\xe2\x86\x924,  f(X,Z)=2f(X,Z)=2 because of 5\xe2\x86\x9235\xe2\x86\x923, 6\xe2\x86\x9236\xe2\x86\x923,  f(Y,X)=5f(Y,X)=5 because of 2\xe2\x86\x9212\xe2\x86\x921, 4\xe2\x86\x9214\xe2\x86\x921, 9\xe2\x86\x9219\xe2\x86\x921, 9\xe2\x86\x9259\xe2\x86\x925, 9\xe2\x86\x9269\xe2\x86\x926,  f(Y,Z)=4f(Y,Z)=4 because of 4\xe2\x86\x9234\xe2\x86\x923, 9\xe2\x86\x9239\xe2\x86\x923, 9\xe2\x86\x9279\xe2\x86\x927, 9\xe2\x86\x9289\xe2\x86\x928,  f(Z,X)=7f(Z,X)=7 because of 3\xe2\x86\x9213\xe2\x86\x921, 7\xe2\x86\x9217\xe2\x86\x921, 7\xe2\x86\x9257\xe2\x86\x925, 7\xe2\x86\x9267\xe2\x86\x926, 8\xe2\x86\x9218\xe2\x86\x921, 8\xe2\x86\x9258\xe2\x86\x925, 8\xe2\x86\x9268\xe2\x86\x926,  f(Z,Y)=5f(Z,Y)=5 because of 3\xe2\x86\x9223\xe2\x86\x922, 7\xe2\x86\x9227\xe2\x86\x922, 7\xe2\x86\x9247\xe2\x86\x924, 8\xe2\x86\x9228\xe2\x86\x922, 8\xe2\x86\x9248\xe2\x86\x924. '
+b'Please, divide labs into nn groups with size nn, such that the value minf(A,B)minf(A,B) over all possible pairs of groups AA and BB (A\xe2\x89\xa0BA\xe2\x89\xa0B) is maximal.'
+b'In other words, divide labs into nn groups with size nn, such that minimum number of the sum of units of water that can be transported from a group AA to a group BB for every pair of different groups AA and BB (A\xe2\x89\xa0BA\xe2\x89\xa0B) as big as possible.'
+b"Note, that the example above doesn't demonstrate an optimal division, but it demonstrates how to calculate the values ff for some division."
+b'If there are many optimal divisions, you can find any.'
+b'Input'
+b'The only line contains one number nn (2\xe2\x89\xa4n\xe2\x89\xa43002\xe2\x89\xa4n\xe2\x89\xa4300).'
+b'Output'
+b'Output nn lines:'
+b'In the ii-th line print nn numbers, the numbers of labs of the ii-th group, in any order you want.'
+b'If there are multiple answers, that maximize the minimum number of the sum of units of water that can be transported from one group the another, you can print any.'
+Tags
+constructive algorithms, greedy, implementation, *1300

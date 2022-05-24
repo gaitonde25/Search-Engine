@@ -1,0 +1,7 @@
+b'One company of IT City decided to create a group of innovative developments consisting from 5 to 7 people and hire new employees for it. After placing an advertisment the company received n resumes. Now the HR department has to evaluate each possible group composition and select one of them. Your task is to count the number of variants of group composition to evaluate.'
+b'Input'
+b'The only line of the input contains one integer n (7\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89777) \xe2\x80\x94 the number of potential employees that sent resumes.'
+b'Output'
+b'Output one integer \xe2\x80\x94 the number of different variants of group composition.'
+Tags
+combinatorics, math, *1300

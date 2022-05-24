@@ -1,0 +1,12 @@
+b'You are given a tree (connected graph without cycles) consisting of nn vertices. The tree is unrooted \xe2\x80\x94 it is just a connected undirected graph without cycles.'
+b'In one move, you can choose exactly kk leaves (leaf is such a vertex that is connected to only one another vertex) connected to the same vertex and remove them with edges incident to them. I.e. you choose such leaves u1,u2,\xe2\x80\xa6,uku1,u2,\xe2\x80\xa6,uk that there are edges (u1,v)(u1,v), (u2,v)(u2,v), \xe2\x80\xa6\xe2\x80\xa6, (uk,v)(uk,v) and remove these leaves and these edges.'
+b'Your task is to find the maximum number of moves you can perform if you remove leaves optimally.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4k<n1\xe2\x89\xa4k<n) \xe2\x80\x94 the number of vertices in the tree and the number of leaves you remove in one move, respectively. The next n\xe2\x88\x921n\xe2\x88\x921 lines describe edges. The ii-th edge is represented as two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n), where xixi and yiyi are vertices the ii-th edge connects. It is guaranteed that the given set of edges forms a tree.'
+b'It is guaranteed that the sum of nn does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 the maximum number of moves you can perform if you remove leaves optimally.'
+Tags
+data structures, greedy, implementation, trees, *2300

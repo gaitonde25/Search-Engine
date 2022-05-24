@@ -1,0 +1,11 @@
+b'A matrix of size n\xc3\x97mn\xc3\x97m, such that each cell of it contains either 00 or 11, is considered beautiful if the sum in every contiguous submatrix of size 2\xc3\x9722\xc3\x972 is exactly 22, i.\xe2\x80\x89e. every "square" of size 2\xc3\x9722\xc3\x972 contains exactly two 11\'s and exactly two 00\'s.'
+b"You are given a matrix of size n\xc3\x97mn\xc3\x97m. Initially each cell of this matrix is empty. Let's denote the cell on the intersection of the xx-th row and the yy-th column as (x,y)(x,y). You have to process the queries of three types:"
+b'  xx yy \xe2\x88\x921\xe2\x88\x921 \xe2\x80\x94 clear the cell (x,y)(x,y), if there was a number in it;  xx yy 00 \xe2\x80\x94 write the number 00 in the cell (x,y)(x,y), overwriting the number that was there previously (if any);  xx yy 11 \xe2\x80\x94 write the number 11 in the cell (x,y)(x,y), overwriting the number that was there previously (if any). '
+b'After each query, print the number of ways to fill the empty cells of the matrix so that the resulting matrix is beautiful. Since the answers can be large, print them modulo 998244353998244353.'
+b'Input'
+b'The first line contains three integers nn, mm and kk (2\xe2\x89\xa4n,m\xe2\x89\xa41062\xe2\x89\xa4n,m\xe2\x89\xa4106; 1\xe2\x89\xa4k\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of rows in the matrix, the number of columns, and the number of queries, respectively.'
+b'Then kk lines follow, the ii-th of them contains three integers xixi, yiyi, titi (1\xe2\x89\xa4xi\xe2\x89\xa4n1\xe2\x89\xa4xi\xe2\x89\xa4n; 1\xe2\x89\xa4yi\xe2\x89\xa4m1\xe2\x89\xa4yi\xe2\x89\xa4m; \xe2\x88\x921\xe2\x89\xa4ti\xe2\x89\xa41\xe2\x88\x921\xe2\x89\xa4ti\xe2\x89\xa41) \xe2\x80\x94 the parameters for the ii-th query.'
+b'Output'
+b'For each query, print one integer \xe2\x80\x94 the number of ways to fill the empty cells of the matrix after the respective query, taken modulo 998244353998244353.'
+Tags
+combinatorics, constructive algorithms, implementation, math, *2500

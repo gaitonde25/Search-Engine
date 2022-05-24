@@ -1,0 +1,10 @@
+b'There are n workers in a company, each of them has a unique id from 1 to n. Exaclty one of them is a chief, his id is s. Each worker except the chief has exactly one immediate superior.'
+b"There was a request to each of the workers to tell how how many superiors (not only immediate). Worker's superiors are his immediate superior, the immediate superior of the his immediate superior, and so on. For example, if there are three workers in the company, from which the first is the chief, the second worker's immediate superior is the first, the third worker's immediate superior is the second, then the third worker has two superiors, one of them is immediate and one not immediate. The chief is a superior to all the workers except himself."
+b'Some of the workers were in a hurry and made a mistake. You are to find the minimum number of workers that could make a mistake.'
+b'Input'
+b'The first line contains two positive integers n and s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the number of workers and the id of the chief.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891), where ai is the number of superiors (not only immediate) the worker with id i reported about.'
+b'Output'
+b'Print the minimum number of workers that could make a mistake.'
+Tags
+constructive algorithms, data structures, graphs, greedy, sortings, *1900

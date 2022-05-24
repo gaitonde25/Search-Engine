@@ -1,0 +1,12 @@
+b'You are given an integer nn and an integer kk.'
+b'In one step you can do one of the following moves: '
+b'  decrease nn by 11;  divide nn by kk if nn is divisible by kk. '
+b'For example, if n=27n=27 and k=3k=3 you can do the following steps: 27\xe2\x86\x9226\xe2\x86\x9225\xe2\x86\x9224\xe2\x86\x928\xe2\x86\x927\xe2\x86\x926\xe2\x86\x922\xe2\x86\x921\xe2\x86\x92027\xe2\x86\x9226\xe2\x86\x9225\xe2\x86\x9224\xe2\x86\x928\xe2\x86\x927\xe2\x86\x926\xe2\x86\x922\xe2\x86\x921\xe2\x86\x920.'
+b'You are asked to calculate the minimum number of steps to reach 00 from nn. '
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of queries.'
+b'The only line of each query contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018, 2\xe2\x89\xa4k\xe2\x89\xa410182\xe2\x89\xa4k\xe2\x89\xa41018).'
+b'Output'
+b'For each query print the minimum number of steps to reach 00 from nn in single line. '
+Tags
+implementation, math, *900

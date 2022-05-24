@@ -1,0 +1,9 @@
+b"It's another Start[c]up finals, and that means there is pizza to order for the onsite contestants. There are only 2 types of pizza (obviously not, but let's just pretend for the sake of the problem), and all pizzas contain exactly S slices."
+b'It is known that the i-th contestant will eat si slices of pizza, and gain ai happiness for each slice of type 1 pizza they eat, and bi happiness for each slice of type 2 pizza they eat. We can order any number of type 1 and type 2 pizzas, but we want to buy the minimum possible number of pizzas for all of the contestants to be able to eat their required number of slices. Given that restriction, what is the maximum possible total happiness that can be achieved?'
+b'Input'
+b'The first line of input will contain integers N and S (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89S\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), the number of contestants and the number of slices per pizza, respectively. N lines follow.'
+b'The i-th such line contains integers si, ai, and bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89si\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), the number of slices the i-th contestant will eat, the happiness they will gain from each type 1 slice they eat, and the happiness they will gain from each type 2 slice they eat, respectively.'
+b'Output'
+b'Print the maximum total happiness that can be achieved.'
+Tags
+binary search, sortings, ternary search, *1900

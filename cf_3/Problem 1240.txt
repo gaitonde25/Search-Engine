@@ -1,0 +1,11 @@
+b"Utkarsh is forced to play yet another one of Ashish's games. The game progresses turn by turn and as usual, Ashish moves first."
+b'Consider the 2D plane. There is a token which is initially at (0,0)(0,0). In one move a player must increase either the xx coordinate or the yy coordinate of the token by exactly kk. In doing so, the player must ensure that the token stays within a (Euclidean) distance dd from (0,0)(0,0).'
+b'In other words, if after a move the coordinates of the token are (p,q)(p,q), then p2+q2\xe2\x89\xa4d2p2+q2\xe2\x89\xa4d2 must hold.'
+b'The game ends when a player is unable to make a move. It can be shown that the game will end in a finite number of moves. If both players play optimally, determine who will win.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The only line of each test case contains two space separated integers dd (1\xe2\x89\xa4d\xe2\x89\xa41051\xe2\x89\xa4d\xe2\x89\xa4105) and kk (1\xe2\x89\xa4k\xe2\x89\xa4d1\xe2\x89\xa4k\xe2\x89\xa4d).'
+b'Output'
+b'For each test case, if Ashish wins the game, print "Ashish", otherwise print "Utkarsh" (without the quotes).'
+Tags
+games, geometry, math, *1700

@@ -1,0 +1,7 @@
+b'The Bad Luck Island is inhabited by three kinds of species: r rocks, s scissors and p papers. At some moments of time two random individuals meet (all pairs of individuals can meet equiprobably), and if they belong to different species, then one individual kills the other one: a rock kills scissors, scissors kill paper, and paper kills a rock. Your task is to determine for each species what is the probability that this species will be the only one to inhabit this island after a long enough period of time.'
+b'Input'
+b'The single line contains three integers r, s and p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r,\xe2\x80\x89s,\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the original number of individuals in the species of rock, scissors and paper, respectively.'
+b'Output'
+b"Print three space-separated real numbers: the probabilities, at which the rocks, the scissors and the paper will be the only surviving species, respectively. The answer will be considered correct if the relative or absolute error of each number doesn't exceed 10\xe2\x80\x89-\xe2\x80\x899."
+Tags
+dp, probabilities, *1900

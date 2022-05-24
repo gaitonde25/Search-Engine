@@ -1,0 +1,12 @@
+b'Alice and Bob have a tree (undirected acyclic connected graph). There are ai chocolates waiting to be picked up in the i-th vertex of the tree. First, they choose two different vertices as their starting positions (Alice chooses first) and take all the chocolates contained in them.'
+b'Then, they alternate their moves, selecting one vertex at a time and collecting all chocolates from this node. To make things more interesting, they decided that one can select a vertex only if he/she selected a vertex adjacent to that one at his/her previous turn and this vertex has not been already chosen by any of them during other move.'
+b'If at any moment one of them is not able to select the node that satisfy all the rules, he/she will skip his turns and let the other person pick chocolates as long as he/she can. This goes on until both of them cannot pick chocolates any further.'
+b'Due to their greed for chocolates, they want to collect as many chocolates as possible. However, as they are friends they only care about the total number of chocolates they obtain together. What is the maximum total number of chocolates they may pick?'
+b'Input'
+b'The first line of the input contains the single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The second line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), i-th of these numbers stands for the number of chocolates stored at the node i.'
+b'Then follow n\xe2\x80\x89-\xe2\x80\x891 lines that describe the tree. Each of them contains two integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 indices of vertices connected by the i-th edge.'
+b'Output'
+b'Print the number of chocolates Alice and Bob can collect together if they behave optimally.'
+Tags
+dfs and similar, dp, graphs, trees, *2600

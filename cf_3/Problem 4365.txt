@@ -1,0 +1,9 @@
+b'You are given positive integer number n. You should create such strictly increasing sequence of k positive numbers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89ak, that their sum is equal to n and greatest common divisor is maximal.'
+b'Greatest common divisor of sequence is maximum of such numbers that every element of sequence is divisible by them.'
+b'If there is no possible sequence then output -1.'
+b'Input'
+b'The first line consists of two numbers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891010).'
+b'Output'
+b'If the answer exists then output k numbers \xe2\x80\x94 resulting sequence. Otherwise output -1. If there are multiple answers, print any of them.'
+Tags
+constructive algorithms, greedy, math, *1900

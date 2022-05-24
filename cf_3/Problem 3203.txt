@@ -1,0 +1,9 @@
+b"There is a special offer in Vasya's favourite supermarket: if the customer buys aa chocolate bars, he or she may take bb additional bars for free. This special offer can be used any number of times."
+b'Vasya currently has ss roubles, and he wants to get as many chocolate bars for free. Each chocolate bar costs cc roubles. Help Vasya to calculate the maximum possible number of chocolate bars he can get!'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of testcases.'
+b'Each of the next tt lines contains four integers s,a,b,c\xc2\xa0(1\xe2\x89\xa4s,a,b,c\xe2\x89\xa4109)s,a,b,c\xc2\xa0(1\xe2\x89\xa4s,a,b,c\xe2\x89\xa4109) \xe2\x80\x94 the number of roubles Vasya has, the number of chocolate bars you have to buy to use the special offer, the number of bars you get for free, and the cost of one bar, respectively.'
+b'Output'
+b'Print tt lines. ii-th line should contain the maximum possible number of chocolate bars Vasya can get in ii-th test.'
+Tags
+implementation, math, *800

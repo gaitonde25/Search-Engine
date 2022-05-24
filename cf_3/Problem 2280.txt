@@ -1,0 +1,17 @@
+b'This is an easier version of the problem. In this version, n\xe2\x89\xa4500n\xe2\x89\xa4500.'
+b"Vasya is an experienced developer of programming competitions' problems. As all great minds at some time, Vasya faced a creative crisis. To improve the situation, Petya gifted him a string consisting of opening and closing brackets only. Petya believes, that the beauty of the bracket string is a number of its cyclical shifts, which form a correct bracket sequence."
+b'To digress from his problems, Vasya decided to select two positions of the string (not necessarily distinct) and swap characters located at this positions with each other. Vasya will apply this operation exactly once. He is curious what is the maximum possible beauty he can achieve this way. Please help him.'
+b'We remind that bracket sequence ss is called correct if: '
+b'  ss is empty;  ss is equal to "(tt)", where tt is correct bracket sequence;  ss is equal to t1t2t1t2, i.e. concatenation of t1t1 and t2t2, where t1t1 and t2t2 are correct bracket sequences. '
+b'For example, "(()())", "()" are correct, while ")(" and "())" are not.'
+b'The cyclical shift of the string ss of length nn by kk (0\xe2\x89\xa4k<n0\xe2\x89\xa4k<n) is a string formed by a concatenation of the last kk symbols of the string ss with the first n\xe2\x88\x92kn\xe2\x88\x92k symbols of string ss. For example, the cyclical shift of string "(())()" by 22 equals "()(())".'
+b'Cyclical shifts ii and jj are considered different, if i\xe2\x89\xa0ji\xe2\x89\xa0j.'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa45001\xe2\x89\xa4n\xe2\x89\xa4500), the length of the string.'
+b'The second line contains a string, consisting of exactly nn characters, where each of the characters is either "(" or ")".'
+b'Output'
+b'The first line should contain a single integer\xc2\xa0\xe2\x80\x94 the largest beauty of the string, which can be achieved by swapping some two characters.'
+b"The second line should contain integers ll and rr (1\xe2\x89\xa4l,r\xe2\x89\xa4n1\xe2\x89\xa4l,r\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the indices of two characters, which should be swapped in order to maximize the string's beauty."
+b'In case there are several possible swaps, print any of them.'
+Tags
+brute force, dp, greedy, implementation, *2000

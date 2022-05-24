@@ -1,0 +1,8 @@
+b'Consider the following experiment. You have a deck of mm cards, and exactly one card is a joker. nn times, you do the following: shuffle the deck, take the top card of the deck, look at it and return it into the deck.'
+b'Let xx be the number of times you have taken the joker out of the deck during this experiment. Assuming that every time you shuffle the deck, all m!m! possible permutations of cards are equiprobable, what is the expected value of xkxk? Print the answer modulo 998244353998244353.'
+b'Input'
+b'The only line contains three integers nn, mm and kk (1\xe2\x89\xa4n,m<9982443531\xe2\x89\xa4n,m<998244353, 1\xe2\x89\xa4k\xe2\x89\xa450001\xe2\x89\xa4k\xe2\x89\xa45000).'
+b'Output'
+b'Print one integer \xe2\x80\x94 the expected value of xkxk, taken modulo 998244353998244353 (the answer can always be represented as an irreducible fraction abab, where bmod998244353\xe2\x89\xa00bmod998244353\xe2\x89\xa00; you have to print a\xe2\x8b\x85b\xe2\x88\x921mod998244353a\xe2\x8b\x85b\xe2\x88\x921mod998244353).'
+Tags
+combinatorics, dp, math, number theory, probabilities, *2600

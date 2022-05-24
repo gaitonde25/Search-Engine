@@ -1,0 +1,12 @@
+b'You are given an integer array a0,a1,\xe2\x80\xa6,an\xe2\x88\x921a0,a1,\xe2\x80\xa6,an\xe2\x88\x921, and an integer kk. You perform the following code with it:'
+b'long long ans = 0; // create a 64-bit signed variable which is initially equal to 0for(int i = 1; i <= k; i++){  int idx = rnd.next(0, n - 1); // generate a random integer between 0 and n - 1, both inclusive                                // each integer from 0 to n - 1 has the same probability of being chosen  ans += a[idx];  a[idx] -= (a[idx] % i);}'
+b'Your task is to calculate the expected value of the variable ans after performing this code.'
+b'Note that the input is generated according to special rules (see the input format section).'
+b'Input'
+b'The only line contains six integers nn, a0a0, xx, yy, kk and MM (1\xe2\x89\xa4n\xe2\x89\xa41071\xe2\x89\xa4n\xe2\x89\xa4107; 1\xe2\x89\xa4a0,x,y<M\xe2\x89\xa49982443531\xe2\x89\xa4a0,x,y<M\xe2\x89\xa4998244353; 1\xe2\x89\xa4k\xe2\x89\xa4171\xe2\x89\xa4k\xe2\x89\xa417).'
+b'The array aa in the input is constructed as follows:'
+b'  a0a0 is given in the input;  for every ii from 11 to n\xe2\x88\x921n\xe2\x88\x921, the value of aiai can be calculated as ai=(ai\xe2\x88\x921\xe2\x8b\x85x+y)modMai=(ai\xe2\x88\x921\xe2\x8b\x85x+y)modM. '
+b'Output'
+b'Let the expected value of the variable ans after performing the code be EE. It can be shown that E\xe2\x8b\x85nkE\xe2\x8b\x85nk is an integer. You have to output this integer modulo 998244353998244353.'
+Tags
+combinatorics, dp, math, number theory, probabilities, *2800

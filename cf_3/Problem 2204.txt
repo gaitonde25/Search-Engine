@@ -1,0 +1,11 @@
+b"You're given a tree with nn vertices. The color of the ii-th vertex is hihi."
+b'The value of the tree is defined as \xe2\x88\x91hi=hj,1\xe2\x89\xa4i<j\xe2\x89\xa4ndis(i,j)\xe2\x88\x91hi=hj,1\xe2\x89\xa4i<j\xe2\x89\xa4ndis(i,j), where dis(i,j)dis(i,j) is the number of edges on the shortest path between ii and jj. '
+b'The color of each vertex is lost, you only remember that hihi can be any integer from [li,ri][li,ri](inclusive). You want to calculate the sum of values of all trees meeting these conditions modulo 109+7109+7 (the set of edges is fixed, but each color is unknown, so there are \xe2\x88\x8fi=1n(ri\xe2\x88\x92li+1)\xe2\x88\x8fi=1n(ri\xe2\x88\x92li+1) different trees).'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of vertices.'
+b'Then nn lines follow, each line contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa41051\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4105) denoting the range of possible colors of vertex ii.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follow, each containing two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v) denoting an edge of the tree. It is guaranteed that these edges form a tree.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the sum of values of all possible trees, taken modulo 109+7109+7.'
+Tags
+data structures, trees, *2700

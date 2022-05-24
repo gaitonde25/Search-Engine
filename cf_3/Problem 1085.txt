@@ -1,0 +1,17 @@
+b"Your friend Salem is Warawreh's brother and only loves math and geometry problems. He has solved plenty of such problems, but according to Warawreh, in order to graduate from university he has to solve more graph problems. Since Salem is not good with graphs he asked your help with the following problem."
+b'  '
+b'You are given a complete directed graph with nn vertices without self-loops. In other words, you have nn vertices and each pair of vertices uu and vv (u\xe2\x89\xa0vu\xe2\x89\xa0v) has both directed edges (u,v)(u,v) and (v,u)(v,u).'
+b"Every directed edge of the graph is labeled with a single character: either 'a' or 'b' (edges (u,v)(u,v) and (v,u)(v,u) may have different labels)."
+b"You are also given an integer m>0m>0. You should find a path of length mm such that the string obtained by writing out edges' labels when going along the path is a palindrome. The length of the path is the number of edges in it."
+b'You can visit the same vertex and the same directed edge any number of times.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000; 1\xe2\x89\xa4m\xe2\x89\xa41051\xe2\x89\xa4m\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices in the graph and desirable length of the palindrome.'
+b'Each of the next nn lines contains nn characters. The jj-th character of the ii-th line describes the character on the edge that is going from node ii to node jj.'
+b"Every character is either 'a' or 'b' if i\xe2\x89\xa0ji\xe2\x89\xa0j, or '*' if i=ji=j, since the graph doesn't contain self-loops."
+b"It's guaranteed that the sum of nn over test cases doesn't exceed 10001000 and the sum of mm doesn't exceed 105105."
+b'Output'
+b'For each test case, if it is possible to find such path, print "YES" and the path itself as a sequence of m+1m+1 integers: indices of vertices in the path in the appropriate order. If there are several valid paths, print any of them.'
+b'Otherwise, (if there is no answer) print "NO".'
+Tags
+brute force, constructive algorithms, graphs, greedy, implementation, *2000

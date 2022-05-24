@@ -1,0 +1,13 @@
+b'Shohag has an integer sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. He can perform the following operation any number of times (possibly, zero):'
+b'  Select any positive integer kk (it can be different in different operations).  Choose any position in the sequence (possibly the beginning or end of the sequence, or in between any two elements) and insert kk into the sequence at this position.  This way, the sequence aa changes, and the next operation is performed on this changed sequence. '
+b'For example, if a=[3,3,4]a=[3,3,4] and he selects k=2k=2, then after the operation he can obtain one of the sequences [2\xe2\x80\x93,3,3,4][2_,3,3,4], [3,2\xe2\x80\x93,3,4][3,2_,3,4], [3,3,2\xe2\x80\x93,4][3,3,2_,4], or [3,3,4,2\xe2\x80\x93][3,3,4,2_].'
+b'Shohag wants this sequence to satisfy the following condition: for each 1\xe2\x89\xa4i\xe2\x89\xa4|a|1\xe2\x89\xa4i\xe2\x89\xa4|a|, ai\xe2\x89\xa4iai\xe2\x89\xa4i. Here, |a||a| denotes the size of aa.'
+b"Help him to find the minimum number of operations that he has to perform to achieve this goal. We can show that under the constraints of the problem it's always possible to achieve this goal in a finite number of operations."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa42001\xe2\x89\xa4t\xe2\x89\xa4200) \xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the initial length of the sequence.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the elements of the sequence.'
+b'Output'
+b'For each test case, print a single integer \xc2\xa0\xe2\x80\x94 the minimum number of operations needed to perform to achieve the goal mentioned in the statement.'
+Tags
+greedy, *800

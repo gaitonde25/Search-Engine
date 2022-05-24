@@ -1,0 +1,11 @@
+b'After a long day, Alice and Bob decided to play a little game. The game board consists of nn cells in a straight line, numbered from 11 to nn, where each cell contains a number aiai between 11 and nn. Furthermore, no two cells contain the same number. '
+b'A token is placed in one of the cells. They take alternating turns of moving the token around the board, with Alice moving first. The current player can move from cell ii to cell jj only if the following two conditions are satisfied: '
+b'  the number in the new cell jj must be strictly larger than the number in the old cell ii (i.e. aj>aiaj>ai), and  the distance that the token travels during this turn must be a multiple of the number in the old cell (i.e. |i\xe2\x88\x92j|modai=0|i\xe2\x88\x92j|modai=0). '
+b'Whoever is unable to make a move, loses. For each possible starting position, determine who wins if they both play optimally. It can be shown that the game is always finite, i.e. there always is a winning strategy for one of the players.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of numbers.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n). Furthermore, there are no pair of indices i\xe2\x89\xa0ji\xe2\x89\xa0j such that ai=ajai=aj.'
+b'Output'
+b'Print ss\xc2\xa0\xe2\x80\x94 a string of nn characters, where the ii-th character represents the outcome of the game if the token is initially placed in the cell ii. If Alice wins, then sisi has to be equal to "A"; otherwise, sisi has to be equal to "B". '
+Tags
+brute force, dp, games, *1600

@@ -1,0 +1,10 @@
+b'You are given N qubits (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x898) in zero state . You are also given two bitstrings bits0 and bits1 which describe two different basis states on N qubits  and .'
+b'Your task is to generate a state which is an equal superposition of the given basis states:'
+b''
+b'You have to implement an operation which takes the following inputs:'
+b' an array of qubits qs, two arrays of Boolean values bits0 and bits1 representing the basis states  and . These arrays will have the same length as the array of qubits. bits0 and bits1 will differ in at least one position.'
+b'The operation doesn\'t have an output; its "output" is the state in which it leaves the qubits.'
+b'Your code should have the following signature:'
+b'namespace Solution {    open Microsoft.Quantum.Primitive;    open Microsoft.Quantum.Canon;    operation Solve (qs : Qubit[], bits0 : Bool[], bits1 : Bool[]) : ()    {        body        {            // your code here        }    }}'
+Tags
+*1500

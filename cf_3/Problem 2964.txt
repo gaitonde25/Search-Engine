@@ -1,0 +1,13 @@
+b'You are given an integer nn (n\xe2\x89\xa50n\xe2\x89\xa50) represented with kk digits in base (radix) bb. So,'
+b'n=a1\xe2\x8b\x85bk\xe2\x88\x921+a2\xe2\x8b\x85bk\xe2\x88\x922+\xe2\x80\xa6ak\xe2\x88\x921\xe2\x8b\x85b+ak.n=a1\xe2\x8b\x85bk\xe2\x88\x921+a2\xe2\x8b\x85bk\xe2\x88\x922+\xe2\x80\xa6ak\xe2\x88\x921\xe2\x8b\x85b+ak.'
+b'For example, if b=17,k=3b=17,k=3 and a=[11,15,7]a=[11,15,7] then n=11\xe2\x8b\x85172+15\xe2\x8b\x8517+7=3179+255+7=3441n=11\xe2\x8b\x85172+15\xe2\x8b\x8517+7=3179+255+7=3441.'
+b'Determine whether nn is even or odd.'
+b'Input'
+b'The first line contains two integers bb and kk (2\xe2\x89\xa4b\xe2\x89\xa41002\xe2\x89\xa4b\xe2\x89\xa4100, 1\xe2\x89\xa4k\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the base of the number and the number of digits.'
+b'The second line contains kk integers a1,a2,\xe2\x80\xa6,aka1,a2,\xe2\x80\xa6,ak (0\xe2\x89\xa4ai<b0\xe2\x89\xa4ai<b)\xc2\xa0\xe2\x80\x94 the digits of nn.'
+b'The representation of nn contains no unnecessary leading zero. That is, a1a1 can be equal to 00 only if k=1k=1.'
+b'Output'
+b'Print "even" if nn is even, otherwise print "odd".'
+b'You can print each letter in any case (upper or lower).'
+Tags
+math, *900

@@ -1,0 +1,10 @@
+b"Let's define the following recurrence: an+1=an+minDigit(an)\xe2\x8b\x85maxDigit(an).an+1=an+minDigit(an)\xe2\x8b\x85maxDigit(an)."
+b'Here minDigit(x)minDigit(x) and maxDigit(x)maxDigit(x) are the minimal and maximal digits in the decimal representation of xx without leading zeroes. For examples refer to notes.'
+b'Your task is calculate aKaK for given a1a1 and KK.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of independent test cases.'
+b'Each test case consists of a single line containing two integers a1a1 and KK (1\xe2\x89\xa4a1\xe2\x89\xa410181\xe2\x89\xa4a1\xe2\x89\xa41018, 1\xe2\x89\xa4K\xe2\x89\xa410161\xe2\x89\xa4K\xe2\x89\xa41016) separated by a space.'
+b'Output'
+b'For each test case print one integer aKaK on a separate line.'
+Tags
+brute force, implementation, math, *1200

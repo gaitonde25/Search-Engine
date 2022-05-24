@@ -1,0 +1,9 @@
+b'Kolya loves putting gnomes at the circle table and giving them coins, and Tanya loves studying triplets of gnomes, sitting in the vertexes of an equilateral triangle.'
+b"More formally, there are 3n gnomes sitting in a circle. Each gnome can have from 1 to 3 coins. Let's number the places in the order they occur in the circle by numbers from 0 to 3n\xe2\x80\x89-\xe2\x80\x891, let the gnome sitting on the i-th place have ai coins. If there is an integer i (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89n) such that ai\xe2\x80\x89+\xe2\x80\x89ai\xe2\x80\x89+\xe2\x80\x89n\xe2\x80\x89+\xe2\x80\x89ai\xe2\x80\x89+\xe2\x80\x892n\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x896, then Tanya is satisfied. "
+b'Count the number of ways to choose ai so that Tanya is satisfied. As there can be many ways of distributing coins, print the remainder of this number modulo 109\xe2\x80\x89+\xe2\x80\x897. Two ways, a and b, are considered distinct if there is index i (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x893n), such that ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89bi (that is, some gnome got different number of coins in these two ways).'
+b'Input'
+b'A single line contains number n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 the number of the gnomes divided by three.'
+b'Output'
+b'Print a single number \xe2\x80\x94 the remainder of the number of variants of distributing coins that satisfy Tanya modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+combinatorics, *1500

@@ -1,0 +1,15 @@
+b'Polycarp has nn different binary words. A word called binary if it contains only characters \'0\' and \'1\'. For example, these words are binary: "0001", "11", "0" and "0011100".'
+b'Polycarp wants to offer his set of nn binary words to play a game "words". In this game, players name words and each next word (starting from the second) must start with the last character of the previous word. The first word can be any. For example, these sequence of words can be named during the game: "0101", "1", "10", "00", "00001".'
+b'Word reversal is the operation of reversing the order of the characters. For example, the word "0111" after the reversal becomes "1110", the word "11010" after the reversal becomes "01011".'
+b'Probably, Polycarp has such a set of words that there is no way to put them in the order correspondent to the game rules. In this situation, he wants to reverse some words from his set so that:'
+b'  the final set of nn words still contains different words (i.e. all words are unique);  there is a way to put all words of the final set of words in the order so that the final sequence of nn words is consistent with the game rules. '
+b'Polycarp wants to reverse minimal number of words. Please, help him.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the input. Then tt test cases follow.'
+b"The first line of a test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of words in the Polycarp's set. Next nn lines contain these words. All of nn words aren't empty and contains only characters '0' and '1'. The sum of word lengths doesn't exceed 4\xe2\x8b\x851064\xe2\x8b\x85106. All words are different."
+b"Guaranteed, that the sum of nn for all test cases in the input doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105. Also, guaranteed that the sum of word lengths for all test cases in the input doesn't exceed 4\xe2\x8b\x851064\xe2\x8b\x85106."
+b'Output'
+b'Print answer for all of tt test cases in the order they appear.'
+b'If there is no answer for the test case, print -1. Otherwise, the first line of the output should contain kk (0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the minimal number of words in the set which should be reversed. The second line of the output should contain kk distinct integers \xe2\x80\x94 the indexes of the words in the set which should be reversed. Words are numerated from 11 to nn in the order they appear. If k=0k=0 you can skip this line (or you can print an empty line). If there are many answers you can print any of them.'
+Tags
+data structures, hashing, implementation, math, *1900

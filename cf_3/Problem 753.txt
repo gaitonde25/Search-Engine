@@ -1,0 +1,16 @@
+b'You were playing with permutation pp of length nn, but you lost it in Blair, Alabama!'
+b'Luckily, you remember some information about the permutation. More specifically, you remember an array bb of length nn, where bibi is the number of indices jj such that j<ij<i and pj>pipj>pi.'
+b"You have the array bb, and you want to find the permutation pp. However, your memory isn't perfect, and you constantly change the values of bb as you learn more. For the next qq seconds, one of the following things happen:"
+b"  11 ii xx\xc2\xa0\xe2\x80\x94 you realize that bibi is equal to xx;  22 ii\xc2\xa0\xe2\x80\x94 you need to find the value of pipi. If there's more than one answer, print any. It can be proven that there's always at least one possible answer under the constraints of the problem. "
+b'Answer the queries, so you can remember the array!'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the size of permutation.'
+b'The second line contains nn integers b1,b2\xe2\x80\xa6,bnb1,b2\xe2\x80\xa6,bn (0\xe2\x89\xa4bi<i0\xe2\x89\xa4bi<i)\xc2\xa0\xe2\x80\x94 your initial memory of the array bb.'
+b'The third line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'The next qq lines contain the queries, each with one of the following formats: '
+b'  11 ii xx (0\xe2\x89\xa4x<i\xe2\x89\xa4n0\xe2\x89\xa4x<i\xe2\x89\xa4n), representing a query of type 11.  22 ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n), representing a query of type 22. '
+b"It is guaranteed that there's at least one query of type 22."
+b'Output'
+b'For each query of type 22, print one integer\xc2\xa0\xe2\x80\x94 the answer to the query.'
+Tags
+binary search, brute force, data structures, *3200

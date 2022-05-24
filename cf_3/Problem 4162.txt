@@ -1,0 +1,14 @@
+b'The presidential election is coming in Bearland next year! Everybody is so excited about this!'
+b'So far, there are three candidates, Alice, Bob, and Charlie. '
+b'There are n citizens in Bearland. The election result will determine the life of all citizens of Bearland for many years. Because of this great responsibility, each of n citizens will choose one of six orders of preference between Alice, Bob and Charlie uniformly at random, independently from other voters.'
+b'The government of Bearland has devised a function to help determine the outcome of the election given the voters preferences. More specifically, the function is  (takes n boolean numbers and returns a boolean number). The function also obeys the following property: f(1\xe2\x80\x89-\xe2\x80\x89x1,\xe2\x80\x891\xe2\x80\x89-\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x891\xe2\x80\x89-\xe2\x80\x89xn)\xe2\x80\x89=\xe2\x80\x891\xe2\x80\x89-\xe2\x80\x89f(x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn).'
+b'Three rounds will be run between each pair of candidates: Alice and Bob, Bob and Charlie, Charlie and Alice. In each round, xi will be equal to 1, if i-th citizen prefers the first candidate to second in this round, and 0 otherwise. After this, y\xe2\x80\x89=\xe2\x80\x89f(x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn) will be calculated. If y\xe2\x80\x89=\xe2\x80\x891, the first candidate will be declared as winner in this round. If y\xe2\x80\x89=\xe2\x80\x890, the second will be the winner, respectively.'
+b'Define the probability that there is a candidate who won two rounds as p. p\xc2\xb76n is always an integer. Print the value of this integer modulo 109\xe2\x80\x89+\xe2\x80\x897\xe2\x80\x89=\xe2\x80\x891 000 000 007.'
+b'Input'
+b'The first line contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8920).'
+b'The next line contains a string of length 2n of zeros and ones, representing function f. Let bk(x) the k-th bit in binary representation of x, i-th (0-based) digit of this string shows the return value of f(b1(i),\xe2\x80\x89b2(i),\xe2\x80\x89...,\xe2\x80\x89bn(i)).'
+b'It is guaranteed that f(1\xe2\x80\x89-\xe2\x80\x89x1,\xe2\x80\x891\xe2\x80\x89-\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x891\xe2\x80\x89-\xe2\x80\x89xn)\xe2\x80\x89=\xe2\x80\x891\xe2\x80\x89-\xe2\x80\x89f(x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn) for any values of x1,\xe2\x80\x89x2,\xe2\x80\x89ldots,\xe2\x80\x89xn.'
+b'Output'
+b'Output one integer \xe2\x80\x94 answer to the problem.'
+Tags
+bitmasks, brute force, divide and conquer, fft, math, *2800

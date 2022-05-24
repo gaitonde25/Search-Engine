@@ -1,0 +1,11 @@
+b'It is the middle of 2018 and Maria Stepanovna, who lives outside Krasnokamensk (a town in Zabaikalsky region), wants to rent three displays to highlight an important problem.'
+b'There are nn displays placed along a road, and the ii-th of them can display a text with font size sisi only. Maria Stepanovna wants to rent such three displays with indices i<j<ki<j<k that the font size increases if you move along the road in a particular direction. Namely, the condition si<sj<sksi<sj<sk should be held.'
+b'The rent cost is for the ii-th display is cici. Please determine the smallest cost Maria Stepanovna should pay.'
+b'Input'
+b'The first line contains a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa430003\xe2\x89\xa4n\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the number of displays.'
+b'The second line contains nn integers s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (1\xe2\x89\xa4si\xe2\x89\xa41091\xe2\x89\xa4si\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the font sizes on the displays in the order they stand along the road.'
+b'The third line contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa41081\xe2\x89\xa4ci\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the rent costs for each display.'
+b'Output'
+b'If there are no three displays that satisfy the criteria, print -1. Otherwise print a single integer\xc2\xa0\xe2\x80\x94 the minimum total rent cost of three displays with indices i<j<ki<j<k such that si<sj<sksi<sj<sk.'
+Tags
+brute force, dp, implementation, *1400

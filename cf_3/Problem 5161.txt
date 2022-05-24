@@ -1,0 +1,10 @@
+b"Once Max found an electronic calculator from his grandfather Dovlet's chest. He noticed that the numbers were written with seven-segment indicators (https://en.wikipedia.org/wiki/Seven-segment_display)."
+b'  '
+b'Max starts to type all the values from a to b. After typing each number Max resets the calculator. Find the total number of segments printed on the calculator.'
+b'For example if a\xe2\x80\x89=\xe2\x80\x891 and b\xe2\x80\x89=\xe2\x80\x893 then at first the calculator will print 2 segments, then \xe2\x80\x94 5 segments and at last it will print 5 segments. So the total number of printed segments is 12.'
+b'Input'
+b'The only line contains two integers a,\xe2\x80\x89b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106) \xe2\x80\x94 the first and the last number typed by Max.'
+b'Output'
+b'Print the only integer a \xe2\x80\x94 the total number of printed segments.'
+Tags
+implementation, *1000

@@ -1,0 +1,12 @@
+b'Vova plans to go to the conference by train. Initially, the train is at the point 11 and the destination point of the path is the point LL. The speed of the train is 11 length unit per minute (i.e. at the first minute the train is at the point 11, at the second minute \xe2\x80\x94 at the point 22 and so on).'
+b'There are lanterns on the path. They are placed at the points with coordinates divisible by vv (i.e. the first lantern is at the point vv, the second is at the point 2v2v and so on).'
+b'There is also exactly one standing train which occupies all the points from ll to rr inclusive.'
+b"Vova can see the lantern at the point pp if pp is divisible by vv and there is no standing train at this position (p\xe2\x88\x89[l;r]p\xe2\x88\x89[l;r]). Thus, if the point with the lantern is one of the points covered by the standing train, Vova can't see this lantern."
+b'Your problem is to say the number of lanterns Vova will see during the path. Vova plans to go to tt different conferences, so you should answer tt independent queries.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of queries.'
+b'Then tt lines follow. The ii-th line contains four integers Li,vi,li,riLi,vi,li,ri (1\xe2\x89\xa4L,v\xe2\x89\xa41091\xe2\x89\xa4L,v\xe2\x89\xa4109, 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4L1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4L) \xe2\x80\x94 destination point of the ii-th path, the period of the lantern appearance and the segment occupied by the standing train.'
+b'Output'
+b'Print tt lines. The ii-th line should contain one integer \xe2\x80\x94 the answer for the ii-th query.'
+Tags
+math, *1100

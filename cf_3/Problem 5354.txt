@@ -1,0 +1,13 @@
+b'There was a big bank robbery in Tablecity. In order to catch the thief, the President called none other than Albert \xe2\x80\x93 Tablecity\xe2\x80\x99s Chief of Police. Albert does not know where the thief is located, but he does know how he moves.'
+b'Tablecity can be represented as 1000\xe2\x80\x89\xc3\x97\xe2\x80\x892 grid, where every cell represents one district. Each district has its own unique name \xe2\x80\x9c(X,\xe2\x80\x89Y)\xe2\x80\x9d, where X and Y are the coordinates of the district in the grid. The thief\xe2\x80\x99s movement is as '
+b'Every hour the thief will leave the district (X,\xe2\x80\x89Y) he is currently hiding in, and move to one of the districts: (X\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89Y), (X\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89Y), (X\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89Y\xe2\x80\x89-\xe2\x80\x891), (X\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89Y\xe2\x80\x89+\xe2\x80\x891), (X\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89Y\xe2\x80\x89-\xe2\x80\x891), (X\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89Y\xe2\x80\x89+\xe2\x80\x891) as long as it exists in Tablecity. '
+b'Below is an example of thief\xe2\x80\x99s possible movements if he is located in district (7,1):'
+b''
+b'Albert has enough people so that every hour he can pick any two districts in Tablecity and fully investigate them, making sure that if the thief is located in one of them, he will get caught. Albert promised the President that the thief will be caught in no more than 2015 hours and needs your help in order to achieve that.'
+b'Input'
+b'There is no input for this problem. '
+b'Output'
+b'The first line of output contains integer N \xe2\x80\x93 duration of police search in hours. Each of the following N lines contains exactly 4 integers Xi1, Yi1, Xi2, Yi2 separated by spaces, that represent 2 districts (Xi1, Yi1), (Xi2, Yi2) which got investigated during i-th hour. Output is given in chronological order (i-th line contains districts investigated during i-th hour) and should guarantee that the thief is caught in no more than 2015 hours, regardless of thief\xe2\x80\x99s initial position and movement.'
+b'  N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892015  1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89X\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000  1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892 '
+Tags
+constructive algorithms, implementation, *1700

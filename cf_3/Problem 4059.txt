@@ -1,0 +1,11 @@
+b"Petya and Vasya got employed as couriers. During the working day they are to deliver packages to n different points on the line. According to the company's internal rules, the delivery of packages must be carried out strictly in a certain order. Initially, Petya is at the point with the coordinate s1, Vasya is at the point with the coordinate s2, and the clients are at the points x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn in the order of the required visit."
+b'The guys agree in advance who of them will deliver the package to which of the customers, and then they act as follows. When the package for the i-th client is delivered, the one who delivers the package to the (i\xe2\x80\x89+\xe2\x80\x891)-st client is sent to the path (it can be the same person who went to the point xi, or the other). The friend who is not busy in delivering the current package, is standing still.'
+b'To communicate with each other, the guys have got walkie-talkies. The walkie-talkies work rather poorly at great distances, so Petya and Vasya want to distribute the orders so that the maximum distance between them during the day is as low as possible. Help Petya and Vasya to minimize the maximum distance between them, observing all delivery rules. '
+b'Input'
+b'The first line contains three integers n, s1, s2 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s1,\xe2\x80\x89s2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 number of points of delivery and starting positions of Petya and Vasya.'
+b'The second line contains n integers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn\xc2\xa0\xe2\x80\x94 customers coordinates (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), in the order to make a delivery. '
+b'It is guaranteed, that among the numbers s1,\xe2\x80\x89s2,\xe2\x80\x89x1,\xe2\x80\x89...,\xe2\x80\x89xn there are no two equal.'
+b'Output'
+b'Output the only integer, minimum possible maximal distance between couriers during delivery.'
+Tags
+binary search, data structures, dp, *2600

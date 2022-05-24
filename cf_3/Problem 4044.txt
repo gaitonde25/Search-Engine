@@ -1,0 +1,10 @@
+b'It seems that Borya is seriously sick. He is going visit n doctors to find out the exact diagnosis. Each of the doctors needs the information about all previous visits, so Borya has to visit them in the prescribed order (i.e. Borya should first visit doctor 1, then doctor 2, then doctor 3 and so on). Borya will get the information about his health from the last doctor.'
+b'Doctors have a strange working schedule. The doctor i goes to work on the si-th day and works every di day. So, he works on days si,\xe2\x80\x89si\xe2\x80\x89+\xe2\x80\x89di,\xe2\x80\x89si\xe2\x80\x89+\xe2\x80\x892di,\xe2\x80\x89....'
+b"The doctor's appointment takes quite a long time, so Borya can not see more than one doctor per day. What is the minimum time he needs to visit all doctors?"
+b'Input'
+b'First line contains an integer n \xe2\x80\x94 number of doctors (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000). '
+b'Next n lines contain two numbers si and di (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89si,\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000).'
+b'Output'
+b'Output a single integer \xe2\x80\x94 the minimum day at which Borya can visit the last doctor.'
+Tags
+implementation, *900

@@ -1,0 +1,14 @@
+b'There are nn students in the first grade of Nlogonia high school. The principal wishes to split the students into two classrooms (each student must be in exactly one of the classrooms). Two distinct students whose name starts with the same letter will be chatty if they are put in the same classroom (because they must have a lot in common). Let xx be the number of such pairs of students in a split. Pairs (a,b)(a,b) and (b,a)(b,a) are the same and counted only once.'
+b'For example, if there are 66 students: "olivia", "jacob", "tanya", "jack", "oliver" and "jessica", then:'
+b'  splitting into two classrooms ("jack", "jacob", "jessica", "tanya") and ("olivia", "oliver") will give x=4x=4 (33 chatting pairs in the first classroom, 11 chatting pair in the second classroom),  splitting into two classrooms ("jack", "tanya", "olivia") and ("jessica", "oliver", "jacob") will give x=1x=1 (00 chatting pairs in the first classroom, 11 chatting pair in the second classroom). '
+b'You are given the list of the nn names. What is the minimum xx we can obtain by splitting the students into classrooms?'
+b'Note that it is valid to place all of the students in one of the classrooms, leaving the other one empty.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of students.'
+b'After this nn lines follow.'
+b'The ii-th line contains the name of the ii-th student.'
+b'It is guaranteed each name is a string of lowercase English letters of length at most 2020. Note that multiple students may share the same name.'
+b'Output'
+b'The output must consist of a single integer xx\xc2\xa0\xe2\x80\x94 the minimum possible number of chatty pairs.'
+Tags
+combinatorics, greedy, *900

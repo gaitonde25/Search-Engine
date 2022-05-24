@@ -1,0 +1,14 @@
+b"Several years ago Tolya had n computer games and at some point of time he decided to burn them to CD. After that he wrote down the names of the games one after another in a circle on the CD in clockwise order. The names were distinct, the length of each name was equal to k. The names didn't overlap."
+b'Thus, there is a cyclic string of length n\xc2\xb7k written on the CD.'
+b"Several years have passed and now Tolya can't remember which games he burned to his CD. He knows that there were g popular games that days. All of the games he burned were among these g games, and no game was burned more than once."
+b'You have to restore any valid list of games Tolya could burn to the CD several years ago.'
+b'Input'
+b'The first line of the input contains two positive integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the amount of games Tolya burned to the CD, and the length of each of the names.'
+b'The second line of the input contains one string consisting of lowercase English letters\xc2\xa0\xe2\x80\x94 the string Tolya wrote on the CD, split in arbitrary place. The length of the string is n\xc2\xb7k. It is guaranteed that the length is not greater than 106.'
+b'The third line of the input contains one positive integer g (n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89g\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the amount of popular games that could be written on the CD. It is guaranteed that the total length of names of all popular games is not greater than 2\xc2\xb7106.'
+b'Each of the next g lines contains a single string\xc2\xa0\xe2\x80\x94 the name of some popular game. Each name consists of lowercase English letters and has length k. It is guaranteed that the names are distinct.'
+b'Output'
+b'If there is no answer, print "NO" (without quotes).'
+b'Otherwise, print two lines. In the first line print "YES" (without quotes). In the second line, print n integers\xc2\xa0\xe2\x80\x94 the games which names were written on the CD. You should print games in the order they could have been written on the CD, it means, in clockwise order. You can print games starting from any position. Remember, that no game was burned to the CD more than once. If there are several possible answers, print any of them.'
+Tags
+data structures, hashing, string suffix structures, strings, *2300

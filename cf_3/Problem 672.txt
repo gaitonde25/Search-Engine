@@ -1,0 +1,12 @@
+b'You are given nn segments on a number line, numbered from 11 to nn. The ii-th segments covers all integer points from lili to riri and has a value wiwi.'
+b"You are asked to select a subset of these segments (possibly, all of them). Once the subset is selected, it's possible to travel between two integer points if there exists a selected segment that covers both of them. A subset is good if it's possible to reach point mm starting from point 11 in arbitrary number of moves."
+b'The cost of the subset is the difference between the maximum and the minimum values of segments in it. Find the minimum cost of a good subset.'
+b'In every test there exists at least one good subset.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105; 2\xe2\x89\xa4m\xe2\x89\xa41062\xe2\x89\xa4m\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of segments and the number of integer points.'
+b'Each of the next nn lines contains three integers lili, riri and wiwi (1\xe2\x89\xa4li<ri\xe2\x89\xa4m1\xe2\x89\xa4li<ri\xe2\x89\xa4m; 1\xe2\x89\xa4wi\xe2\x89\xa41061\xe2\x89\xa4wi\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the description of the ii-th segment.'
+b'In every test there exists at least one good subset.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum cost of a good subset.'
+Tags
+data structures, sortings, trees, two pointers, *2100

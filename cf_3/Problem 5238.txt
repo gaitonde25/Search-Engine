@@ -1,0 +1,10 @@
+b"Kevin has just recevied his disappointing results on the USA Identification of Cows Olympiad (USAICO) in the form of a binary string of length n. Each character of Kevin's string represents Kevin's score on one of the n questions of the olympiad\xe2\x80\x94'1' for a correctly identified cow and '0' otherwise."
+b'However, all is not lost. Kevin is a big proponent of alternative thinking and believes that his score, instead of being the sum of his points, should be the length of the longest alternating subsequence of his string. Here, we define an alternating subsequence of a string as a not-necessarily contiguous subsequence where no two consecutive elements are equal. For example, {0,\xe2\x80\x891,\xe2\x80\x890,\xe2\x80\x891}, {1,\xe2\x80\x890,\xe2\x80\x891}, and {1,\xe2\x80\x890,\xe2\x80\x891,\xe2\x80\x890} are alternating sequences, while {1,\xe2\x80\x890,\xe2\x80\x890} and {0,\xe2\x80\x891,\xe2\x80\x890,\xe2\x80\x891,\xe2\x80\x891} are not.'
+b"Kevin, being the sneaky little puffball that he is, is willing to hack into the USAICO databases to improve his score. In order to be subtle, he decides that he will flip exactly one substring\xe2\x80\x94that is, take a contiguous non-empty substring of his score and change all '0's in that substring to '1's and vice versa. After such an operation, Kevin wants to know the length of the longest possible alternating subsequence that his string could have."
+b'Input'
+b'The first line contains the number of questions on the olympiad n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000).'
+b"The following line contains a binary string of length n representing Kevin's results on the USAICO. "
+b'Output'
+b'Output a single integer, the length of the longest possible alternating subsequence that Kevin can create in his string after flipping a single substring.'
+Tags
+dp, greedy, math, *1600

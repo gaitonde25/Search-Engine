@@ -1,0 +1,8 @@
+b"Gerald bought two very rare paintings at the Sotheby's auction and he now wants to hang them on the wall. For that he bought a special board to attach it to the wall and place the paintings on the board. The board has shape of an a1\xe2\x80\x89\xc3\x97\xe2\x80\x89b1 rectangle, the paintings have shape of a a2\xe2\x80\x89\xc3\x97\xe2\x80\x89b2 and a3\xe2\x80\x89\xc3\x97\xe2\x80\x89b3 rectangles."
+b'Since the paintings are painted in the style of abstract art, it does not matter exactly how they will be rotated, but still, one side of both the board, and each of the paintings must be parallel to the floor. The paintings can touch each other and the edges of the board, but can not overlap or go beyond the edge of the board. Gerald asks whether it is possible to place the paintings on the board, or is the board he bought not large enough?'
+b'Input'
+b'The first line contains two space-separated numbers a1 and b1 \xe2\x80\x94 the sides of the board. Next two lines contain numbers a2,\xe2\x80\x89b2,\xe2\x80\x89a3 and b3 \xe2\x80\x94 the sides of the paintings. All numbers ai,\xe2\x80\x89bi in the input are integers and fit into the range from 1 to 1000.'
+b'Output'
+b'If the paintings can be placed on the wall, print "YES" (without the quotes), and if they cannot, print "NO" (without the quotes).'
+Tags
+constructive algorithms, implementation, *1200

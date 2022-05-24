@@ -1,0 +1,10 @@
+b"You're given an integer nn. For every integer ii from 22 to nn, assign a positive integer aiai such that the following conditions hold:"
+b'  For any pair of integers (i,j)(i,j), if ii and jj are coprime, ai\xe2\x89\xa0ajai\xe2\x89\xa0aj.  The maximal value of all aiai should be minimized (that is, as small as possible). '
+b'A pair of integers is called coprime if their greatest common divisor is 11.'
+b'Input'
+b'The only line contains the integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'Output'
+b'Print n\xe2\x88\x921n\xe2\x88\x921 integers, a2a2, a3a3, \xe2\x80\xa6\xe2\x80\xa6, anan (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n). '
+b'If there are multiple solutions, print any of them.'
+Tags
+constructive algorithms, number theory, *1300

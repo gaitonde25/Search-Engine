@@ -1,0 +1,15 @@
+b'There is a building consisting of 10\xc2\xa000010\xc2\xa0000 apartments numbered from 11 to 10\xc2\xa000010\xc2\xa0000, inclusive.'
+b'Call an apartment boring, if its number consists of the same digit. Examples of boring apartments are 11,2,777,999911,2,777,9999 and so on.'
+b'Our character is a troublemaker, and he calls the intercoms of all boring apartments, till someone answers the call, in the following order:'
+b'  First he calls all apartments consisting of digit 11, in increasing order (1,11,111,11111,11,111,1111).  Next he calls all apartments consisting of digit 22, in increasing order (2,22,222,22222,22,222,2222)  And so on. '
+b'The resident of the boring apartment xx answers the call, and our character stops calling anyone further.'
+b'Our character wants to know how many digits he pressed in total and your task is to help him to count the total number of keypresses.'
+b'For example, if the resident of boring apartment 2222 answered, then our character called apartments with numbers 1,11,111,1111,2,221,11,111,1111,2,22 and the total number of digits he pressed is 1+2+3+4+1+2=131+2+3+4+1+2=13.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4361\xe2\x89\xa4t\xe2\x89\xa436) \xe2\x80\x94 the number of test cases.'
+b'The only line of the test case contains one integer xx (1\xe2\x89\xa4x\xe2\x89\xa499991\xe2\x89\xa4x\xe2\x89\xa49999) \xe2\x80\x94 the apartment number of the resident who answered the call. It is guaranteed that xx consists of the same digit.'
+b'Output'
+b'For each test case, print the answer: how many digits our character pressed in total.'
+Tags
+implementation, math, *800

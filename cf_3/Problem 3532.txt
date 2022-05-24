@@ -1,0 +1,11 @@
+b"Let's introduce a number system which is based on a roman digits. There are digits I, V, X, L which correspond to the numbers 11, 55, 1010 and 5050 respectively. The use of other roman digits is not allowed."
+b'Numbers in this system are written as a sequence of one or more digits. We define the value of the sequence simply as the sum of digits in it.'
+b'For example, the number XXXV evaluates to 3535 and the number IXI\xc2\xa0\xe2\x80\x94 to 1212.'
+b"Pay attention to the difference to the traditional roman system\xc2\xa0\xe2\x80\x94 in our system any sequence of digits is valid, moreover the order of digits doesn't matter, for example IX means 1111, not 99."
+b'One can notice that this system is ambiguous, and some numbers can be written in many different ways. Your goal is to determine how many distinct integers can be represented by exactly nn roman digits I, V, X, L.'
+b'Input'
+b'The only line of the input file contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of roman digits to use.'
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the number of distinct integers which can be represented using nn roman digits exactly.'
+Tags
+brute force, combinatorics, dp, greedy, math, *2000

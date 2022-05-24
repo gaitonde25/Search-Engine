@@ -1,0 +1,12 @@
+b'There are NN bubbles in a coordinate plane. Bubbles are so tiny that it can be assumed that each bubble is a point (Xi,Yi)(Xi,Yi). '
+b"QQ Bubble Cup finalists plan to play with the bubbles. Each finalist would link to use infinitely long Bubble Cup stick to pop some bubbles. The ii-th finalist would like to place the stick in the direction of vector (dxi,dyi)(dxi,dyi), and plays the following game until KiKi bubbles are popped. The game starts with finalist placing the stick in the direction of vector (dxi,dyi)(dxi,dyi), and sweeping it from the infinity to the left until it hits some bubble, which is immediately popped. It is guaranteed that only one bubble will be hit in this step. After that the finalist starts rotating the stick in the counter clockwise direction with the center of rotation in point where the previous bubble was popped. When the next bubble is hit, it is immediately popped and becomes the new center of rotation. The process continues until KiKi bubbles have been popped. It is guaranteed that the stick won't hit two bubbles simultaneously in this process. "
+b"For each finalist find which bubble would be popped the last. Note that each game starts with the configuration of all NN bubbles, so the games don't depend on the previous games. "
+b'Input'
+b'The first line contains one integer NN \xe2\x80\x94 the number of bubbles. (1\xe2\x89\xa4N\xe2\x89\xa41051\xe2\x89\xa4N\xe2\x89\xa4105)'
+b'Each of the next NN lines contains two integers. The ii-th line contains integers XiXi and YiYi \xe2\x80\x94 the coordinates of the ii-th bubble. (\xe2\x88\x92109\xe2\x89\xa4Xi,Yi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4Xi,Yi\xe2\x89\xa4109, (Xi,Yi)\xe2\x89\xa0(Xj,Yj)(Xi,Yi)\xe2\x89\xa0(Xj,Yj) for i\xe2\x89\xa0ji\xe2\x89\xa0j)'
+b'The next line contains one integer QQ \xe2\x80\x94 the number of finalists willing to play with the bubbles. (1\xe2\x89\xa4Q\xe2\x89\xa41051\xe2\x89\xa4Q\xe2\x89\xa4105)'
+b'Each of the next Q lines contains 3 integers. The ii-th line contains integers dxidxi, dyidyi and KiKi. (\xe2\x88\x92109\xe2\x89\xa4dxi,dyi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4dxi,dyi\xe2\x89\xa4109, 1\xe2\x89\xa4Ki\xe2\x89\xa4N1\xe2\x89\xa4Ki\xe2\x89\xa4N)'
+b'Output'
+b'For each of the QQ finalists, print the index of the bubble which would be popped last, in the separate line. '
+Tags
+*3200

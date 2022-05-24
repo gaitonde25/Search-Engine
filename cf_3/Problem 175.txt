@@ -1,0 +1,13 @@
+b'Alice has a cake, and she is going to cut it. She will perform the following operation n\xe2\x88\x921n\xe2\x88\x921 times: choose a piece of the cake (initially, the cake is all one piece) with weight w\xe2\x89\xa52w\xe2\x89\xa52 and cut it into two smaller pieces of weight \xe2\x8c\x8aw2\xe2\x8c\x8b\xe2\x8c\x8aw2\xe2\x8c\x8b and \xe2\x8c\x88w2\xe2\x8c\x89\xe2\x8c\x88w2\xe2\x8c\x89 (\xe2\x8c\x8ax\xe2\x8c\x8b\xe2\x8c\x8ax\xe2\x8c\x8b and \xe2\x8c\x88x\xe2\x8c\x89\xe2\x8c\x88x\xe2\x8c\x89 denote floor and ceiling functions, respectively).'
+b'After cutting the cake in nn pieces, she will line up these nn pieces on a table in an arbitrary order. Let aiai be the weight of the ii-th piece in the line.'
+b'You are given the array aa. Determine whether there exists an initial weight and sequence of operations which results in aa.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of nn for all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b"For each test case, print a single line: print YES if the array aa could have resulted from Alice's operations, otherwise print NO."
+b'You may print each letter in any case (for example, YES, Yes, yes, yEs will all be recognized as positive answer).'
+Tags
+data structures, greedy, implementation, sortings, *1400

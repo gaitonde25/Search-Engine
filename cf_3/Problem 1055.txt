@@ -1,0 +1,10 @@
+b"You have c1c1 letters 'a', c2c2 letters 'b', ..., c26c26 letters 'z'. You want to build a beautiful string of length nn from them (obviously, you cannot use the ii-th letter more than cici times). Each cici is greater than n3n3."
+b'A string is called beautiful if there are no palindromic contiguous substrings of odd length greater than 11 in it. For example, the string "abacaba" is not beautiful, it has several palindromic substrings of odd length greater than 11 (for example, "aca"). Another example: the string "abcaa" is beautiful.'
+b'Calculate the number of different strings you can build, and print the answer modulo 998244353998244353.'
+b'Input'
+b'The first line contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa44003\xe2\x89\xa4n\xe2\x89\xa4400).'
+b'The second line contains 2626 integers c1c1, c2c2, ..., c26c26 (n3<ci\xe2\x89\xa4nn3<ci\xe2\x89\xa4n).'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of strings you can build, taken modulo 998244353998244353.'
+Tags
+combinatorics, dp, fft, math, *2700

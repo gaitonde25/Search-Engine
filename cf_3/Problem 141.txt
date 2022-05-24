@@ -1,0 +1,11 @@
+b'Vasya decided to go to the grocery store. He found in his wallet aa coins of 11 burle and bb coins of 22 burles. He does not yet know the total cost of all goods, so help him find out ss (s>0s>0): the minimum positive integer amount of money he cannot pay without change or pay at all using only his coins.'
+b'For example, if a=1a=1 and b=1b=1 (he has one 11-burle coin and one 22-burle coin), then:'
+b'  he can pay 11 burle without change, paying with one 11-burle coin,  he can pay 22 burle without change, paying with one 22-burle coin,  he can pay 33 burle without change by paying with one 11-burle coin and one 22-burle coin,  he cannot pay 44 burle without change (moreover, he cannot pay this amount at all). '
+b'So for a=1a=1 and b=1b=1 the answer is s=4s=4.'
+b'Input'
+b'The first line of the input contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the test.'
+b'The description of each test case consists of one line containing two integers aiai and bibi (0\xe2\x89\xa4ai,bi\xe2\x89\xa41080\xe2\x89\xa4ai,bi\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the number of 11-burle coins and 22-burles coins Vasya has respectively.'
+b'Output'
+b'For each test case, on a separate line print one integer ss (s>0s>0): the minimum positive integer amount of money that Vasya cannot pay without change or pay at all.'
+Tags
+greedy, math, *800

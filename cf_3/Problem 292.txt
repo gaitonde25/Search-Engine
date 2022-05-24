@@ -1,0 +1,16 @@
+b'Major Ram is being chased by his arch enemy Raghav. Ram must reach the top of the building to escape via helicopter. The building, however, is on fire. Ram must choose the optimal path to reach the top of the building to lose the minimum amount of health.'
+b'The building consists of nn floors, each with mm rooms each. Let (i,j)(i,j) represent the jj-th room on the ii-th floor. Additionally, there are kk ladders installed. The ii-th ladder allows Ram to travel from (ai,bi)(ai,bi) to (ci,di)(ci,di), but not in the other direction. Ram also gains hihi health points if he uses the ladder ii. It is guaranteed ai<ciai<ci for all ladders.'
+b'If Ram is on the ii-th floor, he can move either left or right. Travelling across floors, however, is treacherous. If Ram travels from (i,j)(i,j) to (i,k)(i,k), he loses |j\xe2\x88\x92k|\xe2\x8b\x85xi|j\xe2\x88\x92k|\xe2\x8b\x85xi health points.'
+b'Ram enters the building at (1,1)(1,1) while his helicopter is waiting at (n,m)(n,m). What is the minimum amount of health Ram loses if he takes the most optimal path? Note this answer may be negative (in which case he gains health). Output "NO ESCAPE" if no matter what path Ram takes, he cannot escape the clutches of Raghav.'
+b'  '
+b'Input'
+b'The first line of input contains tt (1\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x85104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case consists of 33 integers n,m,kn,m,k (2\xe2\x89\xa4n,m\xe2\x89\xa41052\xe2\x89\xa4n,m\xe2\x89\xa4105; 1\xe2\x89\xa4k\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of floors, the number of rooms on each floor and the number of ladders respectively.'
+b'The second line of a test case consists of nn integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn (1\xe2\x89\xa4xi\xe2\x89\xa41061\xe2\x89\xa4xi\xe2\x89\xa4106).'
+b'The next kk lines describe the ladders. Ladder ii is denoted by ai,bi,ci,di,hiai,bi,ci,di,hi (1\xe2\x89\xa4ai<ci\xe2\x89\xa4n1\xe2\x89\xa4ai<ci\xe2\x89\xa4n; 1\xe2\x89\xa4bi,di\xe2\x89\xa4m1\xe2\x89\xa4bi,di\xe2\x89\xa4m; 1\xe2\x89\xa4hi\xe2\x89\xa41061\xe2\x89\xa4hi\xe2\x89\xa4106) \xc2\xa0\xe2\x80\x94 the rooms it connects and the health points gained from using it.'
+b'It is guaranteed ai<ciai<ci for all ladders and there is at most one ladder between any 2 rooms in the building.'
+b'The sum of nn, the sum of mm, and the sum of kk over all test cases do not exceed 105105.'
+b'Output'
+b'Output the minimum health Ram loses on the optimal path from (1,1)(1,1) to (n,m)(n,m). If Ram cannot escape the clutches of Raghav regardless of the path he takes, output "NO ESCAPE" (all uppercase, without quotes).'
+Tags
+data structures, dp, implementation, shortest paths, two pointers, *2200

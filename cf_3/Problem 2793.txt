@@ -1,0 +1,6 @@
+b'You are given a complete bipartite graph with 2n2n nodes, with nn nodes on each side of the bipartition. Nodes 11 through nn are on one side of the bipartition, and nodes n+1n+1 to 2n2n are on the other side. You are also given an n\xc3\x97nn\xc3\x97n matrix aa describing the edge weights. aijaij denotes the weight of the edge between nodes ii and j+nj+n. Each edge has a distinct weight.'
+b'Alice and Bob are playing a game on this graph. First Alice chooses to play as either "increasing" or "decreasing" for herself, and Bob gets the other choice. Then she places a token on any node of the graph. Bob then moves the token along any edge incident to that node. They now take turns playing the following game, with Alice going first.'
+b'The current player must move the token from the current vertex to some adjacent unvisited vertex. Let ww be the last weight of the last edge that was traversed. The edge that is traversed must be strictly greater than ww if the player is playing as "increasing", otherwise, it must be strictly less. The first player unable to make a move loses.'
+b'You are given nn and the edge weights of the graph. You can choose to play as either Alice or Bob, and you will play against the judge. You must win all the games for your answer to be judged correct.'
+Tags
+games, interactive, *3500

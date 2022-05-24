@@ -1,0 +1,9 @@
+b'Let f(i)f(i) denote the minimum positive integer xx such that xx is not a divisor of ii.'
+b'Compute \xe2\x88\x91ni=1f(i)\xe2\x88\x91i=1nf(i) modulo 109+7109+7. In other words, compute f(1)+f(2)+\xe2\x8b\xaf+f(n)f(1)+f(2)+\xe2\x8b\xaf+f(n) modulo 109+7109+7.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104), the number of test cases. Then tt cases follow.'
+b'The only line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410161\xe2\x89\xa4n\xe2\x89\xa41016).'
+b'Output'
+b'For each test case, output a single integer ansans, where ans=\xe2\x88\x91ni=1f(i)ans=\xe2\x88\x91i=1nf(i) modulo 109+7109+7.'
+Tags
+math, number theory, *1600

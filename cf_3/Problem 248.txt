@@ -1,0 +1,13 @@
+b'Let there be an array b1,b2,\xe2\x80\xa6,bkb1,b2,\xe2\x80\xa6,bk. Let there be a partition of this array into segments [l1;r1],[l2;r2],\xe2\x80\xa6,[lc;rc][l1;r1],[l2;r2],\xe2\x80\xa6,[lc;rc], where l1=1l1=1, rc=krc=k, and for any 2\xe2\x89\xa4i\xe2\x89\xa4c2\xe2\x89\xa4i\xe2\x89\xa4c holds that ri\xe2\x88\x921+1=liri\xe2\x88\x921+1=li. In other words, each element of the array belongs to exactly one segment.'
+b"Let's define the cost of a partition as c+\xe2\x88\x91i=1cmex({bli,bli+1,\xe2\x80\xa6,bri}),c+\xe2\x88\x91i=1cmex\xe2\x81\xa1({bli,bli+1,\xe2\x80\xa6,bri}), where mexmex of a set of numbers SS is the smallest non-negative integer that does not occur in the set SS. In other words, the cost of a partition is the number of segments plus the sum of MEX over all segments. Let's define the value of an array b1,b2,\xe2\x80\xa6,bkb1,b2,\xe2\x80\xa6,bk as the maximum possible cost over all partitions of this array."
+b'You are given an array aa of size nn. Find the sum of values of all its subsegments.'
+b'An array xx is a subsegment of an array yy if xx can be obtained from yy by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b'Input'
+b'The input contains several test cases. The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4301\xe2\x89\xa4t\xe2\x89\xa430)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line for each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the length of the array.'
+b'The second line contains a sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the array elements.'
+b'It is guaranteed that the sum of the values nn over all test cases does not exceed 100100.'
+b'Output'
+b'For each test case print a single integer\xc2\xa0\xe2\x80\x94 the answer to the problem.'
+Tags
+brute force, dp, greedy, math, *1100

@@ -1,0 +1,16 @@
+b'Very soon, the new cell phone services provider "BerLine" will begin its work in Berland!'
+b'The start of customer service is planned along the main street of the capital. There are nn\xc2\xa0base stations that are already installed. They are located one after another along the main street in the order from the\xc2\xa011-st to the\xc2\xa0nn-th from left to right. '
+b'Currently, all these base stations are turned off. They will be turned on one by one, one base station per day, according to some permutation p=[p1,p2,\xe2\x80\xa6,pn]p=[p1,p2,\xe2\x80\xa6,pn] (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n), where pipi is the index of a base station that will be turned on on the ii-th day. Thus, it will take nn days to turn on all base stations.'
+b'Each base station is characterized by its operating frequency fifi\xc2\xa0\xe2\x80\x94 an integer between 11 and 2424, inclusive.'
+b'There is an important requirement for operating frequencies of base stations. Consider an arbitrary moment in time. For any phone owner, if we consider all base stations turned on in the access area of their phone, then in this set of base stations there should be at least one whose operating frequency is unique among the frequencies of these stations. Since the power of the phone and the position are not known in advance, this means that for any nonempty subsegment of turned on base stations, at least one of them has to have the operating frequency that is unique among the stations of this subsegment.'
+b"For example, let's take a look at a case of n=7n=7, all nn stations are turned on, and their frequencies are equal to f=[1,2,1,3,1,2,1]f=[1,2,1,3,1,2,1]. Consider any subsegment of the base stations\xc2\xa0\xe2\x80\x94 there is a base station with a unique frequency within this subsegment. However, if f=[1,2,1,2,3,2,1]f=[1,2,1,2,3,2,1], then there is no unique frequency on the segment [1,2,1,2][1,2,1,2] from the index 11 to the index 44, inclusive."
+b'Your task is to assign a frequency from 11 to 2424 to each of nn base stations in such a way that the frequency requirement is met at every moment. Remember that the base stations are turned on in the order of the given permutation pp.'
+b'Input'
+b'The first line of the input contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4501\xe2\x89\xa4t\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the number of test cases in the input. Then tt test case descriptions follow.'
+b'The first line of a test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa485001\xe2\x89\xa4n\xe2\x89\xa48500)\xc2\xa0\xe2\x80\x94 the number of "BerLine" base stations.'
+b'The following line contains nn distinct integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the order in which the base stations are turned on, i.\xc2\xa0e. on the ii-th day the base station with the index pipi is turned on.'
+b'It is guaranteed that a correct answer exists for all test cases in the input.'
+b'Output'
+b'Print exactly tt lines, where the jj-th line contains the answer for the jj-th test case in the input. Print the required frequencies f1,f2,\xe2\x80\xa6,fnf1,f2,\xe2\x80\xa6,fn (1\xe2\x89\xa4fi\xe2\x89\xa4241\xe2\x89\xa4fi\xe2\x89\xa424). If there are several possible answers, print any of them.'
+Tags
+constructive algorithms, *3200

@@ -1,0 +1,12 @@
+b'Monocarp plays "Rage of Empires II: Definitive Edition" \xe2\x80\x94 a strategic computer game. Right now he\'s planning to attack his opponent in the game, but Monocarp\'s forces cannot enter the opponent\'s territory since the opponent has built a wall.'
+b'The wall consists of nn sections, aligned in a row. The ii-th section initially has durability aiai. If durability of some section becomes 00 or less, this section is considered broken.'
+b'To attack the opponent, Monocarp needs to break at least two sections of the wall (any two sections: possibly adjacent, possibly not). To do this, he plans to use an onager \xe2\x80\x94 a special siege weapon. The onager can be used to shoot any section of the wall; the shot deals 22 damage to the target section and 11 damage to adjacent sections. In other words, if the onager shoots at the section xx, then the durability of the section xx decreases by 22, and the durability of the sections x\xe2\x88\x921x\xe2\x88\x921 and x+1x+1 (if they exist) decreases by 11 each. '
+b'Monocarp can shoot at any sections any number of times, he can even shoot at broken sections.'
+b'Monocarp wants to calculate the minimum number of onager shots needed to break at least two sections. Help him!'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of sections.'
+b'The second line contains the sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106), where aiai is the initial durability of the ii-th section.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum number of onager shots needed to break at least two sections of the wall.'
+Tags
+binary search, brute force, constructive algorithms, greedy, math, *2000

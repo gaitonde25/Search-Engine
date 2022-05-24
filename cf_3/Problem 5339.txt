@@ -1,0 +1,11 @@
+b'You are given a sequence of n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an. '
+b'Determine a real number x such that the weakness of the sequence a1\xe2\x80\x89-\xe2\x80\x89x,\xe2\x80\x89a2\xe2\x80\x89-\xe2\x80\x89x,\xe2\x80\x89...,\xe2\x80\x89an\xe2\x80\x89-\xe2\x80\x89x is as small as possible.'
+b'The weakness of a sequence is defined as the maximum value of the poorness over all segments (contiguous subsequences) of a sequence.'
+b'The poorness of a segment is defined as the absolute value of sum of the elements of segment.'
+b'Input'
+b'The first line contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000), the length of a sequence.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (|ai|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000).'
+b'Output'
+b"Output a real number denoting the minimum possible weakness of a1\xe2\x80\x89-\xe2\x80\x89x,\xe2\x80\x89a2\xe2\x80\x89-\xe2\x80\x89x,\xe2\x80\x89...,\xe2\x80\x89an\xe2\x80\x89-\xe2\x80\x89x. Your answer will be considered correct if its relative or absolute error doesn't exceed 10\xe2\x80\x89-\xe2\x80\x896."
+Tags
+ternary search, *2000

@@ -1,0 +1,17 @@
+b'SWERC organizers want to hold a gastronomic event.'
+b'The location of the event is a building with nn rooms connected by n\xe2\x88\x921n\xe2\x88\x921 corridors (each corridor connects two rooms) so that it is possible to go from any room to any other room.'
+b'In each room you have to set up the tasting of a typical Italian dish. You can choose from nn typical Italian dishes rated from 11 to nn depending on how good they are (nn is the best possible rating). The nn dishes have distinct ratings.'
+b'You want to assign the nn dishes to the nn rooms so that the number of pleasing tours is maximal. A pleasing tour is a nonempty sequence of rooms so that:'
+b'  Each room in the sequence is connected to the next one in the sequence by a corridor.  The ratings of the dishes in the rooms (in the order given by the sequence) are increasing. '
+b' If you assign the '
+b''
+b'nn'
+b'n'
+b' dishes optimally, what is the maximum number of pleasing tours?'
+b'Input'
+b'The first line contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa410000002\xe2\x89\xa4n\xe2\x89\xa41000000) \xe2\x80\x94 the number of rooms.'
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3,\xe2\x8b\xaf,pnp2,p3,\xe2\x8b\xaf,pn (1\xe2\x89\xa4pi<i1\xe2\x89\xa4pi<i). Each pipi indicates that there is a corridor between room ii and room pipi. It is guaranteed that the building has the property that it is possible to go from any room to any other room.'
+b'Output'
+b'Print the maximum number of pleasing tours.'
+Tags
+dp, greedy, trees

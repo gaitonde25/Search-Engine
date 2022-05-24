@@ -1,0 +1,15 @@
+b"After observing the results of Spy Syndrome, Yash realised the errors of his ways. He now believes that a super spy such as Siddhant can't use a cipher as basic and ancient as Caesar cipher. After many weeks of observation of Siddhant\xe2\x80\x99s sentences, Yash determined a new cipher technique."
+b'For a given sentence, the cipher is processed as: '
+b'  Convert all letters of the sentence to lowercase.  Reverse each of the words of the sentence individually.  Remove all the spaces in the sentence. '
+b'For example, when this cipher is applied to the sentence'
+b'Kira is childish and he hates losing'
+b'the resulting string is'
+b'ariksihsidlihcdnaehsetahgnisol'
+b'Now Yash is given some ciphered string and a list of words. Help him to find out any original sentence composed using only words from the list. Note, that any of the given words could be used in the sentence multiple times.'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the length of the ciphered text. The second line consists of n lowercase English letters\xc2\xa0\xe2\x80\x94 the ciphered text t.'
+b"The third line contains a single integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of words which will be considered while deciphering the text. Each of the next m lines contains a non-empty word wi (|wi|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000) consisting of uppercase and lowercase English letters only. It's guaranteed that the total length of all words doesn't exceed 1\xe2\x80\x89000\xe2\x80\x89000."
+b'Output'
+b'Print one line \xe2\x80\x94 the original sentence. It is guaranteed that at least one solution exists. If there are multiple solutions, you may output any of those.'
+Tags
+data structures, dp, hashing, implementation, sortings, string suffix structures, strings, *1900

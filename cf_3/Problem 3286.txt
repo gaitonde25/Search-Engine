@@ -1,0 +1,16 @@
+b'Let TT be a tree on nn vertices. Consider a graph G0G0, initially equal to TT. You are given a sequence of qq updates, where the ii-th update is given as a pair of two distinct integers uiui and vivi. '
+b'For every ii from 11 to qq, we define the graph GiGi as follows: '
+b'  If Gi\xe2\x88\x921Gi\xe2\x88\x921 contains an edge {ui,vi}{ui,vi}, then remove this edge to form GiGi.  Otherwise, add this edge to Gi\xe2\x88\x921Gi\xe2\x88\x921 to form GiGi. '
+b' '
+b'Formally, Gi:=Gi\xe2\x88\x921\xe2\x96\xb3{{ui,vi}}Gi:=Gi\xe2\x88\x921\xe2\x96\xb3{{ui,vi}} where \xe2\x96\xb3\xe2\x96\xb3 denotes the set symmetric difference. '
+b'Furthermore, it is guaranteed that TT is always a subgraph of GiGi. In other words, an update never removes an edge of TT.'
+b'Consider a connected graph HH and run a depth-first search on it. One can see that the tree edges (i.e. the edges leading to a not yet visited vertex at the time of traversal) form a spanning tree of the graph HH. This spanning tree is not generally fixed for a particular graph\xc2\xa0\xe2\x80\x94 it depends on the starting vertex, and on the order in which the neighbors of each vertex are traversed. '
+b'We call vertex ww good if one can order the neighbors of each vertex in such a way that the depth-first search started from ww produces TT as the spanning tree. For every ii from 11 to qq, find and report the number of good vertices.'
+b'Input'
+b'The first line contains two integers nn and qq (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of nodes and the number of updates, respectively.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v)\xc2\xa0\xe2\x80\x94 vertices connected by an edge in TT. It is guaranteed that this graph is a tree.'
+b'Each of the next qq lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v)\xc2\xa0\xe2\x80\x94 the endpoints of the edge that is added or removed. It is guaranteed that this edge does not belong to TT.'
+b'Output'
+b'For each update, print one integer kk\xc2\xa0\xe2\x80\x94 the number of good vertices ww after the corresponding update.'
+Tags
+data structures, *2700

@@ -1,0 +1,14 @@
+b'On the Literature lesson Sergei noticed an awful injustice, it seems that some students are asked more often than others.'
+b'Seating in the class looks like a rectangle, where n rows with m pupils in each. '
+b'The teacher asks pupils in the following order: at first, she asks all pupils from the first row in the order of their seating, then she continues to ask pupils from the next row. If the teacher asked the last row, then the direction of the poll changes, it means that she asks the previous row. The order of asking the rows looks as follows: the 1-st row, the 2-nd row, ..., the n\xe2\x80\x89-\xe2\x80\x891-st row, the n-th row, the n\xe2\x80\x89-\xe2\x80\x891-st row, ..., the 2-nd row, the 1-st row, the 2-nd row, ...'
+b'The order of asking of pupils on the same row is always the same: the 1-st pupil, the 2-nd pupil, ..., the m-th pupil.'
+b'During the lesson the teacher managed to ask exactly k questions from pupils in order described above. Sergei seats on the x-th row, on the y-th place in the row. Sergei decided to prove to the teacher that pupils are asked irregularly, help him count three values:'
+b'  the maximum number of questions a particular pupil is asked,  the minimum number of questions a particular pupil is asked,  how many times the teacher asked Sergei. '
+b'If there is only one row in the class, then the teacher always asks children from this row.'
+b'Input'
+b'The first and the only line contains five integers n, m, k, x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m).'
+b'Output'
+b'Print three integers:'
+b'  the maximum number of questions a particular pupil is asked,  the minimum number of questions a particular pupil is asked,  how many times the teacher asked Sergei. '
+Tags
+binary search, constructive algorithms, implementation, math, *1700

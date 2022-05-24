@@ -1,0 +1,12 @@
+b'  '
+b'Before becoming a successful trader William got a university degree. During his education an interesting situation happened, after which William started to listen to homework assignments much more attentively. What follows is the correct formal description of the homework assignment:'
+b'You are given a string ss of length nn only consisting of characters "a", "b" and "c". There are qq queries of format (pos,cpos,c), meaning replacing the element of string ss at position pospos with character cc. After each query you must output the minimal number of characters in the string, which have to be replaced, so that the string doesn\'t contain string "abc" as a substring. A valid replacement of a character is replacing it with "a", "b" or "c".'
+b'A string xx is a substring of a string yy if xx can be obtained from yy by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa4105)(1\xe2\x89\xa4n,q\xe2\x89\xa4105), the length of the string and the number of queries, respectively.'
+b'The second line contains the string ss, consisting of characters "a", "b" and "c".'
+b'Each of the next qq lines contains an integer ii and character cc (1\xe2\x89\xa4i\xe2\x89\xa4n)(1\xe2\x89\xa4i\xe2\x89\xa4n), index and the value of the new item in the string, respectively. It is guaranteed that character\'s cc value is "a", "b" or "c".'
+b'Output'
+b'For each query output the minimal number of characters that would have to be replaced so that the string doesn\'t contain "abc" as a substring.'
+Tags
+implementation, strings, *1100

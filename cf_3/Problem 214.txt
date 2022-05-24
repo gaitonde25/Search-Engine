@@ -1,0 +1,13 @@
+b'You are given an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, consisting of nn integers. You are also given an integer value xx.'
+b'Let f(k)f(k) be the maximum sum of a contiguous subarray of aa after applying the following operation: add xx to the elements on exactly kk distinct positions. An empty subarray should also be considered, it has sum 00.'
+b"Note that the subarray doesn't have to include all of the increased elements."
+b'Calculate the maximum value of f(k)f(k) for all kk from 00 to nn independently.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'The first line of the testcase contains two integers nn and xx (1\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4n\xe2\x89\xa45000; 0\xe2\x89\xa4x\xe2\x89\xa41050\xe2\x89\xa4x\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of elements in the array and the value to add.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92105\xe2\x89\xa4ai\xe2\x89\xa4105\xe2\x88\x92105\xe2\x89\xa4ai\xe2\x89\xa4105).'
+b"The sum of nn over all testcases doesn't exceed 50005000."
+b'Output'
+b'For each testcase, print n+1n+1 integers\xc2\xa0\xe2\x80\x94 the maximum value of f(k)f(k) for all kk from 00 to nn independently.'
+Tags
+brute force, dp, greedy, implementation, *1400

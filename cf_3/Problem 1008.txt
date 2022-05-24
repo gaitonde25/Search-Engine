@@ -1,0 +1,12 @@
+b'We define a spanning tree of a graph to be a BFS tree rooted at vertex ss if and only if for every node tt the shortest distance between ss and tt in the graph is equal to the shortest distance between ss and tt in the spanning tree. '
+b'Given a graph, we define f(x,y)f(x,y) to be the number of spanning trees of that graph that are BFS trees rooted at vertices xx and yy at the same time.'
+b'You are given an undirected connected graph with nn vertices and mm edges. Calculate f(i,j)f(i,j) for all ii, jj by modulo 998244353998244353.'
+b'Input'
+b'The first line contains two integers nn, mm (1\xe2\x89\xa4n\xe2\x89\xa44001\xe2\x89\xa4n\xe2\x89\xa4400, 0\xe2\x89\xa4m\xe2\x89\xa46000\xe2\x89\xa4m\xe2\x89\xa4600)\xc2\xa0\xe2\x80\x94 the number of vertices and the number of edges in the graph.'
+b'The ii-th of the next mm lines contains two integers aiai, bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n, ai<biai<bi), representing an edge connecting aiai and bibi.'
+b'It is guaranteed that all edges are distinct and the graph is connected.'
+b'Output'
+b'Print nn lines, each consisting of nn integers.'
+b'The integer printed in the row ii and the column jj should be f(i,j)mod998244353f(i,j)mod998244353.'
+Tags
+combinatorics, dfs and similar, graphs, math, shortest paths, trees, *2600

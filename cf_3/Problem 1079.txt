@@ -1,0 +1,14 @@
+b'Arkady has a playlist that initially consists of nn songs, numerated from 11 to nn in the order they appear in the playlist. Arkady starts listening to the songs in the playlist one by one, starting from song 11. The playlist is cycled, i.\xc2\xa0e. after listening to the last song, Arkady will continue listening from the beginning.'
+b"Each song has a genre aiai, which is a positive integer. Let Arkady finish listening to a song with genre yy, and the genre of the next-to-last listened song be xx. If gcd(x,y)=1gcd\xe2\x81\xa1(x,y)=1, he deletes the last listened song (with genre yy) from the playlist. After that he continues listening normally, skipping the deleted songs, and forgetting about songs he listened to before. In other words, after he deletes a song, he can't delete the next song immediately."
+b'Here gcd(x,y)gcd\xe2\x81\xa1(x,y) denotes the greatest common divisor (GCD) of integers xx and yy.'
+b"For example, if the initial songs' genres were [5,9,2,10,15][5,9,2,10,15], then the playlist is converted as follows: [5, 9, 2, 10, 15] \xe2\x86\x92\xe2\x86\x92 [5, 9, 2, 10, 15] \xe2\x86\x92\xe2\x86\x92 [5, 2, 10, 15] (because gcd(5,9)=1gcd\xe2\x81\xa1(5,9)=1) \xe2\x86\x92\xe2\x86\x92 [5, 2, 10, 15] \xe2\x86\x92\xe2\x86\x92 [5, 2, 10, 15] \xe2\x86\x92\xe2\x86\x92 [5, 2, 10, 15] \xe2\x86\x92\xe2\x86\x92 [5, 2, 10, 15] \xe2\x86\x92\xe2\x86\x92 [5, 2, 10, 15] \xe2\x86\x92\xe2\x86\x92 [5, 10, 15] (because gcd(5,2)=1gcd\xe2\x81\xa1(5,2)=1) \xe2\x86\x92\xe2\x86\x92 [5, 10, 15] \xe2\x86\x92\xe2\x86\x92 [5, 10, 15] \xe2\x86\x92\xe2\x86\x92 ... The bold numbers represent the two last played songs. Note that after a song is deleted, Arkady forgets that he listened to that and the previous songs."
+b'Given the initial playlist, please determine which songs are eventually deleted and the order these songs are deleted.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000). Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of songs.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the genres of the songs.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print a single line. First, print a single integer kk\xc2\xa0\xe2\x80\x94 the number of deleted songs. After that print kk distinct integers: deleted songs in the order of their deletion.'
+Tags
+data structures, dsu, implementation, shortest paths, *1900

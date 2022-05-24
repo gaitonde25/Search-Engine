@@ -1,0 +1,7 @@
+b"As it's the first of April, Heidi is suspecting that the news she reads today are fake, and she does not want to look silly in front of all the contestants. She knows that a newspiece is fake if it contains heidi as a subsequence. Help Heidi assess whether the given piece is true, but please be discreet about it..."
+b'Input'
+b'The first and only line of input contains a single nonempty string s of length at most 1000 composed of lowercase letters (a-z).'
+b'Output'
+b'Output YES if the string s contains heidi as a subsequence and NO otherwise.'
+Tags
+implementation, strings, *800

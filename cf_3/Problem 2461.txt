@@ -1,0 +1,11 @@
+b'You are given a sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. You need to paint elements in colors, so that: '
+b'  If we consider any color, all elements of this color must be divisible by the minimal element of this color.  The number of used colors must be minimized. '
+b"For example, it's fine to paint elements [40,10,60][40,10,60] in a single color, because they are all divisible by 1010. You can use any color an arbitrary amount of times (in particular, it is allowed to use a color only once). The elements painted in one color do not need to be consecutive."
+b"For example, if a=[6,2,3,4,12]a=[6,2,3,4,12] then two colors are required: let's paint 66, 33 and 1212 in the first color (66, 33 and 1212 are divisible by 33) and paint 22 and 44 in the second color (22 and 44 are divisible by 22). For example, if a=[10,7,15]a=[10,7,15] then 33 colors are required (we can simply paint each element in an unique color)."
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100), where nn is the length of the given sequence.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100). These numbers can contain duplicates.'
+b'Output'
+b'Print the minimal number of colors to paint all the given numbers in a valid way.'
+Tags
+greedy, implementation, math, *800

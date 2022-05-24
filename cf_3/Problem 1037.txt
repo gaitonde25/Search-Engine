@@ -1,0 +1,15 @@
+b'You are given an array aa consisting of nn integers. Initially all elements of aa are either 00 or 11. You need to process qq queries of two kinds:'
+b'  1 x : Assign to axax the value 1\xe2\x88\x92ax1\xe2\x88\x92ax.  2 k : Print the kk-th largest value of the array. '
+b'As a reminder, kk-th largest value of the array bb is defined as following:'
+b' Sort the array in the non-increasing order, return kk-th element from it. '
+b'For example, the second largest element in array [0,1,0,1][0,1,0,1] is 11, as after sorting in non-increasing order it becomes [1,1,0,0][1,1,0,0], and the second element in this array is equal to 11.'
+b'Input'
+b'The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa41051\xe2\x89\xa4n,q\xe2\x89\xa4105) \xe2\x80\x94 the length of the given array and the number of queries.'
+b'The second line contains nn integers a1,a2,a3,\xe2\x80\xa6,ana1,a2,a3,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa410\xe2\x89\xa4ai\xe2\x89\xa41) \xe2\x80\x94 elements of the initial array.'
+b'Each of the following qq lines contains two integers. The first integer is tt (1\xe2\x89\xa4t\xe2\x89\xa421\xe2\x89\xa4t\xe2\x89\xa42) \xe2\x80\x94 the type of query. '
+b' If t=1t=1 the second integer is xx (1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n) \xe2\x80\x94 the position of the modified number. You have to assign to axax the value 1\xe2\x88\x92ax1\xe2\x88\x92ax. If t=2t=2 the second integer is kk (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 you need to print the kk-th largest value of the array.'
+b"It's guaranteed that there will be at least one query of the second type (satisfying t=2t=2)."
+b'Output'
+b'For each query of the second type, print a single integer \xe2\x80\x94 the answer to the query.'
+Tags
+brute force, greedy, implementation, *800

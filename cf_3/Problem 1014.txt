@@ -1,0 +1,13 @@
+b'The Dogeforces company has kk employees. Each employee, except for lower-level employees, has at least 22 subordinates. Lower-level employees have no subordinates. Each employee, except for the head of the company, has exactly one direct supervisor. The head of the company is a direct or indirect supervisor of all employees. It is known that in Dogeforces, each supervisor receives a salary strictly more than all his subordinates.'
+b'The full structure of the company is a secret, but you know the number of lower-level employees and for each pair of lower-level employees, the salary of their common supervisor is known (if there are several such supervisors, then the supervisor with the minimum salary). You have to restore the structure of the company.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa45002\xe2\x89\xa4n\xe2\x89\xa4500) \xe2\x80\x94 the number of lower-level employees.'
+b'This is followed by nn lines, where ii-th line contains nn integers ai,1,ai,2,\xe2\x80\xa6,ai,nai,1,ai,2,\xe2\x80\xa6,ai,n (1\xe2\x89\xa4ai,j\xe2\x89\xa450001\xe2\x89\xa4ai,j\xe2\x89\xa45000) \xe2\x80\x94 salary of the common supervisor of employees with numbers ii and jj. It is guaranteed that ai,j=aj,iai,j=aj,i. Note that ai,iai,i is equal to the salary of the ii-th employee.'
+b'Output'
+b'In the first line, print a single integer kk \xe2\x80\x94 the number of employees in the company.'
+b'In the second line, print kk integers c1,c2,\xe2\x80\xa6,ckc1,c2,\xe2\x80\xa6,ck, where cici is the salary of the employee with the number ii.'
+b'In the third line, print a single integer rr \xe2\x80\x94 the number of the employee who is the head of the company.'
+b'In the following k\xe2\x88\x921k\xe2\x88\x921 lines, print two integers vv and uu (1\xe2\x89\xa4v,u\xe2\x89\xa4k1\xe2\x89\xa4v,u\xe2\x89\xa4k) \xe2\x80\x94 the number of the employee and his direct supervisor.'
+b'Note that the lower-level employees have numbers from 11 to nn, and for the rest of the employees, you have to assign numbers from n+1n+1 to kk. If there are several correct company structures, you can print any of them.'
+Tags
+constructive algorithms, data structures, dfs and similar, divide and conquer, dsu, greedy, sortings, trees, *2300

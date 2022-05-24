@@ -1,0 +1,14 @@
+b'You have a string ss and a chip, which you can place onto any character of this string. '
+b'After placing the chip, you move it to the right several (maybe zero) times, i.\xc2\xa0e. you perform the following operation several times: if the current position of the chip is ii, you move it to the position i+1i+1. Of course, moving the chip to the right is impossible if it is already in the last position.'
+b'After moving the chip to the right, you move it to the left several (maybe zero) times, i.\xc2\xa0e. you perform the following operation several times: if the current position of the chip is ii, you move it to the position i\xe2\x88\x921i\xe2\x88\x921. Of course, moving the chip to the left is impossible if it is already in the first position.'
+b'When you place a chip or move it, you write down the character where the chip ends up after your action. For example, if ss is abcdef, you place the chip onto the 33-rd character, move it to the right 22 times and then move it to the left 33 times, you write down the string cdedcb.'
+b"You are given two strings ss and tt. Your task is to determine whether it's possible to perform the described operations with ss so that you write down the string tt as a result."
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa45001\xe2\x89\xa4q\xe2\x89\xa4500) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of two lines. The first line contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa45001\xe2\x89\xa4|s|\xe2\x89\xa4500), the second line contains the string tt (1\xe2\x89\xa4|t|\xe2\x89\xa42\xe2\x8b\x85|s|\xe2\x88\x9211\xe2\x89\xa4|t|\xe2\x89\xa42\xe2\x8b\x85|s|\xe2\x88\x921). Both strings consist of lowercase English characters.'
+b'It is guaranteed that the sum of |s||s| over all test cases does not exceed 500500.'
+b'Output'
+b'For each test case, print "YES" if you can obtain the string tt by performing the process mentioned in the statement with the string ss, or "NO" if you cannot.'
+b'You may print each letter in any case (YES, yes, Yes will all be recognized as positive answer, NO, no and nO will all be recognized as negative answer).'
+Tags
+brute force, dp, hashing, implementation, strings, *1300

@@ -1,0 +1,10 @@
+b'Vladik was bored on his way home and decided to play the following game. He took n cards and put them in a row in front of himself. Every card has a positive integer number not exceeding 8 written on it. He decided to find the longest subsequence of cards which satisfies the following conditions:'
+b"  the number of occurrences of each number from 1 to 8 in the subsequence doesn't differ by more then 1 from the number of occurrences of any other number. Formally, if there are ck cards with number k on them in the subsequence, than for all pairs of integers  the condition |ci\xe2\x80\x89-\xe2\x80\x89cj|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891 must hold.  if there is at least one card with number x on it in the subsequence, then all cards with number x in this subsequence must form a continuous segment in it (but not necessarily a continuous segment in the original sequence). For example, the subsequence [1,\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x892] satisfies this condition while the subsequence [1,\xe2\x80\x892,\xe2\x80\x892,\xe2\x80\x891] doesn't. Note that [1,\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x892] doesn't satisfy the first condition. "
+b'Please help Vladik to find the length of the longest subsequence that satisfies both conditions.'
+b'Input'
+b"The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the number of cards in Vladik's sequence."
+b"The second line contains the sequence of n positive integers not exceeding 8\xc2\xa0\xe2\x80\x94 the description of Vladik's sequence."
+b'Output'
+b"Print single integer\xc2\xa0\xe2\x80\x94 the length of the longest subsequence of Vladik's sequence that satisfies both conditions."
+Tags
+binary search, bitmasks, brute force, dp, *2200

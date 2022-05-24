@@ -1,0 +1,12 @@
+b'Guy-Manuel and Thomas have an array aa of nn integers [a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an]. In one step they can add 11 to any element of the array. Formally, in one step they can choose any integer index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and do ai:=ai+1ai:=ai+1.'
+b'If either the sum or the product of all elements in the array is equal to zero, Guy-Manuel and Thomas do not mind to do this operation one more time.'
+b'What is the minimum number of steps they need to do to make both the sum and the product of all elements in the array different from zero? Formally, find the minimum number of steps to make a1+a2+a1+a2+ \xe2\x80\xa6\xe2\x80\xa6 +an\xe2\x89\xa00+an\xe2\x89\xa00 and a1\xe2\x8b\x85a2\xe2\x8b\x85a1\xe2\x8b\x85a2\xe2\x8b\x85 \xe2\x80\xa6\xe2\x80\xa6 \xe2\x8b\x85an\xe2\x89\xa00\xe2\x8b\x85an\xe2\x89\xa00.'
+b'Input'
+b'Each test contains multiple test cases. '
+b'The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103). The description of the test cases follows.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the size of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92100\xe2\x89\xa4ai\xe2\x89\xa4100\xe2\x88\x92100\xe2\x89\xa4ai\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 elements of the array .'
+b'Output'
+b'For each test case, output the minimum number of steps required to make both sum and product of all elements in the array different from zero.'
+Tags
+implementation, math, *800

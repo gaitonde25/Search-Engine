@@ -1,0 +1,17 @@
+b'Drazil likes heap very much. So he created a problem with heap:'
+b'There is a max heap with a height hh implemented on the array. The details of this heap are the following:'
+b'This heap contains exactly 2h\xe2\x88\x9212h\xe2\x88\x921 distinct positive non-zero integers. All integers are distinct. These numbers are stored in the array aa indexed from 11 to 2h\xe2\x88\x9212h\xe2\x88\x921. For any 1<i<2h1<i<2h, a[i]<a[\xe2\x8c\x8ai2\xe2\x8c\x8b]a[i]<a[\xe2\x8c\x8ai2\xe2\x8c\x8b].'
+b'Now we want to reduce the height of this heap such that the height becomes gg with exactly 2g\xe2\x88\x9212g\xe2\x88\x921 numbers in heap. To reduce the height, we should perform the following action 2h\xe2\x88\x922g2h\xe2\x88\x922g times:'
+b'Choose an index ii, which contains an element and call the following function ff in index ii:'
+b''
+b"Note that we suppose that if a[i]=0a[i]=0, then index ii don't contain an element."
+b"After all operations, the remaining 2g\xe2\x88\x9212g\xe2\x88\x921 element must be located in indices from 11 to 2g\xe2\x88\x9212g\xe2\x88\x921. Now Drazil wonders what's the minimum possible sum of the remaining 2g\xe2\x88\x9212g\xe2\x88\x921 elements. Please find this sum and find a sequence of the function calls to achieve this value."
+b'Input'
+b'The first line of the input contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4700001\xe2\x89\xa4t\xe2\x89\xa470000): the number of test cases.'
+b'Each test case contain two lines. The first line contains two integers hh and gg (1\xe2\x89\xa4g<h\xe2\x89\xa4201\xe2\x89\xa4g<h\xe2\x89\xa420). The second line contains n=2h\xe2\x88\x921n=2h\xe2\x88\x921 distinct positive integers a[1],a[2],\xe2\x80\xa6,a[n]a[1],a[2],\xe2\x80\xa6,a[n] (1\xe2\x89\xa4a[i]<2201\xe2\x89\xa4a[i]<220). For all ii from 22 to 2h\xe2\x88\x9212h\xe2\x88\x921, a[i]<a[\xe2\x8c\x8ai2\xe2\x8c\x8b]a[i]<a[\xe2\x8c\x8ai2\xe2\x8c\x8b].'
+b'The total sum of nn is less than 220220.'
+b'Output'
+b'For each test case, print two lines.'
+b'The first line should contain one integer denoting the minimum sum after reducing the height of heap to gg. The second line should contain 2h\xe2\x88\x922g2h\xe2\x88\x922g integers v1,v2,\xe2\x80\xa6,v2h\xe2\x88\x922gv1,v2,\xe2\x80\xa6,v2h\xe2\x88\x922g. In ii-th operation f(vi)f(vi) should be called.'
+Tags
+constructive algorithms, data structures, greedy, implementation, *2400

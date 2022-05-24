@@ -1,0 +1,11 @@
+b'The gcdSumgcdSum of a positive integer is the gcdgcd of that integer with its sum of digits. Formally, gcdSum(x)=gcd(x,\xc2\xa0sum of digits of\xc2\xa0x)gcdSum(x)=gcd(x,\xc2\xa0sum of digits of\xc2\xa0x) for a positive integer xx. gcd(a,b)gcd(a,b) denotes the greatest common divisor of aa and bb \xe2\x80\x94 the largest integer dd such that both integers aa and bb are divisible by dd.'
+b'For example: gcdSum(762)=gcd(762,7+6+2)=gcd(762,15)=3gcdSum(762)=gcd(762,7+6+2)=gcd(762,15)=3.'
+b'Given an integer nn, find the smallest integer x\xe2\x89\xa5nx\xe2\x89\xa5n such that gcdSum(x)>1gcdSum(x)>1.'
+b'Input'
+b'The first line of input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4104)(1\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. '
+b'Then tt lines follow, each containing a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41018)(1\xe2\x89\xa4n\xe2\x89\xa41018).'
+b'All test cases in one test are different.'
+b'Output'
+b'Output tt lines, where the ii-th line is a single integer containing the answer to the ii-th test case.'
+Tags
+brute force, math, *800

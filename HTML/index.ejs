@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <nav>
+      <div class="site-title">
+        <img src="./images/noodle_trans.png" alt="Noodle logo" />
+      </div>
+    </nav>
+    <form action="/search" method="POST">
+      <div class="search">
+        <div class="up">
+          <input
+            type="text"
+            id="query"
+            placeholder="Type your query..."
+            name="query"
+          />
+        </div>
+        <div class="down">
+          <button id="btn">Search</button>
+        </div>
+      </div>
+    </form>
+    <div class="problems">
+      <% if(top10prob.length == 0){ %>
+      <div class="no-result">
+        <div class="man-search">
+          <img src="/images/search.png" alt="search" />
+        </div>
+        <div class="no-text">
+          <p class="noProb"><em>Nothing to show. Search for a problem !</em></p>
+        </div>
+      </div>
+      <% }else{ top10prob.forEach((element)=>{ %>
+      <div class="prob">
+        <a class="link" href="<%= element.url %>" target="_blank">
+          <%= element.name %></a
+        >
+        <p class="snippet"><%= element.snippet %></p>
+      </div>
+      <% }) } %>
+    </div>
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>

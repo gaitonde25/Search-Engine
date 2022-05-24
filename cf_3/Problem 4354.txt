@@ -1,0 +1,10 @@
+b'Tavak and Seyyed are good friends. Seyyed is very funny and he told Tavak to solve the following problem instead of longest-path.'
+b'You are given l and r. For all integers from l to r, inclusive, we wrote down all of their integer divisors except 1. Find the integer that we wrote down the maximum number of times.'
+b"Solve the problem to show that it's not a NP problem."
+b'Input'
+b'The first line contains two integers l and r (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b'Print single integer, the integer that appears maximum number of times in the divisors. '
+b'If there are multiple answers, print any of them.'
+Tags
+greedy, math, *1000

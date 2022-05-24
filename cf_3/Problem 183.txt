@@ -1,0 +1,16 @@
+b'Consider a playoff tournament where 2n2n athletes compete. The athletes are numbered from 11 to 2n2n.'
+b'The tournament is held in nn stages. In each stage, the athletes are split into pairs in such a way that each athlete belongs exactly to one pair. In each pair, the athletes compete against each other, and exactly one of them wins. The winner of each pair advances to the next stage, the athlete who was defeated gets eliminated from the tournament.'
+b'The pairs are formed as follows:'
+b'  in the first stage, athlete 11 competes against athlete 22; 33 competes against 44; 55 competes against 66, and so on;  in the second stage, the winner of the match "11\xe2\x80\x9322" competes against the winner of the match "33\xe2\x80\x9344"; the winner of the match "55\xe2\x80\x9366" competes against the winner of the match "77\xe2\x80\x9388", and so on;  the next stages are held according to the same rules. '
+b'When athletes xx and yy compete, the winner is decided as follows:'
+b'  if x+yx+y is odd, the athlete with the lower index wins (i.\xe2\x80\x89e. if x<yx<y, then xx wins, otherwise yy wins);  if x+yx+y is even, the athlete with the higher index wins. '
+b'The following picture describes the way the tournament with n=3n=3 goes.'
+b'  '
+b'Your task is the following one: given the integer nn, determine the index of the athlete who wins the tournament.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4301\xe2\x89\xa4t\xe2\x89\xa430) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of one line containing one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4301\xe2\x89\xa4n\xe2\x89\xa430).'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the index of the winner of the tournament.'
+Tags
+implementation, *800

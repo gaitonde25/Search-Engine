@@ -1,0 +1,13 @@
+b'Berland State University (BSU) is conducting a programming boot camp. The boot camp will last for nn days, and the BSU lecturers are planning to give some number of lectures during these days.'
+b"Some days of the boot camp are already planned as excursion days, and no lectures should be held during these days. To make sure the participants don't get too tired of learning to program, the number of lectures for each day should not exceed k1k1, and the number of lectures for each pair of consecutive days should not exceed k2k2."
+b'Can you calculate the maximum number of lectures that can be conducted during the boot camp? Formally, find the maximum integer mm such that it is possible to choose nn non-negative integers c1c1, c2c2, ..., cncn (where cici is the number of lectures held during day ii) so that:'
+b'  c1+c2+\xe2\x8b\xaf+cn=mc1+c2+\xe2\x8b\xaf+cn=m;  for each excursion day dd, cd=0cd=0;  for each day ii, ci\xe2\x89\xa4k1ci\xe2\x89\xa4k1;  for each pair of consecutive days (i,i+1)(i,i+1), ci+ci+1\xe2\x89\xa4k2ci+ci+1\xe2\x89\xa4k2. '
+b'Note that there might be some non-excursion days without lectures (i.\xe2\x80\x89e., it is possible that ci=0ci=0 even if ii is not an excursion day).'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4501\xe2\x89\xa4t\xe2\x89\xa450) \xe2\x80\x94 the number of testcases.'
+b'Then the testcases follow, each consists of two lines. The first line contains three integers nn, k1k1, k2k2 (1\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4n\xe2\x89\xa45000; 1\xe2\x89\xa4k1\xe2\x89\xa4k2\xe2\x89\xa42000001\xe2\x89\xa4k1\xe2\x89\xa4k2\xe2\x89\xa4200000).'
+b'The second line contains one string ss consisting of exactly nn characters, each character is either 0 or 1. If si=0si=0, then day ii is an excursion day (so there should be no lectures during that day); if si=1si=1, then day ii is not an excursion day.'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the maximum possible value of mm (the number of lectures that can be conducted).'
+Tags
+*special problem, greedy, *1400

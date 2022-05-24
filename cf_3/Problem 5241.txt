@@ -1,0 +1,25 @@
+b"There's a famous museum in the city where Kleof\xc3\xa1\xc5\xa1 lives. In the museum, n exhibits (numbered 1 through n) had been displayed for a long time; the i-th of those exhibits has value vi and mass wi. "
+b'Then, the museum was bought by a large financial group and started to vary the exhibits. At about the same time, Kleof\xc3\xa1\xc5\xa1... gained interest in the museum, so to say.'
+b'You should process q events of three types:'
+b' type 1 \xe2\x80\x94 the museum displays an exhibit with value v and mass w; the exhibit displayed in the i-th event of this type is numbered n\xe2\x80\x89+\xe2\x80\x89i (see sample explanation for more details) type 2 \xe2\x80\x94 the museum removes the exhibit with number x and stores it safely in its vault type 3 \xe2\x80\x94 Kleof\xc3\xa1\xc5\xa1 visits the museum and wonders (for no important reason at all, of course): if there was a robbery and exhibits with total mass at most m were stolen, what would their maximum possible total value be?'
+b'For each event of type 3, let s(m) be the maximum possible total value of stolen exhibits with total mass \xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m.'
+b'Formally, let D be the set of numbers of all exhibits that are currently displayed (so initially D = {1, ..., n}). Let P(D) be the set of all subsets of D and let '
+b''
+b'Then, s(m) is defined as '
+b''
+b'Compute s(m) for each . Note that the output follows a special format.'
+b'Input'
+b'The first line of the input contains two space-separated integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the initial number of exhibits in the museum and the maximum interesting mass of stolen exhibits. '
+b'Then, n lines follow. The i-th of them contains two space-separated positive integers vi and wi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the value and mass of the i-th exhibit.'
+b'The next line contains a single integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8930\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of events.'
+b'Each of the next q lines contains the description of one event in the following format:'
+b" 1 v w \xe2\x80\x94 an event of type 1, a new exhibit with value v and mass w has been added (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) 2 x \xe2\x80\x94 an event of type 2, the exhibit with number x has been removed; it's guaranteed that the removed exhibit had been displayed at that time 3 \xe2\x80\x94 an event of type 3, Kleof\xc3\xa1\xc5\xa1 visits the museum and asks his question"
+b'There will be at most 10\xe2\x80\x89000 events of type 1 and at least one event of type 3.'
+b'Output'
+b'As the number of values s(m) can get large, output the answers to events of type 3 in a special format.'
+b'For each event of type 3, consider the values s(m) computed for the question that Kleof\xc3\xa1\xc5\xa1 asked in this event; print one line containing a single number '
+b''
+b'where p\xe2\x80\x89=\xe2\x80\x89107\xe2\x80\x89+\xe2\x80\x8919 and q\xe2\x80\x89=\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x897.'
+b'Print the answers to events of type 3 in the order in which they appear in the input.'
+Tags
+data structures, dp, *2800

@@ -1,0 +1,15 @@
+b'Dreamoon likes coloring cells very much.'
+b"There is a row of nn cells. Initially, all cells are empty (don't contain any color). Cells are numbered from 11 to nn."
+b'You are given an integer mm and mm integers l1,l2,\xe2\x80\xa6,lml1,l2,\xe2\x80\xa6,lm (1\xe2\x89\xa4li\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4n)'
+b'Dreamoon will perform mm operations.'
+b'In ii-th operation, Dreamoon will choose a number pipi from range [1,n\xe2\x88\x92li+1][1,n\xe2\x88\x92li+1] (inclusive) and will paint all cells from pipi to pi+li\xe2\x88\x921pi+li\xe2\x88\x921 (inclusive) in ii-th color. Note that cells may be colored more one than once, in this case, cell will have the color from the latest operation.'
+b'Dreamoon hopes that after these mm operations, all colors will appear at least once and all cells will be colored. Please help Dreamoon to choose pipi in each operation to satisfy all constraints.'
+b'Input'
+b'The first line contains two integers n,mn,m (1\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4m\xe2\x89\xa4n\xe2\x89\xa4100000).'
+b'The second line contains mm integers l1,l2,\xe2\x80\xa6,lml1,l2,\xe2\x80\xa6,lm (1\xe2\x89\xa4li\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4n).'
+b'Output'
+b'If it\'s impossible to perform mm operations to satisfy all constraints, print "\'-1" (without quotes).'
+b'Otherwise, print mm integers p1,p2,\xe2\x80\xa6,pmp1,p2,\xe2\x80\xa6,pm (1\xe2\x89\xa4pi\xe2\x89\xa4n\xe2\x88\x92li+11\xe2\x89\xa4pi\xe2\x89\xa4n\xe2\x88\x92li+1), after these mm operations, all colors should appear at least once and all cells should be colored.'
+b'If there are several possible solutions, you can print any.'
+Tags
+constructive algorithms, greedy, implementation, math, *1800

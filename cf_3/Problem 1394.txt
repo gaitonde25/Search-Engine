@@ -1,0 +1,15 @@
+b'  "You must lift the dam. With a lever. I will give it to you.You must block the canal. With a rock. I will not give the rock to you." '
+b'Danik urgently needs rock and lever! Obviously, the easiest way to get these things is to ask Hermit Lizard for them.'
+b'Hermit Lizard agreed to give Danik the lever. But to get a stone, Danik needs to solve the following task.'
+b'You are given a positive integer nn, and an array aa of positive integers. The task is to calculate the number of such pairs (i,j)(i,j) that i<ji<j and aiai && aj\xe2\x89\xa5ai\xe2\x8a\x95ajaj\xe2\x89\xa5ai\xe2\x8a\x95aj, where && denotes the bitwise AND operation, and \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation.'
+b'Danik has solved this task. But can you solve it?'
+b'Input'
+b'Each test contains multiple test cases.'
+b'The first line contains one positive integer tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410) denoting the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains one positive integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 length of the array.'
+b'The second line contains nn positive integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 elements of the array.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For every test case print one non-negative integer\xc2\xa0\xe2\x80\x94 the answer to the problem.'
+Tags
+bitmasks, math, *1200

@@ -1,0 +1,9 @@
+b'You are working as an analyst in a company working on a new system for big data storage. This system will store nn different objects. Each object should have a unique ID.'
+b'To create the system, you choose the parameters of the system\xc2\xa0\xe2\x80\x94 integers m\xe2\x89\xa51m\xe2\x89\xa51 and b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm. With these parameters an ID of some object in the system is an array of integers [a1,a2,\xe2\x80\xa6,am][a1,a2,\xe2\x80\xa6,am] where 1\xe2\x89\xa4ai\xe2\x89\xa4bi1\xe2\x89\xa4ai\xe2\x89\xa4bi holds for every 1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m.'
+b"Developers say that production costs are proportional to \xe2\x88\x91mi=1bi\xe2\x88\x91i=1mbi. You are asked to choose parameters mm and bibi so that the system will be able to assign unique IDs to nn different objects and production costs are minimized. Note that you don't have to use all available IDs."
+b'Input'
+b'In the only line of input there is one positive integer nn. The length of the decimal representation of nn is no greater than 1.5\xe2\x8b\x851061.5\xe2\x8b\x85106. The integer does not contain leading zeros.'
+b'Output'
+b'Print one number\xc2\xa0\xe2\x80\x94 minimal value of \xe2\x88\x91mi=1bi\xe2\x88\x91i=1mbi.'
+Tags
+fft, math, *3100

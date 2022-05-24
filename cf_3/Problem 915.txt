@@ -1,0 +1,10 @@
+b'You are given an integer nn. You have to apply mm operations to it.'
+b'In a single operation, you must replace every digit dd of the number with the decimal representation of integer d+1d+1. For example, 19121912 becomes 2102321023 after applying the operation once.'
+b'You have to find the length of nn after applying mm operations. Since the answer can be very large, print it modulo 109+7109+7.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The only line of each test case contains two integers nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109) and mm (1\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the initial number and the number of operations. '
+b'Output'
+b'For each test case output the length of the resulting number modulo 109+7109+7.'
+Tags
+dp, matrices, *1600

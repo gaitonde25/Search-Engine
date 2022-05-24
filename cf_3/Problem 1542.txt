@@ -1,0 +1,14 @@
+b'You are given an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, consisting of nn positive integers. '
+b'Initially you are standing at index 11 and have a score equal to a1a1. You can perform two kinds of moves: '
+b"  move right\xc2\xa0\xe2\x80\x94 go from your current index xx to x+1x+1 and add ax+1ax+1 to your score. This move can only be performed if x<nx<n.  move left\xc2\xa0\xe2\x80\x94 go from your current index xx to x\xe2\x88\x921x\xe2\x88\x921 and add ax\xe2\x88\x921ax\xe2\x88\x921 to your score. This move can only be performed if x>1x>1. Also, you can't perform two or more moves to the left in a row. "
+b'You want to perform exactly kk moves. Also, there should be no more than zz moves to the left among them.'
+b'What is the maximum score you can achieve?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'The first line of each testcase contains three integers n,kn,k and zz (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x921, 0\xe2\x89\xa4z\xe2\x89\xa4min(5,k)0\xe2\x89\xa4z\xe2\x89\xa4min(5,k))\xc2\xa0\xe2\x80\x94 the number of elements in the array, the total number of moves you should perform and the maximum number of moves to the left you can perform.'
+b'The second line of each testcase contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41041\xe2\x89\xa4ai\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the given array.'
+b'The sum of nn over all testcases does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'Print tt integers\xc2\xa0\xe2\x80\x94 for each testcase output the maximum score you can achieve if you make exactly kk moves in total, no more than zz of them are to the left and there are no two or more moves to the left in a row.'
+Tags
+brute force, dp, greedy, *1600

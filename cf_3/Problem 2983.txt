@@ -1,0 +1,11 @@
+b'Today at the lesson of mathematics, Petya learns about the digital root.'
+b'The digital root of a non-negative integer is the single digit value obtained by an iterative process of summing digits, on each iteration using the result from the previous iteration to compute a digit sum. The process continues until a single-digit number is reached. '
+b"Let's denote the digital root of xx as S(x)S(x). Then S(5)=5S(5)=5, S(38)=S(3+8=11)=S(1+1=2)=2S(38)=S(3+8=11)=S(1+1=2)=2, S(10)=S(1+0=1)=1S(10)=S(1+0=1)=1."
+b'As a homework Petya got nn tasks of the form: find kk-th positive number whose digital root is xx.'
+b"Petya has already solved all the problems, but he doesn't know if it's right. Your task is to solve all nn tasks from Petya's homework."
+b'Input'
+b"The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41031\xe2\x89\xa4n\xe2\x89\xa4103) \xe2\x80\x94 the number of tasks in Petya's homework. The next nn lines contain two integers kiki (1\xe2\x89\xa4ki\xe2\x89\xa410121\xe2\x89\xa4ki\xe2\x89\xa41012) and xixi (1\xe2\x89\xa4xi\xe2\x89\xa491\xe2\x89\xa4xi\xe2\x89\xa49) \xe2\x80\x94 ii-th Petya's task in which you need to find a kiki-th positive number, the digital root of which is xixi."
+b'Output'
+b'Output nn lines, ii-th line should contain a single integer \xe2\x80\x94 the answer to the ii-th problem.'
+Tags
+math, number theory, *1000

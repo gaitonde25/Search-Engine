@@ -1,0 +1,14 @@
+b'Dmitry has an array of nn non-negative integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b'In one operation, Dmitry can choose any index jj (1\xe2\x89\xa4j\xe2\x89\xa4n1\xe2\x89\xa4j\xe2\x89\xa4n) and increase the value of the element ajaj by 11. He can choose the same index jj multiple times.'
+b'For each ii from 00 to nn, determine whether Dmitry can make the MEXMEX of the array equal to exactly ii. If it is possible, then determine the minimum number of operations to do it.'
+b'The MEXMEX of the array is equal to the minimum non-negative integer that is not in the array. For example, the MEXMEX of the array [3,1,0][3,1,0] is equal to 22, and the array [3,3,1,4][3,3,1,4] is equal to 00.'
+b'Input'
+b'The first line of input data contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases in the input. '
+b'The descriptions of the test cases follow.'
+b'The first line of the description of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the array aa.'
+b'The second line of the description of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4n0\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 elements of the array aa.'
+b'It is guaranteed that the sum of the values nn over all test cases in the test does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output n+1n+1 integer\xc2\xa0\xe2\x80\x94 ii-th number is equal to the minimum number of operations for which you can make the array MEXMEX equal to ii (0\xe2\x89\xa4i\xe2\x89\xa4n0\xe2\x89\xa4i\xe2\x89\xa4n), or -1 if this cannot be done.'
+Tags
+constructive algorithms, data structures, dp, greedy, implementation, math, sortings, *1700

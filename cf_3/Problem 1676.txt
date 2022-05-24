@@ -1,0 +1,15 @@
+b'Given a permutation pp of length nn, find its subsequence s1s1, s2s2, \xe2\x80\xa6\xe2\x80\xa6, sksk of length at least 22 such that:'
+b'  |s1\xe2\x88\x92s2|+|s2\xe2\x88\x92s3|+\xe2\x80\xa6+|sk\xe2\x88\x921\xe2\x88\x92sk||s1\xe2\x88\x92s2|+|s2\xe2\x88\x92s3|+\xe2\x80\xa6+|sk\xe2\x88\x921\xe2\x88\x92sk| is as big as possible over all subsequences of pp with length at least 22.  Among all such subsequences, choose the one whose length, kk, is as small as possible. '
+b'If multiple subsequences satisfy these conditions, you are allowed to find any of them.'
+b'A sequence aa is a subsequence of an array bb if aa can be obtained from bb by deleting some (possibly, zero or all) elements.'
+b'A permutation of length nn is an array of length nn in which every element from 11 to nn occurs exactly once.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of the permutation pp.'
+b'The second line of each test case contains nn integers p1p1, p2p2, \xe2\x80\xa6\xe2\x80\xa6, pnpn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n, pipi are distinct)\xc2\xa0\xe2\x80\x94 the elements of the permutation pp.'
+b"The sum of nn across the test cases doesn't exceed 105105."
+b'Output'
+b'For each test case, the first line should contain the length of the found subsequence, kk. The second line should contain s1s1, s2s2, \xe2\x80\xa6\xe2\x80\xa6, sksk\xc2\xa0\xe2\x80\x94 its elements.'
+b'If multiple subsequences satisfy these conditions, you are allowed to find any of them.'
+Tags
+greedy, two pointers, *1300

@@ -1,0 +1,20 @@
+b'Polycarp has recently created a new level in this cool new game Berlio Maker 85 and uploaded it online. Now players from all over the world can try his level.'
+b'All levels in this game have two stats to them: the number of plays and the number of clears. So when a player attempts the level, the number of plays increases by 11. If he manages to finish the level successfully then the number of clears increases by 11 as well. Note that both of the statistics update at the same time (so if the player finishes the level successfully then the number of plays will increase at the same time as the number of clears).'
+b'Polycarp is very excited about his level, so he keeps peeking at the stats to know how hard his level turns out to be.'
+b'So he peeked at the stats nn times and wrote down nn pairs of integers \xe2\x80\x94 (p1,c1),(p2,c2),\xe2\x80\xa6,(pn,cn)(p1,c1),(p2,c2),\xe2\x80\xa6,(pn,cn), where pipi is the number of plays at the ii-th moment of time and cici is the number of clears at the same moment of time. The stats are given in chronological order (i.e. the order of given pairs is exactly the same as Polycarp has written down).'
+b'Between two consecutive moments of time Polycarp peeked at the stats many players (but possibly zero) could attempt the level.'
+b"Finally, Polycarp wonders if he hasn't messed up any records and all the pairs are correct. If there could exist such a sequence of plays (and clears, respectively) that the stats were exactly as Polycarp has written down, then he considers his records correct."
+b'Help him to check the correctness of his records.'
+b'For your convenience you have to answer multiple independent test cases.'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa4500)(1\xe2\x89\xa4T\xe2\x89\xa4500) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of moments of time Polycarp peeked at the stats.'
+b'Each of the next nn lines contains two integers pipi and cici (0\xe2\x89\xa4pi,ci\xe2\x89\xa410000\xe2\x89\xa4pi,ci\xe2\x89\xa41000) \xe2\x80\x94 the number of plays and the number of clears of the level at the ii-th moment of time.'
+b'Note that the stats are given in chronological order.'
+b'Output'
+b'For each test case print a single line.'
+b'If there could exist such a sequence of plays (and clears, respectively) that the stats were exactly as Polycarp has written down, then print "YES".'
+b'Otherwise, print "NO".'
+b'You can print each letter in any case (upper or lower).'
+Tags
+implementation, math, *1200

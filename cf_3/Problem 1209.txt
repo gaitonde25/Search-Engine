@@ -1,0 +1,9 @@
+b'You are given two positive integer sequences a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an and b1,\xe2\x80\xa6,bmb1,\xe2\x80\xa6,bm. For each j=1,\xe2\x80\xa6,mj=1,\xe2\x80\xa6,m find the greatest common divisor of a1+bj,\xe2\x80\xa6,an+bja1+bj,\xe2\x80\xa6,an+bj.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line contains nn integers a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41018)1\xe2\x89\xa4ai\xe2\x89\xa41018).'
+b'The third line contains mm integers b1,\xe2\x80\xa6,bmb1,\xe2\x80\xa6,bm (1\xe2\x89\xa4bj\xe2\x89\xa41018)1\xe2\x89\xa4bj\xe2\x89\xa41018).'
+b'Output'
+b'Print mm integers. The jj-th of them should be equal to GCD(a1+bj,\xe2\x80\xa6,an+bj)(a1+bj,\xe2\x80\xa6,an+bj).'
+Tags
+math, number theory, *1600

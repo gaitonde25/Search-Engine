@@ -1,0 +1,12 @@
+b'You are given a tree with n nodes (numbered from 1 to n) rooted at node 1. Also, each node has two values associated with it. The values for i-th node are ai and bi.'
+b'You can jump from a node to any node in its subtree. The cost of one jump from node x to node y is the product of ax and by. The total cost of a path formed by one or more jumps is sum of costs of individual jumps. For every node, calculate the minimum total cost to reach any leaf from that node. Pay attention, that root can never be leaf, even if it has degree 1.'
+b'Note that you cannot jump from a node to itself.'
+b'Input'
+b'The first line of input contains an integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of nodes in the tree.'
+b'The second line contains n space-separated integers a1,\xe2\x80\x89\xe2\x80\x89a2,\xe2\x80\x89\xe2\x80\x89...,\xe2\x80\x89\xe2\x80\x89an(\xe2\x80\x89-\xe2\x80\x89105\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89ai\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89105).'
+b'The third line contains n space-separated integers b1,\xe2\x80\x89\xe2\x80\x89b2,\xe2\x80\x89\xe2\x80\x89...,\xe2\x80\x89\xe2\x80\x89bn(\xe2\x80\x89-\xe2\x80\x89105\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89bi\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89105).'
+b'Next n\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x89\xe2\x80\x891 lines contains two space-separated integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89n) describing edge between nodes ui and vi in the tree.'
+b'Output'
+b'Output n space-separated integers, i-th of which denotes the minimum cost of a path from node i to reach any leaf.'
+Tags
+data structures, dp, geometry, *2700

@@ -1,0 +1,11 @@
+b'You are given nn intervals in form [l;r][l;r] on a number line.'
+b'You are also given mm queries in form [x;y][x;y]. What is the minimal number of intervals you have to take so that every point (not necessarily integer) from xx to yy is covered by at least one of them? '
+b"If you can't choose intervals so that every point from xx to yy is covered, then print -1 for that query."
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of intervals and the number of queries, respectively.'
+b'Each of the next nn lines contains two integer numbers lili and riri (0\xe2\x89\xa4li<ri\xe2\x89\xa45\xe2\x8b\x851050\xe2\x89\xa4li<ri\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the given intervals.'
+b'Each of the next mm lines contains two integer numbers xixi and yiyi (0\xe2\x89\xa4xi<yi\xe2\x89\xa45\xe2\x8b\x851050\xe2\x89\xa4xi<yi\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the queries.'
+b'Output'
+b"Print mm integer numbers. The ii-th number should be the answer to the ii-th query: either the minimal number of intervals you have to take so that every point (not necessarily integer) from xixi to yiyi is covered by at least one of them or -1 if you can't choose intervals so that every point from xixi to yiyi is covered."
+Tags
+data structures, dfs and similar, divide and conquer, dp, greedy, implementation, trees, *2200

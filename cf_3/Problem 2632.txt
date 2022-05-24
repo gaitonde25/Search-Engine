@@ -1,0 +1,12 @@
+b"We call a function good if its domain of definition is some set of integers and if in case it's defined in xx and x\xe2\x88\x921x\xe2\x88\x921, f(x)=f(x\xe2\x88\x921)+1f(x)=f(x\xe2\x88\x921)+1 or f(x)=f(x\xe2\x88\x921)f(x)=f(x\xe2\x88\x921)."
+b"Tanya has found nn good functions f1,\xe2\x80\xa6,fnf1,\xe2\x80\xa6,fn, which are defined on all integers from 00 to 10181018 and fi(0)=0fi(0)=0 and fi(1018)=Lfi(1018)=L for all ii from 11 to nn. It's an notorious coincidence that nn is a divisor of LL. "
+b"She suggests Alesya a game. Using one question Alesya can ask Tanya a value of any single function in any single point. To win Alesya must choose integers lili and riri (0\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa410180\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa41018), such that fi(ri)\xe2\x88\x92fi(li)\xe2\x89\xa5Lnfi(ri)\xe2\x88\x92fi(li)\xe2\x89\xa5Ln (here fi(x)fi(x) means the value of ii-th function at point xx) for all ii such that 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n so that for any pair of two functions their segments [li,ri][li,ri] don't intersect (but may have one common point)."
+b"Unfortunately, Tanya doesn't allow to make more than 2\xe2\x8b\x851052\xe2\x8b\x85105 questions. Help Alesya to win!"
+b"It can be proved that it's always possible to choose [li,ri][li,ri] which satisfy the conditions described above."
+b"It's guaranteed, that Tanya doesn't change functions during the game, i.e. interactor is not adaptive"
+b'Input'
+b'The first line contains two integers nn and LL (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000, 1\xe2\x89\xa4L\xe2\x89\xa410181\xe2\x89\xa4L\xe2\x89\xa41018, nn is a divisor of LL) \xc2\xa0\xe2\x80\x94 number of functions and their value in 10181018.'
+b'Output'
+b'When you\'ve found needed li,rili,ri, print "!""!" without quotes on a separate line and then nn lines, ii-th from them should contain two integers lili, riri divided by space.'
+Tags
+divide and conquer, interactive, *3200

@@ -1,0 +1,10 @@
+b'You are given an array of nn positive integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Your task is to calculate the number of arrays of nn positive integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn such that: '
+b'  1\xe2\x89\xa4bi\xe2\x89\xa4ai1\xe2\x89\xa4bi\xe2\x89\xa4ai for every ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n), and  bi\xe2\x89\xa0bi+1bi\xe2\x89\xa0bi+1 for every ii (1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921). '
+b'The number of such arrays can be very large, so print it modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the array aa.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'Print the answer modulo 998244353998244353 in a single line.'
+Tags
+combinatorics, dp, math, *2400

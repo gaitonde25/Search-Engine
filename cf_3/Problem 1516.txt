@@ -1,0 +1,15 @@
+b'Have you ever used the chat application QQ? Well, in a chat group of QQ, administrators can muzzle a user for days.'
+b"In Boboniu's chat group, there's a person called Du Yi who likes to make fun of Boboniu every day."
+b'Du will chat in the group for nn days. On the ii-th day:'
+b"  If Du can speak, he'll make fun of Boboniu with fun factor aiai. But after that, he may be muzzled depending on Boboniu's mood.  Otherwise, Du won't do anything. "
+b"Boboniu's mood is a constant mm. On the ii-th day:"
+b"  If Du can speak and ai>mai>m, then Boboniu will be angry and muzzle him for dd days, which means that Du won't be able to speak on the i+1,i+2,\xe2\x8b\xaf,min(i+d,n)i+1,i+2,\xe2\x8b\xaf,min(i+d,n)-th days.  Otherwise, Boboniu won't do anything. "
+b'The total fun factor is the sum of the fun factors on the days when Du can speak.'
+b'Du asked you to find the maximum total fun factor among all possible permutations of aa.'
+b'Input'
+b'The first line contains three integers nn, dd and mm (1\xe2\x89\xa4d\xe2\x89\xa4n\xe2\x89\xa4105,0\xe2\x89\xa4m\xe2\x89\xa41091\xe2\x89\xa4d\xe2\x89\xa4n\xe2\x89\xa4105,0\xe2\x89\xa4m\xe2\x89\xa4109).'
+b'The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'Print one integer: the maximum total fun factor among all permutations of aa.'
+Tags
+dp, greedy, sortings, two pointers, *1800

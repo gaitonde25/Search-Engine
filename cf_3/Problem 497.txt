@@ -1,0 +1,11 @@
+b'This problem is a complicated version of D1, but it has significant differences, so read the whole statement.'
+b'Polycarp has an array of nn (nn is even) integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Polycarp conceived of a positive integer kk. After that, Polycarp began performing the following operations on the array: take an index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and reduce the number aiai by kk.'
+b'After Polycarp performed some (possibly zero) number of such operations, it turned out that at least half of the numbers in the array became the same. Find the maximum kk at which such a situation is possible, or print \xe2\x88\x921\xe2\x88\x921 if such a number can be arbitrarily large.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case consists of two lines. The first line contains an even integer nn (4\xe2\x89\xa4n\xe2\x89\xa4404\xe2\x89\xa4n\xe2\x89\xa440) (nn is even). The second line contains nn integers a1,a2,\xe2\x80\xa6ana1,a2,\xe2\x80\xa6an (\xe2\x88\x92106\xe2\x89\xa4ai\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4ai\xe2\x89\xa4106).'
+b'It is guaranteed that the sum of all nn specified in the given test cases does not exceed 100100.'
+b'Output'
+b'For each test case output on a separate line an integer kk (k\xe2\x89\xa51k\xe2\x89\xa51) \xe2\x80\x94 the maximum possible number that Polycarp used in operations on the array, or \xe2\x88\x921\xe2\x88\x921, if such a number can be arbitrarily large.'
+Tags
+brute force, math, number theory, *1900

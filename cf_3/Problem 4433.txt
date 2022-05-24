@@ -1,0 +1,10 @@
+b'After some programming contest Roma decided to try himself in tourism. His home country Uzhlyandia is a Cartesian plane. He wants to walk along each of the Main Straight Lines in Uzhlyandia. It is known that each of these lines is a straight line parallel to one of the axes (i.e. it is described with the equation x\xe2\x80\x89=\xe2\x80\x89a or y\xe2\x80\x89=\xe2\x80\x89a, where a is integer called the coordinate of this line).'
+b'Roma lost his own map, so he should find out the coordinates of all lines at first. Uncle Anton agreed to help him, using the following rules: '
+b"  Initially Roma doesn't know the number of vertical and horizontal lines and their coordinates;  Roma can announce integer coordinates of some point in Uzhlandia, and Anton then will tell him the minimum among the distances from the chosen point to each of the lines. However, since the coordinates of the lines don't exceed 108 by absolute value, Roma can't choose a point with coordinates exceeding 108 by absolute value. "
+b'Uncle Anton is in a hurry to the UOI (Uzhlandian Olympiad in Informatics), so he can only answer no more than 3\xc2\xb7105 questions.'
+b"The problem is that Roma doesn't know how to find out the coordinates of the lines. Write a program that plays Roma's role and finds the coordinates."
+b'Input'
+b'There is no input initially. Your program should make queries to get information.'
+b'It is guaranteed that the number of horizontal and vertical lines is at least 1 and less than or equal to 104 for each type.'
+Tags
+constructive algorithms, divide and conquer, interactive, *3000

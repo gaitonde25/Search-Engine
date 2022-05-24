@@ -1,0 +1,9 @@
+b'Vus the Cossack holds a programming competition, in which nn people participate. He decided to award them all with pens and notebooks. It is known that Vus has exactly mm pens and kk notebooks.'
+b'Determine whether the Cossack can reward all participants, giving each of them at least one pen and at least one notebook.'
+b'Input'
+b'The first line contains three integers nn, mm, and kk (1\xe2\x89\xa4n,m,k\xe2\x89\xa41001\xe2\x89\xa4n,m,k\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of participants, the number of pens, and the number of notebooks respectively.'
+b'Output'
+b'Print "Yes" if it possible to reward all the participants. Otherwise, print "No".'
+b'You can print each letter in any case (upper or lower).'
+Tags
+implementation, *800

@@ -1,0 +1,16 @@
+b'Anton is playing a very interesting computer game, but now he is stuck at one of the levels. To pass to the next level he has to prepare n potions.'
+b'Anton has a special kettle, that can prepare one potions in x seconds. Also, he knows spells of two types that can faster the process of preparing potions.'
+b'  Spells of this type speed up the preparation time of one potion. There are m spells of this type, the i-th of them costs bi manapoints and changes the preparation time of each potion to ai instead of x.  Spells of this type immediately prepare some number of potions. There are k such spells, the i-th of them costs di manapoints and instantly create ci potions. '
+b'Anton can use no more than one spell of the first type and no more than one spell of the second type, and the total number of manapoints spent should not exceed s. Consider that all spells are used instantly and right before Anton starts to prepare potions.'
+b'Anton wants to get to the next level as fast as possible, so he is interested in the minimum number of time he needs to spent in order to prepare at least n potions.'
+b'Input'
+b'The first line of the input contains three integers n, m, k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of potions, Anton has to make, the number of spells of the first type and the number of spells of the second type.'
+b'The second line of the input contains two integers x and s (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109)\xc2\xa0\xe2\x80\x94 the initial number of seconds required to prepare one potion and the number of manapoints Anton can use.'
+b'The third line contains m integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89<\xe2\x80\x89x)\xc2\xa0\xe2\x80\x94 the number of seconds it will take to prepare one potion if the i-th spell of the first type is used.'
+b'The fourth line contains m integers bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109)\xc2\xa0\xe2\x80\x94 the number of manapoints to use the i-th spell of the first type.'
+b"There are k integers ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) in the fifth line\xc2\xa0\xe2\x80\x94 the number of potions that will be immediately created if the i-th spell of the second type is used. It's guaranteed that ci are not decreasing, i.e. ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cj if i\xe2\x80\x89<\xe2\x80\x89j."
+b"The sixth line contains k integers di (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109)\xc2\xa0\xe2\x80\x94 the number of manapoints required to use the i-th spell of the second type. It's guaranteed that di are not decreasing, i.e. di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89dj if i\xe2\x80\x89<\xe2\x80\x89j."
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the minimum time one has to spent in order to prepare n potions.'
+Tags
+binary search, dp, greedy, two pointers, *1600

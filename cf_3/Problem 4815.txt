@@ -1,0 +1,11 @@
+b'Peter Parker wants to play a game with Dr. Octopus. The game is about cycles. Cycle is a sequence of vertices, such that first one is connected with the second, second is connected with third and so on, while the last one is connected with the first one again. Cycle may consist of a single isolated vertex.'
+b'Initially there are k cycles, i-th of them consisting of exactly vi vertices. Players play alternatively. Peter goes first. On each turn a player must choose a cycle with at least 2 vertices (for example, x vertices) among all available cycles and replace it by two cycles with p and x\xe2\x80\x89-\xe2\x80\x89p vertices where 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89<\xe2\x80\x89x is chosen by the player. The player who cannot make a move loses the game (and his life!).'
+b'Peter wants to test some configurations of initial cycle sets before he actually plays with Dr. Octopus. Initially he has an empty set. In the i-th test he adds a cycle with ai vertices to the set (this is actually a multiset because it can contain two or more identical cycles). After each test, Peter wants to know that if the players begin the game with the current set of cycles, who wins? '
+b'Peter is pretty good at math, but now he asks you to help.'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of tests Peter is about to make.'
+b'The second line contains n space separated integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), i-th of them stands for the number of vertices in the cycle added before the i-th test.'
+b'Output'
+b'Print the result of all tests in order they are performed. Print 1 if the player who moves first wins or 2 otherwise.'
+Tags
+games, math, *1100

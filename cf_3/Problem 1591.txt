@@ -1,0 +1,12 @@
+b'Vladimir would like to prepare a present for his wife: they have an anniversary! He decided to buy her exactly nn flowers.'
+b'Vladimir went to a flower shop, and he was amazed to see that there are mm types of flowers being sold there, and there is unlimited supply of flowers of each type. Vladimir wants to choose flowers to maximize the happiness of his wife. He knows that after receiving the first flower of the ii-th type happiness of his wife increases by aiai and after receiving each consecutive flower of this type her happiness increases by bibi. That is, if among the chosen flowers there are xi>0xi>0 flowers of type ii, his wife gets ai+(xi\xe2\x88\x921)\xe2\x8b\x85biai+(xi\xe2\x88\x921)\xe2\x8b\x85bi additional happiness (and if there are no flowers of type ii, she gets nothing for this particular type).'
+b'Please help Vladimir to choose exactly nn flowers to maximize the total happiness of his wife.'
+b'Input'
+b'The first line contains the only integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000), the number of test cases. It is followed by tt descriptions of the test cases.'
+b'Each test case description starts with two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109, 1\xe2\x89\xa4m\xe2\x89\xa41000001\xe2\x89\xa4m\xe2\x89\xa4100000), the number of flowers Vladimir needs to choose and the number of types of available flowers.'
+b'The following mm lines describe the types of flowers: each line contains integers aiai and bibi (0\xe2\x89\xa4ai,bi\xe2\x89\xa41090\xe2\x89\xa4ai,bi\xe2\x89\xa4109) for ii-th available type of flowers.'
+b'The test cases are separated by a blank line. It is guaranteed that the sum of values mm among all test cases does not exceed 100000100000.'
+b'Output'
+b"For each test case output a single integer: the maximum total happiness of Vladimir's wife after choosing exactly nn flowers optimally."
+Tags
+binary search, brute force, data structures, dfs and similar, dp, greedy, sortings, two pointers, *2000

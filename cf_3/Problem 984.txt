@@ -1,0 +1,19 @@
+b'You are given a bipartite graph consisting of n1n1 vertices in the first part, n2n2 vertices in the second part, and mm edges, numbered from 11 to mm. You have to color each edge into one of two colors, red and blue. You have to minimize the following value: \xe2\x88\x91v\xe2\x88\x88V|r(v)\xe2\x88\x92b(v)|\xe2\x88\x91v\xe2\x88\x88V|r(v)\xe2\x88\x92b(v)|, where VV is the set of vertices of the graph, r(v)r(v) is the number of red edges incident to vv, and b(v)b(v) is the number of blue edges incident to vv.'
+b'Sounds classical and easy, right? Well, you have to process qq queries of the following format:'
+b"  11 v1v1 v2v2 \xe2\x80\x94 add a new edge connecting the vertex v1v1 of the first part with the vertex v2v2 of the second part. This edge gets a new index as follows: the first added edge gets the index m+1m+1, the second \xe2\x80\x94 m+2m+2, and so on. After adding the edge, you have to print the hash of the current optimal coloring (if there are multiple optimal colorings, print the hash of any of them). Actually, this hash won't be verified, you may print any number as the answer to this query, but you may be asked to produce the coloring having this hash;  22 \xe2\x80\x94 print the optimal coloring of the graph with the same hash you printed while processing the previous query. The query of this type will only be asked after a query of type 11, and there will be at most 1010 queries of this type. If there are multiple optimal colorings corresponding to this hash, print any of them. "
+b'Note that if an edge was red or blue in some coloring, it may change its color in next colorings.'
+b'The hash of the coloring is calculated as follows: let RR be the set of indices of red edges, then the hash is (\xe2\x88\x91i\xe2\x88\x88R2i)mod998244353(\xe2\x88\x91i\xe2\x88\x88R2i)mod998244353.'
+b"Note that you should solve the problem in online mode. It means that you can't read the whole input at once. You can read each query only after writing the answer for the last query. Use functions fflush in C++ and BufferedWriter.flush in Java languages after each writing in your program."
+b'Input'
+b'The first line contains three integers n1n1, n2n2 and mm (1\xe2\x89\xa4n1,n2,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n1,n2,m\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Then mm lines follow, the ii-th of them contains two integers xixi and yiyi (1\xe2\x89\xa4xi\xe2\x89\xa4n11\xe2\x89\xa4xi\xe2\x89\xa4n1; 1\xe2\x89\xa4yi\xe2\x89\xa4n21\xe2\x89\xa4yi\xe2\x89\xa4n2) meaning that the ii-th edge connects the vertex xixi from the first part and the vertex yiyi from the second part.'
+b'The next line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of queries you have to process.'
+b'The next qq lines contain the queries in the format introduced in the statement.'
+b'Additional constraints on the input:'
+b"  at any moment, the graph won't contain any multiple edges;  the queries of type 22 are only asked if the previous query had type 11;  there are at most 1010 queries of type 22. "
+b'Output'
+b'To answer a query of type 11, print one integer\xc2\xa0\xe2\x80\x94 the hash of the optimal coloring.'
+b'To answer a query of type 22, print one line. It should begin with the integer kk\xc2\xa0\xe2\x80\x94 the number of red edges. Then, kk distinct integer should follow\xc2\xa0\xe2\x80\x94 the indices of red edges in your coloring, in any order. Each index should correspond to an existing edge, and the hash of the coloring you produce should be equal to the hash you printed as the answer to the previous query.'
+b'If there are multiple answers to a query, you may print any of them.'
+Tags
+data structures, graphs, interactive, *3100

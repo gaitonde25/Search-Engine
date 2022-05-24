@@ -1,0 +1,15 @@
+b'Moscow is hosting a major international conference, which is attended by n scientists from different countries. Each of the scientists knows exactly one language. For convenience, we enumerate all languages of the world with integers from 1 to 109.'
+b'In the evening after the conference, all n scientists decided to go to the cinema. There are m movies in the cinema they came to. Each of the movies is characterized by two distinct numbers\xc2\xa0\xe2\x80\x94 the index of audio language and the index of subtitles language. The scientist, who came to the movie, will be very pleased if he knows the audio language of the movie, will be almost satisfied if he knows the language of subtitles and will be not satisfied if he does not know neither one nor the other (note that the audio language and the subtitles language for each movie are always different). '
+b'Scientists decided to go together to the same movie. You have to help them choose the movie, such that the number of very pleased scientists is maximum possible. If there are several such movies, select among them one that will maximize the number of almost satisfied scientists.'
+b'Input'
+b'The first line of the input contains a positive integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of scientists.'
+b'The second line contains n positive integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where ai is the index of a language, which the i-th scientist knows.'
+b'The third line contains a positive integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of movies in the cinema. '
+b'The fourth line contains m positive integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bm (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where bj is the index of the audio language of the j-th movie.'
+b'The fifth line contains m positive integers c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cm (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where cj is the index of subtitles language of the j-th movie.'
+b'It is guaranteed that audio languages and subtitles language are different for each movie, that is bj\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89cj. '
+b'Output'
+b'Print the single integer\xc2\xa0\xe2\x80\x94 the index of a movie to which scientists should go. After viewing this movie the number of very pleased scientists should be maximum possible. If in the cinema there are several such movies, you need to choose among them one, after viewing which there will be the maximum possible number of almost satisfied scientists. '
+b'If there are several possible answers print any of them.'
+Tags
+implementation, sortings, *1300

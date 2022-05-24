@@ -1,0 +1,12 @@
+b'You are given a simple weighted connected undirected graph, consisting of nn vertices and mm edges.'
+b'A path in the graph of length kk is a sequence of k+1k+1 vertices v1,v2,\xe2\x80\xa6,vk+1v1,v2,\xe2\x80\xa6,vk+1 such that for each ii (1\xe2\x89\xa4i\xe2\x89\xa4k)(1\xe2\x89\xa4i\xe2\x89\xa4k) the edge (vi,vi+1)(vi,vi+1) is present in the graph. A path from some vertex vv also has vertex v1=vv1=v. Note that edges and vertices are allowed to be included in the path multiple times.'
+b'The weight of the path is the total weight of edges in it.'
+b'For each ii from 11 to qq consider a path from vertex 11 of length ii of the maximum weight. What is the sum of weights of these qq paths?'
+b'Answer can be quite large, so print it modulo 109+7109+7.'
+b'Input'
+b'The first line contains a three integers nn, mm, qq (2\xe2\x89\xa4n\xe2\x89\xa420002\xe2\x89\xa4n\xe2\x89\xa42000; n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa42000n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa42000; m\xe2\x89\xa4q\xe2\x89\xa4109m\xe2\x89\xa4q\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of vertices in the graph, the number of edges in the graph and the number of lengths that should be included in the answer.'
+b'Each of the next mm lines contains a description of an edge: three integers vv, uu, ww (1\xe2\x89\xa4v,u\xe2\x89\xa4n1\xe2\x89\xa4v,u\xe2\x89\xa4n; 1\xe2\x89\xa4w\xe2\x89\xa41061\xe2\x89\xa4w\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 two vertices vv and uu are connected by an undirected edge with weight ww. The graph contains no loops and no multiple edges. It is guaranteed that the given edges form a connected graph.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the sum of the weights of the paths from vertex 11 of maximum weights of lengths 1,2,\xe2\x80\xa6,q1,2,\xe2\x80\xa6,q modulo 109+7109+7.'
+Tags
+binary search, dp, geometry, graphs, *2700

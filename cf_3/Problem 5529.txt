@@ -1,0 +1,10 @@
+b'One day Vasya was sitting on a not so interesting Maths lesson and making an origami from a rectangular a mm \xe2\x80\x89\xc3\x97\xe2\x80\x89 b mm sheet of paper (a\xe2\x80\x89>\xe2\x80\x89b). Usually the first step in making an origami is making a square piece of paper from the rectangular sheet by folding the sheet along the bisector of the right angle, and cutting the excess part.'
+b'  '
+b'After making a paper ship from the square piece, Vasya looked on the remaining (a\xe2\x80\x89-\xe2\x80\x89b) mm \xe2\x80\x89\xc3\x97\xe2\x80\x89 b mm strip of paper. He got the idea to use this strip of paper in the same way to make an origami, and then use the remainder (if it exists) and so on. At the moment when he is left with a square piece of paper, he will make the last ship from it and stop.'
+b'Can you determine how many ships Vasya will make during the lesson?'
+b'Input'
+b'The first line of the input contains two integers a, b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89<\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012) \xe2\x80\x94 the sizes of the original sheet of paper.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the number of ships that Vasya will make.'
+Tags
+implementation, math, *1100

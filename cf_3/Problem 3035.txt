@@ -1,0 +1,20 @@
+b'One Saturday afternoon Egor was playing his favorite RPG game. While discovering new lands and territories, he came across the following sign:'
+b'  '
+b'Egor is a passionate player, but he is an algorithmician as well. That\'s why he instantly spotted four common letters in two words on the sign above\xc2\xa0\xe2\x80\x94 if we permute the letters "R", "E", "G", "O" from the first word, we can obtain the letters "O", "G", "R", "E". Egor got inspired by the sign and right away he came up with a problem about permutations.'
+b'You are given a permutation of length nn. You have to split it into some non-empty subsequences so that each element of the permutation belongs to exactly one subsequence. Each subsequence must be monotonic\xc2\xa0\xe2\x80\x94 that is, either increasing or decreasing.'
+b'Sequence is called to be a subsequence if it can be derived from permutation by deleting some (possibly none) elements without changing the order of the remaining elements.'
+b'The number of subsequences should be small enough\xc2\xa0\xe2\x80\x94 let f(n)f(n) be the minimum integer kk such that every permutation of length nn can be partitioned into at most kk monotonic subsequences.'
+b'You need to split the permutation into at most f(n)f(n) monotonic subsequences.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases.'
+b'You can only use t=1t=1 in hacks.'
+b'Next, descriptions of tt test cases come, each of them in the following format.'
+b'The first line of a single test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the length of the permutation. The second line contains nn distinct integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) \xe2\x80\x94 the permutation itself.'
+b"The sum of the values of nn over all test cases doesn't exceed 105105."
+b'Output'
+b'For each test case print the answer in the following format:'
+b'In the first line print kk (1\xe2\x89\xa4k\xe2\x89\xa4f(n)1\xe2\x89\xa4k\xe2\x89\xa4f(n)) \xe2\x80\x94 the number of the subsequences in the partition. In the next kk lines, print the descriptions of found subsequences. Each description should start with a number lili (1\xe2\x89\xa4li\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4n) \xe2\x80\x94 the length of the corresponding subsequence, followed by lili integers \xe2\x80\x94 the values of this subsequence in the order in which they occur in the permutation.'
+b'Each subsequence you output must be either increasing or decreasing. '
+b'In case there are multiple possible answers, print any of them.'
+Tags
+constructive algorithms, greedy, *3400

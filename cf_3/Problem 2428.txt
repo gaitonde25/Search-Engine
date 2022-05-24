@@ -1,0 +1,15 @@
+b'Authors have come up with the string ss consisting of nn lowercase Latin letters.'
+b'You are given two permutations of its indices (not necessary equal) pp and qq (both of length nn). Recall that the permutation is the array of length nn which contains each integer from 11 to nn exactly once.'
+b'For all ii from 11 to n\xe2\x88\x921n\xe2\x88\x921 the following properties hold: s[pi]\xe2\x89\xa4s[pi+1]s[pi]\xe2\x89\xa4s[pi+1] and s[qi]\xe2\x89\xa4s[qi+1]s[qi]\xe2\x89\xa4s[qi+1]. It means that if you will write down all characters of ss in order of permutation indices, the resulting string will be sorted in the non-decreasing order.'
+b'Your task is to restore any such string ss of length nn consisting of at least kk distinct lowercase Latin letters which suits the given permutations.'
+b'If there are multiple answers, you can print any of them.'
+b'Input'
+b'The first line of the input contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4k\xe2\x89\xa4261\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4k\xe2\x89\xa426) \xe2\x80\x94 the length of the string and the number of distinct characters required.'
+b'The second line of the input contains nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n, all pipi are distinct integers from 11 to nn) \xe2\x80\x94 the permutation pp.'
+b'The third line of the input contains nn integers q1,q2,\xe2\x80\xa6,qnq1,q2,\xe2\x80\xa6,qn (1\xe2\x89\xa4qi\xe2\x89\xa4n1\xe2\x89\xa4qi\xe2\x89\xa4n, all qiqi are distinct integers from 11 to nn) \xe2\x80\x94 the permutation qq.'
+b'Output'
+b'If it is impossible to find the suitable string, print "NO" on the first line.'
+b'Otherwise print "YES" on the first line and string ss on the second line. It should consist of nn lowercase Latin letters, contain at least kk distinct characters and suit the given permutations.'
+b'If there are multiple answers, you can print any of them.'
+Tags
+data structures, dfs and similar, dsu, graphs, greedy, implementation, strings, *2100

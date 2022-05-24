@@ -1,0 +1,13 @@
+b'This is a simplified version of the problem B2. Perhaps you should read the problem B2 before you start solving B1.'
+b"Paul and Mary have a favorite string ss which consists of lowercase letters of the Latin alphabet. They want to paint it using pieces of chalk of two colors: red and green. Let's call a coloring of a string wonderful if the following conditions are met:"
+b"  each letter of the string is either painted in exactly one color (red or green) or isn't painted;  each two letters which are painted in the same color are different;  the number of letters painted in red is equal to the number of letters painted in green;  the number of painted letters of this coloring is maximum among all colorings of the string which meet the first three conditions. "
+b'E.\xe2\x80\x89g. consider a string ss equal to "kzaaa". One of the wonderful colorings of the string is shown in the figure.'
+b'  The example of a wonderful coloring of the string "kzaaa". '
+b'Paul and Mary want to learn by themselves how to find a wonderful coloring of the string. But they are very young, so they need a hint. Help them find kk \xe2\x80\x94 the number of red (or green, these numbers are equal) letters in a wonderful coloring.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b"Each test case consists of one non-empty string ss which consists of lowercase letters of the Latin alphabet. The number of characters in the string doesn't exceed 5050."
+b'Output'
+b'For each test case, output a separate line containing one non-negative integer kk \xe2\x80\x94 the number of letters which will be painted in red in a wonderful coloring.'
+Tags
+greedy, strings, *800

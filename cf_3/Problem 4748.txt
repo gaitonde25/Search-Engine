@@ -1,0 +1,11 @@
+b'Borya has recently found a big electronic display. The computer that manages the display stores some integer number. The number has n decimal digits, the display shows the encoded version of the number, where each digit is shown using some lowercase letter of the English alphabet.'
+b'There is a legend near the display, that describes how the number is encoded. For each digit position i and each digit j the character c is known, that encodes this digit at this position. Different digits can have the same code characters.'
+b'Each second the number is increased by 1. And one second after a moment when the number reaches the value that is represented as n 9-s in decimal notation, the loud beep sounds. '
+b'Andrew knows the number that is stored in the computer. Now he wants to know how many seconds must pass until Borya can definitely tell what was the original number encoded by the display. Assume that Borya can precisely measure time, and that the encoded number will first be increased exactly one second after Borya started watching at the display.'
+b'Input'
+b'Input data contains multiple test cases. The first line of input contains t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the number of test cases. '
+b'Each test case is described as follows. The first line of the description contains n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8918)\xc2\xa0\xe2\x80\x94 the number of digits in the number. The second line contains n decimal digits without spaces (but possibly with leading zeroes)\xc2\xa0\xe2\x80\x94 the number initially stored in the display computer. The following n lines contain 10 characters each. The j-th character of the i-th of these lines is the code character for a digit j\xe2\x80\x89-\xe2\x80\x891 in position i, most significant digit positions are described first.'
+b'Output'
+b'For each test case print an integer: the number of seconds until Borya definitely knows what was the initial number stored on the display of the computer. Do not print leading zeroes.'
+Tags
+implementation, *3100

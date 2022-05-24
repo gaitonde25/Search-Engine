@@ -1,0 +1,16 @@
+b"Let's call two strings ss and tt anagrams of each other if it is possible to rearrange symbols in the string ss to get a string, equal to tt."
+b"Let's consider two strings ss and tt which are anagrams of each other. We say that tt is a reducible anagram of ss if there exists an integer k\xe2\x89\xa52k\xe2\x89\xa52 and 2k2k non-empty strings s1,t1,s2,t2,\xe2\x80\xa6,sk,tks1,t1,s2,t2,\xe2\x80\xa6,sk,tk that satisfy the following conditions:"
+b'  If we write the strings s1,s2,\xe2\x80\xa6,sks1,s2,\xe2\x80\xa6,sk in order, the resulting string will be equal to ss;  If we write the strings t1,t2,\xe2\x80\xa6,tkt1,t2,\xe2\x80\xa6,tk in order, the resulting string will be equal to tt;  For all integers ii between 11 and kk inclusive, sisi and titi are anagrams of each other. '
+b"If such strings don't exist, then tt is said to be an irreducible anagram of ss. Note that these notions are only defined when ss and tt are anagrams of each other."
+b'For example, consider the string s=s= "gamegame". Then the string t=t= "megamage" is a reducible anagram of ss, we may choose for example s1=s1= "game", s2=s2= "gam", s3=s3= "e" and t1=t1= "mega", t2=t2= "mag", t3=t3= "e":'
+b'  '
+b'On the other hand, we can prove that t=t= "memegaga" is an irreducible anagram of ss.'
+b'You will be given a string ss and qq queries, represented by two integers 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s| (where |s||s| is equal to the length of the string ss). For each query, you should find if the substring of ss formed by characters from the ll-th to the rr-th has at least one irreducible anagram.'
+b'Input'
+b'The first line contains a string ss, consisting of lowercase English characters (1\xe2\x89\xa4|s|\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4|s|\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Each of the following qq lines contain two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|), representing a query for the substring of ss formed by characters from the ll-th to the rr-th.'
+b'Output'
+b'For each query, print a single line containing "Yes" (without quotes) if the corresponding substring has at least one irreducible anagram, and a single line containing "No" (without quotes) otherwise.'
+Tags
+binary search, constructive algorithms, data structures, strings, two pointers, *1800

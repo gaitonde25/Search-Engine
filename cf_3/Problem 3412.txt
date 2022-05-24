@@ -1,0 +1,11 @@
+b'As you know, majority of students and teachers of Summer Informatics School live in Berland for the most part of the year. Since corruption there is quite widespread, the following story is not uncommon.'
+b'Elections are coming. You know the number of voters and the number of parties\xc2\xa0\xe2\x80\x94 nn and mm respectively. For each voter you know the party he is going to vote for. However, he can easily change his vote given a certain amount of money. In particular, if you give ii-th voter cici bytecoins you can ask him to vote for any other party you choose.'
+b'The United Party of Berland has decided to perform a statistical study\xc2\xa0\xe2\x80\x94 you need to calculate the minimum number of bytecoins the Party needs to spend to ensure its victory. In order for a party to win the elections, it needs to receive strictly more votes than any other party.'
+b'Input'
+b'The first line of input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa430001\xe2\x89\xa4n,m\xe2\x89\xa43000)\xc2\xa0\xe2\x80\x94 the number of voters and the number of parties respectively.'
+b"Each of the following nn lines contains two integers pipi and cici (1\xe2\x89\xa4pi\xe2\x89\xa4m1\xe2\x89\xa4pi\xe2\x89\xa4m, 1\xe2\x89\xa4ci\xe2\x89\xa41091\xe2\x89\xa4ci\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the index of this voter's preferred party and the number of bytecoins needed for him to reconsider his decision."
+b'The United Party of Berland has the index 11.'
+b'Output'
+b'Print a single number\xc2\xa0\xe2\x80\x94 the minimum number of bytecoins needed for The United Party of Berland to win the elections.'
+Tags
+brute force, greedy, *1700

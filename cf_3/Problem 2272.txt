@@ -1,0 +1,15 @@
+b'You are planning to buy an apartment in a nn-floor building. The floors are numbered from 11 to nn from the bottom to the top. At first for each floor you want to know the minimum total time to reach it from the first (the bottom) floor.'
+b'Let:'
+b'  aiai for all ii from 11 to n\xe2\x88\x921n\xe2\x88\x921 be the time required to go from the ii-th floor to the (i+1)(i+1)-th one (and from the (i+1)(i+1)-th to the ii-th as well) using the stairs;  bibi for all ii from 11 to n\xe2\x88\x921n\xe2\x88\x921 be the time required to go from the ii-th floor to the (i+1)(i+1)-th one (and from the (i+1)(i+1)-th to the ii-th as well) using the elevator, also there is a value cc \xe2\x80\x94 time overhead for elevator usage (you need to wait for it, the elevator doors are too slow!). '
+b'In one move, you can go from the floor you are staying at xx to any floor yy (x\xe2\x89\xa0yx\xe2\x89\xa0y) in two different ways:'
+b'  If you are using the stairs, just sum up the corresponding values of aiai. Formally, it will take \xe2\x88\x91i=min(x,y)max(x,y)\xe2\x88\x921ai\xe2\x88\x91i=min(x,y)max(x,y)\xe2\x88\x921ai time units.  If you are using the elevator, just sum up cc and the corresponding values of bibi. Formally, it will take c+\xe2\x88\x91i=min(x,y)max(x,y)\xe2\x88\x921bic+\xe2\x88\x91i=min(x,y)max(x,y)\xe2\x88\x921bi time units. '
+b'You can perform as many moves as you want (possibly zero).'
+b'So your task is for each ii to determine the minimum total time it takes to reach the ii-th floor from the 11-st (bottom) floor.'
+b'Input'
+b'The first line of the input contains two integers nn and cc (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4c\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4c\xe2\x89\xa41000) \xe2\x80\x94 the number of floors in the building and the time overhead for the elevator rides.'
+b'The second line of the input contains n\xe2\x88\x921n\xe2\x88\x921 integers a1,a2,\xe2\x80\xa6,an\xe2\x88\x921a1,a2,\xe2\x80\xa6,an\xe2\x88\x921 (1\xe2\x89\xa4ai\xe2\x89\xa410001\xe2\x89\xa4ai\xe2\x89\xa41000), where aiai is the time required to go from the ii-th floor to the (i+1)(i+1)-th one (and from the (i+1)(i+1)-th to the ii-th as well) using the stairs.'
+b'The third line of the input contains n\xe2\x88\x921n\xe2\x88\x921 integers b1,b2,\xe2\x80\xa6,bn\xe2\x88\x921b1,b2,\xe2\x80\xa6,bn\xe2\x88\x921 (1\xe2\x89\xa4bi\xe2\x89\xa410001\xe2\x89\xa4bi\xe2\x89\xa41000), where bibi is the time required to go from the ii-th floor to the (i+1)(i+1)-th one (and from the (i+1)(i+1)-th to the ii-th as well) using the elevator.'
+b'Output'
+b'Print nn integers t1,t2,\xe2\x80\xa6,tnt1,t2,\xe2\x80\xa6,tn, where titi is the minimum total time to reach the ii-th floor from the first floor if you can perform as many moves as you want.'
+Tags
+dp, shortest paths, *1700

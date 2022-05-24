@@ -1,0 +1,16 @@
+b'As you might remember from our previous rounds, Vova really likes computer games. Now he is playing a strategy game known as Rage of Empires.'
+b'In the game Vova can hire n different warriors; ith warrior has the type ai. Vova wants to create a balanced army hiring some subset of warriors. An army is called balanced if for each type of warrior present in the game there are not more than k warriors of this type in the army. Of course, Vova wants his army to be as large as possible.'
+b'To make things more complicated, Vova has to consider q different plans of creating his army. ith plan allows him to hire only warriors whose numbers are not less than li and not greater than ri.'
+b'Help Vova to determine the largest size of a balanced army for each plan.'
+b'Be aware that the plans are given in a modified way. See input section for details.'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000).'
+b'The second line contains n integers a1, a2, ... an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000).'
+b'The third line contains one integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000).'
+b'Then q lines follow. ith line contains two numbers xi and yi which represent ith plan (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b"You have to keep track of the answer to the last plan (let's call it last). In the beginning last\xe2\x80\x89=\xe2\x80\x890. Then to restore values of li and ri for the ith plan, you have to do the following:"
+b'  li\xe2\x80\x89=\xe2\x80\x89((xi\xe2\x80\x89+\xe2\x80\x89last)\xc2\xa0mod\xc2\xa0n)\xe2\x80\x89+\xe2\x80\x891;  ri\xe2\x80\x89=\xe2\x80\x89((yi\xe2\x80\x89+\xe2\x80\x89last)\xc2\xa0mod\xc2\xa0n)\xe2\x80\x89+\xe2\x80\x891;  If li\xe2\x80\x89>\xe2\x80\x89ri, swap li and ri. '
+b'Output'
+b'Print q numbers. ith number must be equal to the maximum size of a balanced army when considering ith plan.'
+Tags
+binary search, data structures, *2200

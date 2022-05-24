@@ -1,0 +1,13 @@
+b'Nikita and Sasha play a computer game where you have to breed some magical creatures. Initially, they have k creatures numbered from 1 to k. Creatures have n different characteristics.'
+b'Sasha has a spell that allows to create a new creature from two given creatures. Each of its characteristics will be equal to the maximum of the corresponding characteristics of used creatures. Nikita has a similar spell, but in his spell, each characteristic of the new creature is equal to the minimum of the corresponding characteristics of used creatures. A new creature gets the smallest unused number.'
+b'They use their spells and are interested in some characteristics of their new creatures. Help them find out these characteristics.'
+b'Input'
+b'The first line contains integers n, k and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8912, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 number of characteristics, creatures and queries.'
+b'Next k lines describe original creatures. The line i contains n numbers ai1,\xe2\x80\x89ai2,\xe2\x80\x89...,\xe2\x80\x89ain (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89aij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 characteristics of the i-th creature.'
+b'Each of the next q lines contains a query. The i-th of these lines contains numbers ti, xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893). They denote a query: '
+b'  ti\xe2\x80\x89=\xe2\x80\x891 means that Sasha used his spell to the creatures xi and yi.  ti\xe2\x80\x89=\xe2\x80\x892 means that Nikita used his spell to the creatures xi and yi.  ti\xe2\x80\x89=\xe2\x80\x893 means that they want to know the yi-th characteristic of the xi-th creature. In this case 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n. '
+b"It's guaranteed that all creatures' numbers are valid, that means that they are created before any of the queries involving them."
+b'Output'
+b'For each query with ti\xe2\x80\x89=\xe2\x80\x893 output the corresponding characteristic.'
+Tags
+bitmasks, *2900

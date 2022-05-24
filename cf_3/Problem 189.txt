@@ -1,0 +1,11 @@
+b'Not so long ago, Vlad came up with an interesting function:'
+b' fa(x)=\xe2\x8c\x8axa\xe2\x8c\x8b+xmodafa(x)=\xe2\x8c\x8axa\xe2\x8c\x8b+xmoda, where \xe2\x8c\x8axa\xe2\x8c\x8b\xe2\x8c\x8axa\xe2\x8c\x8b is xaxa, rounded down, xmodaxmoda \xe2\x80\x94 the remainder of the integer division of xx by aa.'
+b'For example, with a=3a=3 and x=11x=11, the value f3(11)=\xe2\x8c\x8a113\xe2\x8c\x8b+11mod3=3+2=5f3(11)=\xe2\x8c\x8a113\xe2\x8c\x8b+11mod3=3+2=5.'
+b'The number aa is fixed and known to Vlad. Help Vlad find the maximum value of fa(x)fa(x) if xx can take any integer value from ll to rr inclusive (l\xe2\x89\xa4x\xe2\x89\xa4rl\xe2\x89\xa4x\xe2\x89\xa4r).'
+b'Input'
+b'The first line of input data contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of input test cases.'
+b'This is followed by tt lines, each of which contains three integers lili, riri and aiai (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4109,1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4109,1\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the left and right boundaries of the segment and the fixed value of aa.'
+b'Output'
+b'For each test case, output one number on a separate line\xc2\xa0\xe2\x80\x94 the maximum value of the function on a given segment for a given aa.'
+Tags
+math, *900

@@ -1,0 +1,18 @@
+b'Nastia has 22 positive integers AA and BB. She defines that:'
+b'  The integer is good if it is divisible by A\xe2\x8b\x85BA\xe2\x8b\x85B;  Otherwise, the integer is nearly good, if it is divisible by AA. '
+b'For example, if A=6A=6 and B=4B=4, the integers 2424 and 7272 are good, the integers 66, 660660 and 1212 are nearly good, the integers 1616, 77 are neither good nor nearly good.'
+b'Find 33 different positive integers xx, yy, and zz such that exactly one of them is good and the other 22 are nearly good, and x+y=zx+y=z.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers AA and BB (1\xe2\x89\xa4A\xe2\x89\xa41061\xe2\x89\xa4A\xe2\x89\xa4106, 1\xe2\x89\xa4B\xe2\x89\xa41061\xe2\x89\xa4B\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 numbers that Nastia has.'
+b'Output'
+b'For each test case print: '
+b'  "YES" and 33 different positive integers xx, yy, and zz (1\xe2\x89\xa4x,y,z\xe2\x89\xa410181\xe2\x89\xa4x,y,z\xe2\x89\xa41018) such that exactly one of them is good and the other 22 are nearly good, and x+y=zx+y=z.  "NO" if no answer exists. '
+b' You can print each character of "'
+b'YES'
+b'" or "'
+b'NO'
+b'" in any case.'
+b'If there are multiple answers, print any.'
+Tags
+constructive algorithms, math, number theory, *1000

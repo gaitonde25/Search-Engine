@@ -1,0 +1,12 @@
+b'You are given a list of nn integers. You can perform the following operation: you choose an element xx from the list, erase xx from the list, and subtract the value of xx from all the remaining elements. Thus, in one operation, the length of the list is decreased by exactly 11.'
+b'Given an integer kk (k>0k>0), find if there is some sequence of n\xe2\x88\x921n\xe2\x88\x921 operations such that, after applying the operations, the only remaining element of the list is equal to kk.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109), the number of integers in the list, and the target value, respectively.'
+b'The second line of each test case contains the nn integers of the list a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of nn over all test cases is not greater that 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print YES if you can achieve kk with a sequence of n\xe2\x88\x921n\xe2\x88\x921 operations. Otherwise, print NO.'
+b'You may print each letter in any case (for example, "YES", "Yes", "yes", "yEs" will all be recognized as a positive answer).'
+Tags
+data structures, greedy, math, two pointers, *1100

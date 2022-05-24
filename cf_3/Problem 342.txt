@@ -1,0 +1,11 @@
+b'You had nn positive integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an arranged in a circle. For each pair of neighboring numbers (a1a1 and a2a2, a2a2 and a3a3, ..., an\xe2\x88\x921an\xe2\x88\x921 and anan, and anan and a1a1), you wrote down: are the numbers in the pair equal or not.'
+b"Unfortunately, you've lost a piece of paper with the array aa. Moreover, you are afraid that even information about equality of neighboring elements may be inconsistent. So, you are wondering: is there any array aa which is consistent with information you have about equality or non-equality of corresponding pairs?"
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Next tt cases follow.'
+b'The first and only line of each test case contains a non-empty string ss consisting of characters E and/or N. The length of ss is equal to the size of array nn and 2\xe2\x89\xa4n\xe2\x89\xa4502\xe2\x89\xa4n\xe2\x89\xa450. For each ii from 11 to nn: '
+b'  if si=si= E then aiai is equal to ai+1ai+1 (an=a1an=a1 for i=ni=n);  if si=si= N then aiai is not equal to ai+1ai+1 (an\xe2\x89\xa0a1an\xe2\x89\xa0a1 for i=ni=n). '
+b'Output'
+b"For each test case, print YES if it's possible to choose array aa that are consistent with information from ss you know. Otherwise, print NO."
+b'It can be proved, that if there exists some array aa, then there exists an array aa of positive integers with values less or equal to 109109.'
+Tags
+constructive algorithms, dsu, implementation, *800

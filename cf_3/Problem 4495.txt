@@ -1,0 +1,13 @@
+b'Stepan is a very experienced olympiad participant. He has n cups for Physics olympiads and m cups for Informatics olympiads. Each cup is characterized by two parameters \xe2\x80\x94 its significance ci and width wi.'
+b'Stepan decided to expose some of his cups on a shelf with width d in such a way, that:'
+b'  there is at least one Physics cup and at least one Informatics cup on the shelf,  the total width of the exposed cups does not exceed d,  from each subjects (Physics and Informatics) some of the most significant cups are exposed (i. e. if a cup for some subject with significance x is exposed, then all the cups for this subject with significance greater than x must be exposed too). '
+b'Your task is to determine the maximum possible total significance, which Stepan can get when he exposes cups on the shelf with width d, considering all the rules described above. The total significance is the sum of significances of all the exposed cups.'
+b'Input'
+b'The first line contains three integers n, m and d (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89d\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the number of cups for Physics olympiads, the number of cups for Informatics olympiads and the width of the shelf.'
+b'Each of the following n lines contains two integers ci and wi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci,\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 significance and width of the i-th cup for Physics olympiads.'
+b'Each of the following m lines contains two integers cj and wj (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cj,\xe2\x80\x89wj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 significance and width of the j-th cup for Informatics olympiads.'
+b'Output'
+b'Print the maximum possible total significance, which Stepan can get exposing cups on the shelf with width d, considering all the rules described in the statement.'
+b'If there is no way to expose cups on the shelf, then print 0.'
+Tags
+*special problem, binary search, data structures, two pointers, *2100

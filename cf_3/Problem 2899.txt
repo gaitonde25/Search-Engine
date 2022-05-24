@@ -1,0 +1,12 @@
+b'Suppose you are given a string ss of length nn consisting of lowercase English letters. You need to compress it using the smallest possible number of coins.'
+b'To compress the string, you have to represent ss as a concatenation of several non-empty strings: s=t1t2\xe2\x80\xa6tks=t1t2\xe2\x80\xa6tk. The ii-th of these strings should be encoded with one of the two ways:'
+b'  if |ti|=1|ti|=1, meaning that the current string consists of a single character, you can encode it paying aa coins;  if titi is a substring of t1t2\xe2\x80\xa6ti\xe2\x88\x921t1t2\xe2\x80\xa6ti\xe2\x88\x921, then you can encode it paying bb coins. '
+b'A string xx is a substring of a string yy if xx can be obtained from yy by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.'
+b'So your task is to calculate the minimum possible number of coins you need to spend in order to compress the given string ss.'
+b'Input'
+b'The first line contains three positive integers, separated by spaces: nn, aa and bb (1\xe2\x89\xa4n,a,b\xe2\x89\xa450001\xe2\x89\xa4n,a,b\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 the length of the string, the cost to compress a one-character string and the cost to compress a string that appeared before.'
+b'The second line contains a single string ss, consisting of nn lowercase English letters.'
+b'Output'
+b'Output a single integer \xe2\x80\x94 the smallest possible number of coins you need to spend to compress ss.'
+Tags
+dp, strings, *2100

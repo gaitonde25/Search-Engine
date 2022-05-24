@@ -1,0 +1,12 @@
+b'Konrad is a Human Relations consultant working for VoltModder, a large electrical equipment producer. Today, he has been tasked with evaluating the level of happiness in the company.'
+b'There are nn people working for VoltModder, numbered from 11 to nn. Each employee earns a different amount of money in the company \xe2\x80\x94 initially, the ii-th person earns ii rubles per day.'
+b'On each of qq following days, the salaries will be revised. At the end of the ii-th day, employee vivi will start earning n+in+i rubles per day and will become the best-paid person in the company. The employee will keep his new salary until it gets revised again.'
+b"Some pairs of people don't like each other. This creates a great psychological danger in the company. Formally, if two people aa and bb dislike each other and aa earns more money than bb, employee aa will brag about this to bb. A dangerous triple is a triple of three employees aa, bb and cc, such that aa brags to bb, who in turn brags to cc. If aa dislikes bb, then bb dislikes aa."
+b'At the beginning of each day, Konrad needs to evaluate the number of dangerous triples in the company. Can you help him do it?'
+b'Input'
+b"The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000, 0\xe2\x89\xa4m\xe2\x89\xa41000000\xe2\x89\xa4m\xe2\x89\xa4100000) \xe2\x80\x94 the number of employees in the company and the number of pairs of people who don't like each other. Each of the following mm lines contains two integers aiai, bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n, ai\xe2\x89\xa0biai\xe2\x89\xa0bi) denoting that employees aiai and bibi hate each other (that is, aiai dislikes bibi and bibi dislikes aiai). Each such relationship will be mentioned exactly once."
+b'The next line contains an integer qq (0\xe2\x89\xa4q\xe2\x89\xa41000000\xe2\x89\xa4q\xe2\x89\xa4100000) \xe2\x80\x94 the number of salary revisions. The ii-th of the following qq lines contains a single integer vivi (1\xe2\x89\xa4vi\xe2\x89\xa4n1\xe2\x89\xa4vi\xe2\x89\xa4n) denoting that at the end of the ii-th day, employee vivi will earn the most.'
+b'Output'
+b'Output q+1q+1 integers. The ii-th of them should contain the number of dangerous triples in the company at the beginning of the ii-th day.'
+Tags
+graphs, *2400

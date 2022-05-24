@@ -1,0 +1,14 @@
+b'Long ago, you thought of two finite arithmetic progressions AA and BB. Then you found out another sequence CC containing all elements common to both AA and BB. It is not hard to see that CC is also a finite arithmetic progression. After many years, you forgot what AA was but remember BB and CC. You are, for some reason, determined to find this lost arithmetic progression. Before you begin this eternal search, you want to know how many different finite arithmetic progressions exist which can be your lost progression AA. '
+b'Two arithmetic progressions are considered different if they differ in their first term, common difference or number of terms.'
+b"It may be possible that there are infinitely many such progressions, in which case you won't even try to look for them! Print \xe2\x88\x921\xe2\x88\x921 in all such cases. "
+b'Even if there are finite number of them, the answer might be very large. So, you are only interested to find the answer modulo 109+7109+7.'
+b'Input'
+b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) denoting the number of testcases.'
+b'The first line of each testcase contains three integers bb, qq and yy (\xe2\x88\x92109\xe2\x89\xa4b\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4b\xe2\x89\xa4109, 1\xe2\x89\xa4q\xe2\x89\xa41091\xe2\x89\xa4q\xe2\x89\xa4109, 2\xe2\x89\xa4y\xe2\x89\xa41092\xe2\x89\xa4y\xe2\x89\xa4109) denoting the first term, common difference and number of terms of BB respectively.'
+b'The second line of each testcase contains three integers cc, rr and zz (\xe2\x88\x92109\xe2\x89\xa4c\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4c\xe2\x89\xa4109, 1\xe2\x89\xa4r\xe2\x89\xa41091\xe2\x89\xa4r\xe2\x89\xa4109, 2\xe2\x89\xa4z\xe2\x89\xa41092\xe2\x89\xa4z\xe2\x89\xa4109) denoting the first term, common difference and number of terms of CC respectively.'
+b'Output'
+b'For each testcase, print a single line containing a single integer.'
+b'If there are infinitely many finite arithmetic progressions which could be your lost progression AA, print \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print the number of finite arithmetic progressions which could be your lost progression AA modulo 109+7109+7. In particular, if there are no such finite arithmetic progressions, print 00.'
+Tags
+combinatorics, math, number theory, *1900

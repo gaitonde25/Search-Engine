@@ -1,0 +1,11 @@
+b'Given two integers nn and xx, construct an array that satisfies the following conditions: '
+b'  for any element aiai in the array, 1\xe2\x89\xa4ai<2n1\xe2\x89\xa4ai<2n;  there is no non-empty subsegment with bitwise XOR equal to 00 or xx,  its length ll should be maximized. '
+b'A sequence bb is a subsegment of a sequence aa if bb can be obtained from aa by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b'Input'
+b'The only line contains two integers nn and xx (1\xe2\x89\xa4n\xe2\x89\xa4181\xe2\x89\xa4n\xe2\x89\xa418, 1\xe2\x89\xa4x<2181\xe2\x89\xa4x<218).'
+b'Output'
+b'The first line should contain the length of the array ll.'
+b'If ll is positive, the second line should contain ll space-separated integers a1a1, a2a2, \xe2\x80\xa6\xe2\x80\xa6, alal (1\xe2\x89\xa4ai<2n1\xe2\x89\xa4ai<2n)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'If there are multiple solutions, print any of them.'
+Tags
+bitmasks, constructive algorithms, *1900

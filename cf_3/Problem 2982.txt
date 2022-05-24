@@ -1,0 +1,15 @@
+b"You are playing a new famous fighting game: Kortal Mombat XII. You have to perform a brutality on your opponent's character."
+b"You are playing the game on the new generation console so your gamepad have 2626 buttons. Each button has a single lowercase Latin letter from 'a' to 'z' written on it. All the letters on buttons are pairwise distinct."
+b"You are given a sequence of hits, the ii-th hit deals aiai units of damage to the opponent's character. To perform the ii-th hit you have to press the button sisi on your gamepad. Hits are numbered from 11 to nn."
+b"You know that if you press some button more than kk times in a row then it'll break. You cherish your gamepad and don't want to break any of its buttons."
+b"To perform a brutality you have to land some of the hits of the given sequence. You are allowed to skip any of them, however changing the initial order of the sequence is prohibited. The total damage dealt is the sum of aiai over all ii for the hits which weren't skipped."
+b"Note that if you skip the hit then the counter of consecutive presses the button won't reset."
+b"Your task is to skip some hits to deal the maximum possible total damage to the opponent's character and not break your gamepad buttons."
+b'Input'
+b'The first line of the input contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of hits and the maximum number of times you can push the same button in a row.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is the damage of the ii-th hit.'
+b'The third line of the input contains the string ss consisting of exactly nn lowercase Latin letters \xe2\x80\x94 the sequence of hits (each character is the letter on the button you need to press to perform the corresponding hit).'
+b'Output'
+b"Print one integer dmgdmg \xe2\x80\x94 the maximum possible damage to the opponent's character you can deal without breaking your gamepad buttons."
+Tags
+greedy, sortings, two pointers, *1300

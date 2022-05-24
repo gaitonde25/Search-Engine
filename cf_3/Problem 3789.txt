@@ -1,0 +1,8 @@
+b'You have a team of N people. For a particular task, you can pick any non-empty subset of people. The cost of having x people for the task is xk. '
+b'Output the sum of costs over all non-empty subsets of people.'
+b'Input'
+b'Only line of input contains two integers N (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) representing total number of people and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000).'
+b'Output'
+b'Output the sum of costs for all non empty subsets modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+combinatorics, dp, math, *2400

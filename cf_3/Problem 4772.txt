@@ -1,0 +1,13 @@
+b'ZS the Coder has a large tree. It can be represented as an undirected connected graph of n vertices numbered from 0 to n\xe2\x80\x89-\xe2\x80\x891 and n\xe2\x80\x89-\xe2\x80\x891 edges between them. There is a single nonzero digit written on each edge.'
+b'One day, ZS the Coder was bored and decided to investigate some properties of the tree. He chose a positive integer M, which is coprime to 10, i.e. .'
+b'ZS consider an ordered pair of distinct vertices (u,\xe2\x80\x89v) interesting when if he would follow the shortest path from vertex u to vertex v and write down all the digits he encounters on his path in the same order, he will get a decimal representaion of an integer divisible by M.'
+b'Formally, ZS consider an ordered pair of distinct vertices (u,\xe2\x80\x89v) interesting if the following states true:'
+b'  Let a1\xe2\x80\x89=\xe2\x80\x89u,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89ak\xe2\x80\x89=\xe2\x80\x89v be the sequence of vertices on the shortest path from u to v in the order of encountering them;  Let di (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89k) be the digit written on the edge between vertices ai and ai\xe2\x80\x89+\xe2\x80\x891;  The integer  is divisible by M. '
+b'Help ZS the Coder find the number of interesting pairs!'
+b'Input'
+b'The first line of the input contains two integers, n and M (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89M\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, )\xc2\xa0\xe2\x80\x94 the number of vertices and the number ZS has chosen respectively.'
+b'The next n\xe2\x80\x89-\xe2\x80\x891 lines contain three integers each. i-th of them contains ui,\xe2\x80\x89vi and wi, denoting an edge between vertices ui and vi with digit wi written on it (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89<\xe2\x80\x89n,\xe2\x80\x89\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x899).'
+b'Output'
+b"Print a single integer\xc2\xa0\xe2\x80\x94 the number of interesting (by ZS the Coder's consideration) pairs."
+Tags
+dfs and similar, divide and conquer, dsu, trees, *2700

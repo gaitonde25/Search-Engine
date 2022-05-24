@@ -1,0 +1,14 @@
+b'Alex decided to go on a touristic trip over the country.'
+b"For simplicity let's assume that the country has nn cities and mm bidirectional roads connecting them. Alex lives in city ss and initially located in it. To compare different cities Alex assigned each city a score wiwi which is as high as interesting city seems to Alex."
+b'Alex believes that his trip will be interesting only if he will not use any road twice in a row. That is if Alex came to city vv from city uu, he may choose as the next city in the trip any city connected with vv by the road, except for the city uu.'
+b'Your task is to help Alex plan his city in a way that maximizes total score over all cities he visited. Note that for each city its score is counted at most once, even if Alex been there several times during his trip.'
+b'Input'
+b'First line of input contains two integers nn and mm, (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 0\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105) which are numbers of cities and roads in the country.'
+b'Second line contains nn integers w1,w2,\xe2\x80\xa6,wnw1,w2,\xe2\x80\xa6,wn (0\xe2\x89\xa4wi\xe2\x89\xa41090\xe2\x89\xa4wi\xe2\x89\xa4109) which are scores of all cities.'
+b'The following mm lines contain description of the roads. Each of these mm lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n) which are cities connected by this road.'
+b'It is guaranteed that there is at most one direct road between any two cities, no city is connected to itself by the road and, finally, it is possible to go from any city to any other one using only roads.'
+b'The last line contains single integer ss (1\xe2\x89\xa4s\xe2\x89\xa4n1\xe2\x89\xa4s\xe2\x89\xa4n), which is the number of the initial city.'
+b'Output'
+b'Output single integer which is the maximum possible sum of scores of visited cities.'
+Tags
+dfs and similar, dp, dsu, graphs, greedy, trees, *2200

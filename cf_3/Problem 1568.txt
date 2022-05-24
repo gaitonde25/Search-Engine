@@ -1,0 +1,30 @@
+b'Koa the Koala has a matrix AA of nn rows and mm columns. Elements of this matrix are distinct integers from 11 to n\xe2\x8b\x85mn\xe2\x8b\x85m (each number from 11 to n\xe2\x8b\x85mn\xe2\x8b\x85m appears exactly once in the matrix).'
+b"For any matrix MM of nn rows and mm columns let's define the following:"
+b'  The ii-th row of MM is defined as Ri(M)=[Mi1,Mi2,\xe2\x80\xa6,Mim]Ri(M)=[Mi1,Mi2,\xe2\x80\xa6,Mim] for all ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n).  The jj-th column of MM is defined as Cj(M)=[M1j,M2j,\xe2\x80\xa6,Mnj]Cj(M)=[M1j,M2j,\xe2\x80\xa6,Mnj] for all jj (1\xe2\x89\xa4j\xe2\x89\xa4m1\xe2\x89\xa4j\xe2\x89\xa4m). '
+b'Koa defines S(A)=(X,Y)S(A)=(X,Y) as the spectrum of AA, where XX is the set of the maximum values in rows of AA and YY is the set of the maximum values in columns of AA.'
+b'More formally:'
+b'  X={max(R1(A)),max(R2(A)),\xe2\x80\xa6,max(Rn(A))}X={max(R1(A)),max(R2(A)),\xe2\x80\xa6,max(Rn(A))}  Y={max(C1(A)),max(C2(A)),\xe2\x80\xa6,max(Cm(A))}Y={max(C1(A)),max(C2(A)),\xe2\x80\xa6,max(Cm(A))}'
+b'Koa asks you to find some matrix A\xe2\x80\xb2A\xe2\x80\xb2 of nn rows and mm columns, such that each number from 11 to n\xe2\x8b\x85mn\xe2\x8b\x85m appears exactly once in the matrix, and the following conditions hold:'
+b'  S(A\xe2\x80\xb2)=S(A)S(A\xe2\x80\xb2)=S(A)  Ri(A\xe2\x80\xb2)Ri(A\xe2\x80\xb2) is bitonic for all ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n)  Cj(A\xe2\x80\xb2)Cj(A\xe2\x80\xb2) is bitonic for all jj (1\xe2\x89\xa4j\xe2\x89\xa4m1\xe2\x89\xa4j\xe2\x89\xa4m) '
+b' An array '
+b''
+b'tt'
+b't'
+b' ('
+b''
+b't1,t2,\xe2\x80\xa6,tkt1,t2,\xe2\x80\xa6,tk'
+b't_1, t_2, \\ldots, t_k'
+b') is called bitonic if it first increases and then decreases.'
+b' More formally: tt is bitonic if there exists some position pp (1\xe2\x89\xa4p\xe2\x89\xa4k1\xe2\x89\xa4p\xe2\x89\xa4k) such that: t1<t2<\xe2\x80\xa6<tp>tp+1>\xe2\x80\xa6>tkt1<t2<\xe2\x80\xa6<tp>tp+1>\xe2\x80\xa6>tk.'
+b"Help Koa to find such matrix or to determine that it doesn't exist."
+b'Input'
+b'The first line of the input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42501\xe2\x89\xa4n,m\xe2\x89\xa4250) \xc2\xa0\xe2\x80\x94 the number of rows and columns of AA.'
+b'Each of the ollowing nn lines contains mm integers. The jj-th integer in the ii-th line denotes element AijAij (1\xe2\x89\xa4Aij\xe2\x89\xa4n\xe2\x8b\x85m1\xe2\x89\xa4Aij\xe2\x89\xa4n\xe2\x8b\x85m) of matrix AA. It is guaranteed that every number from 11 to n\xe2\x8b\x85mn\xe2\x8b\x85m appears exactly once among elements of the matrix.'
+b'Output'
+b"If such matrix doesn't exist, print \xe2\x88\x921\xe2\x88\x921 on a single line."
+b'Otherwise, the output must consist of nn lines, each one consisting of mm space separated integers \xc2\xa0\xe2\x80\x94 a description of A\xe2\x80\xb2A\xe2\x80\xb2.'
+b'The jj-th number in the ii-th line represents the element A\xe2\x80\xb2ijAij\xe2\x80\xb2.'
+b'Every integer from 11 to n\xe2\x8b\x85mn\xe2\x8b\x85m should appear exactly once in A\xe2\x80\xb2A\xe2\x80\xb2, every row and column in A\xe2\x80\xb2A\xe2\x80\xb2 must be bitonic and S(A)=S(A\xe2\x80\xb2)S(A)=S(A\xe2\x80\xb2) must hold.'
+b'If there are many answers print any.'
+Tags
+brute force, constructive algorithms, graphs, greedy, sortings, *2800

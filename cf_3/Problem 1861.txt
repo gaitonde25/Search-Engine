@@ -1,0 +1,16 @@
+b'Alice has got addicted to a game called Sirtet recently.'
+b'In Sirtet, player is given an n\xc3\x97mn\xc3\x97m grid. Initially ai,jai,j cubes are stacked up in the cell (i,j)(i,j). Two cells are called adjacent if they share a side. Player can perform the following operations: '
+b'  stack up one cube in two adjacent cells;  stack up two cubes in one cell. '
+b'Cubes mentioned above are identical in height.'
+b'Here is an illustration of the game. States on the right are obtained by performing one of the above operations on the state on the left, and grey cubes are added due to the operation.'
+b'  '
+b"Player's goal is to make the height of all cells the same (i.e. so that each cell has the same number of cubes in it) using above operations. "
+b'Alice, however, has found out that on some starting grids she may never reach the goal no matter what strategy she uses. Thus, she is wondering the number of initial grids such that '
+b'  L\xe2\x89\xa4ai,j\xe2\x89\xa4RL\xe2\x89\xa4ai,j\xe2\x89\xa4R for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, 1\xe2\x89\xa4j\xe2\x89\xa4m1\xe2\x89\xa4j\xe2\x89\xa4m;  player can reach the goal using above operations. '
+b'Please help Alice with it. Notice that the answer might be large, please output the desired value modulo 998,244,353998,244,353.'
+b'Input'
+b'The only line contains four integers nn, mm, LL and RR (1\xe2\x89\xa4n,m,L,R\xe2\x89\xa41091\xe2\x89\xa4n,m,L,R\xe2\x89\xa4109, L\xe2\x89\xa4RL\xe2\x89\xa4R, n\xe2\x8b\x85m\xe2\x89\xa52n\xe2\x8b\x85m\xe2\x89\xa52).'
+b'Output'
+b'Output one integer, representing the desired answer modulo 998,244,353998,244,353.'
+Tags
+combinatorics, constructive algorithms, math, matrices, *2100

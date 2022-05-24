@@ -1,0 +1,12 @@
+b'There are two strings s and t, consisting only of letters a and b. You can make the following operation several times: choose a prefix of s, a prefix of t and swap them. Prefixes can be empty, also a prefix can coincide with a whole string. '
+b'Your task is to find a sequence of operations after which one of the strings consists only of a letters and the other consists only of b letters. The number of operations should be minimized.'
+b'Input'
+b'The first line contains a string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105).'
+b'The second line contains a string t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|t|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105).'
+b'Here |s| and |t| denote the lengths of s and t, respectively. It is guaranteed that at least one of the strings contains at least one a letter and at least one of the strings contains at least one b letter.'
+b'Output'
+b'The first line should contain a single integer n (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of operations.'
+b'Each of the next n lines should contain two space-separated integers ai, bi\xc2\xa0\xe2\x80\x94 the lengths of prefixes of s and t to swap, respectively.'
+b"If there are multiple possible solutions, you can print any of them. It's guaranteed that a solution with given constraints exists."
+Tags
+constructive algorithms, strings, *2800

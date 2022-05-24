@@ -1,0 +1,11 @@
+b'Team Red and Team Blue competed in a competitive FPS. Their match was streamed around the world. They played a series of nn matches.'
+b'In the end, it turned out Team Red won rr times and Team Blue won bb times. Team Blue was less skilled than Team Red, so bb was strictly less than rr.'
+b'You missed the stream since you overslept, but you think that the match must have been neck and neck since so many people watched it. So you imagine a string of length nn where the ii-th character denotes who won the ii-th match \xc2\xa0\xe2\x80\x94 it is R if Team Red won or B if Team Blue won. You imagine the string was such that the maximum number of times a team won in a row was as small as possible. For example, in the series of matches RBBRRRB, Team Red won 33 times in a row, which is the maximum.'
+b'You must find a string satisfying the above conditions. If there are multiple answers, print any.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each test case has a single line containing three integers nn, rr, and bb (3\xe2\x89\xa4n\xe2\x89\xa41003\xe2\x89\xa4n\xe2\x89\xa4100; 1\xe2\x89\xa4b<r\xe2\x89\xa4n1\xe2\x89\xa4b<r\xe2\x89\xa4n, r+b=nr+b=n).'
+b'Output'
+b'For each test case, output a single line containing a string satisfying the given conditions. If there are multiple answers, print any.'
+Tags
+constructive algorithms, greedy, implementation, math, *1000

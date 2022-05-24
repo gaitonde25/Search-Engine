@@ -1,0 +1,13 @@
+b'The sequence of mm integers is called the permutation if it contains all integers from 11 to mm exactly once. The number mm is called the length of the permutation.'
+b'Dreamoon has two permutations p1p1 and p2p2 of non-zero lengths l1l1 and l2l2.'
+b'Now Dreamoon concatenates these two permutations into another sequence aa of length l1+l2l1+l2. First l1l1 elements of aa is the permutation p1p1 and next l2l2 elements of aa is the permutation p2p2. '
+b'You are given the sequence aa, and you need to find two permutations p1p1 and p2p2. If there are several possible ways to restore them, you should find all of them. (Note that it is also possible that there will be no ways.)'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000) denoting the number of test cases in the input.'
+b'Each test case contains two lines. The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42000002\xe2\x89\xa4n\xe2\x89\xa4200000): the length of aa. The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4ai\xe2\x89\xa4n\xe2\x88\x921).'
+b'The total sum of nn is less than 200000200000.'
+b'Output'
+b'For each test case, the first line of output should contain one integer kk: the number of ways to divide aa into permutations p1p1 and p2p2.'
+b'Each of the next kk lines should contain two integers l1l1 and l2l2 (1\xe2\x89\xa4l1,l2\xe2\x89\xa4n,l1+l2=n1\xe2\x89\xa4l1,l2\xe2\x89\xa4n,l1+l2=n), denoting, that it is possible to divide aa into two permutations of length l1l1 and l2l2 (p1p1 is the first l1l1 elements of aa, and p2p2 is the last l2l2 elements of aa). You can print solutions in any order.'
+Tags
+implementation, math, *1400

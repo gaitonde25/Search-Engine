@@ -1,0 +1,15 @@
+b'Lena is a programmer. She got a task to solve at work.'
+b'There is an empty set of pairs of integers and n queries to process. Each query is one of three types:'
+b'  Add a pair (a,\xe2\x80\x89b) to the set.  Remove a pair added in the query number i. All queries are numbered with integers from 1 to n.  For a given integer q find the maximal value x\xc2\xb7q\xe2\x80\x89+\xe2\x80\x89y over all pairs (x,\xe2\x80\x89y) from the set. '
+b'Help Lena to process the queries.'
+b'Input'
+b'The first line of input contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105) \xe2\x80\x94 the number of queries.'
+b'Each of the next n lines starts with integer t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893) \xe2\x80\x94 the type of the query.'
+b'A pair of integers a and b (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) follows in the query of the first type.'
+b'An integer i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) follows in the query of the second type. It is guaranteed that i is less than the number of the query, the query number i has the first type and the pair from the i-th query is not already removed.'
+b'An integer q (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) follows in the query of the third type.'
+b'Output'
+b'For the queries of the third type print on a separate line the desired maximal value of x\xc2\xb7q\xe2\x80\x89+\xe2\x80\x89y.'
+b'If there are no pairs in the set print "EMPTY SET".'
+Tags
+data structures, divide and conquer, geometry, *2500

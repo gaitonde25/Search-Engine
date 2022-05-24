@@ -1,0 +1,24 @@
+b"Thanks to the Doctor's help, the rebels managed to steal enough gold to launch a full-scale attack on the Empire! However, Darth Vader is looking for revenge and wants to take back his gold."
+b'The rebels have hidden the gold in various bases throughout the galaxy. Darth Vader and the Empire are looking to send out their spaceships to attack these bases.'
+b'The galaxy can be represented as an undirected graph with nn planets (nodes) and mm wormholes (edges), each connecting two planets.'
+b'A total of ss empire spaceships and bb rebel bases are located at different planets in the galaxy.'
+b'Each spaceship is given a location xx, denoting the index of the planet on which it is located, an attacking strength aa, and a certain amount of fuel ff.'
+b'Each base is given a location xx, and a defensive strength dd.'
+b'A spaceship can attack a base if both of these conditions hold: '
+b"  the spaceship's attacking strength is greater or equal than the defensive strength of the base  the spaceship's fuel is greater or equal to the shortest distance, computed as the number of wormholes, between the spaceship's planet and the base's planet "
+b'Vader is very particular about his attacking formations. He requires that each spaceship is to attack at most one base and that each base is to be attacked by at most one spaceship.'
+b'Vader knows that the rebels have hidden kk gold in each base, so he will assign the spaceships to attack bases in such a way that maximizes the number of bases attacked.'
+b'Therefore, for each base that is attacked, the rebels lose kk gold.'
+b"However, the rebels have the ability to create any number of dummy bases. With the Doctor's help, these bases would exist beyond space and time, so all spaceship can reach them and attack them. Moreover, a dummy base is designed to seem irresistible: that is, it will always be attacked by some spaceship."
+b'Of course, dummy bases do not contain any gold, but creating such a dummy base costs hh gold.'
+b'What is the minimum gold the rebels can lose if they create an optimal number of dummy bases?'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 0\xe2\x89\xa4m\xe2\x89\xa4100000\xe2\x89\xa4m\xe2\x89\xa410000), the number of nodes and the number of edges, respectively.'
+b'The next mm lines contain two integers uu and vv (1\xe2\x89\xa4u1\xe2\x89\xa4u, v\xe2\x89\xa4nv\xe2\x89\xa4n) denoting an undirected edge between the two nodes.'
+b'The next line contains four integers ss, bb, kk and hh (1\xe2\x89\xa4s1\xe2\x89\xa4s, b\xe2\x89\xa41000b\xe2\x89\xa41000, 0\xe2\x89\xa4k0\xe2\x89\xa4k, h\xe2\x89\xa4109h\xe2\x89\xa4109), the number of spaceships, the number of bases, the cost of having a base attacked, and the cost of creating a dummy base, respectively.'
+b'The next ss lines contain three integers xx, aa, ff (1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n, 0\xe2\x89\xa4a0\xe2\x89\xa4a, f\xe2\x89\xa4109f\xe2\x89\xa4109), denoting the location, attack, and fuel of the spaceship.'
+b'The next bb lines contain two integers xx, dd (1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n, 0\xe2\x89\xa4d\xe2\x89\xa41090\xe2\x89\xa4d\xe2\x89\xa4109), denoting the location and defence of the base.'
+b'Output'
+b'Print a single integer, the minimum cost in terms of gold.'
+Tags
+flows, graph matchings, graphs, shortest paths, sortings, *2200

@@ -1,0 +1,9 @@
+b'Arkady and his friends love playing checkers on an n\xc3\x97nn\xc3\x97n field. The rows and the columns of the field are enumerated from 11 to nn.'
+b'The friends have recently won a championship, so Arkady wants to please them with some candies. Remembering an old parable (but not its moral), Arkady wants to give to his friends one set of candies per each cell of the field: the set of candies for cell (i,j)(i,j) will have exactly (i2+j2)(i2+j2) candies of unique type.'
+b'There are mm friends who deserve the present. How many of these n\xc3\x97nn\xc3\x97n sets of candies can be split equally into mm parts without cutting a candy into pieces? Note that each set has to be split independently since the types of candies in different sets are different.'
+b'Input'
+b'The only line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109, 1\xe2\x89\xa4m\xe2\x89\xa410001\xe2\x89\xa4m\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the size of the field and the number of parts to split the sets into.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of sets that can be split equally.'
+Tags
+math, number theory, *1600

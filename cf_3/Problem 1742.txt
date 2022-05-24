@@ -1,0 +1,12 @@
+b'You have to restore the wall. The wall consists of NN pillars of bricks, the height of the ii-th pillar is initially equal to hihi, the height is measured in number of bricks. After the restoration all the NN pillars should have equal heights.'
+b'You are allowed the following operations:'
+b' put a brick on top of one pillar, the cost of this operation is AA; remove a brick from the top of one non-empty pillar, the cost of this operation is RR; move a brick from the top of one non-empty pillar to the top of another pillar, the cost of this operation is MM.'
+b'You cannot create additional pillars or ignore some of pre-existing pillars even if their height becomes 00.'
+b'What is the minimal total cost of restoration, in other words, what is the minimal total cost to make all the pillars of equal height?'
+b'Input'
+b'The first line of input contains four integers NN, AA, RR, MM (1\xe2\x89\xa4N\xe2\x89\xa41051\xe2\x89\xa4N\xe2\x89\xa4105, 0\xe2\x89\xa4A,R,M\xe2\x89\xa41040\xe2\x89\xa4A,R,M\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of pillars and the costs of operations.'
+b'The second line contains NN integers hihi (0\xe2\x89\xa4hi\xe2\x89\xa41090\xe2\x89\xa4hi\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 initial heights of pillars.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the minimal cost of restoration.'
+Tags
+binary search, greedy, math, sortings, ternary search, *2100

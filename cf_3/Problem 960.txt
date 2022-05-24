@@ -1,0 +1,7 @@
+b'Hack the program and get the password hidden in it.'
+b'Input'
+b"This program has only one test, and it's empty (it doesn't give your program anything to read)."
+b'Output'
+b'Output the password recovered from the program. The password is case sensitive.'
+Tags
+*special problem, *2500

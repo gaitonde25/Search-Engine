@@ -1,0 +1,10 @@
+b'Getting closer and closer to a mathematician, Serval becomes a university student on math major in Japari University. On the Calculus class, his teacher taught him how to calculate the expected length of a random subsegment of a given segment. Then he left a bonus problem as homework, with the award of a garage kit from IOI. The bonus is to extend this problem to the general case as follows.'
+b'You are given a segment with length ll. We randomly choose nn segments by choosing two points (maybe with non-integer coordinates) from the given segment equiprobably and the interval between the two points forms a segment. You are given the number of random segments nn, and another integer kk. The 2n2n endpoints of the chosen segments split the segment into (2n+1)(2n+1) intervals. Your task is to calculate the expected total length of those intervals that are covered by at least kk segments of the nn random segments.'
+b'You should find the answer modulo 998244353998244353.'
+b'Input'
+b'First line contains three space-separated positive integers nn, kk and ll (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa42000, 1\xe2\x89\xa4l\xe2\x89\xa41091\xe2\x89\xa4l\xe2\x89\xa4109).'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the expected total length of all the intervals covered by at least kk segments of the nn random segments modulo 998244353998244353.'
+b'Formally, let M=998244353M=998244353. It can be shown that the answer can be expressed as an irreducible fraction pqpq, where pp and qq are integers and q\xe2\x89\xa1\xcc\xb80(modM)q\xe2\x89\xa20(modM). Output the integer equal to p\xe2\x8b\x85q\xe2\x88\x921modMp\xe2\x8b\x85q\xe2\x88\x921modM. In other words, output such an integer xx that 0\xe2\x89\xa4x<M0\xe2\x89\xa4x<M and x\xe2\x8b\x85q\xe2\x89\xa1p(modM)x\xe2\x8b\x85q\xe2\x89\xa1p(modM).'
+Tags
+combinatorics, dp, math, probabilities, *2600

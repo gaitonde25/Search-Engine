@@ -1,0 +1,12 @@
+b'Someone give a strange birthday present to Ivan. It is hedgehog\xc2\xa0\xe2\x80\x94 connected undirected graph in which one vertex has degree at least 33 (we will call it center) and all other vertices has degree 1. Ivan thought that hedgehog is too boring and decided to make himself kk-multihedgehog.'
+b'Let us define kk-multihedgehog as follows:'
+b' 11-multihedgehog is hedgehog: it has one vertex of degree at least 33 and some vertices of degree 1. For all k\xe2\x89\xa52k\xe2\x89\xa52, kk-multihedgehog is (k\xe2\x88\x921)(k\xe2\x88\x921)-multihedgehog in which the following changes has been made for each vertex vv with degree 1: let uu be its only neighbor; remove vertex vv, create a new hedgehog with center at vertex ww and connect vertices uu and ww with an edge. New hedgehogs can differ from each other and the initial gift. '
+b'Thereby kk-multihedgehog is a tree. Ivan made kk-multihedgehog but he is not sure that he did not make any mistakes. That is why he asked you to check if his tree is indeed kk-multihedgehog.'
+b'Input'
+b'First line of input contains 22 integers nn, kk (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 number of vertices and hedgehog parameter.'
+b'Next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n;u\xe2\x89\xa0v1\xe2\x89\xa4u,v\xe2\x89\xa4n;u\xe2\x89\xa0v)\xc2\xa0\xe2\x80\x94 indices of vertices connected by edge.'
+b'It is guaranteed that given graph is a tree.'
+b'Output'
+b'Print "Yes" (without quotes), if given graph is kk-multihedgehog, and "No" (without quotes) otherwise.'
+Tags
+dfs and similar, graphs, shortest paths, *1800

@@ -1,0 +1,19 @@
+b"Let's say you are standing on the XYXY-plane at point (0,0)(0,0) and you want to reach point (n,n)(n,n)."
+b'You can move only in two directions: '
+b'  to the right, i.\xc2\xa0e. horizontally and in the direction that increase your xx coordinate,  or up, i.\xc2\xa0e. vertically and in the direction that increase your yy coordinate. '
+b'In other words, your path will have the following structure: '
+b'  initially, you choose to go to the right or up;  then you go some positive integer distance in the chosen direction (distances can be chosen independently);  after that you change your direction (from right to up, or from up to right) and repeat the process. '
+b"You don't like to change your direction too much, so you will make no more than n\xe2\x88\x921n\xe2\x88\x921 direction changes."
+b'As a result, your path will be a polygonal chain from (0,0)(0,0) to (n,n)(n,n), consisting of at most nn line segments where each segment has positive integer length and vertical and horizontal segments alternate.'
+b'Not all paths are equal. You have nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn where cici is the cost of the ii-th segment.'
+b'Using these costs we can define the cost of the path as the sum of lengths of the segments of this path multiplied by their cost, i.\xc2\xa0e. if the path consists of kk segments (k\xe2\x89\xa4nk\xe2\x89\xa4n), then the cost of the path is equal to \xe2\x88\x91i=1kci\xe2\x8b\x85lengthi\xe2\x88\x91i=1kci\xe2\x8b\x85lengthi (segments are numbered from 11 to kk in the order they are in the path).'
+b'Find the path of the minimum cost and print its cost.'
+b'Input'
+b'The first line contains the single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains the single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line of each test case contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa41091\xe2\x89\xa4ci\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the costs of each segment.'
+b"It's guaranteed that the total sum of nn doesn't exceed 105105."
+b'Output'
+b'For each test case, print the minimum possible cost of the path from (0,0)(0,0) to (n,n)(n,n) consisting of at most nn alternating segments.'
+Tags
+brute force, data structures, greedy, math, *1500

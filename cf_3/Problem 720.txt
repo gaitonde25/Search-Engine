@@ -1,0 +1,13 @@
+b'British mathematician John Littlewood once said about Indian mathematician Srinivasa Ramanujan that "every positive integer was one of his personal friends."'
+b'It turns out that positive integers can also be friends with each other! You are given an array aa of distinct positive integers. '
+b'Define a subarray ai,ai+1,\xe2\x80\xa6,ajai,ai+1,\xe2\x80\xa6,aj to be a friend group if and only if there exists an integer m\xe2\x89\xa52m\xe2\x89\xa52 such that aimodm=ai+1modm=\xe2\x80\xa6=ajmodmaimodm=ai+1modm=\xe2\x80\xa6=ajmodm, where xmodyxmody denotes the remainder when xx is divided by yy.'
+b'Your friend Gregor wants to know the size of the largest friend group in aa.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104). '
+b'Each test case begins with a line containing the integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105), the size of the array aa.'
+b'The next line contains nn positive integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa410181\xe2\x89\xa4ai\xe2\x89\xa41018), representing the contents of the array aa. It is guaranteed that all the numbers in aa are distinct.'
+b'It is guaranteed that the sum of nn over all test cases is less than 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'Your output should consist of tt lines. Each line should consist of a single integer, the size of the largest friend group in aa.'
+Tags
+binary search, data structures, divide and conquer, math, number theory, two pointers, *1800

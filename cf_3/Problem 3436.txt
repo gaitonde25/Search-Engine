@@ -1,0 +1,15 @@
+b'There is a beautiful garden of stones in Innopolis.'
+b'Its most beautiful place is the nn piles with stones numbered from 11 to nn.'
+b'EJOI participants have visited this place twice. '
+b'When they first visited it, the number of stones in piles was x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn, correspondingly. One of the participants wrote down this sequence in a notebook. '
+b'They visited it again the following day, and the number of stones in piles was equal to y1,y2,\xe2\x80\xa6,yny1,y2,\xe2\x80\xa6,yn. One of the participants also wrote it down in a notebook.'
+b'It is well known that every member of the EJOI jury during the night either sits in the room 108108 or comes to the place with stones. Each jury member who comes there either takes one stone for himself or moves one stone from one pile to another. We can assume that there is an unlimited number of jury members. No one except the jury goes to the place with stones at night.'
+b'Participants want to know whether their notes can be correct or they are sure to have made a mistake.'
+b'Input'
+b'The first line of the input file contains a single integer nn, the number of piles with stones in the garden (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450).'
+b'The second line contains nn integers separated by spaces x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn, the number of stones in piles recorded in the notebook when the participants came to the place with stones for the first time (0\xe2\x89\xa4xi\xe2\x89\xa410000\xe2\x89\xa4xi\xe2\x89\xa41000).'
+b'The third line contains nn integers separated by spaces y1,y2,\xe2\x80\xa6,yny1,y2,\xe2\x80\xa6,yn, the number of stones in piles recorded in the notebook when the participants came to the place with stones for the second time (0\xe2\x89\xa4yi\xe2\x89\xa410000\xe2\x89\xa4yi\xe2\x89\xa41000).'
+b'Output'
+b'If the records can be consistent output "Yes", otherwise output "No" (quotes for clarity).'
+Tags
+math, *800

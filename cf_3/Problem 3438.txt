@@ -1,0 +1,14 @@
+b'You are given an array of nn positive integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. You can perform the following operation any number of times: select several distinct indices i1,i2,\xe2\x80\xa6,iki1,i2,\xe2\x80\xa6,ik (1\xe2\x89\xa4ij\xe2\x89\xa4n1\xe2\x89\xa4ij\xe2\x89\xa4n) and move the number standing at the position i1i1 to the position i2i2, the number at the position i2i2 to the position i3i3, ..., the number at the position ikik to the position i1i1. In other words, the operation cyclically shifts elements: i1\xe2\x86\x92i2\xe2\x86\x92\xe2\x80\xa6ik\xe2\x86\x92i1i1\xe2\x86\x92i2\xe2\x86\x92\xe2\x80\xa6ik\xe2\x86\x92i1.'
+b'For example, if you have n=4n=4, an array a1=10,a2=20,a3=30,a4=40a1=10,a2=20,a3=30,a4=40, and you choose three indices i1=2i1=2, i2=1i2=1, i3=4i3=4, then the resulting array would become a1=20,a2=40,a3=30,a4=10a1=20,a2=40,a3=30,a4=10.'
+b"Your goal is to make the array sorted in non-decreasing order with the minimum number of operations. The additional constraint is that the sum of cycle lengths over all operations should be less than or equal to a number ss. If it's impossible to sort the array while satisfying that constraint, your solution should report that as well."
+b'Input'
+b'The first line of the input contains two integers nn and ss (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000, 0\xe2\x89\xa4s\xe2\x89\xa42000000\xe2\x89\xa4s\xe2\x89\xa4200000)\xe2\x80\x94the number of elements in the array and the upper bound on the sum of cycle lengths.'
+b'The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an\xe2\x80\x94elements of the array (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'If it\'s impossible to sort the array using cycles of total length not exceeding ss, print a single number "-1" (quotes for clarity).'
+b'Otherwise, print a single number qq\xe2\x80\x94 the minimum number of operations required to sort the array.'
+b'On the next 2\xe2\x8b\x85q2\xe2\x8b\x85q lines print descriptions of operations in the order they are applied to the array. The description of ii-th operation begins with a single line containing one integer kk (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n)\xe2\x80\x94the length of the cycle (that is, the number of selected indices). The next line should contain kk distinct integers i1,i2,\xe2\x80\xa6,iki1,i2,\xe2\x80\xa6,ik (1\xe2\x89\xa4ij\xe2\x89\xa4n1\xe2\x89\xa4ij\xe2\x89\xa4n)\xe2\x80\x94the indices of the cycle.'
+b'The sum of lengths of these cycles should be less than or equal to ss, and the array should be sorted after applying these qq operations.'
+b'If there are several possible answers with the optimal qq, print any of them.'
+Tags
+dsu, math, *3100

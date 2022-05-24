@@ -1,0 +1,13 @@
+b'nn distinct integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn are written on the board. Nezzar can perform the following operation multiple times.'
+b"  Select two integers x,yx,y (not necessarily distinct) on the board, and write down 2x\xe2\x88\x92y2x\xe2\x88\x92y. Note that you don't remove selected numbers. "
+b'Now, Nezzar wonders if it is possible to have his favorite number kk on the board after applying above operation multiple times.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases. '
+b'The first line of each test case contains two integers n,kn,k (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, \xe2\x88\x921018\xe2\x89\xa4k\xe2\x89\xa41018\xe2\x88\x921018\xe2\x89\xa4k\xe2\x89\xa41018).'
+b'The second line of each test case contains nn distinct integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn (\xe2\x88\x921018\xe2\x89\xa4xi\xe2\x89\xa41018\xe2\x88\x921018\xe2\x89\xa4xi\xe2\x89\xa41018).'
+b'It is guaranteed that the sum of nn for all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print "YES" on a single line if it is possible to have kk on the board. Otherwise, print "NO".'
+b'You can print each letter in any case (upper or lower).'
+Tags
+constructive algorithms, math, number theory, *1800

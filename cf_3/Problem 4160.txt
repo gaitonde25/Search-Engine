@@ -1,0 +1,10 @@
+b'Arpa is researching the Mexican wave.'
+b'There are n spectators in the stadium, labeled from 1 to n. They start the Mexican wave at time 0. '
+b'  At time 1, the first spectator stands.  At time 2, the second spectator stands.  ...  At time k, the k-th spectator stands.  At time k\xe2\x80\x89+\xe2\x80\x891, the (k\xe2\x80\x89+\xe2\x80\x891)-th spectator stands and the first spectator sits.  At time k\xe2\x80\x89+\xe2\x80\x892, the (k\xe2\x80\x89+\xe2\x80\x892)-th spectator stands and the second spectator sits.  ...  At time n, the n-th spectator stands and the (n\xe2\x80\x89-\xe2\x80\x89k)-th spectator sits.  At time n\xe2\x80\x89+\xe2\x80\x891, the (n\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89-\xe2\x80\x89k)-th spectator sits.  ...  At time n\xe2\x80\x89+\xe2\x80\x89k, the n-th spectator sits. '
+b'Arpa wants to know how many spectators are standing at time t.'
+b'Input'
+b'The first line contains three integers n, k, t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89<\xe2\x80\x89n\xe2\x80\x89+\xe2\x80\x89k).'
+b'Output'
+b'Print single integer: how many spectators are standing at time t.'
+Tags
+implementation, math, *800

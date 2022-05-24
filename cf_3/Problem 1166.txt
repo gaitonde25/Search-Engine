@@ -1,0 +1,14 @@
+b'Monocarp would like to open a bakery in his local area. But, at first, he should figure out whether he can compete with other shops.'
+b"Monocarp plans that the bakery will work for nn days. On the ii-th day, aiai loaves of bread will be baked in the morning before the opening. At the end of the nn-th day, Monocarp will sell all the remaining bread that wasn't sold earlier with a huge discount."
+b"Because of how bread is stored, the bakery seller sells the bread in the following order: firstly, he sells the loaves that were baked that morning; secondly, he sells the loaves that were baked the day before and weren't sold yet; then the loaves that were baked two days before and weren't sold yet, and so on. That's why some customers may buy a rather stale bread and will definitely spread negative rumors."
+b"Let's define loaf spoilage as the difference between the day it was baked and the day it was sold. Then the unattractiveness of the bakery will be equal to the maximum spoilage among all loaves of bread baked at the bakery."
+b"Suppose Monocarp's local area has consumer demand equal to kk, it means that each day kk customers will come to the bakery and each of them will ask for one loaf of bread (the loaves are sold according to the aforementioned order). If there is no bread left, then the person just doesn't buy anything. During the last day sale, all the remaining loaves will be sold (and they will still count in the calculation of the unattractiveness)."
+b"Monocarp analyzed his competitors' data and came up with mm possible consumer demand values k1,k2,\xe2\x80\xa6,kmk1,k2,\xe2\x80\xa6,km, and now he'd like to calculate the unattractiveness of the bakery for each value of demand. Can you help him?"
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of days the bakery is open and the number of possible values of consumer demand.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of bread loaves that will be baked each day.'
+b'The third line contains mm integers k1,k2,\xe2\x80\xa6,kmk1,k2,\xe2\x80\xa6,km (1\xe2\x89\xa4k1<k2<\xe2\x8b\xaf<km\xe2\x89\xa41091\xe2\x89\xa4k1<k2<\xe2\x8b\xaf<km\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the possible consumer demand values in the ascending order.'
+b'Output'
+b'Print mm integers: for each consumer demand, print the unattractiveness of the bakery.'
+Tags
+data structures, dsu, *2900

@@ -1,0 +1,18 @@
+b'We are going to build a new city: the Metropolis. The city is going to be built on an infinite square grid. The finished city will consist of nn skyscrapers, each occupying a different cell of the grid. At any moment during the construction, the cells that currently do not contain a skyscraper are called empty.'
+b'You are given the planned coordinates of the nn skyscrapers. Your task is to find an order in which they can be built while satisfying the rules listed below.'
+b"  The building crew has only one crane, so the Metropolis has to be constructed one skyscraper at a time.  The first skyscraper can be built anywhere on the grid.  Each subsequent skyscraper has to share a side or a corner with at least one of the previously built skyscrapers (so that it's easier to align the new skyscraper to the grid properly).  When building a skyscraper, there has to be a way to deliver material to the construction site from the outside of Metropolis by only moving it through empty cells that share a side. In other words, there should be a path of side-adjacent empty cells that connects the cell that will contain the skyscraper to some cell (r,c)(r,c) with |r|>109|r|>109 and/or |c|>109|c|>109. "
+b"If a solution exists, let's denote the numbers of skyscrapers in the order in which they should be built by s1,\xe2\x80\xa6,sns1,\xe2\x80\xa6,sn. There are two types of subtasks:"
+b'Type 1: You may produce any valid order.'
+b'Type 2: You must find the order that maximizes snsn. Among those, you must find the one that maximizes sn\xe2\x88\x921sn\xe2\x88\x921. And so on. In other words, you must find the valid order of building for which the sequence (sn,sn\xe2\x88\x921,\xe2\x80\xa6,s1)(sn,sn\xe2\x88\x921,\xe2\x80\xa6,s1) is lexicographically largest.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4150,0001\xe2\x89\xa4n\xe2\x89\xa4150,000) \xe2\x80\x93 the number of skyscrapers.'
+b'The second line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa421\xe2\x89\xa4t\xe2\x89\xa42) describing the type of the subtask as defined above.'
+b'Then, nn lines follow. The ii-th of these lines contains two space-separated integers riri and cici (|ri|,|ci|\xe2\x89\xa4109|ri|,|ci|\xe2\x89\xa4109) denoting the coordinates of the cell containing skyscraper ii.'
+b'(The skyscrapers are not numbered in any particular order. The only reason why they have numbers is that they are used in the output format.)'
+b'It is guaranteed that no two skyscrapers coincide.'
+b'Output'
+b'If it is impossible to build the skyscrapers according to the given rules, print a single line containing the string "NO".'
+b'Otherwise, print n+1n+1 lines. The first of these lines should contain the string "YES". For each ii, the ii-th of the remaining nn lines should contain a single integer sisi.'
+b'In subtasks with t=1t=1, if there are multiple valid orders, you may output any one of them.'
+Tags
+*special problem

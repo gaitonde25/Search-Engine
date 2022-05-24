@@ -1,0 +1,14 @@
+b'The Duck song'
+b"For simplicity, we'll assume that there are only three types of grapes: green grapes, purple grapes and black grapes."
+b"Andrew, Dmitry and Michal are all grapes' lovers, however their preferences of grapes are different. To make all of them happy, the following should happen:"
+b' Andrew, Dmitry and Michal should eat at least xx, yy and zz grapes, respectively. Andrew has an extreme affinity for green grapes, thus he will eat green grapes and green grapes only. On the other hand, Dmitry is not a fan of black grapes\xc2\xa0\xe2\x80\x94 any types of grapes except black would do for him. In other words, Dmitry can eat green and purple grapes. Michal has a common taste\xc2\xa0\xe2\x80\x94 he enjoys grapes in general and will be pleased with any types of grapes, as long as the quantity is sufficient.'
+b'Knowing that his friends are so fond of grapes, Aki decided to host a grape party with them. He has prepared a box with aa green grapes, bb purple grapes and cc black grapes.'
+b"However, Aki isn't sure if the box he prepared contains enough grapes to make everyone happy. Can you please find out whether it's possible to distribute grapes so that everyone is happy or Aki has to buy some more grapes?"
+b"It is not required to distribute all the grapes, so it's possible that some of them will remain unused."
+b'Input'
+b'The first line contains three integers xx, yy and zz (1\xe2\x89\xa4x,y,z\xe2\x89\xa41051\xe2\x89\xa4x,y,z\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of grapes Andrew, Dmitry and Michal want to eat.'
+b'The second line contains three integers aa, bb, cc (1\xe2\x89\xa4a,b,c\xe2\x89\xa41051\xe2\x89\xa4a,b,c\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of green, purple and black grapes in the box.'
+b'Output'
+b'If there is a grape distribution that allows everyone to be happy, print "YES", otherwise print "NO".'
+Tags
+brute force, greedy, implementation, *800

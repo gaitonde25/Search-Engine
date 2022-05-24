@@ -1,0 +1,11 @@
+b'Implement a quantum oracle on NN qubits which checks whether the bits in the input vector x\xe2\x83\x97\xc2\xa0x\xe2\x86\x92 form a periodic bit string (i.e., implements the function f(x\xe2\x83\x97\xc2\xa0)=1f(x\xe2\x86\x92)=1 if x\xe2\x83\x97\xc2\xa0x\xe2\x86\x92 is periodic, and 0 otherwise). '
+b'A bit string of length NN is considered periodic with period PP (1\xe2\x89\xa4P\xe2\x89\xa4N\xe2\x88\x9211\xe2\x89\xa4P\xe2\x89\xa4N\xe2\x88\x921) if for all i\xe2\x88\x88[0,N\xe2\x88\x92P\xe2\x88\x921]i\xe2\x88\x88[0,N\xe2\x88\x92P\xe2\x88\x921] xi=xi+Pxi=xi+P. Note that PP does not have to divide NN evenly; for example, bit string "01010" is periodic with period P=2P=2.'
+b'You have to implement an operation which takes the following inputs:'
+b' an array of NN (2\xe2\x89\xa4N\xe2\x89\xa472\xe2\x89\xa4N\xe2\x89\xa47) qubits xx in an arbitrary state (input register), a qubit yy in an arbitrary state (output qubit),'
+b'and performs a transformation |x\xe2\x9f\xa9|y\xe2\x9f\xa9\xe2\x86\x92|x\xe2\x9f\xa9|y\xe2\x8a\x95f(x)\xe2\x9f\xa9|x\xe2\x9f\xa9|y\xe2\x9f\xa9\xe2\x86\x92|x\xe2\x9f\xa9|y\xe2\x8a\x95f(x)\xe2\x9f\xa9. The operation doesn\'t have an output; its "output" is the state in which it leaves the qubits. Note that the input register xx has to remain unchanged after applying the operation.'
+b'Your code should have the following signature:'
+b'namespace Solution {    open Microsoft.Quantum.Primitive;    open Microsoft.Quantum.Canon;    operation Solve (x : Qubit[], y : Qubit) : Unit {        body (...) {            // your code here        }        adjoint auto;    }}'
+b'Note: the operation has to have an adjoint specified for it; adjoint auto means that the adjoint will be generated automatically. For details on adjoint, see Operation Definitions.'
+b'You are not allowed to use measurements in your operation.'
+Tags
+

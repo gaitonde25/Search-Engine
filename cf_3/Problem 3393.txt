@@ -1,0 +1,11 @@
+b'A point belongs to a triangle if it lies inside the triangle or on one of its sides. Two triangles are disjoint if there is no point on the plane that belongs to both triangles.'
+b'You are given nn points on the plane. No two points coincide and no three points are collinear.'
+b'Find the number of different ways to choose two disjoint triangles with vertices in the given points. Two ways which differ only in order of triangles or in order of vertices inside triangles are considered equal.'
+b'Input'
+b'The first line of the input contains an integer nn (6\xe2\x89\xa4n\xe2\x89\xa420006\xe2\x89\xa4n\xe2\x89\xa42000) \xe2\x80\x93 the number of points.'
+b'Each of the next nn lines contains two integers xixi and yiyi (|xi|,|yi|\xe2\x89\xa4109|xi|,|yi|\xe2\x89\xa4109) \xe2\x80\x93 the coordinates of a point.'
+b'No two points coincide and no three points are collinear.'
+b'Output'
+b'Print one integer \xe2\x80\x93 the number of ways to choose two disjoint triangles.'
+Tags
+geometry, *2700

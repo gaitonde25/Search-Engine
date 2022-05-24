@@ -1,0 +1,13 @@
+b"Let's denote a m-free matrix as a binary (that is, consisting of only 1's and 0's) matrix such that every square submatrix of size m\xe2\x80\x89\xc3\x97\xe2\x80\x89m of this matrix contains at least one zero. "
+b'Consider the following problem:'
+b"You are given two integers n and m. You have to construct an m-free square matrix of size n\xe2\x80\x89\xc3\x97\xe2\x80\x89n such that the number of 1's in this matrix is maximum possible. Print the maximum possible number of 1's in such matrix."
+b"You don't have to solve this problem. Instead, you have to construct a few tests for it."
+b'You will be given t numbers x1, x2, ..., xt. For every , find two integers ni and mi (ni\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x89mi) such that the answer for the aforementioned problem is exactly xi if we set n\xe2\x80\x89=\xe2\x80\x89ni and m\xe2\x80\x89=\xe2\x80\x89mi.'
+b'Input'
+b'The first line contains one integer t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of tests you have to construct.'
+b'Then t lines follow, i-th line containing one integer xi (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Note that in hacks you have to set t\xe2\x80\x89=\xe2\x80\x891.'
+b'Output'
+b"For each test you have to construct, output two positive numbers ni and mi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89mi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ni\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) such that the maximum number of 1's in a mi-free ni\xe2\x80\x89\xc3\x97\xe2\x80\x89ni matrix is exactly xi. If there are multiple solutions, you may output any of them; and if this is impossible to construct a test, output a single integer \xe2\x80\x89-\xe2\x80\x891. "
+Tags
+binary search, brute force, constructive algorithms, *1700

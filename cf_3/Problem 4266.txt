@@ -1,0 +1,12 @@
+b'Grigory loves strings. Recently he found a metal strip on a loft. The strip had length n and consisted of letters "V" and "K". Unfortunately, rust has eaten some of the letters so that it\'s now impossible to understand which letter was written.'
+b'Grigory couldn\'t understand for a long time what these letters remind him of, so he became interested in the following question: if we put a letter "V" or "K" on each unreadable position, which values can the period of the resulting string be equal to?'
+b'A period of a string is such an integer d from 1 to the length of the string that if we put the string shifted by d positions to the right on itself, then all overlapping letters coincide. For example, 3 and 5 are periods of "VKKVK".'
+b'Input'
+b'There are several (at least one) test cases in the input. The first line contains single integer\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'There is an empty line before each test case. Each test case is described in two lines: the first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the length of the string, the second line contains the string of length n, consisting of letters "V", "K" and characters "?". The latter means the letter on its position is unreadable.'
+b"It is guaranteed that the sum of lengths among all test cases doesn't exceed 5\xc2\xb7105."
+b'For hacks you can only use tests with one test case.'
+b'Output'
+b'For each test case print two lines. In the first line print the number of possible periods after we replace each unreadable letter with "V" or "K". In the next line print all these values in increasing order.'
+Tags
+fft, math, strings, *2700

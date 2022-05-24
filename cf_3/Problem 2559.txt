@@ -1,0 +1,13 @@
+b'Tokitsukaze is one of the characters in the game "Kantai Collection". In this game, every character has a common attribute\xc2\xa0\xe2\x80\x94 health points, shortened to HP.'
+b'In general, different values of HP are grouped into 44 categories:'
+b'  Category AA if HP is in the form of (4n+1)(4n+1), that is, when divided by 44, the remainder is 11;  Category BB if HP is in the form of (4n+3)(4n+3), that is, when divided by 44, the remainder is 33;  Category CC if HP is in the form of (4n+2)(4n+2), that is, when divided by 44, the remainder is 22;  Category DD if HP is in the form of 4n4n, that is, when divided by 44, the remainder is 00. '
+b'The above-mentioned nn can be any integer.'
+b'These 44 categories ordered from highest to lowest as A>B>C>DA>B>C>D, which means category AA is the highest and category DD is the lowest.'
+b'While playing the game, players can increase the HP of the character. Now, Tokitsukaze wants you to increase her HP by at most 22 (that is, either by 00, 11 or 22). How much should she increase her HP so that it has the highest possible category?'
+b'Input'
+b"The only line contains a single integer xx (30\xe2\x89\xa4x\xe2\x89\xa410030\xe2\x89\xa4x\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the value Tokitsukaze's HP currently."
+b'Output'
+b'Print an integer aa (0\xe2\x89\xa4a\xe2\x89\xa420\xe2\x89\xa4a\xe2\x89\xa42) and an uppercase letter bb (b\xe2\x88\x88{A,B,C,D}b\xe2\x88\x88{A,B,C,D}), representing that the best way is to increase her HP by aa, and then the category becomes bb.'
+b'Note that the output characters are case-sensitive.'
+Tags
+brute force, *800

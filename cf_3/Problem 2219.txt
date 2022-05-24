@@ -1,0 +1,13 @@
+b"You are given a binary string of length nn (i.\xe2\x80\x89e. a string consisting of nn characters '0' and '1')."
+b'In one move you can swap two adjacent characters of the string. What is the lexicographically minimum possible string you can obtain from the given one if you can perform no more than kk moves? It is possible that you do not perform any moves at all.'
+b'Note that you can swap the same pair of adjacent characters with indices ii and i+1i+1 arbitrary (possibly, zero) number of times. Each such swap is considered a separate move.'
+b'You have to answer qq independent test cases.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41041\xe2\x89\xa4q\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases.'
+b'The first line of the test case contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa4106,1\xe2\x89\xa4k\xe2\x89\xa4n21\xe2\x89\xa4n\xe2\x89\xa4106,1\xe2\x89\xa4k\xe2\x89\xa4n2) \xe2\x80\x94 the length of the string and the number of moves you can perform.'
+b"The second line of the test case contains one string consisting of nn characters '0' and '1'."
+b'It is guaranteed that the sum of nn over all test cases does not exceed 106106 (\xe2\x88\x91n\xe2\x89\xa4106\xe2\x88\x91n\xe2\x89\xa4106).'
+b'Output'
+b'For each test case, print the answer on it: the lexicographically minimum possible string of length nn you can obtain from the given one if you can perform no more than kk moves.'
+Tags
+greedy, *1500

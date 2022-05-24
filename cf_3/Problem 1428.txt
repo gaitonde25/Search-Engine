@@ -1,0 +1,12 @@
+b'All techniques in the ninja world consist of hand seals. At the moment Naruto is learning a new technique, which consists of n\xe2\x8b\x85mn\xe2\x8b\x85m different seals, denoted by distinct numbers. All of them were written in an n\xc3\x97mn\xc3\x97m table.'
+b"The table is lost now. Naruto managed to remember elements of each row from left to right, and elements of each column from top to bottom, but he doesn't remember the order of rows and columns. Please restore the table consistent with this data so that Naruto will be able to learn the new technique."
+b'Input'
+b'The first line of the input contains the only integer tt (1\xe2\x89\xa4t\xe2\x89\xa41000001\xe2\x89\xa4t\xe2\x89\xa4100000) denoting the number of test cases. Their descriptions follow.'
+b'The first line of each test case description consists of two space-separated integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa45001\xe2\x89\xa4n,m\xe2\x89\xa4500) standing for the number of rows and columns in the table, respectively. All hand seals are encoded by the positive integers from 11 to n\xe2\x8b\x85mn\xe2\x8b\x85m.'
+b'The following nn lines contain mm space separated integers each, denoting elements of an arbitrary row in the table left to right.'
+b'The following mm lines contain nn space separated integers each, denoting elements of an arbitrary column in the table top to bottom.'
+b'Sum of nmnm over all test cases does not exceed 250000250000. It is guaranteed that each row occurs in the input exactly once, as well as each column. It is also guaranteed that each number from 11 to nmnm occurs exactly once in all rows, as well as in all columns. Finally, it is guaranteed that a table consistent with the input exists.'
+b'Output'
+b'For each test case, output nn lines with mm space-separated integers each, denoting the restored table. One can show that the answer is always unique.'
+Tags
+implementation, *1100

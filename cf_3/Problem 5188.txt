@@ -1,0 +1,14 @@
+b"Oleg Petrov loves crossword puzzles and every Thursday he buys his favorite magazine with crosswords and other word puzzles. In the last magazine Oleg found a curious puzzle, and the magazine promised a valuable prize for it's solution. We give a formal description of the problem below."
+b'The puzzle field consists of two rows, each row contains n cells. Each cell contains exactly one small English letter. You also are given a word w, which consists of k small English letters. A solution of the puzzle is a sequence of field cells c1, ..., ck, such that:'
+b' For all i from 1 to k the letter written in the cell ci matches the letter wi; All the cells in the sequence are pairwise distinct; For all i from 1 to k\xe2\x80\x89-\xe2\x80\x891 cells ci and ci\xe2\x80\x89+\xe2\x80\x891 have a common side.'
+b"Oleg Petrov quickly found a solution for the puzzle. Now he wonders, how many distinct solutions are there for this puzzle. Oleg Petrov doesn't like too large numbers, so calculate the answer modulo 109\xe2\x80\x89+\xe2\x80\x897."
+b"Two solutions ci and c'i are considered distinct if the sequences of cells do not match in at least one position, that is there is such j in range from 1 to k, such that cj\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89c'j."
+b'Input'
+b'The first two lines contain the state of the field for the puzzle. Each of these non-empty lines contains exactly n small English letters.'
+b'The next line is left empty.'
+b'The next line is non-empty and contains word w, consisting of small English letters.'
+b"The length of each line doesn't exceed 2\xe2\x80\x89000."
+b'Output'
+b'Print a single integer \xe2\x80\x94 the number of distinct solutions for the puzzle modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+dp, hashing, strings, *3200

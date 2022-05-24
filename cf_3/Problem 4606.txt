@@ -1,0 +1,10 @@
+b"Every Codeforces user has rating, described with one integer, possibly negative or zero. Users are divided into two divisions. The first division is for users with rating 1900 or higher. Those with rating 1899 or lower belong to the second division. In every contest, according to one's performance, his or her rating changes by some value, possibly negative or zero."
+b'Limak competed in n contests in the year 2016. He remembers that in the i-th contest he competed in the division di (i.e. he belonged to this division just before the start of this contest) and his rating changed by ci just after the contest. Note that negative ci denotes the loss of rating.'
+b'What is the maximum possible rating Limak can have right now, after all n contests? If his rating may be arbitrarily big, print "Infinity". If there is no scenario matching the given information, print "Impossible".'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000).'
+b"The i-th of next n lines contains two integers ci and di (\xe2\x80\x89-\xe2\x80\x89100\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892), describing Limak's rating change after the i-th contest and his division during the i-th contest contest."
+b'Output'
+b'If Limak\'s current rating can be arbitrarily big, print "Infinity" (without quotes). If the situation is impossible, print "Impossible" (without quotes). Otherwise print one integer, denoting the maximum possible value of Limak\'s current rating, i.e. rating after the n contests.'
+Tags
+binary search, greedy, math, *1600

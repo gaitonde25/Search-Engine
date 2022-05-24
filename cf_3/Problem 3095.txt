@@ -1,0 +1,12 @@
+b'You are given a positive integer nn.'
+b'Find a sequence of fractions aibiaibi, i=1\xe2\x80\xa6ki=1\xe2\x80\xa6k (where aiai and bibi are positive integers) for some kk such that:'
+b'\xe2\x8e\xa7\xe2\x8e\xa9\xe2\x8e\xa8\xe2\x8e\xaa\xe2\x8e\xaa\xe2\x8e\xaa\xe2\x8e\xaa\xe2\x8e\xaa\xe2\x8e\xaabi\xc2\xa0divides\xc2\xa0n,\xc2\xa01<bi<n\xc2\xa0for\xc2\xa0i=1\xe2\x80\xa6k1\xe2\x89\xa4ai<bi\xc2\xa0for\xc2\xa0i=1\xe2\x80\xa6k\xe2\x88\x91i=1kaibi=1\xe2\x88\x921n{bi\xc2\xa0divides\xc2\xa0n,\xc2\xa01<bi<n\xc2\xa0for\xc2\xa0i=1\xe2\x80\xa6k1\xe2\x89\xa4ai<bi\xc2\xa0for\xc2\xa0i=1\xe2\x80\xa6k\xe2\x88\x91i=1kaibi=1\xe2\x88\x921n'
+b'Input'
+b'The input consists of a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41092\xe2\x89\xa4n\xe2\x89\xa4109).'
+b'Output'
+b'In the first line print "YES" if there exists such a sequence of fractions or "NO" otherwise.'
+b'If there exists such a sequence, next lines should contain a description of the sequence in the following format.'
+b'The second line should contain integer kk (1\xe2\x89\xa4k\xe2\x89\xa41000001\xe2\x89\xa4k\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the number of elements in the sequence. It is guaranteed that if such a sequence exists, then there exists a sequence of length at most 100000100000.'
+b'Next kk lines should contain fractions of the sequence with two integers aiai and bibi on each line.'
+Tags
+math, *1900

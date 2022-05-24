@@ -1,0 +1,15 @@
+b'This is the easy version of the problem. The difference between the versions is in the number of possible operations that can be made. You can make hacks if and only if you solved both versions of the problem.'
+b'You are given a binary table of size n\xc3\x97mn\xc3\x97m. This table consists of symbols 00 and 11.'
+b'You can make such operation: select 33 different cells that belong to one 2\xc3\x9722\xc3\x972 square and change the symbols in these cells (change 00 to 11 and 11 to 00).'
+b"Your task is to make all symbols in the table equal to 00. You are allowed to make at most 3nm3nm operations. You don't need to minimize the number of operations."
+b'It can be proved that it is always possible.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 the number of test cases. The next lines contain descriptions of test cases.'
+b'The first line of the description of each test case contains two integers nn, mm (2\xe2\x89\xa4n,m\xe2\x89\xa41002\xe2\x89\xa4n,m\xe2\x89\xa4100).'
+b'Each of the next nn lines contains a binary string of length mm, describing the symbols of the next row of the table.'
+b'It is guaranteed that the sum of nmnm for all test cases does not exceed 2000020000.'
+b'Output'
+b'For each test case print the integer kk (0\xe2\x89\xa4k\xe2\x89\xa43nm0\xe2\x89\xa4k\xe2\x89\xa43nm)\xc2\xa0\xe2\x80\x94 the number of operations.'
+b'In the each of the next kk lines print 66 integers x1,y1,x2,y2,x3,y3x1,y1,x2,y2,x3,y3 (1\xe2\x89\xa4x1,x2,x3\xe2\x89\xa4n,1\xe2\x89\xa4y1,y2,y3\xe2\x89\xa4m1\xe2\x89\xa4x1,x2,x3\xe2\x89\xa4n,1\xe2\x89\xa4y1,y2,y3\xe2\x89\xa4m) describing the next operation. This operation will be made with three cells (x1,y1)(x1,y1), (x2,y2)(x2,y2), (x3,y3)(x3,y3). These three cells should be different. These three cells should belong into some 2\xc3\x9722\xc3\x972 square.'
+Tags
+constructive algorithms, implementation, *1500

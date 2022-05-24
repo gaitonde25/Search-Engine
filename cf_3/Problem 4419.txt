@@ -1,0 +1,14 @@
+b'Bankopolis is an incredible city in which all the n crossroads are located on a straight line and numbered from 1 to n along it. On each crossroad there is a bank office.'
+b'The crossroads are connected with m oriented bicycle lanes (the i-th lane goes from crossroad ui to crossroad vi), the difficulty of each of the lanes is known.'
+b'Oleg the bank client wants to gift happiness and joy to the bank employees. He wants to visit exactly k offices, in each of them he wants to gift presents to the employees.'
+b"The problem is that Oleg don't want to see the reaction on his gifts, so he can't use a bicycle lane which passes near the office in which he has already presented his gifts (formally, the i-th lane passes near the office on the x-th crossroad if and only if min(ui,\xe2\x80\x89vi)\xe2\x80\x89<\xe2\x80\x89x\xe2\x80\x89<\xe2\x80\x89max(ui,\xe2\x80\x89vi))). Of course, in each of the offices Oleg can present gifts exactly once. Oleg is going to use exactly k\xe2\x80\x89-\xe2\x80\x891 bicycle lane to move between offices. Oleg can start his path from any office and finish it in any office."
+b'Oleg wants to choose such a path among possible ones that the total difficulty of the lanes he will use is minimum possible. Find this minimum possible total difficulty.'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8980)\xc2\xa0\xe2\x80\x94 the number of crossroads (and offices) and the number of offices Oleg wants to visit.'
+b'The second line contains single integer m (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000)\xc2\xa0\xe2\x80\x94 the number of bicycle lanes in Bankopolis.'
+b'The next m lines contain information about the lanes.'
+b'The i-th of these lines contains three integers ui, vi and ci (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000), denoting the crossroads connected by the i-th road and its difficulty.'
+b'Output'
+b'In the only line print the minimum possible total difficulty of the lanes in a valid path, or -1 if there are no valid paths.'
+Tags
+dp, graphs, shortest paths, *2100

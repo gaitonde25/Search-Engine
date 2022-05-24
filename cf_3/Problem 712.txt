@@ -1,0 +1,11 @@
+b'You are given a string ss of length nn consisting only of the characters 0 and 1.'
+b'You perform the following operation until the string becomes empty: choose some consecutive substring of equal characters, erase it from the string and glue the remaining two parts together (any of them can be empty) in the same order. For example, if you erase the substring 111 from the string 111110, you will get the string 110. When you delete a substring of length ll, you get a\xe2\x8b\x85l+ba\xe2\x8b\x85l+b points.'
+b'Your task is to calculate the maximum number of points that you can score in total, if you have to make the given string empty.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa420001\xe2\x89\xa4t\xe2\x89\xa42000)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'The first line of each testcase contains three integers nn, aa and bb (1\xe2\x89\xa4n\xe2\x89\xa4100;\xe2\x88\x92100\xe2\x89\xa4a,b\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100;\xe2\x88\x92100\xe2\x89\xa4a,b\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the length of the string ss and the parameters aa and bb.'
+b'The second line contains the string ss. The string ss consists only of the characters 0 and 1.'
+b'Output'
+b'For each testcase, print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of points that you can score.'
+Tags
+greedy, math, *1000

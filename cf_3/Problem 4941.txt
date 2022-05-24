@@ -1,0 +1,9 @@
+b'Nicholas has an array a that contains n distinct integers from 1 to n. In other words, Nicholas has a permutation of size n.'
+b'Nicholas want the minimum element (integer 1) and the maximum element (integer n) to be as far as possible from each other. He wants to perform exactly one swap in order to maximize the distance between the minimum and the maximum elements. The distance between two elements is considered to be equal to the absolute difference between their positions.'
+b'Input'
+b'The first line of the input contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the size of the permutation.'
+b'The second line of the input contains n distinct integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), where ai is equal to the element at the i-th position.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum possible distance between the minimum and the maximum elements Nicholas can achieve by performing exactly one swap.'
+Tags
+constructive algorithms, implementation, *800

@@ -1,0 +1,17 @@
+b"Fedya and Sasha are friends, that's why Sasha knows everything about Fedya."
+b"Fedya keeps his patience in an infinitely large bowl. But, unlike the bowl, Fedya's patience isn't infinite, that is why let vv be the number of liters of Fedya's patience, and, as soon as vv becomes equal to 00, the bowl will burst immediately. There is one tap in the bowl which pumps ss liters of patience per second. Notice that ss can be negative, in that case, the tap pumps out the patience. Sasha can do different things, so he is able to change the tap's speed. All actions that Sasha does can be represented as qq queries. There are three types of queries:"
+b'  "1 t s" \xc2\xa0\xe2\x80\x94 add a new event, means that starting from the tt-th second the tap\'s speed will be equal to ss.  "2 t" \xc2\xa0\xe2\x80\x94 delete the event which happens at the tt-th second. It is guaranteed that such event exists.  "3 l r v"\xc2\xa0\xe2\x80\x94 Sasha wonders: if you take all the events for which l\xe2\x89\xa4t\xe2\x89\xa4rl\xe2\x89\xa4t\xe2\x89\xa4r and simulate changes of Fedya\'s patience from the very beginning of the ll-th second till the very beginning of the rr-th second inclusive (the initial volume of patience, at the beginning of the ll-th second, equals to vv liters) then when will be the moment when the bowl will burst. If that does not happen, then the answer will be \xe2\x88\x921\xe2\x88\x921. '
+b"Since Sasha does not want to check what will happen when Fedya's patience ends, and he has already come up with the queries, he is asking you to help him and find the answer for each query of the 33-rd type."
+b"It is guaranteed that at any moment of time, there won't be two events which happen at the same second."
+b'Input'
+b'The first line contans one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Each of the next qq lines have one of the following formats:'
+b"  1 t s (1\xe2\x89\xa4t\xe2\x89\xa41091\xe2\x89\xa4t\xe2\x89\xa4109, \xe2\x88\x92109\xe2\x89\xa4s\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4s\xe2\x89\xa4109), means that a new event is added, which means that starting from the tt-th second the tap's speed will be equal to ss.  2 t (1\xe2\x89\xa4t\xe2\x89\xa41091\xe2\x89\xa4t\xe2\x89\xa4109), means that the event which happens at the tt-th second must be deleted. Guaranteed that such exists.  3 l r v (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa41091\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4109, 0\xe2\x89\xa4v\xe2\x89\xa41090\xe2\x89\xa4v\xe2\x89\xa4109), means that you should simulate the process from the very beginning of the ll-th second till the very beginning of the rr-th second inclusive, and to say when will the bowl burst. "
+b'It is guaranteed that tt, ss, ll, rr, vv in all the queries are integers.'
+b"Also, it is guaranteed that there is at least one query of the 33-rd type, and there won't be a query of the 11-st type with such tt, that there already exists an event which happens at that second tt."
+b'Output'
+b"For each query of the 33-rd type, print in a new line the moment when the bowl will burst or print \xe2\x88\x921\xe2\x88\x921 if it won't happen."
+b"Your answer will be considered correct if it's absolute or relative error does not exceed 10\xe2\x88\x92610\xe2\x88\x926."
+b"Formally, let your answer be aa, and the jury's answer be bb. Your answer is accepted if and only if |a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926|a\xe2\x88\x92b|max(1,|b|)\xe2\x89\xa410\xe2\x88\x926."
+Tags
+binary search, data structures, implementation, *2800

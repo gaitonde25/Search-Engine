@@ -1,0 +1,14 @@
+b'You are given an array aa of nn integers.'
+b'You want to make all elements of aa equal to zero by doing the following operation exactly three times:'
+b'  Select a segment, for each number in this segment we can add a multiple of lenlen to it, where lenlen is the length of this segment (added integers can be different). '
+b'It can be proven that it is always possible to make all elements of aa equal to zero.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000): the number of elements of the array.'
+b'The second line contains nn elements of an array aa separated by spaces: a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'The output should contain six lines representing three operations.'
+b'For each operation, print two lines:'
+b'  The first line contains two integers ll, rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n): the bounds of the selected segment.  The second line contains r\xe2\x88\x92l+1r\xe2\x88\x92l+1 integers bl,bl+1,\xe2\x80\xa6,brbl,bl+1,\xe2\x80\xa6,br (\xe2\x88\x921018\xe2\x89\xa4bi\xe2\x89\xa41018\xe2\x88\x921018\xe2\x89\xa4bi\xe2\x89\xa41018): the numbers to add to al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar, respectively; bibi should be divisible by r\xe2\x88\x92l+1r\xe2\x88\x92l+1.'
+b' '
+Tags
+constructive algorithms, greedy, number theory, *1600

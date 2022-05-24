@@ -1,0 +1,17 @@
+b'  '
+b"Senor Vorpal Kickass'o invented an innovative method to encrypt integer sequences of length n. To encrypt a sequence, one has to choose a secret sequence , that acts as a key."
+b'Vorpal is very selective, so the key should be such a sequence bi, that its cyclic shifts are linearly independent, that is, there is no non-zero set of coefficients x0,\xe2\x80\x89x1,\xe2\x80\x89...,\xe2\x80\x89xn\xe2\x80\x89-\xe2\x80\x891, such that  for all k at the same time.'
+b'After that for a sequence  you should build the following cipher:'
+b''
+b"In other words, you are to compute the quadratic deviation between each cyclic shift of bi and the sequence ai. The resulting sequence is the Kickass's cipher. The cipher is in development right now and Vorpal wants to decipher a sequence after it has been encrypted. You are to solve this problem for him. You are given sequences ci and bi. You are to find all suitable sequences ai."
+b'Input'
+b'The first line contains a single integer n ().'
+b'The second line contains n integers b0,\xe2\x80\x89b1,\xe2\x80\x89...,\xe2\x80\x89bn\xe2\x80\x89-\xe2\x80\x891 ().'
+b'The third line contains n integers c0,\xe2\x80\x89c1,\xe2\x80\x89...,\xe2\x80\x89cn\xe2\x80\x89-\xe2\x80\x891 ().'
+b'It is guaranteed that all cyclic shifts of sequence bi are linearly independent.'
+b'Output'
+b'In the first line print a single integer k\xc2\xa0\xe2\x80\x94 the number of sequences ai, such that after encrypting them with key bi you get the sequence ci.'
+b'After that in each of k next lines print n integers a0,\xe2\x80\x89a1,\xe2\x80\x89...,\xe2\x80\x89an\xe2\x80\x89-\xe2\x80\x891. Print the sequences in lexicographical order.'
+b'Note that k could be equal to 0.'
+Tags
+fft, math, *3300

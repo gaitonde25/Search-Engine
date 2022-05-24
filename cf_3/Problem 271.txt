@@ -1,0 +1,13 @@
+b'Igor is in 11th grade. Tomorrow he will have to write an informatics test by the strictest teacher in the school, Pavel Denisovich. '
+b'Igor knows how the test will be conducted: first of all, the teacher will give each student two positive integers aa and bb (a<ba<b). After that, the student can apply any of the following operations any number of times: '
+b'  a:=a+1a:=a+1 (increase aa by 11),  b:=b+1b:=b+1 (increase bb by 11),  a:=a\xc2\xa0|\xc2\xa0ba:=a\xc2\xa0|\xc2\xa0b (replace aa with the bitwise OR of aa and bb). '
+b'To get full marks on the test, the student has to tell the teacher the minimum required number of operations to make aa and bb equal.'
+b'Igor already knows which numbers the teacher will give him. Help him figure out what is the minimum number of operations needed to make aa equal to bb.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Description of the test cases follows.'
+b'The only line for each test case contains two integers aa and bb (1\xe2\x89\xa4a<b\xe2\x89\xa41061\xe2\x89\xa4a<b\xe2\x89\xa4106).'
+b'It is guaranteed that the sum of bb over all test cases does not exceed 106106.'
+b'Output'
+b'For each test case print one integer \xe2\x80\x94 the minimum required number of operations to make aa and bb equal.'
+Tags
+binary search, bitmasks, brute force, dp, math, *1600

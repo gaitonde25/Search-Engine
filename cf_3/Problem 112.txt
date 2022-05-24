@@ -1,0 +1,7 @@
+b"You won't find this sequence on OEIS."
+b'Input'
+b'One integer rr (\xe2\x88\x9245\xe2\x89\xa4r\xe2\x89\xa42999\xe2\x88\x9245\xe2\x89\xa4r\xe2\x89\xa42999).'
+b'Output'
+b'One integer.'
+Tags
+divide and conquer, implementation, math

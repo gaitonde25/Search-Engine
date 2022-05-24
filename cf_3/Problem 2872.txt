@@ -1,0 +1,9 @@
+b'You have a set of items, each having some integer weight not greater than 88. You denote that a subset of items is good if total weight of items in the subset does not exceed WW.'
+b'You want to calculate the maximum possible weight of a good subset of items. Note that you have to consider the empty set and the original set when calculating the answer.'
+b'Input'
+b'The first line contains one integer WW (0\xe2\x89\xa4W\xe2\x89\xa410180\xe2\x89\xa4W\xe2\x89\xa41018) \xe2\x80\x94 the maximum total weight of a good subset.'
+b'The second line denotes the set of items you have. It contains 88 integers cnt1cnt1, cnt2cnt2, ..., cnt8cnt8 (0\xe2\x89\xa4cnti\xe2\x89\xa410160\xe2\x89\xa4cnti\xe2\x89\xa41016), where cnticnti is the number of items having weight ii in the set.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum possible weight of a good subset of items.'
+Tags
+dfs and similar, dp, greedy, *2300

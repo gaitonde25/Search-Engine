@@ -1,0 +1,16 @@
+b'Mayor of city S just hates trees and lawns. They take so much space and there could be a road on the place they occupy!'
+b'The Mayor thinks that one of the main city streets could be considerably widened on account of lawn nobody needs anyway. Moreover, that might help reduce the car jams which happen from time to time on the street.'
+b'The street is split into n equal length parts from left to right, the i-th part is characterized by two integers: width of road si and width of lawn gi.'
+b'  '
+b"For each of n parts the Mayor should decide the size of lawn to demolish. For the i-th part he can reduce lawn width by integer xi (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89gi). After it new road width of the i-th part will be equal to s'i\xe2\x80\x89=\xe2\x80\x89si\xe2\x80\x89+\xe2\x80\x89xi and new lawn width will be equal to g'i\xe2\x80\x89=\xe2\x80\x89gi\xe2\x80\x89-\xe2\x80\x89xi."
+b"On the one hand, the Mayor wants to demolish as much lawn as possible (and replace it with road). On the other hand, he does not want to create a rapid widening or narrowing of the road, which would lead to car accidents. To avoid that, the Mayor decided that width of the road for consecutive parts should differ by at most 1, i.e. for each i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89n) the inequation |s'i\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89-\xe2\x80\x89s'i|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891 should hold. Initially this condition might not be true."
+b'You need to find the the total width of lawns the Mayor will destroy according to his plan.'
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 number of parts of the street.'
+b'Each of the following n lines contains two integers si,\xe2\x80\x89gi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89si\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89gi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106) \xe2\x80\x94 current width of road and width of the lawn on the i-th part of the street.'
+b'Output'
+b'In the first line print the total width of lawns which will be removed.'
+b"In the second line print n integers s'1,\xe2\x80\x89s'2,\xe2\x80\x89...,\xe2\x80\x89s'n (si\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s'i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89si\xe2\x80\x89+\xe2\x80\x89gi) \xe2\x80\x94 new widths of the road starting from the first part and to the last."
+b'If there is no solution, print the only integer -1 in the first line.'
+Tags
+constructive algorithms, greedy, implementation, *1800

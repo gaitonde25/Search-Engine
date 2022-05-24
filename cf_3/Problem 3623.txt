@@ -1,0 +1,13 @@
+b'Kuro is currently playing an educational game about numbers. The game focuses on the greatest common divisor (GCD), the XOR value, and the sum of two numbers. Kuro loves the game so much that he solves levels by levels day by day.'
+b"Sadly, he's going on a vacation for a day, and he isn't able to continue his solving streak on his own. As Katie is a reliable person, Kuro kindly asked her to come to his house on this day to play the game for him."
+b'Initally, there is an empty array aa. The game consists of qq tasks of two types. The first type asks Katie to add a number uiui to aa. The second type asks Katie to find a number vv existing in aa such that ki\xe2\x88\xa3GCD(xi,v)ki\xe2\x88\xa3GCD(xi,v), xi+v\xe2\x89\xa4sixi+v\xe2\x89\xa4si, and xi\xe2\x8a\x95vxi\xe2\x8a\x95v is maximized, where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation, GCD(c,d)GCD(c,d) denotes the greatest common divisor of integers cc and dd, and y\xe2\x88\xa3xy\xe2\x88\xa3x means xx is divisible by yy, or report -1 if no such numbers are found.'
+b"Since you are a programmer, Katie needs you to automatically and accurately perform the tasks in the game to satisfy her dear friend Kuro. Let's help her!"
+b'Input'
+b'The first line contains one integer qq (2\xe2\x89\xa4q\xe2\x89\xa41052\xe2\x89\xa4q\xe2\x89\xa4105) \xe2\x80\x94 the number of tasks the game wants you to perform.'
+b'qq lines follow, each line begins with an integer titi \xe2\x80\x94 the type of the task: '
+b'  If ti=1ti=1, an integer uiui follow (1\xe2\x89\xa4ui\xe2\x89\xa41051\xe2\x89\xa4ui\xe2\x89\xa4105) \xe2\x80\x94 you have to add uiui to the array aa.  If ti=2ti=2, three integers xixi, kiki, and sisi follow (1\xe2\x89\xa4xi,ki,si\xe2\x89\xa41051\xe2\x89\xa4xi,ki,si\xe2\x89\xa4105) \xe2\x80\x94 you must find a number vv existing in the array aa such that ki\xe2\x88\xa3GCD(xi,v)ki\xe2\x88\xa3GCD(xi,v), xi+v\xe2\x89\xa4sixi+v\xe2\x89\xa4si, and xi\xe2\x8a\x95vxi\xe2\x8a\x95v is maximized, where \xe2\x8a\x95\xe2\x8a\x95 denotes the XOR operation, or report -1 if no such numbers are found. '
+b'It is guaranteed that the type of the first task is type 11, and there exists at least one task of type 22.'
+b'Output'
+b'For each task of type 22, output on one line the desired number vv, or -1 if no such numbers are found.'
+Tags
+binary search, bitmasks, brute force, data structures, dp, dsu, greedy, math, number theory, strings, trees, *2200

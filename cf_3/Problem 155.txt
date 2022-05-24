@@ -1,0 +1,13 @@
+b'You are given a tree consisting of nn vertices, and qq triples (xi,yi,si)(xi,yi,si), where xixi and yiyi are integers from 11 to nn, and sisi is a string with length equal to the number of vertices on the simple path from xixi to yiyi.'
+b'You want to write a lowercase Latin letter on each vertex in such a way that, for each of qq given triples, at least one of the following conditions holds:'
+b'  if you write out the letters on the vertices on the simple path from xixi to yiyi in the order they appear on this path, you get the string sisi;  if you write out the letters on the vertices on the simple path from yiyi to xixi in the order they appear on this path, you get the string sisi. '
+b'Find any possible way to write a letter on each vertex to meet these constraints, or report that it is impossible.'
+b'Input'
+b'The first line contains two integers nn and qq (2\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x85105; 1\xe2\x89\xa4q\xe2\x89\xa44\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa44\xe2\x8b\x85105) \xe2\x80\x94 the number of vertices in the tree and the number of triples, respectively.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follow; the ii-th of them contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n; ui\xe2\x89\xa0viui\xe2\x89\xa0vi) \xe2\x80\x94 the endpoints of the ii-th edge. These edges form a tree.'
+b'Then qq lines follow; the jj-th of them contains two integers xjxj and yjyj, and a string sjsj consisting of lowercase Latin letters. The length of sjsj is equal to the number of vertices on the simple path between xjxj and yjyj.'
+b'Additional constraint on the input: \xe2\x88\x91j=1q|sj|\xe2\x89\xa44\xe2\x8b\x85105\xe2\x88\x91j=1q|sj|\xe2\x89\xa44\xe2\x8b\x85105.'
+b'Output'
+b'If there is no way to meet the conditions on all triples, print NO. Otherwise, print YES in the first line, and a string of nn lowercase Latin letters in the second line; the ii-th character of the string should be the letter you write on the ii-th vertex. If there are multiple answers, print any of them.'
+Tags
+2-sat, dfs and similar, dsu, graphs, trees, *2600

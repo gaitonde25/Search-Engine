@@ -1,0 +1,15 @@
+b'There are two bus stops denoted A and B, and there nn buses that go from A to B every day. The shortest path from A to B takes tt units of time but some buses might take longer paths. Moreover, buses are allowed to overtake each other during the route.'
+b"At each station one can find a sorted list of moments of time when a bus is at this station. We denote this list as a1<a2<\xe2\x80\xa6<ana1<a2<\xe2\x80\xa6<an for stop A and as b1<b2<\xe2\x80\xa6<bnb1<b2<\xe2\x80\xa6<bn for stop B. The buses always depart from A and arrive to B according to the timetable, but the order in which the buses arrive may differ. Let's call an order of arrivals valid if each bus arrives at least tt units of time later than departs."
+b'It is known that for an order to be valid the latest possible arrival for the bus that departs at aiai is bxibxi, i.e. xixi-th in the timetable. In other words, for each ii there exists such a valid order of arrivals that the bus departed ii-th arrives xixi-th (and all other buses can arrive arbitrary), but there is no valid order of arrivals in which the ii-th departed bus arrives (xi+1)(xi+1)-th.'
+b"Formally, let's call a permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn valid, if bpi\xe2\x89\xa5ai+tbpi\xe2\x89\xa5ai+t for all ii. Then xixi is the maximum value of pipi among all valid permutations."
+b'You are given the sequences a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn, but not the arrival timetable. Find out any suitable timetable for stop B b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn or determine that there is no such timetable.'
+b'Input'
+b'The first line of the input contains two integers nn and tt (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000, 1\xe2\x89\xa4t\xe2\x89\xa410181\xe2\x89\xa4t\xe2\x89\xa41018)\xc2\xa0\xe2\x80\x94 the number of buses in timetable for and the minimum possible travel time from stop A to stop B.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4a1<a2<\xe2\x80\xa6<an\xe2\x89\xa410181\xe2\x89\xa4a1<a2<\xe2\x80\xa6<an\xe2\x89\xa41018), defining the moments of time when the buses leave stop A.'
+b'The third line contains nn integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn (1\xe2\x89\xa4xi\xe2\x89\xa4n1\xe2\x89\xa4xi\xe2\x89\xa4n), the ii-th of them stands for the maximum possible timetable position, at which the ii-th bus leaving stop A can arrive at stop B. '
+b'Output'
+b'If a solution exists, print "Yes" (without quotes) in the first line of the output.'
+b'In the second line print nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4b1<b2<\xe2\x80\xa6<bn\xe2\x89\xa43\xe2\x8b\x8510181\xe2\x89\xa4b1<b2<\xe2\x80\xa6<bn\xe2\x89\xa43\xe2\x8b\x851018). We can show that if there exists any solution, there exists a solution that satisfies such constraints on bibi. If there are multiple valid answers you can print any of them.'
+b'If there is no valid timetable, print "No" (without quotes) in the only line of the output.'
+Tags
+constructive algorithms, data structures, greedy, math, *2300

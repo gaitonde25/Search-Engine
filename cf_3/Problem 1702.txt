@@ -1,0 +1,11 @@
+b'We define xmodyxmody as the remainder of division of xx by yy (%% operator in C++ or Java, mod operator in Pascal).'
+b"Let's call an array of positive integers [a1,a2,\xe2\x80\xa6,ak][a1,a2,\xe2\x80\xa6,ak] stable if for every permutation pp of integers from 11 to kk, and for every non-negative integer xx, the following condition is met:"
+b' (((xmoda1)moda2)\xe2\x80\xa6modak\xe2\x88\x921)modak=(((xmodap1)modap2)\xe2\x80\xa6modapk\xe2\x88\x921)modapk(((xmoda1)moda2)\xe2\x80\xa6modak\xe2\x88\x921)modak=(((xmodap1)modap2)\xe2\x80\xa6modapk\xe2\x88\x921)modapk '
+b'That is, for each non-negative integer xx, the value of (((xmoda1)moda2)\xe2\x80\xa6modak\xe2\x88\x921)modak(((xmoda1)moda2)\xe2\x80\xa6modak\xe2\x88\x921)modak does not change if we reorder the elements of the array aa.'
+b'For two given integers nn and kk, calculate the number of stable arrays [a1,a2,\xe2\x80\xa6,ak][a1,a2,\xe2\x80\xa6,ak] such that 1\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<ak\xe2\x89\xa4n1\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<ak\xe2\x89\xa4n.'
+b'Input'
+b'The only line contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n,k\xe2\x89\xa45\xe2\x8b\x85105).'
+b'Output'
+b'Print one integer \xe2\x80\x94 the number of stable arrays [a1,a2,\xe2\x80\xa6,ak][a1,a2,\xe2\x80\xa6,ak] such that 1\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<ak\xe2\x89\xa4n1\xe2\x89\xa4a1<a2<\xe2\x8b\xaf<ak\xe2\x89\xa4n. Since the answer may be large, print it modulo 998244353998244353.'
+Tags
+combinatorics, math, number theory, *2000

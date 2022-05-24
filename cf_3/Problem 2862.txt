@@ -1,0 +1,11 @@
+b'After lessons Nastya decided to read a book. The book contains nn chapters, going one after another, so that one page of the book belongs to exactly one chapter and each chapter contains at least one page.'
+b'Yesterday evening Nastya did not manage to finish reading the book, so she marked the page with number kk as the first page which was not read (i.e. she read all pages from the 11-st to the (k\xe2\x88\x921)(k\xe2\x88\x921)-th).'
+b"The next day Nastya's friend Igor came and asked her, how many chapters remain to be read by Nastya? Nastya is too busy now, so she asks you to compute the number of chapters she has not completely read yet (i.e. the number of chapters she has not started to read or has finished reading somewhere in the middle)."
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of chapters in the book.'
+b"There are nn lines then. The ii-th of these lines contains two integers lili, riri separated by space (l1=1l1=1, li\xe2\x89\xa4rili\xe2\x89\xa4ri)\xc2\xa0\xe2\x80\x94 numbers of the first and the last pages of the ii-th chapter. It's guaranteed that li+1=ri+1li+1=ri+1 for all 1\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x9211\xe2\x89\xa4i\xe2\x89\xa4n\xe2\x88\x921, and also that every chapter contains at most 100100 pages."
+b'The (n+2)(n+2)-th line contains a single integer kk (1\xe2\x89\xa4k\xe2\x89\xa4rn1\xe2\x89\xa4k\xe2\x89\xa4rn)\xc2\xa0\xe2\x80\x94 the index of the marked page. '
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of chapters which has not been completely read so far.'
+Tags
+implementation, *800

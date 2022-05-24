@@ -1,0 +1,10 @@
+b'You are a coach of a group consisting of nn students. The ii-th student has programming skill aiai. All students have distinct programming skills. You want to divide them into teams in such a way that:'
+b'  No two students ii and jj such that |ai\xe2\x88\x92aj|=1|ai\xe2\x88\x92aj|=1 belong to the same team (i.e. skills of each pair of students in the same team have the difference strictly greater than 11);  the number of teams is the minimum possible. '
+b'You have to answer qq independent queries.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41001\xe2\x89\xa4q\xe2\x89\xa4100) \xe2\x80\x94 the number of queries. Then qq queries follow.'
+b'The first line of the query contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of students in the query. The second line of the query contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100, all aiai are distinct), where aiai is the programming skill of the ii-th student.'
+b'Output'
+b'For each query, print the answer on it \xe2\x80\x94 the minimum number of teams you can form if no two students ii and jj such that |ai\xe2\x88\x92aj|=1|ai\xe2\x88\x92aj|=1 may belong to the same team (i.e. skills of each pair of students in the same team has the difference strictly greater than 11)'
+Tags
+math, *800

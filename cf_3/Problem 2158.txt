@@ -1,0 +1,14 @@
+b"For an array aa of integers let's denote its maximal element as max(a)max(a), and minimal as min(a)min(a). We will call an array aa of kk integers interesting if max(a)\xe2\x88\x92min(a)\xe2\x89\xa5kmax(a)\xe2\x88\x92min(a)\xe2\x89\xa5k. For example, array [1,3,4,3][1,3,4,3] isn't interesting as max(a)\xe2\x88\x92min(a)=4\xe2\x88\x921=3<4max(a)\xe2\x88\x92min(a)=4\xe2\x88\x921=3<4 while array [7,3,0,4,3][7,3,0,4,3] is as max(a)\xe2\x88\x92min(a)=7\xe2\x88\x920=7\xe2\x89\xa55max(a)\xe2\x88\x92min(a)=7\xe2\x88\x920=7\xe2\x89\xa55."
+b"You are given an array aa of nn integers. Find some interesting nonempty subarray of aa, or tell that it doesn't exist."
+b'An array bb is a subarray of an array aa if bb can be obtained from aa by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end. In particular, an array is a subarray of itself.'
+b'Input'
+b'The first line contains integer number tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000). Then tt test cases follow.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output "NO" in a separate line if there is no interesting nonempty subarray in aa. '
+b'Otherwise, output "YES" in a separate line. In the next line, output two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 bounds of the chosen subarray. If there are multiple answers, print any.'
+b'You can print each letter in any case (upper or lower).'
+Tags
+constructive algorithms, greedy, math, *1200

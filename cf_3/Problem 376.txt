@@ -1,0 +1,19 @@
+b"'Twas the night before Christmas, and Santa's frantically setting up his new Christmas tree! There are nn nodes in the tree, connected by n\xe2\x88\x921n\xe2\x88\x921 edges. On each edge of the tree, there's a set of Christmas lights, which can be represented by an integer in binary representation."
+b'  '
+b"He has mm elves come over and admire his tree. Each elf is assigned two nodes, aa and bb, and that elf looks at all lights on the simple path between the two nodes. After this, the elf's favorite number becomes the bitwise XOR of the values of the lights on the edges in that path."
+b"However, the North Pole has been recovering from a nasty bout of flu. Because of this, Santa forgot some of the configurations of lights he had put on the tree, and he has already left the North Pole! Fortunately, the elves came to the rescue, and each one told Santa what pair of nodes he was assigned (ai,bi)(ai,bi), as well as the parity of the number of set bits in his favorite number. In other words, he remembers whether the number of 11's when his favorite number is written in binary is odd or even."
+b"Help Santa determine if it's possible that the memories are consistent, and if it is, remember what his tree looked like, and maybe you'll go down in history!"
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt cases follow.'
+b'The first line of each test case contains two integers, nn and mm (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the size of tree and the number of elves respectively.'
+b"The next n\xe2\x88\x921n\xe2\x88\x921 lines of each test case each contains three integers, xx, yy, and vv (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n; \xe2\x88\x921\xe2\x89\xa4v<230\xe2\x88\x921\xe2\x89\xa4v<230)\xc2\xa0\xe2\x80\x94 meaning that there's an edge between nodes xx and yy. If "
+b"  v=\xe2\x88\x921v=\xe2\x88\x921: Santa doesn't remember what the set of lights were on for this edge.  v\xe2\x89\xa50v\xe2\x89\xa50: The set of lights on the edge is vv. "
+b"The next mm lines of each test case each contains three integers, aa, bb, and pp (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n; a\xe2\x89\xa0ba\xe2\x89\xa0b; 0\xe2\x89\xa4p\xe2\x89\xa410\xe2\x89\xa4p\xe2\x89\xa41)\xc2\xa0\xe2\x80\x94 the nodes that the elf was assigned to, and the parity of the number of set bits in the elf's favorite number."
+b"It is guaranteed that the sum of all nn and the sum of all mm don't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 each."
+b'It is guaranteed that the given edges form a tree.'
+b'Output'
+b"For each test case, first print either YES or NO (in any case), whether there's a tree consistent with Santa's memory or not. "
+b'If the answer is YES, print n\xe2\x88\x921n\xe2\x88\x921 lines each containing three integers: xx, yy, and vv (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n; 0\xe2\x89\xa4v<2300\xe2\x89\xa4v<230)\xc2\xa0\xe2\x80\x94 the edge and the integer on that edge. The set of edges must be the same as in the input, and if the value of some edge was specified earlier, it can not change. You can print the edges in any order.'
+b'If there are multiple answers, print any.'
+Tags
+bitmasks, dfs and similar, dsu, graphs, trees, *2200

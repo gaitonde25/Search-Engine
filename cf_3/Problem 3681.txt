@@ -1,0 +1,12 @@
+b'You are given a directed graph with n nodes and m edges, with all edges having a certain weight. '
+b'There might be multiple edges and self loops, and the graph can also be disconnected. '
+b'You need to choose a path (possibly passing through same vertices multiple times) in the graph such that the weights of the edges are in strictly increasing order, and these edges come in the order of input. Among all such paths, you need to find the the path that has the maximum possible number of edges, and report this value.'
+b"Please note that the edges picked don't have to be consecutive in the input."
+b'Input'
+b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000,1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000)\xc2\xa0\xe2\x80\x94 the number of vertices and edges in the graph, respectively. '
+b'm lines follows. '
+b'The i-th of these lines contains three space separated integers ai, bi and wi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89wi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000), denoting an edge from vertex ai to vertex bi having weight wi'
+b'Output'
+b'Print one integer in a single line \xe2\x80\x94 the maximum number of edges in the path.'
+Tags
+data structures, dp, graphs, *2100

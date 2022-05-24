@@ -1,0 +1,10 @@
+b'There is a deck of nn cards. The ii-th card has a number aiai on the front and a number bibi on the back. Every integer between 11 and 2n2n appears exactly once on the cards.'
+b'A deck is called sorted if the front values are in increasing order and the back values are in decreasing order. That is, if ai<ai+1ai<ai+1 and bi>bi+1bi>bi+1 for all 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n.'
+b'To flip a card ii means swapping the values of aiai and bibi. You must flip some subset of cards (possibly, none), then put all the cards in any order you like. What is the minimum number of cards you must flip in order to sort the deck?'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of cards.'
+b'The next nn lines describe the cards. The ii-th of these lines contains two integers ai,biai,bi (1\xe2\x89\xa4ai,bi\xe2\x89\xa42n1\xe2\x89\xa4ai,bi\xe2\x89\xa42n). Every integer between 11 and 2n2n appears exactly once.'
+b'Output'
+b'If it is impossible to sort the deck, output "-1". Otherwise, output the minimum number of flips required to sort the deck.'
+Tags
+2-sat, constructive algorithms, data structures, greedy, sortings, two pointers, *2600

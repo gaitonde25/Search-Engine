@@ -1,0 +1,9 @@
+b'Heidi has finally found the mythical Tree of Life \xe2\x80\x93 a legendary combinatorial structure which is said to contain a prophecy crucially needed to defeat the undead armies.'
+b'On the surface, the Tree of Life is just a regular undirected tree well-known from computer science. This means that it is a collection of n points (called vertices), some of which are connected using n\xe2\x80\x89-\xe2\x80\x891 line segments (edges) so that each pair of vertices is connected by a path (a sequence of one or more edges).'
+b'To decipher the prophecy, Heidi needs to perform a number of steps. The first is counting the number of lifelines in the tree \xe2\x80\x93 these are paths of length 2, i.e., consisting of two edges. Help her!'
+b'Input'
+b'The first line of the input contains a single integer n \xe2\x80\x93 the number of vertices in the tree (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910000). The vertices are labeled with the numbers from 1 to n. Then n\xe2\x80\x89-\xe2\x80\x891 lines follow, each describing one edge using two space-separated numbers a\xe2\x80\x82b \xe2\x80\x93 the labels of the vertices connected by the edge (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89<\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). It is guaranteed that the input represents a tree.'
+b'Output'
+b'Print one integer \xe2\x80\x93 the number of lifelines in the tree.'
+Tags
+*1300

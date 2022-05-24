@@ -1,0 +1,12 @@
+b'Fillomino is a classic logic puzzle. (You do not need to know Fillomino in order to solve this problem.) In one classroom in Yunqi town, some volunteers are playing a board game variant of it:'
+b'Consider an nn by nn chessboard. Its rows are numbered from 11 to nn from the top to the bottom. Its columns are numbered from 11 to nn from the left to the right. A cell on an intersection of xx-th row and yy-th column is denoted (x,y)(x,y). The main diagonal of the chessboard is cells (x,x)(x,x) for all 1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n.'
+b'A permutation of {1,2,3,\xe2\x80\xa6,n}{1,2,3,\xe2\x80\xa6,n} is written on the main diagonal of the chessboard. There is exactly one number written on each of the cells. The problem is to partition the cells under and on the main diagonal (there are exactly 1+2+\xe2\x80\xa6+n1+2+\xe2\x80\xa6+n such cells) into nn connected regions satisfying the following constraints:'
+b'  Every region should be connected. That means that we can move from any cell of a region to any other cell of the same region visiting only cells of the same region and moving from a cell to an adjacent cell.  The xx-th region should contain cell on the main diagonal with number xx for all 1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n.  The number of cells that belong to the xx-th region should be equal to xx for all 1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n.  Each cell under and on the main diagonal should belong to exactly one region. '
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa45001\xe2\x89\xa4n\xe2\x89\xa4500) denoting the size of the chessboard.'
+b'The second line contains nn integers p1p1, p2p2, ..., pnpn. pipi is the number written on cell (i,i)(i,i). It is guaranteed that each integer from {1,\xe2\x80\xa6,n}{1,\xe2\x80\xa6,n} appears exactly once in p1p1, ..., pnpn.'
+b'Output'
+b'If no solution exists, output \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, output nn lines. The ii-th line should contain ii numbers. The jj-th number on the ii-th line should be xx if cell (i,j)(i,j) belongs to the the region with xx cells.'
+Tags
+constructive algorithms, dfs and similar, greedy, implementation, *1400

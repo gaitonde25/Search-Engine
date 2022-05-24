@@ -1,0 +1,11 @@
+b'You are given an angle angang. '
+b'The Jury asks You to find such regular nn-gon (regular polygon with nn vertices) that it has three vertices aa, bb and cc (they can be non-consecutive) with \xe2\x88\xa0abc=ang\xe2\x88\xa0abc=ang or report that there is no such nn-gon.'
+b'  '
+b"If there are several answers, print the minimal one. It is guarantied that if answer exists then it doesn't exceed 998244353998244353."
+b'Input'
+b'The first line contains single integer TT (1\xe2\x89\xa4T\xe2\x89\xa41801\xe2\x89\xa4T\xe2\x89\xa4180) \xe2\x80\x94 the number of queries. '
+b'Each of the next TT lines contains one integer angang (1\xe2\x89\xa4ang<1801\xe2\x89\xa4ang<180) \xe2\x80\x94 the angle measured in degrees. '
+b'Output'
+b'For each query print single integer nn (3\xe2\x89\xa4n\xe2\x89\xa49982443533\xe2\x89\xa4n\xe2\x89\xa4998244353) \xe2\x80\x94 minimal possible number of vertices in the regular nn-gon or \xe2\x88\x921\xe2\x88\x921 if there is no such nn.'
+Tags
+brute force, geometry, *1600

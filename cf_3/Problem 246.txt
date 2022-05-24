@@ -1,0 +1,14 @@
+b'You are given two arrays aa and bb, both of length nn.'
+b'You can perform the following operation any number of times (possibly zero): select an index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and swap aiai and bibi.'
+b"Let's define the cost of the array aa as \xe2\x88\x91ni=1\xe2\x88\x91nj=i+1(ai+aj)2\xe2\x88\x91i=1n\xe2\x88\x91j=i+1n(ai+aj)2. Similarly, the cost of the array bb is \xe2\x88\x91ni=1\xe2\x88\x91nj=i+1(bi+bj)2\xe2\x88\x91i=1n\xe2\x88\x91j=i+1n(bi+bj)2."
+b'Your task is to minimize the total cost of two arrays.'
+b'Input'
+b'Each test case consists of several test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4401\xe2\x89\xa4t\xe2\x89\xa440)\xc2\xa0\xe2\x80\x94 the number of test cases. The following is a description of the input data sets.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the length of both arrays.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41001\xe2\x89\xa4ai\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 elements of the first array.'
+b'The third line of each test case contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa41001\xe2\x89\xa4bi\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 elements of the second array.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 100100.'
+b'Output'
+b'For each test case, print the minimum possible total cost.'
+Tags
+dp, greedy, math, *1800

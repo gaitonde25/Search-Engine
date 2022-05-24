@@ -1,0 +1,13 @@
+b'You are given a string s of length n consisting of lowercase English letters.'
+b'For two given strings s and t, say S is the set of distinct characters of s and T is the set of distinct characters of t. The strings s and t are isomorphic if their lengths are equal and there is a one-to-one mapping (bijection) f between S and T for which f(si)\xe2\x80\x89=\xe2\x80\x89ti. Formally:'
+b'  f(si)\xe2\x80\x89=\xe2\x80\x89ti for any index i,  for any character  there is exactly one character  that f(x)\xe2\x80\x89=\xe2\x80\x89y,  for any character  there is exactly one character  that f(x)\xe2\x80\x89=\xe2\x80\x89y. '
+b'For example, the strings "aababc" and "bbcbcz" are isomorphic. Also the strings "aaaww" and "wwwaa" are isomorphic. The following pairs of strings are not isomorphic: "aab" and "bbb", "test" and "best".'
+b'You have to handle m queries characterized by three integers x,\xe2\x80\x89y,\xe2\x80\x89len (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x89len\xe2\x80\x89+\xe2\x80\x891). For each query check if two substrings s[x... x\xe2\x80\x89+\xe2\x80\x89len\xe2\x80\x89-\xe2\x80\x891] and s[y... y\xe2\x80\x89+\xe2\x80\x89len\xe2\x80\x89-\xe2\x80\x891] are isomorphic.'
+b'Input'
+b'The first line contains two space-separated integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the length of the string s and the number of queries.'
+b'The second line contains string s consisting of n lowercase English letters.'
+b'The following m lines contain a single query on each line: xi, yi and leni (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89leni\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x89max(xi,\xe2\x80\x89yi)\xe2\x80\x89+\xe2\x80\x891) \xe2\x80\x94 the description of the pair of the substrings to check.'
+b'Output'
+b'For each query in a separate line print "YES" if substrings s[xi... xi\xe2\x80\x89+\xe2\x80\x89leni\xe2\x80\x89-\xe2\x80\x891] and s[yi... yi\xe2\x80\x89+\xe2\x80\x89leni\xe2\x80\x89-\xe2\x80\x891] are isomorphic and "NO" otherwise.'
+Tags
+hashing, strings, *2300

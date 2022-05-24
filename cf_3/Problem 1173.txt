@@ -1,0 +1,9 @@
+b'What walks on four feet in the morning, two in the afternoon, and three at night?'
+b"This is an interactive problem. This problem doesn't support hacks."
+b"Sphinx's duty is to guard the city of Thebes by making sure that no unworthy traveler crosses its gates. Only the ones who answer her riddle timely and correctly (or get an acc for short) are allowed to pass. As of those who fail, no one heard of them ever again..."
+b"So you don't have a choice but to solve the riddle. Sphinx has an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an of nonnegative integers strictly smaller than 2b2b and asked you to find the maximum value among its elements. Of course, she will not show you the array, but she will give you nn and bb. As it is impossible to answer this riddle blindly, you can ask her some questions. For given i,yi,y, she'll answer you whether aiai is bigger than yy. As sphinxes are not very patient, you can ask at most 3\xe2\x8b\x85(n+b)3\xe2\x8b\x85(n+b) such questions."
+b'Although cunning, sphinxes are honest. Even though the array can change between your queries, answers to the previously asked questions will remain valid.'
+b'Input'
+b'The first line contains two integers nn and bb (1\xe2\x89\xa4n,b\xe2\x89\xa42001\xe2\x89\xa4n,b\xe2\x89\xa4200). The remaining parts of the input will be given throughout the interaction process.'
+Tags
+binary search, data structures, data structures, interactive, *3400

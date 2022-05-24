@@ -1,0 +1,16 @@
+b"After watching the new over-rated series Squid Game, Mashtali and Soroush decided to hold their own Squid Games! Soroush agreed to be the host and will provide money for the winner's prize, and Mashtali became the Front Man!"
+b"mm players registered to play in the games to win the great prize, but when Mashtali found out how huge the winner's prize is going to be, he decided to kill eliminate all the players so he could take the money for himself!"
+b'Here is how evil Mashtali is going to eliminate players:'
+b'There is an unrooted tree with nn vertices. Every player has 22 special vertices xixi and yiyi.'
+b'In one operation, Mashtali can choose any vertex vv of the tree. Then, for each remaining player ii he finds a vertex ww on the simple path from xixi to yiyi, which is the closest to vv. If w\xe2\x89\xa0xiw\xe2\x89\xa0xi and w\xe2\x89\xa0yiw\xe2\x89\xa0yi, player ii will be eliminated.'
+b'Now Mashtali wondered: "What is the minimum number of operations I should perform so that I can remove every player from the game and take the money for myself?"'
+b"Since he was only thinking about the money, he couldn't solve the problem by himself and asked for your help!"
+b'Input'
+b'The first line contains 22 integer nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa43\xe2\x8b\x85105)(1\xe2\x89\xa4n,m\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of vertices of the tree and the number of players.'
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers par2,par3,\xe2\x80\xa6,parnpar2,par3,\xe2\x80\xa6,parn (1\xe2\x89\xa4pari<i)(1\xe2\x89\xa4pari<i)\xc2\xa0\xe2\x80\x94 denoting an edge between node ii and paripari.'
+b'The ii-th of the following mm lines contains two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n,xi\xe2\x89\xa0yi)(1\xe2\x89\xa4xi,yi\xe2\x89\xa4n,xi\xe2\x89\xa0yi)\xc2\xa0\xe2\x80\x94 the special vertices of the ii-th player.'
+b'Output'
+b'Print the minimum number of operations Mashtali has to perform.'
+b'If there is no way for Mashtali to eliminate all the players, print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+data structures, dfs and similar, greedy, trees, *3100

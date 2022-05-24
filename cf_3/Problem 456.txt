@@ -1,0 +1,15 @@
+b'For an array bb of nn integers, the extreme value of this array is the minimum number of times (possibly, zero) the following operation has to be performed to make bb non-decreasing: '
+b'  Select an index ii such that 1\xe2\x89\xa4i\xe2\x89\xa4|b|1\xe2\x89\xa4i\xe2\x89\xa4|b|, where |b||b| is the current length of bb.  Replace bibi with two elements xx and yy such that xx and yy both are positive integers and x+y=bix+y=bi.  This way, the array bb changes and the next operation is performed on this modified array. '
+b'For example, if b=[2,4,3]b=[2,4,3] and index 22 gets selected, then the possible arrays after this operation are [2,1\xe2\x80\x93,3\xe2\x80\x93,3][2,1_,3_,3], [2,2\xe2\x80\x93,2\xe2\x80\x93,3][2,2_,2_,3], or [2,3\xe2\x80\x93,1\xe2\x80\x93,3][2,3_,1_,3]. And consequently, for this array, this single operation is enough to make it non-decreasing: [2,4,3]\xe2\x86\x92[2,2\xe2\x80\x93,2\xe2\x80\x93,3][2,4,3]\xe2\x86\x92[2,2_,2_,3].'
+b"It's easy to see that every array of positive integers can be made non-decreasing this way."
+b'YouKn0wWho has an array aa of nn integers. Help him find the sum of extreme values of all nonempty subarrays of aa modulo 998244353998244353. If a subarray appears in aa multiple times, its extreme value should be counted the number of times it appears.'
+b'An array dd is a subarray of an array cc if dd can be obtained from cc by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100001\xe2\x89\xa4t\xe2\x89\xa410000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105).'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 105105."
+b'Output'
+b'For each test case, print a single integer \xc2\xa0\xe2\x80\x94 the sum of extreme values of all subarrays of aa modulo 998244353998244353.'
+Tags
+dp, greedy, math, number theory, *2300

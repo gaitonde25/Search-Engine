@@ -1,0 +1,14 @@
+b'You are given a tree consisting of nn vertices. Some of the vertices (at least two) are black, all the other vertices are white.'
+b'You place a chip on one of the vertices of the tree, and then perform the following operations:'
+b'  let the current vertex where the chip is located is xx. You choose a black vertex yy, and then move the chip along the first edge on the simple path from xx to yy. '
+b'You are not allowed to choose the same black vertex yy in two operations in a row (i.\xe2\x80\x89e., for every two consecutive operations, the chosen black vertex should be different).'
+b"You end your operations when the chip moves to the black vertex (if it is initially placed in a black vertex, you don't perform the operations at all), or when the number of performed operations exceeds 100500100500."
+b'For every vertex ii, you have to determine if there exists a (possibly empty) sequence of operations that moves the chip to some black vertex, if the chip is initially placed on the vertex ii.'
+b'Input'
+b'The first line contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of vertices in the tree.'
+b'The second line contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (0\xe2\x89\xa4ci\xe2\x89\xa410\xe2\x89\xa4ci\xe2\x89\xa41), where ci=0ci=0 means that the ii-th vertex is white, and ci=1ci=1 means that the ii-th vertex is black. At least two values of cici are equal to 11.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follow, each of them contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n; ui\xe2\x89\xa0viui\xe2\x89\xa0vi) \xe2\x80\x94 the endpoints of some edge. These edges form a tree.'
+b'Output'
+b'Print nn integers. The ii-th integer should be equal to 11 if there exists a (possibly empty) sequence of operations that moves the chip to some black vertex if it is placed on the vertex ii, and 00 if no such sequence of operations exists.'
+Tags
+dfs and similar, greedy, trees, *2400

@@ -1,0 +1,12 @@
+b'You are given a tree of nn vertices numbered from 11 to nn. A tree is a connected undirected graph without cycles. '
+b'For each i=1,2,\xe2\x80\xa6,ni=1,2,\xe2\x80\xa6,n, let wiwi be the weight of the ii-th vertex. A vertex is called good if its weight is equal to the sum of the weights of all its neighbors.'
+b'Initially, the weights of all nodes are unassigned. Assign positive integer weights to each vertex of the tree, such that the number of good vertices in the tree is maximized. If there are multiple ways to do it, you have to find one that minimizes the sum of weights of all vertices in the tree.'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of vertices in the tree.'
+b'Then, n\xe2\x88\x921n\xe2\x88\x921 lines follow. Each of them contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n) denoting an edge between vertices uu and vv. It is guaranteed that the edges form a tree.'
+b'Output'
+b'In the first line print two integers \xc2\xa0\xe2\x80\x94 the maximum number of good vertices and the minimum possible sum of weights for that maximum.'
+b'In the second line print nn integers w1,w2,\xe2\x80\xa6,wnw1,w2,\xe2\x80\xa6,wn (1\xe2\x89\xa4wi\xe2\x89\xa41091\xe2\x89\xa4wi\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 the corresponding weight assigned to each vertex. It can be proven that there exists an optimal solution satisfying these constraints.'
+b'If there are multiple optimal solutions, you may print any.'
+Tags
+constructive algorithms, dfs and similar, dp, implementation, trees, *2000

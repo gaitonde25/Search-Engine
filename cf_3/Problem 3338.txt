@@ -1,0 +1,15 @@
+b'You are given a set of 2n+12n+1 integer points on a Cartesian plane. Points are numbered from 00 to 2n2n inclusive. Let PiPi be the ii-th point. The xx-coordinate of the point PiPi equals ii. The yy-coordinate of the point PiPi equals zero (initially). Thus, initially Pi=(i,0)Pi=(i,0).'
+b'The given points are vertices of a plot of a piecewise function. The jj-th piece of the function is the segment PjPj+1PjPj+1.'
+b'In one move you can increase the yy-coordinate of any point with odd xx-coordinate (i.e. such points are P1,P3,\xe2\x80\xa6,P2n\xe2\x88\x921P1,P3,\xe2\x80\xa6,P2n\xe2\x88\x921) by 11. Note that the corresponding segments also change.'
+b'For example, the following plot shows a function for n=3n=3 (i.e. number of points is 2\xe2\x8b\x853+1=72\xe2\x8b\x853+1=7) in which we increased the yy-coordinate of the point P1P1 three times and yy-coordinate of the point P5P5 one time:'
+b'  '
+b'Let the area of the plot be the area below this plot and above the coordinate axis OX. For example, the area of the plot on the picture above is 4 (the light blue area on the picture above is the area of the plot drawn on it).'
+b'Let the height of the plot be the maximum yy-coordinate among all initial points in the plot (i.e. points P0,P1,\xe2\x80\xa6,P2nP0,P1,\xe2\x80\xa6,P2n). The height of the plot on the picture above is 3.'
+b'Your problem is to say which minimum possible height can have the plot consisting of 2n+12n+1 vertices and having an area equal to kk. Note that it is unnecessary to minimize the number of moves.'
+b'It is easy to see that any answer which can be obtained by performing moves described above always exists and is an integer number not exceeding 10181018.'
+b'Input'
+b'The first line of the input contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa410181\xe2\x89\xa4n,k\xe2\x89\xa41018) \xe2\x80\x94 the number of vertices in a plot of a piecewise function and the area we need to obtain.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum possible height of a plot consisting of 2n+12n+1 vertices and with an area equals kk. It is easy to see that any answer which can be obtained by performing moves described above always exists and is an integer number not exceeding 10181018.'
+Tags
+math, *1000

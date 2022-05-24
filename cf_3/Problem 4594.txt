@@ -1,0 +1,12 @@
+b'All our characters have hobbies. The same is true for Fedor. He enjoys shopping in the neighboring supermarket. '
+b'The goods in the supermarket have unique integer ids. Also, for every integer there is a product with id equal to this integer. Fedor has n discount coupons, the i-th of them can be used with products with ids ranging from li to ri, inclusive. Today Fedor wants to take exactly k coupons with him.'
+b'Fedor wants to choose the k coupons in such a way that the number of such products x that all coupons can be used with this product x is as large as possible (for better understanding, see examples). Fedor wants to save his time as well, so he asks you to choose coupons for him. Help Fedor!'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the number of coupons Fedor has, and the number of coupons he wants to choose.'
+b'Each of the next n lines contains two integers li and ri (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the description of the i-th coupon. The coupons can be equal.'
+b'Output'
+b"In the first line print single integer\xc2\xa0\xe2\x80\x94 the maximum number of products with which all the chosen coupons can be used. The products with which at least one coupon cannot be used shouldn't be counted."
+b'In the second line print k distinct integers p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pk (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the ids of the coupons which Fedor should choose.'
+b'If there are multiple answers, print any of them.'
+Tags
+binary search, data structures, greedy, sortings, *2100

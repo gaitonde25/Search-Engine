@@ -1,0 +1,13 @@
+b'The grasshopper is located on the numeric axis at the point with coordinate x0x0.'
+b'Having nothing else to do he starts jumping between integer points on the axis. Making a jump from a point with coordinate xx with a distance dd to the left moves the grasshopper to a point with a coordinate x\xe2\x88\x92dx\xe2\x88\x92d, while jumping to the right moves him to a point with a coordinate x+dx+d.'
+b'The grasshopper is very fond of positive integers, so for each integer ii starting with 11 the following holds: exactly ii minutes after the start he makes a jump with a distance of exactly ii. So, in the first minutes he jumps by 11, then by 22, and so on.'
+b'The direction of a jump is determined as follows: if the point where the grasshopper was before the jump has an even coordinate, the grasshopper jumps to the left, otherwise he jumps to the right.'
+b'For example, if after 1818 consecutive jumps he arrives at the point with a coordinate 77, he will jump by a distance of 1919 to the right, since 77 is an odd number, and will end up at a point 7+19=267+19=26. Since 2626 is an even number, the next jump the grasshopper will make to the left by a distance of 2020, and it will move him to the point 26\xe2\x88\x9220=626\xe2\x88\x9220=6.'
+b'Find exactly which point the grasshopper will be at after exactly nn jumps.'
+b'Input'
+b'The first line of input contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b"Each of the following tt lines contains two integers x0x0 (\xe2\x88\x921014\xe2\x89\xa4x0\xe2\x89\xa41014\xe2\x88\x921014\xe2\x89\xa4x0\xe2\x89\xa41014) and nn (0\xe2\x89\xa4n\xe2\x89\xa410140\xe2\x89\xa4n\xe2\x89\xa41014)\xc2\xa0\xe2\x80\x94 the coordinate of the grasshopper's initial position and the number of jumps."
+b'Output'
+b'Print exactly tt lines. On the ii-th line print one integer\xc2\xa0\xe2\x80\x94 the answer to the ii-th test case\xc2\xa0\xe2\x80\x94 the coordinate of the point the grasshopper will be at after making nn jumps from the point x0x0.'
+Tags
+math, *900

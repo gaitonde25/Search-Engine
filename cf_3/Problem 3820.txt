@@ -1,0 +1,8 @@
+b'A positive integer is called a 2-3-integer, if it is equal to 2x\xc2\xb73y for some non-negative integers x and y. In other words, these integers are such integers that only have 2 and 3 among their prime divisors. For example, integers 1, 6, 9, 16 and 108 \xe2\x80\x94 are 2-3 integers, while 5, 10, 21 and 120 are not.'
+b'Print the number of 2-3-integers on the given segment [l,\xe2\x80\x89r], i.\xc2\xa0e. the number of sich 2-3-integers t that l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r.'
+b'Input'
+b'The only line contains two integers l and r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109).'
+b'Output'
+b'Print a single integer the number of 2-3-integers on the segment [l,\xe2\x80\x89r].'
+Tags
+implementation, math, *1300

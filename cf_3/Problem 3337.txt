@@ -1,0 +1,12 @@
+b'Mikhail walks on a Cartesian plane. He starts at the point (0,0)(0,0), and in one move he can go to any of eight adjacent points. For example, if Mikhail is currently at the point (0,0)(0,0), he can go to any of the following points in one move: '
+b'  (1,0)(1,0);  (1,1)(1,1);  (0,1)(0,1);  (\xe2\x88\x921,1)(\xe2\x88\x921,1);  (\xe2\x88\x921,0)(\xe2\x88\x921,0);  (\xe2\x88\x921,\xe2\x88\x921)(\xe2\x88\x921,\xe2\x88\x921);  (0,\xe2\x88\x921)(0,\xe2\x88\x921);  (1,\xe2\x88\x921)(1,\xe2\x88\x921). '
+b'If Mikhail goes from the point (x1,y1)(x1,y1) to the point (x2,y2)(x2,y2) in one move, and x1\xe2\x89\xa0x2x1\xe2\x89\xa0x2 and y1\xe2\x89\xa0y2y1\xe2\x89\xa0y2, then such a move is called a diagonal move.'
+b"Mikhail has qq queries. For the ii-th query Mikhail's target is to go to the point (ni,mi)(ni,mi) from the point (0,0)(0,0) in exactly kiki moves. Among all possible movements he want to choose one with the maximum number of diagonal moves. Your task is to find the maximum number of diagonal moves or find that it is impossible to go from the point (0,0)(0,0) to the point (ni,mi)(ni,mi) in kiki moves."
+b'Note that Mikhail can visit any point any number of times (even the destination point!).'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41041\xe2\x89\xa4q\xe2\x89\xa4104) \xe2\x80\x94 the number of queries.'
+b'Then qq lines follow. The ii-th of these qq lines contains three integers nini, mimi and kiki (1\xe2\x89\xa4ni,mi,ki\xe2\x89\xa410181\xe2\x89\xa4ni,mi,ki\xe2\x89\xa41018) \xe2\x80\x94 xx-coordinate of the destination point of the query, yy-coordinate of the destination point of the query and the number of moves in the query, correspondingly.'
+b'Output'
+b'Print qq integers. The ii-th integer should be equal to -1 if Mikhail cannot go from the point (0,0)(0,0) to the point (ni,mi)(ni,mi) in exactly kiki moves described above. Otherwise the ii-th integer should be equal to the the maximum number of diagonal moves among all possible movements.'
+Tags
+math, *1600

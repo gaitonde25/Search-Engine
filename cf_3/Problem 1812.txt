@@ -1,0 +1,10 @@
+b'You are given two integers aa and bb, and qq queries. The ii-th query consists of two numbers lili and riri, and the answer to it is the number of integers xx such that li\xe2\x89\xa4x\xe2\x89\xa4rili\xe2\x89\xa4x\xe2\x89\xa4ri, and ((xmoda)modb)\xe2\x89\xa0((xmodb)moda)((xmoda)modb)\xe2\x89\xa0((xmodb)moda). Calculate the answer for each query.'
+b'Recall that ymodzymodz is the remainder of the division of yy by zz. For example, 5mod3=25mod3=2, 7mod8=77mod8=7, 9mod4=19mod4=1, 9mod9=09mod9=0.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. Then the test cases follow.'
+b'The first line of each test case contains three integers aa, bb and qq (1\xe2\x89\xa4a,b\xe2\x89\xa42001\xe2\x89\xa4a,b\xe2\x89\xa4200; 1\xe2\x89\xa4q\xe2\x89\xa45001\xe2\x89\xa4q\xe2\x89\xa4500).'
+b'Then qq lines follow, each containing two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa410181\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa41018) for the corresponding query.'
+b'Output'
+b'For each test case, print qq integers\xc2\xa0\xe2\x80\x94 the answers to the queries of this test case in the order they appear.'
+Tags
+math, number theory, *1600

@@ -1,0 +1,13 @@
+b'Bandits appeared in the city! One of them is trying to catch as many citizens as he can.'
+b'The city consists of nn squares connected by n\xe2\x88\x921n\xe2\x88\x921 roads in such a way that it is possible to reach any square from any other square. The square number 11 is the main square.'
+b'After Sunday walk all the roads were changed to one-way roads in such a way that it is possible to reach any square from the main square.'
+b'At the moment when the bandit appeared on the main square there were aiai citizens on the ii-th square. Now the following process will begin. First, each citizen that is currently on a square with some outgoing one-way roads chooses one of such roads and moves along it to another square. Then the bandit chooses one of the one-way roads outgoing from the square he is located and moves along it. The process is repeated until the bandit is located on a square with no outgoing roads. The bandit catches all the citizens on that square.'
+b'The bandit wants to catch as many citizens as possible; the citizens want to minimize the number of caught people. The bandit and the citizens know positions of all citizens at any time, the citizens can cooperate. If both sides act optimally, how many citizens will be caught?'
+b'Input'
+b'The first line contains a single integer nn\xc2\xa0\xe2\x80\x94 the number of squares in the city (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3\xe2\x80\xa6pnp2,p3\xe2\x80\xa6pn meaning that there is a one-way road from the square pipi to the square ii (1\xe2\x89\xa4pi<i1\xe2\x89\xa4pi<i). '
+b'The third line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an\xc2\xa0\xe2\x80\x94 the number of citizens on each square initially (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of citizens the bandit will catch if both sides act optimally.'
+Tags
+binary search, dfs and similar, graphs, greedy, trees, *1900

@@ -1,0 +1,11 @@
+b'Olya wants to buy a custom wardrobe. It should have n boxes with heights a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an, stacked one on another in some order. In other words, we can represent each box as a vertical segment of length ai, and all these segments should form a single segment from 0 to  without any overlaps.'
+b'Some of the boxes are important (in this case bi\xe2\x80\x89=\xe2\x80\x891), others are not (then bi\xe2\x80\x89=\xe2\x80\x890). Olya defines the convenience of the wardrobe as the number of important boxes such that their bottom edge is located between the heights l and r, inclusive.'
+b'You are given information about heights of the boxes and their importance. Compute the maximum possible convenience of the wardrobe if you can reorder the boxes arbitrarily.'
+b'Input'
+b'The first line contains three integers n, l and r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of boxes, the lowest and the highest heights for a bottom edge of an important box to be counted in convenience.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the heights of the boxes. It is guaranteed that the sum of height of all boxes (i.\xc2\xa0e. the height of the wardrobe) does not exceed 10\xe2\x80\x89000: Olya is not very tall and will not be able to reach any higher.'
+b'The second line contains n integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891), where bi equals 1 if the i-th box is important, and 0 otherwise.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum possible convenience of the wardrobe.'
+Tags
+*2700

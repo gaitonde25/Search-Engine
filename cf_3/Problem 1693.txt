@@ -1,0 +1,13 @@
+b'Consider all binary strings of length mm (1\xe2\x89\xa4m\xe2\x89\xa4601\xe2\x89\xa4m\xe2\x89\xa460). A binary string is a string that consists of the characters 0 and 1 only. For example, 0110 is a binary string, and 012aba is not. Obviously, there are exactly 2m2m such strings in total.'
+b'The string ss is lexicographically smaller than the string tt (both have the same length mm) if in the first position ii from the left in which they differ, we have s[i]<t[i]s[i]<t[i]. This is exactly the way strings are compared in dictionaries and in most modern programming languages when comparing them in a standard way. For example, the string 01011 is lexicographically smaller than the string 01100, because the first two characters are the same, and the third character in the first string is less than that in the second.'
+b'We remove from this set nn (1\xe2\x89\xa4n\xe2\x89\xa4min(2m\xe2\x88\x921,100)1\xe2\x89\xa4n\xe2\x89\xa4min(2m\xe2\x88\x921,100)) distinct binary strings a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, each of length mm. Thus, the set will have k=2m\xe2\x88\x92nk=2m\xe2\x88\x92n strings. Sort all strings of the resulting set in lexicographical ascending order (as in the dictionary).'
+b'We number all the strings after sorting from 00 to k\xe2\x88\x921k\xe2\x88\x921. Print the string whose index is \xe2\x8c\x8ak\xe2\x88\x9212\xe2\x8c\x8b\xe2\x8c\x8ak\xe2\x88\x9212\xe2\x8c\x8b (such an element is called median), where \xe2\x8c\x8ax\xe2\x8c\x8b\xe2\x8c\x8ax\xe2\x8c\x8b is the rounding of the number down to the nearest integer.'
+b'For example, if n=3n=3, m=3m=3 and a=[a=[010, 111, 001]], then after removing the strings aiai and sorting, the result will take the form: [[000, 011, 100, 101, 110]]. Thus, the desired median is 100.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Then, tt test cases follow.'
+b'The first line of each test case contains integers nn (1\xe2\x89\xa4n\xe2\x89\xa4min(2m\xe2\x88\x921,100)1\xe2\x89\xa4n\xe2\x89\xa4min(2m\xe2\x88\x921,100)) and mm (1\xe2\x89\xa4m\xe2\x89\xa4601\xe2\x89\xa4m\xe2\x89\xa460), where nn is the number of strings to remove, and mm is the length of binary strings. The next nn lines contain a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an\xc2\xa0\xe2\x80\x94 distinct binary strings of length mm.'
+b'The total length of all given binary strings in all test cases in one test does not exceed 105105.'
+b'Output'
+b'Print tt answers to the test cases. For each test case, print a string of length mm\xc2\xa0\xe2\x80\x94 the median of the sorted sequence of remaining strings in the corresponding test case.'
+Tags
+binary search, bitmasks, brute force, constructive algorithms, *2100

@@ -1,0 +1,12 @@
+b'Suppose you are living with two cats: A and B. There are nn napping spots where both cats usually sleep.'
+b'Your cats like to sleep and also like all these spots, so they change napping spot each hour cyclically: '
+b"  Cat A changes its napping place in order: n,n\xe2\x88\x921,n\xe2\x88\x922,\xe2\x80\xa6,3,2,1,n,n\xe2\x88\x921,\xe2\x80\xa6n,n\xe2\x88\x921,n\xe2\x88\x922,\xe2\x80\xa6,3,2,1,n,n\xe2\x88\x921,\xe2\x80\xa6 In other words, at the first hour it's on the spot nn and then goes in decreasing order cyclically;  Cat B changes its napping place in order: 1,2,3,\xe2\x80\xa6,n\xe2\x88\x921,n,1,2,\xe2\x80\xa61,2,3,\xe2\x80\xa6,n\xe2\x88\x921,n,1,2,\xe2\x80\xa6 In other words, at the first hour it's on the spot 11 and then goes in increasing order cyclically. "
+b"The cat B is much younger, so they have a strict hierarchy: A and B don't lie together. In other words, if both cats'd like to go in spot xx then the A takes this place and B moves to the next place in its order (if x<nx<n then to x+1x+1, but if x=nx=n then to 11). Cat B follows his order, so it won't return to the skipped spot xx after A frees it, but will move to the spot x+2x+2 and so on."
+b'Calculate, where cat B will be at hour kk?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first and only line of each test case contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa41092\xe2\x89\xa4n\xe2\x89\xa4109; 1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of spots and hour kk.'
+b'Output'
+b'For each test case, print one integer\xc2\xa0\xe2\x80\x94 the index of the spot where cat B will sleep at hour kk.'
+Tags
+math, number theory, *1200

@@ -1,0 +1,13 @@
+b'Alice and Bob are playing a game on strings.'
+b"Initially, they have some string tt. In one move the first player selects the character cc present in tt and erases all it's occurrences in tt, thus splitting tt into many smaller strings. The game then goes independently with each of the strings\xc2\xa0\xe2\x80\x94 to make the move player selects one of the strings and one of the characters there, deletes all occurrences and adds the remaining string back to the game."
+b'Alice always starts the game, and then Alice and Bob take turns making moves. The player who is unable to make a move (because there is no string left) loses.'
+b'Alice and Bob used to always start with a string ss, but recently they found out that this became too boring. Now before each game they choose two integers ll and rr such that 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s| and play the game with the string slsl+1sl+2\xe2\x80\xa6srslsl+1sl+2\xe2\x80\xa6sr instead.'
+b'Given the string ss and integers ll, rr for each game. Find who is going to win each game assuming they are smart and are playing optimally.'
+b'Input'
+b'The first line contains the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa41051\xe2\x89\xa4|s|\xe2\x89\xa4105) consisting of lowercase English letters. This is the string Alice and Bob used to start with.'
+b'The second line contains a single integer mm (1\xe2\x89\xa4m\xe2\x89\xa41051\xe2\x89\xa4m\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of games to analyze.'
+b'Each of the next mm lines contains two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|)\xc2\xa0\xe2\x80\x94 the bounds of the starting substring in the string ss.'
+b'Output'
+b'For each game output a single line containing the name of the winner\xc2\xa0\xe2\x80\x94 "Alice" or "Bob" respectively.'
+Tags
+games, *3200

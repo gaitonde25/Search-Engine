@@ -1,0 +1,11 @@
+b'Given nn, find any array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an of integers such that all of the following conditions hold: '
+b"1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109 for every ii from 11 to nn.a1<a2<\xe2\x80\xa6<ana1<a2<\xe2\x80\xa6<anFor every ii from 22 to nn, aiai isn't divisible by ai\xe2\x88\x921ai\xe2\x88\x921"
+b'It can be shown that such an array always exists under the constraints of the problem.'
+b'Input'
+b'The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The only line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 104104.'
+b'Output'
+b'For each test case print nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an \xe2\x80\x94 the array you found. If there are multiple arrays satisfying all the conditions, print any of them.'
+Tags
+constructive algorithms, math, *800

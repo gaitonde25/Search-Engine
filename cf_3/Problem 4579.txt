@@ -1,0 +1,11 @@
+b'Bash wants to become a Pokemon master one day. Although he liked a lot of Pokemon, he has always been fascinated by Bulbasaur the most. Soon, things started getting serious and his fascination turned into an obsession. Since he is too young to go out and catch Bulbasaur, he came up with his own way of catching a Bulbasaur.'
+b'Each day, he takes the front page of the newspaper. He cuts out the letters one at a time, from anywhere on the front page of the newspaper to form the word "Bulbasaur" (without quotes) and sticks it on his wall. Bash is very particular about case\xc2\xa0\xe2\x80\x94 the first letter of "Bulbasaur" must be upper case and the rest must be lower case. By doing this he thinks he has caught one Bulbasaur. He then repeats this step on the left over part of the newspaper. He keeps doing this until it is not possible to form the word "Bulbasaur" from the newspaper.'
+b'Given the text on the front page of the newspaper, can you tell how many Bulbasaurs he will catch today?'
+b'Note: uppercase and lowercase letters are considered different.'
+b'Input'
+b'Input contains a single line containing a string s (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89|s|\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the text on the front page of the newspaper without spaces and punctuation marks. |s| is the length of the string s.'
+b'The string s contains lowercase and uppercase English letters, i.e. .'
+b'Output'
+b'Output a single integer, the answer to the problem.'
+Tags
+implementation, *1000

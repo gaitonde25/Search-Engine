@@ -1,0 +1,12 @@
+b"You are given nn strings s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn, each consisting of lowercase and uppercase English letters. In addition, it's guaranteed that each character occurs in each string at most twice. Find the longest common subsequence of these strings."
+b'A string tt is a subsequence of a string ss if tt can be obtained from ss by deletion of several (possibly, zero or all) symbols.'
+b'Input'
+b'Each test consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa451\xe2\x89\xa4t\xe2\x89\xa45) \xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa4102\xe2\x89\xa4n\xe2\x89\xa410) \xe2\x80\x94 the number of strings.'
+b'Each of the next nn lines contains the corresponding string sisi. Each sisi is non-empty, consists only of uppercase and lowercase English letters, and no character appears more than twice in each string.'
+b'Output'
+b'For each test case print the answer in two lines:'
+b'In the first line print the length of the longest common subsequence. '
+b'In the second line print the longest common subsequence. If there are multiple such subsequences, print any of them.'
+Tags
+bitmasks, dp, graphs, greedy, strings, *2600

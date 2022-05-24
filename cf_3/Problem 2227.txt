@@ -1,0 +1,16 @@
+b'Hanh is a famous biologist. He loves growing trees and doing experiments on his own garden.'
+b'One day, he got a tree consisting of nn vertices. Vertices are numbered from 11 to nn. A tree with nn vertices is an undirected connected graph with n\xe2\x88\x921n\xe2\x88\x921 edges. Initially, Hanh sets the value of every vertex to 00.'
+b'Now, Hanh performs qq operations, each is either of the following types: '
+b'  Type 11: Hanh selects a vertex vv and an integer dd. Then he chooses some vertex rr uniformly at random, lists all vertices uu such that the path from rr to uu passes through vv. Hanh then increases the value of all such vertices uu by dd.  Type 22: Hanh selects a vertex vv and calculates the expected value of vv. '
+b'Since Hanh is good at biology but not math, he needs your help on these operations.'
+b'Input'
+b"The first line contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa41500001\xe2\x89\xa4n,q\xe2\x89\xa4150000)\xc2\xa0\xe2\x80\x94 the number of vertices on Hanh's tree and the number of operations he performs."
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n), denoting that there is an edge connecting two vertices uu and vv. It is guaranteed that these n\xe2\x88\x921n\xe2\x88\x921 edges form a tree.'
+b'Each of the last qq lines describes an operation in either formats: '
+b'  11 vv dd (1\xe2\x89\xa4v\xe2\x89\xa4n,0\xe2\x89\xa4d\xe2\x89\xa41071\xe2\x89\xa4v\xe2\x89\xa4n,0\xe2\x89\xa4d\xe2\x89\xa4107), representing a first-type operation.  22 vv (1\xe2\x89\xa4v\xe2\x89\xa4n1\xe2\x89\xa4v\xe2\x89\xa4n), representing a second-type operation. '
+b'It is guaranteed that there is at least one query of the second type.'
+b'Output'
+b'For each operation of the second type, write the expected value on a single line. '
+b'Let M=998244353M=998244353, it can be shown that the expected value can be expressed as an irreducible fraction pqpq, where pp and qq are integers and q\xe2\x89\xa1\xcc\xb80(modM)q\xe2\x89\xa20(modM). Output the integer equal to p\xe2\x8b\x85q\xe2\x88\x921modMp\xe2\x8b\x85q\xe2\x88\x921modM. In other words, output such an integer xx that 0\xe2\x89\xa4x<M0\xe2\x89\xa4x<M and x\xe2\x8b\x85q\xe2\x89\xa1p(modM)x\xe2\x8b\x85q\xe2\x89\xa1p(modM).'
+Tags
+data structures, probabilities, trees, *2700

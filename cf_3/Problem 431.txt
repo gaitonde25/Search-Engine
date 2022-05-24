@@ -1,0 +1,15 @@
+b'The chef has cooked nn dishes yet again: the ii-th dish consists of aiai grams of fish and bibi grams of meat. '
+b'Banquet organizers consider two dishes ii and jj equal if ai=ajai=aj and bi=bjbi=bj at the same time.'
+b'The banquet organizers estimate the variety of nn dishes as follows. The variety of a set of dishes is equal to the number of different dishes in it. The less variety is, the better.'
+b'In order to reduce the variety, a taster was invited. He will eat exactly mimi grams of food from each dish. For each dish, the taster determines separately how much fish and how much meat he will eat. The only condition is that he will eat exactly mimi grams of the ii-th dish in total.'
+b'Determine how much of what type of food the taster should eat from each dish so that the value of variety is the minimum possible. If there are several correct answers, you may output any of them.'
+b'Input'
+b'The first line of input data contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b"Each test case's description is preceded by a blank line. Next comes a line that contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of dishes. Then follows nn lines, ii-th of which contains three integers aiai, bibi and mimi (0\xe2\x89\xa4ai,bi\xe2\x89\xa41060\xe2\x89\xa4ai,bi\xe2\x89\xa4106; 0\xe2\x89\xa4mi\xe2\x89\xa4ai+bi0\xe2\x89\xa4mi\xe2\x89\xa4ai+bi)\xc2\xa0\xe2\x80\x94 the mass of fish in ii-th dish, the mass of meat in ii-th dish and how many grams in total the taster should eat in ii-th dish."
+b'The sum of all nn values for all input data sets in the test does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print on the first line the minimum value of variety that can be achieved by eating exactly mimi grams of food (for all ii from 11 to nn) from a dish ii.'
+b'Then print nn lines that describe a way to do this: the ii-th line should contain two integers xixi and yiyi (0\xe2\x89\xa4xi\xe2\x89\xa4ai0\xe2\x89\xa4xi\xe2\x89\xa4ai; 0\xe2\x89\xa4yi\xe2\x89\xa4bi0\xe2\x89\xa4yi\xe2\x89\xa4bi; xi+yi=mixi+yi=mi), where xixi is how many grams of fish the taster should eat from ii-th dish, and yiyi is how many grams of meat.'
+b'If there are several ways to achieve a minimum balance, print any of them.'
+Tags
+greedy, sortings, two pointers, *2200

@@ -1,0 +1,15 @@
+b'Masha has nn types of tiles of size 2\xc3\x9722\xc3\x972. Each cell of the tile contains one integer. Masha has an infinite number of tiles of each type.'
+b'Masha decides to construct the square of size m\xc3\x97mm\xc3\x97m consisting of the given tiles. This square also has to be a symmetric with respect to the main diagonal matrix, and each cell of this square has to be covered with exactly one tile cell, and also sides of tiles should be parallel to the sides of the square. All placed tiles cannot intersect with each other. Also, each tile should lie inside the square. See the picture in Notes section for better understanding.'
+b'Symmetric with respect to the main diagonal matrix is such a square ss that for each pair (i,j)(i,j) the condition s[i][j]=s[j][i]s[i][j]=s[j][i] holds. I.e. it is true that the element written in the ii-row and jj-th column equals to the element written in the jj-th row and ii-th column.'
+b'Your task is to determine if Masha can construct a square of size m\xc3\x97mm\xc3\x97m which is a symmetric matrix and consists of tiles she has. Masha can use any number of tiles of each type she has to construct the square. Note that she can not rotate tiles, she can only place them in the orientation they have in the input.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4m\xe2\x89\xa41001\xe2\x89\xa4m\xe2\x89\xa4100) \xe2\x80\x94 the number of types of tiles and the size of the square Masha wants to construct.'
+b'The next 2n2n lines of the test case contain descriptions of tiles types. Types of tiles are written one after another, each type is written on two lines. '
+b'The first line of the description contains two positive (greater than zero) integers not exceeding 100100 \xe2\x80\x94 the number written in the top left corner of the tile and the number written in the top right corner of the tile of the current type. The second line of the description contains two positive (greater than zero) integers not exceeding 100100 \xe2\x80\x94 the number written in the bottom left corner of the tile and the number written in the bottom right corner of the tile of the current type.'
+b'It is forbidden to rotate tiles, it is only allowed to place them in the orientation they have in the input.'
+b'Output'
+b'For each test case print the answer: "YES" (without quotes) if Masha can construct the square of size m\xc3\x97mm\xc3\x97m which is a symmetric matrix. Otherwise, print "NO" (withtout quotes).'
+Tags
+implementation, *900

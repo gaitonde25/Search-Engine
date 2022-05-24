@@ -1,0 +1,9 @@
+b'You are given an undirected graph with weighted edges. The length of some path between two vertices is the bitwise xor of weights of all edges belonging to this path (if some edge is traversed more than once, then it is included in bitwise xor the same number of times). You have to find the minimum length of path between vertex 1 and vertex n.'
+b'Note that graph can contain multiple edges and loops. It is guaranteed that the graph is connected.'
+b'Input'
+b'The first line contains two numbers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000, n\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000) \xe2\x80\x94 the number of vertices and the number of edges, respectively.'
+b'Then m lines follow, each line containing three integer numbers x, y and w (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89108). These numbers denote an edge that connects vertices x and y and has weight w.'
+b'Output'
+b'Print one number \xe2\x80\x94 the minimum length of path between vertices 1 and n.'
+Tags
+dfs and similar, graphs, math, *2300

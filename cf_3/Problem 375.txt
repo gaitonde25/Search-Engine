@@ -1,0 +1,26 @@
+b"Two players, Red and Blue, are at it again, and this time they're playing with crayons! The mischievous duo is now vandalizing a rooted tree, by coloring the nodes while playing their favorite game."
+b'The game works as follows: there is a tree of size nn, rooted at node 11, where each node is initially white. Red and Blue get one turn each. Red goes first. '
+b"In Red's turn, he can do the following operation any number of times: "
+b'  Pick any subtree of the rooted tree, and color every node in the subtree red. '
+b' However, to make the game fair, Red is only allowed to color '
+b''
+b'kk'
+b'k'
+b" nodes of the tree. In other words, after Red's turn, at most "
+b''
+b'kk'
+b'k'
+b' of the nodes can be colored red.'
+b"Then, it's Blue's turn. Blue can do the following operation any number of times: "
+b"  Pick any subtree of the rooted tree, and color every node in the subtree blue. However, he's not allowed to choose a subtree that contains a node already colored red, as that would make the node purple and no one likes purple crayon. "
+b" Note: there's no restriction on the number of nodes Blue can color, as long as he doesn't color a node that Red has already colored."
+b'After the two turns, the score of the game is determined as follows: let ww be the number of white nodes, rr be the number of red nodes, and bb be the number of blue nodes. The score of the game is w\xe2\x8b\x85(r\xe2\x88\x92b)w\xe2\x8b\x85(r\xe2\x88\x92b).'
+b'Red wants to maximize this score, and Blue wants to minimize it. If both players play optimally, what will the final score of the game be?'
+b'Input'
+b'The first line contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree and the maximum number of red nodes.'
+b'Next n\xe2\x88\x921n\xe2\x88\x921 lines contains description of edges. The ii-th line contains two space separated integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n; ui\xe2\x89\xa0viui\xe2\x89\xa0vi)\xc2\xa0\xe2\x80\x94 the ii-th edge of the tree.'
+b"It's guaranteed that given edges form a tree."
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the resulting score if both Red and Blue play optimally.'
+Tags
+data structures, dfs and similar, games, graphs, greedy, math, sortings, trees, *2400

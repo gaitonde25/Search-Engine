@@ -1,0 +1,14 @@
+b'You are given a binary string ss (recall that a string is binary if each character is either 00 or 11).'
+b'Let f(t)f(t) be the decimal representation of integer tt written in binary form (possibly with leading zeroes). For example f(011)=3,f(00101)=5,f(00001)=1,f(10)=2,f(000)=0f(011)=3,f(00101)=5,f(00001)=1,f(10)=2,f(000)=0 and f(000100)=4f(000100)=4.'
+b'The substring sl,sl+1,\xe2\x80\xa6,srsl,sl+1,\xe2\x80\xa6,sr is good if r\xe2\x88\x92l+1=f(sl\xe2\x80\xa6sr)r\xe2\x88\x92l+1=f(sl\xe2\x80\xa6sr).'
+b'For example string s=1011s=1011 has 55 good substrings: s1\xe2\x80\xa6s1=1s1\xe2\x80\xa6s1=1, s3\xe2\x80\xa6s3=1s3\xe2\x80\xa6s3=1, s4\xe2\x80\xa6s4=1s4\xe2\x80\xa6s4=1, s1\xe2\x80\xa6s2=10s1\xe2\x80\xa6s2=10 and s2\xe2\x80\xa6s4=011s2\xe2\x80\xa6s4=011. '
+b'Your task is to calculate the number of good substrings of string ss.'
+b'You have to answer tt independent queries.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of queries.'
+b'The only line of each query contains string ss (1\xe2\x89\xa4|s|\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4|s|\xe2\x89\xa42\xe2\x8b\x85105), consisting of only digits 00 and 11.'
+b'It is guaranteed that \xe2\x88\x91i=1t|si|\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91i=1t|si|\xe2\x89\xa42\xe2\x8b\x85105.'
+b'Output'
+b'For each query print one integer \xe2\x80\x94 the number of good substrings of string ss.'
+Tags
+binary search, bitmasks, brute force, *1700

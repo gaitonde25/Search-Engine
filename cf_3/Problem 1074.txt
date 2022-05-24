@@ -1,0 +1,11 @@
+b'You have two positive integers aa and bb.'
+b'You can perform two kinds of operations:'
+b'  a=\xe2\x8c\x8aab\xe2\x8c\x8ba=\xe2\x8c\x8aab\xe2\x8c\x8b (replace aa with the integer part of the division between aa and bb)  b=b+1b=b+1 (increase bb by 11) '
+b'Find the minimum number of operations required to make a=0a=0.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The only line of the description of each test case contains two integers aa, bb (1\xe2\x89\xa4a,b\xe2\x89\xa41091\xe2\x89\xa4a,b\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print a single integer: the minimum number of operations required to make a=0a=0.'
+Tags
+brute force, greedy, math, number theory, *1000

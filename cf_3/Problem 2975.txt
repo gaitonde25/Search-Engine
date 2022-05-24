@@ -1,0 +1,13 @@
+b"You have a garland consisting of nn lamps. Each lamp is colored red, green or blue. The color of the ii-th lamp is sisi ('R', 'G' and 'B' \xe2\x80\x94 colors of lamps in the garland)."
+b'You have to recolor some lamps in this garland (recoloring a lamp means changing its initial color to another) in such a way that the obtained garland is nice.'
+b'A garland is called nice if any two lamps of the same color have distance divisible by three between them. I.e. if the obtained garland is tt, then for each i,ji,j such that ti=tjti=tj should be satisfied |i\xe2\x88\x92j|\xc2\xa0mod\xc2\xa03=0|i\xe2\x88\x92j|\xc2\xa0mod\xc2\xa03=0. The value |x||x| means absolute value of xx, the operation x\xc2\xa0mod\xc2\xa0yx\xc2\xa0mod\xc2\xa0y means remainder of xx when divided by yy.'
+b'For example, the following garlands are nice: "RGBRGBRG", "GB", "R", "GRBGRBG", "BRGBRGB". The following garlands are not nice: "RR", "RGBG".'
+b'Among all ways to recolor the initial garland to make it nice you have to choose one with the minimum number of recolored lamps. If there are multiple optimal solutions, print any of them.'
+b'Input'
+b'The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of lamps.'
+b"The second line of the input contains the string ss consisting of nn characters 'R', 'G' and 'B' \xe2\x80\x94 colors of lamps in the garland."
+b'Output'
+b'In the first line of the output print one integer rr \xe2\x80\x94 the minimum number of recolors needed to obtain a nice garland from the given one.'
+b'In the second line of the output print one string tt of length nn \xe2\x80\x94 a nice garland obtained from the initial one with minimum number of recolors. If there are multiple optimal solutions, print any of them.'
+Tags
+brute force, greedy, math, *1300

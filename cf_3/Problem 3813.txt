@@ -1,0 +1,12 @@
+b'Arkady decided to buy roses for his girlfriend.'
+b"A flower shop has white, orange and red roses, and the total amount of them is n. Arkady thinks that red roses are not good together with white roses, so he won't buy a bouquet containing both red and white roses. Also, Arkady won't buy a bouquet where all roses have the same color. "
+b"Arkady wants to buy exactly k roses. For each rose in the shop he knows its beauty and color: the beauty of the i-th rose is bi, and its color is ci ('W' for a white rose, 'O' for an orange rose and 'R' for a red rose). "
+b'Compute the maximum possible total beauty of a bouquet of k roses satisfying the constraints above or determine that it is not possible to make such a bouquet.'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000) \xe2\x80\x94 the number of roses in the show and the number of roses Arkady wants to buy.'
+b'The second line contains a sequence of integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000), where bi equals the beauty of the i-th rose.'
+b"The third line contains a string c of length n, consisting of uppercase English letters 'W', 'O' and 'R', where ci denotes the color of the i-th rose: 'W' denotes white, 'O' \xc2\xa0\xe2\x80\x94 orange, 'R' \xe2\x80\x94 red."
+b'Output'
+b'Print the maximum possible total beauty of a bouquet of k roses that satisfies the constraints above. If it is not possible to make a single such bouquet, print -1.'
+Tags
+*2200

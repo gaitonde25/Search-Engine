@@ -1,0 +1,19 @@
+b'There are nn startups. Startups can be active or acquired. If a startup is acquired, then that means it has exactly one active startup that it is following. An active startup can have arbitrarily many acquired startups that are following it. An active startup cannot follow any other startup.'
+b'The following steps happen until there is exactly one active startup. The following sequence of steps takes exactly 1 day.'
+b"  Two distinct active startups AA, BB, are chosen uniformly at random.  A fair coin is flipped, and with equal probability, AA acquires BB or BB acquires AA (i.e. if AA acquires BB, then that means BB's state changes from active to acquired, and its starts following AA).  When a startup changes from active to acquired, all of its previously acquired startups become active. "
+b"For example, the following scenario can happen: Let's say AA, BB are active startups. CC, DD, EE are acquired startups under AA, and FF, GG are acquired startups under BB:"
+b' Active startups are shown in red. '
+b'If AA acquires BB, then the state will be AA, FF, GG are active startups. CC, DD, EE, BB are acquired startups under AA. FF and GG have no acquired startups:'
+b'  '
+b'If instead, BB acquires AA, then the state will be BB, CC, DD, EE are active startups. FF, GG, AA are acquired startups under BB. CC, DD, EE have no acquired startups:'
+b'  '
+b'You are given the initial state of the startups. For each startup, you are told if it is either acquired or active. If it is acquired, you are also given the index of the active startup that it is following.'
+b"You're now wondering, what is the expected number of days needed for this process to finish with exactly one active startup at the end."
+b'It can be shown the expected number of days can be written as a rational number P/QP/Q, where PP and QQ are co-prime integers, and Q\xe2\x89\xa00(mod109+7)Q\xe2\x89\xa00(mod109+7). Return the value of P\xe2\x8b\x85Q\xe2\x88\x921P\xe2\x8b\x85Q\xe2\x88\x921 modulo 109+7109+7.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa45002\xe2\x89\xa4n\xe2\x89\xa4500), the number of startups.'
+b'The next line will contain nn space-separated integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (ai=\xe2\x88\x921ai=\xe2\x88\x921 or 1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n). If ai=\xe2\x88\x921ai=\xe2\x88\x921, then that means startup ii is active. Otherwise, if 1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n, then startup ii is acquired, and it is currently following startup aiai. It is guaranteed if ai\xe2\x89\xa0\xe2\x88\x921ai\xe2\x89\xa0\xe2\x88\x921, then aai=\xe2\x88\x921aai=\xe2\x88\x921 (that is, all startups that are being followed are active).'
+b'Output'
+b'Print a single integer, the expected number of days needed for the process to end with exactly one active startup, modulo 109+7109+7.'
+Tags
+constructive algorithms, math, *3200

@@ -1,0 +1,10 @@
+b'Boris really likes numbers and even owns a small shop selling interesting numbers. He has n decimal numbers Bi. Cost of the number in his shop is equal to the sum of costs of its digits. You are given the values cd, where cd is the cost of the digit d. Of course, Boris is interested in that numbers he owns have the maximum cost possible.'
+b"Recently Boris got hold of the magical artifact A, which can allow him to increase the cost of his collection. Artifact is a string, consisting of digits and '?' symbols. To use the artifact, Boris must replace all '?' with digits to get a decimal number without leading zeros (it is also not allowed to get number 0). After that, the resulting number is added to all numbers Bi in Boris' collection. He uses the artifact exactly once."
+b'What is the maximum cost of the collection Boris can achieve after using the artifact?'
+b'Input'
+b"First line contains artifact A, consisting of digits '0'\xe2\x80\x93'9' and '?' symbols (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|A|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000). Next line contains n\xc2\xa0\xe2\x80\x94 the amount of numbers in Boris' collection (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000). Next n lines contain integers Bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Bi\xe2\x80\x89<\xe2\x80\x89101000). A doesn't start with '0'."
+b'Last line contains ten integers\xc2\xa0\xe2\x80\x94 costs of digits c0,\xe2\x80\x89c1,\xe2\x80\x89...,\xe2\x80\x89c9 (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000).'
+b'Output'
+b'Output one integer\xc2\xa0\xe2\x80\x94 the maximum possible cost of the collection after using the artifact.'
+Tags
+dp, sortings, *3000

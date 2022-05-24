@@ -1,0 +1,11 @@
+b'You are an experienced Codeforces user. Today you found out that during your activity on Codeforces you have made y submissions, out of which x have been successful. Thus, your current success rate on Codeforces is equal to x\xe2\x80\x89/\xe2\x80\x89y.'
+b'Your favorite rational number in the [0;1] range is p\xe2\x80\x89/\xe2\x80\x89q. Now you wonder: what is the smallest number of submissions you have to make if you want your success rate to be p\xe2\x80\x89/\xe2\x80\x89q?'
+b'Input'
+b'The first line contains a single integer t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each of the next t lines contains four integers x, y, p and q (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109; 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109; y\xe2\x80\x89>\xe2\x80\x890; q\xe2\x80\x89>\xe2\x80\x890).'
+b'It is guaranteed that p\xe2\x80\x89/\xe2\x80\x89q is an irreducible fraction.'
+b'Hacks. For hacks, an additional constraint of t\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895 must be met.'
+b'Output'
+b'For each test case, output a single integer equal to the smallest number of submissions you have to make if you want your success rate to be equal to your favorite rational number, or -1 if this is impossible to achieve.'
+Tags
+binary search, math, *1700

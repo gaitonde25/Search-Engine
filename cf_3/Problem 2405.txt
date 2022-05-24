@@ -1,0 +1,10 @@
+b"You play your favourite game yet another time. You chose the character you didn't play before. It has strstr points of strength and intint points of intelligence. Also, at start, the character has expexp free experience points you can invest either in strength or in intelligence (by investing one point you can either raise strength by 11 or raise intelligence by 11)."
+b"Since you'd like to make some fun you want to create a jock character, so it has more strength than intelligence points (resulting strength is strictly greater than the resulting intelligence)."
+b'Calculate the number of different character builds you can create (for the purpose of replayability) if you must invest all free points. Two character builds are different if their strength and/or intellect are different.'
+b'Input'
+b'The first line contains the single integer TT (1\xe2\x89\xa4T\xe2\x89\xa41001\xe2\x89\xa4T\xe2\x89\xa4100) \xe2\x80\x94 the number of queries. Next TT lines contain descriptions of queries \xe2\x80\x94 one per line.'
+b'This line contains three integers strstr, intint and expexp (1\xe2\x89\xa4str,int\xe2\x89\xa41081\xe2\x89\xa4str,int\xe2\x89\xa4108, 0\xe2\x89\xa4exp\xe2\x89\xa41080\xe2\x89\xa4exp\xe2\x89\xa4108) \xe2\x80\x94 the initial strength and intelligence of the character and the number of free points, respectively.'
+b'Output'
+b'Print TT integers \xe2\x80\x94 one per query. For each query print the number of different character builds you can create.'
+Tags
+binary search, math, *1300

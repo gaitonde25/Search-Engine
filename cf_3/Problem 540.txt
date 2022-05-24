@@ -1,0 +1,10 @@
+b'Luntik has decided to try singing. He has aa one-minute songs, bb two-minute songs and cc three-minute songs. He wants to distribute all songs into two concerts such that every song should be included to exactly one concert.'
+b'He wants to make the absolute difference of durations of the concerts as small as possible. The duration of the concert is the sum of durations of all songs in that concert.'
+b'Please help Luntik and find the minimal possible difference in minutes between the concerts durations.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each test case consists of one line containing three integers a,b,ca,b,c (1\xe2\x89\xa4a,b,c\xe2\x89\xa4109)(1\xe2\x89\xa4a,b,c\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of one-minute, two-minute and three-minute songs.'
+b'Output'
+b'For each test case print the minimal possible difference in minutes between the concerts durations.'
+Tags
+math, *800

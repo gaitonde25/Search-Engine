@@ -1,0 +1,11 @@
+b'This is an interactive problem. In the output section below you will see the information about flushing the output.'
+b'On Sunday Leha the hacker took Nura from the house where she lives and went with her to one of the most luxurious restaurants in Vi\xc4\x8dkopolis. Upon arrival, they left the car in a huge parking lot near the restaurant and hurried inside the building.'
+b'In the restaurant a polite waiter immediately brought the menu to Leha and Noora, consisting of n dishes. It is interesting that all dishes in the menu are numbered with integers from 1 to n. After a little thought, the girl ordered exactly k different dishes from available in the menu. To pass the waiting time while the chefs prepare ordered dishes, the girl invited the hacker to play a game that will help them get to know each other better.'
+b'The game itself is very simple: Noora wants Leha to guess any two dishes among all ordered. At the same time, she is ready to answer only one type of questions. Leha can say two numbers x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). After that Noora chooses some dish a for the number x such that, at first, a is among the dishes Noora ordered (x can be equal to a), and, secondly, the value  is the minimum possible. By the same rules the girl chooses dish b for y. After that Noora says \xc2\xabTAK\xc2\xbb to Leha, if , and \xc2\xabNIE\xc2\xbb otherwise. However, the restaurant is preparing quickly, so Leha has enough time to ask no more than 60 questions. After that he should name numbers of any two dishes Noora ordered.'
+b'Help Leha to solve this problem!'
+b'Input'
+b'There are two numbers n and k (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) in the single line of input denoting the number of dishes in the menu and the number of dishes Noora ordered.'
+b'Output'
+b'If you want to provide an answer, output a string of the form 2 x y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89y), if you think the dishes x and y was among dishes ordered by Noora. After that, flush the output and terminate your program.'
+Tags
+binary search, interactive, *2200

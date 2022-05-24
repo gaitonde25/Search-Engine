@@ -1,0 +1,11 @@
+b'You are given a sorted array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (for each index i>1i>1 condition ai\xe2\x89\xa5ai\xe2\x88\x921ai\xe2\x89\xa5ai\xe2\x88\x921 holds) and an integer kk.'
+b'You are asked to divide this array into kk non-empty consecutive subarrays. Every element in the array should be included in exactly one subarray. '
+b'Let max(i)max(i) be equal to the maximum in the ii-th subarray, and min(i)min(i) be equal to the minimum in the ii-th subarray. The cost of division is equal to \xe2\x88\x91i=1k(max(i)\xe2\x88\x92min(i))\xe2\x88\x91i=1k(max(i)\xe2\x88\x92min(i)). For example, if a=[2,4,5,5,8,11,19]a=[2,4,5,5,8,11,19] and we divide it into 33 subarrays in the following way: [2,4],[5,5],[8,11,19][2,4],[5,5],[8,11,19], then the cost of division is equal to (4\xe2\x88\x922)+(5\xe2\x88\x925)+(19\xe2\x88\x928)=13(4\xe2\x88\x922)+(5\xe2\x88\x925)+(19\xe2\x88\x928)=13.'
+b'Calculate the minimum cost you can obtain by dividing the array aa into kk non-empty consecutive subarrays. '
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109, ai\xe2\x89\xa5ai\xe2\x88\x921ai\xe2\x89\xa5ai\xe2\x88\x921). '
+b'Output'
+b'Print the minimum cost you can obtain by dividing the array aa into kk nonempty consecutive subarrays. '
+Tags
+greedy, sortings, *1400

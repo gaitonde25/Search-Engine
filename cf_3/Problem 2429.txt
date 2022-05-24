@@ -1,0 +1,15 @@
+b"You are given two strings ss and tt both of length 22 and both consisting only of characters 'a', 'b' and 'c'."
+b'Possible examples of strings ss and tt: "ab", "ca", "bb".'
+b"You have to find a string resres consisting of 3n3n characters, nn characters should be 'a', nn characters should be 'b' and nn characters should be 'c' and ss and tt should not occur in resres as substrings."
+b'A substring of a string is a contiguous subsequence of that string. So, the strings "ab", "ac" and "cc" are substrings of the string "abacc", but the strings "bc", "aa" and "cb" are not substrings of the string "abacc".'
+b'If there are multiple answers, you can print any of them.'
+b'Input'
+b"The first line of the input contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of characters 'a', 'b' and 'c' in the resulting string."
+b"The second line of the input contains one string ss of length 22 consisting of characters 'a', 'b' and 'c'."
+b"The third line of the input contains one string tt of length 22 consisting of characters 'a', 'b' and 'c'."
+b'Output'
+b'If it is impossible to find the suitable string, print "NO" on the first line. '
+b'Otherwise print "YES" on the first line and string resres on the second line. resres should consist of 3n3n characters, nn characters should be \'a\', nn characters should be \'b\' and nn characters should be \'c\' and ss and tt should not occur in resres as substrings.'
+b'If there are multiple answers, you can print any of them.'
+Tags
+brute force, constructive algorithms, *1900

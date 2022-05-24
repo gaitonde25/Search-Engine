@@ -1,0 +1,8 @@
+b'The only difference between the easy and the hard version is the limit to the number of queries.'
+b'This is an interactive problem.'
+b'There is an array aa of nn different numbers. In one query you can ask the position of the second maximum element in a subsegment a[l..r]a[l..r]. Find the position of the maximum element in the array in no more than 40 queries.'
+b'A subsegment a[l..r]a[l..r] is all the elements al,al+1,...,aral,al+1,...,ar. After asking this subsegment you will be given the position of the second maximum from this subsegment in the whole array.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa4105)(2\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of elements in the array.'
+Tags
+binary search, interactive, *1600

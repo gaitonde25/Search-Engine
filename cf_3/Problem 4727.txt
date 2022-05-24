@@ -1,0 +1,12 @@
+b'There are k sensors located in the rectangular room of size n\xe2\x80\x89\xc3\x97\xe2\x80\x89m meters. The i-th sensor is located at point (xi,\xe2\x80\x89yi). All sensors are located at distinct points strictly inside the rectangle. '
+b'Opposite corners of the room are located at points (0,\xe2\x80\x890) and (n,\xe2\x80\x89m). Walls of the room are parallel to coordinate axes.'
+b'At the moment 0, from the point (0,\xe2\x80\x890) the laser ray is released in the direction of point (1,\xe2\x80\x891). The ray travels with a speed of  meters per second. Thus, the ray will reach the point (1,\xe2\x80\x891) in exactly one second after the start.'
+b"When the ray meets the wall it's reflected by the rule that the angle of incidence is equal to the angle of reflection. If the ray reaches any of the four corners, it immediately stops."
+b'For each sensor you have to determine the first moment of time when the ray will pass through the point where this sensor is located. If the ray will never pass through this point, print \xe2\x80\x89-\xe2\x80\x891 for such sensors.'
+b'Input'
+b"The first line of the input contains three integers n, m and k (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 lengths of the room's walls and the number of sensors."
+b"Each of the following k lines contains two integers xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x891, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89-\xe2\x80\x891)\xc2\xa0\xe2\x80\x94 coordinates of the sensors. It's guaranteed that no two sensors are located at the same point."
+b'Output'
+b'Print k integers. The i-th of them should be equal to the number of seconds when the ray first passes through the point where the i-th sensor is located, or \xe2\x80\x89-\xe2\x80\x891 if this will never happen. '
+Tags
+greedy, hashing, implementation, math, number theory, sortings, *1800

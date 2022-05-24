@@ -1,0 +1,8 @@
+b"You're given an array aa of length 2n2n. Is it possible to reorder it in such way so that the sum of the first nn elements isn't equal to the sum of the last nn elements?"
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000), where 2n2n is the number of elements in the array aa.'
+b'The second line contains 2n2n space-separated integers a1a1, a2a2, \xe2\x80\xa6\xe2\x80\xa6, a2na2n (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the elements of the array aa.'
+b'Output'
+b'If there\'s no solution, print "-1" (without quotes). Otherwise, print a single line containing 2n2n space-separated integers. They must form a reordering of aa. You are allowed to not change the order.'
+Tags
+constructive algorithms, greedy, sortings, *1000

@@ -1,0 +1,11 @@
+b"You are given a tree (a graph with n vertices and n\xe2\x80\x89-\xe2\x80\x891 edges in which it's possible to reach any vertex from any other vertex using only its edges)."
+b'A vertex can be destroyed if this vertex has even degree. If you destroy a vertex, all edges connected to it are also deleted.'
+b'Destroy all vertices in the given tree or determine that it is impossible.'
+b'Input'
+b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105)\xc2\xa0\xe2\x80\x94 number of vertices in a tree.'
+b'The second line contains n integers p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pn (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). If pi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x890 there is an edge between vertices i and pi. It is guaranteed that the given graph is a tree.'
+b'Output'
+b'If it\'s possible to destroy all vertices, print "YES" (without quotes), otherwise print "NO" (without quotes).'
+b"If it's possible to destroy all vertices, in the next n lines print the indices of the vertices in order you destroy them. If there are multiple correct answers, print any."
+Tags
+constructive algorithms, dfs and similar, dp, greedy, trees, *2000

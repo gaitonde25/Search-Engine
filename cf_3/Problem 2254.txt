@@ -1,0 +1,16 @@
+b'You are given a huge integer aa consisting of nn digits (nn is between 11 and 3\xe2\x8b\x851053\xe2\x8b\x85105, inclusive). It may contain leading zeros.'
+b'You can swap two digits on adjacent (neighboring) positions if the swapping digits are of different parity (that is, they have different remainders when divided by 22). '
+b'For example, if a=032867235a=032867235 you can get the following integers in a single operation: '
+b'  302867235302867235 if you swap the first and the second digits;  023867235023867235 if you swap the second and the third digits;  032876235032876235 if you swap the fifth and the sixth digits;  032862735032862735 if you swap the sixth and the seventh digits;  032867325032867325 if you swap the seventh and the eighth digits. '
+b"Note, that you can't swap digits on positions 22 and 44 because the positions are not adjacent. Also, you can't swap digits on positions 33 and 44 because the digits have the same parity."
+b'You can perform any number (possibly, zero) of such operations.'
+b'Find the minimum integer you can obtain.'
+b'Note that the resulting integer also may contain leading zeros.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases in the input.'
+b'The only line of each test case contains the integer aa, its length nn is between 11 and 3\xe2\x8b\x851053\xe2\x8b\x85105, inclusive.'
+b'It is guaranteed that the sum of all values nn does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case print line \xe2\x80\x94 the minimum integer you can obtain.'
+Tags
+greedy, two pointers, *1600

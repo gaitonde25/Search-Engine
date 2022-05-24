@@ -1,0 +1,12 @@
+b'Given a connected undirected graph with nn vertices and an integer kk, you have to either:'
+b'  either find an independent set that has exactly \xe2\x8c\x88k2\xe2\x8c\x89\xe2\x8c\x88k2\xe2\x8c\x89 vertices. or find a simple cycle of length at most kk. '
+b"An independent set is a set of vertices such that no two of them are connected by an edge. A simple cycle is a cycle that doesn't contain any vertex twice. "
+b"I have a proof that for any input you can always solve at least one of these problems, but it's left as an exercise for the reader."
+b'Input'
+b'The first line contains three integers nn, mm, and kk (3\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41053\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4105, n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of vertices and edges in the graph, and the parameter kk from the statement.'
+b"Each of the next mm lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n) that mean there's an edge between vertices uu and vv. It's guaranteed that the graph is connected and doesn't contain any self-loops or multiple edges."
+b'Output'
+b'If you choose to solve the first problem, then on the first line print 11, followed by a line containing \xe2\x8c\x88k2\xe2\x8c\x89\xe2\x8c\x88k2\xe2\x8c\x89 distinct integers not exceeding nn, the vertices in the desired independent set.'
+b'If you, however, choose to solve the second problem, then on the first line print 22, followed by a line containing one integer, cc, representing the length of the found cycle, followed by a line containing cc distinct integers not exceeding nn, the vertices in the desired cycle, in the order they appear in the cycle.'
+Tags
+constructive algorithms, dfs and similar, graphs, greedy, implementation, trees, *2100

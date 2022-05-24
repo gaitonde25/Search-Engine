@@ -1,0 +1,10 @@
+b'A sequence of integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm is called good if max(b1,b2,\xe2\x80\xa6,bm)\xe2\x8b\x85min(b1,b2,\xe2\x80\xa6,bm)\xe2\x89\xa5b1+b2+\xe2\x80\xa6+bmmax(b1,b2,\xe2\x80\xa6,bm)\xe2\x8b\x85min(b1,b2,\xe2\x80\xa6,bm)\xe2\x89\xa5b1+b2+\xe2\x80\xa6+bm.'
+b'A sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an is called perfect if every non-empty subsequence of aa is good.'
+b'YouKn0wWho has two integers nn and MM, MM is prime. Help him find the number, modulo MM, of perfect sequences a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an such that 1\xe2\x89\xa4ai\xe2\x89\xa4n+11\xe2\x89\xa4ai\xe2\x89\xa4n+1 for each integer ii from 11 to nn.'
+b'A sequence dd is a subsequence of a sequence cc if dd can be obtained from cc by deletion of several (possibly, zero or all) elements.'
+b'Input'
+b'The first and only line of the input contains two space-separated integers nn and MM (1\xe2\x89\xa4n\xe2\x89\xa42001\xe2\x89\xa4n\xe2\x89\xa4200; 108\xe2\x89\xa4M\xe2\x89\xa4109108\xe2\x89\xa4M\xe2\x89\xa4109). It is guaranteed that MM is prime.'
+b'Output'
+b'Print a single integer \xc2\xa0\xe2\x80\x94 the number of perfect sequences modulo MM.'
+Tags
+combinatorics, dp, math, *3200

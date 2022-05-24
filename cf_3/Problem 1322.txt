@@ -1,0 +1,14 @@
+b'There is a local shop in your area getting prepared for the great holiday of Black Friday. There are nn items with prices p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn on the display. They are ordered by price, so p1\xe2\x89\xa4p2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4pnp1\xe2\x89\xa4p2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4pn.'
+b'The shop has a prechosen discount value kk. The Black Friday discount is applied in the following way: for a single purchase of xx items, you get the cheapest \xe2\x8c\x8axk\xe2\x8c\x8b\xe2\x8c\x8axk\xe2\x8c\x8b items of them for free (\xe2\x8c\x8axk\xe2\x8c\x8b\xe2\x8c\x8axk\xe2\x8c\x8b is xx divided by kk rounded down to the nearest integer). You can include each item in your purchase no more than once.'
+b'For example, if there are items with prices [1,1,2,2,2,3,4,5,6][1,1,2,2,2,3,4,5,6] in the shop, and you buy items with prices [1,2,2,4,5][1,2,2,4,5], and k=2k=2, then you get the cheapest \xe2\x8c\x8a52\xe2\x8c\x8b=2\xe2\x8c\x8a52\xe2\x8c\x8b=2 for free. They are items with prices 11 and 22.'
+b"So you, being the naive customer, don't care about how much money you spend. However, you want the total price of the items you get for free to be as large as possible."
+b'What is the maximum total price of the items you can get for free on a single purchase?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'Then the description of tt testcases follows.'
+b'The first line of each testcase contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42001\xe2\x89\xa4n\xe2\x89\xa4200; 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of items in the shop and the discount value, respectively.'
+b'The second line of each testcase contains nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa41061\xe2\x89\xa4pi\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the prices of the items on the display of the shop. The items are ordered by their price, so p1\xe2\x89\xa4p2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4pnp1\xe2\x89\xa4p2\xe2\x89\xa4\xe2\x8b\xaf\xe2\x89\xa4pn.'
+b'Output'
+b'Print a single integer for each testcase: the maximum total price of the items you can get for free on a single purchase.'
+Tags
+*special problem, implementation, *1600

@@ -1,0 +1,12 @@
+b'Arpa has found a list containing n numbers. He calls a list bad if and only if it is not empty and gcd (see notes section for more information) of numbers in the list is 1.'
+b'Arpa can perform two types of operations:'
+b'  Choose a number and delete it with cost x.  Choose a number and increase it by 1 with cost y. '
+b'Arpa can apply these operations to as many numbers as he wishes, and he is allowed to apply the second operation arbitrarily many times on the same number.'
+b'Help Arpa to find the minimum possible cost to make the list good.'
+b'Input'
+b'First line contains three integers n, x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the number of elements in the list and the integers x and y.'
+b'Second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106)\xc2\xa0\xe2\x80\x94 the elements of the list.'
+b'Output'
+b'Print a single integer: the minimum possible cost to make the list good.'
+Tags
+implementation, number theory, *2100

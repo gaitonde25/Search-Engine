@@ -1,0 +1,12 @@
+b'You are given a matrix with nn rows (numbered from 11 to nn) and mm columns (numbered from 11 to mm). A number ai,jai,j is written in the cell belonging to the ii-th row and the jj-th column, each number is either 00 or 11.'
+b'A chip is initially in the cell (1,1)(1,1), and it will be moved to the cell (n,m)(n,m). During each move, it either moves to the next cell in the current row, or in the current column (if the current cell is (x,y)(x,y), then after the move it can be either (x+1,y)(x+1,y) or (x,y+1)(x,y+1)). The chip cannot leave the matrix.'
+b'Consider each path of the chip from (1,1)(1,1) to (n,m)(n,m). A path is called palindromic if the number in the first cell is equal to the number in the last cell, the number in the second cell is equal to the number in the second-to-last cell, and so on.'
+b'Your goal is to change the values in the minimum number of cells so that every path is palindromic.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42001\xe2\x89\xa4t\xe2\x89\xa4200) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn and mm (2\xe2\x89\xa4n,m\xe2\x89\xa4302\xe2\x89\xa4n,m\xe2\x89\xa430) \xe2\x80\x94 the dimensions of the matrix.'
+b'Then nn lines follow, the ii-th line contains mm integers ai,1ai,1, ai,2ai,2, ..., ai,mai,m (0\xe2\x89\xa4ai,j\xe2\x89\xa410\xe2\x89\xa4ai,j\xe2\x89\xa41).'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the minimum number of cells you have to change so that every path in the matrix is palindromic.'
+Tags
+greedy, math, *1500

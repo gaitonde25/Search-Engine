@@ -1,0 +1,13 @@
+b'You are given a string ss consisting of lowercase Latin letters. Let the length of ss be |s||s|. You may perform several operations on this string.'
+b'In one operation, you can choose some index ii and remove the ii-th character of ss (sisi) if at least one of its adjacent characters is the previous letter in the Latin alphabet for sisi. For example, the previous letter for b is a, the previous letter for s is r, the letter a has no previous letters. Note that after each removal the length of the string decreases by one. So, the index ii should satisfy the condition 1\xe2\x89\xa4i\xe2\x89\xa4|s|1\xe2\x89\xa4i\xe2\x89\xa4|s| during each operation.'
+b'For the character sisi adjacent characters are si\xe2\x88\x921si\xe2\x88\x921 and si+1si+1. The first and the last characters of ss both have only one adjacent character (unless |s|=1|s|=1).'
+b'Consider the following example. Let s=s= bacabcab.'
+b"  During the first move, you can remove the first character s1=s1= b because s2=s2= a. Then the string becomes s=s= acabcab.  During the second move, you can remove the fifth character s5=s5= c because s4=s4= b. Then the string becomes s=s= acabab.  During the third move, you can remove the sixth character s6=s6='b' because s5=s5= a. Then the string becomes s=s= acaba.  During the fourth move, the only character you can remove is s4=s4= b, because s3=s3= a (or s5=s5= a). The string becomes s=s= acaa and you cannot do anything with it. "
+b'Your task is to find the maximum possible number of characters you can remove if you choose the sequence of operations optimally.'
+b'Input'
+b'The first line of the input contains one integer |s||s| (1\xe2\x89\xa4|s|\xe2\x89\xa41001\xe2\x89\xa4|s|\xe2\x89\xa4100) \xe2\x80\x94 the length of ss.'
+b'The second line of the input contains one string ss consisting of |s||s| lowercase Latin letters.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum possible number of characters you can remove if you choose the sequence of moves optimally.'
+Tags
+brute force, constructive algorithms, greedy, strings, *1600

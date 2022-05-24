@@ -1,0 +1,13 @@
+b'Nauuo is a girl who loves writing comments.'
+b'One day, she posted a comment on Codeforces, wondering whether she would get upvotes or downvotes.'
+b"It's known that there were xx persons who would upvote, yy persons who would downvote, and there were also another zz persons who would vote, but you don't know whether they would upvote or downvote. Note that each of the x+y+zx+y+z people would vote exactly one time."
+b'There are three different results: if there are more people upvote than downvote, the result will be "+"; if there are more people downvote than upvote, the result will be "-"; otherwise the result will be "0".'
+b'Because of the zz unknown persons, the result may be uncertain (i.e. there are more than one possible results). More formally, the result is uncertain if and only if there exist two different situations of how the zz persons vote, that the results are different in the two situations.'
+b'Tell Nauuo the result or report that the result is uncertain.'
+b'Input'
+b'The only line contains three integers xx, yy, zz (0\xe2\x89\xa4x,y,z\xe2\x89\xa41000\xe2\x89\xa4x,y,z\xe2\x89\xa4100), corresponding to the number of persons who would upvote, downvote or unknown.'
+b'Output'
+b'If there is only one possible result, print the result : "+", "-" or "0".'
+b'Otherwise, print "?" to report that the result is uncertain.'
+Tags
+greedy, *800

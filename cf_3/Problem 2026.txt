@@ -1,0 +1,17 @@
+b'There are nn railway stations in Berland. They are connected to each other by n\xe2\x88\x921n\xe2\x88\x921 railway sections. The railway network is connected, i.e. can be represented as an undirected tree.'
+b'You have a map of that network, so for each railway section you know which stations it connects.'
+b"Each of the n\xe2\x88\x921n\xe2\x88\x921 sections has some integer value of the scenery beauty. However, these values are not marked on the map and you don't know them. All these values are from 11 to 106106 inclusive."
+b'You asked mm passengers some questions: the jj-th one told you three values:'
+b'  his departure station ajaj;  his arrival station bjbj;  minimum scenery beauty along the path from ajaj to bjbj (the train is moving along the shortest path from ajaj to bjbj). '
+b"You are planning to update the map and set some value fifi on each railway section \xe2\x80\x94 the scenery beauty. The passengers' answers should be consistent with these values."
+b"Print any valid set of values f1,f2,\xe2\x80\xa6,fn\xe2\x88\x921f1,f2,\xe2\x80\xa6,fn\xe2\x88\x921, which the passengers' answer is consistent with or report that it doesn't exist."
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa450002\xe2\x89\xa4n\xe2\x89\xa45000) \xe2\x80\x94 the number of railway stations in Berland.'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines contain descriptions of the railway sections: the ii-th section description is two integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n,xi\xe2\x89\xa0yi1\xe2\x89\xa4xi,yi\xe2\x89\xa4n,xi\xe2\x89\xa0yi), where xixi and yiyi are the indices of the stations which are connected by the ii-th railway section. All the railway sections are bidirected. Each station can be reached from any other station by the railway.'
+b'The next line contains a single integer mm (1\xe2\x89\xa4m\xe2\x89\xa450001\xe2\x89\xa4m\xe2\x89\xa45000) \xe2\x80\x94 the number of passengers which were asked questions. Then mm lines follow, the jj-th line contains three integers ajaj, bjbj and gjgj (1\xe2\x89\xa4aj,bj\xe2\x89\xa4n1\xe2\x89\xa4aj,bj\xe2\x89\xa4n; aj\xe2\x89\xa0bjaj\xe2\x89\xa0bj; 1\xe2\x89\xa4gj\xe2\x89\xa41061\xe2\x89\xa4gj\xe2\x89\xa4106) \xe2\x80\x94 the departure station, the arrival station and the minimum scenery beauty along his path.'
+b'Output'
+b'If there is no answer then print a single integer -1.'
+b'Otherwise, print n\xe2\x88\x921n\xe2\x88\x921 integers f1,f2,\xe2\x80\xa6,fn\xe2\x88\x921f1,f2,\xe2\x80\xa6,fn\xe2\x88\x921 (1\xe2\x89\xa4fi\xe2\x89\xa41061\xe2\x89\xa4fi\xe2\x89\xa4106), where fifi is some valid scenery beauty along the ii-th railway section.'
+b'If there are multiple answers, you can print any of them.'
+Tags
+constructive algorithms, dfs and similar, greedy, sortings, trees, *2100

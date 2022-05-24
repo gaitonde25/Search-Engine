@@ -1,0 +1,13 @@
+b'You are given an integer nn.'
+b'You can perform any of the following operations with this number an arbitrary (possibly, zero) number of times: '
+b'  Replace nn with n2n2 if nn is divisible by 22;  Replace nn with 2n32n3 if nn is divisible by 33;  Replace nn with 4n54n5 if nn is divisible by 55. '
+b'For example, you can replace 3030 with 1515 using the first operation, with 2020 using the second operation or with 2424 using the third operation.'
+b'Your task is to find the minimum number of moves required to obtain 11 from nn or say that it is impossible to do it.'
+b'You have to answer qq independent queries.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa410001\xe2\x89\xa4q\xe2\x89\xa41000) \xe2\x80\x94 the number of queries.'
+b'The next qq lines contain the queries. For each query you are given the integer number nn (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018).'
+b'Output'
+b'Print the answer for each query on a new line. If it is impossible to obtain 11 from nn, print -1. Otherwise, print the minimum number of moves required to do it.'
+Tags
+brute force, greedy, implementation, *800

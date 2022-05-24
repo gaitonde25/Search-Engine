@@ -1,0 +1,12 @@
+b'You are given a string ss consisting of lowercase Latin letters and qq queries for this string.'
+b'Recall that the substring s[l;r]s[l;r] of the string ss is the string slsl+1\xe2\x80\xa6srslsl+1\xe2\x80\xa6sr. For example, the substrings of "codeforces" are "code", "force", "f", "for", but not "coder" and "top".'
+b'There are two types of queries: '
+b'  1\xc2\xa0pos\xc2\xa0c1\xc2\xa0pos\xc2\xa0c (1\xe2\x89\xa4pos\xe2\x89\xa4|s|1\xe2\x89\xa4pos\xe2\x89\xa4|s|, cc is lowercase Latin letter): replace sposspos with cc (set spos:=cspos:=c);  2\xc2\xa0l\xc2\xa0r2\xc2\xa0l\xc2\xa0r (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|): calculate the number of distinct characters in the substring s[l;r]s[l;r]. '
+b'Input'
+b'The first line of the input contains one string ss consisting of no more than 105105 lowercase Latin letters.'
+b'The second line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41051\xe2\x89\xa4q\xe2\x89\xa4105) \xe2\x80\x94 the number of queries.'
+b'The next qq lines contain queries, one per line. Each query is given in the format described in the problem statement. It is guaranteed that there is at least one query of the second type.'
+b'Output'
+b'For each query of the second type print the answer for it \xe2\x80\x94 the number of distinct characters in the required substring in this query.'
+Tags
+data structures, *1600

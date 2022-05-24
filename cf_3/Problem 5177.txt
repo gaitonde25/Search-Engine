@@ -1,0 +1,10 @@
+b"The array a with n integers is given. Let's call the sequence of one or more consecutive elements in a segment. Also let's call the segment k-good if it contains no more than k different values."
+b'Find any longest k-good segment.'
+b'As the input/output can reach huge size it is recommended to use fast input/output methods: for example, prefer to use scanf/printf instead of cin/cout in C++, prefer to use BufferedReader/PrintWriter instead of Scanner/System.out in Java.'
+b'Input'
+b'The first line contains two integers n,\xe2\x80\x89k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105) \xe2\x80\x94 the number of elements in a and the parameter k.'
+b'The second line contains n integers ai (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106) \xe2\x80\x94 the elements of the array a.'
+b'Output'
+b'Print two integers l,\xe2\x80\x89r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the index of the left and the index of the right ends of some k-good longest segment. If there are several longest segments you can print any of them. The elements in a are numbered from 1 to n from left to right.'
+Tags
+binary search, data structures, two pointers, *1600

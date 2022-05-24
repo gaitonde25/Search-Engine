@@ -1,0 +1,15 @@
+b'Permutation pp is a sequence of integers p=[p1,p2,\xe2\x80\xa6,pn]p=[p1,p2,\xe2\x80\xa6,pn], consisting of nn distinct (unique) positive integers between 11 and nn, inclusive. For example, the following sequences are permutations: [3,4,1,2][3,4,1,2], [1][1], [1,2][1,2]. The following sequences are not permutations: [0][0], [1,2,1][1,2,1], [2,3][2,3], [0,1,2][0,1,2].'
+b'The important key is in the locked box that you need to open. To open the box you need to enter secret code. Secret code is a permutation pp of length nn. '
+b"You don't know this permutation, you only know the array qq of prefix maximums of this permutation. Formally:"
+b'  q1=p1q1=p1,  q2=max(p1,p2)q2=max(p1,p2),  q3=max(p1,p2,p3)q3=max(p1,p2,p3),  ...  qn=max(p1,p2,\xe2\x80\xa6,pn)qn=max(p1,p2,\xe2\x80\xa6,pn). '
+b'You want to construct any possible suitable permutation (i.e. any such permutation, that calculated qq for this permutation is equal to the given array).'
+b'Input'
+b'The first line contains integer number tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases in the input. Then tt test cases follow.'
+b'The first line of a test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4105)(1\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of elements in the secret code permutation pp.'
+b'The second line of a test case contains nn integers q1,q2,\xe2\x80\xa6,qnq1,q2,\xe2\x80\xa6,qn (1\xe2\x89\xa4qi\xe2\x89\xa4n)(1\xe2\x89\xa4qi\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 elements of the array qq for secret permutation. It is guaranteed that qi\xe2\x89\xa4qi+1qi\xe2\x89\xa4qi+1 for all ii (1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n).'
+b"The sum of all values nn over all the test cases in the input doesn't exceed 105105."
+b'Output'
+b'For each test case, print:'
+b'  If it\'s impossible to find such a permutation pp, print "-1" (without quotes).  Otherwise, print nn distinct integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n). If there are multiple possible answers, you can print any of them. '
+Tags
+constructive algorithms, *1200

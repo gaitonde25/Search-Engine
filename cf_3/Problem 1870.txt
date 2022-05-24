@@ -1,0 +1,9 @@
+b'InputThe only line of the input contains a 7-digit hexadecimal number. The first "digit" of the number is letter A, the rest of the "digits" are decimal digits 0-9.'
+b'OutputOutput a single integer.'
+b'ExamplesInputCopyA278832\nOutputCopy0\nInputCopyA089956\nOutputCopy0\nInputCopyA089957\nOutputCopy1\nInputCopyA144045\nOutputCopy1\n'
+b'Input'
+b'The only line of the input contains a 7-digit hexadecimal number. The first "digit" of the number is letter A, the rest of the "digits" are decimal digits 0-9.'
+b'Output'
+b'Output a single integer.'
+Tags
+*special problem, implementation

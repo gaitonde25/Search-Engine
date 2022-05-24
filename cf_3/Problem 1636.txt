@@ -1,0 +1,10 @@
+b"Let's consider all integers in the range from 11 to nn (inclusive)."
+b'Among all pairs of distinct integers in this range, find the maximum possible greatest common divisor of integers in pair. Formally, find the maximum value of gcd(a,b)gcd(a,b), where 1\xe2\x89\xa4a<b\xe2\x89\xa4n1\xe2\x89\xa4a<b\xe2\x89\xa4n.'
+b'The greatest common divisor, gcd(a,b)gcd(a,b), of two positive integers aa and bb is the biggest integer that is a divisor of both aa and bb.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The only line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41062\xe2\x89\xa4n\xe2\x89\xa4106).'
+b'Output'
+b'For each test case, output the maximum value of gcd(a,b)gcd(a,b) among all 1\xe2\x89\xa4a<b\xe2\x89\xa4n1\xe2\x89\xa4a<b\xe2\x89\xa4n.'
+Tags
+greedy, implementation, math, number theory, *800

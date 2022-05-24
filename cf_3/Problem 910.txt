@@ -1,0 +1,10 @@
+b'Baby Badawy\'s first words were "AND 0 SUM BIG", so he decided to solve the following problem. Given two integers nn and kk, count the number of arrays of length nn such that:'
+b'  all its elements are integers between 00 and 2k\xe2\x88\x9212k\xe2\x88\x921 (inclusive);  the bitwise AND of all its elements is 00;  the sum of its elements is as large as possible. '
+b'Since the answer can be very large, print its remainder when divided by 109+7109+7.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4101\xe2\x89\xa4t\xe2\x89\xa410)\xc2\xa0\xe2\x80\x94 the number of test cases you need to solve.'
+b'Each test case consists of a line containing two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4k\xe2\x89\xa4201\xe2\x89\xa4k\xe2\x89\xa420).'
+b'Output'
+b'For each test case, print the number of arrays satisfying the conditions. Since the answer can be very large, print its remainder when divided by 109+7109+7.'
+Tags
+bitmasks, combinatorics, math, *1200

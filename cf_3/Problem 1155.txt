@@ -1,0 +1,13 @@
+b'You are given nn sets of integers. The ii-th set contains kiki integers.'
+b'Two sets are called similar if they share at least two common elements, i.\xe2\x80\x89e. there exist two integers xx and yy such that x\xe2\x89\xa0yx\xe2\x89\xa0y, and they both belong to each of the two sets.'
+b'Your task is to find two similar sets among the given ones, or report that there is no such pair of sets.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4500001\xe2\x89\xa4t\xe2\x89\xa450000) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105) the number of given sets. The following nn lines describe the sets. The ii-th line starts with an integer kiki (2\xe2\x89\xa4ki\xe2\x89\xa41052\xe2\x89\xa4ki\xe2\x89\xa4105) \xe2\x80\x94 the number of integers in the ii-th set. Then kiki integers ai,1ai,1, ai,2ai,2, ..., ai,kiai,ki (1\xe2\x89\xa4ai,j\xe2\x89\xa41091\xe2\x89\xa4ai,j\xe2\x89\xa4109) follow \xe2\x80\x94 the elements of the ii-th set. It is guaranteed that all elements in each set are different.'
+b'The total number of elements in all sets in all test cases is not greater than 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print the answer on a single line. '
+b'If there is no pair of similar sets, print -1. '
+b'Otherwise, print two different integers \xe2\x80\x94 the indices of the similar sets. The sets are numbered from 11 to nn in the order they are given in the input. If there are multiple answers, print any of them.'
+Tags
+data structures, graphs, implementation, *2300

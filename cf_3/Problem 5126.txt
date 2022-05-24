@@ -1,0 +1,7 @@
+b'Two positive integers a and b have a sum of s and a bitwise XOR of x. How many possible values are there for the ordered pair (a,\xe2\x80\x89b)?'
+b'Input'
+b'The first line of the input contains two integers s and x (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012), the sum and bitwise xor of the pair of positive integers, respectively.'
+b'Output'
+b'Print a single integer, the number of solutions to the given conditions. If no solutions exist, print 0.'
+Tags
+dp, math, *1700

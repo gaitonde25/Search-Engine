@@ -1,0 +1,16 @@
+b'You are playing a variation of game 2048. Initially you have a multiset ss of nn integers. Every integer in this multiset is a power of two. '
+b'You may perform any number (possibly, zero) operations with this multiset.'
+b'During each operation you choose two equal integers from ss, remove them from ss and insert the number equal to their sum into ss.'
+b'For example, if s={1,2,1,1,4,2,2}s={1,2,1,1,4,2,2} and you choose integers 22 and 22, then the multiset becomes {1,1,1,4,4,2}{1,1,1,4,4,2}.'
+b'You win if the number 20482048 belongs to your multiset. For example, if s={1024,512,512,4}s={1024,512,512,4} you can win as follows: choose 512512 and 512512, your multiset turns into {1024,1024,4}{1024,1024,4}. Then choose 10241024 and 10241024, your multiset turns into {2048,4}{2048,4} and you win.'
+b'You have to determine if you can win this game.'
+b'You have to answer qq independent queries.'
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41001\xe2\x89\xa4q\xe2\x89\xa4100) \xe2\x80\x93 the number of queries.'
+b'The first line of each query contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of elements in multiset.'
+b'The second line of each query contains nn integers s1,s2,\xe2\x80\xa6,sns1,s2,\xe2\x80\xa6,sn (1\xe2\x89\xa4si\xe2\x89\xa42291\xe2\x89\xa4si\xe2\x89\xa4229) \xe2\x80\x94 the description of the multiset. It is guaranteed that all elements of the multiset are powers of two. '
+b'Output'
+b'For each query print YES if it is possible to obtain the number 20482048 in your multiset, and NO otherwise.'
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES will all be recognized as positive answer).'
+Tags
+brute force, greedy, math, *1000

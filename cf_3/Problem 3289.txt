@@ -1,0 +1,16 @@
+b'You are given nn points on the plane. The polygon formed from all the nn points is strictly convex, that is, the polygon is convex, and there are no three collinear points (i.e. lying in the same straight line). The points are numbered from 11 to nn, in clockwise order.'
+b'We define the distance between two points p1=(x1,y1)p1=(x1,y1) and p2=(x2,y2)p2=(x2,y2) as their Manhattan distance: d(p1,p2)=|x1\xe2\x88\x92x2|+|y1\xe2\x88\x92y2|.d(p1,p2)=|x1\xe2\x88\x92x2|+|y1\xe2\x88\x92y2|.'
+b'Furthermore, we define the perimeter of a polygon, as the sum of Manhattan distances between all adjacent pairs of points on it; if the points on the polygon are ordered as p1,p2,\xe2\x80\xa6,pkp1,p2,\xe2\x80\xa6,pk (k\xe2\x89\xa53)(k\xe2\x89\xa53), then the perimeter of the polygon is d(p1,p2)+d(p2,p3)+\xe2\x80\xa6+d(pk,p1)d(p1,p2)+d(p2,p3)+\xe2\x80\xa6+d(pk,p1).'
+b"For some parameter kk, let's consider all the polygons that can be formed from the given set of points, having any kk vertices, such that the polygon is not self-intersecting. For each such polygon, let's consider its perimeter. Over all such perimeters, we define f(k)f(k) to be the maximal perimeter."
+b'Please note, when checking whether a polygon is self-intersecting, that the edges of a polygon are still drawn as straight lines. For instance, in the following pictures:'
+b'  '
+b'In the middle polygon, the order of points (p1,p3,p2,p4p1,p3,p2,p4) is not valid, since it is a self-intersecting polygon. The right polygon (whose edges resemble the Manhattan distance) has the same order and is not self-intersecting, but we consider edges as straight lines. The correct way to draw this polygon is (p1,p2,p3,p4p1,p2,p3,p4), which is the left polygon.'
+b'Your task is to compute f(3),f(4),\xe2\x80\xa6,f(n)f(3),f(4),\xe2\x80\xa6,f(n). In other words, find the maximum possible perimeter for each possible number of points (i.e. 33 to nn).'
+b'Input'
+b'The first line contains a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of points. '
+b'Each of the next nn lines contains two integers xixi and yiyi (\xe2\x88\x92108\xe2\x89\xa4xi,yi\xe2\x89\xa4108\xe2\x88\x92108\xe2\x89\xa4xi,yi\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the coordinates of point pipi.'
+b'The set of points is guaranteed to be convex, all points are distinct, the points are ordered in clockwise order, and there will be no three collinear points.'
+b'Output'
+b'For each ii (3\xe2\x89\xa4i\xe2\x89\xa4n3\xe2\x89\xa4i\xe2\x89\xa4n), output f(i)f(i).'
+Tags
+dp, geometry, *2100

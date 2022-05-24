@@ -1,0 +1,10 @@
+b'The flag of Berland is such rectangular field n\xe2\x80\x89\xc3\x97\xe2\x80\x89m that satisfies following conditions:'
+b"  Flag consists of three colors which correspond to letters 'R', 'G' and 'B'.  Flag consists of three equal in width and height stripes, parralel to each other and to sides of the flag. Each stripe has exactly one color.  Each color should be used in exactly one stripe. "
+b'You are given a field n\xe2\x80\x89\xc3\x97\xe2\x80\x89m, consisting of characters \'R\', \'G\' and \'B\'. Output "YES" (without quotes) if this field corresponds to correct flag of Berland. Otherwise, print "NO" (without quotes).'
+b'Input'
+b'The first line contains two integer numbers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the sizes of the field.'
+b"Each of the following n lines consisting of m characters 'R', 'G' and 'B' \xe2\x80\x94 the description of the field."
+b'Output'
+b'Print "YES" (without quotes) if the given field corresponds to correct flag of Berland . Otherwise, print "NO" (without quotes).'
+Tags
+brute force, implementation, *1600

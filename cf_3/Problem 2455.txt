@@ -1,0 +1,13 @@
+b'Koala Land consists of mm bidirectional roads connecting nn cities. The roads are numbered from 11 to mm by order in input. It is guaranteed, that one can reach any city from every other city.'
+b"Koala starts traveling from city 11. Whenever he travels on a road, he writes its number down in his notebook. He doesn't put spaces between the numbers, so they all get concatenated into a single number."
+b'Before embarking on his trip, Koala is curious about the resulting number for all possible destinations. For each possible destination, what is the smallest number he could have written for it?'
+b'Since these numbers may be quite large, print their remainders modulo 109+7109+7. Please note, that you need to compute the remainder of the minimum possible number, not the minimum possible remainder.'
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4105,n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105,n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4105), the number of cities and the number of roads, respectively.'
+b'The ii-th of the following mm lines contains integers xixi and yiyi (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n, xi\xe2\x89\xa0yixi\xe2\x89\xa0yi), representing a bidirectional road between cities xixi and yiyi.'
+b'It is guaranteed, that for any pair of cities there is at most one road connecting them, and that one can reach any city from every other city. '
+b'Output'
+b'Print n\xe2\x88\x921n\xe2\x88\x921 integers, the answer for every city except for the first city.'
+b'The ii-th integer should be equal to the smallest number he could have written for destination i+1i+1. Since this number may be large, output its remainder modulo 109+7109+7.'
+Tags
+data structures, dfs and similar, graphs, shortest paths, strings, trees, *2600

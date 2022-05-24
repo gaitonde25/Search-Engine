@@ -1,0 +1,11 @@
+b'While playing with geometric figures Alex has accidentally invented a concept of a nn-th order rhombus in a cell grid.'
+b'A 11-st order rhombus is just a square 1\xc3\x9711\xc3\x971 (i.e just a cell).'
+b'A nn-th order rhombus for all n\xe2\x89\xa52n\xe2\x89\xa52 one obtains from a n\xe2\x88\x921n\xe2\x88\x921-th order rhombus adding all cells which have a common side with it to it (look at the picture to understand it better).'
+b'  '
+b'Alex asks you to compute the number of cells in a nn-th order rhombus.'
+b'Input'
+b'The first and only input line contains integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 order of a rhombus whose numbers of cells should be computed.'
+b'Output'
+b'Print exactly one integer\xc2\xa0\xe2\x80\x94 the number of cells in a nn-th order rhombus.'
+Tags
+dp, implementation, math, *800

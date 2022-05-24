@@ -1,0 +1,7 @@
+b'You are given an operation that implements a single-qubit unitary transformation: either the Z gate or the -Z gate (i.e., the \xe2\x88\x92|0\xe2\x9f\xa9\xe2\x9f\xa80|+|1\xe2\x9f\xa9\xe2\x9f\xa81|\xe2\x88\x92|0\xe2\x9f\xa9\xe2\x9f\xa80|+|1\xe2\x9f\xa9\xe2\x9f\xa81| gate: (\xe2\x88\x92Z)(\xce\xb1|0\xe2\x9f\xa9+\xce\xb2|1\xe2\x9f\xa9)=\xe2\x88\x92\xce\xb1|0\xe2\x9f\xa9+\xce\xb2|1\xe2\x9f\xa9(\xe2\x88\x92Z)(\xce\xb1|0\xe2\x9f\xa9+\xce\xb2|1\xe2\x9f\xa9)=\xe2\x88\x92\xce\xb1|0\xe2\x9f\xa9+\xce\xb2|1\xe2\x9f\xa9). The operation will have Adjoint and Controlled variants defined.'
+b'Your task is to perform necessary operations and measurements to figure out which unitary it was and to return 0 if it was the Z gate or 1 if it was the -Z gate. '
+b'You are allowed to apply the given operation and its adjoint/controlled variants exactly once.'
+b'You have to implement an operation which takes a single-qubit operation as an input and returns an integer. Your code should have the following signature:'
+b'namespace Solution {    open Microsoft.Quantum.Intrinsic;    operation Solve (unitary : (Qubit => Unit is Adj+Ctl)) : Int {        // your code here    }}'
+Tags
+*special problem

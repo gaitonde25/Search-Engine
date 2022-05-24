@@ -1,0 +1,14 @@
+b'Suppose you are given a sequence SS of kk pairs of integers (a1,b1),(a2,b2),\xe2\x80\xa6,(ak,bk)(a1,b1),(a2,b2),\xe2\x80\xa6,(ak,bk).'
+b'You can perform the following operations on it:'
+b'  Choose some position ii and increase aiai by 11. That can be performed only if there exists at least one such position jj that i\xe2\x89\xa0ji\xe2\x89\xa0j and ai=ajai=aj. The cost of this operation is bibi;  Choose some position ii and decrease aiai by 11. That can be performed only if there exists at least one such position jj that ai=aj+1ai=aj+1. The cost of this operation is \xe2\x88\x92bi\xe2\x88\x92bi. '
+b'Each operation can be performed arbitrary number of times (possibly zero).'
+b'Let f(S)f(S) be minimum possible xx such that there exists a sequence of operations with total cost xx, after which all aiai from SS are pairwise distinct. '
+b'Now for the task itself ...'
+b'You are given a sequence PP consisting of nn pairs of integers (a1,b1),(a2,b2),\xe2\x80\xa6,(an,bn)(a1,b1),(a2,b2),\xe2\x80\xa6,(an,bn). All bibi are pairwise distinct. Let PiPi be the sequence consisting of the first ii pairs of PP. Your task is to calculate the values of f(P1),f(P2),\xe2\x80\xa6,f(Pn)f(P1),f(P2),\xe2\x80\xa6,f(Pn).'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of pairs in sequence PP.'
+b'Next nn lines contain the elements of PP: ii-th of the next nn lines contains two integers aiai and bibi (1\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4bi\xe2\x89\xa4n1\xe2\x89\xa4bi\xe2\x89\xa4n). It is guaranteed that all values of bibi are pairwise distinct.'
+b'Output'
+b'Print nn integers \xe2\x80\x94 the ii-th number should be equal to f(Pi)f(Pi).'
+Tags
+data structures, dsu, greedy, *2900

@@ -1,0 +1,12 @@
+b'A number a2a2 is said to be the arithmetic mean of two numbers a1a1 and a3a3, if the following condition holds: a1+a3=2\xe2\x8b\x85a2a1+a3=2\xe2\x8b\x85a2. '
+b'We define an arithmetic mean deviation of three numbers a1a1, a2a2 and a3a3 as follows: d(a1,a2,a3)=|a1+a3\xe2\x88\x922\xe2\x8b\x85a2|d(a1,a2,a3)=|a1+a3\xe2\x88\x922\xe2\x8b\x85a2|.'
+b'Arithmetic means a lot to Jeevan. He has three numbers a1a1, a2a2 and a3a3 and he wants to minimize the arithmetic mean deviation d(a1,a2,a3)d(a1,a2,a3). To do so, he can perform the following operation any number of times (possibly zero):'
+b'  Choose i,ji,j from {1,2,3}{1,2,3} such that i\xe2\x89\xa0ji\xe2\x89\xa0j and increment aiai by 11 and decrement ajaj by 11 '
+b'Help Jeevan find out the minimum value of d(a1,a2,a3)d(a1,a2,a3) that can be obtained after applying the operation any number of times.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45000)(1\xe2\x89\xa4t\xe2\x89\xa45000) \xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first and only line of each test case contains three integers a1a1, a2a2 and a3a3 (1\xe2\x89\xa4a1,a2,a3\xe2\x89\xa4108)(1\xe2\x89\xa4a1,a2,a3\xe2\x89\xa4108).'
+b'Output'
+b'For each test case, output the minimum value of d(a1,a2,a3)d(a1,a2,a3) that can be obtained after applying the operation any number of times.'
+Tags
+math, number theory, *800

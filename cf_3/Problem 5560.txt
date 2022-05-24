@@ -1,0 +1,28 @@
+b"Vasya became interested in bioinformatics. He's going to write an article about similar cyclic DNA sequences, so he invented a new method for determining the similarity of cyclic sequences."
+b"Let's assume that strings s and t have the same length n, then the function h(s,\xe2\x80\x89t) is defined as the number of positions in which the respective symbols of s and t are the same. Function h(s,\xe2\x80\x89t) can be used to define the function of Vasya distance \xcf\x81(s,\xe2\x80\x89t): "
+b''
+b' where '
+b''
+b' is obtained from string '
+b's'
+b', by applying left circular shift '
+b'i'
+b' times. For example, '
+b'\xcf\x81("AGC",\xe2\x80\x89"CGT")\xe2\x80\x89=\xe2\x80\x89'
+b' '
+b'h("AGC",\xe2\x80\x89"CGT")\xe2\x80\x89+\xe2\x80\x89h("AGC",\xe2\x80\x89"GTC")\xe2\x80\x89+\xe2\x80\x89h("AGC",\xe2\x80\x89"TCG")\xe2\x80\x89+\xe2\x80\x89'
+b' '
+b'h("GCA",\xe2\x80\x89"CGT")\xe2\x80\x89+\xe2\x80\x89h("GCA",\xe2\x80\x89"GTC")\xe2\x80\x89+\xe2\x80\x89h("GCA",\xe2\x80\x89"TCG")\xe2\x80\x89+\xe2\x80\x89'
+b' '
+b'h("CAG",\xe2\x80\x89"CGT")\xe2\x80\x89+\xe2\x80\x89h("CAG",\xe2\x80\x89"GTC")\xe2\x80\x89+\xe2\x80\x89h("CAG",\xe2\x80\x89"TCG")\xe2\x80\x89=\xe2\x80\x89'
+b' '
+b'1\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x890\xe2\x80\x89+\xe2\x80\x890\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x890\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89=\xe2\x80\x896'
+b'Vasya found a string s of length n on the Internet. Now he wants to count how many strings t there are such that the Vasya distance from the string s attains maximum possible value. Formally speaking, t must satisfy the equation: .'
+b'Vasya could not try all possible strings to find an answer, so he needs your help. As the answer may be very large, count the number of such strings modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'The second line of the input contains a single string of length n, consisting of characters "ACGT".'
+b'Output'
+b'Print a single number\xc2\xa0\xe2\x80\x94 the answer modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+math, strings, *1500

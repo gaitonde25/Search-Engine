@@ -1,0 +1,12 @@
+b'You are given two arrays a0,a1,\xe2\x80\xa6,an\xe2\x88\x921a0,a1,\xe2\x80\xa6,an\xe2\x88\x921 and b0,b1,\xe2\x80\xa6,bm\xe2\x88\x921b0,b1,\xe2\x80\xa6,bm\xe2\x88\x921, and an integer cc.'
+b'Compute the following sum:'
+b'\xe2\x88\x91i=0n\xe2\x88\x921\xe2\x88\x91j=0m\xe2\x88\x921aibjci2j3\xe2\x88\x91i=0n\xe2\x88\x921\xe2\x88\x91j=0m\xe2\x88\x921aibjci2j3'
+b"Since it's value can be really large, print it modulo 490019490019."
+b'Input'
+b'First line contains three integers nn, mm and cc (1\xe2\x89\xa4n,m\xe2\x89\xa41000001\xe2\x89\xa4n,m\xe2\x89\xa4100000, 1\xe2\x89\xa4c<4900191\xe2\x89\xa4c<490019).'
+b'Next line contains exactly nn integers aiai and defines the array aa (0\xe2\x89\xa4ai\xe2\x89\xa410000\xe2\x89\xa4ai\xe2\x89\xa41000).'
+b'Last line contains exactly mm integers bibi and defines the array bb (0\xe2\x89\xa4bi\xe2\x89\xa410000\xe2\x89\xa4bi\xe2\x89\xa41000).'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 value of the sum modulo 490019490019.'
+Tags
+chinese remainder theorem, fft, math, number theory, *3500

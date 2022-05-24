@@ -1,0 +1,16 @@
+b'Polycarp studies at the university in the group which consists of n students (including himself). All they are registrated in the social net "TheContacnt!".'
+b"Not all students are equally sociable. About each student you know the value ai \xe2\x80\x94 the maximum number of messages which the i-th student is agree to send per day. The student can't send messages to himself. "
+b'In early morning Polycarp knew important news that the programming credit will be tomorrow. For this reason it is necessary to urgently inform all groupmates about this news using private messages. '
+b'Your task is to make a plan of using private messages, so that:'
+b'  the student i sends no more than ai messages (for all i from 1 to n);  all students knew the news about the credit (initially only Polycarp knew it);  the student can inform the other student only if he knows it himself. '
+b"Let's consider that all students are numerated by distinct numbers from 1 to n, and Polycarp always has the number 1."
+b"In that task you shouldn't minimize the number of messages, the moment of time, when all knew about credit or some other parameters. Find any way how to use private messages which satisfies requirements above. "
+b'Input'
+b'The first line contains the positive integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of students. '
+b'The second line contains the sequence a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100), where ai equals to the maximum number of messages which can the i-th student agree to send. Consider that Polycarp always has the number 1.'
+b'Output'
+b'Print -1 to the first line if it is impossible to inform all students about credit. '
+b'Otherwise, in the first line print the integer k \xe2\x80\x94 the number of messages which will be sent. In each of the next k lines print two distinct integers f and t, meaning that the student number f sent the message with news to the student number t. All messages should be printed in chronological order. It means that the student, who is sending the message, must already know this news. It is assumed that students can receive repeated messages with news of the credit. '
+b'If there are several answers, it is acceptable to print any of them. '
+Tags
+*special problem, greedy, two pointers, *1200

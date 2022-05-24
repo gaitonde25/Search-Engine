@@ -1,0 +1,9 @@
+b'Polycarp likes squares and cubes of positive integers. Here is the beginning of the sequence of numbers he likes: 11, 44, 88, 99, ....'
+b'For a given number nn, count the number of integers from 11 to nn that Polycarp likes. In other words, find the number of such xx that xx is a square of a positive integer number or a cube of a positive integer number (or both a square and a cube simultaneously).'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4201\xe2\x89\xa4t\xe2\x89\xa420) \xe2\x80\x94 the number of test cases.'
+b'Then tt lines contain the test cases, one per line. Each of the lines contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print the answer you are looking for \xe2\x80\x94 the number of integers from 11 to nn that Polycarp likes.'
+Tags
+implementation, math, *800

@@ -1,0 +1,13 @@
+b'There is a grid with nn rows and mm columns, and three types of cells: '
+b"  An empty cell, denoted with '.'.  A stone, denoted with '*'.  An obstacle, denoted with the lowercase Latin letter 'o'. "
+b'All stones fall down until they meet the floor (the bottom row), an obstacle, or other stone which is already immovable. (In other words, all the stones just fall down as long as they can fall.)'
+b'Simulate the process. What does the resulting grid look like?'
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa4501\xe2\x89\xa4n,m\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the number of rows and the number of columns in the grid, respectively.'
+b"Then nn lines follow, each containing mm characters. Each of these characters is either '.', '*', or 'o'\xc2\xa0\xe2\x80\x94 an empty cell, a stone, or an obstacle, respectively."
+b'Output'
+b'For each test case, output a grid with nn rows and mm columns, showing the result of the process.'
+b"You don't need to output a new line after each test, it is in the samples just for clarity."
+Tags
+dfs and similar, implementation, *1200

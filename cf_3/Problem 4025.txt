@@ -1,0 +1,10 @@
+b"You are given a matrix of size n\xe2\x80\x89\xc3\x97\xe2\x80\x89m. Each element of the matrix is either 1 or 0. You have to determine the number of connected components consisting of 1's. Two cells belong to the same component if they have a common border, and both elements in these cells are 1's."
+b'Note that the memory limit is unusual!'
+b'Input'
+b'The first line contains two numbers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89212, 4\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89214) \xe2\x80\x94 the number of rows and columns, respectively. It is guaranteed that m is divisible by 4.'
+b'Then the representation of matrix follows. Each of n next lines contains  one-digit hexadecimal numbers (that is, these numbers can be represented either as digits from 0 to 9 or as uppercase Latin letters from A to F). Binary representation of each of these numbers denotes next 4 elements of the matrix in the corresponding row. For example, if the number B is given, then the corresponding elements are 1011, and if the number is 5, then the corresponding elements are 0101.'
+b'Elements are not separated by whitespaces.'
+b'Output'
+b"Print the number of connected components consisting of 1's. "
+Tags
+dsu, *2500

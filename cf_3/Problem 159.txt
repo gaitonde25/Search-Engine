@@ -1,0 +1,11 @@
+b'You are given four integers nn, BB, xx and yy. You should build a sequence a0,a1,a2,\xe2\x80\xa6,ana0,a1,a2,\xe2\x80\xa6,an where a0=0a0=0 and for each i\xe2\x89\xa51i\xe2\x89\xa51 you can choose: '
+b'  either ai=ai\xe2\x88\x921+xai=ai\xe2\x88\x921+x  or ai=ai\xe2\x88\x921\xe2\x88\x92yai=ai\xe2\x88\x921\xe2\x88\x92y. '
+b'Your goal is to build such a sequence aa that ai\xe2\x89\xa4Bai\xe2\x89\xa4B for all ii and \xe2\x88\x91i=0nai\xe2\x88\x91i=0nai is maximum possible.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Next tt cases follow.'
+b'The first and only line of each test case contains four integers nn, BB, xx and yy (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4B,x,y\xe2\x89\xa41091\xe2\x89\xa4B,x,y\xe2\x89\xa4109).'
+b"It's guaranteed that the total sum of nn doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print one integer\xc2\xa0\xe2\x80\x94 the maximum possible \xe2\x88\x91i=0nai\xe2\x88\x91i=0nai.'
+Tags
+greedy, *800

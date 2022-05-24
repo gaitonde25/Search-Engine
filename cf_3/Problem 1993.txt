@@ -1,0 +1,10 @@
+b'You are given a string ss. Each character is either 0 or 1.'
+b"You want all 1's in the string to form a contiguous subsegment. For example, if the string is 0, 1, 00111 or 01111100, then all 1's form a contiguous subsegment, and if the string is 0101, 100001 or 11111111111101, then this condition is not met."
+b"You may erase some (possibly none) 0's from the string. What is the minimum number of 0's that you have to erase?"
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'Then tt lines follow, each representing a test case. Each line contains one string ss (1\xe2\x89\xa4|s|\xe2\x89\xa41001\xe2\x89\xa4|s|\xe2\x89\xa4100); each character of ss is either 0 or 1.'
+b'Output'
+b"Print tt integers, where the ii-th integer is the answer to the ii-th testcase (the minimum number of 0's that you have to erase from ss)."
+Tags
+implementation, strings, *800

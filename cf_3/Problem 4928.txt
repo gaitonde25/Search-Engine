@@ -1,0 +1,8 @@
+b"Consider a linear function f(x)\xe2\x80\x89=\xe2\x80\x89Ax\xe2\x80\x89+\xe2\x80\x89B. Let's define g(0)(x)\xe2\x80\x89=\xe2\x80\x89x and g(n)(x)\xe2\x80\x89=\xe2\x80\x89f(g(n\xe2\x80\x89-\xe2\x80\x891)(x)) for n\xe2\x80\x89>\xe2\x80\x890. For the given integer values A, B, n and x find the value of g(n)(x) modulo 109\xe2\x80\x89+\xe2\x80\x897."
+b'Input'
+b'The only line contains four integers A, B, n and x (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89A,\xe2\x80\x89B,\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018) \xe2\x80\x94 the parameters from the problem statement.'
+b'Note that the given value n can be too large, so you should use 64-bit integer type to store it. In C++ you can use the long long integer type and in Java you can use long integer type.'
+b'Output'
+b'Print the only integer s \xe2\x80\x94 the value g(n)(x) modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+math, number theory, *1700

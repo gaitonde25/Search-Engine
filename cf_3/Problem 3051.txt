@@ -1,0 +1,10 @@
+b'You are given an array aa consisting of nn integer numbers.'
+b'Let instability of the array be the following value: maxi=1nai\xe2\x88\x92mini=1naimaxi=1nai\xe2\x88\x92mini=1nai.'
+b'You have to remove exactly one element from this array to minimize instability of the resulting (n\xe2\x88\x921)(n\xe2\x88\x921)-elements array. Your task is to calculate the minimum possible instability.'
+b'Input'
+b'The first line of the input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of elements in the array aa.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105) \xe2\x80\x94 elements of the array aa.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum possible instability of the array if you have to remove exactly one element from the array aa.'
+Tags
+implementation, *900

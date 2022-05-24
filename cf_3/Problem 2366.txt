@@ -1,0 +1,12 @@
+b'The only difference between easy and hard versions is constraints.'
+b'The BerTV channel every day broadcasts one episode of one of the kk TV shows. You know the schedule for the next nn days: a sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4k1\xe2\x89\xa4ai\xe2\x89\xa4k), where aiai is the show, the episode of which will be shown in ii-th day.'
+b'The subscription to the show is bought for the entire show (i.e. for all its episodes), for each show the subscription is bought separately.'
+b'How many minimum subscriptions do you need to buy in order to have the opportunity to watch episodes of purchased shows dd (1\xe2\x89\xa4d\xe2\x89\xa4n1\xe2\x89\xa4d\xe2\x89\xa4n) days in a row? In other words, you want to buy the minimum number of TV shows so that there is some segment of dd consecutive days in which all episodes belong to the purchased shows.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases in the input. Then tt test case descriptions follow.'
+b'The first line of each test case contains three integers n,kn,k and dd (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4k\xe2\x89\xa41001\xe2\x89\xa4k\xe2\x89\xa4100, 1\xe2\x89\xa4d\xe2\x89\xa4n1\xe2\x89\xa4d\xe2\x89\xa4n). The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4k1\xe2\x89\xa4ai\xe2\x89\xa4k), where aiai is the show that is broadcasted on the ii-th day.'
+b'It is guaranteed that the sum of the values \xe2\x80\x8b\xe2\x80\x8bof nn for all test cases in the input does not exceed 100100.'
+b'Output'
+b'Print tt integers \xe2\x80\x94 the answers to the test cases in the input in the order they follow. The answer to a test case is the minimum number of TV shows for which you need to purchase a subscription so that you can watch episodes of the purchased TV shows on BerTV for dd consecutive days. Please note that it is permissible that you will be able to watch more than dd days in a row.'
+Tags
+implementation, *1000

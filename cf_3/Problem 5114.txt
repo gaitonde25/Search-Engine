@@ -1,0 +1,10 @@
+b"Door's family is going celebrate Famil Doors's birthday party. They love Famil Door so they are planning to make his birthday cake weird!"
+b"The cake is a n\xe2\x80\x89\xc3\x97\xe2\x80\x89n square consisting of equal squares with side length 1. Each square is either empty or consists of a single chocolate. They bought the cake and randomly started to put the chocolates on the cake. The value of Famil Door's happiness will be equal to the number of pairs of cells with chocolates that are in the same row or in the same column of the cake. Famil Doors's family is wondering what is the amount of happiness of Famil going to be?"
+b"Please, note that any pair can be counted no more than once, as two different cells can't share both the same row and the same column."
+b'Input'
+b'In the first line of the input, you are given a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the length of the side of the cake.'
+b"Then follow n lines, each containing n characters. Empty cells are denoted with '.', while cells that contain chocolates are denoted by 'C'."
+b'Output'
+b"Print the value of Famil Door's happiness, i.e. the number of pairs of chocolate pieces that share the same row or the same column."
+Tags
+brute force, combinatorics, constructive algorithms, implementation, *800

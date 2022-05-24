@@ -1,0 +1,11 @@
+b'You are given n positive integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an.'
+b'For every ai you need to find a positive integer ki such that the decimal notation of 2ki contains the decimal notation of ai as a substring among its last min(100,\xe2\x80\x89length(2ki)) digits. Here length(m) is the length of the decimal notation of m.'
+b"Note that you don't have to minimize ki. The decimal notations in this problem do not contain leading zeros."
+b'Input'
+b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of integers ai.'
+b'Each of the next n lines contains a positive integer ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89<\xe2\x80\x891011).'
+b'Output'
+b'Print n lines. The i-th of them should contain a positive integer ki such that the last min(100,\xe2\x80\x89length(2ki)) digits of 2ki contain the decimal notation of ai as a substring. Integers ki must satisfy 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ki\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891050.'
+b'It can be shown that the answer always exists under the given constraints. If there are multiple answers, print any of them.'
+Tags
+math, number theory, *3200

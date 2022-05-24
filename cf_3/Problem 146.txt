@@ -1,0 +1,14 @@
+b'You are given a binary string of length nn. You have exactly kk moves. In one move, you must select a single bit. The state of all bits except that bit will get flipped (00 becomes 11, 11 becomes 00). You need to output the lexicographically largest string that you can get after using all kk moves. Also, output the number of times you will select each bit. If there are multiple ways to do this, you may output any of them.'
+b'A binary string aa is lexicographically larger than a binary string bb of the same length, if and only if the following holds: '
+b'  in the first position where aa and bb differ, the string aa contains a 11, and the string bb contains a 00. '
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'Each test case has two lines. The first line has two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 0\xe2\x89\xa4k\xe2\x89\xa41090\xe2\x89\xa4k\xe2\x89\xa4109).'
+b'The second line has a binary string of length nn, each character is either 00 or 11.'
+b'The sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, output two lines.'
+b'The first line should contain the lexicographically largest string you can obtain.'
+b'The second line should contain nn integers f1,f2,\xe2\x80\xa6,fnf1,f2,\xe2\x80\xa6,fn, where fifi is the number of times the ii-th bit is selected. The sum of all the integers must be equal to kk.'
+Tags
+bitmasks, constructive algorithms, greedy, strings, *1300

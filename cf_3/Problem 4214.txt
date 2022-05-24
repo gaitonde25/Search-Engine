@@ -1,0 +1,14 @@
+b"Lech got into a tree consisting of n vertices with a root in vertex number 1. At each vertex i written integer ai. He will not get out until he answers q queries of the form u v. Answer for the query is maximal value  among all vertices i on path from u to v including u and v, where dist(i,\xe2\x80\x89v) is number of edges on path from i to v. Also guaranteed that vertex u is ancestor of vertex v. Leha's tastes are very singular: he believes that vertex is ancestor of itself."
+b'Help Leha to get out.'
+b'The expression  means the bitwise exclusive OR to the numbers x and y.'
+b'Note that vertex u is ancestor of vertex v if vertex u lies on the path from root to the vertex v.'
+b'Input'
+b'First line of input data contains two integers n and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7104, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89150\xe2\x80\x89000) \xe2\x80\x94 number of vertices in the tree and number of queries respectively.'
+b'Next line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 numbers on vertices.'
+b'Each of next n\xe2\x80\x89-\xe2\x80\x891 lines contains two integers u and v (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 description of the edges in tree.'
+b'Guaranteed that given graph is a tree.'
+b'Each of next q lines contains two integers u and v (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 description of queries. Guaranteed that vertex u is ancestor of vertex v.'
+b'Output'
+b'Output q lines \xe2\x80\x94 answers for a queries.'
+Tags
+trees, *3200

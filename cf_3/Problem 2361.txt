@@ -1,0 +1,16 @@
+b'Bytelandian Tree Factory produces trees for all kinds of industrial applications. You have been tasked with optimizing the production of a certain type of tree for an especially large and important order.'
+b'The tree in question is a rooted tree with nn vertices labelled with distinct integers from 00 to n\xe2\x88\x921n\xe2\x88\x921. The vertex labelled 00 is the root of the tree, and for any non-root vertex vv the label of its parent p(v)p(v) is less than the label of vv.'
+b'All trees at the factory are made from bamboo blanks. A bamboo is a rooted tree such that each vertex has exactly one child, except for a single leaf vertex with no children. The vertices of a bamboo blank can be labelled arbitrarily before its processing is started.'
+b"To process a bamboo into another tree a single type of operation can be made: choose an arbitrary non-root vertex vv such that its parent p(v)p(v) is not a root either. The operation consists of changing the parent of vv to its parent's parent p(p(v))p(p(v)). Note that parents of all other vertices remain unchanged, in particular, the subtree of vv does not change."
+b'Efficiency is crucial, hence you have to minimize the number of operations to make the desired tree from a bamboo blank. Construct any optimal sequence of operations to produce the desired tree.'
+b'Note that the labelling of the resulting tree has to coincide with the labelling of the desired tree. Formally, the labels of the roots have to be equal, and for non-root vertices with the same label the labels of their parents should be the same.'
+b'It is guaranteed that for any test present in this problem an answer exists, and further, an optimal sequence contains at most 106106 operations. Note that any hack that does not meet these conditions will be invalid.'
+b'Input'
+b'The first line contains a single integer nn\xc2\xa0\xe2\x80\x94 the number of vertices in the tree (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers p(1),\xe2\x80\xa6,p(n\xe2\x88\x921)p(1),\xe2\x80\xa6,p(n\xe2\x88\x921)\xc2\xa0\xe2\x80\x94 indices of parent vertices of 1,\xe2\x80\xa6,n\xe2\x88\x9211,\xe2\x80\xa6,n\xe2\x88\x921 respectively (0\xe2\x89\xa4p(i)<i0\xe2\x89\xa4p(i)<i).'
+b'Output'
+b'In the first line, print nn distinct integers id1,\xe2\x80\xa6,idnid1,\xe2\x80\xa6,idn\xc2\xa0\xe2\x80\x94 the initial labelling of the bamboo blank starting from the root vertex (0\xe2\x89\xa4idi<n0\xe2\x89\xa4idi<n).'
+b'In the second line, print a single integer kk\xc2\xa0\xe2\x80\x94 the number of operations in your sequence (0\xe2\x89\xa4k\xe2\x89\xa41060\xe2\x89\xa4k\xe2\x89\xa4106).'
+b'In the third line print kk integers v1,\xe2\x80\xa6,vkv1,\xe2\x80\xa6,vk describing operations in order. The ii-th operation consists of changing p(vi)p(vi) to p(p(vi))p(p(vi)). Each operation should be valid, i.e. neither vivi nor p(vi)p(vi) can be the root of the tree at the moment.'
+Tags
+constructive algorithms, greedy, trees, *2500

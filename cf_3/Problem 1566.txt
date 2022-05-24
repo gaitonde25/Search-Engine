@@ -1,0 +1,13 @@
+b'Koa the Koala has a directed graph GG with nn nodes and mm edges. Each edge has a capacity associated with it. Exactly kk edges of the graph, numbered from 11 to kk, are special, such edges initially have a capacity equal to 00.'
+b'Koa asks you qq queries. In each query she gives you kk integers w1,w2,\xe2\x80\xa6,wkw1,w2,\xe2\x80\xa6,wk. This means that capacity of the ii-th special edge becomes wiwi (and other capacities remain the same).'
+b'Koa wonders: what is the maximum flow that goes from node 11 to node nn after each such query?'
+b'Help her!'
+b'Input'
+b'The first line of the input contains four integers nn, mm, kk, qq (2\xe2\x89\xa4n\xe2\x89\xa41042\xe2\x89\xa4n\xe2\x89\xa4104, 1\xe2\x89\xa4m\xe2\x89\xa41041\xe2\x89\xa4m\xe2\x89\xa4104, 1\xe2\x89\xa4k\xe2\x89\xa4min(10,m)1\xe2\x89\xa4k\xe2\x89\xa4min(10,m), 1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of nodes, the number of edges, the number of special edges and the number of queries.'
+b'Each of the next mm lines contains three integers uu, vv, ww (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n; 0\xe2\x89\xa4w\xe2\x89\xa4250\xe2\x89\xa4w\xe2\x89\xa425)\xc2\xa0\xe2\x80\x94 the description of a directed edge from node uu to node vv with capacity ww.'
+b'Edges are numbered starting from 11 in the same order they are listed in the input. The first kk edges are the special edges. It is guaranteed that wi=0wi=0 for all ii with 1\xe2\x89\xa4i\xe2\x89\xa4k1\xe2\x89\xa4i\xe2\x89\xa4k.'
+b'Each of the next qq lines contains kk integers w1,w2,\xe2\x80\xa6,wkw1,w2,\xe2\x80\xa6,wk (0\xe2\x89\xa4wi\xe2\x89\xa4250\xe2\x89\xa4wi\xe2\x89\xa425) \xc2\xa0\xe2\x80\x94 the description of the query. wiwi denotes the capacity of ii-th edge.'
+b'Output'
+b"For the ii-th query, print one integer resiresi \xc2\xa0\xe2\x80\x94 the maximum flow that can be obtained from node 11 to node nn given the ii-th query's special edge weights."
+Tags
+flows, graphs, *3200

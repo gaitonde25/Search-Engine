@@ -1,0 +1,12 @@
+b"Let's call the string beautiful if it does not contain a substring of length at least 22, which is a palindrome. Recall that a palindrome is a string that reads the same way from the first character to the last and from the last character to the first. For example, the strings a, bab, acca, bcabcbacb are palindromes, but the strings ab, abbbaa, cccb are not."
+b"Let's define cost of a string as the minimum number of operations so that the string becomes beautiful, if in one operation it is allowed to change any character of the string to one of the first 33 letters of the Latin alphabet (in lowercase)."
+b'You are given a string ss of length nn, each character of the string is one of the first 33 letters of the Latin alphabet (in lowercase).'
+b'You have to answer mm queries\xc2\xa0\xe2\x80\x94 calculate the cost of the substring of the string ss from lili-th to riri-th position, inclusive.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the length of the string ss and the number of queries.'
+b'The second line contains the string ss, it consists of nn characters, each character one of the first 33 Latin letters.'
+b'The following mm lines contain two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 parameters of the ii-th query.'
+b'Output'
+b'For each query, print a single integer\xc2\xa0\xe2\x80\x94 the cost of the substring of the string ss from lili-th to riri-th position, inclusive.'
+Tags
+brute force, constructive algorithms, dp, strings, *1600

@@ -1,0 +1,14 @@
+b'Ghosts live in harmony and peace, they travel the space without any purpose other than scare whoever stands in their way.'
+b'There are nn ghosts in the universe, they move in the OXYOXY plane, each one of them has its own velocity that does not change in time: V\xe2\x86\x92=Vxi\xe2\x86\x92+Vyj\xe2\x86\x92V\xe2\x86\x92=Vxi\xe2\x86\x92+Vyj\xe2\x86\x92 where VxVx is its speed on the xx-axis and VyVy is on the yy-axis.'
+b'A ghost ii has experience value EXiEXi, which represent how many ghosts tried to scare him in his past. Two ghosts scare each other if they were in the same cartesian point at a moment of time.'
+b'As the ghosts move with constant speed, after some moment of time there will be no further scaring (what a relief!) and the experience of ghost kind GX=\xe2\x88\x91ni=1EXiGX=\xe2\x88\x91i=1nEXi will never increase.'
+b'Tameem is a red giant, he took a picture of the cartesian plane at a certain moment of time TT, and magically all the ghosts were aligned on a line of the form y=a\xe2\x8b\x85x+by=a\xe2\x8b\x85x+b. You have to compute what will be the experience index of the ghost kind GXGX in the indefinite future, this is your task for today.'
+b'Note that when Tameem took the picture, GXGX may already be greater than 00, because many ghosts may have scared one another at any moment between [\xe2\x88\x92\xe2\x88\x9e,T][\xe2\x88\x92\xe2\x88\x9e,T].'
+b'Input'
+b'The first line contains three integers nn, aa and bb (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000, 1\xe2\x89\xa4|a|\xe2\x89\xa41091\xe2\x89\xa4|a|\xe2\x89\xa4109, 0\xe2\x89\xa4|b|\xe2\x89\xa41090\xe2\x89\xa4|b|\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of ghosts in the universe and the parameters of the straight line.'
+b'Each of the next nn lines contains three integers xixi, VxiVxi, VyiVyi (\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109, \xe2\x88\x92109\xe2\x89\xa4Vxi,Vyi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4Vxi,Vyi\xe2\x89\xa4109), where xixi is the current xx-coordinate of the ii-th ghost (and yi=a\xe2\x8b\x85xi+byi=a\xe2\x8b\x85xi+b).'
+b'It is guaranteed that no two ghosts share the same initial position, in other words, it is guaranteed that for all (i,j)(i,j) xi\xe2\x89\xa0xjxi\xe2\x89\xa0xj for i\xe2\x89\xa0ji\xe2\x89\xa0j.'
+b'Output'
+b'Output one line: experience index of the ghost kind GXGX in the indefinite future.'
+Tags
+geometry, math, *2000

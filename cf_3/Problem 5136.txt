@@ -1,0 +1,12 @@
+b'People do many crazy things to stand out in a crowd. Some of them dance, some learn by heart rules of Russian language, some try to become an outstanding competitive programmers, while others collect funny math objects.'
+b'Alis is among these collectors. Right now she wants to get one of k-special tables. In case you forget, the table n\xe2\x80\x89\xc3\x97\xe2\x80\x89n is called k-special if the following three conditions are satisfied:'
+b'  every integer from 1 to n2 appears in the table exactly once;  in each row numbers are situated in increasing order;  the sum of numbers in the k-th column is maximum possible. '
+b'Your goal is to help Alice and find at least one k-special table of size n\xe2\x80\x89\xc3\x97\xe2\x80\x89n. Both rows and columns are numbered from 1 to n, with rows numbered from top to bottom and columns numbered from left to right.'
+b'Input'
+b'The first line of the input contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the size of the table Alice is looking for and the column that should have maximum possible sum.'
+b'Output'
+b'First print the sum of the integers in the k-th column of the required table.'
+b'Next n lines should contain the description of the table itself: first line should contains n elements of the first row, second line should contain n elements of the second row and so on.'
+b'If there are multiple suitable table, you are allowed to print any.'
+Tags
+constructive algorithms, implementation, *1300

@@ -1,0 +1,16 @@
+b"Let's denote the median of a sequence ss with odd length as the value in the middle of ss if we sort ss in non-decreasing order. For example, let s=[1,2,5,7,2,3,12]s=[1,2,5,7,2,3,12]. After sorting, we get sequence [1,2,2,3\xe2\x80\x93,5,7,12][1,2,2,3_,5,7,12], and the median is equal to 33."
+b'You have a sequence of nn integers [1,2,\xe2\x80\xa6,n][1,2,\xe2\x80\xa6,n] and an odd integer kk.'
+b'In one step, you choose any kk elements from the sequence and erase all chosen elements except their median. These elements do not have to go continuously (gaps are allowed between them).'
+b'For example, if you have a sequence [1,2,3,4,5,6,7][1,2,3,4,5,6,7] (i.e. n=7n=7) and k=3k=3, then the following options for the first step are possible:'
+b'  choose [1,2\xe2\x80\x93,3][1,2_,3]; 22 is their median, so it is not erased, and the resulting sequence is [2,4,5,6,7][2,4,5,6,7];  choose [2,4\xe2\x80\x93,6][2,4_,6]; 44 is their median, so it is not erased, and the resulting sequence is [1,3,4,5,7][1,3,4,5,7];  choose [1,6\xe2\x80\x93,7][1,6_,7]; 66 is their median, so it is not erased, and the resulting sequence is [2,3,4,5,6][2,3,4,5,6];  and several others. '
+b'You can do zero or more steps. Can you get a sequence b1b1, b2b2, ..., bmbm after several steps?'
+b"You'll be given tt test cases. Solve each test case independently."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b"The first line of each test case contains three integers nn, kk, and mm (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105; 3\xe2\x89\xa4k\xe2\x89\xa4n3\xe2\x89\xa4k\xe2\x89\xa4n; kk is odd; 1\xe2\x89\xa4m<n1\xe2\x89\xa4m<n)\xc2\xa0\xe2\x80\x94 the length of the sequence you have, the number of elements you choose in each step and the length of the sequence you'd like to get."
+b"The second line of each test case contains mm integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (1\xe2\x89\xa4b1<b2<\xe2\x8b\xaf<bm\xe2\x89\xa4n1\xe2\x89\xa4b1<b2<\xe2\x8b\xaf<bm\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the sequence you'd like to get, given in the ascending order."
+b"It's guaranteed that the total sum of nn over all test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each test case, print YES if you can obtain the sequence bb or NO otherwise. You may print each letter in any case (for example, YES, Yes, yes, yEs will all be recognized as positive answer).'
+Tags
+constructive algorithms, greedy, math, *2200

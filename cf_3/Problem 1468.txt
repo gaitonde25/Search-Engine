@@ -1,0 +1,12 @@
+b'A bitstring is a string consisting only of the characters 0 and 1. A bitstring is called kk-balanced if every substring of size kk of this bitstring has an equal amount of 0 and 1 characters (k2k2 of each).'
+b'You are given an integer kk and a string ss which is composed only of characters 0, 1, and ?. You need to determine whether you can make a kk-balanced bitstring by replacing every ? characters in ss with either 0 or 1.'
+b'A string aa is a substring of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). Description of the test cases follows.'
+b'The first line of each test case contains two integers nn and kk (2\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105, kk is even) \xc2\xa0\xe2\x80\x94 the length of the string and the parameter for a balanced bitstring.'
+b'The next line contains the string ss (|s|=n|s|=n). It is given that ss consists of only 0, 1, and ?.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each test case, print YES if we can replace every ? in ss with 0 or 1 such that the resulting bitstring is kk-balanced, or NO if it is not possible.'
+Tags
+implementation, strings, *1500

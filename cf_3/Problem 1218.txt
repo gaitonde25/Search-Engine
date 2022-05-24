@@ -1,0 +1,17 @@
+b'You are given an array aa consisting of nn integers.'
+b'Let min(l,r)min(l,r) be the minimum value among al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar and max(l,r)max(l,r) be the maximum value among al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar.'
+b'Your task is to choose three positive (greater than 00) integers xx, yy and zz such that:'
+b'  x+y+z=nx+y+z=n;  max(1,x)=min(x+1,x+y)=max(x+y+1,n)max(1,x)=min(x+1,x+y)=max(x+y+1,n). '
+b'In other words, you have to split the array aa into three consecutive non-empty parts that cover the whole array and the maximum in the first part equals the minimum in the second part and equals the maximum in the third part (or determine it is impossible to find such a partition).'
+b'Among all such triples (partitions), you can choose any.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of aa.'
+b'The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is the ii-th element of aa.'
+b'It is guaranteed that the sum of nn does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print the answer: NO in the only line if there is no such partition of aa that satisfies the conditions from the problem statement. Otherwise, print YES in the first line and three integers xx, yy and zz (x+y+z=nx+y+z=n) in the second line.'
+b'If there are several answers, you can print any.'
+Tags
+binary search, data structures, greedy, two pointers, *2100

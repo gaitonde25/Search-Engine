@@ -1,0 +1,9 @@
+b'Summer in Berland lasts nn days, the price of one portion of ice cream on the ii-th day is cici. Over the summer, Tanya wants to eat exactly kk portions of ice cream. At the same time, on the ii-th day, she decided that she would eat at least aiai portions, but not more than bibi (ai\xe2\x89\xa4biai\xe2\x89\xa4bi) portions. In other words, let didi be equal to the number of portions that she eats on the ii-th day. Then d1+d2+\xe2\x8b\xaf+dn=kd1+d2+\xe2\x8b\xaf+dn=k and ai\xe2\x89\xa4di\xe2\x89\xa4biai\xe2\x89\xa4di\xe2\x89\xa4bi for each ii.'
+b'Given that portions of ice cream can only be eaten on the day of purchase, find the minimum amount of money that Tanya can spend on ice cream in the summer.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 0\xe2\x89\xa4k\xe2\x89\xa41090\xe2\x89\xa4k\xe2\x89\xa4109) \xe2\x80\x94 the number of days and the total number of servings of ice cream that Tanya will eat in the summer.'
+b'The following nn lines contain descriptions of the days, one description per line. Each description consists of three integers ai,bi,ciai,bi,ci (0\xe2\x89\xa4ai\xe2\x89\xa4bi\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4bi\xe2\x89\xa4109, 1\xe2\x89\xa4ci\xe2\x89\xa41061\xe2\x89\xa4ci\xe2\x89\xa4106).'
+b'Output'
+b'Print the minimum amount of money that Tanya can spend on ice cream in the summer. If there is no way for Tanya to buy and satisfy all the requirements, then print -1.'
+Tags
+*special problem, greedy, sortings, *1700

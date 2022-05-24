@@ -1,0 +1,16 @@
+b'Alice and Bob play a game on a grid with nn rows and infinitely many columns. In each row, there are three tokens, blue, white and red one. Before the game starts and after every move, the following two conditions must hold: '
+b'  Any two tokens are not in the same cell.  In each row, the blue token is to the left of the white token, and the red token is to the right of the white token. '
+b'First, they pick a positive integer ff, whose value is valid for the whole game. Second, the starting player is chosen and makes his or her first turn. Then players take alternating turns. The player who is unable to make a move loses. '
+b'During a move, a player first selects an integer kk that is either a prime number or a product of two (not necessarily distinct) primes. The smallest possible values of kk are thus 2,3,4,5,6,7,9,10,11,13,14,15,17,19,\xe2\x80\xa62,3,4,5,6,7,9,10,11,13,14,15,17,19,\xe2\x80\xa6. Furthermore, kk must not be equal to the previously picked integer ff. Each turn, a move is performed in exactly one of the rows.'
+b"If it is Alice's turn, she chooses a single blue token and moves it kk cells to the right. Alternatively, she may move both the blue and the white token in the same row by the same amount kk to the right."
+b'On the other hand, Bob selects a single red token and moves it kk cells to the left. Similarly, he may also move the white and the red token in the corresponding row by kk to the left.'
+b'Note that Alice may never move a red token, while Bob may never move a blue one. Remember that after a move, the two conditions on relative positions of the tokens must still hold. '
+b'Both players play optimally. Given the initial state of the board, determine who wins for two games: if Alice starts and if Bob starts. '
+b'Input'
+b'The first line contains a two integers nn and ff\xc2\xa0(1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 2\xe2\x89\xa4f\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4f\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of rows and the forbidden move, respectively.'
+b'Each of the next nn lines contains three integers bibi, wiwi, riri\xc2\xa0(\xe2\x88\x92105\xe2\x89\xa4bi<wi<ri\xe2\x89\xa4105\xe2\x88\x92105\xe2\x89\xa4bi<wi<ri\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of column in which the blue, white and red token lies in the ii-th row, respectively. '
+b'Output'
+b'Output two lines. '
+b'The first line should contain the name of the winner when Alice starts, and the second line should contain the name of the winner when Bob starts.'
+Tags
+games, *3200

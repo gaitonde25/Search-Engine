@@ -1,0 +1,15 @@
+b'Assume that you have kk one-dimensional segments s1,s2,\xe2\x80\xa6sks1,s2,\xe2\x80\xa6sk (each segment is denoted by two integers \xe2\x80\x94 its endpoints). Then you can build the following graph on these segments. The graph consists of kk vertexes, and there is an edge between the ii-th and the jj-th vertexes (i\xe2\x89\xa0ji\xe2\x89\xa0j) if and only if the segments sisi and sjsj intersect (there exists at least one point that belongs to both of them).'
+b'For example, if s1=[1,6],s2=[8,20],s3=[4,10],s4=[2,13],s5=[17,18]s1=[1,6],s2=[8,20],s3=[4,10],s4=[2,13],s5=[17,18], then the resulting graph is the following:'
+b'  '
+b'A tree of size mm is good if it is possible to choose mm one-dimensional segments so that the graph built on these segments coincides with this tree.'
+b'You are given a tree, you have to find its good subtree with maximum possible size. Recall that a subtree is a connected subgraph of a tree.'
+b'Note that you have to answer qq independent queries.'
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa415\xe2\x8b\x851041\xe2\x89\xa4q\xe2\x89\xa415\xe2\x8b\x85104) \xe2\x80\x94 the number of the queries. '
+b'The first line of each query contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of vertices in the tree.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers xx and yy (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n) denoting an edge between vertices xx and yy. It is guaranteed that the given graph is a tree.'
+b'It is guaranteed that the sum of all nn does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'For each query print one integer \xe2\x80\x94 the maximum size of a good subtree of the given tree.'
+Tags
+dfs and similar, dp, graphs, trees, *2200

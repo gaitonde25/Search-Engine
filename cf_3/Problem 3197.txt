@@ -1,0 +1,11 @@
+b"Let's denote (yet again) the sequence of Fibonacci strings:"
+b'F(0)=F(0)= 0, F(1)=F(1)= 1, F(i)=F(i\xe2\x88\x922)+F(i\xe2\x88\x921)F(i)=F(i\xe2\x88\x922)+F(i\xe2\x88\x921), where the plus sign denotes the concatenation of two strings.'
+b"Let's denote the lexicographically sorted sequence of suffixes of string F(i)F(i) as A(F(i))A(F(i)). For example, F(4)F(4) is 01101, and A(F(4))A(F(4)) is the following sequence: 01, 01101, 1, 101, 1101. Elements in this sequence are numbered from 11."
+b'Your task is to print mm first characters of kk-th element of A(F(n))A(F(n)). If there are less than mm characters in this suffix, then output the whole suffix.'
+b'Input'
+b'The only line of the input contains three numbers nn, kk and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42001\xe2\x89\xa4n,m\xe2\x89\xa4200, 1\xe2\x89\xa4k\xe2\x89\xa410181\xe2\x89\xa4k\xe2\x89\xa41018) denoting the index of the Fibonacci string you have to consider, the index of the element of A(F(n))A(F(n)) and the number of characters you have to output, respectively.'
+b'It is guaranteed that kk does not exceed the length of F(n)F(n).'
+b'Output'
+b'Output mm first characters of kk-th element of A(F(n))A(F(n)), or the whole element if its length is less than mm.'
+Tags
+strings, *2700

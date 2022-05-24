@@ -1,0 +1,15 @@
+b'One important contest will take place on the most famous programming platform (Topforces) very soon!'
+b'The authors have a pool of nn problems and should choose at most three of them into this contest. The prettiness of the ii-th problem is aiai. The authors have to compose the most pretty contest (in other words, the cumulative prettinesses of chosen problems should be maximum possible).'
+b'But there is one important thing in the contest preparation: because of some superstitions of authors, the prettinesses of problems cannot divide each other. In other words, if the prettinesses of chosen problems are x,y,zx,y,z, then xx should be divisible by neither yy, nor zz, yy should be divisible by neither xx, nor zz and zz should be divisible by neither xx, nor yy. If the prettinesses of chosen problems are xx and yy then neither xx should be divisible by yy nor yy should be divisible by xx. Any contest composed from one problem is considered good.'
+b'Your task is to find out the maximum possible total prettiness of the contest composed of at most three problems from the given pool.'
+b'You have to answer qq independent queries.'
+b'If you are Python programmer, consider using PyPy instead of Python when you submit your code.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of queries.'
+b'The first line of the query contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of problems.'
+b'The second line of the query contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (2\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4ai\xe2\x89\xa42\xe2\x8b\x85105), where aiai is the prettiness of the ii-th problem.'
+b'It is guaranteed that the sum of nn over all queries does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105.'
+b'Output'
+b'For each query print one integer \xe2\x80\x94 the maximum possible cumulative prettiness of the contest composed of at most three problems from the given pool of problems in the query.'
+Tags
+brute force, math, sortings, *2100

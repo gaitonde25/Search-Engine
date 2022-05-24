@@ -1,0 +1,12 @@
+b'Nastya baked mm pancakes and spread them on nn dishes. The dishes are in a row and numbered from left to right. She put aiai pancakes on the dish with the index ii.'
+b'Seeing the dishes, Vlad decided to bring order to the stacks and move some pancakes. In one move, he can shift one pancake from any dish to the closest one, that is, select the dish ii (ai>0ai>0) and do one of the following:'
+b' if i>1i>1, put the pancake on a dish with the previous index, after this move ai=ai\xe2\x88\x921ai=ai\xe2\x88\x921 and ai\xe2\x88\x921=ai\xe2\x88\x921+1ai\xe2\x88\x921=ai\xe2\x88\x921+1; if i<ni<n, put the pancake on a dish with the following index, after this move ai=ai\xe2\x88\x921ai=ai\xe2\x88\x921 and ai+1=ai+1+1ai+1=ai+1+1.'
+b'Vlad wants to make the array aanon-increasing, after moving as few pancakes as possible. Help him find the minimum number of moves needed for this.'
+b'The array a=[a1,a2,\xe2\x80\xa6,an]a=[a1,a2,\xe2\x80\xa6,an] is called non-increasing if ai\xe2\x89\xa5ai+1ai\xe2\x89\xa5ai+1 for all ii from 11 to n\xe2\x88\x921n\xe2\x88\x921.'
+b'Input'
+b'The first line of the input contains two numbers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42501\xe2\x89\xa4n,m\xe2\x89\xa4250) \xe2\x80\x94 the number of dishes and the number of pancakes, respectively.'
+b'The second line contains nn numbers aiai (0\xe2\x89\xa4ai\xe2\x89\xa4m0\xe2\x89\xa4ai\xe2\x89\xa4m), the sum of all aiai is equal to mm.'
+b'Output'
+b'Print a single number: the minimum number of moves required to make the array aa non-increasing.'
+Tags
+dp, *2300

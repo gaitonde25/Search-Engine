@@ -1,0 +1,8 @@
+b'PolandBall is a young, clever Ball. He is interested in prime numbers. He has stated a following hypothesis: "There exists such a positive integer n that for each positive integer m number n\xc2\xb7m\xe2\x80\x89+\xe2\x80\x891 is a prime number".'
+b"Unfortunately, PolandBall is not experienced yet and doesn't know that his hypothesis is incorrect. Could you prove it wrong? Write a program that finds a counterexample for any n."
+b'Input'
+b"The only number in the input is n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 number from the PolandBall's hypothesis. "
+b'Output'
+b'Output such m that n\xc2\xb7m\xe2\x80\x89+\xe2\x80\x891 is not a prime number. Your answer will be considered correct if you output any suitable m such that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89103. It is guaranteed the the answer exists.'
+Tags
+brute force, graphs, math, number theory, *800

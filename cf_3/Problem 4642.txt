@@ -1,0 +1,10 @@
+b'Vladik and Chloe decided to determine who of them is better at math. Vladik claimed that for any positive integer n he can represent fraction  as a sum of three distinct positive fractions in form .'
+b"Help Vladik with that, i.e for a given n find three distinct positive integers x, y and z such that . Because Chloe can't check Vladik's answer if the numbers are large, he asks you to print numbers not exceeding 109."
+b'If there is no such answer, print -1.'
+b'Input'
+b'The single line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89104).'
+b'Output'
+b'If the answer exists, print 3 distinct numbers x, y and z (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y,\xe2\x80\x89z\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, x\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89y, x\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89z, y\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89z). Otherwise print -1.'
+b'If there are multiple answers, print any of them.'
+Tags
+brute force, constructive algorithms, math, number theory, *1500

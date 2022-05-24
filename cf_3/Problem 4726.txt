@@ -1,0 +1,13 @@
+b'You are given a string s, consisting of lowercase English letters, and the integer m.'
+b'One should choose some symbols from the given string so that any contiguous subsegment of length m has at least one selected symbol. Note that here we choose positions of symbols, not the symbols themselves.'
+b'Then one uses the chosen symbols to form a new string. All symbols from the chosen position should be used, but we are allowed to rearrange them in any order.'
+b'Formally, we choose a subsequence of indices 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i1\xe2\x80\x89<\xe2\x80\x89i2\xe2\x80\x89<\xe2\x80\x89...\xe2\x80\x89<\xe2\x80\x89it\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|. The selected sequence must meet the following condition: for every j such that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89-\xe2\x80\x89m\xe2\x80\x89+\xe2\x80\x891, there must be at least one selected index that belongs to the segment [j,\xe2\x80\x89\xc2\xa0j\xe2\x80\x89+\xe2\x80\x89m\xe2\x80\x89-\xe2\x80\x891], i.e. there should exist a k from 1 to t, such that j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ik\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89+\xe2\x80\x89m\xe2\x80\x89-\xe2\x80\x891.'
+b'Then we take any permutation p of the selected indices and form a new string sip1sip2... sipt.'
+b'Find the lexicographically smallest string, that can be obtained using this procedure.'
+b'Input'
+b'The first line of the input contains a single integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000).'
+b"The second line contains the string s consisting of lowercase English letters. It is guaranteed that this string is non-empty and its length doesn't exceed 100\xe2\x80\x89000. It is also guaranteed that the number m doesn't exceed the length of the string s."
+b'Output'
+b'Print the single line containing the lexicographically smallest string, that can be obtained using the procedure described above.'
+Tags
+data structures, greedy, strings, *1900

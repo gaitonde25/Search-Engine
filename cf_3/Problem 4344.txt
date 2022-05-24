@@ -1,0 +1,13 @@
+b'Berland has a long and glorious history. To increase awareness about it among younger citizens, King of Berland decided to compose an anthem.'
+b'Though there are lots and lots of victories in history of Berland, there is the one that stand out the most. King wants to mention it in the anthem as many times as possible.'
+b'He has already composed major part of the anthem and now just needs to fill in some letters. King asked you to help him with this work.'
+b'The anthem is the string s of no more than 105 small Latin letters and question marks. The most glorious victory is the string t of no more than 105 small Latin letters. You should replace all the question marks with small Latin letters in such a way that the number of occurrences of string t in string s is maximal.'
+b'Note that the occurrences of string t in s can overlap. Check the third example for clarification.'
+b'Input'
+b'The first line contains string of small Latin letters and question marks s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'The second line contains string of small Latin letters t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|t|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b"Product of lengths of strings |s|\xc2\xb7|t| won't exceed 107."
+b'Output'
+b'Output the maximum number of occurrences of string t you can achieve by replacing all the question marks in string s with small Latin letters.'
+Tags
+dp, strings, *2300

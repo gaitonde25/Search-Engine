@@ -1,0 +1,14 @@
+b'Santa Claus has received letters from nn different kids throughout this year. Of course, each kid wants to get some presents from Santa: in particular, the ii-th kid asked Santa to give them one of kiki different items as a present. Some items could have been asked by multiple kids.'
+b"Santa is really busy, so he wants the New Year Bot to choose the presents for all children. Unfortunately, the Bot's algorithm of choosing presents is bugged. To choose a present for some kid, the Bot does the following:"
+b'  choose one kid xx equiprobably among all nn kids;  choose some item yy equiprobably among all kxkx items kid xx wants;  choose a kid zz who will receive the present equipropably among all nn kids (this choice is independent of choosing xx and yy); the resulting triple (x,y,z)(x,y,z) is called the decision of the Bot. '
+b"If kid zz listed item yy as an item they want to receive, then the decision valid. Otherwise, the Bot's choice is invalid."
+b"Santa is aware of the bug, but he can't estimate if this bug is really severe. To do so, he wants to know the probability that one decision generated according to the aforementioned algorithm is valid. Can you help him?"
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106) \xe2\x80\x94 the number of kids who wrote their letters to Santa.'
+b'Then nn lines follow, the ii-th of them contains a list of items wanted by the ii-th kid in the following format: kiki ai,1ai,1 ai,2ai,2 ... ai,kiai,ki (1\xe2\x89\xa4ki,ai,j\xe2\x89\xa41061\xe2\x89\xa4ki,ai,j\xe2\x89\xa4106), where kiki is the number of items wanted by the ii-th kid, and ai,jai,j are the items themselves. No item is contained in the same list more than once.'
+b'It is guaranteed that \xe2\x88\x91i=1nki\xe2\x89\xa4106\xe2\x88\x91i=1nki\xe2\x89\xa4106.'
+b'Output'
+b'Print the probatility that the Bot produces a valid decision as follows:'
+b'Let this probability be represented as an irreducible fraction xyxy. You have to print x\xe2\x8b\x85y\xe2\x88\x921mod998244353x\xe2\x8b\x85y\xe2\x88\x921mod998244353, where y\xe2\x88\x921y\xe2\x88\x921 is the inverse element of yy modulo 998244353998244353 (such integer that y\xe2\x8b\x85y\xe2\x88\x921y\xe2\x8b\x85y\xe2\x88\x921 has remainder 11 modulo 998244353998244353). '
+Tags
+combinatorics, math, probabilities, *1700

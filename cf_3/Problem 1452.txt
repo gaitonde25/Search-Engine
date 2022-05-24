@@ -1,0 +1,15 @@
+b'Egor is a famous Russian singer, rapper, actor and blogger, and finally he decided to give a concert in the sunny Republic of Dagestan.'
+b'There are nn cities in the republic, some of them are connected by mm directed roads without any additional conditions. In other words, road system of Dagestan represents an arbitrary directed graph. Egor will arrive to the city 11, travel to the city nn by roads along some path, give a concert and fly away.'
+b"As any famous artist, Egor has lots of haters and too annoying fans, so he can travel only by safe roads. There are two types of the roads in Dagestan, black and white: black roads are safe at night only, and white roads \xe2\x80\x94 in the morning. Before the trip Egor's manager's going to make a schedule: for each city he'll specify it's color, black or white, and then if during the trip they visit some city, the only time they can leave it is determined by the city's color: night, if it's black, and morning, if it's white. After creating the schedule Egor chooses an available path from 11 to nn, and for security reasons it has to be the shortest possible."
+b"Egor's manager likes Dagestan very much and wants to stay here as long as possible, so he asks you to make such schedule that there would be no path from 11 to nn or the shortest path's length would be greatest possible."
+b'A path is one city or a sequence of roads such that for every road (excluding the first one) the city this road goes from is equal to the city previous road goes into. Egor can move only along paths consisting of safe roads only. '
+b'The path length is equal to the number of roads in it. The shortest path in a graph is a path with smallest length.'
+b'Input'
+b'The first line contains two integers nn, mm (1\xe2\x89\xa4n\xe2\x89\xa45000001\xe2\x89\xa4n\xe2\x89\xa4500000, 0\xe2\x89\xa4m\xe2\x89\xa45000000\xe2\x89\xa4m\xe2\x89\xa4500000) \xe2\x80\x94 the number of cities and the number of roads.'
+b'The ii-th of next mm lines contains three integers \xe2\x80\x94 uiui, vivi and titi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, ti\xe2\x88\x88{0,1}ti\xe2\x88\x88{0,1}) \xe2\x80\x94 numbers of cities connected by road and its type, respectively (00 \xe2\x80\x94 night road, 11 \xe2\x80\x94 morning road).'
+b'Output'
+b"In the first line output the length of the desired path (or \xe2\x88\x921\xe2\x88\x921, if it's possible to choose such schedule that there's no path from 11 to nn)."
+b"In the second line output the desired schedule \xe2\x80\x94 a string of nn digits, where ii-th digit is 00, if the ii-th city is a night one, and 11 if it's a morning one."
+b'If there are multiple answers, print any.'
+Tags
+constructive algorithms, dfs and similar, dp, graphs, greedy, shortest paths, *2500

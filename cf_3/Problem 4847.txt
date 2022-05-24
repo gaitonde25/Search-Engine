@@ -1,0 +1,15 @@
+b'A tree is an undirected connected graph without cycles.'
+b"Let's consider a rooted undirected tree with n vertices, numbered 1 through n. There are many ways to represent such a tree. One way is to create an array with n integers p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pn, where pi denotes a parent of vertex i (here, for convenience a root is considered its own parent)."
+b'  For this rooted tree the array p is [2,\xe2\x80\x893,\xe2\x80\x893,\xe2\x80\x892]. '
+b'Given a sequence p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pn, one is able to restore a tree:'
+b'  There must be exactly one index r that pr\xe2\x80\x89=\xe2\x80\x89r. A vertex r is a root of the tree.  For all other n\xe2\x80\x89-\xe2\x80\x891 vertices i, there is an edge between vertex i and vertex pi. '
+b'A sequence p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pn is called valid if the described procedure generates some (any) rooted tree. For example, for n\xe2\x80\x89=\xe2\x80\x893 sequences (1,2,2), (2,3,1) and (2,1,3) are not valid.'
+b'You are given a sequence a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an, not necessarily valid. Your task is to change the minimum number of elements, in order to get a valid sequence. Print the minimum number of changes and an example of a valid sequence after that number of changes. If there are many valid sequences achievable in the minimum number of changes, print any of them.'
+b'Input'
+b'The first line of the input contains an integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of vertices in the tree.'
+b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Output'
+b'In the first line print the minimum number of elements to change, in order to get a valid sequence.'
+b'In the second line, print any valid sequence possible to get from (a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an) in the minimum number of changes. If there are many such sequences, any of them will be accepted.'
+Tags
+constructive algorithms, dfs and similar, dsu, graphs, trees, *1700

@@ -1,0 +1,12 @@
+b'The weight of a sequence is defined as the number of unordered pairs of indexes (i,j)(i,j) (here i<ji<j) with same value (ai=ajai=aj). For example, the weight of sequence a=[1,1,2,2,1]a=[1,1,2,2,1] is 44. The set of unordered pairs of indexes with same value are (1,2)(1,2), (1,5)(1,5), (2,5)(2,5), and (3,4)(3,4).'
+b'You are given a sequence aa of nn integers. Print the sum of the weight of all subsegments of aa. '
+b'A sequence bb is a subsegment of a sequence aa if bb can be obtained from aa by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105). Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print a single integer\xc2\xa0\xe2\x80\x94 the sum of the weight of all subsegments of aa.'
+Tags
+hashing, implementation, math, *1600

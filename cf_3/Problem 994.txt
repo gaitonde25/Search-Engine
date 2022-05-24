@@ -1,0 +1,15 @@
+b'Gaurang has grown up in a mystical universe. He is faced by nn consecutive 2D planes. He shoots a particle of decay age kk at the planes.'
+b'A particle can pass through a plane directly, however, every plane produces an identical copy of the particle going in the opposite direction with a decay age k\xe2\x88\x921k\xe2\x88\x921. If a particle has decay age equal to 11, it will NOT produce a copy.'
+b'For example, if there are two planes and a particle is shot with decay age 33 (towards the right), the process is as follows: (here, D(x)D(x) refers to a single particle with decay age xx) '
+b' the first plane produces a D(2)D(2) to the left and lets D(3)D(3) continue on to the right;  the second plane produces a D(2)D(2) to the left and lets D(3)D(3) continue on to the right;  the first plane lets D(2)D(2) continue on to the left and produces a D(1)D(1) to the right;  the second plane lets D(1)D(1) continue on to the right (D(1)D(1) cannot produce any copies). '
+b'In total, the final multiset SS of particles is {D(3),D(2),D(2),D(1)}{D(3),D(2),D(2),D(1)}. (See notes for visual explanation of this test case.)'
+b'Gaurang is unable to cope up with the complexity of this situation when the number of planes is too large. Help Gaurang find the size of the multiset SS, given nn and kk.'
+b'Since the size of the multiset can be very large, you have to output it modulo 109+7109+7.'
+b'Note: Particles can go back and forth between the planes without colliding with each other.'
+b'Input'
+b'The first line of the input contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Then, tt lines follow, each containing two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa410001\xe2\x89\xa4n,k\xe2\x89\xa41000). '
+b'Additionally, the sum of nn over all test cases will not exceed 10001000, and the sum of kk over all test cases will not exceed 10001000. All test cases in one test are different.'
+b'Output'
+b'Output tt integers. The ii-th of them should be equal to the answer to the ii-th test case.'
+Tags
+brute force, data structures, dp, *1600

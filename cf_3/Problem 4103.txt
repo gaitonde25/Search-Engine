@@ -1,0 +1,16 @@
+b'Recently Ivan bought a new computer. Excited, he unpacked it and installed his favourite game. With his old computer Ivan had to choose the worst possible graphic settings (because otherwise the framerate would be really low), but now he wants to check, maybe his new computer can perform well even with the best possible graphics?'
+b'There are m graphics parameters in the game. i-th parameter can be set to any positive integer from 1 to ai, and initially is set to bi (bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai). So there are  different combinations of parameters. Ivan can increase or decrease any of these parameters by 1; after that the game will be restarted with new parameters (and Ivan will have the opportunity to check chosen combination of parameters).'
+b"Ivan wants to try all p possible combinations. Also he wants to return to the initial settings after trying all combinations, because he thinks that initial settings can be somehow best suited for his hardware. But Ivan doesn't really want to make a lot of restarts."
+b'So he wants you to tell the following:'
+b'  If there exists a way to make exactly p changes (each change either decreases or increases some parameter by 1) to try all possible combinations and return to initial combination, then Ivan wants to know this way.  Otherwise, if there exists a way to make exactly p\xe2\x80\x89-\xe2\x80\x891 changes to try all possible combinations (including the initial one), then Ivan wants to know this way. '
+b'Help Ivan by showing him the way to change parameters!'
+b'Input'
+b'The first line of input contains one integer number m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x896).'
+b'The second line contains m integer numbers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89am (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000). It is guaranteed that .'
+b'The third line contains m integer numbers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bm (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai).'
+b'Output'
+b'If there is a way to make exactly p changes (each change either decreases or increases some parameter by 1) to try all possible combinations and return to initial combination, then output Cycle in the first line. Then p lines must follow, each desribing a change. The line must be either inc x (increase parameter x by 1) or dec x (decrease it).'
+b'Otherwise, if there is a way to make exactly p\xe2\x80\x89-\xe2\x80\x891 changes to try all possible combinations (including the initial one), then output Path in the first line. Then p\xe2\x80\x89-\xe2\x80\x891 lines must follow, each describing the change the same way as mentioned above.'
+b'Otherwise, output No.'
+Tags
+*3200

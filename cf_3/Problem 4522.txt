@@ -1,0 +1,11 @@
+b'Given a rooted tree with n nodes. The Night King removes exactly one node from the tree and all the edges associated with it. Doing this splits the tree and forms a forest. The node which is removed is not a part of the forest.'
+b'The root of a tree in the forest is the node in that tree which does not have a parent. We define the strength of the forest as the size of largest tree in forest.'
+b'Jon Snow wants to minimize the strength of the forest. To do this he can perform the following operation at most once.'
+b'He removes the edge between a node and its parent and inserts a new edge between this node and any other node in forest such that the total number of trees in forest remain same.'
+b'For each node v you need to find the minimum value of strength of the forest formed when node v is removed.'
+b'Input'
+b'The first line of the input contains an integer n (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89n\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89105) \xe2\x80\x94 the number of vertices in the tree. Each of the next n lines contains a pair of vertex indices ui and vi (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89ui,\xe2\x80\x89\xe2\x80\x89vi\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x89n) where ui is the parent of vi. If ui\xe2\x80\x89=\xe2\x80\x890 then vi is the root.'
+b'Output'
+b'Print n line each containing a single integer. The i-th of them should be equal to minimum value of strength of forest formed when i-th node is removed and Jon Snow performs the operation described above at most once.'
+Tags
+binary search, data structures, *3300

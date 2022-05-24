@@ -1,0 +1,14 @@
+b'As you have noticed, there are lovely girls in Arpa\xe2\x80\x99s land.'
+b"People in Arpa's land are numbered from 1 to n. Everyone has exactly one crush, i-th person's crush is person with the number crushi."
+b'  '
+b"Someday Arpa shouted Owf loudly from the top of the palace and a funny game started in Arpa's land. The rules are as follows."
+b'The game consists of rounds. Assume person x wants to start a round, he calls crushx and says: "Oww...wwf" (the letter w is repeated t times) and cuts off the phone immediately. If t\xe2\x80\x89>\xe2\x80\x891 then crushx calls crushcrushx and says: "Oww...wwf" (the letter w is repeated t\xe2\x80\x89-\xe2\x80\x891 times) and cuts off the phone immediately. The round continues until some person receives an "Owf" (t\xe2\x80\x89=\xe2\x80\x891). This person is called the Joon-Joon of the round. There can\'t be two rounds at the same time.'
+b"Mehrdad has an evil plan to make the game more funny, he wants to find smallest t (t\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x891) such that for each person x, if x starts some round and y becomes the Joon-Joon of the round, then by starting from y, x would become the Joon-Joon of the round. Find such t for Mehrdad if it's possible."
+b"Some strange fact in Arpa's land is that someone can be himself's crush (i.e. crushi\xe2\x80\x89=\xe2\x80\x89i)."
+b'Input'
+b"The first line of input contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100)\xc2\xa0\xe2\x80\x94 the number of people in Arpa's land."
+b"The second line contains n integers, i-th of them is crushi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89crushi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the number of i-th person's crush."
+b'Output'
+b'If there is no t satisfying the condition, print -1. Otherwise print such smallest t.'
+Tags
+dfs and similar, math, *1600

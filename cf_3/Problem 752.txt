@@ -1,0 +1,20 @@
+b'Note that the memory limit is unusual.'
+b'There are nn chefs numbered 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n that must prepare dishes for a king. Chef ii has skill ii and initially has a dish of tastiness aiai where |ai|\xe2\x89\xa4i|ai|\xe2\x89\xa4i. Each chef has a list of other chefs that he is allowed to copy from. To stop chefs from learning bad habits, the king makes sure that chef ii can only copy from chefs of larger skill.'
+b'There are a sequence of days that pass during which the chefs can work on their dish. During each day, there are two stages during which a chef can change the tastiness of their dish. '
+b"  At the beginning of each day, each chef can choose to work (or not work) on their own dish, thereby multiplying the tastiness of their dish of their skill (ai:=i\xe2\x8b\x85aiai:=i\xe2\x8b\x85ai) (or doing nothing). After all chefs (who wanted) worked on their own dishes, each start observing the other chefs. In particular, for each chef jj on chef ii's list, chef ii can choose to copy (or not copy) jj's dish, thereby adding the tastiness of the jj's dish to ii's dish (ai:=ai+ajai:=ai+aj) (or doing nothing). It can be assumed that all copying occurs simultaneously. Namely, if chef ii chooses to copy from chef jj he will copy the tastiness of chef jj's dish at the end of stage 11."
+b'All chefs work to maximize the tastiness of their own dish in order to please the king.'
+b'Finally, you are given qq queries. Each query is one of two types.'
+b"  11 kk ll rr\xc2\xa0\xe2\x80\x94 find the sum of tastiness al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar after the kk-th day. Because this value can be large, find it modulo 109+7109+7.  22 ii xx\xc2\xa0\xe2\x80\x94 the king adds xx tastiness to the ii-th chef's dish before the 11-st day begins (ai:=ai+xai:=ai+x). Note that, because the king wants to see tastier dishes, he only adds positive tastiness (x>0x>0). "
+b'Note that queries of type 11 are independent of each all other queries. Specifically, each query of type 11 is a scenario and does not change the initial tastiness aiai of any dish for future queries. Note that queries of type 22 are cumulative and only change the initial tastiness aiai of a dish. See notes for an example of queries.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa43001\xe2\x89\xa4n\xe2\x89\xa4300)\xc2\xa0\xe2\x80\x94 the number of chefs.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92i\xe2\x89\xa4ai\xe2\x89\xa4i\xe2\x88\x92i\xe2\x89\xa4ai\xe2\x89\xa4i).'
+b'The next nn lines each begin with a integer cici (0\xe2\x89\xa4ci<n0\xe2\x89\xa4ci<n), denoting the number of chefs the ii-th chef can copy from. This number is followed by cici distinct integers dd (i<d\xe2\x89\xa4ni<d\xe2\x89\xa4n), signifying that chef ii is allowed to copy from chef dd during stage 22 of each day.'
+b'The next line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Each of the next qq lines contains a query of one of two types: '
+b'  11 kk ll rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n; 1\xe2\x89\xa4k\xe2\x89\xa410001\xe2\x89\xa4k\xe2\x89\xa41000);  22 ii xx (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n; 1\xe2\x89\xa4x\xe2\x89\xa410001\xe2\x89\xa4x\xe2\x89\xa41000). '
+b'It is guaranteed that there is at least one query of the first type.'
+b'Output'
+b'For each query of the first type, print a single integer\xc2\xa0\xe2\x80\x94 the answer to the query.'
+Tags
+math, matrices, *3500

@@ -1,0 +1,9 @@
+b"With your help, Heidi has prepared a plan of trap placement and defence. Yet suddenly, the Doctor popped out of the TARDIS and told her that he had spied on the Daleks' preparations, and there is more of them than ever. Desperate times require desperate measures, so Heidi is going to risk meeting with the Daleks and she will consider placing a trap along any Corridor."
+b'This means she needs your help again in calculating Emax(c)Emax(c) \xe2\x80\x93 the largest e\xe2\x89\xa4109e\xe2\x89\xa4109 such that if we changed the energy requirement of cc to ee, then the Daleks might use cc in their invasion \xe2\x80\x93 but this time for all Time Corridors.'
+b'Input'
+b'First line: number nn of destinations, number mm of corridors (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4106n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4106). The next mm lines: destinations aa, bb and energy ee (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n, a\xe2\x89\xa0ba\xe2\x89\xa0b, 0\xe2\x89\xa4e\xe2\x89\xa41090\xe2\x89\xa4e\xe2\x89\xa4109).'
+b'No pair {a,b}{a,b} will repeat. The graph is guaranteed to be connected. It is not guaranteed that all energy requirements ee are distinct, or that the minimum spanning tree is unique.'
+b'Output'
+b'Output mm lines, each containing one integer: Emax(ci)Emax(ci) for the ii-th Corridor cici from the input.'
+Tags
+data structures, dsu, graphs, trees, *2400

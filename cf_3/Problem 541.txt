@@ -1,0 +1,12 @@
+b"CQXYM wants to create a connected undirected graph with nn nodes and mm edges, and the diameter of the graph must be strictly less than k\xe2\x88\x921k\xe2\x88\x921. Also, CQXYM doesn't want a graph that contains self-loops or multiple edges (i.e. each edge connects two different vertices and between each pair of vertices there is at most one edge)."
+b'The diameter of a graph is the maximum distance between any two nodes.'
+b'The distance between two nodes is the minimum number of the edges on the path which endpoints are the two nodes.'
+b'CQXYM wonders whether it is possible to create such a graph.'
+b'Input'
+b'The input consists of multiple test cases. '
+b'The first line contains an integer t(1\xe2\x89\xa4t\xe2\x89\xa4105)t(1\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'Only one line of each test case contains three integers n(1\xe2\x89\xa4n\xe2\x89\xa4109)n(1\xe2\x89\xa4n\xe2\x89\xa4109), mm, kk (0\xe2\x89\xa4m,k\xe2\x89\xa4109)(0\xe2\x89\xa4m,k\xe2\x89\xa4109).'
+b'Output'
+b'For each test case, print YES if it is possible to create the graph, or print NO if it is impossible. You can print each letter in any case (upper or lower).'
+Tags
+constructive algorithms, graphs, greedy, math, *1200

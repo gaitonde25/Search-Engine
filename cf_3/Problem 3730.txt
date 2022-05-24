@@ -1,0 +1,7 @@
+b'If you have ever interacted with a cat, you have probably noticed that they are quite particular about how to pet them. Here is an approximate map of a normal cat.'
+b'  '
+b"However, some cats won't tolerate this nonsense from the humans. Here is a map of a grumpy cat."
+b'  '
+b"You have met a cat. Can you figure out whether it's normal or grumpy?"
+Tags
+brute force, interactive, *1900

@@ -1,0 +1,12 @@
+b"One of Arkady's friends works at a huge radio telescope. A few decades ago the telescope has sent a signal ss towards a faraway galaxy. Recently they've received a response tt which they believe to be a response from aliens! The scientists now want to check if the signal tt is similar to ss."
+b"The original signal ss was a sequence of zeros and ones (everyone knows that binary code is the universe-wide language). The returned signal tt, however, does not look as easy as ss, but the scientists don't give up! They represented tt as a sequence of English letters and say that tt is similar to ss if you can replace all zeros in ss with some string r0r0 and all ones in ss with some other string r1r1 and obtain tt. The strings r0r0 and r1r1 must be different and non-empty."
+b"Please help Arkady's friend and find the number of possible replacements for zeros and ones (the number of pairs of strings r0r0 and r1r1) that transform ss to tt."
+b'Input'
+b'The first line contains a string ss (2\xe2\x89\xa4|s|\xe2\x89\xa41052\xe2\x89\xa4|s|\xe2\x89\xa4105) consisting of zeros and ones\xc2\xa0\xe2\x80\x94 the original signal.'
+b'The second line contains a string tt (1\xe2\x89\xa4|t|\xe2\x89\xa41061\xe2\x89\xa4|t|\xe2\x89\xa4106) consisting of lowercase English letters only\xc2\xa0\xe2\x80\x94 the received signal.'
+b"It is guaranteed, that the string ss contains at least one '0' and at least one '1'."
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of pairs of strings r0r0 and r1r1 that transform ss to tt.'
+b'In case there are no such pairs, print 00.'
+Tags
+brute force, data structures, hashing, strings, *2100

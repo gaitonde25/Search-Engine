@@ -1,0 +1,18 @@
+b'INSPION FullBand Master - INSPION'
+b' '
+b'INSPION - IOLITE-SUNSTONE'
+b'On another floor of the A.R.C. Markland-N, the young man Simon "Xenon" Jackson, takes a break after finishing his project early (as always). Having a lot of free time, he decides to put on his legendary hacker "X" instinct and fight against the gangs of the cyber world.'
+b'His target is a network of nn small gangs. This network contains exactly n\xe2\x88\x921n\xe2\x88\x921 direct links, each of them connecting two gangs together. The links are placed in such a way that every pair of gangs is connected through a sequence of direct links.'
+b'By mining data, Xenon figured out that the gangs used a form of cross-encryption to avoid being busted: every link was assigned an integer from 00 to n\xe2\x88\x922n\xe2\x88\x922 such that all assigned integers are distinct and every integer was assigned to some link. If an intruder tries to access the encrypted data, they will have to surpass SS password layers, with SS being defined by the following formula:'
+b'S=\xe2\x88\x911\xe2\x89\xa4u<v\xe2\x89\xa4nmex(u,v)S=\xe2\x88\x911\xe2\x89\xa4u<v\xe2\x89\xa4nmex(u,v)'
+b'Here, mex(u,v)mex(u,v) denotes the smallest non-negative integer that does not appear on any link on the unique simple path from gang uu to gang vv.'
+b"Xenon doesn't know the way the integers are assigned, but it's not a problem. He decides to let his AI's instances try all the passwords on his behalf, but before that, he needs to know the maximum possible value of SS, so that the AIs can be deployed efficiently."
+b'Now, Xenon is out to write the AI scripts, and he is expected to finish them in two hours. Can you find the maximum possible SS before he returns?'
+b'Input'
+b'The first line contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa430002\xe2\x89\xa4n\xe2\x89\xa43000), the number of gangs in the network.'
+b"Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n; ui\xe2\x89\xa0viui\xe2\x89\xa0vi), indicating there's a direct link between gangs uiui and vivi."
+b"It's guaranteed that links are placed in such a way that each pair of gangs will be connected by exactly one simple path."
+b'Output'
+b"Print the maximum possible value of SS\xc2\xa0\xe2\x80\x94 the number of password layers in the gangs' network."
+Tags
+combinatorics, dfs and similar, dp, greedy, trees, *2300

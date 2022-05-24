@@ -1,0 +1,13 @@
+b'In the country of Never, there are n cities and a well-developed road system. There is exactly one bidirectional road between every pair of cities, thus, there are as many as  roads! No two roads intersect, and no road passes through intermediate cities. The art of building tunnels and bridges has been mastered by Neverians.'
+b"An independent committee has evaluated each road of Never with a positive integer called the perishability of the road. The lower the road's perishability is, the more pleasant it is to drive through this road."
+b"It's the year of transport in Never. It has been decided to build a museum of transport in one of the cities, and to set a single signpost directing to some city (not necessarily the one with the museum) in each of the other cities. The signposts must satisfy the following important condition: if any Neverian living in a city without the museum starts travelling from that city following the directions of the signposts, then this person will eventually arrive in the city with the museum."
+b'Neverians are incredibly positive-minded. If a Neverian travels by a route consisting of several roads, he considers the perishability of the route to be equal to the smallest perishability of all the roads in this route.'
+b'The government of Never has not yet decided where to build the museum, so they consider all n possible options. The most important is the sum of perishabilities of the routes to the museum city from all the other cities of Never, if the travelers strictly follow the directions of the signposts. The government of Never cares about their citizens, so they want to set the signposts in a way which minimizes this sum. Help them determine the minimum possible sum for all n possible options of the city where the museum can be built.'
+b'Input'
+b'The first line contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000)\xc2\xa0\xe2\x80\x94 the number of cities in Never.'
+b'The following n\xe2\x80\x89-\xe2\x80\x891 lines contain the description of the road network. The i-th of these lines contains n\xe2\x80\x89-\xe2\x80\x89i integers. The j-th integer in the i-th line denotes the perishability of the road between cities i and i\xe2\x80\x89+\xe2\x80\x89j.'
+b'All road perishabilities are between 1 and 109, inclusive.'
+b'Output'
+b'For each city in order from 1 to n, output the minimum possible sum of perishabilities of the routes to this city from all the other cities of Never if the signposts are set in a way which minimizes this sum.'
+Tags
+dp, graphs, shortest paths, *2700

@@ -1,0 +1,11 @@
+b'While playing yet another strategy game, Mans has recruited nn Swedish heroes, whose powers which can be represented as an array aa.'
+b'Unfortunately, not all of those mighty heroes were created as capable as he wanted, so that he decided to do something about it. In order to accomplish his goal, he can pick two consecutive heroes, with powers aiai and ai+1ai+1, remove them and insert a hero with power \xe2\x88\x92(ai+ai+1)\xe2\x88\x92(ai+ai+1) back in the same position. '
+b'For example if the array contains the elements [5,6,7,8][5,6,7,8], he can pick 66 and 77 and get [5,\xe2\x88\x92(6+7),8]=[5,\xe2\x88\x9213,8][5,\xe2\x88\x92(6+7),8]=[5,\xe2\x88\x9213,8].'
+b"After he will perform this operation n\xe2\x88\x921n\xe2\x88\x921 times, Mans will end up having only one hero. He wants his power to be as big as possible. What's the largest possible power he can achieve?"
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 powers of the heroes.'
+b'Output'
+b'Print the largest possible power he can achieve after n\xe2\x88\x921n\xe2\x88\x921 operations.'
+Tags
+brute force, dp, implementation, *2700

@@ -1,0 +1,10 @@
+b'There are nn customers in the cafeteria. Each of them wants to buy a hamburger. The ii-th customer has aiai coins, and they will buy a hamburger if it costs at most aiai coins.'
+b'Suppose the cost of the hamburger is mm. Then the number of coins the cafeteria earns is mm multiplied by the number of people who buy a hamburger if it costs mm. Your task is to calculate the maximum number of coins the cafeteria can earn.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'Each test case consists of two lines. The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of customers.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa410121\xe2\x89\xa4ai\xe2\x89\xa41012), where aiai is the number of coins the ii-th customer has.'
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the maximum number of coins the cafeteria can earn.'
+Tags
+*special problem, *800

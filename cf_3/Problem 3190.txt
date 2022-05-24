@@ -1,0 +1,12 @@
+b'Ivan unexpectedly saw a present from one of his previous birthdays. It is array of nn numbers from 11 to 200200. Array is old and some numbers are hard to read. Ivan remembers that for all elements at least one of its neighbours ls not less than it, more formally:'
+b'a1\xe2\x89\xa4a2a1\xe2\x89\xa4a2,'
+b'an\xe2\x89\xa4an\xe2\x88\x921an\xe2\x89\xa4an\xe2\x88\x921 and'
+b'ai\xe2\x89\xa4max(ai\xe2\x88\x921,ai+1)ai\xe2\x89\xa4max(ai\xe2\x88\x921,ai+1) for all ii from 22 to n\xe2\x88\x921n\xe2\x88\x921.'
+b'Ivan does not remember the array and asks to find the number of ways to restore it. Restored elements also should be integers from 11 to 200200. Since the number of ways can be big, print it modulo 998244353998244353.'
+b'Input'
+b'First line of input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 size of the array.'
+b"Second line of input contains nn integers aiai\xc2\xa0\xe2\x80\x94 elements of array. Either ai=\xe2\x88\x921ai=\xe2\x88\x921 or 1\xe2\x89\xa4ai\xe2\x89\xa42001\xe2\x89\xa4ai\xe2\x89\xa4200. ai=\xe2\x88\x921ai=\xe2\x88\x921 means that ii-th element can't be read."
+b'Output'
+b'Print number of ways to restore the array modulo 998244353998244353.'
+Tags
+dp, *1900

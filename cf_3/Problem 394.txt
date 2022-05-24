@@ -1,0 +1,13 @@
+b'Monocarp is a tutor of a group of nn students. He communicates with them using a conference in a popular messenger.'
+b"Today was a busy day for Monocarp \xe2\x80\x94 he was asked to forward a lot of posts and announcements to his group, that's why he had to write a very large number of messages in the conference. Monocarp knows the students in the group he is tutoring quite well, so he understands which message should each student read: Monocarp wants the student ii to read the message mimi."
+b"Of course, no one's going to read all the messages in the conference. That's why Monocarp decided to pin some of them. Monocarp can pin any number of messages, and if he wants anyone to read some message, he should pin it \xe2\x80\x94 otherwise it will definitely be skipped by everyone."
+b'Unfortunately, even if a message is pinned, some students may skip it anyway. For each student ii, Monocarp knows that they will read at most kiki messages. Suppose Monocarp pins tt messages; if t\xe2\x89\xa4kit\xe2\x89\xa4ki, then the ii-th student will read all the pinned messages; but if t>kit>ki, the ii-th student will choose exactly kiki random pinned messages (all possible subsets of pinned messages of size kiki are equiprobable) and read only the chosen messages.'
+b'Monocarp wants to maximize the expected number of students that read their respective messages (i.e. the number of such indices ii that student ii reads the message mimi). Help him to choose how many (and which) messages should he pin!'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of students in the conference.'
+b'Then nn lines follow. The ii-th line contains two integers mimi and kiki (1\xe2\x89\xa4mi\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4mi\xe2\x89\xa42\xe2\x8b\x85105; 1\xe2\x89\xa4ki\xe2\x89\xa4201\xe2\x89\xa4ki\xe2\x89\xa420) \xe2\x80\x94 the index of the message which Monocarp wants the ii-th student to read and the maximum number of messages the ii-th student will read, respectively.'
+b'Output'
+b'In the first line, print one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of messages Monocarp should pin. In the second line, print tt distinct integers c1c1, c2c2, ..., ctct (1\xe2\x89\xa4ci\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4ci\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the indices of the messages Monocarp should pin. The messages can be listed in any order.'
+b'If there are multiple answers, print any of them.'
+Tags
+brute force, dp, greedy, probabilities, sortings, *2000

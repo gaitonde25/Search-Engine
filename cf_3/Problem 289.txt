@@ -1,0 +1,15 @@
+b'Mihai plans to watch a movie. He only likes palindromic movies, so he wants to skip some (possibly zero) scenes to make the remaining parts of the movie palindromic.'
+b"You are given a list ss of nn non-empty strings of length at most 33, representing the scenes of Mihai's movie."
+b'A subsequence of ss is called awesome if it is non-empty and the concatenation of the strings in the subsequence, in order, is a palindrome.'
+b'Can you help Mihai check if there is at least one awesome subsequence of ss?'
+b'A palindrome is a string that reads the same backward as forward, for example strings "z", "aaa", "aba", "abccba" are palindromes, but strings "codeforces", "reality", "ab" are not.'
+b'A sequence aa is a non-empty subsequence of a non-empty sequence bb if aa can be obtained from bb by deletion of several (possibly zero, but not all) elements.'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. The description of test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of scenes in the movie.'
+b'Then follows nn lines, the ii-th of which containing a single non-empty string sisi of length at most 33, consisting of lowercase Latin letters.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print "YES" if there is an awesome subsequence of ss, or "NO" otherwise (case insensitive).'
+Tags
+greedy, strings, *1700

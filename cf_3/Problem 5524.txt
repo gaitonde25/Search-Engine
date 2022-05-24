@@ -1,0 +1,16 @@
+b"Leonid works for a small and promising start-up that works on decoding the human genome. His duties include solving complex problems of finding certain patterns in long strings consisting of letters 'A', 'T', 'G' and 'C'."
+b"Let's consider the following scenario. There is a fragment of a human DNA chain, recorded as a string S. To analyze the fragment, you need to find all occurrences of string T in a string S. However, the matter is complicated by the fact that the original chain fragment could contain minor mutations, which, however, complicate the task of finding a fragment. Leonid proposed the following approach to solve this problem."
+b"Let's write down integer k\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x890 \xe2\x80\x94 the error threshold. We will say that string T occurs in string S on position i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|\xe2\x80\x89-\xe2\x80\x89|T|\xe2\x80\x89+\xe2\x80\x891), if after putting string T along with this position, each character of string T corresponds to the some character of the same value in string S at the distance of at most k. More formally, for any j (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|T|) there must exist such p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|), that |(i\xe2\x80\x89+\xe2\x80\x89j\xe2\x80\x89-\xe2\x80\x891)\xe2\x80\x89-\xe2\x80\x89p|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k and S[p]\xe2\x80\x89=\xe2\x80\x89T[j]."
+b'For example, corresponding to the given definition, string "ACAT" occurs in string "AGCAATTCAT" in positions 2, 3 and 6.'
+b'  '
+b'Note that at k\xe2\x80\x89=\xe2\x80\x890 the given definition transforms to a simple definition of the occurrence of a string in a string.'
+b'Help Leonid by calculating in how many positions the given string T occurs in the given string S with the given error threshold.'
+b'Input'
+b'The first line contains three integers |S|,\xe2\x80\x89|T|,\xe2\x80\x89k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|T|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000) \xe2\x80\x94 the lengths of strings S and T and the error threshold.'
+b'The second line contains string S.'
+b'The third line contains string T.'
+b"Both strings consist only of uppercase letters 'A', 'T', 'G' and 'C'."
+b'Output'
+b'Print a single number \xe2\x80\x94 the number of occurrences of T in S with the error threshold k by the given definition.'
+Tags
+bitmasks, brute force, fft, *2500

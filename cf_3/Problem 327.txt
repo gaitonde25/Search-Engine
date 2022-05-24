@@ -1,0 +1,16 @@
+b"Consider an array of integers C=[c1,c2,\xe2\x80\xa6,cn]C=[c1,c2,\xe2\x80\xa6,cn] of length nn. Let's build the sequence of arrays D0,D1,D2,\xe2\x80\xa6,DnD0,D1,D2,\xe2\x80\xa6,Dn of length n+1n+1 in the following way:"
+b"  The first element of this sequence will be equals CC: D0=CD0=C.  For each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n array DiDi will be constructed from Di\xe2\x88\x921Di\xe2\x88\x921 in the following way:   Let's find the lexicographically smallest subarray of Di\xe2\x88\x921Di\xe2\x88\x921 of length ii. Then, the first n\xe2\x88\x92in\xe2\x88\x92i elements of DiDi will be equals to the corresponding n\xe2\x88\x92in\xe2\x88\x92i elements of array Di\xe2\x88\x921Di\xe2\x88\x921 and the last ii elements of DiDi will be equals to the corresponding elements of the found subarray of length ii.  "
+b'Array xx is subarray of array yy, if xx can be obtained by deletion of several (possibly, zero or all) elements from the beginning of yy and several (possibly, zero or all) elements from the end of yy.'
+b"For array CC let's denote array DnDn as op(C)op(C)."
+b'Alice has an array of integers A=[a1,a2,\xe2\x80\xa6,an]A=[a1,a2,\xe2\x80\xa6,an] of length nn. She will build the sequence of arrays B0,B1,\xe2\x80\xa6,BnB0,B1,\xe2\x80\xa6,Bn of length n+1n+1 in the following way:'
+b'  The first element of this sequence will be equals AA: B0=AB0=A.  For each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n array BiBi will be equals op(Bi\xe2\x88\x921)op(Bi\xe2\x88\x921), where opop is the transformation described above. '
+b'She will ask you qq queries about elements of sequence of arrays B0,B1,\xe2\x80\xa6,BnB0,B1,\xe2\x80\xa6,Bn. Each query consists of two integers ii and jj, and the answer to this query is the value of the jj-th element of array BiBi.'
+b'Input'
+b'The first line contains the single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the length of array AA.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the array AA.'
+b'The third line contains the single integer qq (1\xe2\x89\xa4q\xe2\x89\xa41061\xe2\x89\xa4q\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'Each of the next qq lines contains two integers ii, jj (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 parameters of queries.'
+b'Output'
+b'Output qq integers: values of Bi,jBi,j for required ii, jj.'
+Tags
+data structures, hashing, string suffix structures, *3500

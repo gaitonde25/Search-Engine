@@ -1,0 +1,13 @@
+b'Find out if it is possible to partition the first nn positive integers into two non-empty disjoint sets S1S1 and S2S2 such that:'
+b'gcd(sum(S1),sum(S2))>1gcd(sum(S1),sum(S2))>1 '
+b'Here sum(S)sum(S) denotes the sum of all elements present in set SS and gcdgcd means thegreatest common divisor.'
+b'Every integer number from 11 to nn should be present in exactly one of S1S1 or S2S2.'
+b'Input'
+b'The only line of the input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa4450001\xe2\x89\xa4n\xe2\x89\xa445000)'
+b'Output'
+b'If such partition doesn\'t exist, print "No" (quotes for clarity).'
+b'Otherwise, print "Yes" (quotes for clarity), followed by two lines, describing S1S1 and S2S2 respectively.'
+b'Each set description starts with the set size, followed by the elements of the set in any order. Each set must be non-empty.'
+b'If there are multiple possible partitions\xc2\xa0\xe2\x80\x94 print any of them.'
+Tags
+constructive algorithms, math, *1100

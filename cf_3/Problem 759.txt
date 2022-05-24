@@ -1,0 +1,15 @@
+b"The Alice's computer is broken, so she can't play her favorite card game now. To help Alice, Bob wants to answer nn her questions. "
+b'Initially, Bob holds one card with number 00 in the left hand and one in the right hand. In the ii-th question, Alice asks Bob to replace a card in the left or right hand with a card with number kiki (Bob chooses which of two cards he changes, Bob must replace exactly one card).'
+b'After this action, Alice wants the numbers on the left and right cards to belong to given segments (segments for left and right cards can be different). Formally, let the number on the left card be xx, and on the right card be yy. Then after the ii-th swap the following conditions must be satisfied: al,i\xe2\x89\xa4x\xe2\x89\xa4bl,ial,i\xe2\x89\xa4x\xe2\x89\xa4bl,i, and ar,i\xe2\x89\xa4y\xe2\x89\xa4br,iar,i\xe2\x89\xa4y\xe2\x89\xa4br,i.'
+b'Please determine if Bob can answer all requests. If it is possible, find a way to do it.'
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa41000002\xe2\x89\xa4n\xe2\x89\xa4100000, 2\xe2\x89\xa4m\xe2\x89\xa41092\xe2\x89\xa4m\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of questions and the maximum possible value on the card.'
+b'Then nn queries are described. Every description contains 3 lines.'
+b'The first line of the description of the ii-th query contains a single integer kiki (0\xe2\x89\xa4ki\xe2\x89\xa4m0\xe2\x89\xa4ki\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the number on a new card.'
+b'The second line of the description of the ii-th query contains two integers al,ial,i and bl,ibl,i (0\xe2\x89\xa4al,i\xe2\x89\xa4bl,i\xe2\x89\xa4m0\xe2\x89\xa4al,i\xe2\x89\xa4bl,i\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the minimum and maximum values of the card at the left hand after the replacement.'
+b'The third line of the description of the ii-th query contains two integers ar,iar,i and br,ibr,i (0\xe2\x89\xa4ar,i\xe2\x89\xa4br,i\xe2\x89\xa4m0\xe2\x89\xa4ar,i\xe2\x89\xa4br,i\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the minimum and maximum values of the card at the right hand after the replacement.'
+b'Output'
+b'At the first line, print "Yes", if Bob can answer all queries, and "No" otherwise.'
+b'If Bob can answer all nn queries, then at the second line print nn numbers: a way to satisfy all requirements. If in ii-th query Bob needs to replace the card in the left hand, print 00, otherwise print 11. If there are multiple answers, print any.'
+Tags
+binary search, constructive algorithms, data structures, dp, greedy, implementation, *2500

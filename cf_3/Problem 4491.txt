@@ -1,0 +1,12 @@
+b'Stepan has n pens. Every day he uses them, and on the i-th day he uses the pen number i. On the (n\xe2\x80\x89+\xe2\x80\x891)-th day again he uses the pen number 1, on the (n\xe2\x80\x89+\xe2\x80\x892)-th \xe2\x80\x94 he uses the pen number 2 and so on.'
+b'On every working day (from Monday to Saturday, inclusive) Stepan spends exactly 1 milliliter of ink of the pen he uses that day. On Sunday Stepan has a day of rest, he does not stend the ink of the pen he uses that day. '
+b"Stepan knows the current volume of ink in each of his pens. Now it's the Monday morning and Stepan is going to use the pen number 1 today. Your task is to determine which pen will run out of ink before all the rest (that is, there will be no ink left in it), if Stepan will use the pens according to the conditions described above."
+b'Input'
+b'The first line contains the integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950\xe2\x80\x89000) \xe2\x80\x94 the number of pens Stepan has.'
+b'The second line contains the sequence of integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where ai is equal to the number of milliliters of ink which the pen number i currently has.'
+b'Output'
+b'Print the index of the pen which will run out of ink before all (it means that there will be no ink left in it), if Stepan will use pens according to the conditions described above. '
+b'Pens are numbered in the order they are given in input data. The numeration begins from one. '
+b'Note that the answer is always unambiguous, since several pens can not end at the same time.'
+Tags
+*special problem, binary search, number theory, *2700

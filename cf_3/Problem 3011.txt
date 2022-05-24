@@ -1,0 +1,16 @@
+b"Polycarp has recently got himself a new job. He now earns so much that his old wallet can't even store all the money he has."
+b'Berland bills somehow come in lots of different sizes. However, all of them are shaped as rectangles (possibly squares). All wallets are also produced in form of rectangles (possibly squares).'
+b'A bill x\xc3\x97yx\xc3\x97y fits into some wallet h\xc3\x97wh\xc3\x97w if either x\xe2\x89\xa4hx\xe2\x89\xa4h and y\xe2\x89\xa4wy\xe2\x89\xa4w or y\xe2\x89\xa4hy\xe2\x89\xa4h and x\xe2\x89\xa4wx\xe2\x89\xa4w. Bills can overlap with each other in a wallet and an infinite amount of bills can fit into a wallet. That implies that all the bills Polycarp currently have fit into a wallet if every single one of them fits into it independently of the others.'
+b'Now you are asked to perform the queries of two types:'
+b'  +\xc2\xa0x\xc2\xa0y+\xc2\xa0x\xc2\xa0y \xe2\x80\x94 Polycarp earns a bill of size x\xc3\x97yx\xc3\x97y;  ?\xc2\xa0h\xc2\xa0w?\xc2\xa0h\xc2\xa0w \xe2\x80\x94 Polycarp wants to check if all the bills he has earned to this moment fit into a wallet of size h\xc3\x97wh\xc3\x97w. '
+b'It is guaranteed that there is at least one query of type 11 before the first query of type 22 and that there is at least one query of type 22 in the input data.'
+b'For each query of type 22 print "YES" if all the bills he has earned to this moment fit into a wallet of given size. Print "NO" otherwise.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the number of queries.'
+b'Each of the next nn lines contains a query of one of these two types:'
+b'  +\xc2\xa0x\xc2\xa0y+\xc2\xa0x\xc2\xa0y (1\xe2\x89\xa4x,y\xe2\x89\xa41091\xe2\x89\xa4x,y\xe2\x89\xa4109) \xe2\x80\x94 Polycarp earns a bill of size x\xc3\x97yx\xc3\x97y;  ?\xc2\xa0h\xc2\xa0w?\xc2\xa0h\xc2\xa0w (1\xe2\x89\xa4h,w\xe2\x89\xa41091\xe2\x89\xa4h,w\xe2\x89\xa4109) \xe2\x80\x94 Polycarp wants to check if all the bills he has earned to this moment fit into a wallet of size h\xc3\x97wh\xc3\x97w. '
+b'It is guaranteed that there is at least one query of type 11 before the first query of type 22 and that there is at least one query of type 22 in the input data.'
+b'Output'
+b'For each query of type 22 print "YES" if all the bills he has earned to this moment fit into a wallet of given size. Print "NO" otherwise.'
+Tags
+implementation, *1500

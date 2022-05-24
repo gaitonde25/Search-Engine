@@ -1,0 +1,13 @@
+b"Mahmoud and Ehab solved Dr. Evil's questions so he gave them the password of the door of the evil land. When they tried to open the door using it, the door gave them a final question to solve before they leave (yes, the door is digital, Dr. Evil is modern). If they don't solve it, all the work will be useless and they won't leave the evil land forever. Will you help them?"
+b'Mahmoud and Ehab are given n strings s1,\xe2\x80\x89s2,\xe2\x80\x89... ,\xe2\x80\x89sn numbered from 1 to n and q queries, Each query has one of the following forms:'
+b'  1 a b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), For all the intervals [l;r] where (a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b) find the maximum value of this expression:(r\xe2\x80\x89-\xe2\x80\x89l\xe2\x80\x89+\xe2\x80\x891)\xe2\x80\x89*\xe2\x80\x89LCP(sl,\xe2\x80\x89sl\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89... ,\xe2\x80\x89sr\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89sr) where LCP(str1,\xe2\x80\x89str2,\xe2\x80\x89str3,\xe2\x80\x89... ) is the length of the longest common prefix of the strings str1,\xe2\x80\x89str2,\xe2\x80\x89str3,\xe2\x80\x89... . 2 x y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) where y is a string, consisting of lowercase English letters. Change the string at position x to y.'
+b'Input'
+b'The first line of input contains 2 integers n and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x93 The number of strings and the number of queries, respectively.'
+b'The second line contains n strings stri consisting of lowercase English letters.'
+b'The next q lines describe the queries and may have one of the 2 forms:'
+b'  1 a b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). 2 x y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), where y is a string consisting of lowercase English letters.'
+b"the total length of all strings in input won't exceed 105"
+b'Output'
+b'For each query of first type output its answer in a new line.'
+Tags
+data structures, strings, *2900

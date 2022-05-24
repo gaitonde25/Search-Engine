@@ -1,0 +1,14 @@
+b'nn students are taking an exam. The highest possible score at this exam is mm. Let aiai be the score of the ii-th student. You have access to the school database which stores the results of all students.'
+b"You can change each student's score as long as the following conditions are satisfied: "
+b"  All scores are integers  0\xe2\x89\xa4ai\xe2\x89\xa4m0\xe2\x89\xa4ai\xe2\x89\xa4m  The average score of the class doesn't change. "
+b'You are student 11 and you would like to maximize your own score.'
+b'Find the highest possible score you can assign to yourself such that all conditions are satisfied.'
+b'Input'
+b'Each test contains multiple test cases. '
+b'The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa42001\xe2\x89\xa4t\xe2\x89\xa4200). The description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41031\xe2\x89\xa4n\xe2\x89\xa4103, 1\xe2\x89\xa4m\xe2\x89\xa41051\xe2\x89\xa4m\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of students and the highest possible score respectively.'
+b'The second line of each testcase contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4m0\xe2\x89\xa4ai\xe2\x89\xa4m) \xc2\xa0\xe2\x80\x94 scores of the students.'
+b'Output'
+b'For each testcase, output one integer \xc2\xa0\xe2\x80\x94 the highest possible score you can assign to yourself such that both conditions are satisfied._'
+Tags
+implementation, *800

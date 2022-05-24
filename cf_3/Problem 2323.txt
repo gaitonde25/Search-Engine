@@ -1,0 +1,11 @@
+b'Your favorite music streaming platform has formed a perfectly balanced playlist exclusively for you. The playlist consists of nn tracks numbered from 11 to nn. The playlist is automatic and cyclic: whenever track ii finishes playing, track i+1i+1 starts playing automatically; after track nn goes track 11.'
+b'For each track ii, you have estimated its coolness aiai. The higher aiai is, the cooler track ii is.'
+b'Every morning, you choose a track. The playlist then starts playing from this track in its usual cyclic fashion. At any moment, you remember the maximum coolness xx of already played tracks. Once you hear that a track with coolness strictly less than x2x2 (no rounding) starts playing, you turn off the music immediately to keep yourself in a good mood.'
+b'For each track ii, find out how many tracks you will listen to before turning off the music if you start your morning with track ii, or determine that you will never turn the music off. Note that if you listen to the same track several times, every time must be counted.'
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105), denoting the number of tracks in the playlist.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), denoting coolnesses of the tracks.'
+b'Output'
+b'Output nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn, where cici is either the number of tracks you will listen to if you start listening from track ii or \xe2\x88\x921\xe2\x88\x921 if you will be listening to music indefinitely.'
+Tags
+binary search, data structures, implementation, *2000

@@ -1,0 +1,15 @@
+b'The only difference between easy and hard versions is constraints.'
+b"There are nn kids, each of them is reading a unique book. At the end of any day, the ii-th kid will give his book to the pipi-th kid (in case of i=pii=pi the kid will give his book to himself). It is guaranteed that all values of pipi are distinct integers from 11 to nn (i.e. pp is a permutation). The sequence pp doesn't change from day to day, it is fixed."
+b'For example, if n=6n=6 and p=[4,6,1,3,5,2]p=[4,6,1,3,5,2] then at the end of the first day the book of the 11-st kid will belong to the 44-th kid, the 22-nd kid will belong to the 66-th kid and so on. At the end of the second day the book of the 11-st kid will belong to the 33-th kid, the 22-nd kid will belong to the 22-th kid and so on.'
+b'Your task is to determine the number of the day the book of the ii-th child is returned back to him for the first time for every ii from 11 to nn.'
+b'Consider the following example: p=[5,1,2,4,3]p=[5,1,2,4,3]. The book of the 11-st kid will be passed to the following kids:'
+b'  after the 11-st day it will belong to the 55-th kid,  after the 22-nd day it will belong to the 33-rd kid,  after the 33-rd day it will belong to the 22-nd kid,  after the 44-th day it will belong to the 11-st kid. '
+b'So after the fourth day, the book of the first kid will return to its owner. The book of the fourth kid will return to him for the first time after exactly one day.'
+b'You have to answer qq independent queries.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa42001\xe2\x89\xa4q\xe2\x89\xa4200) \xe2\x80\x94 the number of queries. Then qq queries follow.'
+b'The first line of the query contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42001\xe2\x89\xa4n\xe2\x89\xa4200) \xe2\x80\x94 the number of kids in the query. The second line of the query contains nn integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n, all pipi are distinct, i.e. pp is a permutation), where pipi is the kid which will get the book of the ii-th kid.'
+b'Output'
+b'For each query, print the answer on it: nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, where aiai is the number of the day the book of the ii-th child is returned back to him for the first time in this query.'
+Tags
+dsu, math, *1000

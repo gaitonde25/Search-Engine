@@ -1,0 +1,11 @@
+b'Today Tavas got his test result as an integer score and he wants to share it with his girlfriend, Nafas.'
+b"His phone operating system is Tavdroid, and its keyboard doesn't have any digits! He wants to share his score with Nafas via text, so he has no choice but to send this number using words."
+b'  '
+b"He ate coffee mix without water again, so right now he's really messed up and can't think."
+b'Your task is to help him by telling him what to type.'
+b'Input'
+b"The first and only line of input contains an integer s (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8999), Tavas's score. "
+b'Output'
+b"In the first and only line of output, print a single string consisting only from English lowercase letters and hyphens ('-'). Do not use spaces."
+Tags
+brute force, implementation, *1000

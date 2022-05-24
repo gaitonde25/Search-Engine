@@ -1,0 +1,12 @@
+b'The scientists have recently discovered wormholes\xc2\xa0\xe2\x80\x94 objects in space that allow to travel very long distances between galaxies and star systems. '
+b'The scientists know that there are n galaxies within reach. You are in the galaxy number 1 and you need to get to the galaxy number n. To get from galaxy i to galaxy j, you need to fly onto a wormhole (i,\xe2\x80\x89j) and in exactly one galaxy day you will find yourself in galaxy j. '
+b'Unfortunately, the required wormhole is not always available. Every galaxy day they disappear and appear at random. However, the state of wormholes does not change within one galaxy day. A wormhole from galaxy i to galaxy j exists during each galaxy day taken separately with probability pij. You can always find out what wormholes exist at the given moment. At each moment you can either travel to another galaxy through one of wormholes that exist at this moment or you can simply wait for one galaxy day to see which wormholes will lead from your current position at the next day.'
+b'Your task is to find the expected value of time needed to travel from galaxy 1 to galaxy n, if you act in the optimal way. It is guaranteed that this expected value exists.'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the number of galaxies within reach.'
+b'Then follows a matrix of n rows and n columns. Each element pij represents the probability that there is a wormhole from galaxy i to galaxy j. All the probabilities are given in percents and are integers. It is guaranteed that all the elements on the main diagonal are equal to 100.'
+b'Output'
+b'Print a single real value\xc2\xa0\xe2\x80\x94 the expected value of the time needed to travel from galaxy 1 to galaxy n if one acts in an optimal way. Your answer will be considered correct if its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x896. '
+b"Namely: let's assume that your answer is a, and the answer of the jury is b. The checker program will consider your answer correct, if ."
+Tags
+probabilities, shortest paths, *2700

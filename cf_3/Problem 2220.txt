@@ -1,0 +1,16 @@
+b'There is a river of width nn. The left bank of the river is cell 00 and the right bank is cell n+1n+1 (more formally, the river can be represented as a sequence of n+2n+2 cells numbered from 00 to n+1n+1). There are also mm wooden platforms on a river, the ii-th platform has length cici (so the ii-th platform takes cici consecutive cells of the river). It is guaranteed that the sum of lengths of platforms does not exceed nn.'
+b"You are standing at 00 and want to reach n+1n+1 somehow. If you are standing at the position xx, you can jump to any position in the range [x+1;x+d][x+1;x+d]. However you don't really like the water so you can jump only to such cells that belong to some wooden platform. For example, if d=1d=1, you can jump only to the next position (if it belongs to the wooden platform). You can assume that cells 00 and n+1n+1 belong to wooden platforms."
+b'You want to know if it is possible to reach n+1n+1 from 00 if you can move any platform to the left or to the right arbitrary number of times (possibly, zero) as long as they do not intersect each other (but two platforms can touch each other). It also means that you cannot change the relative order of platforms.'
+b'Note that you should move platforms until you start jumping (in other words, you first move the platforms and then start jumping).'
+b'For example, if n=7n=7, m=3m=3, d=2d=2 and c=[1,2,1]c=[1,2,1], then one of the ways to reach 88 from 00 is follow:'
+b'  The first example: n=7n=7. '
+b'Input'
+b'The first line of the input contains three integers nn, mm and dd (1\xe2\x89\xa4n,m,d\xe2\x89\xa41000,m\xe2\x89\xa4n1\xe2\x89\xa4n,m,d\xe2\x89\xa41000,m\xe2\x89\xa4n) \xe2\x80\x94 the width of the river, the number of platforms and the maximum distance of your jump, correspondingly.'
+b'The second line of the input contains mm integers c1,c2,\xe2\x80\xa6,cmc1,c2,\xe2\x80\xa6,cm (1\xe2\x89\xa4ci\xe2\x89\xa4n,\xe2\x88\x91i=1mci\xe2\x89\xa4n1\xe2\x89\xa4ci\xe2\x89\xa4n,\xe2\x88\x91i=1mci\xe2\x89\xa4n), where cici is the length of the ii-th platform.'
+b'Output'
+b'If it is impossible to reach n+1n+1 from 00, print NO in the first line. Otherwise, print YES in the first line and the array aa of length nn in the second line \xe2\x80\x94 the sequence of river cells (excluding cell 00 and cell n+1n+1).'
+b'If the cell ii does not belong to any platform, aiai should be 00. Otherwise, it should be equal to the index of the platform (11-indexed, platforms are numbered from 11 to mm in order of input) to which the cell ii belongs.'
+b'Note that all aiai equal to 11 should form a contiguous subsegment of the array aa of length c1c1, all aiai equal to 22 should form a contiguous subsegment of the array aa of length c2c2, ..., all aiai equal to mm should form a contiguous subsegment of the array aa of length cmcm. The leftmost position of 22 in aa should be greater than the rightmost position of 11, the leftmost position of 33 in aa should be greater than the rightmost position of 22, ..., the leftmost position of mm in aa should be greater than the rightmost position of m\xe2\x88\x921m\xe2\x88\x921.'
+b'See example outputs for better understanding.'
+Tags
+greedy, *1700

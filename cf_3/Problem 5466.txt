@@ -1,0 +1,13 @@
+b'Little Susie loves strings. Today she calculates distances between them. As Susie is a small girl after all, her strings contain only digits zero and one. She uses the definition of Hamming distance:'
+b"We will define the distance between two strings s and t of the same length consisting of digits zero and one as the number of positions i, such that si isn't equal to ti. "
+b'As besides everything else Susie loves symmetry, she wants to find for two strings s and t of length n such string p of length n, that the distance from p to s was equal to the distance from p to t.'
+b"It's time for Susie to go to bed, help her find such string p or state that it is impossible."
+b'Input'
+b'The first line contains string s of length n. '
+b'The second line contains string t of length n.'
+b'The length of string n is within range from 1 to 105. It is guaranteed that both strings contain only digits zero and one.'
+b'Output'
+b'Print a string of length n, consisting of digits zero and one, that meets the problem statement. If no such string exist, print on a single line "impossible" (without the quotes).'
+b'If there are multiple possible answers, print any of them.'
+Tags
+greedy, *1100

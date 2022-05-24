@@ -1,0 +1,9 @@
+b'InputThe input contains a single integer aa (1\xe2\x89\xa4a\xe2\x89\xa4991\xe2\x89\xa4a\xe2\x89\xa499).'
+b'OutputOutput "YES" or "NO".'
+b'ExamplesInputCopy5\nOutputCopyYES\nInputCopy13\nOutputCopyNO\nInputCopy24\nOutputCopyNO\nInputCopy46\nOutputCopyYES\n'
+b'Input'
+b'The input contains a single integer aa (1\xe2\x89\xa4a\xe2\x89\xa4991\xe2\x89\xa4a\xe2\x89\xa499).'
+b'Output'
+b'Output "YES" or "NO".'
+Tags
+brute force

@@ -1,0 +1,8 @@
+b'Kyoya Ootori is selling photobooks of the Ouran High School Host Club. He has 26 photos, labeled "a" to "z", and he has compiled them into a photo booklet with some photos in some order (possibly with some photos being duplicated). A photo booklet can be described as a string of lowercase letters, consisting of the photos in the booklet in order. He now wants to sell some "special edition" photobooks, each with one extra photo inserted anywhere in the book. He wants to make as many distinct photobooks as possible, so he can make more money. He asks Haruhi, how many distinct photobooks can he make by inserting one extra photo into the photobook he already has?'
+b'Please help Haruhi solve this problem.'
+b'Input'
+b'The first line of input will be a single string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8920). String s consists only of lowercase English letters. '
+b'Output'
+b'Output a single integer equal to the number of distinct photobooks Kyoya Ootori can make.'
+Tags
+brute force, math, strings, *900

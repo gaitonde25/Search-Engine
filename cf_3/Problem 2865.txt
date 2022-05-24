@@ -1,0 +1,12 @@
+b'You are a coach at your local university. There are nn students under your supervision, the programming skill of the ii-th student is aiai.'
+b'You have to form kk teams for yet another new programming competition. As you know, the more students are involved in competition the more probable the victory of your university is! So you have to form no more than kk (and at least one) non-empty teams so that the total number of students in them is maximized. But you also know that each team should be balanced. It means that the programming skill of each pair of students in each team should differ by no more than 55. Teams are independent from one another (it means that the difference between programming skills of two students from two different teams does not matter).'
+b'It is possible that some students not be included in any team at all.'
+b'Your task is to report the maximum possible total number of students in no more than kk (and at least one) non-empty balanced teams.'
+b'If you are Python programmer, consider using PyPy instead of Python when you submit your code.'
+b'Input'
+b'The first line of the input contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa45000) \xe2\x80\x94 the number of students and the maximum number of teams, correspondingly.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is a programming skill of the ii-th student.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum possible total number of students in no more than kk (and at least one) non-empty balanced teams.'
+Tags
+dp, sortings, two pointers, *1800

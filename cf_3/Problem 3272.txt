@@ -1,0 +1,9 @@
+b'Little C loves number \xc2\xab3\xc2\xbb very much. He loves all things about it.'
+b'Now he has a positive integer nn. He wants to split nn into 33 positive integers a,b,ca,b,c, such that a+b+c=na+b+c=n and none of the 33 integers is a multiple of 33. Help him to find a solution.'
+b'Input'
+b'A single line containing one integer nn (3\xe2\x89\xa4n\xe2\x89\xa41093\xe2\x89\xa4n\xe2\x89\xa4109) \xe2\x80\x94 the integer Little C has.'
+b'Output'
+b'Print 33 positive integers a,b,ca,b,c in a single line, such that a+b+c=na+b+c=n and none of them is a multiple of 33.'
+b'It can be proved that there is at least one solution. If there are multiple solutions, print any of them.'
+Tags
+math, *800

@@ -1,0 +1,16 @@
+b'AquaMoon has three integer arrays aa, bb, cc of length nn, where 1\xe2\x89\xa4ai,bi,ci\xe2\x89\xa4n1\xe2\x89\xa4ai,bi,ci\xe2\x89\xa4n for all ii.'
+b'In order to accelerate her potato farming, she organizes her farm in a manner based on these three arrays. She is now going to complete mm operations to count how many potatoes she can get. Each operation will have one of the two types:'
+b'  AquaMoon reorganizes their farm and makes the kk-th element of the array aa equal to xx. In other words, perform the assignment ak:=xak:=x.  Given a positive integer rr, AquaMoon receives a potato for each triplet (i,j,k)(i,j,k), such that 1\xe2\x89\xa4i<j<k\xe2\x89\xa4r1\xe2\x89\xa4i<j<k\xe2\x89\xa4r, and bai=aj=cakbai=aj=cak. Count the number of such triplets. '
+b'As AquaMoon is busy finding the library, help her complete all of their operations.'
+b'Input'
+b'The first line contains two integers nn, mm (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x851041\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x85104).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b'The third line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa4n1\xe2\x89\xa4bi\xe2\x89\xa4n).'
+b'The fourth line contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa4n1\xe2\x89\xa4ci\xe2\x89\xa4n).'
+b'The next mm lines describe operations, the ii-th line describes the ii-th operation in one of these two formats:'
+b'  "1\xc2\xa0k\xc2\xa0x1\xc2\xa0k\xc2\xa0x" (1\xe2\x89\xa4k,x\xe2\x89\xa4n1\xe2\x89\xa4k,x\xe2\x89\xa4n), representing an operation of the first type.  "2\xc2\xa0r2\xc2\xa0r" (1\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4r\xe2\x89\xa4n), representing an operation of the second type. '
+b'It is guaranteed that there is at least one operation of the second type.'
+b'Output'
+b'For each operation of the second type print the answer.'
+Tags
+brute force, data structures, dp, *3500

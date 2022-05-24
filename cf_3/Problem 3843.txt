@@ -1,0 +1,11 @@
+b'Imp is in a magic forest, where xorangles grow (wut?)'
+b'  '
+b'A xorangle of order n is such a non-degenerate triangle, that lengths of its sides are integers not exceeding n, and the xor-sum of the lengths is equal to zero. Imp has to count the number of distinct xorangles of order n to get out of the forest. '
+b'Formally, for a given integer n you have to find the number of such triples (a,\xe2\x80\x89b,\xe2\x80\x89c), that:'
+b'  1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n;  , where  denotes the bitwise xor of integers x and y.  (a,\xe2\x80\x89b,\xe2\x80\x89c) form a non-degenerate (with strictly positive area) triangle. '
+b'Input'
+b'The only line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892500).'
+b'Output'
+b'Print the number of xorangles of order n.'
+Tags
+brute force, *1300

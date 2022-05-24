@@ -1,0 +1,10 @@
+b'Ehab is interested in the bitwise-xor operation and the special graphs. Mahmoud gave him a problem that combines both. He has a complete graph consisting of n vertices numbered from 0 to n\xe2\x80\x89-\xe2\x80\x891. For all 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u\xe2\x80\x89<\xe2\x80\x89v\xe2\x80\x89<\xe2\x80\x89n, vertex u and vertex v are connected with an undirected edge that has weight  (where  is the bitwise-xor operation). Can you find the weight of the minimum spanning tree of that graph?'
+b'You can read about complete graphs in https://en.wikipedia.org/wiki/Complete_graph'
+b'You can read about the minimum spanning tree in https://en.wikipedia.org/wiki/Minimum_spanning_tree'
+b'The weight of the minimum spanning tree is the sum of the weights on the edges included in it.'
+b'Input'
+b'The only line contains an integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012), the number of vertices in the graph.'
+b'Output'
+b"The only line contains an integer x, the weight of the graph's minimum spanning tree."
+Tags
+bitmasks, dp, graphs, implementation, math, *1900

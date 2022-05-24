@@ -1,0 +1,12 @@
+b'It\'s Petya\'s birthday party and his friends have presented him a brand new "Electrician-nn" construction set, which they are sure he will enjoy as he always does with weird puzzles they give him.'
+b'Construction set "Electrician-nn" consists of 2n\xe2\x88\x9212n\xe2\x88\x921 wires and 2n2n light bulbs. Each bulb has its own unique index that is an integer from 11 to 2n2n, while all wires look the same and are indistinguishable. In order to complete this construction set one has to use each of the wires to connect two distinct bulbs. We define a chain in a completed construction set as a sequence of distinct bulbs of length at least two, such that every two consecutive bulbs in this sequence are directly connected by a wire. Completed construction set configuration is said to be correct if a resulting network of bulbs and wires has a tree structure, i.e. any two distinct bulbs are the endpoints of some chain.'
+b'Petya was assembling different configurations for several days, and he noticed that sometimes some of the bulbs turn on. After a series of experiments he came up with a conclusion that bulbs indexed 2i2i and 2i\xe2\x88\x9212i\xe2\x88\x921 turn on if the chain connecting them consists of exactly didi wires. Moreover, the following important condition holds: the value of didi is never greater than nn.'
+b'Petya did his best but was not able to find a configuration that makes all bulbs to turn on, so he seeks your assistance. Please, find out a configuration that makes all bulbs shine. It is guaranteed that such configuration always exists.'
+b'Input'
+b'The first line of the input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the parameter of a construction set that defines the number of bulbs and the number of wires.'
+b'Next line contains nn integers d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn (1\xe2\x89\xa4di\xe2\x89\xa4n1\xe2\x89\xa4di\xe2\x89\xa4n), where didi stands for the number of wires the chain between bulbs 2i2i and 2i\xe2\x88\x9212i\xe2\x88\x921 should consist of.'
+b'Output'
+b'Print 2n\xe2\x88\x9212n\xe2\x88\x921 lines. The ii-th of them should contain two distinct integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa42n1\xe2\x89\xa4ai,bi\xe2\x89\xa42n, ai\xe2\x89\xa0biai\xe2\x89\xa0bi)\xc2\xa0\xe2\x80\x94 indices of bulbs connected by a wire.'
+b'If there are several possible valid answer you can print any of them.'
+Tags
+constructive algorithms, graphs, math, sortings, trees, *2000

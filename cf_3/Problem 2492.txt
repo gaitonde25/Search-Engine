@@ -1,0 +1,12 @@
+b'The only difference between easy and hard versions is that you should complete all the projects in easy version but this is not necessary in hard version.'
+b'Polycarp is a very famous freelancer. His current rating is rr units.'
+b"Some very rich customers asked him to complete some projects for their companies. To complete the ii-th project, Polycarp needs to have at least aiai units of rating; after he completes this project, his rating will change by bibi (his rating will increase or decrease by bibi) (bibi can be positive or negative). Polycarp's rating should not fall below zero because then people won't trust such a low rated freelancer."
+b'Is it possible to complete all the projects? Formally, write a program to check if such an order of the projects exists, that Polycarp has enough rating before starting each project, and he has non-negative rating after completing each project.'
+b'In other words, you have to check that there exists such an order of projects in which Polycarp will complete them, so he has enough rating before starting each project, and has non-negative rating after completing each project.'
+b'Input'
+b'The first line of the input contains two integers nn and rr (1\xe2\x89\xa4n\xe2\x89\xa4100,1\xe2\x89\xa4r\xe2\x89\xa4300001\xe2\x89\xa4n\xe2\x89\xa4100,1\xe2\x89\xa4r\xe2\x89\xa430000) \xe2\x80\x94 the number of projects and the initial rating of Polycarp, respectively.'
+b'The next nn lines contain projects, one per line. The ii-th project is represented as a pair of integers aiai and bibi (1\xe2\x89\xa4ai\xe2\x89\xa4300001\xe2\x89\xa4ai\xe2\x89\xa430000, \xe2\x88\x92300\xe2\x89\xa4bi\xe2\x89\xa4300\xe2\x88\x92300\xe2\x89\xa4bi\xe2\x89\xa4300) \xe2\x80\x94 the rating required to complete the ii-th project and the rating change after the project completion.'
+b'Output'
+b'Print "YES" or "NO".'
+Tags
+greedy, *2100

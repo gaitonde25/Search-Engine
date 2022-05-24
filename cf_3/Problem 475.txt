@@ -1,0 +1,18 @@
+b'You are given two integer arrays of length NN, A1A1 and A2A2. You are also given QQ queries of 4 types: '
+b'1 k l r x: set Aki:=min(Aki,x)Aki:=min(Aki,x) for each l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r.'
+b'2 k l r x: set Aki:=max(Aki,x)Aki:=max(Aki,x) for each l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r.'
+b'3 k l r x: set Aki:=Aki+xAki:=Aki+x for each l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r.'
+b'4 l r: find the (\xe2\x88\x91ri=lF(A1i+A2i))%(109+7)(\xe2\x88\x91i=lrF(A1i+A2i))%(109+7) where F(k)F(k) is the kk-th Fibonacci number (F(0)=0,F(1)=1,F(k)=F(k\xe2\x88\x921)+F(k\xe2\x88\x922)F(0)=0,F(1)=1,F(k)=F(k\xe2\x88\x921)+F(k\xe2\x88\x922)), and x%yx%y denotes the remainder of the division of xx by yy.'
+b'You should process these queries and answer each query of the fourth type.'
+b'Input'
+b'The first line contains two integers NN and QQ. (1\xe2\x89\xa4N,Q\xe2\x89\xa45\xc3\x971041\xe2\x89\xa4N,Q\xe2\x89\xa45\xc3\x97104) '
+b'The second line contains NN integers, array A11,A12,\xe2\x80\xa6A1NA11,A12,\xe2\x80\xa6A1N. (0\xe2\x89\xa4A1i\xe2\x89\xa41060\xe2\x89\xa4A1i\xe2\x89\xa4106)'
+b'The third line contains NN integers, array A21,A22,\xe2\x80\xa6A2NA21,A22,\xe2\x80\xa6A2N. (0\xe2\x89\xa4A2i\xe2\x89\xa41060\xe2\x89\xa4A2i\xe2\x89\xa4106)'
+b'The next QQ lines describe the queries. Each line contains 5 or 3 integers, where the first integer denotes the type of the query. (k\xe2\x88\x88{1,2}k\xe2\x88\x88{1,2}, 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4N1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4N)'
+b'For queries of type 1 and 2, 0\xe2\x89\xa4x\xe2\x89\xa41090\xe2\x89\xa4x\xe2\x89\xa4109 holds.'
+b'For queries of type 3, \xe2\x88\x92106\xe2\x89\xa4x\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4x\xe2\x89\xa4106 holds.'
+b'It is guaranteed that after every query each number in arrays A1A1 and A2A2 will be nonnegative. '
+b'Output'
+b'Print the answer to each query of the fourth type, in separate lines. '
+Tags
+data structures, matrices, *3200

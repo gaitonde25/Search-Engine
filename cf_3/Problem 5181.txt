@@ -1,0 +1,8 @@
+b'Ayrat is looking for the perfect code. He decided to start his search from an infinite field tiled by hexagons. For convenience the coordinate system is introduced, take a look at the picture to see how the coordinates of hexagon are defined: '
+b'  Ayrat is searching through the field. He started at point (0,\xe2\x80\x890) and is moving along the spiral (see second picture). Sometimes he forgets where he is now. Help Ayrat determine his location after n moves.'
+b'Input'
+b"The only line of the input contains integer n (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018)\xc2\xa0\xe2\x80\x94 the number of Ayrat's moves."
+b'Output'
+b'Print two integers x and y\xc2\xa0\xe2\x80\x94 current coordinates of Ayrat coordinates.'
+Tags
+binary search, implementation, math, *2100

@@ -1,0 +1,11 @@
+b'You are given a string SS and an array of strings [t1,t2,\xe2\x80\xa6,tk][t1,t2,\xe2\x80\xa6,tk]. Each string titi consists of lowercase Latin letters from a to n; SS consists of lowercase Latin letters from a to n and no more than 1414 question marks.'
+b'Each string titi has its cost cici \xe2\x80\x94 an integer number. The value of some string TT is calculated as \xe2\x88\x91i=1kF(T,ti)\xe2\x8b\x85ci\xe2\x88\x91i=1kF(T,ti)\xe2\x8b\x85ci, where F(T,ti)F(T,ti) is the number of occurences of string titi in TT as a substring. For example, F(aaabaaa,aa)=4F(aaabaaa,aa)=4.'
+b'You have to replace all question marks in SS with pairwise distinct lowercase Latin letters from a to n so the value of SS is maximum possible.'
+b'Input'
+b'The first line contains one integer kk (1\xe2\x89\xa4k\xe2\x89\xa410001\xe2\x89\xa4k\xe2\x89\xa41000) \xe2\x80\x94 the number of strings in the array [t1,t2,\xe2\x80\xa6,tk][t1,t2,\xe2\x80\xa6,tk].'
+b'Then kk lines follow, each containing one string titi (consisting of lowercase Latin letters from a to n) and one integer cici (1\xe2\x89\xa4|ti|\xe2\x89\xa410001\xe2\x89\xa4|ti|\xe2\x89\xa41000, \xe2\x88\x92106\xe2\x89\xa4ci\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4ci\xe2\x89\xa4106). The sum of lengths of all strings titi does not exceed 10001000.'
+b'The last line contains one string SS (1\xe2\x89\xa4|S|\xe2\x89\xa44\xe2\x8b\x851051\xe2\x89\xa4|S|\xe2\x89\xa44\xe2\x8b\x85105) consisting of lowercase Latin letters from a to n and question marks. The number of question marks in SS is not greater than 1414.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum value of SS after replacing all question marks with pairwise distinct lowercase Latin letters from a to n.'
+Tags
+bitmasks, dp, string suffix structures, *2800

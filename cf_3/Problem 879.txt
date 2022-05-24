@@ -1,0 +1,14 @@
+b'Alice and Bob play a game. Alice has got nn treasure chests (the ii-th of which contains aiai coins) and mm keys (the jj-th of which she can sell Bob for bjbj coins).'
+b'Firstly, Alice puts some locks on the chests. There are mm types of locks, the locks of the jj-th type can only be opened with the jj-th key. To put a lock of type jj on the ii-th chest, Alice has to pay ci,jci,j dollars. Alice can put any number of different types of locks on each chest (possibly, zero).'
+b"Then, Bob buys some of the keys from Alice (possibly none, possibly all of them) and opens each chest he can (he can open a chest if he has the keys for all of the locks on this chest). Bob's profit is the difference between the total number of coins in the opened chests and the total number of coins he spends buying keys from Alice. If Bob's profit is strictly positive (greater than zero), he wins the game. Otherwise, Alice wins the game."
+b'Alice wants to put some locks on some chests so no matter which keys Bob buys, she always wins (Bob cannot get positive profit). Of course, she wants to spend the minimum possible number of dollars on buying the locks. Help her to determine whether she can win the game at all, and if she can, how many dollars she has to spend on the locks.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa461\xe2\x89\xa4n,m\xe2\x89\xa46)\xc2\xa0\xe2\x80\x94 the number of chests and the number of keys, respectively.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa441\xe2\x89\xa4ai\xe2\x89\xa44), where aiai is the number of coins in the ii-th chest.'
+b'The third line contains mm integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm (1\xe2\x89\xa4bj\xe2\x89\xa441\xe2\x89\xa4bj\xe2\x89\xa44), where bjbj is the number of coins Bob has to spend to buy the jj-th key from Alice.'
+b'Then nn lines follow. The ii-th of them contains mm integers ci,1,ci,2,\xe2\x80\xa6,ci,mci,1,ci,2,\xe2\x80\xa6,ci,m (1\xe2\x89\xa4ci,j\xe2\x89\xa41071\xe2\x89\xa4ci,j\xe2\x89\xa4107), where ci,jci,j is the number of dollars Alice has to spend to put a lock of the jj-th type on the ii-th chest.'
+b'Output'
+b'If Alice cannot ensure her victory (no matter which locks she puts on which chests, Bob always has a way to gain positive profit), print \xe2\x88\x921\xe2\x88\x921.'
+b"Otherwise, print one integer\xc2\xa0\xe2\x80\x94 the minimum number of dollars Alice has to spend to win the game regardless of Bob's actions."
+Tags
+bitmasks, brute force, dfs and similar, dp, flows, *3200

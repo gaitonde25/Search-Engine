@@ -1,0 +1,13 @@
+b'Eshag has an array aa consisting of nn integers.'
+b'Eshag can perform the following operation any number of times: choose some subsequence of aa and delete every element from it which is strictly larger than AVGAVG, where AVGAVG is the average of the numbers in the chosen subsequence.'
+b'For example, if a=[1,4,3,2,4]a=[1,4,3,2,4] and Eshag applies the operation to the subsequence containing a1a1, a2a2, a4a4 and a5a5, then he will delete those of these 44 elements which are larger than a1+a2+a4+a54=114a1+a2+a4+a54=114, so after the operation, the array aa will become a=[1,3,2]a=[1,3,2].'
+b'Your task is to find the maximum number of elements Eshag can delete from the array aa by applying the operation described above some number (maybe, zero) times.'
+b'A sequence bb is a subsequence of an array cc if bb can be obtained from cc by deletion of several (possibly, zero or all) elements.'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa4100)(1\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa4100)(1\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the length of the array aa.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4100)(1\xe2\x89\xa4ai\xe2\x89\xa4100) \xe2\x80\x94 the elements of the array aa.'
+b'Output'
+b'For each test case print a single integer \xe2\x80\x94 the maximum number of elements Eshag can delete from the array aa.'
+Tags
+constructive algorithms, greedy, math, *800

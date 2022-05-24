@@ -1,0 +1,8 @@
+b"There are nn cities and mm bidirectional roads in the country. The roads in the country form an undirected weighted graph. The graph is not guaranteed to be connected. Each road has it's own parameter ww. You can travel through the roads, but the government made a new law: you can only go through two roads at a time (go from city aa to city bb and then from city bb to city cc) and you will have to pay (wab+wbc)2(wab+wbc)2 money to go through those roads. Find out whether it is possible to travel from city 11 to every other city tt and what's the minimum amount of money you need to get from 11 to tt."
+b'Input'
+b'First line contains two integers nn, mm (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4m\xe2\x89\xa4min(n\xe2\x8b\x85(n\xe2\x88\x921)2,2\xe2\x8b\x85105)1\xe2\x89\xa4m\xe2\x89\xa4min(n\xe2\x8b\x85(n\xe2\x88\x921)2,2\xe2\x8b\x85105)).'
+b"Next mm lines each contain three integers vivi, uiui, wiwi (1\xe2\x89\xa4vi,ui\xe2\x89\xa4n1\xe2\x89\xa4vi,ui\xe2\x89\xa4n, 1\xe2\x89\xa4wi\xe2\x89\xa4501\xe2\x89\xa4wi\xe2\x89\xa450, ui\xe2\x89\xa0viui\xe2\x89\xa0vi). It's guaranteed that there are no multiple edges, i.e. for any edge (ui,vi)(ui,vi) there are no other edges (ui,vi)(ui,vi) or (vi,ui)(vi,ui)."
+b'Output'
+b'For every city tt print one integer. If there is no correct path between 11 and tt output \xe2\x88\x921\xe2\x88\x921. Otherwise print out the minimum amount of money needed to travel from 11 to tt.'
+Tags
+binary search, brute force, constructive algorithms, dp, flows, graphs, shortest paths, *2200

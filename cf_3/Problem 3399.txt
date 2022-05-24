@@ -1,0 +1,12 @@
+b'A group of researchers are studying fish population in a natural system of lakes and rivers. The system contains nn lakes connected by n\xe2\x88\x921n\xe2\x88\x921 rivers. Each river has integer length (in kilometers) and can be traversed in both directions. It is possible to travel between any pair of lakes by traversing the rivers (that is, the network of lakes and rivers form a tree).'
+b'There is an unknown number of indistinguishable fish living in the lakes. On day 11, fish can be at arbitrary lakes. Fish can travel between lakes by swimming the rivers. Each fish can swim a river ll kilometers long in any direction in ll days. Further, each fish can stay any number of days in any particular lake it visits. No fish ever appear or disappear from the lake system. Each lake can accomodate any number of fish at any time.'
+b'The researchers made several observations. The jj-th of these observations is "on day djdj there were at least fjfj distinct fish in the lake pjpj". Help the researchers in determining the smallest possible total number of fish living in the lake system that doesn\'t contradict the observations.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of lakes in the system.'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines describe the rivers. The ii-th of these lines contains three integers uiui, vivi, lili (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi, 1\xe2\x89\xa4li\xe2\x89\xa41031\xe2\x89\xa4li\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 11-based indices of lakes connected by the ii-th river, and the length of this river.'
+b'The next line contains a single integer kk (1\xe2\x89\xa4k\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of observations.'
+b'The next kk lines describe the observations. The jj-th of these lines contains three integers djdj, fjfj, pjpj (1\xe2\x89\xa4dj\xe2\x89\xa41081\xe2\x89\xa4dj\xe2\x89\xa4108, 1\xe2\x89\xa4fj\xe2\x89\xa41041\xe2\x89\xa4fj\xe2\x89\xa4104, 1\xe2\x89\xa4pj\xe2\x89\xa4n1\xe2\x89\xa4pj\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the day, the number of fish, and the lake index of the jj-th observation. No two observations happen on the same day at the same lake simultaneously.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the smallest total number of fish not contradicting the observations.'
+Tags
+data structures, flows, trees, *3400

@@ -1,0 +1,9 @@
+b'Vasya has recently got a job as a cashier at a local store. His day at work is LL minutes long. Vasya has already memorized nn regular customers, the ii-th of which comes after titi minutes after the beginning of the day, and his service consumes lili minutes. It is guaranteed that no customer will arrive while Vasya is servicing another customer. '
+b'Vasya is a bit lazy, so he likes taking smoke breaks for aa minutes each. Those breaks may go one after another, but Vasya must be present at work during all the time periods he must serve regular customers, otherwise one of them may alert his boss. What is the maximum number of breaks Vasya can take during the day?'
+b'Input'
+b'The first line contains three integers nn, LL and aa (0\xe2\x89\xa4n\xe2\x89\xa41050\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4L\xe2\x89\xa41091\xe2\x89\xa4L\xe2\x89\xa4109, 1\xe2\x89\xa4a\xe2\x89\xa4L1\xe2\x89\xa4a\xe2\x89\xa4L).'
+b'The ii-th of the next nn lines contains two integers titi and lili (0\xe2\x89\xa4ti\xe2\x89\xa4L\xe2\x88\x9210\xe2\x89\xa4ti\xe2\x89\xa4L\xe2\x88\x921, 1\xe2\x89\xa4li\xe2\x89\xa4L1\xe2\x89\xa4li\xe2\x89\xa4L). It is guaranteed that ti+li\xe2\x89\xa4ti+1ti+li\xe2\x89\xa4ti+1 and tn+ln\xe2\x89\xa4Ltn+ln\xe2\x89\xa4L.'
+b'Output'
+b'Output one integer \xc2\xa0\xe2\x80\x94 the maximum number of breaks.'
+Tags
+implementation, *1000

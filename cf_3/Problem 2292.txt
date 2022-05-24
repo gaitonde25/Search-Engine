@@ -1,0 +1,10 @@
+b'You are given a sequence a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an consisting of nn integers.'
+b'You may perform the following operation on this sequence: choose any element and either increase or decrease it by one.'
+b'Calculate the minimum possible difference between the maximum element and the minimum element in the sequence, if you can perform the aforementioned operation no more than kk times.'
+b'Input'
+b'The first line contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa4105,1\xe2\x89\xa4k\xe2\x89\xa41014)(2\xe2\x89\xa4n\xe2\x89\xa4105,1\xe2\x89\xa4k\xe2\x89\xa41014) \xe2\x80\x94 the number of elements in the sequence and the maximum number of times you can perform the operation, respectively.'
+b'The second line contains a sequence of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4109)(1\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'Output'
+b'Print the minimum possible difference between the maximum element and the minimum element in the sequence, if you can perform the aforementioned operation no more than kk times.'
+Tags
+binary search, constructive algorithms, greedy, sortings, ternary search, two pointers, *2000

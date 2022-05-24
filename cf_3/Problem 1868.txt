@@ -1,0 +1,9 @@
+b'InputThe input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.'
+b'OutputOutput "YES" or "NO".'
+b'ExamplesInputCopyGENIUS\nOutputCopyYES\nInputCopyDOCTOR\nOutputCopyNO\nInputCopyIRENE\nOutputCopyYES\nInputCopyMARY\nOutputCopyNO\nInputCopySMARTPHONE\nOutputCopyNO\nInputCopyREVOLVER\nOutputCopyYES\nInputCopyHOLMES\nOutputCopyNO\nInputCopyWATSON\nOutputCopyYES\n'
+b'Input'
+b'The input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.'
+b'Output'
+b'Output "YES" or "NO".'
+Tags
+*special problem, brute force, dp, strings

@@ -1,0 +1,16 @@
+b'A new pack of n t-shirts came to a shop. Each of the t-shirts is characterized by three integers pi, ai and bi, where pi is the price of the i-th t-shirt, ai is front color of the i-th t-shirt and bi is back color of the i-th t-shirt. All values pi are distinct, and values ai and bi are integers from 1 to 3.'
+b'm buyers will come to the shop. Each of them wants to buy exactly one t-shirt. For the j-th buyer we know his favorite color cj.'
+b"A buyer agrees to buy a t-shirt, if at least one side (front or back) is painted in his favorite color. Among all t-shirts that have colors acceptable to this buyer he will choose the cheapest one. If there are no such t-shirts, the buyer won't buy anything. Assume that the buyers come one by one, and each buyer is served only after the previous one is served."
+b'You are to compute the prices each buyer will pay for t-shirts.'
+b'Input'
+b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of t-shirts.'
+b'The following line contains sequence of integers p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000\xe2\x80\x89000), where pi equals to the price of the i-th t-shirt.'
+b'The following line contains sequence of integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893), where ai equals to the front color of the i-th t-shirt.'
+b'The following line contains sequence of integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893), where bi equals to the back color of the i-th t-shirt.'
+b'The next line contains single integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of buyers. '
+b'The following line contains sequence c1,\xe2\x80\x89c2,\xe2\x80\x89...,\xe2\x80\x89cm (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893), where cj equals to the favorite color of the j-th buyer. The buyers will come to the shop in the order they are given in the input. Each buyer is served only after the previous one is served.'
+b' '
+b'Output'
+b"Print to the first line m integers \xe2\x80\x94 the j-th integer should be equal to the price of the t-shirt which the j-th buyer will buy. If the j-th buyer won't buy anything, print -1."
+Tags
+data structures, implementation, *1400

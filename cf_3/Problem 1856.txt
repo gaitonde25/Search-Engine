@@ -1,0 +1,11 @@
+b'Eugene likes working with arrays. And today he needs your help in solving one challenging task.'
+b'An array cc is a subarray of an array bb if cc can be obtained from bb by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b"Let's call a nonempty array good if for every nonempty subarray of this array, sum of the elements of this subarray is nonzero. For example, array [\xe2\x88\x921,2,\xe2\x88\x923][\xe2\x88\x921,2,\xe2\x88\x923] is good, as all arrays [\xe2\x88\x921][\xe2\x88\x921], [\xe2\x88\x921,2][\xe2\x88\x921,2], [\xe2\x88\x921,2,\xe2\x88\x923][\xe2\x88\x921,2,\xe2\x88\x923], [2][2], [2,\xe2\x88\x923][2,\xe2\x88\x923], [\xe2\x88\x923][\xe2\x88\x923] have nonzero sums of elements. However, array [\xe2\x88\x921,2,\xe2\x88\x921,\xe2\x88\x923][\xe2\x88\x921,2,\xe2\x88\x921,\xe2\x88\x923] isn't good, as his subarray [\xe2\x88\x921,2,\xe2\x88\x921][\xe2\x88\x921,2,\xe2\x88\x921] has sum of elements equal to 00."
+b'Help Eugene to calculate the number of nonempty good subarrays of a given array aa.'
+b'Input'
+b'The first line of the input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xc3\x971051\xe2\x89\xa4n\xe2\x89\xa42\xc3\x97105) \xc2\xa0\xe2\x80\x94 the length of array aa.'
+b'The second line of the input contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 the elements of aa. '
+b'Output'
+b'Output a single integer \xc2\xa0\xe2\x80\x94 the number of good subarrays of aa.'
+Tags
+binary search, data structures, implementation, two pointers, *1700

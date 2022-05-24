@@ -1,0 +1,13 @@
+b'Ujan has finally cleaned up his house and now wants to decorate the interior. He decided to place a beautiful carpet that would really tie the guest room together.'
+b'He is interested in carpets that are made up of polygonal patches such that each side of a patch is either a side of another (different) patch, or is an exterior side of the whole carpet. In other words, the carpet can be represented as a planar graph, where each patch corresponds to a face of the graph, each face is a simple polygon. The perimeter of the carpet is the number of the exterior sides. '
+b'Ujan considers a carpet beautiful if it consists of ff patches, where the ii-th patch has exactly aiai sides, and the perimeter is the smallest possible. Find an example of such a carpet, so that Ujan can order it!'
+b'Input'
+b'The first line of input contains a single integer ff (1\xe2\x89\xa4f\xe2\x89\xa41051\xe2\x89\xa4f\xe2\x89\xa4105), the number of patches in the carpet. '
+b'The next line contains ff integers a1,\xe2\x80\xa6,afa1,\xe2\x80\xa6,af (3\xe2\x89\xa4ai\xe2\x89\xa43\xe2\x8b\x851053\xe2\x89\xa4ai\xe2\x89\xa43\xe2\x8b\x85105), the number of sides of the patches. The total number of the sides of the patches a1+\xe2\x80\xa6+afa1+\xe2\x80\xa6+af does not exceed 3\xe2\x8b\x851053\xe2\x8b\x85105.'
+b'Output'
+b'Output the description of the carpet as a graph. '
+b'First, output a single integer nn (3\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105), the total number of vertices in your graph (the vertices must be numbered from 11 to nn). '
+b'Then output ff lines containing the description of the faces. The ii-th line should describe the ii-th face and contain aiai distinct integers vi,1,\xe2\x80\xa6,vi,aivi,1,\xe2\x80\xa6,vi,ai (1\xe2\x89\xa4vi,j\xe2\x89\xa4n1\xe2\x89\xa4vi,j\xe2\x89\xa4n), which means that the vertices vi,jvi,j and vi,(jmodai)+1vi,(jmodai)+1 are connected by an edge for any 1\xe2\x89\xa4j\xe2\x89\xa4ai1\xe2\x89\xa4j\xe2\x89\xa4ai.'
+b'The graph should be planar and satisfy the restrictions described in the problem statement. Its perimeter should be the smallest possible. There should be no double edges or self-loops in the graph. The graph should be connected. Note that a solution always exists; if there are multiple solutions, output any of them.'
+Tags
+constructive algorithms, graphs, *3200

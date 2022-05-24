@@ -1,0 +1,16 @@
+b'A permutation of length kk is a sequence of kk integers from 11 to kk containing each integer exactly once. For example, the sequence [3,1,2][3,1,2] is a permutation of length 33.'
+b'When Neko was five, he thought of an array aa of nn positive integers and a permutation pp of length n\xe2\x88\x921n\xe2\x88\x921. Then, he performed the following:'
+b'  Constructed an array bb of length n\xe2\x88\x921n\xe2\x88\x921, where bi=min(ai,ai+1)bi=min(ai,ai+1).  Constructed an array cc of length n\xe2\x88\x921n\xe2\x88\x921, where ci=max(ai,ai+1)ci=max(ai,ai+1).  Constructed an array b\xe2\x80\xb2b\xe2\x80\xb2 of length n\xe2\x88\x921n\xe2\x88\x921, where b\xe2\x80\xb2i=bpibi\xe2\x80\xb2=bpi.  Constructed an array c\xe2\x80\xb2c\xe2\x80\xb2 of length n\xe2\x88\x921n\xe2\x88\x921, where c\xe2\x80\xb2i=cpici\xe2\x80\xb2=cpi. '
+b'For example, if the array aa was [3,4,6,5,7][3,4,6,5,7] and permutation pp was [2,4,1,3][2,4,1,3], then Neko would have constructed the following arrays:'
+b'  b=[3,4,5,5]b=[3,4,5,5]  c=[4,6,6,7]c=[4,6,6,7]  b\xe2\x80\xb2=[4,5,3,5]b\xe2\x80\xb2=[4,5,3,5]  c\xe2\x80\xb2=[6,7,4,6]c\xe2\x80\xb2=[6,7,4,6] '
+b"Then, he wrote two arrays b\xe2\x80\xb2b\xe2\x80\xb2 and c\xe2\x80\xb2c\xe2\x80\xb2 on a piece of paper and forgot about it. 14 years later, when he was cleaning up his room, he discovered this old piece of paper with two arrays b\xe2\x80\xb2b\xe2\x80\xb2 and c\xe2\x80\xb2c\xe2\x80\xb2 written on it. However he can't remember the array aa and permutation pp he used."
+b'In case Neko made a mistake and there is no array aa and permutation pp resulting in such b\xe2\x80\xb2b\xe2\x80\xb2 and c\xe2\x80\xb2c\xe2\x80\xb2, print -1. Otherwise, help him recover any possible array aa. '
+b'Input'
+b'The first line contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of elements in array aa.'
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers b\xe2\x80\xb21,b\xe2\x80\xb22,\xe2\x80\xa6,b\xe2\x80\xb2n\xe2\x88\x921b1\xe2\x80\xb2,b2\xe2\x80\xb2,\xe2\x80\xa6,bn\xe2\x88\x921\xe2\x80\xb2 (1\xe2\x89\xa4b\xe2\x80\xb2i\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x80\xb2\xe2\x89\xa4109).'
+b'The third line contains n\xe2\x88\x921n\xe2\x88\x921 integers c\xe2\x80\xb21,c\xe2\x80\xb22,\xe2\x80\xa6,c\xe2\x80\xb2n\xe2\x88\x921c1\xe2\x80\xb2,c2\xe2\x80\xb2,\xe2\x80\xa6,cn\xe2\x88\x921\xe2\x80\xb2 (1\xe2\x89\xa4c\xe2\x80\xb2i\xe2\x89\xa41091\xe2\x89\xa4ci\xe2\x80\xb2\xe2\x89\xa4109).'
+b'Output'
+b'If Neko made a mistake and there is no array aa and a permutation pp leading to the b\xe2\x80\xb2b\xe2\x80\xb2 and c\xe2\x80\xb2c\xe2\x80\xb2, print -1. Otherwise, print nn positive integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), denoting the elements of the array aa.'
+b'If there are multiple possible solutions, print any of them. '
+Tags
+constructive algorithms, dfs and similar, graphs, *2400

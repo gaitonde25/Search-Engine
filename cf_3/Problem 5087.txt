@@ -1,0 +1,10 @@
+b"Blake is the boss of Kris, however, this doesn't spoil their friendship. They often gather at the bar to talk about intriguing problems about maximising some values. This time the problem is really special."
+b"You are given an array a of length n. The characteristic of this array is the value \xc2\xa0\xe2\x80\x94 the sum of the products of the values ai by i. One may perform the following operation exactly once: pick some element of the array and move to any position. In particular, it's allowed to move the element to the beginning or to the end of the array. Also, it's allowed to put it back to the initial position. The goal is to get the array with the maximum possible value of characteristic."
+b'  '
+b'Input'
+b'The first line of the input contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the size of the array a.'
+b'The second line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, |ai|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the elements of the array a.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the maximum possible value of characteristic of a that can be obtained by performing no more than one move.'
+Tags
+data structures, dp, geometry, *2600

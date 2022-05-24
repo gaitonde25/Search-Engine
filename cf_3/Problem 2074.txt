@@ -1,0 +1,13 @@
+b'This problem is different with hard version only by constraints on total answers length'
+b'It is an interactive problem'
+b'Venya joined a tour to the madhouse, in which orderlies play with patients the following game. Orderlies pick a string ss of length nn, consisting only of lowercase English letters. The player can ask two types of queries: '
+b'  ? l r \xe2\x80\x93 ask to list all substrings of s[l..r]s[l..r]. Substrings will be returned in random order, and in every substring, all characters will be randomly shuffled.  ! s \xe2\x80\x93 guess the string picked by the orderlies. This query can be asked exactly once, after that the game will finish. If the string is guessed correctly, the player wins, otherwise he loses. '
+b'The player can ask no more than 33 queries of the first type.'
+b'To make it easier for the orderlies, there is an additional limitation: the total number of returned substrings in all queries of the first type must not exceed (n+1)2(n+1)2.'
+b"Venya asked you to write a program, which will guess the string by interacting with the orderlies' program and acting by the game's rules."
+b'Your program should immediately terminate after guessing the string using a query of the second type. In case your program guessed the string incorrectly, or it violated the game rules, it will receive verdict Wrong answer.'
+b'Note that in every test case the string is fixed beforehand and will not change during the game, which means that the interactor is not adaptive.'
+b'Input'
+b'First line contains number nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the length of the picked string.'
+Tags
+brute force, constructive algorithms, interactive, math, *2400

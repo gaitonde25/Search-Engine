@@ -1,0 +1,12 @@
+b'Marcin is a coach in his university. There are nn students who want to attend a training camp. Marcin is a smart coach, so he wants to send only the students that can work calmly with each other.'
+b"Let's focus on the students. They are indexed with integers from 11 to nn. Each of them can be described with two integers aiai and bibi; bibi is equal to the skill level of the ii-th student (the higher, the better). Also, there are 6060 known algorithms, which are numbered with integers from 00 to 5959. If the ii-th student knows the jj-th algorithm, then the jj-th bit (2j2j) is set in the binary representation of aiai. Otherwise, this bit is not set."
+b"Student xx thinks that he is better than student yy if and only if xx knows some algorithm which yy doesn't know. Note that two students can think that they are better than each other. A group of students can work together calmly if no student in this group thinks that he is better than everyone else in this group."
+b'Marcin wants to send a group of at least two students which will work together calmly and will have the maximum possible sum of the skill levels. What is this sum?'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa470001\xe2\x89\xa4n\xe2\x89\xa47000) \xe2\x80\x94 the number of students interested in the camp.'
+b'The second line contains nn integers. The ii-th of them is aiai (0\xe2\x89\xa4ai<2600\xe2\x89\xa4ai<260).'
+b'The third line contains nn integers. The ii-th of them is bibi (1\xe2\x89\xa4bi\xe2\x89\xa41091\xe2\x89\xa4bi\xe2\x89\xa4109).'
+b'Output'
+b'Output one integer which denotes the maximum sum of bibi over the students in a group of students which can work together calmly. If no group of at least two students can work together calmly, print 0.'
+Tags
+brute force, greedy, *1700

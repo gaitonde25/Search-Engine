@@ -1,0 +1,15 @@
+b'For the New Year, Polycarp decided to send postcards to all his nn friends. He wants to make postcards with his own hands. For this purpose, he has a sheet of paper of size w\xc3\x97hw\xc3\x97h, which can be cut into pieces.'
+b'Polycarp can cut any sheet of paper w\xc3\x97hw\xc3\x97h that he has in only two cases: '
+b'  If ww is even, then he can cut the sheet in half and get two sheets of size w2\xc3\x97hw2\xc3\x97h;  If hh is even, then he can cut the sheet in half and get two sheets of size w\xc3\x97h2w\xc3\x97h2; '
+b'If ww and hh are even at the same time, then Polycarp can cut the sheet according to any of the rules above.'
+b'After cutting a sheet of paper, the total number of sheets of paper is increased by 11.'
+b'Help Polycarp to find out if he can cut his sheet of size w\xc3\x97hw\xc3\x97h at into nn or more pieces, using only the rules described above.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'Each test case consists of one line containing three integers ww, hh, nn (1\xe2\x89\xa4w,h\xe2\x89\xa4104,1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4w,h\xe2\x89\xa4104,1\xe2\x89\xa4n\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the width and height of the sheet Polycarp has and the number of friends he needs to send a postcard to.'
+b'Output'
+b'For each test case, output on a separate line: '
+b'  "YES", if it is possible to cut a sheet of size w\xc3\x97hw\xc3\x97h into at least nn pieces;  "NO" otherwise. '
+b'You can output "YES" and "NO" in any case (for example, the strings yEs, yes, Yes and YES will be recognized as positive).'
+Tags
+greedy, math, *800

@@ -1,0 +1,14 @@
+b"Gildong is playing with his dog, Badugi. They're at a park that has nn intersections and n\xe2\x88\x921n\xe2\x88\x921 bidirectional roads, each 11 meter in length and connecting two intersections with each other. The intersections are numbered from 11 to nn, and for every aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n), it is possible to get to the bb-th intersection from the aa-th intersection using some set of roads."
+b'Gildong has put one snack at every intersection of the park. Now Gildong will give Badugi a mission to eat all of the snacks. Badugi starts at the 11-st intersection, and he will move by the following rules:'
+b"  Badugi looks for snacks that are as close to him as possible. Here, the distance is the length of the shortest path from Badugi's current location to the intersection with the snack. However, Badugi's sense of smell is limited to kk meters, so he can only find snacks that are less than or equal to kk meters away from himself. If he cannot find any such snack, he fails the mission.  Among all the snacks that Badugi can smell from his current location, he chooses a snack that minimizes the distance he needs to travel from his current intersection. If there are multiple such snacks, Badugi will choose one arbitrarily.  He repeats this process until he eats all nn snacks. After that, he has to find the 11-st intersection again which also must be less than or equal to kk meters away from the last snack he just ate. If he manages to find it, he completes the mission. Otherwise, he fails the mission. "
+b"Unfortunately, Gildong doesn't know the value of kk. So, he wants you to find the minimum value of kk that makes it possible for Badugi to complete his mission, if Badugi moves optimally."
+b'Input'
+b'Each test contains one or more test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104).'
+b'The first line of each test case contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of intersections of the park.'
+b'The next n\xe2\x88\x921n\xe2\x88\x921 lines contain two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v) each, which means there is a road between intersection uu and vv. All roads are bidirectional and distinct.'
+b'It is guaranteed that: '
+b"  For each test case, for every aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n), it is possible to get to the bb-th intersection from the aa-th intersection.  The sum of nn in all test cases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105. "
+b'Output'
+b'For each test case, print one integer \xe2\x80\x94 the minimum possible value of kk such that Badugi can complete the mission.'
+Tags
+binary search, dfs and similar, dp, greedy, trees, *2300

@@ -1,0 +1,9 @@
+b'On the board, Bob wrote nn positive integers in base 1010 with sum ss (i.\xc2\xa0e. in decimal numeral system). Alice sees the board, but accidentally interprets the numbers on the board as base-1111 integers and adds them up (in base 1111).'
+b"What numbers should Bob write on the board, so Alice's sum is as large as possible?"
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The only line of each test case contains two integers ss and nn (1\xe2\x89\xa4s\xe2\x89\xa41091\xe2\x89\xa4s\xe2\x89\xa4109; 1\xe2\x89\xa4n\xe2\x89\xa4min(100,s)1\xe2\x89\xa4n\xe2\x89\xa4min(100,s))\xc2\xa0\xe2\x80\x94 the sum and amount of numbers on the board, respectively. Numbers ss and nn are given in decimal notation (base 1010).'
+b'Output'
+b"For each test case, output nn positive integers\xc2\xa0\xe2\x80\x94 the numbers Bob should write on the board, so Alice's sum is as large as possible. If there are multiple answers, print any of them."
+Tags
+constructive algorithms, greedy, implementation, math, *2000

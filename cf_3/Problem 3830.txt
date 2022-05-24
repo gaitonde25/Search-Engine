@@ -1,0 +1,10 @@
+b"Arkady decides to observe a river for n consecutive days. The river's water level on each day is equal to some real value."
+b'Arkady goes to the riverside each day and makes a mark on the side of the channel at the height of the water level, but if it coincides with a mark made before, no new mark is created. The water does not wash the marks away. Arkady writes down the number of marks strictly above the water level each day, on the i-th day this value is equal to mi.'
+b'Define di as the number of marks strictly under the water level on the i-th day. You are to find out the minimum possible sum of di over all days. There are no marks on the channel before the first day.'
+b'Input'
+b'The first line contains a single positive integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of days.'
+b'The second line contains n space-separated integers m1,\xe2\x80\x89m2,\xe2\x80\x89...,\xe2\x80\x89mn (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89mi\xe2\x80\x89<\xe2\x80\x89i)\xc2\xa0\xe2\x80\x94 the number of marks strictly above the water on each day.'
+b'Output'
+b'Output one single integer\xc2\xa0\xe2\x80\x94 the minimum possible sum of the number of marks strictly below the water level among all days.'
+Tags
+data structures, dp, greedy, *1700

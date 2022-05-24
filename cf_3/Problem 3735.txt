@@ -1,0 +1,13 @@
+b'It is never too late to play the fancy "Binary Cards" game!'
+b'There is an infinite amount of cards of positive and negative ranks that are used in the game. The absolute value of any card rank is a power of two, i.e. each card has a rank of either 2k or \xe2\x80\x89-\xe2\x80\x892k for some integer k\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x890. There is an infinite amount of cards of any valid rank.'
+b'At the beginning of the game player forms his deck that is some multiset (possibly empty) of cards. It is allowed to pick any number of cards of any rank but the small deck is considered to be a skill indicator. Game consists of n rounds. In the i-th round jury tells the player an integer ai. After that the player is obligated to draw such a subset of his deck that the sum of ranks of the chosen cards is equal to ai (it is allowed to not draw any cards, in which case the sum is considered to be equal to zero). If player fails to do so, he loses and the game is over. Otherwise, player takes back all of his cards into his deck and the game proceeds to the next round. Player is considered a winner if he is able to draw the suitable set of cards in each of the rounds.'
+b'Somebody told you which numbers ai the jury is going to tell you in each round. Now you want to pick a deck consisting of the minimum number of cards that allows you to win the "Binary Cards" game.'
+b'Input'
+b'The first line of input contains an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), the number of rounds in the game.'
+b'The second line of input contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (\xe2\x80\x89-\xe2\x80\x89100\xe2\x80\x89000\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), the numbers that jury is going to tell in each round.'
+b'Output'
+b'In the first line print the integer k (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), the minimum number of cards you have to pick in your deck in ordered to win the "Binary Cards".'
+b'In the second line print k integers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bk (\xe2\x80\x89-\xe2\x80\x89220\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89220, |bi| is a power of two), the ranks of the cards in your deck. You may output ranks in any order. If there are several optimum decks, you are allowed to print any of them.'
+b'It is guaranteed that there exists a deck of minimum size satisfying all the requirements above.'
+Tags
+brute force, *2700

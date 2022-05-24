@@ -1,0 +1,10 @@
+b'Consider a set of points AA, initially it is empty. There are three types of queries: '
+b'  Insert a point (xi,yi)(xi,yi) to AA. It is guaranteed that this point does not belong to AA at this moment.  Remove a point (xi,yi)(xi,yi) from AA. It is guaranteed that this point belongs to AA at this moment.  Given a point (xi,yi)(xi,yi), calculate the minimum number of points required to add to AA to make AA symmetrical with respect to the line containing points (0,0)(0,0) and (xi,yi)(xi,yi). Note that these points are not actually added to AA, i.e. these queries are independent from each other. '
+b'Input'
+b'The first line contains a single integer qq (1\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of queries.'
+b'Each of the following qq lines describes a query and contains three integers titi, xixi and yiyi (ti\xe2\x88\x88{1,2,3}ti\xe2\x88\x88{1,2,3}, 1\xe2\x89\xa4xi,yi\xe2\x89\xa41129041\xe2\x89\xa4xi,yi\xe2\x89\xa4112904) \xe2\x80\x94 the type of the query and the coordinates of the point. Type 11 is addition of the point, type 22 is removal of the point, type 33 is the query to compute the minimum number of points required to make AA symmetrical. '
+b'It is guaranteed that there are no more than 105105 queries of type 33 and no more than 105105 queries having type 11 or 22.'
+b'Output'
+b'For each query of the third type output a line with a single integer \xe2\x80\x94 the answer to this query.'
+Tags
+brute force, *2900

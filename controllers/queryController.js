@@ -1,0 +1,143 @@
+const fs = require("fs");
+const keyword_extractor = require("keyword-extractor");
+const Prob = require("../models/prob");
+
+function find_prob(id) {
+  return Prob.findOne({
+    id: id,
+  });
+}
+
+const search = async (req, res) => {
+  let query = req.body.query;
+  query = query.toLowerCase();
+  // console.log(" Query", query);
+  if (query.length == 0) {
+    res.redirect("./");
+  }
+
+  let keywords = fs.readFileSync("./Keywords.txt", "utf8").split("\n");
+
+  // extract keywords from the query
+  let qkwords = keyword_extractor.extract(query, {
+    language: "english",
+    remove_digits: true,
+    return_changed_case: true,
+    remove_duplicates: false,
+  });
+
+  // sort the query keywords
+  qkwords = qkwords.sort();
+
+  let qarr = []; // arr to store tf vector for query
+  const size = keywords.length;
+
+  // loop over all the keywords
+  for (let j = 0; j < size; j++) {
+    const start = qkwords.findIndex((element) => {
+      return element == keywords[j];
+    });
+    let count;
+    if (start == -1) {
+      count = 0;
+    } else {
+      let end = qkwords.findIndex((element) => {
+        return element > keywords[j];
+      });
+      if (end == -1) end = qkwords.length;
+      count = end - start;
+    }
+    qarr.push(count / qkwords.length);
+  }
+
+  let idfArr = fs.readFileSync("./idfArray.txt", "utf8").split("\n");
+
+  // transform tf vector for query to tf-idf vector and also calculate magnitude of it
+  let Mag = 0;
+  for (let i = 0; i < qarr.length; i++) {
+    qarr[i] = qarr[i] * idfArr[i];
+    Mag += qarr[i] * qarr[i];
+  }
+  Mag = Math.sqrt(Mag);
+
+  let tfidfArr = fs.readFileSync("./tf-idfMatrix.txt", "utf8").split("\n");
+  const n = Number(tfidfArr[0].split(" ")[0]);
+  const k = Number(tfidfArr[0].split(" ")[1]);
+
+  // Create and fill tfIdfMatrix with 0
+  let tfIdfMatrix = [];
+
+  for (let i = 0; i < n; i++) {
+    let tempArr = [];
+    for (let j = 0; j < k; j++) {
+      tempArr.push(0);
+    }
+    tfIdfMatrix.push(tempArr);
+  }
+
+  for (let i = 1; i < tfidfArr.length; i++) {
+    let temp = tfidfArr[i].split(" ");
+    let ii = Number(temp[0]),
+      jj = Number(temp[1]),
+      val = Number(temp[2]);
+    tfIdfMatrix[ii][jj] = val;
+  }
+
+  // read magnitudes
+  let prob_mag = fs.readFileSync("./Magnitude.txt", "utf8").split("\n");
+
+  // create similarity array
+  let similarity = [];
+  for (let i = 0; i < n; i++) {
+    let dot_p = 0;
+    for (let j = 0; j < k; j++) {
+      dot_p += tfIdfMatrix[i][j] * qarr[j];
+    }
+    similarity.push([i + 1, dot_p / (Mag * prob_mag[i])]);
+  }
+
+  // sort the similarity array
+  similarity = similarity.sort((a, b) => {
+    return b[1] - a[1];
+  });
+
+  let top10prob = [];
+  for (let i = 0; i < 10; i++) {
+    let prob_ind = similarity[i][0];
+    prob_mg = await find_prob(prob_ind - 1);
+
+    let prob_text = fs.readFileSync(`./cf_3/Problem ${prob_ind}.txt`, "utf8");
+    let prob_name = prob_mg.name;
+    const prob_url = prob_mg.url;
+    //let prob_name = fs.readFileSync(`./Problem_names.txt`, "utf8").split("\n");
+    // const prob_url = fs.readFileSync(`./Problem_urls.txt`, "utf8").split("\n");
+
+    // remove b' ' from the name
+    // prob_name = prob_name[prob_ind - 1];
+    prob_name = prob_name.slice(2, prob_name.length - 2);
+    // get snippet from prob_text
+    // prob_text = prob_text.split("\n")[0];
+    prob_text = prob_text.slice(2, prob_text.length - 1);
+    if (typeof prob_text != undefined) {
+      if (prob_text.length > 100) {
+        prob_text = prob_text.slice(0, 100);
+      }
+    }
+    prob_text += "...";
+
+    let prob = {
+      name: prob_name,
+      url: prob_url,
+      snippet: prob_text,
+    };
+    top10prob.push(prob);
+    // console.log(" Name - ", prob_name[prob_ind - 1]);
+    // console.log(" URL - ", prob_url[prob_ind - 1]);
+    // console.log(prob_text);
+  }
+
+  res.render("index", { title: "Noodle", top10prob });
+};
+module.exports = {
+  search,
+};

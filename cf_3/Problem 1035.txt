@@ -1,0 +1,15 @@
+b'There is a trampoline park with nn trampolines in a line. The ii-th of which has strength SiSi.'
+b'Pekora can jump on trampolines in multiple passes. She starts the pass by jumping on any trampoline of her choice. '
+b'If at the moment Pekora jumps on trampoline ii, the trampoline will launch her to position i+Sii+Si, and SiSi will become equal to max(Si\xe2\x88\x921,1)max(Si\xe2\x88\x921,1). In other words, SiSi will decrease by 11, except of the case Si=1Si=1, when SiSi will remain equal to 11. '
+b'If there is no trampoline in position i+Sii+Si, then this pass is over. Otherwise, Pekora will continue the pass by jumping from the trampoline at position i+Sii+Si by the same rule as above.'
+b"Pekora can't stop jumping during the pass until she lands at the position larger than nn (in which there is no trampoline). Poor Pekora!"
+b'Pekora is a naughty rabbit and wants to ruin the trampoline park by reducing all SiSi to 11. What is the minimum number of passes she needs to reduce all SiSi to 11?'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45001\xe2\x89\xa4t\xe2\x89\xa4500) \xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa450001\xe2\x89\xa4n\xe2\x89\xa45000) \xe2\x80\x94 the number of trampolines.'
+b'The second line of each test case contains nn integers S1,S2,\xe2\x80\xa6,SnS1,S2,\xe2\x80\xa6,Sn (1\xe2\x89\xa4Si\xe2\x89\xa41091\xe2\x89\xa4Si\xe2\x89\xa4109), where SiSi is the strength of the ii-th trampoline.'
+b"It's guaranteed that the sum of nn over all test cases doesn't exceed 50005000."
+b'Output'
+b'For each test case, output a single integer \xe2\x80\x94 the minimum number of passes Pekora needs to do to reduce all SiSi to 11.'
+Tags
+brute force, data structures, dp, greedy, implementation, *1700

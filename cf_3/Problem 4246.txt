@@ -1,0 +1,13 @@
+b'  '
+b"Slastyona likes to watch life of nearby grove's dwellers. This time she watches a strange red-black spider sitting at the center of a huge cobweb."
+b'The cobweb is a set of n nodes connected by threads, each of the treads is either red of black. Using these threads, the spider can move between nodes. No thread connects a node to itself, and between any two nodes there is a unique sequence of threads connecting them.'
+b'Slastyona decided to study some special qualities of the cobweb. She noticed that each of the threads has a value of clamminess x.'
+b'However, Slastyona is mostly interested in jelliness of the cobweb. Consider those of the shortest paths between each pair of nodes on which the numbers of red and black threads differ at most twice. For each such path compute the product of the clamminess of threads on the path.The jelliness of the cobweb is the product of all obtained values among all paths. Those paths that differ by direction only are counted only once.'
+b'Of course, this number can be huge, so Slastyona asks you to compute the jelliness of the given cobweb and print the answer modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'The first line contains the number of nodes n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'The next n\xe2\x80\x89-\xe2\x80\x891 lines contain four integers each, denoting the i-th thread of the cobweb: the nodes it connects ui,\xe2\x80\x89vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), the clamminess of the thread xi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x896), and the color of the thread ci (). The red color is denoted by 0, and the black color is denoted by 1. '
+b'Output'
+b'Print single integer the jelliness of the cobweb modulo 109\xe2\x80\x89+\xe2\x80\x897. If there are no paths such that the numbers of red and black threads differ at most twice, print 1.'
+Tags
+data structures, divide and conquer, implementation, trees, *2800

@@ -1,0 +1,11 @@
+b'Andi and Budi were given an assignment to tidy up their bookshelf of nn books. Each book is represented by the book title \xe2\x80\x94 a string sisi numbered from 11 to nn, each with length mm. Andi really wants to sort the book lexicographically ascending, while Budi wants to sort it lexicographically descending.'
+b'Settling their fight, they decided to combine their idea and sort it asc-desc-endingly, where the odd-indexed characters will be compared ascendingly, and the even-indexed characters will be compared descendingly.'
+b'A string aa occurs before a string bb in asc-desc-ending order if and only if in the first position where aa and bb differ, the following holds:'
+b'  if it is an odd position, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb;  if it is an even position, the string aa has a letter that appears later in the alphabet than the corresponding letter in bb. '
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x8b\x85m\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x8b\x85m\xe2\x89\xa4106).'
+b'The ii-th of the next nn lines contains a string sisi consisting of mm uppercase Latin letters \xe2\x80\x94 the book title. The strings are pairwise distinct.'
+b'Output'
+b'Output nn integers \xe2\x80\x94 the indices of the strings after they are sorted asc-desc-endingly.'
+Tags
+data structures, sortings, strings, *1100

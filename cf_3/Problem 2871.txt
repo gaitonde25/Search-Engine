@@ -1,0 +1,9 @@
+b'You are given a string ss of length nn consisting of lowercase Latin letters. You may apply some operations to this string: in one operation you can delete some contiguous substring of this string, if all letters in the substring you delete are equal. For example, after deleting substring bbbb from string abbbbaccdd we get the string aaccdd.'
+b'Calculate the minimum number of operations to delete the whole string ss.'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa45001\xe2\x89\xa4n\xe2\x89\xa4500) \xe2\x80\x94 the length of string ss.'
+b'The second line contains the string ss (|s|=n|s|=n) consisting of lowercase Latin letters.'
+b'Output'
+b'Output a single integer \xe2\x80\x94 the minimal number of operation to delete string ss.'
+Tags
+dp, *2000

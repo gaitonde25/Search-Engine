@@ -1,0 +1,9 @@
+b'This is an interactive problem.'
+b'Vasya and Petya are going to play the following game: Petya has some positive integer number aa. After that Vasya should guess this number using the following questions. He can say a pair of non-negative integer numbers (x,y)(x,y). Petya will answer him: '
+b'  "x", if (xmoda)\xe2\x89\xa5(ymoda)(xmoda)\xe2\x89\xa5(ymoda).  "y", if (xmoda)<(ymoda)(xmoda)<(ymoda). '
+b'We define (xmoda)(xmoda) as a remainder of division xx by aa.'
+b'Vasya should guess the number aa using no more, than 60 questions.'
+b"It's guaranteed that Petya has a number, that satisfies the inequality 1\xe2\x89\xa4a\xe2\x89\xa41091\xe2\x89\xa4a\xe2\x89\xa4109."
+b'Help Vasya playing this game and write a program, that will guess the number aa.'
+Tags
+binary search, constructive algorithms, interactive, *2000

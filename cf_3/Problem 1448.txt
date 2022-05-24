@@ -1,0 +1,13 @@
+b'There are nn robbers at coordinates (a1,b1)(a1,b1), (a2,b2)(a2,b2), ..., (an,bn)(an,bn) and mm searchlight at coordinates (c1,d1)(c1,d1), (c2,d2)(c2,d2), ..., (cm,dm)(cm,dm). '
+b"In one move you can move each robber to the right (increase aiai of each robber by one) or move each robber up (increase bibi of each robber by one). Note that you should either increase all aiai or all bibi, you can't increase aiai for some points and bibi for some other points."
+b'Searchlight jj can see a robber ii if ai\xe2\x89\xa4cjai\xe2\x89\xa4cj and bi\xe2\x89\xa4djbi\xe2\x89\xa4dj. '
+b'A configuration of robbers is safe if no searchlight can see a robber (i.e. if there is no pair i,ji,j such that searchlight jj can see a robber ii).'
+b'What is the minimum number of moves you need to perform to reach a safe configuration?'
+b'Input'
+b'The first line of input contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa420001\xe2\x89\xa4n,m\xe2\x89\xa42000): the number of robbers and the number of searchlight.'
+b'Each of the next nn lines contains two integers aiai, bibi (0\xe2\x89\xa4ai,bi\xe2\x89\xa41060\xe2\x89\xa4ai,bi\xe2\x89\xa4106), coordinates of robbers.'
+b'Each of the next mm lines contains two integers cici, didi (0\xe2\x89\xa4ci,di\xe2\x89\xa41060\xe2\x89\xa4ci,di\xe2\x89\xa4106), coordinates of searchlights.'
+b'Output'
+b'Print one integer: the minimum number of moves you need to perform to reach a safe configuration.'
+Tags
+binary search, brute force, data structures, dp, implementation, sortings, two pointers, *2000

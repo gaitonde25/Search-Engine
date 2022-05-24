@@ -1,0 +1,10 @@
+b'This is an unusual problem in an unusual contest, here is the announcement: http://codeforces.com/blog/entry/73543'
+b'Find the distance between vertices 11 and nn in an undirected weighted graph.'
+b'Input'
+b'The first line contains two integers n,mn,m (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of vertices and the number of edges.'
+b'Each of the next mm lines contain description of an edge ai\xc2\xa0bi\xc2\xa0costiai\xc2\xa0bi\xc2\xa0costi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n, 1\xe2\x89\xa4costi\xe2\x89\xa41091\xe2\x89\xa4costi\xe2\x89\xa4109).'
+b'Loops and multiple edges? Hmm, why not?'
+b'Output'
+b'Print one integer \xe2\x80\x94 the answer to the problem. If there is no path, print \xe2\x88\x921\xe2\x88\x921 instead.'
+Tags
+

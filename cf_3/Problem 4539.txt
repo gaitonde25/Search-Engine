@@ -1,0 +1,14 @@
+b"If you have gone that far, you'll probably skip unnecessary legends anyway..."
+b'You are given a binary string  and an integer . Find the number of integers k, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89<\xe2\x80\x89N, such that for all i\xe2\x80\x89=\xe2\x80\x890, 1, ..., m\xe2\x80\x89-\xe2\x80\x891 '
+b''
+b' Print the answer modulo '
+b'109\xe2\x80\x89+\xe2\x80\x897'
+b'.'
+b'Input'
+b"In the first line of input there is a string s consisting of 0's and 1's (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8940)."
+b'In the next line of input there is an integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7105).'
+b'Each of the next n lines contains two space-separated integers pi, \xce\xb1i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi,\xe2\x80\x89\xce\xb1i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, pi is prime). All pi are distinct.'
+b'Output'
+b'A single integer\xc2\xa0\xe2\x80\x94 the answer to the problem.'
+Tags
+brute force, dp, math, meet-in-the-middle, number theory, *3200

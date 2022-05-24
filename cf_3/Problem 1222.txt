@@ -1,0 +1,12 @@
+b'There is a game called "Unique Bid Auction". You can read more about it here: https://en.wikipedia.org/wiki/Unique_bid_auction (though you don\'t have to do it to solve this problem).'
+b"Let's simplify this game a bit. Formally, there are nn participants, the ii-th participant chose the number aiai. The winner of the game is such a participant that the number he chose is unique (i.\xc2\xa0e. nobody else chose this number except him) and is minimal (i.\xc2\xa0e. among all unique values of aa the minimum one is the winning one)."
+b'Your task is to find the index of the participant who won the game (or -1 if there is no winner). Indexing is 11-based, i.\xc2\xa0e. the participants are numbered from 11 to nn.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of participants. The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n), where aiai is the ii-th participant chosen number.'
+b'It is guaranteed that the sum of nn does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 the index of the participant who won the game (or -1 if there is no winner). Note that the answer is always unique.'
+Tags
+implementation, *800

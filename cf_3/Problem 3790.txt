@@ -1,0 +1,15 @@
+b'You are given a node of the tree with index 1 and with weight 0. Let cnt be the number of nodes in the tree at any instant (initially, cnt is set to 1). Support Q queries of following two types:'
+b'   Add a new node (index cnt\xe2\x80\x89+\xe2\x80\x891) with weight W and add edge between node R and this node.   Output the maximum length of sequence of nodes which   starts with R.  Every node in the sequence is an ancestor of its predecessor.  Sum of weight of nodes in sequence does not exceed X.  For some nodes i,\xe2\x80\x89j that are consecutive in the sequence if i is an ancestor of j then w[i]\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x89w[j] and there should not exist a node k on simple path from i to j such that w[k]\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x89w[j]  '
+b'The tree is rooted at node 1 at any instant.'
+b'Note that the queries are given in a modified way.'
+b'Input'
+b'First line containing the number of queries Q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89Q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89400000).'
+b'Let last be the answer for previous query of type 2 (initially last equals 0).'
+b'Each of the next Q lines contains a query of following form: '
+b'  1 p q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018): This is query of first type where  and . It is guaranteed that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89R\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cnt and 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89W\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109.  2 p q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018): This is query of second type where  and . It is guaranteed that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89R\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cnt and 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89X\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891015. '
+b' denotes bitwise XOR of a and b.'
+b'It is guaranteed that at least one query of type 2 exists.'
+b'Output'
+b'Output the answer to each query of second type in separate line.'
+Tags
+binary search, dp, trees, *2200

@@ -1,0 +1,12 @@
+b'Bees Alice and Alesya gave beekeeper Polina famous card game "Set" as a Christmas present. The deck consists of cards that vary in four features across three options for each kind of feature: number of shapes, shape, shading, and color. In this game, some combinations of three cards are said to make up a set. For every feature \xe2\x80\x94 color, number, shape, and shading \xe2\x80\x94 the three cards must display that feature as either all the same, or pairwise different. The picture below shows how sets look.'
+b''
+b'Polina came up with a new game called "Hyperset". In her game, there are nn cards with kk features, each feature has three possible values: "S", "E", or "T". The original "Set" game can be viewed as "Hyperset" with k=4k=4.'
+b'Similarly to the original game, three cards form a set, if all features are the same for all cards or are pairwise different. The goal of the game is to compute the number of ways to choose three cards that form a set.'
+b"Unfortunately, winter holidays have come to an end, and it's time for Polina to go to school. Help Polina find the number of sets among the cards lying on the table."
+b'Input'
+b'The first line of each test contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa415001\xe2\x89\xa4n\xe2\x89\xa41500, 1\xe2\x89\xa4k\xe2\x89\xa4301\xe2\x89\xa4k\xe2\x89\xa430)\xc2\xa0\xe2\x80\x94 number of cards and number of features.'
+b'Each of the following nn lines contains a card description: a string consisting of kk letters "S", "E", "T". The ii-th character of this string decribes the ii-th feature of that card. All cards are distinct.'
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the number of ways to choose three cards that form a set.'
+Tags
+brute force, data structures, implementation, *1500

@@ -1,0 +1,11 @@
+b'You are given three integers x,yx,y and nn. Your task is to find the maximum integer kk such that 0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n that kmodx=ykmodx=y, where modmod is modulo operation. Many programming languages use percent operator % to implement it.'
+b'In other words, with given x,yx,y and nn you need to find the maximum possible integer from 00 to nn that has the remainder yy modulo xx.'
+b'You have to answer tt independent test cases. It is guaranteed that such kk exists for each test case.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. The next tt lines contain test cases.'
+b'The only line of the test case contains three integers x,yx,y and nn (2\xe2\x89\xa4x\xe2\x89\xa4109;\xc2\xa00\xe2\x89\xa4y<x;\xc2\xa0y\xe2\x89\xa4n\xe2\x89\xa41092\xe2\x89\xa4x\xe2\x89\xa4109;\xc2\xa00\xe2\x89\xa4y<x;\xc2\xa0y\xe2\x89\xa4n\xe2\x89\xa4109).'
+b'It can be shown that such kk always exists under the given constraints.'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 maximum non-negative integer kk such that 0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n and kmodx=ykmodx=y. It is guaranteed that the answer always exists.'
+Tags
+math, *800

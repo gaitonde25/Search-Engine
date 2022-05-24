@@ -1,0 +1,13 @@
+b'Ayush and Ashish play a game on an unrooted tree consisting of nn nodes numbered 11 to nn. Players make the following move in turns: '
+b'  Select any leaf node in the tree and remove it together with any edge which has this node as one of its endpoints. A leaf node is a node with degree less than or equal to 11. '
+b'A tree is a connected undirected graph without cycles.'
+b'There is a special node numbered xx. The player who removes this node wins the game. '
+b'Ayush moves first. Determine the winner of the game if each player plays optimally.'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410)(1\xe2\x89\xa4t\xe2\x89\xa410)\xc2\xa0\xe2\x80\x94 the number of testcases. The description of the test cases follows.'
+b'The first line of each testcase contains two integers nn and xx (1\xe2\x89\xa4n\xe2\x89\xa41000,1\xe2\x89\xa4x\xe2\x89\xa4n)(1\xe2\x89\xa4n\xe2\x89\xa41000,1\xe2\x89\xa4x\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the number of nodes in the tree and the special node respectively.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contain two integers uu, vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n,\xc2\xa0u\xe2\x89\xa0v)(1\xe2\x89\xa4u,v\xe2\x89\xa4n,\xc2\xa0u\xe2\x89\xa0v), meaning that there is an edge between nodes uu and vv in the tree.'
+b'Output'
+b'For every test case, if Ayush wins the game, print "Ayush", otherwise print "Ashish" (without quotes).'
+Tags
+games, trees, *1600

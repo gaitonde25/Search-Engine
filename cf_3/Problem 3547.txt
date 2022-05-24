@@ -1,0 +1,11 @@
+b'There are two small spaceship, surrounded by two groups of enemy larger spaceships. The space is a two-dimensional plane, and one group of the enemy spaceships is positioned in such a way that they all have integer yy-coordinates, and their xx-coordinate is equal to \xe2\x88\x92100\xe2\x88\x92100, while the second group is positioned in such a way that they all have integer yy-coordinates, and their xx-coordinate is equal to 100100.'
+b"Each spaceship in both groups will simultaneously shoot two laser shots (infinite ray that destroys any spaceship it touches), one towards each of the small spaceships, all at the same time. The small spaceships will be able to avoid all the laser shots, and now want to position themselves at some locations with x=0x=0 (with not necessarily integer yy-coordinates), such that the rays shot at them would destroy as many of the enemy spaceships as possible. Find the largest numbers of spaceships that can be destroyed this way, assuming that the enemy spaceships can't avoid laser shots."
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa4601\xe2\x89\xa4n,m\xe2\x89\xa460), the number of enemy spaceships with x=\xe2\x88\x92100x=\xe2\x88\x92100 and the number of enemy spaceships with x=100x=100, respectively.'
+b'The second line contains nn integers y1,1,y1,2,\xe2\x80\xa6,y1,ny1,1,y1,2,\xe2\x80\xa6,y1,n (|y1,i|\xe2\x89\xa410000|y1,i|\xe2\x89\xa410000) \xe2\x80\x94 the yy-coordinates of the spaceships in the first group.'
+b'The third line contains mm integers y2,1,y2,2,\xe2\x80\xa6,y2,my2,1,y2,2,\xe2\x80\xa6,y2,m (|y2,i|\xe2\x89\xa410000|y2,i|\xe2\x89\xa410000) \xe2\x80\x94 the yy-coordinates of the spaceships in the second group.'
+b'The yy coordinates are not guaranteed to be unique, even within a group.'
+b'Output'
+b'Print a single integer \xe2\x80\x93 the largest number of enemy spaceships that can be destroyed.'
+Tags
+bitmasks, brute force, geometry, *2100

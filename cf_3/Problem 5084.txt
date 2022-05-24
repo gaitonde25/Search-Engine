@@ -1,0 +1,9 @@
+b"You're given a list of n strings a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an. You'd like to concatenate them together in some order such that the resulting string would be lexicographically smallest."
+b'Given the list of strings, output the lexicographically smallest concatenation.'
+b'Input'
+b'The first line contains integer n \xe2\x80\x94 the number of strings (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7104).'
+b'Each of the next n lines contains one string ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|ai|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950) consisting of only lowercase English letters. The sum of string lengths will not exceed 5\xc2\xb7104.'
+b'Output'
+b'Print the only string a \xe2\x80\x94 the lexicographically smallest string concatenation.'
+Tags
+sortings, strings, *1700

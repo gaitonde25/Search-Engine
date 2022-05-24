@@ -1,0 +1,13 @@
+b"Two positive integers are coprime if and only if they don't have a common divisor greater than 1."
+b"Some bear doesn't want to tell Radewoosh how to solve some algorithmic problem. So, Radewoosh is going to break into that bear's safe with solutions. To pass through the door, he must enter a permutation of numbers 1 through n. The door opens if and only if an entered permutation p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pn satisfies:"
+b''
+b'In other words, two different elements are coprime if and only if their indices are coprime. '
+b'Some elements of a permutation may be already fixed. In how many ways can Radewoosh fill the remaining gaps so that the door will open? Print the answer modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'Input'
+b'The first line of the input contains one integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000).'
+b'The second line contains n integers p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pn (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) where pi\xe2\x80\x89=\xe2\x80\x890 means a gap to fill, and pi\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x891 means a fixed number.'
+b"It's guaranteed that if i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89j and pi,\xe2\x80\x89pj\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x891 then pi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89pj."
+b'Output'
+b'Print the number of ways to fill the gaps modulo 109\xe2\x80\x89+\xe2\x80\x897 (i.e. modulo 1000000007).'
+Tags
+combinatorics, number theory, *3000

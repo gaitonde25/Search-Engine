@@ -1,0 +1,11 @@
+b'Alice got tired of playing the tag game by the usual rules so she offered Bob a little modification to it. Now the game should be played on an undirected rooted tree of n vertices. Vertex 1 is the root of the tree.'
+b'Alice starts at vertex 1 and Bob starts at vertex x (x\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x891). The moves are made in turns, Bob goes first. In one move one can either stay at the current vertex or travel to the neighbouring one.'
+b'The game ends when Alice goes to the same vertex where Bob is standing. Alice wants to minimize the total number of moves and Bob wants to maximize it.'
+b'You should write a program which will determine how many moves will the game last.'
+b'Input'
+b'The first line contains two integer numbers n and x (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Each of the next n\xe2\x80\x89-\xe2\x80\x891 lines contains two integer numbers a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 edges of the tree. It is guaranteed that the edges form a valid tree.'
+b'Output'
+b'Print the total number of moves Alice and Bob will make.'
+Tags
+dfs and similar, graphs, *1700

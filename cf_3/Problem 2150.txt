@@ -1,0 +1,16 @@
+b'A new delivery of clothing has arrived today to the clothing store. This delivery consists of aa ties, bb scarves, cc vests and dd jackets.'
+b'The store does not sell single clothing items \xe2\x80\x94 instead, it sells suits of two types:'
+b'  a suit of the first type consists of one tie and one jacket;  a suit of the second type consists of one scarf, one vest and one jacket. '
+b'Each suit of the first type costs ee coins, and each suit of the second type costs ff coins.'
+b'Calculate the maximum possible cost of a set of suits that can be composed from the delivered clothing items. Note that one item cannot be used in more than one suit (though some items may be left unused).'
+b'Input'
+b'The first line contains one integer aa (1\xe2\x89\xa4a\xe2\x89\xa4100000)(1\xe2\x89\xa4a\xe2\x89\xa4100000) \xe2\x80\x94 the number of ties.'
+b'The second line contains one integer bb (1\xe2\x89\xa4b\xe2\x89\xa4100000)(1\xe2\x89\xa4b\xe2\x89\xa4100000) \xe2\x80\x94 the number of scarves.'
+b'The third line contains one integer cc (1\xe2\x89\xa4c\xe2\x89\xa4100000)(1\xe2\x89\xa4c\xe2\x89\xa4100000) \xe2\x80\x94 the number of vests.'
+b'The fourth line contains one integer dd (1\xe2\x89\xa4d\xe2\x89\xa4100000)(1\xe2\x89\xa4d\xe2\x89\xa4100000) \xe2\x80\x94 the number of jackets.'
+b'The fifth line contains one integer ee (1\xe2\x89\xa4e\xe2\x89\xa41000)(1\xe2\x89\xa4e\xe2\x89\xa41000) \xe2\x80\x94 the cost of one suit of the first type.'
+b'The sixth line contains one integer ff (1\xe2\x89\xa4f\xe2\x89\xa41000)(1\xe2\x89\xa4f\xe2\x89\xa41000) \xe2\x80\x94 the cost of one suit of the second type.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum total cost of some set of suits that can be composed from the delivered items. '
+Tags
+brute force, greedy, math, *800

@@ -1,0 +1,12 @@
+b'You are given a non-decreasing array of non-negative integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Also you are given a positive integer kk.'
+b'You want to find mm non-decreasing arrays of non-negative integers b1,b2,\xe2\x80\xa6,bmb1,b2,\xe2\x80\xa6,bm, such that:'
+b'  The size of bibi is equal to nn for all 1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m.  For all 1\xe2\x89\xa4j\xe2\x89\xa4n1\xe2\x89\xa4j\xe2\x89\xa4n, aj=b1,j+b2,j+\xe2\x80\xa6+bm,jaj=b1,j+b2,j+\xe2\x80\xa6+bm,j. In the other word, array aa is the sum of arrays bibi.  The number of different elements in the array bibi is at most kk for all 1\xe2\x89\xa4i\xe2\x89\xa4m1\xe2\x89\xa4i\xe2\x89\xa4m. '
+b'Find the minimum possible value of mm, or report that there is no possible mm.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100): the number of test cases.'
+b'The first line of each test case contains two integers nn, kk (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x80\xa6\xe2\x89\xa4an\xe2\x89\xa41000\xe2\x89\xa4a1\xe2\x89\xa4a2\xe2\x89\xa4\xe2\x80\xa6\xe2\x89\xa4an\xe2\x89\xa4100, an>0an>0).'
+b'Output'
+b'For each test case print a single integer: the minimum possible value of mm. If there is no such mm, print \xe2\x88\x921\xe2\x88\x921.'
+Tags
+constructive algorithms, greedy, math, *1400

@@ -1,0 +1,12 @@
+b"The new academic year has started, and Berland's university has nn first-year students. They are divided into kk academic groups, however, some of the groups might be empty. Among the students, there are mm pairs of acquaintances, and each acquaintance pair might be both in a common group or be in two different groups."
+b'Alice is the curator of the first years, she wants to host an entertaining game to make everyone know each other. To do that, she will select two different academic groups and then divide the students of those groups into two teams. The game requires that there are no acquaintance pairs inside each of the teams.'
+b"Alice wonders how many pairs of groups she can select, such that it'll be possible to play a game after that. All students of the two selected groups must take part in the game."
+b"Please note, that the teams Alice will form for the game don't need to coincide with groups the students learn in. Moreover, teams may have different sizes (or even be empty)."
+b'Input'
+b'The first line contains three integers nn, mm and kk (1\xe2\x89\xa4n\xe2\x89\xa45000001\xe2\x89\xa4n\xe2\x89\xa4500000; 0\xe2\x89\xa4m\xe2\x89\xa45000000\xe2\x89\xa4m\xe2\x89\xa4500000; 2\xe2\x89\xa4k\xe2\x89\xa45000002\xe2\x89\xa4k\xe2\x89\xa4500000)\xc2\xa0\xe2\x80\x94 the number of students, the number of pairs of acquaintances and the number of groups respectively.'
+b'The second line contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa4k1\xe2\x89\xa4ci\xe2\x89\xa4k), where cici equals to the group number of the ii-th student.'
+b"Next mm lines follow. The ii-th of them contains two integers aiai and bibi (1\xe2\x89\xa4ai,bi\xe2\x89\xa4n1\xe2\x89\xa4ai,bi\xe2\x89\xa4n), denoting that students aiai and bibi are acquaintances. It's guaranteed, that ai\xe2\x89\xa0biai\xe2\x89\xa0bi, and that no (unordered) pair is mentioned more than once."
+b'Output'
+b"Print a single integer\xc2\xa0\xe2\x80\x94 the number of ways to choose two different groups such that it's possible to select two teams to play the game."
+Tags
+data structures, dfs and similar, dsu, graphs, *2500

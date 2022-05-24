@@ -1,0 +1,13 @@
+b'Tokitsukaze has a permutation pp. She performed the following operation to pp exactly kk times: in one operation, for each ii from 11 to n\xe2\x88\x921n\xe2\x88\x921 in order, if pipi > pi+1pi+1, swap pipi, pi+1pi+1. After exactly kk times of operations, Tokitsukaze got a new sequence aa, obviously the sequence aa is also a permutation.'
+b'After that, Tokitsukaze wrote down the value sequence vv of aa on paper. Denote the value sequence vv of the permutation aa of length nn as vi=\xe2\x88\x91i\xe2\x88\x921j=1[ai<aj]vi=\xe2\x88\x91j=1i\xe2\x88\x921[ai<aj], where the value of [ai<aj][ai<aj] define as if ai<ajai<aj, the value is 11, otherwise is 00 (in other words, vivi is equal to the number of elements greater than aiai that are to the left of position ii). Then Tokitsukaze went out to work.'
+b"There are three naughty cats in Tokitsukaze's house. When she came home, she found the paper with the value sequence vv to be bitten out by the cats, leaving several holes, so that the value of some positions could not be seen clearly. She forgot what the original permutation pp was. She wants to know how many different permutations pp there are, so that the value sequence vv of the new permutation aa after exactly kk operations is the same as the vv written on the paper (not taking into account the unclear positions)."
+b'Since the answer may be too large, print it modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases. Each test case consists of two lines.'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106; 0\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9210\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x921)\xc2\xa0\xe2\x80\x94 the length of the permutation and the exactly number of operations.'
+b"The second line contains nn integers v1,v2,\xe2\x80\xa6,vnv1,v2,\xe2\x80\xa6,vn (\xe2\x88\x921\xe2\x89\xa4vi\xe2\x89\xa4i\xe2\x88\x921\xe2\x88\x921\xe2\x89\xa4vi\xe2\x89\xa4i\xe2\x88\x921)\xc2\xa0\xe2\x80\x94 the value sequence vv. vi=\xe2\x88\x921vi=\xe2\x88\x921 means the ii-th position of vv can't be seen clearly."
+b'It is guaranteed that the sum of nn over all test cases does not exceed 106106.'
+b'Output'
+b'For each test case, print a single integer\xc2\xa0\xe2\x80\x94 the number of different permutations modulo 998244353998244353.'
+Tags
+dp, math, *2500

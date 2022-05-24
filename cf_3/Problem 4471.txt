@@ -1,0 +1,11 @@
+b'Little Nastya has a hobby, she likes to remove some letters from word, to obtain another word. But it turns out to be pretty hard for her, because she is too young. Therefore, her brother Sergey always helps her.'
+b'Sergey gives Nastya the word t and wants to get the word p out of it. Nastya removes letters in a certain order (one after another, in this order strictly), which is specified by permutation of letters\' indices of the word t: a1... a|t|. We denote the length of word x as |x|. Note that after removing one letter, the indices of other letters don\'t change. For example, if t\xe2\x80\x89=\xe2\x80\x89"nastya" and a\xe2\x80\x89=\xe2\x80\x89[4,\xe2\x80\x891,\xe2\x80\x895,\xe2\x80\x893,\xe2\x80\x892,\xe2\x80\x896] then removals make the following sequence of words "nastya"  "nastya"  "nastya"  "nastya"  "nastya"  "nastya"  "nastya".'
+b'Sergey knows this permutation. His goal is to stop his sister at some point and continue removing by himself to get the word p. Since Nastya likes this activity, Sergey wants to stop her as late as possible. Your task is to determine, how many letters Nastya can remove before she will be stopped by Sergey.'
+b'It is guaranteed that the word p can be obtained by removing the letters from word t.'
+b'Input'
+b'The first and second lines of the input contain the words t and p, respectively. Words are composed of lowercase letters of the Latin alphabet (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|p|\xe2\x80\x89<\xe2\x80\x89|t|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000). It is guaranteed that the word p can be obtained by removing the letters from word t.'
+b'Next line contains a permutation a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89a|t| of letter indices that specifies the order in which Nastya removes letters of t (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|t|, all ai are distinct).'
+b'Output'
+b'Print a single integer number, the maximum number of letters that Nastya can remove.'
+Tags
+binary search, greedy, strings, *1700

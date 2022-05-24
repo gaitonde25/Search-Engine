@@ -1,0 +1,9 @@
+b"Luba is surfing the Internet. She currently has n opened tabs in her browser, indexed from 1 to n from left to right. The mouse cursor is currently located at the pos-th tab. Luba needs to use the tabs with indices from l to r (inclusive) for her studies, and she wants to close all the tabs that don't belong to this segment as fast as possible."
+b'Each second Luba can either try moving the cursor to the left or to the right (if the cursor is currently at the tab i, then she can move it to the tab max(i\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89a) or to the tab min(i\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89b)) or try closing all the tabs to the left or to the right of the cursor (if the cursor is currently at the tab i, she can close all the tabs with indices from segment [a,\xe2\x80\x89i\xe2\x80\x89-\xe2\x80\x891] or from segment [i\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89b]). In the aforementioned expressions a and b denote the minimum and maximum index of an unclosed tab, respectively. For example, if there were 7 tabs initially and tabs 1, 2 and 7 are closed, then a\xe2\x80\x89=\xe2\x80\x893, b\xe2\x80\x89=\xe2\x80\x896.'
+b'What is the minimum number of seconds Luba has to spend in order to leave only the tabs with initial indices from l to r inclusive opened?'
+b'Input'
+b'The only line of input contains four integer numbers n, pos, l, r (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pos\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the number of the tabs, the cursor position and the segment which Luba needs to leave opened.'
+b'Output'
+b'Print one integer equal to the minimum number of seconds required to close all the tabs outside the segment [l,\xe2\x80\x89r].'
+Tags
+implementation, *1300

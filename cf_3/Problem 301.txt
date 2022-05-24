@@ -1,0 +1,13 @@
+b'You are given a decimal representation of an integer xx without leading zeros.'
+b"You have to perform the following reduction on it exactly once: take two neighboring digits in xx and replace them with their sum without leading zeros (if the sum is 00, it's represented as a single 00)."
+b'For example, if x=10057x=10057, the possible reductions are: '
+b'  choose the first and the second digits 11 and 00, replace them with 1+0=11+0=1; the result is 10571057;  choose the second and the third digits 00 and 00, replace them with 0+0=00+0=0; the result is also 10571057;  choose the third and the fourth digits 00 and 55, replace them with 0+5=50+5=5; the result is still 10571057;  choose the fourth and the fifth digits 55 and 77, replace them with 5+7=125+7=12; the result is 1001210012. '
+b"What's the largest number that can be obtained?"
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b"Each testcase consists of a single integer xx (10\xe2\x89\xa4x<1020000010\xe2\x89\xa4x<10200000). xx doesn't contain leading zeros."
+b"The total length of the decimal representations of xx over all testcases doesn't exceed 2\xe2\x8b\x851052\xe2\x8b\x85105."
+b'Output'
+b'For each testcase, print a single integer\xc2\xa0\xe2\x80\x94 the largest number that can be obtained after the reduction is applied exactly once. The number should not contain leading zeros.'
+Tags
+greedy, strings, *1100

@@ -1,0 +1,14 @@
+b'Consider the following problem: given an array aa containing nn integers (indexed from 00 to n\xe2\x88\x921n\xe2\x88\x921), find max0\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n\xe2\x88\x921\xe2\x88\x91l\xe2\x89\xa4i\xe2\x89\xa4r(r\xe2\x88\x92l+1)\xe2\x8b\x85aimax0\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n\xe2\x88\x921\xe2\x88\x91l\xe2\x89\xa4i\xe2\x89\xa4r(r\xe2\x88\x92l+1)\xe2\x8b\x85ai. In this problem, 1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000 and |ai|\xe2\x89\xa4106|ai|\xe2\x89\xa4106.'
+b'In an attempt to solve the problem described, Alice quickly came up with a blazing-fast greedy algorithm and coded it. Her implementation in pseudocode is as follows:'
+b'function find_answer(n, a)    # Assumes n is an integer between 1 and 2000, inclusive    # Assumes a is a list containing n integers: a[0], a[1], ..., a[n-1]    res = 0    cur = 0    k = -1    for i = 0 to i = n-1        cur = cur + a[i]        if cur < 0            cur = 0            k = i        res = max(res, (i-k)*cur)    return res'
+b"Also, as you can see, Alice's idea is not entirely correct. For example, suppose n=4n=4 and a=[6,\xe2\x88\x928,7,\xe2\x88\x9242]a=[6,\xe2\x88\x928,7,\xe2\x88\x9242]. Then, find_answer(n, a) would return 77, but the correct answer is 3\xe2\x8b\x85(6\xe2\x88\x928+7)=153\xe2\x8b\x85(6\xe2\x88\x928+7)=15."
+b'You told Alice that her solution is incorrect, but she did not believe what you said.'
+b"Given an integer kk, you are to find any sequence aa of nn integers such that the correct answer and the answer produced by Alice's algorithm differ by exactly kk. Note that although the choice of nn and the content of the sequence is yours, you must still follow the constraints earlier given: that 1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000 and that the absolute value of each element does not exceed 106106. If there is no such sequence, determine so."
+b'Input'
+b'The first and only line contains one integer kk (1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4k\xe2\x89\xa4109).'
+b'Output'
+b'If there is no sought sequence, print "-1".'
+b'Otherwise, in the first line, print one integer nn (1\xe2\x89\xa4n\xe2\x89\xa420001\xe2\x89\xa4n\xe2\x89\xa42000), denoting the number of elements in the sequence.'
+b'Then, in the second line, print nn space-separated integers: a0,a1,\xe2\x80\xa6,an\xe2\x88\x921a0,a1,\xe2\x80\xa6,an\xe2\x88\x921 (|ai|\xe2\x89\xa4106|ai|\xe2\x89\xa4106).'
+Tags
+constructive algorithms, *2000

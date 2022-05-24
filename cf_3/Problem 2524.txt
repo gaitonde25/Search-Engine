@@ -1,0 +1,13 @@
+b'One common way of digitalizing sound is to record sound intensity at particular time moments. For each time moment intensity is recorded as a non-negative integer. Thus we can represent a sound file as an array of nn non-negative integers.'
+b'If there are exactly KK distinct values in the array, then we need k=\xe2\x8c\x88log2K\xe2\x8c\x89k=\xe2\x8c\x88log2\xe2\x81\xa1K\xe2\x8c\x89 bits to store each value. It then takes nknk bits to store the whole file.'
+b"To reduce the memory consumption we need to apply some compression. One common way is to reduce the number of possible intensity values. We choose two integers l\xe2\x89\xa4rl\xe2\x89\xa4r, and after that all intensity values are changed in the following way: if the intensity value is within the range [l;r][l;r], we don't change it. If it is less than ll, we change it to ll; if it is greater than rr, we change it to rr. You can see that we lose some low and some high intensities."
+b'Your task is to apply this compression in such a way that the file fits onto a disk of size II bytes, and the number of changed elements in the array is minimal possible.'
+b'We remind you that 11 byte contains 88 bits.'
+b'k=\xe2\x8c\x88log2K\xe2\x8c\x89k=\xe2\x8c\x88log2K\xe2\x8c\x89 is the smallest integer such that K\xe2\x89\xa42kK\xe2\x89\xa42k. In particular, if K=1K=1, then k=0k=0.'
+b'Input'
+b'The first line contains two integers nn and II (1\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa44\xe2\x8b\x85105, 1\xe2\x89\xa4I\xe2\x89\xa41081\xe2\x89\xa4I\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the length of the array and the size of the disk in bytes, respectively.'
+b'The next line contains nn integers aiai (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the array denoting the sound file.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimal possible number of changed elements.'
+Tags
+sortings, two pointers, *1600

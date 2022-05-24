@@ -1,0 +1,8 @@
+b'Tonio has a keyboard with only two letters, "V" and "K".'
+b'One day, he has typed out a string s with only these two letters. He really likes it when the string "VK" appears, so he wishes to change at most one letter in the string (or do no changes) to maximize the number of occurrences of that string. Compute the maximum number of times "VK" can appear as a substring (i.\xc2\xa0e. a letter "K" right after a letter "V") in the resulting string.'
+b'Input'
+b'The first line will contain a string s consisting only of uppercase English letters "V" and "K" with length not less than 1 and not greater than 100.'
+b'Output'
+b'Output a single integer, the maximum number of times "VK" can appear as a substring of the given string after changing at most one character.'
+Tags
+brute force, *1100

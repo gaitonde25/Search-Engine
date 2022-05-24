@@ -1,0 +1,13 @@
+b'There is a bookshelf which can fit nn books. The ii-th position of bookshelf is ai=1ai=1 if there is a book on this position and ai=0ai=0 otherwise. It is guaranteed that there is at least one book on the bookshelf.'
+b'In one move, you can choose some contiguous segment [l;r][l;r] consisting of books (i.e. for each ii from ll to rr the condition ai=1ai=1 holds) and:'
+b'  Shift it to the right by 11: move the book at index ii to i+1i+1 for all l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r. This move can be done only if r+1\xe2\x89\xa4nr+1\xe2\x89\xa4n and there is no book at the position r+1r+1.  Shift it to the left by 11: move the book at index ii to i\xe2\x88\x921i\xe2\x88\x921 for all l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r. This move can be done only if l\xe2\x88\x921\xe2\x89\xa51l\xe2\x88\x921\xe2\x89\xa51 and there is no book at the position l\xe2\x88\x921l\xe2\x88\x921. '
+b'Your task is to find the minimum number of moves required to collect all the books on the shelf as a contiguous (consecutive) segment (i.e. the segment without any gaps).'
+b'For example, for a=[0,0,1,0,1]a=[0,0,1,0,1] there is a gap between books (a4=0a4=0 when a3=1a3=1 and a5=1a5=1), for a=[1,1,0]a=[1,1,0] there are no gaps between books and for a=[0,0,0]a=[0,0,0] there are also no gaps between books.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42001\xe2\x89\xa4t\xe2\x89\xa4200) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450) \xe2\x80\x94 the number of places on a bookshelf. The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa410\xe2\x89\xa4ai\xe2\x89\xa41), where aiai is 11 if there is a book at this position and 00 otherwise. It is guaranteed that there is at least one book on the bookshelf.'
+b'Output'
+b'For each test case, print one integer: the minimum number of moves required to collect all the books on the shelf as a contiguous (consecutive) segment (i.e. the segment without gaps).'
+Tags
+greedy, implementation, *800

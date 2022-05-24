@@ -1,0 +1,10 @@
+b'You have aa coins of value nn and bb coins of value 11. You always pay in exact change, so you want to know if there exist such xx and yy that if you take xx (0\xe2\x89\xa4x\xe2\x89\xa4a0\xe2\x89\xa4x\xe2\x89\xa4a) coins of value nn and yy (0\xe2\x89\xa4y\xe2\x89\xa4b0\xe2\x89\xa4y\xe2\x89\xa4b) coins of value 11, then the total value of taken coins will be SS.'
+b'You have to answer qq independent test cases.'
+b'Input'
+b'The first line of the input contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa41041\xe2\x89\xa4q\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then qq test cases follow.'
+b'The only line of the test case contains four integers aa, bb, nn and SS (1\xe2\x89\xa4a,b,n,S\xe2\x89\xa41091\xe2\x89\xa4a,b,n,S\xe2\x89\xa4109) \xe2\x80\x94 the number of coins of value nn, the number of coins of value 11, the value nn and the required total value.'
+b'Output'
+b'For the ii-th test case print the answer on it \xe2\x80\x94 YES (without quotes) if there exist such xx and yy that if you take xx coins of value nn and yy coins of value 11, then the total value of taken coins will be SS, and NO otherwise.'
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES will all be recognized as positive answer).'
+Tags
+math, *1000

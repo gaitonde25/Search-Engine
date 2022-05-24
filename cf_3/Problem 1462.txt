@@ -1,0 +1,12 @@
+b"You're given an array aa of nn integers, such that a1+a2+\xe2\x8b\xaf+an=0a1+a2+\xe2\x8b\xaf+an=0."
+b'In one operation, you can choose two different indices ii and jj (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n), decrement aiai by one and increment ajaj by one. If i<ji<j this operation is free, otherwise it costs one coin.'
+b'How many coins do you have to spend in order to make all elements equal to 00?'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000). Description of the test cases follows.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of elements.'
+b'The next line contains nn integers a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109). It is given that \xe2\x88\x91ni=1ai=0\xe2\x88\x91i=1nai=0.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, print the minimum number of coins we have to spend in order to make all elements equal to 00.'
+Tags
+constructive algorithms, implementation, *1000

@@ -1,0 +1,9 @@
+b'InputThe input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.'
+b'OutputOutput "YES" or "NO".'
+b'ExamplesInputCopyNEAT\nOutputCopyYES\nInputCopyWORD\nOutputCopyNO\nInputCopyCODER\nOutputCopyNO\nInputCopyAPRILFOOL\nOutputCopyNO\nInputCopyAI\nOutputCopyYES\nInputCopyJUROR\nOutputCopyYES\nInputCopyYES\nOutputCopyNO\n'
+b'Input'
+b'The input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.'
+b'Output'
+b'Output "YES" or "NO".'
+Tags
+

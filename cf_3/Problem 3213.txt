@@ -1,0 +1,15 @@
+b'The company XX has nn employees numbered from 11 through nn. Each employee uu has a direct boss pupu (1\xe2\x89\xa4pu\xe2\x89\xa4n1\xe2\x89\xa4pu\xe2\x89\xa4n), except for the employee 11 who has no boss. It is guaranteed, that values pipi form a tree. Employee uu is said to be in charge of employee vv if uu is the direct boss of vv or there is an employee ww such that ww is in charge of vv and uu is the direct boss of ww. Also, any employee is considered to be in charge of himself.'
+b"In addition, for each employee uu we define it's level lv(u)lv(u) as follow: "
+b'  lv(1)=0lv(1)=0  lv(u)=lv(pu)+1lv(u)=lv(pu)+1 for u\xe2\x89\xa01u\xe2\x89\xa01 '
+b'In the near future, there are qq possible plans for the company to operate. The ii-th plan consists of two integers lili and riri, meaning that all the employees in the range [li,ri][li,ri], and only they, are involved in this plan. To operate the plan smoothly, there must be a project manager who is an employee in charge of all the involved employees. To be precise, if an employee uu is chosen as the project manager for the ii-th plan then for every employee v\xe2\x88\x88[li,ri]v\xe2\x88\x88[li,ri], uu must be in charge of vv. Note, that uu is not necessary in the range [li,ri][li,ri]. Also, uu is always chosen in such a way that lv(u)lv(u) is as large as possible (the higher the level is, the lower the salary that the company has to pay the employee).'
+b"Before any plan is operated, the company has JATC take a look at their plans. After a glance, he tells the company that for every plan, it's possible to reduce the number of the involved employees exactly by one without affecting the plan. Being greedy, the company asks JATC which employee they should kick out of the plan so that the level of the project manager required is as large as possible. JATC has already figured out the answer and challenges you to do the same."
+b'Input'
+b'The first line contains two integers nn and qq (2\xe2\x89\xa4n\xe2\x89\xa41000002\xe2\x89\xa4n\xe2\x89\xa4100000, 1\xe2\x89\xa4q\xe2\x89\xa41000001\xe2\x89\xa4q\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the number of employees and the number of plans, respectively.'
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3,\xe2\x80\xa6,pnp2,p3,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n) meaning pipi is the direct boss of employee ii.'
+b'It is guaranteed, that values pipi form a directed tree with the root of 11.'
+b'Each of the following qq lines contains two integers lili and riri (1\xe2\x89\xa4li<ri\xe2\x89\xa4n1\xe2\x89\xa4li<ri\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the range of the employees, involved in the corresponding plan.'
+b'Output'
+b'Print qq lines, each containing two integers\xc2\xa0\xe2\x80\x94 the number of the employee which should be kicked from the corresponding plan and the maximum possible level of the project manager in that case.'
+b'If there are more than one way to choose that employee, print any of them.'
+Tags
+binary search, data structures, dfs and similar, greedy, trees, *2300

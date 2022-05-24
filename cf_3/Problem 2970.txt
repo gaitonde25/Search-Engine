@@ -1,0 +1,11 @@
+b"Sasha likes programming. Once, during a very long contest, Sasha decided that he was a bit tired and needed to relax. So he did. But since Sasha isn't an ordinary guy, he prefers to relax unusually. During leisure time Sasha likes to upsolve unsolved problems because upsolving is very useful."
+b'Therefore, Sasha decided to upsolve the following problem:'
+b'You have an array aa with nn integers. You need to count the number of funny pairs (l,r)(l,r) (l\xe2\x89\xa4r)(l\xe2\x89\xa4r). To check if a pair (l,r)(l,r) is a funny pair, take mid=l+r\xe2\x88\x9212mid=l+r\xe2\x88\x9212, then if r\xe2\x88\x92l+1r\xe2\x88\x92l+1 is an even number and al\xe2\x8a\x95al+1\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95amid=amid+1\xe2\x8a\x95amid+2\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95aral\xe2\x8a\x95al+1\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95amid=amid+1\xe2\x8a\x95amid+2\xe2\x8a\x95\xe2\x80\xa6\xe2\x8a\x95ar, then the pair is funny. In other words, \xe2\x8a\x95\xe2\x8a\x95 of elements of the left half of the subarray from ll to rr should be equal to \xe2\x8a\x95\xe2\x8a\x95 of elements of the right half. Note that \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation.'
+b'It is time to continue solving the contest, so Sasha asked you to solve this task.'
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the size of the array.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai<2200\xe2\x89\xa4ai<220)\xc2\xa0\xe2\x80\x94 array itself.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the number of funny pairs. You should consider only pairs where r\xe2\x88\x92l+1r\xe2\x88\x92l+1 is even number.'
+Tags
+dp, implementation, *1600

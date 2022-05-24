@@ -1,0 +1,21 @@
+b"No matter what trouble you're in, don't be afraid, but face it with a smile."
+b"I've made another billion dollars!"
+b'\xc2\xa0\xe2\x80\x94 Boboniu'
+b'Boboniu has issued his currencies, named Bobo Yuan. Bobo Yuan (BBY) is a series of currencies. Boboniu gives each of them a positive integer identifier, such as BBY-1, BBY-2, etc.'
+b'Boboniu has a BBY collection. His collection looks like a sequence. For example:'
+b'  '
+b'We can use sequence a=[1,2,3,3,2,1,4,4,1]a=[1,2,3,3,2,1,4,4,1] of length n=9n=9 to denote it.'
+b'Now Boboniu wants to fold his collection. You can imagine that Boboniu stick his collection to a long piece of paper and fold it between currencies:'
+b'  '
+b"Boboniu will only fold the same identifier of currencies together. In other words, if aiai is folded over ajaj (1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n), then ai=ajai=aj must hold. Boboniu doesn't care if you follow this rule in the process of folding. But once it is finished, the rule should be obeyed."
+b'A formal definition of fold is described in notes.'
+b'According to the picture above, you can fold aa two times. In fact, you can fold a=[1,2,3,3,2,1,4,4,1]a=[1,2,3,3,2,1,4,4,1] at most two times. So the maximum number of folds of it is 22.'
+b"As an international fan of Boboniu, you're asked to calculate the maximum number of folds. "
+b"You're given a sequence aa of length nn, for each ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n), you need to calculate the maximum number of folds of [a1,a2,\xe2\x80\xa6,ai][a1,a2,\xe2\x80\xa6,ai]."
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b'Output'
+b'Print nn integers. The ii-th of them should be equal to the maximum number of folds of [a1,a2,\xe2\x80\xa6,ai][a1,a2,\xe2\x80\xa6,ai].'
+Tags
+strings, *3500

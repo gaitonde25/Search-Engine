@@ -1,0 +1,15 @@
+b'You are given a special undirected graph. It consists of 2n2n vertices numbered from 11 to 2n2n. The following properties hold for the graph:'
+b' there are exactly 3n\xe2\x88\x9223n\xe2\x88\x922 edges in the graph: nn edges connect vertices having odd numbers with vertices having even numbers, n\xe2\x88\x921n\xe2\x88\x921 edges connect vertices having odd numbers with each other, and n\xe2\x88\x921n\xe2\x88\x921 edges connect vertices having even numbers with each other;  for each edge (u,v)(u,v) between a pair of vertices with odd numbers, there exists an edge (u+1,v+1)(u+1,v+1), and vice versa;  for each odd number u\xe2\x88\x88[1,2n\xe2\x88\x921]u\xe2\x88\x88[1,2n\xe2\x88\x921], there exists an edge (u,u+1)(u,u+1);  the graph is connected; moreover, if we delete all vertices with even numbers from it, and all edges incident to them, the graph will become a tree (the same applies to deleting odd vertices).'
+b'So, the graph can be represented as two trees having the same structure, and nn edges connecting each vertex of the first tree to the corresponding vertex of the second tree.'
+b'Edges of the graph are weighted. The length of some simple path in the graph is the sum of weights of traversed edges.'
+b'You are given qq queries to this graph; in each query, you are asked to compute the length of the shortest path between some pair of vertices in this graph. Can you answer all of the queries?'
+b'Input'
+b'The first line of the input contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105).'
+b'The second line contains nn integers w1,2w1,2, w3,4w3,4, ..., w2n\xe2\x88\x921,2nw2n\xe2\x88\x921,2n (1\xe2\x89\xa4wi,i+1\xe2\x89\xa410121\xe2\x89\xa4wi,i+1\xe2\x89\xa41012). These integers describe the weights of the edges connecting odd vertices with even ones.'
+b'Then n\xe2\x88\x921n\xe2\x88\x921 lines follow. ii-th line contains four integers xixi, yiyi, wi,1wi,1 and wi,2wi,2 (1\xe2\x89\xa4xi,yi\xe2\x89\xa4n1\xe2\x89\xa4xi,yi\xe2\x89\xa4n, xi\xe2\x89\xa0yixi\xe2\x89\xa0yi, 1\xe2\x89\xa4wi,j\xe2\x89\xa410121\xe2\x89\xa4wi,j\xe2\x89\xa41012); it describes two edges: one connecting 2xi\xe2\x88\x9212xi\xe2\x88\x921 with 2yi\xe2\x88\x9212yi\xe2\x88\x921 and having weight wi,1wi,1; another connecting 2xi2xi with 2yi2yi and having weight wi,2wi,2.'
+b'The next line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa46\xe2\x8b\x851051\xe2\x89\xa4q\xe2\x89\xa46\xe2\x8b\x85105) \xe2\x80\x94 the number of queries.'
+b'Then qq lines follow, ii-th line contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa42n1\xe2\x89\xa4ui,vi\xe2\x89\xa42n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi), describing a query "compute the length of the shortest path between vertices uiui and vivi".'
+b'Output'
+b'Print qq integers, ii-th integer should be equal to the answer to the ii-th query.'
+Tags
+data structures, divide and conquer, shortest paths, trees, *2700

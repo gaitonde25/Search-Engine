@@ -1,0 +1,12 @@
+b'Andrea has come up with what he believes to be a novel sorting algorithm for arrays of length nn. The algorithm works as follows.'
+b'Initially there is an array of nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Then, kk steps are executed.'
+b'For each 1\xe2\x89\xa4i\xe2\x89\xa4k1\xe2\x89\xa4i\xe2\x89\xa4k, during the ii-th step the subsequence of the array aa with indexes ji,1<ji,2<\xe2\x8b\xaf<ji,qiji,1<ji,2<\xe2\x8b\xaf<ji,qi is sorted, without changing the values with the remaining indexes. So, the subsequence aji,1,aji,2,\xe2\x80\xa6,aji,qiaji,1,aji,2,\xe2\x80\xa6,aji,qi is sorted and all other elements of aa are left untouched.'
+b'Andrea, being eager to share his discovery with the academic community, sent a short paper describing his algorithm to the journal "Annals of Sorting Algorithms" and you are the referee of the paper (that is, the person who must judge the correctness of the paper). You must decide whether Andrea\'s algorithm is correct, that is, if it sorts any array aa of nn integers.'
+b'Input'
+b"The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa4401\xe2\x89\xa4n\xe2\x89\xa440, 0\xe2\x89\xa4k\xe2\x89\xa4100\xe2\x89\xa4k\xe2\x89\xa410) \xe2\x80\x94 the length of the arrays handled by Andrea's algorithm and the number of steps of Andrea's algorithm."
+b"Then kk lines follow, each describing the subsequence considered in a step of Andrea's algorithm."
+b'The ii-th of these lines contains the integer qiqi (1\xe2\x89\xa4qi\xe2\x89\xa4n1\xe2\x89\xa4qi\xe2\x89\xa4n) followed by qiqi integers ji,1,ji,2,\xe2\x80\xa6,ji,qiji,1,ji,2,\xe2\x80\xa6,ji,qi (1\xe2\x89\xa4ji,1<ji,2<\xe2\x8b\xaf<ji,qi\xe2\x89\xa4n1\xe2\x89\xa4ji,1<ji,2<\xe2\x8b\xaf<ji,qi\xe2\x89\xa4n) \xe2\x80\x94 the length of the subsequence considered in the ii-th step and the indexes of the subsequence.'
+b'Output'
+b"If Andrea's algorithm is correct print ACCEPTED, otherwise print REJECTED."
+Tags
+bitmasks, brute force, dfs and similar, sortings, *3000

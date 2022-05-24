@@ -1,0 +1,13 @@
+b'The construction of subway in Bertown is almost finished! The President of Berland will visit this city soon to look at the new subway himself.'
+b'There are n stations in the subway. It was built according to the Bertown Transport Law:'
+b'  For each station i there exists exactly one train that goes from this station. Its destination station is pi, possibly pi\xe2\x80\x89=\xe2\x80\x89i;  For each station i there exists exactly one station j such that pj\xe2\x80\x89=\xe2\x80\x89i. '
+b'The President will consider the convenience of subway after visiting it. The convenience is the number of ordered pairs (x,\xe2\x80\x89y) such that person can start at station x and, after taking some subway trains (possibly zero), arrive at station y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b"The mayor of Bertown thinks that if the subway is not convenient enough, then the President might consider installing a new mayor (and, of course, the current mayor doesn't want it to happen). Before President visits the city mayor has enough time to rebuild some paths of subway, thus changing the values of pi for not more than two subway stations. Of course, breaking the Bertown Transport Law is really bad, so the subway must be built according to the Law even after changes."
+b'The mayor wants to do these changes in such a way that the convenience of the subway is maximized. Help him to calculate the maximum possible convenience he can get! '
+b'Input'
+b'The first line contains one integer number n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000) \xe2\x80\x94 the number of stations.'
+b'The second line contains n integer numbers p1, p2, ..., pn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 the current structure of the subway. All these numbers are distinct.'
+b'Output'
+b'Print one number \xe2\x80\x94 the maximum possible value of convenience.'
+Tags
+dfs and similar, greedy, math, *1500

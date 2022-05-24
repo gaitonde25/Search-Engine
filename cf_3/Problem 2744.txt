@@ -1,0 +1,16 @@
+b'You are given a string, consisting of lowercase Latin letters.'
+b'A pair of neighbouring letters in a string is considered ugly if these letters are also neighbouring in a alphabet. For example, string "abaca" contains ugly pairs at positions (1,2)(1,2) \xe2\x80\x94 "ab" and (2,3)(2,3) \xe2\x80\x94 "ba". Letters \'a\' and \'z\' aren\'t considered neighbouring in a alphabet.'
+b"Can you rearrange the letters of a given string so that there are no ugly pairs? You can choose any order of the letters of the given string but you can't add any new letters or remove the existing ones. You can also leave the order the same."
+b'If there are multiple answers, print any of them.'
+b'You also have to answer TT separate queries.'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa41001\xe2\x89\xa4T\xe2\x89\xa4100) \xe2\x80\x94 the number of queries.'
+b'Each of the next TT lines contains string ss (1\xe2\x89\xa4|s|\xe2\x89\xa4100)(1\xe2\x89\xa4|s|\xe2\x89\xa4100) \xe2\x80\x94 the string for the next query. It is guaranteed that it contains only lowercase Latin letters.'
+b'Note that in hacks you have to set T=1T=1.'
+b'Output'
+b'Print TT lines. The ii-th line should contain the answer to the ii-th query.'
+b"If the answer for the ii-th query exists, then print such a rearrangment of letters of the given string that it contains no ugly pairs. You can choose any order of the letters of the given string but you can't add any new letters or remove the existing ones. You can also leave the order the same."
+b'If there are multiple answers, print any of them.'
+b'Otherwise print "No answer" for that query.'
+Tags
+dfs and similar, greedy, implementation, sortings, strings, *1800

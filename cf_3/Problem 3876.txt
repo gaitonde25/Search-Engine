@@ -1,0 +1,14 @@
+b'As we all know, Dart is some kind of creature from Upside Down world. For simplicity, we call their kind pollywogs. Dart and x\xe2\x80\x89-\xe2\x80\x891 other pollywogs are playing a game. There are n stones in a row, numbered from 1 through n from left to right. At most 1 pollywog may be sitting on each stone at a time. Initially, the pollywogs are sitting on the first x stones (one pollywog on each stone).'
+b'  '
+b"Dart and his friends want to end up on the last x stones. At each second, the leftmost pollywog should jump to the right. A pollywog can jump at most k stones; more specifically, a pollywog can jump from stone number i to stones i\xe2\x80\x89+\xe2\x80\x891,\xe2\x80\x89i\xe2\x80\x89+\xe2\x80\x892,\xe2\x80\x89... i\xe2\x80\x89+\xe2\x80\x89k. A pollywog can't jump on an occupied stone. Jumping a distance i takes ci amounts of energy from the pollywog. "
+b'Also, q stones are special Each time landing on a special stone p, takes wp amounts of energy (in addition to the energy for jump) from the pollywog. wp could be negative, in this case, it means the pollywog absorbs |wp| amounts of energy.'
+b'Pollywogs want to spend as little energy as possible (this value could be negative). '
+b"They're just pollywogs, so they asked for your help. Tell them the total change in their energy, in case they move optimally."
+b'Input'
+b'The first line of input contains four integers, x,\xe2\x80\x89k,\xe2\x80\x89n and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x898, k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89108, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(25,\xe2\x80\x89n\xe2\x80\x89-\xe2\x80\x89x))\xc2\xa0\xe2\x80\x94 the number of pollywogs, the maximum length of jump, the number of stones and the number of special stones.'
+b'The next line contains k integers, c1,\xe2\x80\x89c2,\xe2\x80\x89... ck, separated by spaces (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the energetic costs of jumps.'
+b'The next q lines contain description of the special stones. Each line contains two integers p and wp (x\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, |wp|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109). All p are distinct.'
+b'Output'
+b'Print the minimum amount of energy they need, in the first and only line of output.'
+Tags
+combinatorics, dp, matrices, *2900

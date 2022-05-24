@@ -1,0 +1,9 @@
+b'We had a string s consisting of n lowercase Latin letters. We made k copies of this string, thus obtaining k identical strings s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sk. After that, in each of these strings we swapped exactly two characters (the characters we swapped could be identical, but they had different indices in the string).'
+b"You are given k strings s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sk, and you have to restore any string s so that it is possible to obtain these strings by performing aforementioned operations. Note that the total length of the strings you are given doesn't exceed 5000 (that is, k\xc2\xb7n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000)."
+b'Input'
+b'The first line contains two integers k and n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892500,\xe2\x80\x892\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000,\xe2\x80\x89k\xc2\xa0\xc2\xb7\xc2\xa0n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000) \xe2\x80\x94 the number of strings we obtained, and the length of each of these strings.'
+b'Next k lines contain the strings s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sk, each consisting of exactly n lowercase Latin letters.'
+b'Output'
+b"Print any suitable string s, or -1 if such string doesn't exist."
+Tags
+brute force, hashing, implementation, strings, *2200

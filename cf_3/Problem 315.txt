@@ -1,0 +1,13 @@
+b'Polycarp got an array of integers a[1\xe2\x80\xa6n]a[1\xe2\x80\xa6n] as a gift. Now he wants to perform a certain number of operations (possibly zero) so that all elements of the array become the same (that is, to become a1=a2=\xe2\x8b\xaf=ana1=a2=\xe2\x8b\xaf=an).'
+b' In one operation, he can take some indices in the array and increase the elements of the array at those indices by 11.'
+b'For example, let a=[4,2,1,6,2]a=[4,2,1,6,2]. He can perform the following operation: select indices 1, 2, and 4 and increase elements of the array in those indices by 11. As a result, in one operation, he can get a new state of the array a=[5,3,1,7,2]a=[5,3,1,7,2].'
+b'What is the minimum number of operations it can take so that all elements of the array become equal to each other (that is, to become a1=a2=\xe2\x8b\xaf=ana1=a2=\xe2\x8b\xaf=an)?'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xc2\xa0\xe2\x80\x94 the number of test cases in the test.'
+b'The following are descriptions of the input test cases.'
+b'The first line of the description of each test case contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450) \xc2\xa0\xe2\x80\x94 the array aa.'
+b'The second line of the description of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109) \xc2\xa0\xe2\x80\x94 elements of the array aa.'
+b'Output'
+b'For each test case, print one integer \xc2\xa0\xe2\x80\x94 the minimum number of operations to make all elements of the array aa equal.'
+Tags
+math, *800

@@ -1,0 +1,14 @@
+b"It's marriage season in Ringland!"
+b"Ringland has a form of a circle's boundary of length LL. There are nn bridegrooms and nn brides, and bridegrooms decided to marry brides."
+b'Of course, each bridegroom should choose exactly one bride, and each bride should be chosen by exactly one bridegroom.'
+b"All objects in Ringland are located on the boundary of the circle, including the capital, bridegrooms' castles and brides' palaces. The castle of the ii-th bridegroom is located at the distance aiai from the capital in clockwise direction, and the palace of the ii-th bride is located at the distance bibi from the capital in clockwise direction."
+b"Let's define the inconvenience of a marriage the maximum distance that some bride should walk along the circle from her palace to her bridegroom's castle in the shortest direction (in clockwise or counter-clockwise direction)."
+b'Help the bridegrooms of Ringland to choose brides in such a way that the inconvenience of the marriage is the smallest possible.'
+b'Input'
+b'The first line contains two integers nn and LL (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105, 1\xe2\x89\xa4L\xe2\x89\xa41091\xe2\x89\xa4L\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of bridegrooms and brides and the length of Ringland.'
+b'The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai<L0\xe2\x89\xa4ai<L)\xc2\xa0\xe2\x80\x94 the distances from the capital to the castles of bridegrooms in clockwise direction.'
+b'The next line contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (0\xe2\x89\xa4bi<L0\xe2\x89\xa4bi<L)\xc2\xa0\xe2\x80\x94 the distances from the capital to the palaces of brides in clockwise direction.'
+b'Output'
+b'In the only line print the smallest possible inconvenience of the wedding, where the inconvenience is the largest distance traveled by a bride.'
+Tags
+binary search, graph matchings, greedy, *2500

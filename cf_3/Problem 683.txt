@@ -1,0 +1,12 @@
+b'You are given an array aa consisting of nn distinct elements and an integer kk. Each element in the array is a non-negative integer not exceeding 2k\xe2\x88\x9212k\xe2\x88\x921.'
+b"Let's define the XOR distance for a number xx as the value of "
+b'f(x)=mini=1nminj=i+1n|(ai\xe2\x8a\x95x)\xe2\x88\x92(aj\xe2\x8a\x95x)|,f(x)=mini=1nminj=i+1n|(ai\xe2\x8a\x95x)\xe2\x88\x92(aj\xe2\x8a\x95x)|,'
+b'where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation.'
+b'For every integer xx from 00 to 2k\xe2\x88\x9212k\xe2\x88\x921, you have to calculate f(x)f(x).'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4191\xe2\x89\xa4k\xe2\x89\xa419; 2\xe2\x89\xa4n\xe2\x89\xa42k2\xe2\x89\xa4n\xe2\x89\xa42k).'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa42k\xe2\x88\x9210\xe2\x89\xa4ai\xe2\x89\xa42k\xe2\x88\x921). All these integers are distinct.'
+b'Output'
+b'Print 2k2k integers. The ii-th of them should be equal to f(i\xe2\x88\x921)f(i\xe2\x88\x921).'
+Tags
+bitmasks, divide and conquer, trees, *2900

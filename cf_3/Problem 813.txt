@@ -1,0 +1,13 @@
+b'A frog is currently at the point 00 on a coordinate axis OxOx. It jumps by the following algorithm: the first jump is aa units to the right, the second jump is bb units to the left, the third jump is aa units to the right, the fourth jump is bb units to the left, and so on.'
+b'Formally: '
+b'  if the frog has jumped an even number of times (before the current jump), it jumps from its current position xx to position x+ax+a;  otherwise it jumps from its current position xx to position x\xe2\x88\x92bx\xe2\x88\x92b. '
+b'Your task is to calculate the position of the frog after kk jumps.'
+b'But... One more thing. You are watching tt different frogs so you have to answer tt independent queries.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of queries.'
+b'Each of the next tt lines contain queries (one query per line).'
+b'The query is described as three space-separated integers a,b,ka,b,k (1\xe2\x89\xa4a,b,k\xe2\x89\xa41091\xe2\x89\xa4a,b,k\xe2\x89\xa4109) \xe2\x80\x94 the lengths of two types of jumps and the number of jumps, respectively.'
+b'Output'
+b'Print tt integers. The ii-th integer should be the answer for the ii-th query.'
+Tags
+*special problem, math

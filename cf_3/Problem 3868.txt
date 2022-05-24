@@ -1,0 +1,9 @@
+b'You are given a graph with nn nodes and mm directed edges. One lowercase letter is assigned to each node. We define a path\'s value as the number of the most frequently occurring letter. For example, if letters on a path are "abaca", then the value of that path is 33. Your task is find a path whose value is the largest.'
+b'Input'
+b'The first line contains two positive integers n,mn,m (1\xe2\x89\xa4n,m\xe2\x89\xa43000001\xe2\x89\xa4n,m\xe2\x89\xa4300000), denoting that the graph has nn nodes and mm directed edges.'
+b'The second line contains a string ss with only lowercase English letters. The ii-th character is the letter assigned to the ii-th node.'
+b'Then mm lines follow. Each line contains two integers x,yx,y (1\xe2\x89\xa4x,y\xe2\x89\xa4n1\xe2\x89\xa4x,y\xe2\x89\xa4n), describing a directed edge from xx to yy. Note that xx can be equal to yy and there can be multiple edges between xx and yy. Also the graph can be not connected.'
+b'Output'
+b'Output a single line with a single integer denoting the largest value. If the value can be arbitrarily large, output -1 instead.'
+Tags
+dfs and similar, dp, graphs, *1700

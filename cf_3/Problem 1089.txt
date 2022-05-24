@@ -1,0 +1,16 @@
+b'The great hero guards the country where Homer lives. The hero has attack power AA and initial health value BB. There are nn monsters in front of the hero. The ii-th monster has attack power aiai and initial health value bibi. '
+b'The hero or a monster is said to be living, if his or its health value is positive (greater than or equal to 11); and he or it is said to be dead, if his or its health value is non-positive (less than or equal to 00).'
+b'In order to protect people in the country, the hero will fight with monsters until either the hero is dead or all the monsters are dead.'
+b'  In each fight, the hero can select an arbitrary living monster and fight with it. Suppose the ii-th monster is selected, and the health values of the hero and the ii-th monster are xx and yy before the fight, respectively. After the fight, the health values of the hero and the ii-th monster become x\xe2\x88\x92aix\xe2\x88\x92ai and y\xe2\x88\x92Ay\xe2\x88\x92A, respectively. '
+b'Note that the hero can fight the same monster more than once.'
+b'For the safety of the people in the country, please tell them whether the great hero can kill all the monsters (even if the great hero himself is dead after killing the last monster).'
+b'Input'
+b'Each test contains multiple test cases. The first line contains tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains three integers AA (1\xe2\x89\xa4A\xe2\x89\xa41061\xe2\x89\xa4A\xe2\x89\xa4106), BB (1\xe2\x89\xa4B\xe2\x89\xa41061\xe2\x89\xa4B\xe2\x89\xa4106) and nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the attack power of the great hero, the initial health value of the great hero, and the number of monsters.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41061\xe2\x89\xa4ai\xe2\x89\xa4106), where aiai denotes the attack power of the ii-th monster.'
+b'The third line of each test case contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (1\xe2\x89\xa4bi\xe2\x89\xa41061\xe2\x89\xa4bi\xe2\x89\xa4106), where bibi denotes the initial health value of the ii-th monster.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case print the answer: "YES" (without quotes) if the great hero can kill all the monsters. Otherwise, print "NO" (without quotes).'
+Tags
+greedy, implementation, sortings, *900

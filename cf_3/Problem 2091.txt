@@ -1,0 +1,12 @@
+b'Oh, New Year. The time to gather all your friends and reflect on the heartwarming events of the past year...'
+b'nn friends live in a city which can be represented as a number line. The ii-th friend lives in a house with an integer coordinate xixi. The ii-th friend can come celebrate the New Year to the house with coordinate xi\xe2\x88\x921xi\xe2\x88\x921, xi+1xi+1 or stay at xixi. Each friend is allowed to move no more than once.'
+b'For all friends 1\xe2\x89\xa4xi\xe2\x89\xa4n1\xe2\x89\xa4xi\xe2\x89\xa4n holds, however, they can come to houses with coordinates 00 and n+1n+1 (if their houses are at 11 or nn, respectively).'
+b'For example, let the initial positions be x=[1,2,4,4]x=[1,2,4,4]. The final ones then can be [1,3,3,4][1,3,3,4], [0,2,3,3][0,2,3,3], [2,2,5,5][2,2,5,5], [2,1,3,5][2,1,3,5] and so on. The number of occupied houses is the number of distinct positions among the final ones.'
+b'So all friends choose the moves they want to perform. After that the number of occupied houses is calculated. What is the minimum and the maximum number of occupied houses can there be?'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of friends.'
+b'The second line contains nn integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn (1\xe2\x89\xa4xi\xe2\x89\xa4n1\xe2\x89\xa4xi\xe2\x89\xa4n) \xe2\x80\x94 the coordinates of the houses of the friends.'
+b'Output'
+b'Print two integers \xe2\x80\x94 the minimum and the maximum possible number of occupied houses after all moves are performed.'
+Tags
+dp, greedy, *1800

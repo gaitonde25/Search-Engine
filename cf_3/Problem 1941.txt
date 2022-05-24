@@ -1,0 +1,11 @@
+b'Being Santa Claus is very difficult. Sometimes you have to deal with difficult situations.'
+b"Today Santa Claus came to the holiday and there were mm children lined up in front of him. Let's number them from 11 to mm. Grandfather Frost knows nn spells. The ii-th spell gives a candy to every child whose place is in the [Li,Ri][Li,Ri] range. Each spell can be used at most once. It is also known that if all spells are used, each child will receive at most kk candies."
+b'It is not good for children to eat a lot of sweets, so each child can eat no more than one candy, while the remaining candies will be equally divided between his (or her) Mom and Dad. So it turns out that if a child would be given an even amount of candies (possibly zero), then he (or she) will be unable to eat any candies and will go sad. However, the rest of the children (who received an odd number of candies) will be happy.'
+b'Help Santa Claus to know the maximum number of children he can make happy by casting some of his spells.'
+b'Input'
+b'The first line contains three integers of nn, mm, and kk (1\xe2\x89\xa4n\xe2\x89\xa4100000,1\xe2\x89\xa4m\xe2\x89\xa4109,1\xe2\x89\xa4k\xe2\x89\xa481\xe2\x89\xa4n\xe2\x89\xa4100000,1\xe2\x89\xa4m\xe2\x89\xa4109,1\xe2\x89\xa4k\xe2\x89\xa48)\xc2\xa0\xe2\x80\x94 the number of spells, the number of children and the upper limit on the number of candy a child can get if all spells are used, respectively.'
+b'This is followed by nn lines, each containing integers LiLi and RiRi (1\xe2\x89\xa4Li\xe2\x89\xa4Ri\xe2\x89\xa4m1\xe2\x89\xa4Li\xe2\x89\xa4Ri\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the parameters of the ii spell.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the maximum number of children that Santa can make happy.'
+Tags
+bitmasks, dp, implementation, *2500

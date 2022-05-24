@@ -1,0 +1,11 @@
+b'Sasha and Dima want to buy two nn-tier cakes. Each cake should consist of nn different tiers: from the size of 11 to the size of nn. Tiers should go in order from the smallest to the biggest (from top to bottom).'
+b'They live on the same street, there are 2\xe2\x8b\x85n2\xe2\x8b\x85n houses in a row from left to right. Each house has a pastry shop where you can buy a cake tier. Unfortunately, in each pastry shop you can buy only one tier of only one specific size: in the ii-th house you can buy a tier of the size aiai (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n).'
+b'Since the guys carry already purchased tiers, and it is impossible to insert a new tier in the middle of the cake, they agreed to buy tiers from the smallest to the biggest. That is, each of them buys tiers in order: 11, then 22, then 33 and so on up to nn.'
+b'Initially, Sasha and Dima are located near the first (leftmost) house. Output the minimum distance that they will have to walk in total to buy both cakes. The distance between any two neighboring houses is exactly 11.'
+b'Input'
+b'The first line of the input contains an integer number nn \xe2\x80\x94 the number of tiers in each cake (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
+b'The second line contains 2\xe2\x8b\x85n2\xe2\x8b\x85n integers a1,a2,\xe2\x80\xa6,a2na1,a2,\xe2\x80\xa6,a2n (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n), where aiai is equal to the size of the tier, which can be bought in the ii-th house. Remember that in each house you can buy only one tier. It is guaranteed that every number from 11 to nn occurs in aa exactly two times.'
+b'Output'
+b'Print one number \xc2\xa0\xe2\x80\x94 the minimum distance that the guys have to walk in total to buy both cakes. Guys can be near same house at the same time. They begin near the first (leftmost) house. Each of the guys should buy nn tiers in ascending order of their sizes.'
+Tags
+greedy, *1200

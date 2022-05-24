@@ -1,0 +1,10 @@
+b'Adilbek was assigned to a special project. For Adilbek it means that he has nn days to run a special program and provide its results. But there is a problem: the program needs to run for dd days to calculate the results.'
+b'Fortunately, Adilbek can optimize the program. If he spends xx (xx is a non-negative integer) days optimizing the program, he will make the program run in \xe2\x8c\x88dx+1\xe2\x8c\x89\xe2\x8c\x88dx+1\xe2\x8c\x89 days (\xe2\x8c\x88a\xe2\x8c\x89\xe2\x8c\x88a\xe2\x8c\x89 is the ceiling function: \xe2\x8c\x882.4\xe2\x8c\x89=3\xe2\x8c\x882.4\xe2\x8c\x89=3, \xe2\x8c\x882\xe2\x8c\x89=2\xe2\x8c\x882\xe2\x8c\x89=2). The program cannot be run and optimized simultaneously, so the total number of days he will spend is equal to x+\xe2\x8c\x88dx+1\xe2\x8c\x89x+\xe2\x8c\x88dx+1\xe2\x8c\x89.'
+b'Will Adilbek be able to provide the generated results in no more than nn days?'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa4501\xe2\x89\xa4T\xe2\x89\xa450) \xe2\x80\x94 the number of test cases.'
+b'The next TT lines contain test cases \xe2\x80\x93 one per line. Each line contains two integers nn and dd (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109, 1\xe2\x89\xa4d\xe2\x89\xa41091\xe2\x89\xa4d\xe2\x89\xa4109) \xe2\x80\x94 the number of days before the deadline and the number of days the program runs.'
+b'Output'
+b'Print TT answers \xe2\x80\x94 one per test case. For each test case print YES (case insensitive) if Adilbek can fit in nn days or NO (case insensitive) otherwise.'
+Tags
+binary search, brute force, math, ternary search, *1100

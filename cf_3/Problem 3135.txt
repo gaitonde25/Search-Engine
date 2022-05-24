@@ -1,0 +1,15 @@
+b'Chouti was tired of the tedious homework, so he opened up an old programming problem he created years ago.'
+b'You are given a connected undirected graph with nn vertices and mm weighted edges. There are kk special vertices: x1,x2,\xe2\x80\xa6,xkx1,x2,\xe2\x80\xa6,xk.'
+b"Let's define the cost of the path as the maximum weight of the edges in it. And the distance between two vertexes as the minimum cost of the paths connecting them."
+b'For each special vertex, find another special vertex which is farthest from it (in terms of the previous paragraph, i.e. the corresponding distance is maximum possible) and output the distance between them.'
+b'The original constraints are really small so he thought the problem was boring. Now, he raises the constraints and hopes you can solve it for him.'
+b'Input'
+b'The first line contains three integers nn, mm and kk (2\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4105, n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4105n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of vertices, the number of edges and the number of special vertices.'
+b'The second line contains kk distinct integers x1,x2,\xe2\x80\xa6,xkx1,x2,\xe2\x80\xa6,xk (1\xe2\x89\xa4xi\xe2\x89\xa4n1\xe2\x89\xa4xi\xe2\x89\xa4n).'
+b'Each of the following mm lines contains three integers uu, vv and ww (1\xe2\x89\xa4u,v\xe2\x89\xa4n,1\xe2\x89\xa4w\xe2\x89\xa41091\xe2\x89\xa4u,v\xe2\x89\xa4n,1\xe2\x89\xa4w\xe2\x89\xa4109), denoting there is an edge between uu and vv of weight ww. The given graph is undirected, so an edge (u,v)(u,v) can be used in the both directions.'
+b'The graph may have multiple edges and self-loops.'
+b'It is guaranteed, that the graph is connected.'
+b'Output'
+b'The first and only line should contain kk integers. The ii-th integer is the distance between xixi and the farthest special vertex from it.'
+Tags
+dsu, graphs, shortest paths, sortings, *1800

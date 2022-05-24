@@ -1,0 +1,13 @@
+b"You have two IP cameras of the same model. Each camera can take photos starting from some moment of time with a fixed period. You can freely choose the starting moment but you can choose the period only as one of kk values p1,p2,\xe2\x80\xa6,pkp1,p2,\xe2\x80\xa6,pk which are chosen by the camera's manufacturer."
+b"You have nn moments of interest x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn. You'd like to configure both cameras in such a way that at least one camera will take a photo in each of these moments. Configuring the camera means setting the moment when it takes the first photo and the gap between two consecutive photos (which should be one of the values p1,p2,\xe2\x80\xa6,pkp1,p2,\xe2\x80\xa6,pk). It's not a problem for you that cameras can take photos at other moments of time\xc2\xa0\xe2\x80\x94 you only care about moments of interest."
+b'Input'
+b'The first line contains two integers kk and nn (1\xe2\x89\xa4k\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4105; 2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of periods to choose and the number of moments of interest.'
+b'The second line contains kk integers p1,p2,\xe2\x80\xa6,pkp1,p2,\xe2\x80\xa6,pk (1\xe2\x89\xa4p1<p2<\xe2\x8b\xaf<pk\xe2\x89\xa41061\xe2\x89\xa4p1<p2<\xe2\x8b\xaf<pk\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the periods to choose in the ascending order.'
+b'The third line contains nn integers x1,x2,\xe2\x80\xa6,xnx1,x2,\xe2\x80\xa6,xn (1\xe2\x89\xa4x1<x2<\xe2\x8b\xaf<xn\xe2\x89\xa41061\xe2\x89\xa4x1<x2<\xe2\x8b\xaf<xn\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the moments of interest in the ascending order.'
+b'Output'
+b'Print YES (case insensitive) in the first line if there is a way to configure cameras.'
+b'In the second line, print two integers s1s1 and cp1cp1 (1\xe2\x89\xa4s1\xe2\x89\xa41061\xe2\x89\xa4s1\xe2\x89\xa4106; 1\xe2\x89\xa4cp1\xe2\x89\xa41061\xe2\x89\xa4cp1\xe2\x89\xa4106; cp1\xe2\x88\x88{p1,\xe2\x80\xa6,pk}cp1\xe2\x88\x88{p1,\xe2\x80\xa6,pk})\xc2\xa0\xe2\x80\x94 the starting moment and the period for the first camera. The period should be one of the given periods.'
+b'In the third line, print two integers s2s2 and cp2cp2 (1\xe2\x89\xa4s2\xe2\x89\xa41061\xe2\x89\xa4s2\xe2\x89\xa4106; 1\xe2\x89\xa4cp2\xe2\x89\xa41061\xe2\x89\xa4cp2\xe2\x89\xa4106; cp2\xe2\x88\x88{p1,\xe2\x80\xa6,pk}cp2\xe2\x88\x88{p1,\xe2\x80\xa6,pk})\xc2\xa0\xe2\x80\x94 the starting moment and the period for the second camera. The period should be one of the given periods.'
+b'If there is no way to configure cameras, print NO (case insensitive). If there are multiple ways, you may print any of them.'
+Tags
+*special problem, math, number theory, *2300

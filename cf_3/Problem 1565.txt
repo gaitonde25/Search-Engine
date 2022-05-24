@@ -1,0 +1,17 @@
+b'The length of the longest common prefix of two strings s=s1s2\xe2\x80\xa6sns=s1s2\xe2\x80\xa6sn and t=t1t2\xe2\x80\xa6tmt=t1t2\xe2\x80\xa6tm is defined as the maximum integer kk (0\xe2\x89\xa4k\xe2\x89\xa4min(n,m)0\xe2\x89\xa4k\xe2\x89\xa4min(n,m)) such that s1s2\xe2\x80\xa6sks1s2\xe2\x80\xa6sk equals t1t2\xe2\x80\xa6tkt1t2\xe2\x80\xa6tk.'
+b'Koa the Koala initially has n+1n+1 strings s1,s2,\xe2\x80\xa6,sn+1s1,s2,\xe2\x80\xa6,sn+1.'
+b'For each ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) she calculated aiai\xc2\xa0\xe2\x80\x94 the length of the longest common prefix of sisi and si+1si+1.'
+b"Several days later Koa found these numbers, but she couldn't remember the strings."
+b'So Koa would like to find some strings s1,s2,\xe2\x80\xa6,sn+1s1,s2,\xe2\x80\xa6,sn+1 which would have generated numbers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Can you help her?'
+b'If there are many answers print any. We can show that answer always exists for the given constraints. '
+b'Input'
+b'Each test contains multiple test cases. The first line contains tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of elements in the list aa.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4500\xe2\x89\xa4ai\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the elements of aa.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 100100.'
+b'Output'
+b'For each test case:'
+b'Output n+1n+1 lines. In the ii-th line print string sisi (1\xe2\x89\xa4|si|\xe2\x89\xa42001\xe2\x89\xa4|si|\xe2\x89\xa4200), consisting of lowercase Latin letters. Length of the longest common prefix of strings sisi and si+1si+1 has to be equal to aiai.'
+b'If there are many answers print any. We can show that answer always exists for the given constraints.'
+Tags
+constructive algorithms, greedy, strings, *1200

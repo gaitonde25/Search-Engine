@@ -1,0 +1,13 @@
+b'The circle line of the Roflanpolis subway has nn stations.'
+b'There are two parallel routes in the subway. The first one visits stations in order 1\xe2\x86\x922\xe2\x86\x92\xe2\x80\xa6\xe2\x86\x92n\xe2\x86\x921\xe2\x86\x922\xe2\x86\x92\xe2\x80\xa61\xe2\x86\x922\xe2\x86\x92\xe2\x80\xa6\xe2\x86\x92n\xe2\x86\x921\xe2\x86\x922\xe2\x86\x92\xe2\x80\xa6 (so the next stop after station xx is equal to (x+1)(x+1) if x<nx<n and 11 otherwise). The second route visits stations in order n\xe2\x86\x92(n\xe2\x88\x921)\xe2\x86\x92\xe2\x80\xa6\xe2\x86\x921\xe2\x86\x92n\xe2\x86\x92(n\xe2\x88\x921)\xe2\x86\x92\xe2\x80\xa6n\xe2\x86\x92(n\xe2\x88\x921)\xe2\x86\x92\xe2\x80\xa6\xe2\x86\x921\xe2\x86\x92n\xe2\x86\x92(n\xe2\x88\x921)\xe2\x86\x92\xe2\x80\xa6 (so the next stop after station xx is equal to (x\xe2\x88\x921)(x\xe2\x88\x921) if x>1x>1 and nn otherwise). All trains depart their stations simultaneously, and it takes exactly 11 minute to arrive at the next station.'
+b'Two toads live in this city, their names are Daniel and Vlad.'
+b'Daniel is currently in a train of the first route at station aa and will exit the subway when his train reaches station xx.'
+b'Coincidentally, Vlad is currently in a train of the second route at station bb and he will exit the subway when his train reaches station yy.'
+b'Surprisingly, all numbers a,x,b,ya,x,b,y are distinct.'
+b'Toad Ilya asks you to check if Daniel and Vlad will ever be at the same station at the same time during their journey. In other words, check if there is a moment when their trains stop at the same station. Note that this includes the moments when Daniel or Vlad enter or leave the subway.'
+b'Input'
+b"The first line contains five space-separated integers nn, aa, xx, bb, yy (4\xe2\x89\xa4n\xe2\x89\xa41004\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4a,x,b,y\xe2\x89\xa4n1\xe2\x89\xa4a,x,b,y\xe2\x89\xa4n, all numbers among aa, xx, bb, yy are distinct)\xc2\xa0\xe2\x80\x94 the number of stations in Roflanpolis, Daniel's start station, Daniel's finish station, Vlad's start station and Vlad's finish station, respectively."
+b'Output'
+b'Output "YES" if there is a time moment when Vlad and Daniel are at the same station, and "NO" otherwise. You can print each letter in any case (upper or lower).'
+Tags
+implementation, math, *900

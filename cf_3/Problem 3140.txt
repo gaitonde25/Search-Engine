@@ -1,0 +1,11 @@
+b'Sonya had a birthday recently. She was presented with the matrix of size n\xc3\x97mn\xc3\x97m and consist of lowercase Latin letters. We assume that the rows are numbered by integers from 11 to nn from bottom to top, and the columns are numbered from 11 to mm from left to right. '
+b"Let's call a submatrix (i1,j1,i2,j2)(i1,j1,i2,j2) (1\xe2\x89\xa4i1\xe2\x89\xa4i2\xe2\x89\xa4n;1\xe2\x89\xa4j1\xe2\x89\xa4j2\xe2\x89\xa4m)(1\xe2\x89\xa4i1\xe2\x89\xa4i2\xe2\x89\xa4n;1\xe2\x89\xa4j1\xe2\x89\xa4j2\xe2\x89\xa4m) elements aijaij of this matrix, such that i1\xe2\x89\xa4i\xe2\x89\xa4i2i1\xe2\x89\xa4i\xe2\x89\xa4i2 and j1\xe2\x89\xa4j\xe2\x89\xa4j2j1\xe2\x89\xa4j\xe2\x89\xa4j2. Sonya states that a submatrix is beautiful if we can independently reorder the characters in each row (not in column) so that all rows and columns of this submatrix form palidroms. "
+b"Let's recall that a string is called palindrome if it reads the same from left to right and from right to left. For example, strings abacaba,bcaacb,aabacaba,bcaacb,a are palindromes while strings abca,acbba,ababca,acbba,ab are not."
+b'Help Sonya to find the number of beautiful submatrixes. Submatrixes are different if there is an element that belongs to only one submatrix.'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa4250)(1\xe2\x89\xa4n,m\xe2\x89\xa4250)\xc2\xa0\xe2\x80\x94 the matrix dimensions.'
+b'Each of the next nn lines contains mm lowercase Latin letters.'
+b'Output'
+b'Print one integer\xc2\xa0\xe2\x80\x94 the number of beautiful submatrixes.'
+Tags
+strings, *2400

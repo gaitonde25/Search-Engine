@@ -1,0 +1,11 @@
+b'A string is called bracket sequence if it does not contain any characters other than "(" and ")". A bracket sequence is called regular (shortly, RBS) if it is possible to obtain correct arithmetic expression by inserting characters "+" and "1" into this sequence. For example, "", "(())" and "()()" are RBS and ")(" and "(()" are not.'
+b'We can see that each opening bracket in RBS is paired with some closing bracket, and, using this fact, we can define nesting depth of the RBS as maximum number of bracket pairs, such that the 22-nd pair lies inside the 11-st one, the 33-rd one \xe2\x80\x94 inside the 22-nd one and so on. For example, nesting depth of "" is 00, "()()()" is 11 and "()((())())" is 33.'
+b'Now, you are given RBS ss of even length nn. You should color each bracket of ss into one of two colors: red or blue. Bracket sequence rr, consisting only of red brackets, should be RBS, and bracket sequence, consisting only of blue brackets bb, should be RBS. Any of them can be empty. You are not allowed to reorder characters in ss, rr or bb. No brackets can be left uncolored.'
+b"Among all possible variants you should choose one that minimizes maximum of rr's and bb's nesting depth. If there are multiple solutions you can print any of them."
+b'Input'
+b'The first line contains an even integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of RBS ss.'
+b'The second line contains regular bracket sequence ss (|s|=n|s|=n, si\xe2\x88\x88{si\xe2\x88\x88{"(", ")"}}).'
+b'Output'
+b'Print single string tt of length nn consisting of "0"-s and "1"-s. If titi is equal to 0 then character sisi belongs to RBS rr, otherwise sisi belongs to bb.'
+Tags
+constructive algorithms, greedy, *1500

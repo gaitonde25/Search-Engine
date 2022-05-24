@@ -1,0 +1,12 @@
+b'You are the gym teacher in the school.'
+b'There are nn students in the row. And there are two rivalling students among them. The first one is in position aa, the second in position bb. Positions are numbered from 11 to nn from left to right.'
+b'Since they are rivals, you want to maximize the distance between them. If students are in positions pp and ss respectively, then distance between them is |p\xe2\x88\x92s||p\xe2\x88\x92s|. '
+b'You can do the following operation at most xx times: choose two adjacent (neighbouring) students and swap them.'
+b'Calculate the maximum distance between two rivalling students after at most xx swaps.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The only line of each test case contains four integers nn, xx, aa and bb (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100, 0\xe2\x89\xa4x\xe2\x89\xa41000\xe2\x89\xa4x\xe2\x89\xa4100, 1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n, a\xe2\x89\xa0ba\xe2\x89\xa0b) \xe2\x80\x94 the number of students in the row, the number of swaps which you can do, and positions of first and second rivaling students respectively.'
+b'Output'
+b'For each test case print one integer \xe2\x80\x94 the maximum distance between two rivaling students which you can obtain.'
+Tags
+greedy, math, *800

@@ -1,0 +1,11 @@
+b'You are given a string s and should process m queries. Each query is described by two 1-based indices li, ri and integer ki. It means that you should cyclically shift the substring s[li... ri] ki times. The queries should be processed one after another in the order they are given.'
+b'One operation of a cyclic shift (rotation) is equivalent to moving the last character to the position of the first character and shifting all other characters one position to the right.'
+b'For example, if the string s is abacaba and the query is l1\xe2\x80\x89=\xe2\x80\x893,\xe2\x80\x89r1\xe2\x80\x89=\xe2\x80\x896,\xe2\x80\x89k1\xe2\x80\x89=\xe2\x80\x891 then the answer is abbacaa. If after that we would process the query l2\xe2\x80\x89=\xe2\x80\x891,\xe2\x80\x89r2\xe2\x80\x89=\xe2\x80\x894,\xe2\x80\x89k2\xe2\x80\x89=\xe2\x80\x892 then we would get the string baabcaa.'
+b'Input'
+b'The first line of the input contains the string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000) in its initial state, where |s| stands for the length of s. It contains only lowercase English letters.'
+b'Second line contains a single integer m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300)\xc2\xa0\xe2\x80\x94 the number of queries.'
+b'The i-th of the next m lines contains three integers li, ri and ki (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ki\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the description of the i-th query.'
+b'Output'
+b'Print the resulting string s after processing all m queries.'
+Tags
+implementation, strings, *1300

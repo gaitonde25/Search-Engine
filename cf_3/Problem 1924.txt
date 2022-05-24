@@ -1,0 +1,12 @@
+b'Polycarp is preparing the first programming contest for robots. There are nn problems in it, and a lot of robots are going to participate in it. Each robot solving the problem ii gets pipi points, and the score of each robot in the competition is calculated as the sum of pipi over all problems ii solved by it. For each problem, pipi is an integer not less than 11.'
+b'Two corporations specializing in problem-solving robot manufacturing, "Robo-Coder Inc." and "BionicSolver Industries", are going to register two robots (one for each corporation) for participation as well. Polycarp knows the advantages and flaws of robots produced by these companies, so, for each problem, he knows precisely whether each robot will solve it during the competition. Knowing this, he can try predicting the results \xe2\x80\x94 or manipulating them. '
+b'For some reason (which absolutely cannot involve bribing), Polycarp wants the "Robo-Coder Inc." robot to outperform the "BionicSolver Industries" robot in the competition. Polycarp wants to set the values of pipi in such a way that the "Robo-Coder Inc." robot gets strictly more points than the "BionicSolver Industries" robot. However, if the values of pipi will be large, it may look very suspicious \xe2\x80\x94 so Polycarp wants to minimize the maximum value of pipi over all problems. Can you help Polycarp to determine the minimum possible upper bound on the number of points given for solving the problems?'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of problems.'
+b'The second line contains nn integers r1r1, r2r2, ..., rnrn (0\xe2\x89\xa4ri\xe2\x89\xa410\xe2\x89\xa4ri\xe2\x89\xa41). ri=1ri=1 means that the "Robo-Coder Inc." robot will solve the ii-th problem, ri=0ri=0 means that it won\'t solve the ii-th problem.'
+b'The third line contains nn integers b1b1, b2b2, ..., bnbn (0\xe2\x89\xa4bi\xe2\x89\xa410\xe2\x89\xa4bi\xe2\x89\xa41). bi=1bi=1 means that the "BionicSolver Industries" robot will solve the ii-th problem, bi=0bi=0 means that it won\'t solve the ii-th problem.'
+b'Output'
+b'If "Robo-Coder Inc." robot cannot outperform the "BionicSolver Industries" robot by any means, print one integer \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print the minimum possible value of maxi=1npimaxi=1npi, if all values of pipi are set in such a way that the "Robo-Coder Inc." robot gets strictly more points than the "BionicSolver Industries" robot.'
+Tags
+greedy, *900

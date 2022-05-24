@@ -1,0 +1,13 @@
+b'There are n cities and n\xe2\x80\x89-\xe2\x80\x891 roads in the Seven Kingdoms, each road connects two cities and we can reach any city from any other by the roads.'
+b"Theon and Yara Greyjoy are on a horse in the first city, they are starting traveling through the roads. But the weather is foggy, so they can\xe2\x80\x99t see where the horse brings them. When the horse reaches a city (including the first one), it goes to one of the cities connected to the current city. But it is a strange horse, it only goes to cities in which they weren't before. In each such city, the horse goes with equal probabilities and it stops when there are no such cities. "
+b'Let the length of each road be 1. The journey starts in the city 1. What is the expected length (expected value of length) of their journey? You can read about expected (average) value by the link https://en.wikipedia.org/wiki/Expected_value.'
+b'Input'
+b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000)\xc2\xa0\xe2\x80\x94 number of cities.'
+b'Then n\xe2\x80\x89-\xe2\x80\x891 lines follow. The i-th line of these lines contains two integers ui and vi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui,\xe2\x80\x89vi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, ui\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89vi)\xc2\xa0\xe2\x80\x94 the cities connected by the i-th road.'
+b'It is guaranteed that one can reach any city from any other by the roads.'
+b'Output'
+b'Print a number\xc2\xa0\xe2\x80\x94 the expected length of their journey. The journey starts in the city 1.'
+b'Your answer will be considered correct if its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x896.'
+b"Namely: let's assume that your answer is a, and the answer of the jury is b. The checker program will consider your answer correct, if ."
+Tags
+dfs and similar, dp, graphs, probabilities, trees, *1500

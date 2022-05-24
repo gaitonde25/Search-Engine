@@ -1,0 +1,12 @@
+b"Christmas was knocking on the door, and our protagonist, Bob, was preparing a spectacular present for his long-time second best friend Charlie. As chocolate boxes are lame, he decided to decorate a tree instead. Bob's tree can be represented as an undirected connected graph with nn nodes (numbered 11 to nn) and n\xe2\x88\x921n\xe2\x88\x921 edges. Initially, Bob placed a decoration with label ii on node ii, for each 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n. However, as such a simple arrangement is lame, he decided to shuffle the decorations a bit. Formally, Bob did the following steps:"
+b' First, he listed the n\xe2\x88\x921n\xe2\x88\x921 edges in some order. Then, he considered the edges one by one in that order. For each edge (u,v)(u,v), he swapped the decorations of node uu with the one of node vv.'
+b'After finishing, Bob seemed satisfied with the arrangement, so he went to sleep.'
+b"The next morning, Bob wakes up only to find out that his beautiful arrangement has been ruined! Last night, Bob's younger brother Bobo dropped some of the decorations on the floor while he was playing with the tree. Fortunately, no decorations were lost, so Bob can repair the tree in no time. However, he completely forgets how the tree looked like yesterday. Therefore, given the labels of the decorations still on the tree, Bob wants to know the number of possible configurations of the tree. As the result can be quite large, Bob will be happy if you can output the result modulo 10000000071000000007 (109+7109+7). Note that, it is possible that there exists no possible configurations."
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa45000002\xe2\x89\xa4n\xe2\x89\xa4500000)\xc2\xa0\xe2\x80\x94 the number of nodes.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n), denoting that there is an edge connecting two nodes uu and vv. It is guaranteed that the given edges form a tree.'
+b'The last line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4n0\xe2\x89\xa4ai\xe2\x89\xa4n). For each ii, ai=0ai=0 means that the decoration of node ii has been dropped on the floor. Otherwise, aiai is the label of the decoration of node ii. It is guaranteed that no label appears more than once.'
+b'Output'
+b'Output the number of possible configurations modulo 10000000071000000007 (109+7109+7).'
+Tags
+combinatorics, dfs and similar, dsu, trees, *3300

@@ -1,0 +1,12 @@
+b"You are given two strings ss and tt. The string ss consists of lowercase Latin letters and at most one wildcard character '*', the string tt consists only of lowercase Latin letters. The length of the string ss equals nn, the length of the string tt equals mm."
+b"The wildcard character '*' in the string ss (if any) can be replaced with an arbitrary sequence (possibly empty) of lowercase Latin letters. No other character of ss can be replaced with anything. If it is possible to replace a wildcard character '*' in ss to obtain a string tt, then the string tt matches the pattern ss."
+b'For example, if s=s="aba*aba" then the following strings match it "abaaba", "abacaba" and "abazzzaba", but the following strings do not match: "ababa", "abcaaba", "codeforces", "aba1aba", "aba?aba".'
+b'If the given string tt matches the given string ss, print "YES", otherwise print "NO".'
+b'Input'
+b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n,m\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of the string ss and the length of the string tt, respectively.'
+b"The second line contains string ss of length nn, which consists of lowercase Latin letters and at most one wildcard character '*'."
+b'The third line contains string tt of length mm, which consists only of lowercase Latin letters.'
+b'Output'
+b'Print "YES" (without quotes), if you can obtain the string tt from the string ss. Otherwise print "NO" (without quotes).'
+Tags
+brute force, implementation, strings, *1200

@@ -1,0 +1,12 @@
+b'Ostap Bender recently visited frog farm and was inspired to create his own frog game.'
+b'Number of frogs are places on a cyclic gameboard, divided into m cells. Cells are numbered from 1 to m, but the board is cyclic, so cell number 1 goes right after the cell number m in the direction of movement. i-th frog during its turn can jump for ai cells.'
+b"Frogs move in turns, game starts with a move by frog 1. On its turn i-th frog moves ai cells forward, knocking out all the frogs on its way. If there is a frog in the last cell of the path of the i-th frog, that frog is also knocked out. After this the value ai is decreased by the number of frogs that were knocked out during this turn. If ai is zero or goes negative, then i-th frog doesn't make moves anymore."
+b'After frog number 1 finishes its turn, frog number 2 starts to move, then frog number 3 and so on. After the frog number n makes its move, frog 1 starts to move again, then frog 2 and so on this process goes forever. If some frog was already knocked out from the board, we consider that it skips all its moves.'
+b'Help Ostap to identify, what frogs will stay on the board at the end of a game?'
+b'Input'
+b'First line of the input contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109,\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m)\xc2\xa0\xe2\x80\x94 number of frogs and gameboard size, respectively.'
+b'Following n lines contains frogs descriptions\xc2\xa0\xe2\x80\x94 two integers pi and ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi,\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m)\xc2\xa0\xe2\x80\x94 the number of cell occupied by i-th frog initially and initial jump length. All pi are guaranteed to be distinct.'
+b'Output'
+b'In the first line output number of frogs on the final gameboard. In the second line output their numbers in any order.'
+Tags
+data structures, greedy, *2800

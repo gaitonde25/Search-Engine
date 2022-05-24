@@ -1,0 +1,11 @@
+b'One day Om Nom found a thread with n beads of different colors. He decided to cut the first several beads from this thread to make a bead necklace and present it to his girlfriend Om Nelly.'
+b'  '
+b'Om Nom knows that his girlfriend loves beautiful patterns. That\'s why he wants the beads on the necklace to form a regular pattern. A sequence of beads S is regular if it can be represented as S\xe2\x80\x89=\xe2\x80\x89A\xe2\x80\x89+\xe2\x80\x89B\xe2\x80\x89+\xe2\x80\x89A\xe2\x80\x89+\xe2\x80\x89B\xe2\x80\x89+\xe2\x80\x89A\xe2\x80\x89+\xe2\x80\x89...\xe2\x80\x89+\xe2\x80\x89A\xe2\x80\x89+\xe2\x80\x89B\xe2\x80\x89+\xe2\x80\x89A, where A and B are some bead sequences, "\xe2\x80\x89+\xe2\x80\x89" is the concatenation of sequences, there are exactly 2k\xe2\x80\x89+\xe2\x80\x891 summands in this sum, among which there are k\xe2\x80\x89+\xe2\x80\x891 "A" summands and k "B" summands that follow in alternating order. Om Nelly knows that her friend is an eager mathematician, so she doesn\'t mind if A or B is an empty sequence.'
+b"Help Om Nom determine in which ways he can cut off the first several beads from the found thread (at least one; probably, all) so that they form a regular pattern. When Om Nom cuts off the beads, he doesn't change their order."
+b'Input'
+b'The first line contains two integers n, k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000) \xe2\x80\x94 the number of beads on the thread that Om Nom found and number k from the definition of the regular sequence above.'
+b'The second line contains the sequence of n lowercase Latin letters that represent the colors of the beads. Each color corresponds to a single letter.'
+b'Output'
+b'Print a string consisting of n zeroes and ones. Position i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) must contain either number one if the first i beads on the thread form a regular sequence, or a zero otherwise.'
+Tags
+hashing, string suffix structures, strings, *2200

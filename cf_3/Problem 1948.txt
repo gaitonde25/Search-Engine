@@ -1,0 +1,10 @@
+b'You are given an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. You can perform the following operation any number of times:'
+b'  Choose a pair of two neighboring equal elements ai=ai+1ai=ai+1 (if there is at least one such pair).  Replace them by one element with value ai+1ai+1. '
+b'After each such operation, the length of the array will decrease by one (and elements are renumerated accordingly). What is the minimum possible length of the array aa you can get?'
+b'Input'
+b'The first line contains the single integer nn (1\xe2\x89\xa4n\xe2\x89\xa45001\xe2\x89\xa4n\xe2\x89\xa4500) \xe2\x80\x94 the initial length of the array aa.'
+b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa410001\xe2\x89\xa4ai\xe2\x89\xa41000) \xe2\x80\x94 the initial array aa.'
+b'Output'
+b'Print the only integer \xe2\x80\x94 the minimum possible length you can get after performing the operation described above any number of times.'
+Tags
+dp, greedy, *2100

@@ -1,0 +1,11 @@
+b'You are given two arrays aa and bb, each contains nn integers.'
+b'You want to create a new array cc as follows: choose some real (i.e. not necessarily integer) number dd, and then for every i\xe2\x88\x88[1,n]i\xe2\x88\x88[1,n] let ci:=d\xe2\x8b\x85ai+bici:=d\xe2\x8b\x85ai+bi.'
+b'Your goal is to maximize the number of zeroes in array cc. What is the largest possible answer, if you choose dd optimally?'
+b'Input'
+b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements in both arrays.'
+b'The second line contains nn integers a1a1, a2a2, ..., anan (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'The third line contains nn integers b1b1, b2b2, ..., bnbn (\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4bi\xe2\x89\xa4109).'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum number of zeroes in array cc, if you choose dd optimally.'
+Tags
+hashing, math, number theory, *1500

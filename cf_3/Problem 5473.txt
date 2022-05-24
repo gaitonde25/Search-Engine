@@ -1,0 +1,11 @@
+b'In some country there are exactly n cities and m bidirectional roads connecting the cities. Cities are numbered with integers from 1 to n. If cities a and b are connected by a road, then in an hour you can go along this road either from city a to city b, or from city b to city a. The road network is such that from any city you can get to any other one by moving along the roads.'
+b'You want to destroy the largest possible number of roads in the country so that the remaining roads would allow you to get from city s1 to city t1 in at most l1 hours and get from city s2 to city t2 in at most l2 hours.'
+b'Determine what maximum number of roads you need to destroy in order to meet the condition of your plan. If it is impossible to reach the desired result, print -1.'
+b'Input'
+b'The first line contains two integers n, m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893000, )\xc2\xa0\xe2\x80\x94 the number of cities and roads in the country, respectively. '
+b'Next m lines contain the descriptions of the roads as pairs of integers ai, bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89bi). It is guaranteed that the roads that are given in the description can transport you from any city to any other one. It is guaranteed that each pair of cities has at most one road between them.'
+b'The last two lines contains three integers each, s1, t1, l1 and s2, t2, l2, respectively (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89si,\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Output'
+b'Print a single number \xe2\x80\x94 the answer to the problem. If the it is impossible to meet the conditions, print -1.'
+Tags
+constructive algorithms, graphs, shortest paths, *2100

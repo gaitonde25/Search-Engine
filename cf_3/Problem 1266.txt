@@ -1,0 +1,12 @@
+b'One drew a closed polyline on a plane, that consisted only of vertical and horizontal segments (parallel to the coordinate axes). The segments alternated between horizontal and vertical ones (a horizontal segment was always followed by a vertical one, and vice versa). The polyline did not contain strict self-intersections, which means that in case any two segments shared a common point, that point was an endpoint for both of them (please consult the examples in the notes section).'
+b'Unfortunately, the polyline was erased, and you only know the lengths of the horizonal and vertical segments. Please construct any polyline matching the description with such segments, or determine that it does not exist.'
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42001\xe2\x89\xa4t\xe2\x89\xa4200)\xc2\xa0\xe2\x80\x94the number of test cases.'
+b'The first line of each test case contains one integer hh (1\xe2\x89\xa4h\xe2\x89\xa410001\xe2\x89\xa4h\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of horizontal segments. The following line contains hh integers l1,l2,\xe2\x80\xa6,lhl1,l2,\xe2\x80\xa6,lh (1\xe2\x89\xa4li\xe2\x89\xa410001\xe2\x89\xa4li\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 lengths of the horizontal segments of the polyline, in arbitrary order.'
+b'The following line contains an integer vv (1\xe2\x89\xa4v\xe2\x89\xa410001\xe2\x89\xa4v\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of vertical segments, which is followed by a line containing vv integers p1,p2,\xe2\x80\xa6,pvp1,p2,\xe2\x80\xa6,pv (1\xe2\x89\xa4pi\xe2\x89\xa410001\xe2\x89\xa4pi\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 lengths of the vertical segments of the polyline, in arbitrary order.'
+b'Test cases are separated by a blank line, and the sum of values h+vh+v over all test cases does not exceed 10001000.'
+b'Output'
+b'For each test case output Yes, if there exists at least one polyline satisfying the requirements, or No otherwise. If it does exist, in the following nn lines print the coordinates of the polyline vertices, in order of the polyline traversal: the ii-th line should contain two integers xixi and yiyi\xc2\xa0\xe2\x80\x94 coordinates of the ii-th vertex.'
+b'Note that, each polyline segment must be either horizontal or vertical, and the segments should alternate between horizontal and vertical. The coordinates should not exceed 109109 by their absolute value.'
+Tags
+constructive algorithms, dp, geometry, *2900

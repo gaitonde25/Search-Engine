@@ -1,0 +1,17 @@
+b'You are given two strings xx and yy, both consist only of lowercase Latin letters. Let |s||s| be the length of string ss.'
+b"Let's call a sequence aa a merging sequence if it consists of exactly |x||x| zeros and exactly |y||y| ones in some order."
+b'A merge zz is produced from a sequence aa by the following rules: '
+b'  if ai=0ai=0, then remove a letter from the beginning of xx and append it to the end of zz;  if ai=1ai=1, then remove a letter from the beginning of yy and append it to the end of zz. '
+b'Two merging sequences aa and bb are different if there is some position ii such that ai\xe2\x89\xa0biai\xe2\x89\xa0bi.'
+b"Let's call a string zz chaotic if for all ii from 22 to |z||z| zi\xe2\x88\x921\xe2\x89\xa0zizi\xe2\x88\x921\xe2\x89\xa0zi."
+b'Let s[l,r]s[l,r] for some 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s|1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4|s| be a substring of consecutive letters of ss, starting from position ll and ending at position rr inclusive.'
+b'Let f(l1,r1,l2,r2)f(l1,r1,l2,r2) be the number of different merging sequences of x[l1,r1]x[l1,r1] and y[l2,r2]y[l2,r2] that produce chaotic merges. Note that only non-empty substrings of xx and yy are considered.'
+b'Calculate \xe2\x88\x911\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa4|x|1\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa4|y|f(l1,r1,l2,r2)\xe2\x88\x911\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa4|x|1\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa4|y|f(l1,r1,l2,r2). Output the answer modulo 998244353998244353.'
+b'Input'
+b'The first line contains a string xx (1\xe2\x89\xa4|x|\xe2\x89\xa410001\xe2\x89\xa4|x|\xe2\x89\xa41000).'
+b'The second line contains a string yy (1\xe2\x89\xa4|y|\xe2\x89\xa410001\xe2\x89\xa4|y|\xe2\x89\xa41000).'
+b'Both strings consist only of lowercase Latin letters.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the sum of f(l1,r1,l2,r2)f(l1,r1,l2,r2) over 1\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa4|x|1\xe2\x89\xa4l1\xe2\x89\xa4r1\xe2\x89\xa4|x| and 1\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa4|y|1\xe2\x89\xa4l2\xe2\x89\xa4r2\xe2\x89\xa4|y| modulo 998244353998244353.'
+Tags
+combinatorics, dp, math, strings, *2400

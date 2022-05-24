@@ -1,0 +1,10 @@
+b'You invited nn guests to dinner! You plan to arrange one or more circles of chairs. Each chair is going to be either occupied by one guest, or be empty. You can make any number of circles. '
+b'Your guests happen to be a little bit shy, so the ii-th guest wants to have a least lili free chairs to the left of his chair, and at least riri free chairs to the right. The "left" and "right" directions are chosen assuming all guests are going to be seated towards the center of the circle. Note that when a guest is the only one in his circle, the lili chairs to his left and riri chairs to his right may overlap.'
+b'What is smallest total number of chairs you have to use?'
+b'Input'
+b'First line contains one integer nn \xc2\xa0\xe2\x80\x94 number of guests, (1\xe2\xa9\xbdn\xe2\xa9\xbd1051\xe2\xa9\xbdn\xe2\xa9\xbd105). '
+b'Next nn lines contain nn pairs of space-separated integers lili and riri (0\xe2\xa9\xbdli,ri\xe2\xa9\xbd1090\xe2\xa9\xbdli,ri\xe2\xa9\xbd109).'
+b'Output'
+b'Output a single integer\xc2\xa0\xe2\x80\x94 the smallest number of chairs you have to use.'
+Tags
+greedy, math, *1900

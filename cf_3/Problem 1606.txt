@@ -1,0 +1,14 @@
+b'You are given an array aa consisting of nn positive integers.'
+b'Initially, you have an integer x=0x=0. During one move, you can do one of the following two operations:'
+b'  Choose exactly one ii from 11 to nn and increase aiai by xx (ai:=ai+xai:=ai+x), then increase xx by 11 (x:=x+1x:=x+1).  Just increase xx by 11 (x:=x+1x:=x+1). '
+b'The first operation can be applied no more than once to each ii from 11 to nn.'
+b'Your task is to find the minimum number of moves required to obtain such an array that each its element is divisible by kk (the value kk is given).'
+b'You have to answer tt independent test cases. '
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of the test case contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105;1\xe2\x89\xa4k\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105;1\xe2\x89\xa4k\xe2\x89\xa4109) \xe2\x80\x94 the length of aa and the required divisior. The second line of the test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109), where aiai is the ii-th element of aa.'
+b'It is guaranteed that the sum of nn does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105 (\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105\xe2\x88\x91n\xe2\x89\xa42\xe2\x8b\x85105).'
+b'Output'
+b'For each test case, print the answer \xe2\x80\x94 the minimum number of moves required to obtain such an array that each its element is divisible by kk.'
+Tags
+math, sortings, two pointers, *1400

@@ -1,0 +1,11 @@
+b'You are given a square board, consisting of nn rows and nn columns. Each tile in it should be colored either white or black.'
+b"Let's call some coloring beautiful if each pair of adjacent rows are either the same or different in every position. The same condition should be held for the columns as well."
+b"Let's call some coloring suitable if it is beautiful and there is no rectangle of the single color, consisting of at least kk tiles."
+b'Your task is to count the number of suitable colorings of the board of the given size.'
+b'Since the answer can be very large, print it modulo 998244353998244353.'
+b'Input'
+b'A single line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa45001\xe2\x89\xa4n\xe2\x89\xa4500, 1\xe2\x89\xa4k\xe2\x89\xa4n21\xe2\x89\xa4k\xe2\x89\xa4n2) \xe2\x80\x94 the number of rows and columns of the board and the maximum number of tiles inside the rectangle of the single color, respectively.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the number of suitable colorings of the board of the given size modulo 998244353998244353.'
+Tags
+combinatorics, dp, math, *2100

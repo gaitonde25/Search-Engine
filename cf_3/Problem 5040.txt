@@ -1,0 +1,15 @@
+b'There are some websites that are accessible through several different addresses. For example, for a long time Codeforces was accessible with two hostnames codeforces.com and codeforces.ru.'
+b'You are given a list of page addresses being queried. For simplicity we consider all addresses to have the form http://<hostname>[/<path>], where:'
+b'  <hostname>\xc2\xa0\xe2\x80\x94 server name (consists of words and maybe some dots separating them),  /<path>\xc2\xa0\xe2\x80\x94 optional part, where <path> consists of words separated by slashes. '
+b'We consider two <hostname> to correspond to one website if for each query to the first <hostname> there will be exactly the same query to the second one and vice versa\xc2\xa0\xe2\x80\x94 for each query to the second <hostname> there will be the same query to the first one. Take a look at the samples for further clarifications.'
+b'Your goal is to determine the groups of server names that correspond to one website. Ignore groups consisting of the only server name.'
+b'Please note, that according to the above definition queries http://<hostname> and http://<hostname>/ are different.'
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of page queries. Then follow n lines each containing exactly one address. Each address is of the form http://<hostname>[/<path>], where:'
+b"  <hostname> consists of lowercase English letters and dots, there are no two consecutive dots, <hostname> doesn't start or finish with a dot. The length of <hostname> is positive and doesn't exceed 20.  <path> consists of lowercase English letters, dots and slashes. There are no two consecutive slashes, <path> doesn't start with a slash and its length doesn't exceed 20. "
+b'Addresses are not guaranteed to be distinct.'
+b'Output'
+b'First print k\xc2\xa0\xe2\x80\x94 the number of groups of server names that correspond to one website. You should count only groups of size greater than one.'
+b'Next k lines should contain the description of groups, one group per line. For each group print all server names separated by a single space. You are allowed to print both groups and names inside any group in arbitrary order.'
+Tags
+*special problem, binary search, data structures, implementation, sortings, strings, *2100

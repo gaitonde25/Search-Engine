@@ -1,0 +1,11 @@
+b'Suppose you are performing the following algorithm. There is an array v1,v2,\xe2\x80\xa6,vnv1,v2,\xe2\x80\xa6,vn filled with zeroes at start. The following operation is applied to the array several times \xe2\x80\x94 at ii-th step (00-indexed) you can: '
+b'  either choose position pospos (1\xe2\x89\xa4pos\xe2\x89\xa4n1\xe2\x89\xa4pos\xe2\x89\xa4n) and increase vposvpos by kiki;  or not choose any position and skip this step. '
+b'You can choose how the algorithm would behave on each step and when to stop it. The question is: can you make array vv equal to the given array aa (vj=ajvj=aj for each jj) after some step?'
+b'Input'
+b'The first line contains one integer TT (1\xe2\x89\xa4T\xe2\x89\xa410001\xe2\x89\xa4T\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. Next 2T2T lines contain test cases \xe2\x80\x94 two lines per test case.'
+b'The first line of each test case contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa4301\xe2\x89\xa4n\xe2\x89\xa430, 2\xe2\x89\xa4k\xe2\x89\xa41002\xe2\x89\xa4k\xe2\x89\xa4100) \xe2\x80\x94 the size of arrays vv and aa and value kk used in the algorithm.'
+b"The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa410160\xe2\x89\xa4ai\xe2\x89\xa41016) \xe2\x80\x94 the array you'd like to achieve."
+b'Output'
+b'For each test case print YES (case insensitive) if you can achieve the array aa after some step or NO (case insensitive) otherwise.'
+Tags
+bitmasks, greedy, implementation, math, number theory, ternary search, *1400

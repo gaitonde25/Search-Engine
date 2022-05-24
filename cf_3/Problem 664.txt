@@ -1,0 +1,13 @@
+b'  '
+b'As mentioned previously William really likes playing video games. In one of his favorite games, the player character is in a universe where every planet is designated by a binary number from 00 to 2n\xe2\x88\x9212n\xe2\x88\x921. On each planet, there are gates that allow the player to move from planet ii to planet jj if the binary representations of ii and jj differ in exactly one bit.'
+b'William wants to test you and see how you can handle processing the following queries in this game universe:'
+b'  Destroy planets with numbers from ll to rr inclusively. These planets cannot be moved to anymore. Figure out if it is possible to reach planet bb from planet aa using some number of planetary gates. It is guaranteed that the planets aa and bb are not destroyed. '
+b'Input'
+b"The first line contains two integers nn, mm (1\xe2\x89\xa4n\xe2\x89\xa4501\xe2\x89\xa4n\xe2\x89\xa450, 1\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x851041\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x85104), which are the number of bits in binary representation of each planets' designation and the number of queries, respectively."
+b'Each of the next mm lines contains a query of two types:'
+b"block l r\xc2\xa0\xe2\x80\x94 query for destruction of planets with numbers from ll to rr inclusively (0\xe2\x89\xa4l\xe2\x89\xa4r<2n0\xe2\x89\xa4l\xe2\x89\xa4r<2n). It's guaranteed that no planet will be destroyed twice."
+b"ask a b\xc2\xa0\xe2\x80\x94 query for reachability between planets aa and bb (0\xe2\x89\xa4a,b<2n0\xe2\x89\xa4a,b<2n). It's guaranteed that planets aa and bb hasn't been destroyed yet."
+b'Output'
+b'For each query of type ask you must output "1" in a new line, if it is possible to reach planet bb from planet aa and "0" otherwise (without quotation marks).'
+Tags
+bitmasks, data structures, dsu, two pointers, *3300

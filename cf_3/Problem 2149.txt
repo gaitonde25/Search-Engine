@@ -1,0 +1,12 @@
+b'There are nn blocks arranged in a row and numbered from left to right, starting from one. Each block is either black or white. '
+b'You may perform the following operation zero or more times: choose two adjacent blocks and invert their colors (white block becomes black, and vice versa). '
+b"You want to find a sequence of operations, such that they make all the blocks having the same color. You don't have to minimize the number of operations, but it should not exceed 3\xe2\x8b\x85n3\xe2\x8b\x85n. If it is impossible to find such a sequence of operations, you need to report it."
+b'Input'
+b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42002\xe2\x89\xa4n\xe2\x89\xa4200) \xe2\x80\x94 the number of blocks.'
+b'The second line contains one string ss consisting of nn characters, each character is either "W" or "B". If the ii-th character is "W", then the ii-th block is white. If the ii-th character is "B", then the ii-th block is black. '
+b'Output'
+b'If it is impossible to make all the blocks having the same color, print \xe2\x88\x921\xe2\x88\x921.'
+b'Otherwise, print an integer kk (0\xe2\x89\xa4k\xe2\x89\xa43\xe2\x8b\x85n0\xe2\x89\xa4k\xe2\x89\xa43\xe2\x8b\x85n) \xe2\x80\x94 the number of operations. Then print kk integers p1,p2,\xe2\x80\xa6,pkp1,p2,\xe2\x80\xa6,pk (1\xe2\x89\xa4pj\xe2\x89\xa4n\xe2\x88\x921)(1\xe2\x89\xa4pj\xe2\x89\xa4n\xe2\x88\x921), where pjpj is the position of the left block in the pair of blocks that should be affected by the jj-th operation.'
+b'If there are multiple answers, print any of them.'
+Tags
+greedy, math, *1300

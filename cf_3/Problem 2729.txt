@@ -1,0 +1,10 @@
+b'Let ss be some string consisting of symbols "0" or "1". Let\'s call a string tt a substring of string ss, if there exists such number 1\xe2\x89\xa4l\xe2\x89\xa4|s|\xe2\x88\x92|t|+11\xe2\x89\xa4l\xe2\x89\xa4|s|\xe2\x88\x92|t|+1 that t=slsl+1\xe2\x80\xa6sl+|t|\xe2\x88\x921t=slsl+1\xe2\x80\xa6sl+|t|\xe2\x88\x921. Let\'s call a substring tt of string ss unique, if there exist only one such ll. '
+b'For example, let s=s="1010111". A string t=t="010" is an unique substring of ss, because l=2l=2 is the only one suitable number. But, for example t=t="10" isn\'t a unique substring of ss, because l=1l=1 and l=3l=3 are suitable. And for example t=t="00" at all isn\'t a substring of ss, because there is no suitable ll.'
+b'Today Vasya solved the following problem at the informatics lesson: given a string consisting of symbols "0" and "1", the task is to find the length of its minimal unique substring. He has written a solution to this problem and wants to test it. He is asking you to help him.'
+b'You are given 22 positive integers nn and kk, such that (nmod2)=(kmod2)(nmod2)=(kmod2), where (xmod2)(xmod2) is operation of taking remainder of xx by dividing on 22. Find any string ss consisting of nn symbols "0" or "1", such that the length of its minimal unique substring is equal to kk.'
+b'Input'
+b'The first line contains two integers nn and kk, separated by spaces (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4100000, (kmod2)=(nmod2)(kmod2)=(nmod2)).'
+b'Output'
+b'Print a string ss of length nn, consisting of symbols "0" and "1". Minimal length of the unique substring of ss should be equal to kk. You can find any suitable string. It is guaranteed, that there exists at least one such string.'
+Tags
+constructive algorithms, math, strings, *2200

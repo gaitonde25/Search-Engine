@@ -1,0 +1,11 @@
+b'Recently a tournament in k kinds of sports has begun in Berland. Vasya wants to make money on the bets.'
+b'The scheme of the tournament is very mysterious and not fully disclosed. Competitions are held back to back, each of them involves two sportsmen who have not left the tournament yet. Each match can be held in any of the k kinds of sport. Loser leaves the tournament. The last remaining sportsman becomes the winner. Apart of this, the scheme can be arbitrary, it is not disclosed in advance.'
+b'Vasya knows powers of sportsmen in each kind of sport. He believes that the sportsmen with higher power always wins.'
+b'The tournament is held every year, and each year one new participant joins it. In the first tournament, only one sportsman has participated, in the second there were two sportsmen, and so on. Vasya has been watching the tournament for the last n years. Help him to find the number of possible winners for each of the n tournaments.'
+b'Input'
+b'The first line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7104, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910) \xe2\x80\x94 the number of tournaments and the number of kinds of sport, respectively.'
+b"Each of the next n lines contains k integers si1,\xe2\x80\x89si2,\xe2\x80\x89...,\xe2\x80\x89sik (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89sij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where sij is the power of the i-th sportsman in the j-th kind of sport. The sportsman with higher powers always wins. It's guaranteed that for any kind of sport all of these powers are distinct."
+b'Output'
+b'For each of the n tournaments output the number of contenders who can win.'
+Tags
+data structures, graphs, *2700

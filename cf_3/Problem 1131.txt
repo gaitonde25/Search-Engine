@@ -1,0 +1,11 @@
+b'Let\'s define a multiplication operation between a string aa and a positive integer xx: a\xe2\x8b\x85xa\xe2\x8b\x85x is the string that is a result of writing xx copies of aa one after another. For example, "abc" \xe2\x8b\x85\xc2\xa02\xc2\xa0=\xe2\x8b\x85\xc2\xa02\xc2\xa0= "abcabc", "a" \xe2\x8b\x85\xc2\xa05\xc2\xa0=\xe2\x8b\x85\xc2\xa05\xc2\xa0= "aaaaa".'
+b'A string aa is divisible by another string bb if there exists an integer xx such that b\xe2\x8b\x85x=ab\xe2\x8b\x85x=a. For example, "abababab" is divisible by "ab", but is not divisible by "ababab" or "aa".'
+b'LCM of two strings ss and tt (defined as LCM(s,t)LCM(s,t)) is the shortest non-empty string that is divisible by both ss and tt.'
+b'You are given two strings ss and tt. Find LCM(s,t)LCM(s,t) or report that it does not exist. It can be shown that if LCM(s,t)LCM(s,t) exists, it is unique.'
+b'Input'
+b'The first line contains one integer qq (1\xe2\x89\xa4q\xe2\x89\xa420001\xe2\x89\xa4q\xe2\x89\xa42000) \xe2\x80\x94 the number of test cases.'
+b"Each test case consists of two lines, containing strings ss and tt (1\xe2\x89\xa4|s|,|t|\xe2\x89\xa4201\xe2\x89\xa4|s|,|t|\xe2\x89\xa420). Each character in each of these strings is either 'a' or 'b'."
+b'Output'
+b'For each test case, print LCM(s,t)LCM(s,t) if it exists; otherwise, print -1. It can be shown that if LCM(s,t)LCM(s,t) exists, it is unique.'
+Tags
+brute force, math, number theory, strings, *1000

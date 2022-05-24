@@ -1,0 +1,14 @@
+b'Denis holds a Geometers Anonymous Club meeting in SIS. He has prepared nn convex polygons numbered from 11 to nn for the club. He plans to offer members of the club to calculate Minkowski sums of these polygons. More precisely, he plans to give qq tasks, the ii-th of them asks to calculate the sum of Minkowski of polygons with indices from lili to riri inclusive.'
+b'The sum of Minkowski of two sets AA and BB is the set C={a+b:a\xe2\x88\x88A,b\xe2\x88\x88B}C={a+b:a\xe2\x88\x88A,b\xe2\x88\x88B}. It can be proven that if AA and BB are convex polygons then CC will also be a convex polygon.'
+b'   Sum of two convex polygons '
+b'To calculate the sum of Minkowski of pp polygons (p>2p>2), you need to calculate the sum of Minkowski of the first p\xe2\x88\x921p\xe2\x88\x921 polygons, and then calculate the sum of Minkowski of the resulting polygon and the pp-th polygon.'
+b'For the convenience of checking answers, Denis has decided to prepare and calculate the number of vertices in the sum of Minkowski for each task he prepared. Help him to do it.'
+b'Input'
+b'The first line of the input contains one integer nn \xe2\x80\x94 the number of convex polygons Denis prepared (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000).'
+b'Then nn convex polygons follow. The description of the ii-th polygon starts with one integer kiki \xe2\x80\x94 the number of vertices in the ii-th polygon (3\xe2\x89\xa4ki3\xe2\x89\xa4ki). The next kiki lines contain two integers xijxij, yijyij each \xe2\x80\x94 coordinates of vertices of the ii-th polygon in counterclockwise order (|xij|,|yij|\xe2\x89\xa4109|xij|,|yij|\xe2\x89\xa4109).'
+b'It is guaranteed, that there are no three consecutive vertices lying on the same line. The total number of vertices over all polygons does not exceed 300000300000.'
+b'The following line contains one integer qq \xe2\x80\x94 the number of tasks (1\xe2\x89\xa4q\xe2\x89\xa41000001\xe2\x89\xa4q\xe2\x89\xa4100000). The next qq lines contain descriptions of tasks. Description of the ii-th task contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4n).'
+b'Output'
+b'For each task print a single integer \xe2\x80\x94 the number of vertices in the sum of Minkowski of polygons with indices from lili to riri.'
+Tags
+data structures, geometry, math, sortings, *2500

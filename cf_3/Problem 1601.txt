@@ -1,0 +1,14 @@
+b'You are given a grid with nn rows and mm columns, where each cell has a non-negative integer written on it. We say the grid is good if for each cell the following condition holds: if it has a number k>0k>0 written on it, then exactly kk of its neighboring cells have a number greater than 00 written on them. Note that if the number in the cell is 00, there is no such restriction on neighboring cells.'
+b'You are allowed to take any number in the grid and increase it by 11. You may apply this operation as many times as you want, to any numbers you want. Perform some operations (possibly zero) to make the grid good, or say that it is impossible. If there are multiple possible answers, you may find any of them.'
+b'Two cells are considered to be neighboring if they have a common edge.'
+b'Input'
+b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa450001\xe2\x89\xa4t\xe2\x89\xa45000) \xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains two integers nn and mm (2\xe2\x89\xa4n,m\xe2\x89\xa43002\xe2\x89\xa4n,m\xe2\x89\xa4300) \xc2\xa0\xe2\x80\x94 the number of rows and columns, respectively.'
+b'The following nn lines contain mm integers each, the jj-th element in the ii-th line ai,jai,j is the number written in the jj-th cell of the ii-th row (0\xe2\x89\xa4ai,j\xe2\x89\xa41090\xe2\x89\xa4ai,j\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of n\xe2\x8b\x85mn\xe2\x8b\x85m over all test cases does not exceed 105105.'
+b'Output'
+b'If it is impossible to obtain a good grid, print a single line containing "NO".'
+b'Otherwise, print a single line containing "YES", followed by nn lines each containing mm integers, which describe the final state of the grid. This final grid should be obtainable from the initial one by applying some operations (possibly zero).'
+b'If there are multiple possible answers, you may print any of them.'
+Tags
+constructive algorithms, greedy, *1200

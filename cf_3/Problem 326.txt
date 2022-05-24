@@ -1,0 +1,13 @@
+b'There are three sticks with integer lengths l1,l2l1,l2 and l3l3.'
+b'You are asked to break exactly one of them into two pieces in such a way that: '
+b"  both pieces have positive (strictly greater than 00) integer length;  the total length of the pieces is equal to the original length of the stick;  it's possible to construct a rectangle from the resulting four sticks such that each stick is used as exactly one of its sides. "
+b'A square is also considered a rectangle.'
+b"Determine if it's possible to do that."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'The only line of each testcase contains three integers l1,l2,l3l1,l2,l3 (1\xe2\x89\xa4li\xe2\x89\xa41081\xe2\x89\xa4li\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the lengths of the sticks.'
+b'Output'
+b'For each testcase, print "YES" if it\'s possible to break one of the sticks into two pieces with positive integer length in such a way that it\'s possible to construct a rectangle from the resulting four sticks. Otherwise, print "NO".'
+b'You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES are all recognized as a positive answer).'
+Tags
+geometry, math, *800

@@ -1,0 +1,11 @@
+b'You are given two integers aa and bb. You can perform a sequence of operations: during the first operation you choose one of these numbers and increase it by 11; during the second operation you choose one of these numbers and increase it by 22, and so on. You choose the number of these operations yourself.'
+b'For example, if a=1a=1 and b=3b=3, you can perform the following sequence of three operations: '
+b'  add 11 to aa, then a=2a=2 and b=3b=3;  add 22 to bb, then a=2a=2 and b=5b=5;  add 33 to aa, then a=5a=5 and b=5b=5. '
+b'Calculate the minimum number of operations required to make aa and bb equal. '
+b'Input'
+b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
+b'The only line of each test case contains two integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa41091\xe2\x89\xa4a,b\xe2\x89\xa4109).'
+b'Output'
+b'For each test case print one integer \xe2\x80\x94 the minimum numbers of operations required to make aa and bb equal. '
+Tags
+greedy, math, *1500

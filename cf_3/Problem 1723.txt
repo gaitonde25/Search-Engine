@@ -1,0 +1,10 @@
+b'Implement a quantum oracle on NN qubits which checks whether the input bit string is balanced, i.e., whether it has exactly N2N2 zeros and N2N2 ones in it. '
+b'Your operation should take the following inputs:'
+b'  an array of N\xe2\x89\xa410N\xe2\x89\xa410 qubits "inputs" in an arbitrary state. NN will be an even number.  a qubit "output" in an arbitrary state. '
+b'Your operation should perform a unitary transformation on those qubits that can be described by its effect on the basis states: if "inputs" is in the basis state |x\xe2\x9f\xa9|x\xe2\x9f\xa9 and "output" is in the basis state |y\xe2\x9f\xa9|y\xe2\x9f\xa9, the result of applying the operation should be |x\xe2\x9f\xa9|y\xe2\x8a\x95f(x)\xe2\x9f\xa9|x\xe2\x9f\xa9|y\xe2\x8a\x95f(x)\xe2\x9f\xa9, where f(x)=1f(x)=1 if the bit string xx has the same number of zeros and ones in it, and 00 otherwise.'
+b'For example, if the qubits passed to your operation are in the state 12\xe2\x88\x9a(|01\xe2\x9f\xa9+|00\xe2\x9f\xa9)x\xe2\x8a\x97|0\xe2\x9f\xa9y12(|01\xe2\x9f\xa9+|00\xe2\x9f\xa9)x\xe2\x8a\x97|0\xe2\x9f\xa9y, the state of the system after applying the operation should be 12\xe2\x88\x9a(|01\xe2\x9f\xa9x\xe2\x8a\x97|1\xe2\x9f\xa9y+|00\xe2\x9f\xa9x|0\xe2\x9f\xa9y)12(|01\xe2\x9f\xa9x\xe2\x8a\x97|1\xe2\x9f\xa9y+|00\xe2\x9f\xa9x|0\xe2\x9f\xa9y).'
+b'Your code should have the following signature (note that your operation should have Adjoint and Controlled variants defined for it; is Adj+Ctl in the operation signature will generate them automatically based on your code):'
+b'namespace Solution {    open Microsoft.Quantum.Intrinsic;    operation Solve (inputs : Qubit[], output : Qubit) : Unit is Adj+Ctl {        // your code here    }}'
+b'Your code is not allowed to use measurements or arbitrary rotation gates. This operation can be implemented using just the X gate and its controlled variants (possibly with multiple qubits as controls).'
+Tags
+

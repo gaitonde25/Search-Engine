@@ -1,0 +1,8 @@
+b'For a given array aa consisting of nn integers and a given integer mm find if it is possible to reorder elements of the array aa in such a way that \xe2\x88\x91ni=1\xe2\x88\x91nj=iajj\xe2\x88\x91i=1n\xe2\x88\x91j=inajj equals mm? It is forbidden to delete elements as well as insert new elements. Please note that no rounding occurs during division, for example, 52=2.552=2.5.'
+b'Input'
+b'The first line contains a single integer tt\xc2\xa0\xe2\x80\x94 the number of test cases (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). The test cases follow, each in two lines.'
+b'The first line of a test case contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100, 0\xe2\x89\xa4m\xe2\x89\xa41060\xe2\x89\xa4m\xe2\x89\xa4106). The second line contains integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41060\xe2\x89\xa4ai\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'Output'
+b'For each test case print "YES", if it is possible to reorder the elements of the array in such a way that the given formula gives the given value, and "NO" otherwise.'
+Tags
+math, *800

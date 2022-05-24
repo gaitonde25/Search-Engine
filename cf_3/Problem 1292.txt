@@ -1,0 +1,14 @@
+b"You're given an array bb of length nn. Let's define another array aa, also of length nn, for which ai=2biai=2bi (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n). "
+b'Valerii says that every two non-intersecting subarrays of aa have different sums of elements. You want to determine if he is wrong. More formally, you need to determine if there exist four integers l1,r1,l2,r2l1,r1,l2,r2 that satisfy the following conditions: '
+b'  1\xe2\x89\xa4l1\xe2\x89\xa4r1<l2\xe2\x89\xa4r2\xe2\x89\xa4n1\xe2\x89\xa4l1\xe2\x89\xa4r1<l2\xe2\x89\xa4r2\xe2\x89\xa4n;  al1+al1+1+\xe2\x80\xa6+ar1\xe2\x88\x921+ar1=al2+al2+1+\xe2\x80\xa6+ar2\xe2\x88\x921+ar2al1+al1+1+\xe2\x80\xa6+ar1\xe2\x88\x921+ar1=al2+al2+1+\xe2\x80\xa6+ar2\xe2\x88\x921+ar2. '
+b'If such four integers exist, you will prove Valerii wrong. Do they exist?'
+b'An array cc is a subarray of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first line of every test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa410002\xe2\x89\xa4n\xe2\x89\xa41000).'
+b'The second line of every test case contains nn integers b1,b2,\xe2\x80\xa6,bnb1,b2,\xe2\x80\xa6,bn (0\xe2\x89\xa4bi\xe2\x89\xa41090\xe2\x89\xa4bi\xe2\x89\xa4109). '
+b'Output'
+b'For every test case, if there exist two non-intersecting subarrays in aa that have the same sum, output YES on a separate line. Otherwise, output NO on a separate line. '
+b'Also, note that each letter can be in any case. '
+Tags
+constructive algorithms, data structures, greedy, sortings, *1000

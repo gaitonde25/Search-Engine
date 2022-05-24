@@ -1,0 +1,17 @@
+b'Monocarp is playing a computer game once again. He is a wizard apprentice, who only knows a single spell. Luckily, this spell can damage the monsters.'
+b"The level he's currently on contains nn monsters. The ii-th of them appears kiki seconds after the start of the level and has hihi health points. As an additional constraint, hi\xe2\x89\xa4kihi\xe2\x89\xa4ki for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n. All kiki are different."
+b"Monocarp can cast the spell at moments which are positive integer amounts of second after the start of the level: 1,2,3,\xe2\x80\xa61,2,3,\xe2\x80\xa6 The damage of the spell is calculated as follows. If he didn't cast the spell at the previous second, the damage is 11. Otherwise, let the damage at the previous second be xx. Then he can choose the damage to be either x+1x+1 or 11. A spell uses mana: casting a spell with damage xx uses xx mana. Mana doesn't regenerate."
+b'To kill the ii-th monster, Monocarp has to cast a spell with damage at least hihi at the exact moment the monster appears, which is kiki.'
+b'Note that Monocarp can cast the spell even when there is no monster at the current second.'
+b'The mana amount required to cast the spells is the sum of mana usages for all cast spells. Calculate the least amount of mana required for Monocarp to kill all monsters.'
+b"It can be shown that it's always possible to kill all monsters under the constraints of the problem."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of testcases.'
+b'The first line of the testcase contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of monsters in the level.'
+b'The second line of the testcase contains nn integers k1<k2<\xe2\x8b\xaf<knk1<k2<\xe2\x8b\xaf<kn (1\xe2\x89\xa4ki\xe2\x89\xa41091\xe2\x89\xa4ki\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of second from the start the ii-th monster appears at. All kiki are different, kiki are provided in the increasing order.'
+b'The third line of the testcase contains nn integers h1,h2,\xe2\x80\xa6,hnh1,h2,\xe2\x80\xa6,hn (1\xe2\x89\xa4hi\xe2\x89\xa4ki\xe2\x89\xa41091\xe2\x89\xa4hi\xe2\x89\xa4ki\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the health of the ii-th monster.'
+b"The sum of nn over all testcases doesn't exceed 104104."
+b'Output'
+b'For each testcase, print a single integer\xc2\xa0\xe2\x80\x94 the least amount of mana required for Monocarp to kill all monsters.'
+Tags
+binary search, data structures, dp, greedy, implementation, math, two pointers, *1700

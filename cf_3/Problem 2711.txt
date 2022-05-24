@@ -1,0 +1,10 @@
+b'You are given a huge decimal number consisting of nn digits. It is guaranteed that this number has no leading zeros. Each digit of this number is either 0 or 1.'
+b'You may perform several (possibly zero) operations with this number. During each operation you are allowed to change any digit of your number; you may change 0 to 1 or 1 to 0. It is possible that after some operation you can obtain a number with leading zeroes, but it does not matter for this problem.'
+b'You are also given two integers 0\xe2\x89\xa4y<x<n0\xe2\x89\xa4y<x<n. Your task is to calculate the minimum number of operations you should perform to obtain the number that has remainder 10y10y modulo 10x10x. In other words, the obtained number should have remainder 10y10y when divided by 10x10x.'
+b'Input'
+b'The first line of the input contains three integers n,x,yn,x,y (0\xe2\x89\xa4y<x<n\xe2\x89\xa42\xe2\x8b\x851050\xe2\x89\xa4y<x<n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of the number and the integers xx and yy, respectively.'
+b'The second line of the input contains one decimal number consisting of nn digits, each digit of this number is either 0 or 1. It is guaranteed that the first digit of the number is 1.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the minimum number of operations you should perform to obtain the number having remainder 10y10y modulo 10x10x. In other words, the obtained number should have remainder 10y10y when divided by 10x10x.'
+Tags
+implementation, math, *1100

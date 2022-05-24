@@ -1,0 +1,11 @@
+b"Timur's grandfather gifted him a chessboard to practice his chess skills. This chessboard is a grid aa with nn rows and mm columns with each cell having a non-negative integer written on it. "
+b"Timur's challenge is to place a bishop on the board such that the sum of all cells attacked by the bishop is maximal. The bishop attacks in all directions diagonally, and there is no limit to the distance which the bishop can attack. Note that the cell on which the bishop is placed is also considered attacked. Help him find the maximal sum he can get."
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases. The description of test cases follows.'
+b'The first line of each test case contains the integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa42001\xe2\x89\xa4n\xe2\x89\xa4200, 1\xe2\x89\xa4m\xe2\x89\xa42001\xe2\x89\xa4m\xe2\x89\xa4200).'
+b'The following nn lines contain mm integers each, the jj-th element of the ii-th line aijaij is the number written in the jj-th cell of the ii-th row (0\xe2\x89\xa4aij\xe2\x89\xa4106)(0\xe2\x89\xa4aij\xe2\x89\xa4106)'
+b'It is guaranteed that the sum of n\xe2\x8b\x85mn\xe2\x8b\x85m over all test cases does not exceed 4\xe2\x8b\x851044\xe2\x8b\x85104.'
+b'Output'
+b'For each test case output a single integer, the maximum sum over all possible placements of the bishop.'
+Tags
+brute force, greedy, implementation, *1000

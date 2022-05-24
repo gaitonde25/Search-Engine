@@ -1,0 +1,16 @@
+b'Since Sonya has just learned the basics of matrices, she decided to play with them a little bit.'
+b'Sonya imagined a new type of matrices that she called rhombic matrices. These matrices have exactly one zero, while all other cells have the Manhattan distance to the cell containing the zero. The cells with equal numbers have the form of a rhombus, that is why Sonya called this type so.'
+b'The Manhattan distance between two cells (x1x1, y1y1) and (x2x2, y2y2) is defined as |x1\xe2\x88\x92x2|+|y1\xe2\x88\x92y2||x1\xe2\x88\x92x2|+|y1\xe2\x88\x92y2|. For example, the Manhattan distance between the cells (5,2)(5,2) and (7,1)(7,1) equals to |5\xe2\x88\x927|+|2\xe2\x88\x921|=3|5\xe2\x88\x927|+|2\xe2\x88\x921|=3.'
+b'  Example of a rhombic matrix. '
+b'Note that rhombic matrices are uniquely defined by nn, mm, and the coordinates of the cell containing the zero.'
+b'She drew a n\xc3\x97mn\xc3\x97m rhombic matrix. She believes that you can not recreate the matrix if she gives you only the elements of this matrix in some arbitrary order (i.e., the sequence of n\xe2\x8b\x85mn\xe2\x8b\x85m numbers). Note that Sonya will not give you nn and mm, so only the sequence of numbers in this matrix will be at your disposal.'
+b'Write a program that finds such an n\xc3\x97mn\xc3\x97m rhombic matrix whose elements are the same as the elements in the sequence in some order.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41061\xe2\x89\xa4t\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of cells in the matrix.'
+b'The second line contains tt integers a1,a2,\xe2\x80\xa6,ata1,a2,\xe2\x80\xa6,at (0\xe2\x89\xa4ai<t0\xe2\x89\xa4ai<t)\xc2\xa0\xe2\x80\x94 the values in the cells in arbitrary order.'
+b'Output'
+b'In the first line, print two positive integers nn and mm (n\xc3\x97m=tn\xc3\x97m=t)\xc2\xa0\xe2\x80\x94 the size of the matrix.'
+b'In the second line, print two integers xx and yy (1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n, 1\xe2\x89\xa4y\xe2\x89\xa4m1\xe2\x89\xa4y\xe2\x89\xa4m)\xc2\xa0\xe2\x80\x94 the row number and the column number where the cell with 00 is located.'
+b'If there are multiple possible answers, print any of them. If there is no solution, print the single integer \xe2\x88\x921\xe2\x88\x921.'
+Tags
+brute force, constructive algorithms, implementation, *2300

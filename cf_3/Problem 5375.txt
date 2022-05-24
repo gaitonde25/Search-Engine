@@ -1,0 +1,10 @@
+b"One day Misha and Andrew were playing a very simple game. First, each player chooses an integer in the range from 1 to n. Let's assume that Misha chose number m, and Andrew chose number a."
+b'Then, by using a random generator they choose a random integer c in the range between 1 and n (any integer from 1 to n is chosen with the same probability), after which the winner is the player, whose number was closer to c. The boys agreed that if m and a are located on the same distance from c, Misha wins.'
+b'Andrew wants to win very much, so he asks you to help him. You know the number selected by Misha, and number n. You need to determine which value of a Andrew must choose, so that the probability of his victory is the highest possible.'
+b'More formally, you need to find such integer a (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), that the probability that  is maximal, where c is the equiprobably chosen integer from 1 to n (inclusive).'
+b'Input'
+b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the range of numbers in the game, and the number selected by Misha respectively.'
+b'Output'
+b'Print a single number \xe2\x80\x94 such value a, that probability that Andrew wins is the highest. If there are multiple such values, print the minimum of them.'
+Tags
+constructive algorithms, games, greedy, implementation, math, *1300

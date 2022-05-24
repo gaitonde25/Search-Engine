@@ -1,0 +1,7 @@
+b'Vasya likes everything infinite. Now he is studying the properties of a sequence s, such that its first element is equal to a (s1\xe2\x80\x89=\xe2\x80\x89a), and the difference between any two neighbouring elements is equal to c (si\xe2\x80\x89-\xe2\x80\x89si\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89=\xe2\x80\x89c). In particular, Vasya wonders if his favourite integer b appears in this sequence, that is, there exists a positive integer i, such that si\xe2\x80\x89=\xe2\x80\x89b. Of course, you are the person he asks for a help.'
+b'Input'
+b"The first line of the input contain three integers a, b and c (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b,\xe2\x80\x89c\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the first element of the sequence, Vasya's favorite number and the difference between any two neighbouring elements of the sequence, respectively."
+b'Output'
+b'If b appears in the sequence s print "YES" (without quotes), otherwise print "NO" (without quotes).'
+Tags
+math, *1100

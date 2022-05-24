@@ -1,0 +1,15 @@
+b'There are nn lectures and mm seminars to be conducted today at the Faculty of Approximate Sciences. The ii-th lecture starts at aiai and ends at bibi (formally, time of the lecture spans an interval [ai,bi)[ai,bi), the right bound is exclusive). The jj-th seminar starts at pjpj and ends at qjqj (similarly, time of the seminar spans an interval [pj,qj)[pj,qj), the right bound is exclusive).'
+b'There are xx HD-projectors numbered from 11 to xx and yy ordinary projectors numbered from x+1x+1 to x+yx+y available at the faculty. Projectors should be distributed in such a way that:'
+b'  an HD-projector is used in each lecture;  some projector (ordinary or HD) is used in each seminar;  a projector (ordinary or HD) can only be used in one event at the same moment of time;  if a projector is selected for an event, it is used there for the whole duration of the event;  a projector can be reused in some following event, if it starts not earlier than current event finishes. '
+b'You are to find such distribution of projectors, if it exists.'
+b"Again, note that the right bound of the event's time range is not inclusive: if some event starts exactly when another event finishes, the projector can be reused (suppose that it is instantly transported to the location of the event)."
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa43001\xe2\x89\xa4t\xe2\x89\xa4300) \xe2\x80\x94 the number of test cases.'
+b'Each test case starts with a line containing four integers n,m,x,yn,m,x,y (0\xe2\x89\xa4n,m,x,y\xe2\x89\xa43000\xe2\x89\xa4n,m,x,y\xe2\x89\xa4300; n+m>0n+m>0, x+y>0x+y>0) \xe2\x80\x94 the number of lectures, the number of seminars, the number of HD projectors and the number of ordinary projectors, respectively. '
+b'The next nn lines describe lectures. Each line contains two integers aiai, bibi (1\xe2\x89\xa4ai<bi\xe2\x89\xa41061\xe2\x89\xa4ai<bi\xe2\x89\xa4106) \xe2\x80\x94 the start time (inclusive) and finish time (exclusive) of the ii-th lecture. '
+b'The next mm lines describe seminars. Each line contains two integers pjpj, qjqj (1\xe2\x89\xa4pj<qj\xe2\x89\xa41061\xe2\x89\xa4pj<qj\xe2\x89\xa4106) \xe2\x80\x94 the start time (inclusive) and finish time (exclusive) of the jj-th seminar.'
+b'Output'
+b'For each test case, print YES if it is possible to distribute projectors in order to meet all requirements, or NO otherwise. '
+b'In case of positive answer, output one additional line containing n+mn+m integers. The first nn integers should be not less than 11 and not greater than xx, and the ii-th of them should be the index of HD projector used in the ii-th lecture. The last mm integers should be not less than 11 and not greater than x+yx+y, and the jj-th of them should be the index of projector used in the jj-th seminar. If there are multiple answers, print any of them.'
+Tags
+flows, graphs, *3100

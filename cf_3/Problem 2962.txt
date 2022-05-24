@@ -1,0 +1,13 @@
+b'Can the greatest common divisor and bitwise operations have anything in common? It is time to answer this question.'
+b"Suppose you are given a positive integer aa. You want to choose some integer bb from 11 to a\xe2\x88\x921a\xe2\x88\x921 inclusive in such a way that the greatest common divisor (GCD) of integers a\xe2\x8a\x95ba\xe2\x8a\x95b and a&ba&b is as large as possible. In other words, you'd like to compute the following function:"
+b'f(a)=max0<b<agcd(a\xe2\x8a\x95b,a&b).f(a)=max0<b<agcd(a\xe2\x8a\x95b,a&b).'
+b'Here \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation, and && denotes the bitwise AND operation.'
+b'The greatest common divisor of two integers xx and yy is the largest integer gg such that both xx and yy are divided by gg without remainder.'
+b'You are given qq integers a1,a2,\xe2\x80\xa6,aqa1,a2,\xe2\x80\xa6,aq. For each of these integers compute the largest possible value of the greatest common divisor (when bb is chosen optimally). '
+b'Input'
+b'The first line contains an integer qq (1\xe2\x89\xa4q\xe2\x89\xa41031\xe2\x89\xa4q\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the number of integers you need to compute the answer for.'
+b'After that qq integers are given, one per line: a1,a2,\xe2\x80\xa6,aqa1,a2,\xe2\x80\xa6,aq (2\xe2\x89\xa4ai\xe2\x89\xa4225\xe2\x88\x9212\xe2\x89\xa4ai\xe2\x89\xa4225\xe2\x88\x921)\xc2\xa0\xe2\x80\x94 the integers you need to compute the answer for. '
+b'Output'
+b'For each integer, print the answer in the same order as the integers are given in input.'
+Tags
+constructive algorithms, math, number theory, *1500

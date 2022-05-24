@@ -1,0 +1,18 @@
+b'There is a square field of size n\xc3\x97nn\xc3\x97n in which two cells are marked. These cells can be in the same row or column.'
+b'You are to mark two more cells so that they are the corners of a rectangle with sides parallel to the coordinate axes.'
+b'For example, if n=4n=4 and a rectangular field looks like this (there are asterisks in the marked cells):'
+b'..\xe2\x88\x97.....\xe2\x88\x97.........\xe2\x88\x97.....\xe2\x88\x97.......'
+b'Then you can mark two more cells as follows'
+b'\xe2\x88\x97.\xe2\x88\x97.....\xe2\x88\x97.\xe2\x88\x97.....\xe2\x88\x97.\xe2\x88\x97.....\xe2\x88\x97.\xe2\x88\x97.....'
+b'If there are several possible solutions, then print any of them.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa44001\xe2\x89\xa4t\xe2\x89\xa4400). Then tt test cases follow.'
+b'The first row of each test case contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa44002\xe2\x89\xa4n\xe2\x89\xa4400)\xc2\xa0\xe2\x80\x94 the number of rows and columns in the table.'
+b"The following nn lines each contain nn characters '.' or '*' denoting empty and marked cells, respectively."
+b'It is guaranteed that the sums of nn for all test cases do not exceed 400400.'
+b'It is guaranteed that there are exactly two asterisks on the field. They can be in the same row/column.'
+b'It is guaranteed that the solution exists.'
+b'Output'
+b'For each test case, output nn rows of nn characters\xc2\xa0\xe2\x80\x94 a field with four asterisks marked corresponding to the statements. If there multiple correct answers, print any of them.'
+Tags
+implementation, *800

@@ -1,0 +1,12 @@
+b'You are given nn non-decreasing arrays of non-negative numbers. '
+b'Vasya repeats the following operation kk times: '
+b'  Selects a non-empty array.  Puts the first element of the selected array in his pocket.  Removes the first element from the selected array. '
+b'Vasya wants to maximize the sum of the elements in his pocket.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa430001\xe2\x89\xa4n,k\xe2\x89\xa43000): the number of arrays and operations.'
+b'Each of the next nn lines contain an array. The first integer in each line is titi (1\xe2\x89\xa4ti\xe2\x89\xa41061\xe2\x89\xa4ti\xe2\x89\xa4106): the size of the ii-th array. The following titi integers ai,jai,j (0\xe2\x89\xa4ai,1\xe2\x89\xa4\xe2\x80\xa6\xe2\x89\xa4ai,ti\xe2\x89\xa41080\xe2\x89\xa4ai,1\xe2\x89\xa4\xe2\x80\xa6\xe2\x89\xa4ai,ti\xe2\x89\xa4108) are the elements of the ii-th array.'
+b'It is guaranteed that k\xe2\x89\xa4\xe2\x88\x91i=1nti\xe2\x89\xa4106k\xe2\x89\xa4\xe2\x88\x91i=1nti\xe2\x89\xa4106.'
+b'Output'
+b"Print one integer: the maximum possible sum of all elements in Vasya's pocket after kk operations."
+Tags
+data structures, divide and conquer, dp, greedy, *2800

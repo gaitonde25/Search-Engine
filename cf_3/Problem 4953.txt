@@ -1,0 +1,11 @@
+b'Yasin has an array a containing n integers. Yasin is a 5 year old, so he loves ultimate weird things.'
+b'Yasin denotes weirdness of an array as maximum gcd(ai,\xe2\x80\x89\xe2\x80\x89aj) value among all 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89<\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n. For n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891 weirdness is equal to 0, gcd(x,\xe2\x80\x89\xe2\x80\x89y) is the greatest common divisor of integers x and y.'
+b'He also defines the ultimate weirdness of an array. Ultimate weirdness is  where f(i,\xe2\x80\x89\xe2\x80\x89j) is weirdness of the new array a obtained by removing all elements between i and j inclusive, so new array is [a1... ai\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89aj\xe2\x80\x89+\xe2\x80\x891... an].'
+b"Since 5 year old boys can't code, Yasin asks for your help to find the value of ultimate weirdness of the given array a!"
+b'Input'
+b'The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of elements in a.'
+b'The next line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000), where the i-th number is equal to the i-th element of the array a. It is guaranteed that all ai are distinct.'
+b'Output'
+b'Print a single line containing the value of ultimate weirdness of the array a. '
+Tags
+data structures, number theory, *2800

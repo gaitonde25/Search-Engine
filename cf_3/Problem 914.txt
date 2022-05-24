@@ -1,0 +1,14 @@
+b'You are given an array aa of nn (n\xe2\x89\xa52n\xe2\x89\xa52) positive integers and an integer pp. Consider an undirected weighted graph of nn vertices numbered from 11 to nn for which the edges between the vertices ii and jj (i<ji<j) are added in the following manner:'
+b'  If gcd(ai,ai+1,ai+2,\xe2\x80\xa6,aj)=min(ai,ai+1,ai+2,\xe2\x80\xa6,aj)gcd(ai,ai+1,ai+2,\xe2\x80\xa6,aj)=min(ai,ai+1,ai+2,\xe2\x80\xa6,aj), then there is an edge of weight min(ai,ai+1,ai+2,\xe2\x80\xa6,aj)min(ai,ai+1,ai+2,\xe2\x80\xa6,aj) between ii and jj.  If i+1=ji+1=j, then there is an edge of weight pp between ii and jj. '
+b'Here gcd(x,y,\xe2\x80\xa6)gcd(x,y,\xe2\x80\xa6) denotes the greatest common divisor (GCD) of integers xx, yy, ....'
+b'Note that there could be multiple edges between ii and jj if both of the above conditions are true, and if both the conditions fail for ii and jj, then there is no edge between these vertices.'
+b'The goal is to find the weight of the minimum spanning tree of this graph.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains two integers nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) and pp (1\xe2\x89\xa4p\xe2\x89\xa41091\xe2\x89\xa4p\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of nodes and the parameter pp.'
+b'The second line contains nn integers a1,a2,a3,\xe2\x80\xa6,ana1,a2,a3,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109).'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 2\xe2\x8b\x851052\xe2\x8b\x85105. '
+b'Output'
+b'Output tt lines. For each test case print the weight of the corresponding graph.'
+Tags
+constructive algorithms, dsu, graphs, greedy, number theory, sortings, *2000

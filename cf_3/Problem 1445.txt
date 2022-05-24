@@ -1,0 +1,14 @@
+b'There are nn computers in the company network. They are numbered from 11 to nn.'
+b'For each pair of two computers 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n you know the value ai,jai,j: the difficulty of sending data between computers ii and jj. All values ai,jai,j for i<ji<j are different.'
+b'You want to separate all computers into kk sets A1,A2,\xe2\x80\xa6,AkA1,A2,\xe2\x80\xa6,Ak, such that the following conditions are satisfied: '
+b'  for each computer 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n there is exactly one set AjAj, such that i\xe2\x88\x88Aji\xe2\x88\x88Aj;  for each two pairs of computers (s,f)(s,f) and (x,y)(x,y) (s\xe2\x89\xa0fs\xe2\x89\xa0f, x\xe2\x89\xa0yx\xe2\x89\xa0y), such that ss, ff, xx are from the same set but xx and yy are from different sets, as,f<ax,yas,f<ax,y. '
+b'For each 1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n find the number of ways to divide computers into kk groups, such that all required conditions are satisfied. These values can be large, so you need to find them by modulo 998244353998244353.'
+b'Input'
+b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa415001\xe2\x89\xa4n\xe2\x89\xa41500): the number of computers.'
+b'The ii-th of the next nn lines contains nn integers ai,1,ai,2,\xe2\x80\xa6,ai,nai,1,ai,2,\xe2\x80\xa6,ai,n(0\xe2\x89\xa4ai,j\xe2\x89\xa4n(n\xe2\x88\x921)20\xe2\x89\xa4ai,j\xe2\x89\xa4n(n\xe2\x88\x921)2).'
+b'It is guaranteed that: '
+b'  for all 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n ai,i=0ai,i=0;  for all 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n ai,j>0ai,j>0;  for all 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n ai,j=aj,iai,j=aj,i;  all ai,jai,j for i<ji<j are different. '
+b'Output'
+b'Print nn integers: the kk-th of them should be equal to the number of possible ways to divide computers into kk groups, such that all required conditions are satisfied, modulo 998244353998244353.'
+Tags
+combinatorics, dp, dsu, fft, graphs, trees, *2700

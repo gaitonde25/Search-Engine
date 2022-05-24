@@ -1,0 +1,10 @@
+b'A Martian boy is named s \xe2\x80\x94 he has got this name quite recently from his parents for his coming of age birthday. Now he enjoys looking for his name everywhere. If he sees that he can obtain his name from some string by removing zero or more letters (at that, the remaining letters remain in the same order), he gets happy. For example, if s=\xc2\xababa\xc2\xbb, then strings \xc2\xabbaobab\xc2\xbb, \xc2\xabaabbaa\xc2\xbb, \xc2\xabhelloabahello\xc2\xbb make him very happy and strings \xc2\xabaab\xc2\xbb, \xc2\xabbaaa\xc2\xbb and \xc2\xabhelloabhello\xc2\xbb do not.'
+b'However rather than being happy once, he loves twice as much being happy twice! So, when he got string t as a present, he wanted to cut it in two parts (the left part and the right part) so that each part made him happy.'
+b'Help s determine the number of distinct ways to cut the given string t into two parts in the required manner.'
+b'Input'
+b'The first line contains string s, consisting of lowercase English letters. The length of string s is from 1 to 1000 letters.'
+b'The second line contains string t, that also consists of lowercase English letters. The length of string t is from 1 to 106 letters.'
+b'Output'
+b'Print the sought number of ways to cut string t in two so that each part made s happy. '
+Tags
+*special problem, greedy, *1400

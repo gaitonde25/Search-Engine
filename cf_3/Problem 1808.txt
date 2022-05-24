@@ -1,0 +1,10 @@
+b'Recently Vova found nn candy wrappers. He remembers that he bought xx candies during the first day, 2x2x candies during the second day, 4x4x candies during the third day, \xe2\x80\xa6\xe2\x80\xa6, 2k\xe2\x88\x921x2k\xe2\x88\x921x candies during the kk-th day. But there is an issue: Vova remembers neither xx nor kk but he is sure that xx and kk are positive integers and k>1k>1.'
+b'Vova will be satisfied if you tell him any positive integer xx so there is an integer k>1k>1 that x+2x+4x+\xe2\x8b\xaf+2k\xe2\x88\x921x=nx+2x+4x+\xe2\x8b\xaf+2k\xe2\x88\x921x=n. It is guaranteed that at least one solution exists. Note that k>1k>1.'
+b'You have to answer tt independent test cases.'
+b'Input'
+b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The only line of the test case contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa41093\xe2\x89\xa4n\xe2\x89\xa4109) \xe2\x80\x94 the number of candy wrappers Vova found. It is guaranteed that there is some positive integer xx and integer k>1k>1 that x+2x+4x+\xe2\x8b\xaf+2k\xe2\x88\x921x=nx+2x+4x+\xe2\x8b\xaf+2k\xe2\x88\x921x=n.'
+b'Output'
+b'Print one integer \xe2\x80\x94 any positive integer value of xx so there is an integer k>1k>1 that x+2x+4x+\xe2\x8b\xaf+2k\xe2\x88\x921x=nx+2x+4x+\xe2\x8b\xaf+2k\xe2\x88\x921x=n.'
+Tags
+brute force, math, *900

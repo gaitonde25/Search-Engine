@@ -1,0 +1,10 @@
+b'There are nn boxers, the weight of the ii-th boxer is aiai. Each of them can change the weight by no more than 11 before the competition (the weight cannot become equal to zero, that is, it must remain positive). Weight is always an integer number.'
+b"It is necessary to choose the largest boxing team in terms of the number of people, that all the boxers' weights in the team are different (i.e. unique)."
+b'Write a program that for given current values \xe2\x80\x8baiai will find the maximum possible number of boxers in a team.'
+b'It is possible that after some change the weight of some boxer is 150001150001 (but no more).'
+b'Input'
+b'The first line contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41500001\xe2\x89\xa4n\xe2\x89\xa4150000) \xe2\x80\x94 the number of boxers. The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, where aiai (1\xe2\x89\xa4ai\xe2\x89\xa41500001\xe2\x89\xa4ai\xe2\x89\xa4150000) is the weight of the ii-th boxer.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the maximum possible number of people in a team.'
+Tags
+greedy, sortings, *1500

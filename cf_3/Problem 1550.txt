@@ -1,0 +1,14 @@
+b'This problem is split into two tasks. In this task, you are required to find the maximum possible answer. In the task Village (Minimum) you are required to find the minimum possible answer. Each task is worth 5050 points.'
+b'There are NN houses in a certain village. A single villager lives in each of the houses. The houses are connected by roads. Each road connects two houses and is exactly 11 kilometer long. From each house it is possible to reach any other using one or several consecutive roads. In total there are N\xe2\x88\x921N\xe2\x88\x921 roads in the village.'
+b'One day all villagers decided to move to different houses \xe2\x80\x94 that is, after moving each house should again have a single villager living in it, but no villager should be living in the same house as before. We would like to know the largest possible total length in kilometers of the shortest paths between the old and the new houses for all villagers.'
+b' Example village with seven houses '
+b'For example, if there are seven houses connected by roads as shown on the figure, the largest total length is 1818 km (this can be achieved by moving 1\xe2\x86\x9271\xe2\x86\x927, 2\xe2\x86\x9232\xe2\x86\x923, 3\xe2\x86\x9243\xe2\x86\x924, 4\xe2\x86\x9214\xe2\x86\x921, 5\xe2\x86\x9225\xe2\x86\x922, 6\xe2\x86\x9256\xe2\x86\x925, 7\xe2\x86\x9267\xe2\x86\x926).'
+b'Write a program that finds the largest total length of the shortest paths in kilometers and an example assignment of the new houses to the villagers.'
+b'Input'
+b'The first line contains an integer NN (1<N\xe2\x89\xa41051<N\xe2\x89\xa4105). Houses are numbered by consecutive integers 1,2,\xe2\x80\xa6,N1,2,\xe2\x80\xa6,N.'
+b'Then N\xe2\x88\x921N\xe2\x88\x921 lines follow that describe the roads. Each line contains two integers aa and bb (1\xe2\x89\xa4a,b\xe2\x89\xa4N1\xe2\x89\xa4a,b\xe2\x89\xa4N, a\xe2\x89\xa0ba\xe2\x89\xa0b) denoting that there is a road connecting houses aa and bb.'
+b'Output'
+b'In the first line output the largest total length of the shortest paths in kilometers.'
+b'In the second line describe one valid assignment of the new houses with the largest total length: NN space-separated distinct integers v1,v2,\xe2\x80\xa6,vNv1,v2,\xe2\x80\xa6,vN. For each ii, vivi is the house number where villager from the house ii should move (vi\xe2\x89\xa0ivi\xe2\x89\xa0i). If there are several valid assignments, output any of those.'
+Tags
+*special problem, dfs and similar, trees, *2500

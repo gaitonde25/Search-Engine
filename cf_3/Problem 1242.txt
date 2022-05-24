@@ -1,0 +1,15 @@
+b"Hr0d1y has qq queries on a binary string ss of length nn. A binary string is a string containing only characters '0' and '1'."
+b'A query is described by a pair of integers lili, riri (1\xe2\x89\xa4li<ri\xe2\x89\xa4n)(1\xe2\x89\xa4li<ri\xe2\x89\xa4n). '
+b'For each query, he has to determine whether there exists a good subsequence in ss that is equal to the substring s[li\xe2\x80\xa6ri]s[li\xe2\x80\xa6ri]. '
+b'  A substring s[i\xe2\x80\xa6j]s[i\xe2\x80\xa6j] of a string ss is the string formed by characters sisi+1\xe2\x80\xa6sjsisi+1\xe2\x80\xa6sj. String aa is said to be a subsequence of string bb if aa can be obtained from bb by deleting some characters without changing the order of the remaining characters. A subsequence is said to be good if it is not contiguous and has length \xe2\x89\xa52\xe2\x89\xa52. For example, if ss is "1100110", then the subsequences s1s2s4s1s2s4 ("1100110") and s1s5s7s1s5s7 ("1100110") are good, while s1s2s3s1s2s3 ("1100110") is not good. '
+b'Can you help Hr0d1y answer each query?'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of each test case is as follows.'
+b'The first line contains two integers nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100) and qq (1\xe2\x89\xa4q\xe2\x89\xa41001\xe2\x89\xa4q\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the length of the string and the number of queries. '
+b'The second line contains the string ss.'
+b'The ii-th of the next qq lines contains two integers lili and riri (1\xe2\x89\xa4li<ri\xe2\x89\xa4n1\xe2\x89\xa4li<ri\xe2\x89\xa4n).'
+b'Output'
+b'For each test case, output qq lines. The ii-th line of the output of each test case should contain "YES" if there exists a good subsequence equal to the substring s[li...ri]s[li...ri], and "NO" otherwise.'
+b'You may print each letter in any case (upper or lower).'
+Tags
+dp, greedy, implementation, strings, *900

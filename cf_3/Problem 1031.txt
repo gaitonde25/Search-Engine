@@ -1,0 +1,13 @@
+b'There are nn coins labeled from 11 to nn. Initially, coin cici is on position ii and is facing upwards ((c1,c2,\xe2\x80\xa6,cn)c1,c2,\xe2\x80\xa6,cn) is a permutation of numbers from 11 to nn). You can do some operations on these coins. '
+b'In one operation, you can do the following:'
+b'Choose 22 distinct indices ii and jj.Then, swap the coins on positions ii and jj.Then, flip both coins on positions ii and jj. (If they are initially faced up, they will be faced down after the operation and vice versa)'
+b'Construct a sequence of at most n+1n+1 operations such that after performing all these operations the coin ii will be on position ii at the end, facing up.'
+b'Note that you do not need to minimize the number of operations.'
+b'Input'
+b'The first line contains an integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of coins.'
+b'The second line contains nn integers c1,c2,\xe2\x80\xa6,cnc1,c2,\xe2\x80\xa6,cn (1\xe2\x89\xa4ci\xe2\x89\xa4n1\xe2\x89\xa4ci\xe2\x89\xa4n, ci\xe2\x89\xa0cjci\xe2\x89\xa0cj for i\xe2\x89\xa0ji\xe2\x89\xa0j).'
+b'Output'
+b'In the first line, output an integer qq (0\xe2\x89\xa4q\xe2\x89\xa4n+1)(0\xe2\x89\xa4q\xe2\x89\xa4n+1) \xe2\x80\x94 the number of operations you used.'
+b'In the following qq lines, output two integers ii and jj (1\xe2\x89\xa4i,j\xe2\x89\xa4n,i\xe2\x89\xa0j)(1\xe2\x89\xa4i,j\xe2\x89\xa4n,i\xe2\x89\xa0j) \xe2\x80\x94 the positions you chose for the current operation.'
+Tags
+constructive algorithms, graphs, math, *2800

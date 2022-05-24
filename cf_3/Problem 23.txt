@@ -1,0 +1,15 @@
+b'The only difference between the two versions is that in this version n\xe2\x89\xa41000n\xe2\x89\xa41000 and the sum of nn over all test cases does not exceed 10001000.'
+b'A terminal is a row of nn equal segments numbered 11 to nn in order. There are two terminals, one above the other. '
+b"You are given an array aa of length nn. For all i=1,2,\xe2\x80\xa6,ni=1,2,\xe2\x80\xa6,n, there should be a straight wire from some point on segment ii of the top terminal to some point on segment aiai of the bottom terminal. You can't select the endpoints of a segment. For example, the following pictures show two possible wirings if n=7n=7 and a=[4,1,4,6,7,7,5]a=[4,1,4,6,7,7,5]."
+b'  '
+b'A crossing occurs when two wires share a point in common. In the picture above, crossings are circled in red.'
+b'What is the maximum number of crossings there can be if you place the wires optimally?'
+b'Input'
+b'The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of test cases.'
+b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the length of the array.'
+b'The second line of each test case contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'The sum of nn across all test cases does not exceed 10001000.'
+b'Output'
+b'For each test case, output a single integer\xc2\xa0\xe2\x80\x94 the maximum number of crossings there can be if you place the wires optimally.'
+Tags
+brute force, *1400

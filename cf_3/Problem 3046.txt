@@ -1,0 +1,13 @@
+b'You are given a range of positive integers from ll to rr.'
+b'Find such a pair of integers (x,y)(x,y) that l\xe2\x89\xa4x,y\xe2\x89\xa4rl\xe2\x89\xa4x,y\xe2\x89\xa4r, x\xe2\x89\xa0yx\xe2\x89\xa0y and xx divides yy.'
+b'If there are multiple answers, print any of them.'
+b'You are also asked to answer TT independent queries.'
+b'Input'
+b'The first line contains a single integer TT (1\xe2\x89\xa4T\xe2\x89\xa410001\xe2\x89\xa4T\xe2\x89\xa41000) \xe2\x80\x94 the number of queries.'
+b'Each of the next TT lines contains two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa49982443531\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4998244353) \xe2\x80\x94 inclusive borders of the range.'
+b'It is guaranteed that testset only includes queries, which have at least one suitable pair.'
+b'Output'
+b'Print TT lines, each line should contain the answer \xe2\x80\x94 two integers xx and yy such that l\xe2\x89\xa4x,y\xe2\x89\xa4rl\xe2\x89\xa4x,y\xe2\x89\xa4r, x\xe2\x89\xa0yx\xe2\x89\xa0y and xx divides yy. The answer in the ii-th line should correspond to the ii-th query from the input.'
+b'If there are multiple answers, print any of them.'
+Tags
+greedy, implementation, math, *800

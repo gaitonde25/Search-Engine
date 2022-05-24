@@ -1,0 +1,15 @@
+b'Vova decided to clean his room. The room can be represented as the coordinate axis OXOX. There are nn piles of trash in the room, coordinate of the ii-th pile is the integer pipi. All piles have different coordinates.'
+b"Let's define a total cleanup as the following process. The goal of this process is to collect all the piles in no more than two different xx coordinates. To achieve this goal, Vova can do several (possibly, zero) moves. During one move, he can choose some xx and move all piles from xx to x+1x+1 or x\xe2\x88\x921x\xe2\x88\x921 using his broom. Note that he can't choose how many piles he will move."
+b'Also, there are two types of queries:'
+b'  00 xx \xe2\x80\x94 remove a pile of trash from the coordinate xx. It is guaranteed that there is a pile in the coordinate xx at this moment.  11 xx \xe2\x80\x94 add a pile of trash to the coordinate xx. It is guaranteed that there is no pile in the coordinate xx at this moment. '
+b'Note that it is possible that there are zero piles of trash in the room at some moment.'
+b"Vova wants to know the minimum number of moves he can spend if he wants to do a total cleanup before any queries. He also wants to know this number of moves after applying each query. Queries are applied in the given order. Note that the total cleanup doesn't actually happen and doesn't change the state of piles. It is only used to calculate the number of moves."
+b'For better understanding, please read the Notes section below to see an explanation for the first example.'
+b'Input'
+b'The first line of the input contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa41051\xe2\x89\xa4n,q\xe2\x89\xa4105) \xe2\x80\x94 the number of piles in the room before all queries and the number of queries, respectively.'
+b'The second line of the input contains nn distinct integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi\xe2\x89\xa41091\xe2\x89\xa4pi\xe2\x89\xa4109), where pipi is the coordinate of the ii-th pile.'
+b'The next qq lines describe queries. The ii-th query is described with two integers titi and xixi (0\xe2\x89\xa4ti\xe2\x89\xa41;1\xe2\x89\xa4xi\xe2\x89\xa41090\xe2\x89\xa4ti\xe2\x89\xa41;1\xe2\x89\xa4xi\xe2\x89\xa4109), where titi is 00 if you need to remove a pile from the coordinate xixi and is 11 if you need to add a pile to the coordinate xixi. It is guaranteed that for ti=0ti=0 there is such pile in the current set of piles and for ti=1ti=1 there is no such pile in the current set of piles.'
+b'Output'
+b'Print q+1q+1 integers: the minimum number of moves Vova needs to do a total cleanup before the first query and after each of qq queries.'
+Tags
+data structures, implementation, *2100

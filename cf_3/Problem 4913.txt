@@ -1,0 +1,9 @@
+b'After finishing eating her bun, Alyona came up with two integers n and m. She decided to write down two columns of integers\xc2\xa0\xe2\x80\x94 the first column containing integers from 1 to n and the second containing integers from 1 to m. Now the girl wants to count how many pairs of integers she can choose, one from the first column and the other from the second column, such that their sum is divisible by 5.'
+b'Formally, Alyona wants to count the number of pairs of integers (x,\xe2\x80\x89y) such that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m and  equals 0.'
+b'As usual, Alyona has some troubles and asks you to help.'
+b'Input'
+b'The only line of the input contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000).'
+b'Output'
+b'Print the only integer\xc2\xa0\xe2\x80\x94 the number of pairs of integers (x,\xe2\x80\x89y) such that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m and (x\xe2\x80\x89+\xe2\x80\x89y) is divisible by 5.'
+Tags
+constructive algorithms, math, number theory, *1100

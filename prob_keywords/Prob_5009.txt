@@ -1,0 +1,12 @@
+*2100
+*special
+input
+input
+integer
+integer
+output
+output
+problem
+single
+single
+tags

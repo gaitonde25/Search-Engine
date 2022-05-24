@@ -1,0 +1,12 @@
+b'You are a rebel leader and you are planning to start a revolution in your country. But the evil Government found out about your plans and set your punishment in the form of correctional labor.'
+b'You must paint a fence which consists of 1010010100 planks in two colors in the following way (suppose planks are numbered from left to right from 00): '
+b"  if the index of the plank is divisible by rr (such planks have indices 00, rr, 2r2r and so on) then you must paint it red;  if the index of the plank is divisible by bb (such planks have indices 00, bb, 2b2b and so on) then you must paint it blue;  if the index is divisible both by rr and bb you can choose the color to paint the plank;  otherwise, you don't need to paint the plank at all (and it is forbidden to spent paint on it). "
+b"Furthermore, the Government added one additional restriction to make your punishment worse. Let's list all painted planks of the fence in ascending order: if there are kk consecutive planks with the same color in this list, then the Government will state that you failed the labor and execute you immediately. If you don't paint the fence according to the four aforementioned conditions, you will also be executed."
+b'The question is: will you be able to accomplish the labor (the time is not important) or the execution is unavoidable and you need to escape at all costs.'
+b'Input'
+b'The first line contains single integer TT (1\xe2\x89\xa4T\xe2\x89\xa410001\xe2\x89\xa4T\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases.'
+b'The next TT lines contain descriptions of test cases \xe2\x80\x94 one per line. Each test case contains three integers rr, bb, kk (1\xe2\x89\xa4r,b\xe2\x89\xa41091\xe2\x89\xa4r,b\xe2\x89\xa4109, 2\xe2\x89\xa4k\xe2\x89\xa41092\xe2\x89\xa4k\xe2\x89\xa4109) \xe2\x80\x94 the corresponding coefficients.'
+b'Output'
+b'Print TT words \xe2\x80\x94 one per line. For each test case print REBEL (case insensitive) if the execution is unavoidable or OBEY (case insensitive) otherwise.'
+Tags
+greedy, math, number theory, *1700

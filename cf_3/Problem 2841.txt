@@ -1,0 +1,9 @@
+b'You have a playlist consisting of nn songs. The ii-th song is characterized by two numbers titi and bibi \xe2\x80\x94 its length and beauty respectively. The pleasure of listening to set of songs is equal to the total length of the songs in the set multiplied by the minimum beauty among them. For example, the pleasure of listening to a set of 33 songs having lengths [5,7,4][5,7,4] and beauty values [11,14,6][11,14,6] is equal to (5+7+4)\xe2\x8b\x856=96(5+7+4)\xe2\x8b\x856=96.'
+b'You need to choose at most kk songs from your playlist, so the pleasure of listening to the set of these songs them is maximum possible.'
+b'Input'
+b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x93 the number of songs in the playlist and the maximum number of songs you can choose, respectively.'
+b'Each of the next nn lines contains two integers titi and bibi (1\xe2\x89\xa4ti,bi\xe2\x89\xa41061\xe2\x89\xa4ti,bi\xe2\x89\xa4106) \xe2\x80\x94 the length and beauty of ii-th song.'
+b'Output'
+b'Print one integer \xe2\x80\x94 the maximum pleasure you can get.'
+Tags
+brute force, data structures, sortings, *1600

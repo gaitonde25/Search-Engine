@@ -1,0 +1,10 @@
+b"While Grisha was celebrating New Year with Ded Moroz, Misha gifted Sasha a small rectangular pond of size n\xe2\x80\x89\xc3\x97\xe2\x80\x89m, divided into cells of size 1\xe2\x80\x89\xc3\x97\xe2\x80\x891, inhabited by tiny evil fishes (no more than one fish per cell, otherwise they'll strife!)."
+b'The gift bundle also includes a square scoop of size r\xe2\x80\x89\xc3\x97\xe2\x80\x89r, designed for fishing. If the lower-left corner of the scoop-net is located at cell (x,\xe2\x80\x89y), all fishes inside the square (x,\xe2\x80\x89y)...(x\xe2\x80\x89+\xe2\x80\x89r\xe2\x80\x89-\xe2\x80\x891,\xe2\x80\x89y\xe2\x80\x89+\xe2\x80\x89r\xe2\x80\x89-\xe2\x80\x891) get caught. Note that the scoop-net should lie completely inside the pond when used.'
+b'Unfortunately, Sasha is not that skilled in fishing and hence throws the scoop randomly. In order to not frustrate Sasha, Misha decided to release k fishes into the empty pond in such a way that the expected value of the number of caught fishes is as high as possible. Help Misha! In other words, put k fishes in the pond into distinct cells in such a way that when the scoop-net is placed into a random position among (n\xe2\x80\x89-\xe2\x80\x89r\xe2\x80\x89+\xe2\x80\x891)\xc2\xb7(m\xe2\x80\x89-\xe2\x80\x89r\xe2\x80\x89+\xe2\x80\x891) possible positions, the average number of caught fishes is as high as possible.'
+b'Input'
+b'The only line contains four integers n,\xe2\x80\x89m,\xe2\x80\x89r,\xe2\x80\x89k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(n,\xe2\x80\x89m), 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(n\xc2\xb7m,\xe2\x80\x89105)).'
+b'Output'
+b'Print a single number\xc2\xa0\xe2\x80\x94 the maximum possible expected number of caught fishes.'
+b"You answer is considered correct, is its absolute or relative error does not exceed 10\xe2\x80\x89-\xe2\x80\x899. Namely, let your answer be a, and the jury's answer be b. Your answer is considered correct, if ."
+Tags
+data structures, graphs, greedy, probabilities, shortest paths, *2100

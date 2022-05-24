@@ -1,0 +1,16 @@
+b"NASA (Norwegian Astronaut Stuff Association) is developing a new steering system for spaceships. But in its current state, it wouldn't be very safe if the spaceship would end up in a bunch of space junk. To make the steering system safe, they need to answer the following:"
+b'Given the target position t=(0,0)t=(0,0), a set of nn pieces of space junk ll described by line segments li=((aix,aiy),(bix,biy))li=((aix,aiy),(bix,biy)), and a starting position s=(sx,sy)s=(sx,sy), is there a direction such that floating in that direction from the starting position would lead to the target position?'
+b'When the spaceship hits a piece of space junk, what happens depends on the absolute difference in angle between the floating direction and the line segment, \xce\xb8\xce\xb8:'
+b'  If \xce\xb8<45\xe2\x88\x98\xce\xb8<45\xe2\x88\x98, the spaceship slides along the piece of space junk in the direction that minimizes the change in angle, and when the spaceship slides off the end of the space junk, it continues floating in the direction it came in (before hitting the space junk).  If \xce\xb8\xe2\x89\xa545\xe2\x88\x98\xce\xb8\xe2\x89\xa545\xe2\x88\x98, the spaceship stops, because there is too much friction to slide along the space junk. '
+b'You are only given the set of pieces of space junk once, and the target position is always (0,0)(0,0), but there are qq queries, each with a starting position sj=(sjx,sjy)sj=(sjx,sjy).'
+b'Answer the above question for each query.'
+b'Input'
+b'The first line contains the the integer nn (1\xe2\x89\xa4n\xe2\x89\xa415001\xe2\x89\xa4n\xe2\x89\xa41500).'
+b'Then follows nn lines, the ii-th of which containing the 44 integers aixaix, aiyaiy, bixbix, and biybiy (|aix|,|aiy|,|bix|,|biy|\xe2\x89\xa41000|aix|,|aiy|,|bix|,|biy|\xe2\x89\xa41000).'
+b'Then follows a line containing the integer qq (1\xe2\x89\xa4q\xe2\x89\xa410001\xe2\x89\xa4q\xe2\x89\xa41000).'
+b'Then follows qq lines, the jj-th of which containing the 22 integers sjxsjx and sjysjy (|sjx|,|sjy|\xe2\x89\xa41000|sjx|,|sjy|\xe2\x89\xa41000).'
+b'It is guaranteed that none of the segments in ll cross or touch, that tt is not on any segment in ll, that sjsj is not on any segment in ll, and that s\xe2\x89\xa0ts\xe2\x89\xa0t.'
+b'Output'
+b'For each query sjsj print an answer. If there exists a direction such that floating from sjsj in that direction, possibly sliding along some pieces of space junk, leads to tt, print "YES". Otherwise, print "NO" (case insensitive).'
+Tags
+binary search, data structures, geometry, sortings, *3500

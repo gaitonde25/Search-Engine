@@ -1,0 +1,11 @@
+b'You are given two very long integers a,\xe2\x80\x89b (leading zeroes are allowed). You should check what number a or b is greater or determine that they are equal.'
+b"The input size is very large so don't use the reading of symbols one by one. Instead of that use the reading of a whole line or token."
+b"As input/output can reach huge size it is recommended to use fast input/output methods: for example, prefer to use scanf/printf instead of cin/cout in C++, prefer to use BufferedReader/PrintWriter instead of Scanner/System.out in Java. Don't use the function input() in Python2 instead of it use the function raw_input()."
+b'Input'
+b'The first line contains a non-negative integer a.'
+b'The second line contains a non-negative integer b.'
+b'The numbers a,\xe2\x80\x89b may contain leading zeroes. Each of them contains no more than 106 digits.'
+b'Output'
+b'Print the symbol "<" if a\xe2\x80\x89<\xe2\x80\x89b and the symbol ">" if a\xe2\x80\x89>\xe2\x80\x89b. If the numbers are equal print the symbol "=".'
+Tags
+implementation, strings, *900

@@ -1,0 +1,16 @@
+b'You are given two strings AA and BB representing essays of two students who are suspected cheaters. For any two strings CC, DD we define their similarity score S(C,D)S(C,D) as 4\xe2\x8b\x85LCS(C,D)\xe2\x88\x92|C|\xe2\x88\x92|D|4\xe2\x8b\x85LCS(C,D)\xe2\x88\x92|C|\xe2\x88\x92|D|, where LCS(C,D)LCS(C,D) denotes the length of the Longest Common Subsequence of strings CC and DD. '
+b"You believe that only some part of the essays could have been copied, therefore you're interested in their substrings."
+b'Calculate the maximal similarity score over all pairs of substrings. More formally, output maximal S(C,D)S(C,D) over all pairs (C,D)(C,D), where CC is some substring of AA, and DD is some substring of BB. '
+b'If XX is a string, |X||X| denotes its length.'
+b'A string aa is a substring of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.'
+b'A string aa is a subsequence of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters. '
+b'Pay attention to the difference between the substring and subsequence, as they both appear in the problem statement. '
+b'You may wish to read the Wikipedia page about the Longest Common Subsequence problem.'
+b'Input'
+b'The first line contains two positive integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa450001\xe2\x89\xa4n,m\xe2\x89\xa45000)\xc2\xa0\xe2\x80\x94 lengths of the two strings AA and BB. '
+b'The second line contains a string consisting of nn lowercase Latin letters\xc2\xa0\xe2\x80\x94 string AA.'
+b'The third line contains a string consisting of mm lowercase Latin letters\xc2\xa0\xe2\x80\x94 string BB. '
+b'Output'
+b'Output maximal S(C,D)S(C,D) over all pairs (C,D)(C,D), where CC is some substring of AA, and DD is some substring of BB. '
+Tags
+dp, strings, *1800

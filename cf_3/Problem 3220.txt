@@ -1,0 +1,12 @@
+b'There are nn TV shows you want to watch. Suppose the whole time is split into equal parts called "minutes". The ii-th of the shows is going from lili-th to riri-th minute, both ends inclusive.'
+b"You need a TV to watch a TV show and you can't watch two TV shows which air at the same time on the same TV, so it is possible you will need multiple TVs in some minutes. For example, if segments [li,ri][li,ri] and [lj,rj][lj,rj] intersect, then shows ii and jj can't be watched simultaneously on one TV."
+b'Once you start watching a show on some TV it is not possible to "move" it to another TV (since it would be too distracting), or to watch another show on the same TV until this show ends.'
+b'There is a TV Rental shop near you. It rents a TV for xx rupees, and charges yy (y<xy<x) rupees for every extra minute you keep the TV. So in order to rent a TV for minutes [a;b][a;b] you will need to pay x+y\xe2\x8b\x85(b\xe2\x88\x92a)x+y\xe2\x8b\x85(b\xe2\x88\x92a). '
+b"You can assume, that taking and returning of the TV doesn't take any time and doesn't distract from watching other TV shows. Find the minimum possible cost to view all shows. Since this value could be too large, print it modulo 109+7109+7."
+b'Input'
+b'The first line contains integers nn, xx and yy (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105, 1\xe2\x89\xa4y<x\xe2\x89\xa41091\xe2\x89\xa4y<x\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of TV shows, the cost to rent a TV for the first minute and the cost to rent a TV for every subsequent minute.'
+b'Each of the next nn lines contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa41091\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4109) denoting the start and the end minute of the ii-th TV show.'
+b'Output'
+b'Print exactly one integer\xc2\xa0\xe2\x80\x94 the minimum cost to view all the shows taken modulo 109+7109+7.'
+Tags
+data structures, greedy, implementation, sortings, *2000

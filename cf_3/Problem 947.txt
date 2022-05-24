@@ -1,0 +1,18 @@
+b'Yuu Koito and Touko Nanami are newlyweds! On the wedding day, Yuu gifted Touko a directed tree with nn nodes and rooted at 11, and a labeling aa which is some DFS order of the tree. Every edge in this tree is directed away from the root.'
+b'After calling dfs(1) the following algorithm returns aa as a DFS order of a tree rooted at 11 :'
+b'order := 0a := array of length n function dfs(u):    order := order + 1    a[u] := order    for all v such that there is a directed edge (u -> v):        dfs(v)'
+b'Note that there may be different DFS orders for a given tree.'
+b'Touko likes the present so much she decided to play with it! On each day following the wedding day, Touko performs this procedure once:'
+b' Among all directed edges u\xe2\x86\x92vu\xe2\x86\x92v such that au<avau<av, select the edge u\xe2\x80\xb2\xe2\x86\x92v\xe2\x80\xb2u\xe2\x80\xb2\xe2\x86\x92v\xe2\x80\xb2 with the lexicographically smallest pair (au\xe2\x80\xb2,av\xe2\x80\xb2)(au\xe2\x80\xb2,av\xe2\x80\xb2).  Swap au\xe2\x80\xb2au\xe2\x80\xb2 and av\xe2\x80\xb2av\xe2\x80\xb2.'
+b'Days have passed since their wedding, and Touko has somehow forgotten which date the wedding was and what was the original labeling aa! Fearing that Yuu might get angry, Touko decided to ask you to derive these two pieces of information using the current labeling.'
+b'Being her good friend, you need to find the number of days that have passed since the wedding, and the original labeling of the tree. However, there is a chance that Touko might have messed up her procedures, which result in the current labeling being impossible to obtain from some original labeling; in that case, please inform Touko as well.'
+b'Input'
+b'The first line of the input contains an integer nn (2\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of nodes on the tree.'
+b'The second line contains nn integers a1a1, a2a2, ..., anan (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n, all aiai are distinct) \xe2\x80\x94 the current labeling of the tree.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uiui and vivi (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n, u\xe2\x89\xa0vu\xe2\x89\xa0v), describing an directed edge from uiui to vivi. The edges form a directed tree rooted at 11.'
+b'Output'
+b'If the current labeling is impossible to arrive at from any DFS order, print NO.'
+b'Else, on the first line, print YES. On the second line, print a single integer denoting the number of days since the wedding. On the third line, print nn numbers space-separated denoting the original labeling of the tree. '
+b'If there are multiple correct outputs, print any. This means: you are allowed to output any pair (DFS order, number of days), such that we get the current configuration from the DFS order you provided in exactly the number of days you provided.'
+Tags
+brute force, constructive algorithms, data structures, dfs and similar, sortings, trees, *3100

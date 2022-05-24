@@ -1,0 +1,9 @@
+b'Today on a math lesson the teacher told Vovochka that the Euler function of a positive integer \xcf\x86(n) is an arithmetic function that counts the positive integers less than or equal to n that are relatively prime to n. The number 1 is coprime to all the positive integers and \xcf\x86(1)\xe2\x80\x89=\xe2\x80\x891.'
+b"Now the teacher gave Vovochka an array of n positive integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an and a task to process q queries li ri\xc2\xa0\xe2\x80\x94 to calculate and print  modulo 109\xe2\x80\x89+\xe2\x80\x897. As it is too hard for a second grade school student, you've decided to help Vovochka."
+b'Input'
+b'The first line of the input contains number n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the length of the array given to Vovochka. The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106).'
+b'The third line contains integer q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of queries. Next q lines contain the queries, one per line. Each query is defined by the boundaries of the segment li and ri (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89li\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ri\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
+b'Output'
+b'Print q numbers \xe2\x80\x94 the value of the Euler function for each query, calculated modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+data structures, number theory, *2500

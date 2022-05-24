@@ -1,0 +1,14 @@
+b'Yuezheng Ling gives Luo Tianyi a tree which has nn nodes, rooted at 11. '
+b'Luo Tianyi will tell you that the parent of the ii-th node is aiai (1\xe2\x89\xa4ai<i1\xe2\x89\xa4ai<i for 2\xe2\x89\xa4i\xe2\x89\xa4n2\xe2\x89\xa4i\xe2\x89\xa4n), and she will ask you to perform qq queries of 22 types:'
+b" She'll give you three integers ll, rr and xx (2\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n2\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n, 1\xe2\x89\xa4x\xe2\x89\xa41051\xe2\x89\xa4x\xe2\x89\xa4105). You need to replace aiai with max(ai\xe2\x88\x92x,1)max(ai\xe2\x88\x92x,1) for all ii with l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r. She'll give you two integers uu, vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n). You need to find the LCA of nodes uu and vv (their lowest common ancestor)."
+b'Input'
+b'The first line contains two integers nn and qq (2\xe2\x89\xa4n,q\xe2\x89\xa41052\xe2\x89\xa4n,q\xe2\x89\xa4105) \xe2\x80\x94 the number of nodes and the number of queries, respectively.'
+b'The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers a2,a3,\xe2\x80\xa6,ana2,a3,\xe2\x80\xa6,an (1\xe2\x89\xa4ai<i1\xe2\x89\xa4ai<i), where aiai is the parent of the node ii.'
+b'Next qq lines contain queries. For each query, the first integer of each line is tt (t=1t=1 or 22) \xe2\x80\x94 the type of the query. '
+b' If t=1t=1, this represents the query of the first type. Then, three integers will follow: ll, rr, xx (2\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n2\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n, 1\xe2\x89\xa4x\xe2\x89\xa41051\xe2\x89\xa4x\xe2\x89\xa4105), meaning that you have to replace aiai with max(ai\xe2\x88\x92x,1)max(ai\xe2\x88\x92x,1) for all ii with l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r.'
+b' If t=2t=2, this represents the query of the second type. Then, two integers will follow: uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n), and you have to find the LCA of uu and vv. '
+b" It's guaranteed that there is at least one query of the second type."
+b'Output'
+b'For each query of the second type output answer on a new line.'
+Tags
+data structures, trees, *3400

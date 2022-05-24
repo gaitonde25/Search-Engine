@@ -1,0 +1,11 @@
+b'Ivan decided to prepare for the test on solving integer equations. He noticed that all tasks in the test have the following form:'
+b'  You are given two positive integers uu and vv, find any pair of integers (not necessarily positive) xx, yy, such that: xu+yv=x+yu+v.xu+yv=x+yu+v.  The solution x=0x=0, y=0y=0 is forbidden, so you should find any solution with (x,y)\xe2\x89\xa0(0,0)(x,y)\xe2\x89\xa0(0,0). '
+b'Please help Ivan to solve some equations of this form.'
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the number of test cases. The next lines contain descriptions of test cases.'
+b'The only line of each test case contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa41091\xe2\x89\xa4u,v\xe2\x89\xa4109) \xe2\x80\x94 the parameters of the equation.'
+b'Output'
+b'For each test case print two integers xx, yy \xe2\x80\x94 a possible solution to the equation. It should be satisfied that \xe2\x88\x921018\xe2\x89\xa4x,y\xe2\x89\xa41018\xe2\x88\x921018\xe2\x89\xa4x,y\xe2\x89\xa41018 and (x,y)\xe2\x89\xa0(0,0)(x,y)\xe2\x89\xa0(0,0).'
+b'We can show that an answer always exists. If there are multiple possible solutions you can print any.'
+Tags
+math, *800

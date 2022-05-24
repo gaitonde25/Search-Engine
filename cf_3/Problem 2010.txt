@@ -1,0 +1,14 @@
+b'Reminder: the median of the array [a1,a2,\xe2\x80\xa6,a2k+1][a1,a2,\xe2\x80\xa6,a2k+1] of odd number of elements is defined as follows: let [b1,b2,\xe2\x80\xa6,b2k+1][b1,b2,\xe2\x80\xa6,b2k+1] be the elements of the array in the sorted order. Then median of this array is equal to bk+1bk+1.'
+b"There are 2n2n students, the ii-th student has skill level aiai. It's not guaranteed that all skill levels are distinct."
+b"Let's define skill level of a class as the median of skill levels of students of the class."
+b'As a principal of the school, you would like to assign each student to one of the 22 classes such that each class has odd number of students (not divisible by 22). The number of students in the classes may be equal or different, by your choice. Every student has to be assigned to exactly one class. Among such partitions, you want to choose one in which the absolute difference between skill levels of the classes is minimized.'
+b'What is the minimum possible absolute difference you can achieve?'
+b'Input'
+b'Each test contains multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104). The description of the test cases follows.'
+b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of students halved.'
+b'The second line of each test case contains 2n2n integers a1,a2,\xe2\x80\xa6,a2na1,a2,\xe2\x80\xa6,a2n (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 skill levels of students.'
+b'It is guaranteed that the sum of nn over all test cases does not exceed 105105.'
+b'Output'
+b'For each test case, output a single integer, the minimum possible absolute difference between skill levels of two classes of odd sizes.'
+Tags
+greedy, implementation, sortings, *1000

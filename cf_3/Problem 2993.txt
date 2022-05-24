@@ -1,0 +1,10 @@
+b'Ayoub had an array aa of integers of size nn and this array had two interesting properties: '
+b'  All the integers in the array were between ll and rr (inclusive).  The sum of all the elements was divisible by 33. '
+b'Unfortunately, Ayoub has lost his array, but he remembers the size of the array nn and the numbers ll and rr, so he asked you to find the number of ways to restore the array. '
+b'Since the answer could be very large, print it modulo 109+7109+7 (i.e. the remainder when dividing by 109+7109+7). In case there are no satisfying arrays (Ayoub has a wrong memory), print 00.'
+b'Input'
+b'The first and only line contains three integers nn, ll and rr (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105,1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the size of the lost array and the range of numbers in the array.'
+b'Output'
+b'Print the remainder when dividing by 109+7109+7 the number of ways to restore the array.'
+Tags
+combinatorics, dp, math, *1500

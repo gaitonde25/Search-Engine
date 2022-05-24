@@ -1,0 +1,9 @@
+b"You are given three bags. Each bag contains a non-empty multiset of numbers. You can perform a number of operations on these bags. In one operation, you can choose any two non-empty bags, and choose one number from each of the bags. Let's say that you choose number aa from the first bag and number bb from the second bag. Then, you remove bb from the second bag and replace aa with a\xe2\x88\x92ba\xe2\x88\x92b in the first bag. Note that if there are multiple occurrences of these numbers, then you shall only remove/replace exactly one occurrence."
+b'You have to perform these operations in such a way that you have exactly one number remaining in exactly one of the bags (the other two bags being empty). It can be shown that you can always apply these operations to receive such a configuration in the end. Among all these configurations, find the one which has the maximum number left in the end.'
+b'Input'
+b'The first line of the input contains three space-separated integers n1n1, n2n2 and n3n3 (1\xe2\x89\xa4n1,n2,n3\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n1,n2,n3\xe2\x89\xa43\xe2\x8b\x85105, 1\xe2\x89\xa4n1+n2+n3\xe2\x89\xa43\xe2\x8b\x851051\xe2\x89\xa4n1+n2+n3\xe2\x89\xa43\xe2\x8b\x85105) \xe2\x80\x94 the number of numbers in the three bags.'
+b'The ii-th of the next three lines contain nini space-separated integers ai,1ai,1, ai,2ai,2, ..., ai,niai,ni (1\xe2\x89\xa4ai,j\xe2\x89\xa41091\xe2\x89\xa4ai,j\xe2\x89\xa4109) \xe2\x80\x94 the numbers in the ii-th bag.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the maximum number which you can achieve in the end.'
+Tags
+constructive algorithms, greedy, *1900

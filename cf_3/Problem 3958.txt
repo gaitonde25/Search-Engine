@@ -1,0 +1,8 @@
+b'Count the number of distinct sequences a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai) consisting of positive integers such that gcd(a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an)\xe2\x80\x89=\xe2\x80\x89x and . As this number could be large, print the answer modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+b'gcd here means the greatest common divisor.'
+b'Input'
+b'The only line contains two positive integers x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
+b'Output'
+b'Print the number of such sequences modulo 109\xe2\x80\x89+\xe2\x80\x897.'
+Tags
+bitmasks, combinatorics, dp, math, number theory, *2000

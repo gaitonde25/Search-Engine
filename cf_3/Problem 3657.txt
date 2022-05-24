@@ -1,0 +1,8 @@
+b'To make a paper airplane, one has to use a rectangular piece of paper. From a sheet of standard size you can make ss airplanes.'
+b'A group of kk people decided to make nn airplanes each. They are going to buy several packs of paper, each of them containing pp sheets, and then distribute the sheets between the people. Each person should have enough sheets to make nn airplanes. How many packs should they buy?'
+b'Input'
+b'The only line contains four integers kk, nn, ss, pp (1\xe2\x89\xa4k,n,s,p\xe2\x89\xa41041\xe2\x89\xa4k,n,s,p\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the number of people, the number of airplanes each should make, the number of airplanes that can be made using one sheet and the number of sheets in one pack, respectively.'
+b'Output'
+b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum number of packs they should buy.'
+Tags
+math, *800

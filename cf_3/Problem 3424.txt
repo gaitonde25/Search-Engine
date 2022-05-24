@@ -1,0 +1,13 @@
+b'Now Vasya is taking an exam in mathematics. In order to get a good mark, Vasya needs to guess the matrix that the teacher has constructed!'
+b'Vasya knows that the matrix consists of n rows and m columns. For each row, he knows the xor (bitwise excluding or) of the elements in this row. The sequence a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an denotes the xor of elements in rows with indices 1, 2, ..., n, respectively. Similarly, for each column, he knows the xor of the elements in this column. The sequence b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bm denotes the xor of elements in columns with indices 1, 2, ..., m, respectively.'
+b'Help Vasya! Find a matrix satisfying the given constraints or tell him that there is no suitable matrix.'
+b'Input'
+b'The first line contains two numbers n and m\xc2\xa0(2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the dimensions of the matrix.'
+b'The second line contains n numbers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an\xc2\xa0(0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where ai is the xor of all elements in row i.'
+b'The third line contains m numbers b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bm\xc2\xa0(0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109), where bi is the xor of all elements in column i.'
+b'Output'
+b'If there is no matrix satisfying the given constraints in the first line, output "NO".'
+b'Otherwise, on the first line output "YES", and then n rows of m numbers in each ci1,\xe2\x80\x89ci2,\xe2\x80\x89... ,\xe2\x80\x89cim\xc2\xa0(0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89cij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7109) \xe2\x80\x94 the description of the matrix.'
+b'If there are several suitable matrices, it is allowed to print any of them.'
+Tags
+constructive algorithms, flows, math, *1800

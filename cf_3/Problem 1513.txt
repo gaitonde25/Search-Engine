@@ -1,0 +1,16 @@
+b'Since Boboniu finished building his Jianghu, he has been doing Kungfu on these mountains every day. '
+b'Boboniu designs a map for his nn mountains. He uses n\xe2\x88\x921n\xe2\x88\x921 roads to connect all nn mountains. Every pair of mountains is connected via roads.'
+b'For the ii-th mountain, Boboniu estimated the tiredness of doing Kungfu on the top of it as titi. He also estimated the height of each mountain as hihi.'
+b'A path is a sequence of mountains MM such that for each ii (1\xe2\x89\xa4i<|M|1\xe2\x89\xa4i<|M|), there exists a road between MiMi and Mi+1Mi+1. Boboniu would regard the path as a challenge if for each ii (1\xe2\x89\xa4i<|M|1\xe2\x89\xa4i<|M|), hMi\xe2\x89\xa4hMi+1hMi\xe2\x89\xa4hMi+1.'
+b'Boboniu wants to divide all n\xe2\x88\x921n\xe2\x88\x921 roads into several challenges. Note that each road must appear in exactly one challenge, but a mountain may appear in several challenges. '
+b'Boboniu wants to minimize the total tiredness to do all the challenges. The tiredness of a challenge MM is the sum of tiredness of all mountains in it, i.e. \xe2\x88\x91|M|i=1tMi\xe2\x88\x91i=1|M|tMi. '
+b"He asked you to find the minimum total tiredness. As a reward for your work, you'll become a guardian in his Jianghu."
+b'Input'
+b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105), denoting the number of the mountains.'
+b'The second line contains nn integers t1,t2,\xe2\x80\xa6,tnt1,t2,\xe2\x80\xa6,tn (1\xe2\x89\xa4ti\xe2\x89\xa41061\xe2\x89\xa4ti\xe2\x89\xa4106), denoting the tiredness for Boboniu to do Kungfu on each mountain.'
+b'The third line contains nn integers h1,h2,\xe2\x80\xa6,hnh1,h2,\xe2\x80\xa6,hn (1\xe2\x89\xa4hi\xe2\x89\xa41061\xe2\x89\xa4hi\xe2\x89\xa4106), denoting the height of each mountain.'
+b"Each of the following n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uiui, vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n,ui\xe2\x89\xa0vi1\xe2\x89\xa4ui,vi\xe2\x89\xa4n,ui\xe2\x89\xa0vi), denoting the ends of the road. It's guaranteed that all mountains are connected via roads."
+b'Output'
+b'Print one integer: the smallest sum of tiredness of all challenges.'
+Tags
+dp, greedy, sortings, trees, *2800

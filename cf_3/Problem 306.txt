@@ -1,0 +1,17 @@
+b'The Government of Mars is not only interested in optimizing space flights, but also wants to improve the road system of the planet.'
+b'One of the most important highways of Mars connects Olymp City and Kstolop, the capital of Cydonia. In this problem, we only consider the way from Kstolop to Olymp City, but not the reverse path (i.\xc2\xa0e. the path from Olymp City to Kstolop).'
+b'The road from Kstolop to Olymp City is \xe2\x84\x93\xe2\x84\x93 kilometers long. Each point of the road has a coordinate xx (0\xe2\x89\xa4x\xe2\x89\xa4\xe2\x84\x930\xe2\x89\xa4x\xe2\x89\xa4\xe2\x84\x93), which is equal to the distance from Kstolop in kilometers. So, Kstolop is located in the point with coordinate 00, and Olymp City is located in the point with coordinate \xe2\x84\x93\xe2\x84\x93.'
+b'There are nn signs along the road, ii-th of which sets a speed limit aiai. This limit means that the next kilometer must be passed in aiai minutes and is active until you encounter the next along the road. There is a road sign at the start of the road (i.\xc2\xa0e. in the point with coordinate 00), which sets the initial speed limit.'
+b"If you know the location of all the signs, it's not hard to calculate how much time it takes to drive from Kstolop to Olymp City. Consider an example:"
+b'  '
+b'Here, you need to drive the first three kilometers in five minutes each, then one kilometer in eight minutes, then four kilometers in three minutes each, and finally the last two kilometers must be passed in six minutes each. Total time is 3\xe2\x8b\x855+1\xe2\x8b\x858+4\xe2\x8b\x853+2\xe2\x8b\x856=473\xe2\x8b\x855+1\xe2\x8b\x858+4\xe2\x8b\x853+2\xe2\x8b\x856=47 minutes.'
+b'To optimize the road traffic, the Government of Mars decided to remove no more than kk road signs. It cannot remove the sign at the start of the road, otherwise, there will be no limit at the start. By removing these signs, the Government also wants to make the time needed to drive from Kstolop to Olymp City as small as possible.'
+b"The largest industrial enterprises are located in Cydonia, so it's the priority task to optimize the road traffic from Olymp City. So, the Government of Mars wants you to remove the signs in the way described above."
+b'Input'
+b'The first line contains three integers nn, \xe2\x84\x93\xe2\x84\x93, kk (1\xe2\x89\xa4n\xe2\x89\xa45001\xe2\x89\xa4n\xe2\x89\xa4500, 1\xe2\x89\xa4\xe2\x84\x93\xe2\x89\xa41051\xe2\x89\xa4\xe2\x84\x93\xe2\x89\xa4105, 0\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x9210\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x88\x921), the amount of signs on the road, the distance between the cities and the maximal number of signs you may remove.'
+b'The second line contains nn integers didi (d1=0d1=0, di<di+1di<di+1, 0\xe2\x89\xa4di\xe2\x89\xa4\xe2\x84\x93\xe2\x88\x9210\xe2\x89\xa4di\xe2\x89\xa4\xe2\x84\x93\xe2\x88\x921) \xe2\x80\x94 coordinates of all signs.'
+b'The third line contains nn integers aiai (1\xe2\x89\xa4ai\xe2\x89\xa41041\xe2\x89\xa4ai\xe2\x89\xa4104) \xe2\x80\x94 speed limits.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 minimal possible time to drive from Kstolop to Olymp City in minutes, if you remove no more than kk road signs.'
+Tags
+dp, *1700

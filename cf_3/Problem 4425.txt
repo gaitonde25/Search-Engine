@@ -1,0 +1,15 @@
+b"T is a complete binary tree consisting of n vertices. It means that exactly one vertex is a root, and each vertex is either a leaf (and doesn't have children) or an inner node (and has exactly two children). All leaves of a complete binary tree have the same depth (distance from the root). So n is a number such that n\xe2\x80\x89+\xe2\x80\x891 is a power of 2."
+b'In the picture you can see a complete binary tree with n\xe2\x80\x89=\xe2\x80\x8915.'
+b'  '
+b'Vertices are numbered from 1 to n in a special recursive way: we recursively assign numbers to all vertices from the left subtree (if current vertex is not a leaf), then assign a number to the current vertex, and then recursively assign numbers to all vertices from the right subtree (if it exists). In the picture vertices are numbered exactly using this algorithm. It is clear that for each size of a complete binary tree exists exactly one way to give numbers to all vertices. This way of numbering is called symmetric.'
+b'You have to write a program that for given n answers q queries to the tree.'
+b"Each query consists of an integer number ui (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) and a string si, where ui is the number of vertex, and si represents the path starting from this vertex. String si doesn't contain any characters other than 'L', 'R' and 'U', which mean traverse to the left child, to the right child and to the parent, respectively. Characters from si have to be processed from left to right, considering that ui is the vertex where the path starts. If it's impossible to process a character (for example, to go to the left child of a leaf), then you have to skip it. The answer is the number of vertex where the path represented by si ends."
+b'For example, if ui\xe2\x80\x89=\xe2\x80\x894 and si\xe2\x80\x89=\xe2\x80\x89\xc2\xabUURL\xc2\xbb, then the answer is 10.'
+b'Input'
+b'The first line contains two integer numbers n and q (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018, q\xe2\x80\x89\xe2\x89\xa5\xe2\x80\x891). n is such that n\xe2\x80\x89+\xe2\x80\x891 is a power of 2.'
+b"The next 2q lines represent queries; each query consists of two consecutive lines. The first of these two lines contains ui (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ui\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n), the second contains non-empty string si. si doesn't contain any characters other than 'L', 'R' and 'U'."
+b"It is guaranteed that the sum of lengths of si (for each i such that 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89q) doesn't exceed 105."
+b'Output'
+b'Print q numbers, i-th number must be the answer to the i-th query.'
+Tags
+bitmasks, trees, *1900

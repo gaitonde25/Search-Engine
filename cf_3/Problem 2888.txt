@@ -1,0 +1,9 @@
+b'Find the number of ways to divide an array aa of nn integers into any number of disjoint non-empty segments so that, in each segment, there exist at most kk distinct integers that appear exactly once.'
+b'Since the answer can be large, find it modulo 998244353998244353.'
+b'Input'
+b'The first line contains two space-separated integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 the number of elements in the array aa and the restriction from the statement.'
+b'The following line contains nn space-separated integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) \xe2\x80\x94 elements of the array aa.'
+b'Output'
+b'The first and only line contains the number of ways to divide an array aa modulo 998244353998244353.'
+Tags
+data structures, dp, *2900

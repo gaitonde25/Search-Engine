@@ -1,0 +1,10 @@
+b'This is an interactive problem.'
+b'Ayush devised a new scheme to set the password of his lock. The lock has kk slots where each slot can hold integers from 11 to nn. The password PP is a sequence of kk integers each in the range [1,n][1,n], ii-th element of which goes into the ii-th slot of the lock.'
+b'To set the password of his lock, Ayush comes up with an array AA of nn integers each in the range [1,n][1,n] (not necessarily distinct). He then picks kk non-empty mutually disjoint subsets of indices S1,S2,...,SkS1,S2,...,Sk (Si\xe2\x88\xa9i\xe2\x89\xa0jSj=\xe2\x88\x85)(Si\xe2\x88\xa9i\xe2\x89\xa0jSj=\xe2\x88\x85) and sets his password as Pi=maxj\xe2\x88\x89SiA[j]Pi=maxj\xe2\x88\x89SiA[j]. In other words, the ii-th integer in the password is equal to the maximum over all elements of AA whose indices do not belong to SiSi.'
+b'You are given the subsets of indices chosen by Ayush. You need to guess the password. To make a query, you can choose a non-empty subset of indices of the array and ask the maximum of all elements of the array with index in this subset. You can ask no more than 12 queries.'
+b'Input'
+b'The first line of the input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410)(1\xe2\x89\xa4t\xe2\x89\xa410)\xc2\xa0\xe2\x80\x94 the number of test cases. The description of the test cases follows.'
+b'The first line of each test case contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa41000,1\xe2\x89\xa4k\xe2\x89\xa4n)(2\xe2\x89\xa4n\xe2\x89\xa41000,1\xe2\x89\xa4k\xe2\x89\xa4n)\xc2\xa0\xe2\x80\x94 the size of the array and the number of subsets. kk lines follow. The ii-th line contains an integer cc (1\xe2\x89\xa4c<n)(1\xe2\x89\xa4c<n)\xc2\xa0\xe2\x80\x94 the size of subset SiSi, followed by cc distinct integers in the range [1,n][1,n] \xc2\xa0\xe2\x80\x94 indices from the subset SiSi.'
+b'It is guaranteed that the intersection of any two subsets is empty.'
+Tags
+binary search, implementation, interactive, math, *2100

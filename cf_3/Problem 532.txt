@@ -1,0 +1,13 @@
+b'A bow adorned with nameless flowers that bears the earnest hopes of an equally nameless person.'
+b'You have obtained the elegant bow known as the Windblume Ode. Inscribed in the weapon is an array of nn (n\xe2\x89\xa53n\xe2\x89\xa53) positive distinct integers (i.e. different, no duplicates are allowed).'
+b'Find the largest subset (i.e. having the maximum number of elements) of this array such that its sum is a composite number. A positive integer xx is called composite if there exists a positive integer yy such that 1<y<x1<y<x and xx is divisible by yy.'
+b'If there are multiple subsets with this largest size with the composite sum, you can output any of them. It can be proven that under the constraints of the problem such a non-empty subset always exists.'
+b'Input'
+b'Each test consists of multiple test cases. The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the test cases follows.'
+b'The first line of each test case contains an integer nn (3\xe2\x89\xa4n\xe2\x89\xa41003\xe2\x89\xa4n\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the length of the array.'
+b'The second line of each test case contains nn distinct integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa42001\xe2\x89\xa4ai\xe2\x89\xa4200)\xc2\xa0\xe2\x80\x94 the elements of the array.'
+b'Output'
+b'Each test case should have two lines of output.'
+b'The first line should contain a single integer xx: the size of the largest subset with composite sum. The next line should contain xx space separated integers representing the indices of the subset of the initial array.'
+Tags
+math, number theory, *800

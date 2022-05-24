@@ -1,0 +1,17 @@
+b'After the last regional contest, Hemose and his teammates finally qualified to the ICPC World Finals, so for this great achievement and his love of trees, he gave you this problem as the name of his team "Hemose 3al shagra" (Hemose on the tree).'
+b'You are given a tree of nn vertices where nn is a power of 22. You have to give each node and edge an integer value in the range [1,2n\xe2\x88\x921][1,2n\xe2\x88\x921] (inclusive), where all the values are distinct.'
+b'After giving each node and edge a value, you should select some root for the tree such that the maximum cost of any simple path starting from the root and ending at any node or edge is minimized.'
+b"The cost of the path between two nodes uu and vv or any node uu and edge ee is defined as the bitwise XOR of all the node's and edge's values between them, including the endpoints (note that in a tree there is only one simple path between two nodes or between a node and an edge)."
+b'Input'
+b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
+b'The first line of each test case contains a single integer pp (1\xe2\x89\xa4p\xe2\x89\xa4171\xe2\x89\xa4p\xe2\x89\xa417), where nn (the number of vertices in the tree) is equal to 2p2p.'
+b'Each of the next n\xe2\x88\x921n\xe2\x88\x921 lines contains two integers uu and vv (1\xe2\x89\xa4u,v\xe2\x89\xa4n1\xe2\x89\xa4u,v\xe2\x89\xa4n) meaning that there is an edge between the vertices uu and vv in the tree.'
+b'It is guaranteed that the given graph is a tree.'
+b"It is guaranteed that the sum of nn over all test cases doesn't exceed 3\xe2\x8b\x851053\xe2\x8b\x85105."
+b'Output'
+b'For each test case on the first line print the chosen root.'
+b'On the second line, print nn integers separated by spaces, where the ii-th integer represents the chosen value for the ii-th node.'
+b'On the third line, print n\xe2\x88\x921n\xe2\x88\x921 integers separated by spaces, where the ii-th integer represents the chosen value for the ii-th edge. The edges are numerated in the order of their appearance in the input data.'
+b'If there are multiple solutions, you may output any.'
+Tags
+bitmasks, constructive algorithms, dfs and similar, trees, *2200

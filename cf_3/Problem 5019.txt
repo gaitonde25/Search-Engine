@@ -1,0 +1,12 @@
+b'Limak is a little polar bear. He has n balls, the i-th ball has size ti.'
+b"Limak wants to give one ball to each of his three friends. Giving gifts isn't easy\xc2\xa0\xe2\x80\x94 there are two rules Limak must obey to make friends happy:"
+b'  No two friends can get balls of the same size.  No two friends can get balls of sizes that differ by more than 2. '
+b"For example, Limak can choose balls with sizes 4, 5 and 3, or balls with sizes 90, 91 and 92. But he can't choose balls with sizes 5, 5 and 6 (two friends would get balls of the same size), and he can't choose balls with sizes 30, 31 and 33 (because sizes 30 and 33 differ by more than 2)."
+b'Your task is to check whether Limak can choose three balls that satisfy conditions above.'
+b'Input'
+b'The first line of the input contains one integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950)\xc2\xa0\xe2\x80\x94 the number of balls Limak has.'
+b'The second line contains n integers t1,\xe2\x80\x89t2,\xe2\x80\x89...,\xe2\x80\x89tn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) where ti denotes the size of the i-th ball.'
+b'Output'
+b'Print "YES" (without quotes) if Limak can choose three balls of distinct sizes, such that any two of them differ by no more than 2. Otherwise, print "NO" (without quotes).'
+Tags
+brute force, implementation, sortings, *900

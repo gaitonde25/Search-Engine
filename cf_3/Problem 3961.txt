@@ -1,0 +1,9 @@
+b'You have n distinct points on a plane, none of them lie on OY axis. Check that there is a point after removal of which the remaining points are located on one side of the OY axis.'
+b'Input'
+b'The first line contains a single positive integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
+b'The following n lines contain coordinates of the points. The i-th of these lines contains two single integers xi and yi (|xi|,\xe2\x80\x89|yi|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, xi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x890). No two points coincide.'
+b'Output'
+b'Print "Yes" if there is such a point, "No" \xe2\x80\x94 otherwise.'
+b'You can print every letter in any case (upper or lower).'
+Tags
+geometry, implementation, *800

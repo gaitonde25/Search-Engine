@@ -1,0 +1,10 @@
+b'Gerald got tired of playing board games with the usual six-sided die, and he bought a toy called Randomizer. It functions as follows.'
+b'A Randomizer has its own coordinate plane on which a strictly convex polygon is painted, the polygon is called a basic polygon. If you shake a Randomizer, it draws some nondegenerate (i.e. having a non-zero area) convex polygon with vertices at some vertices of the basic polygon. The result of the roll (more precisely, the result of the shaking) is considered to be the number of points with integer coordinates, which were strictly inside (the points on the border are not considered) the selected polygon. Now Gerald is wondering: what is the expected result of shaking the Randomizer?'
+b"During the shaking the Randomizer considers all the possible non-degenerate convex polygons with vertices at the vertices of the basic polygon. Let's assume that there are k versions of the polygons. Then the Randomizer chooses each of them with probability ."
+b'Input'
+b'The first line of the input contains a single integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000) \xe2\x80\x94 the number of vertices of the basic polygon. '
+b'Next n lines contain the coordinates of the vertices of the basic polygon. The i-th of these lines contain two integers xi and yi (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the coordinates of the i-th vertex of the polygon. The vertices are given in the counter-clockwise order.'
+b'Output'
+b'Print the sought expected value with absolute or relative error at most 10\xe2\x80\x89-\xe2\x80\x899.'
+Tags
+combinatorics, geometry, probabilities, *2800

@@ -1,0 +1,14 @@
+b'Mocha wants to be an astrologer. There are nn stars which can be seen in Zhijiang, and the brightness of the ii-th star is aiai. '
+b'Mocha considers that these nn stars form a constellation, and she uses (a1,a2,\xe2\x80\xa6,an)(a1,a2,\xe2\x80\xa6,an) to show its state. A state is called mathematical if all of the following three conditions are satisfied:'
+b'  For all ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n), aiai is an integer in the range [li,ri][li,ri]. \xe2\x88\x91i=1nai\xe2\x89\xa4m\xe2\x88\x91i=1nai\xe2\x89\xa4m. gcd(a1,a2,\xe2\x80\xa6,an)=1gcd(a1,a2,\xe2\x80\xa6,an)=1.'
+b' '
+b'Here, gcd(a1,a2,\xe2\x80\xa6,an)gcd(a1,a2,\xe2\x80\xa6,an) denotes the greatest common divisor (GCD) of integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
+b'Mocha is wondering how many different mathematical states of this constellation exist. Because the answer may be large, you must find it modulo 998244353998244353.'
+b'Two states (a1,a2,\xe2\x80\xa6,an)(a1,a2,\xe2\x80\xa6,an) and (b1,b2,\xe2\x80\xa6,bn)(b1,b2,\xe2\x80\xa6,bn) are considered different if there exists ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) such that ai\xe2\x89\xa0biai\xe2\x89\xa0bi.'
+b'Input'
+b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4502\xe2\x89\xa4n\xe2\x89\xa450, 1\xe2\x89\xa4m\xe2\x89\xa41051\xe2\x89\xa4m\xe2\x89\xa4105) \xe2\x80\x94 the number of stars and the upper bound of the sum of the brightness of stars.'
+b'Each of the next nn lines contains two integers lili and riri (1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4m1\xe2\x89\xa4li\xe2\x89\xa4ri\xe2\x89\xa4m) \xe2\x80\x94 the range of the brightness of the ii-th star.'
+b'Output'
+b'Print a single integer \xe2\x80\x94 the number of different mathematical states of this constellation, modulo 998244353998244353.'
+Tags
+combinatorics, dp, fft, math, number theory, *2200
