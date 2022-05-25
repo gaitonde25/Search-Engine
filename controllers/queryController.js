@@ -1,6 +1,19 @@
 const fs = require("fs");
 const keyword_extractor = require("keyword-extractor");
 const Prob = require("../models/prob");
+const File = require("../models/file");
+
+function find_file(name) {
+  return new Promise((resolve) => {
+    resolve(
+      File.findOne({
+        name: name,
+      })
+    );
+  }).catch((err) => {
+    console.log(err);
+  });
+}
 
 function find_prob(id) {
   return Prob.findOne({
@@ -16,7 +29,10 @@ const search = async (req, res) => {
     res.redirect("./");
   }
 
-  let keywords = fs.readFileSync("./Keywords.txt", "utf8").split("\n");
+  let keywords = await find_file("Keywords");
+  //console.log(typeof keywords, keywords);
+  keywords = keywords.text.split("\n");
+  // let keywords = fs.readFileSync("./Keywords.txt", "utf8").split("\n");
 
   // extract keywords from the query
   let qkwords = keyword_extractor.extract(query, {
@@ -50,7 +66,9 @@ const search = async (req, res) => {
     qarr.push(count / qkwords.length);
   }
 
-  let idfArr = fs.readFileSync("./idfArray.txt", "utf8").split("\n");
+  let idfArr = await find_file("idfArray");
+  idfArr = idfArr.text.split("\n");
+  // let idfArr = fs.readFileSync("./idfArray.txt", "utf8").split("\n");
 
   // transform tf vector for query to tf-idf vector and also calculate magnitude of it
   let Mag = 0;
@@ -60,7 +78,9 @@ const search = async (req, res) => {
   }
   Mag = Math.sqrt(Mag);
 
-  let tfidfArr = fs.readFileSync("./tf-idfMatrix.txt", "utf8").split("\n");
+  let tfidfArr = await find_file("tf-idfMatrix");
+  tfidfArr = tfidfArr.text.split("\n");
+  // let tfidfArr = fs.readFileSync("./tf-idfMatrix.txt", "utf8").split("\n");
   const n = Number(tfidfArr[0].split(" ")[0]);
   const k = Number(tfidfArr[0].split(" ")[1]);
 
@@ -84,7 +104,9 @@ const search = async (req, res) => {
   }
 
   // read magnitudes
-  let prob_mag = fs.readFileSync("./Magnitude.txt", "utf8").split("\n");
+  let prob_mag = await find_file("Magnitude");
+  prob_mag = prob_mag.text.split("\n");
+  // let prob_mag = fs.readFileSync("./Magnitude.txt", "utf8").split("\n");
 
   // create similarity array
   let similarity = [];
@@ -104,11 +126,12 @@ const search = async (req, res) => {
   let top10prob = [];
   for (let i = 0; i < 10; i++) {
     let prob_ind = similarity[i][0];
-    prob_mg = await find_prob(prob_ind - 1);
+    let prob_mg = await find_prob(prob_ind - 1);
 
     let prob_text = fs.readFileSync(`./cf_3/Problem ${prob_ind}.txt`, "utf8");
     let prob_name = prob_mg.name;
     const prob_url = prob_mg.url;
+    // console.log(prob_name);
     //let prob_name = fs.readFileSync(`./Problem_names.txt`, "utf8").split("\n");
     // const prob_url = fs.readFileSync(`./Problem_urls.txt`, "utf8").split("\n");
 

@@ -1,4 +1,9 @@
 node_modules/
-r2.js
-r3.js
-keywords3.txt
+upload_prob.js
+upload_files.js
+Keywords3.txt
+rough.js
+Keywords.txt
+Magnitude.txt
+tf-idfMatrix.txt
+idfArray.txt
