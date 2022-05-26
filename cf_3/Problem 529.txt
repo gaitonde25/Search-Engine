@@ -1,5 +1,0 @@
-b'It turns out that the meaning of life is a permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn of the integers 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100). Omkar, having created all life, knows this permutation, and will allow you to figure it out using some queries.'
-b'A query consists of an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an of integers between 11 and nn. aa is not required to be a permutation. Omkar will first compute the pairwise sum of aa and pp, meaning that he will compute an array ss where sj=pj+ajsj=pj+aj for all j=1,2,\xe2\x80\xa6,nj=1,2,\xe2\x80\xa6,n. Then, he will find the smallest index kk such that sksk occurs more than once in ss, and answer with kk. If there is no such index kk, then he will answer with 00.'
-b'You can perform at most 2n2n queries. Figure out the meaning of life pp.'
-Tags
-constructive algorithms, greedy, interactive, *1800

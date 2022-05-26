@@ -1,9 +1,0 @@
-b'Ted has a pineapple. This pineapple is able to bark like a bulldog! At time t (in seconds) it barks for the first time. Then every s seconds after it, it barks twice with 1 second interval. Thus it barks at times t, t\xe2\x80\x89+\xe2\x80\x89s, t\xe2\x80\x89+\xe2\x80\x89s\xe2\x80\x89+\xe2\x80\x891, t\xe2\x80\x89+\xe2\x80\x892s, t\xe2\x80\x89+\xe2\x80\x892s\xe2\x80\x89+\xe2\x80\x891, etc.'
-b'  '
-b"Barney woke up in the morning and wants to eat the pineapple, but he can't eat it when it's barking. Barney plans to eat it at time x (in seconds), so he asked you to tell him if it's gonna bark at that time."
-b'Input'
-b'The first and only line of input contains three integers t, s and x (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89t,\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the time the pineapple barks for the first time, the pineapple barking interval, and the time Barney wants to eat the pineapple respectively.'
-b'Output'
-b'Print a single "YES" (without quotes) if the pineapple will bark at time x or a single "NO" (without quotes) otherwise in the only line of output.'
-Tags
-implementation, math, *900

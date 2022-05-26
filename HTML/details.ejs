@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <div>
+      <h1><%= name %></h1>
+      <a href="<%= url %>"> Link to the original problem</a>
+    </div>
+
+    <p><%= text %></p>
+    <h2>INPUT</h2>
+    <p><%= input %></p>
+    <h2>OUTPUT</h2>
+    <p><%= output %></p>
+    <h2>TAGS</h2>
+    <p><%= Tags %></p>
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>

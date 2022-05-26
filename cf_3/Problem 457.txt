@@ -1,8 +1,0 @@
-b'YouKn0wWho has two even integers xx and yy. Help him to find an integer nn such that 1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x8510181\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851018 and nmodx=ymodnnmodx=ymodn. Here, amodbamodb denotes the remainder of aa after division by bb. If there are multiple such integers, output any. It can be shown that such an integer always exists under the given constraints.'
-b'Input'
-b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xc2\xa0\xe2\x80\x94 the number of test cases.'
-b'The first and only line of each test case contains two integers xx and yy (2\xe2\x89\xa4x,y\xe2\x89\xa41092\xe2\x89\xa4x,y\xe2\x89\xa4109, both are even).'
-b'Output'
-b'For each test case, print a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x8510181\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851018) that satisfies the condition mentioned in the statement. If there are multiple such integers, output any. It can be shown that such an integer always exists under the given constraints.'
-Tags
-constructive algorithms, math, number theory, *1600

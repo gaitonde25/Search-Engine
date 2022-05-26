@@ -1,8 +1,0 @@
-b"n hobbits are planning to spend the night at Frodo's house. Frodo has n beds standing in a row and m pillows (n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m). Each hobbit needs a bed and at least one pillow to sleep, however, everyone wants as many pillows as possible. Of course, it's not always possible to share pillows equally, but any hobbit gets hurt if he has at least two pillows less than some of his neighbors have. "
-b'Frodo will sleep on the k-th bed in the row. What is the maximum number of pillows he can have so that every hobbit has at least one pillow, every pillow is given to some hobbit and no one is hurt?'
-b'Input'
-b"The only line contain three integers n, m and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the number of hobbits, the number of pillows and the number of Frodo's bed."
-b'Output'
-b'Print single integer\xc2\xa0\xe2\x80\x94 the maximum number of pillows Frodo can have so that no one is hurt.'
-Tags
-binary search, greedy, *1500

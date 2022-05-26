@@ -1,8 +1,0 @@
-b'Eonathan Eostar decided to learn the magic of multiprocessor systems. He has a full binary tree of tasks with height hh. In the beginning, there is only one ready task in the tree\xc2\xa0\xe2\x80\x94 the task in the root. At each moment of time, pp processes choose at most pp ready tasks and perform them. After that, tasks whose parents were performed become ready for the next moment of time. Once the task becomes ready, it stays ready until it is performed. '
-b'You shall calculate the smallest number of time moments the system needs to perform all the tasks.'
-b'Input'
-b'The first line of the input contains the number of tests tt (1\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4t\xe2\x89\xa45\xe2\x8b\x85105). Each of the next tt lines contains the description of a test. A test is described by two integers hh (1\xe2\x89\xa4h\xe2\x89\xa4501\xe2\x89\xa4h\xe2\x89\xa450) and pp (1\xe2\x89\xa4p\xe2\x89\xa41041\xe2\x89\xa4p\xe2\x89\xa4104)\xc2\xa0\xe2\x80\x94 the height of the full binary tree and the number of processes. It is guaranteed that all the tests are different.'
-b'Output'
-b'For each test output one integer on a separate line\xc2\xa0\xe2\x80\x94 the smallest number of time moments the system needs to perform all the tasks.'
-Tags
-implementation, math, *1200

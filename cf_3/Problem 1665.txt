@@ -1,9 +1,0 @@
-b"Polycarp plays a well-known computer game (we won't mention its name). In this game, he can craft tools of two types \xe2\x80\x94 shovels and swords. To craft a shovel, Polycarp spends two sticks and one diamond; to craft a sword, Polycarp spends two diamonds and one stick."
-b'Each tool can be sold for exactly one emerald. How many emeralds can Polycarp earn, if he has aa sticks and bb diamonds?'
-b'Input'
-b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases.'
-b'The only line of each test case contains two integers aa and bb (0\xe2\x89\xa4a,b\xe2\x89\xa41090\xe2\x89\xa4a,b\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of sticks and the number of diamonds, respectively.'
-b'Output'
-b'For each test case print one integer \xe2\x80\x94 the maximum number of emeralds Polycarp can earn.'
-Tags
-binary search, greedy, math, *1100

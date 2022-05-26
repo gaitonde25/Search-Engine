@@ -1,9 +1,0 @@
-b'You are given an array aa consisting of nn integers. Beauty of array is the maximum sum of some consecutive subarray of this array (this subarray may be empty). For example, the beauty of the array [10, -5, 10, -4, 1] is 15, and the beauty of the array [-3, -5, -1] is 0.'
-b'You may choose at most one consecutive subarray of aa and multiply all values contained in this subarray by xx. You want to maximize the beauty of array after applying at most one such operation.'
-b'Input'
-b'The first line contains two integers nn and xx (1\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105,\xe2\x88\x92100\xe2\x89\xa4x\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa43\xe2\x8b\x85105,\xe2\x88\x92100\xe2\x89\xa4x\xe2\x89\xa4100) \xe2\x80\x94 the length of array aa and the integer xx respectively.'
-b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the array aa.'
-b'Output'
-b'Print one integer \xe2\x80\x94 the maximum possible beauty of array aa after multiplying all values belonging to some consecutive subarray xx.'
-Tags
-brute force, data structures, divide and conquer, dp, greedy, *1900

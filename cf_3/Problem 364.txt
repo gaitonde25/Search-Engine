@@ -1,9 +1,0 @@
-b'You are given an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and an integer xx.'
-b'Find the number of non-empty subsets of indices of this array 1\xe2\x89\xa4b1<b2<\xe2\x80\xa6<bk\xe2\x89\xa4n1\xe2\x89\xa4b1<b2<\xe2\x80\xa6<bk\xe2\x89\xa4n, such that for all pairs (i,j)(i,j) where 1\xe2\x89\xa4i<j\xe2\x89\xa4k1\xe2\x89\xa4i<j\xe2\x89\xa4k, the inequality abi\xe2\x8a\x95abj\xe2\x89\xa4xabi\xe2\x8a\x95abj\xe2\x89\xa4x is held. Here, \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation. As the answer may be very large, output it modulo 998244353998244353.'
-b'Input'
-b'The first line of the input contains two integers nn and xx (1\xe2\x89\xa4n\xe2\x89\xa41500001\xe2\x89\xa4n\xe2\x89\xa4150000, 0\xe2\x89\xa4x<2300\xe2\x89\xa4x<230). Here, nn is the size of the array.'
-b'The next line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai<2300\xe2\x89\xa4ai<230): the array itself.'
-b'Output'
-b'Print one integer: the number of non-empty subsets such that the bitwise XOR of every pair of elements is at most xx, modulo 998244353998244353.'
-Tags
-bitmasks, combinatorics, data structures, divide and conquer, dp, math, *3000

@@ -1,6 +1,5 @@
-*2100
+109×109109×109
 abab
-answers
 base
 base
 base
@@ -10,8 +9,6 @@ base
 battery
 bubble
 built
-bunfortunately
-byou
 calculated
 captured
 closest
@@ -35,24 +32,22 @@ enemy
 extremely
 finding
 fortress
+fortress
 giant
 great
 grid
 grid
 grid
 grid
-input
-input
+hidden
 inside
 inside
-interactive
 interactive
 live
 locate
 make
 manhattan
 manhattan
-math
 means
 newly
 parallel
@@ -64,7 +59,6 @@ place
 powered
 pqpq
 problem
-queries
 recharge
 rectangle
 scared
@@ -77,7 +71,6 @@ square
 square
 squares
 squares
-tags
 tasked
 times
 war
@@ -86,3 +79,4 @@ world
 world
 xx
 yy
+|a−p|+|b−q||a−p|+|b−q|

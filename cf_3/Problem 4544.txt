@@ -1,9 +1,0 @@
-b"Kostya likes Codeforces contests very much. However, he is very disappointed that his solutions are frequently hacked. That's why he decided to obfuscate (intentionally make less readable) his code before upcoming contest."
-b"To obfuscate the code, Kostya first looks at the first variable name used in his program and replaces all its occurrences with a single symbol a, then he looks at the second variable name that has not been replaced yet, and replaces all its occurrences with b, and so on. Kostya is well-mannered, so he doesn't use any one-letter names before obfuscation. Moreover, there are at most 26 unique identifiers in his programs."
-b"You are given a list of identifiers of some program with removed spaces and line breaks. Check if this program can be a result of Kostya's obfuscation."
-b'Input'
-b'In the only line of input there is a string S of lowercase English letters (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|S|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500)\xc2\xa0\xe2\x80\x94 the identifiers of a program with removed whitespace characters.'
-b'Output'
-b'If this program can be a result of Kostya\'s obfuscation, print "YES" (without quotes), otherwise print "NO".'
-Tags
-greedy, implementation, strings, *1100

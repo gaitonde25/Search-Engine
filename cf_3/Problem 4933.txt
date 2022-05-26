@@ -1,9 +1,0 @@
-b'Vanya is in the palace that can be represented as a grid n\xe2\x80\x89\xc3\x97\xe2\x80\x89m. Each room contains a single chest, an the room located in the i-th row and j-th columns contains the chest of type aij. Each chest of type x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89-\xe2\x80\x891 contains a key that can open any chest of type x\xe2\x80\x89+\xe2\x80\x891, and all chests of type 1 are not locked. There is exactly one chest of type p and it contains a treasure.'
-b'Vanya starts in cell (1,\xe2\x80\x891) (top left corner). What is the minimum total distance Vanya has to walk in order to get the treasure? Consider the distance between cell (r1,\xe2\x80\x89c1) (the cell in the row r1 and column c1) and (r2,\xe2\x80\x89c2) is equal to |r1\xe2\x80\x89-\xe2\x80\x89r2|\xe2\x80\x89+\xe2\x80\x89|c1\xe2\x80\x89-\xe2\x80\x89c2|.'
-b'Input'
-b'The first line of the input contains three integers n, m and p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89300,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xc2\xb7m)\xc2\xa0\xe2\x80\x94 the number of rows and columns in the table representing the palace and the number of different types of the chests, respectively.'
-b"Each of the following n lines contains m integers aij (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89aij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p)\xc2\xa0\xe2\x80\x94 the types of the chests in corresponding rooms. It's guaranteed that for each x from 1 to p there is at least one chest of this type (that is, there exists a pair of r and c, such that arc\xe2\x80\x89=\xe2\x80\x89x). Also, it's guaranteed that there is exactly one chest of type p."
-b'Output'
-b'Print one integer\xc2\xa0\xe2\x80\x94 the minimum possible total distance Vanya has to walk in order to get the treasure from the chest of type p.'
-Tags
-data structures, dp, graphs, shortest paths, *2300

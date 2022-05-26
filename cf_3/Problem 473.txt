@@ -1,8 +1,0 @@
-b"You are given NN points on an infinite plane with the Cartesian coordinate system on it. N\xe2\x88\x921N\xe2\x88\x921 points lay on one line, and one point isn't on that line. You are on point KK at the start, and the goal is to visit every point. You can move between any two points in a straight line, and you can revisit points. What is the minimum length of the path? "
-b'Input'
-b'The first line contains two integers: NN (3\xe2\x89\xa4N\xe2\x89\xa42\xe2\x88\x971053\xe2\x89\xa4N\xe2\x89\xa42\xe2\x88\x97105) - the number of points, and KK (1\xe2\x89\xa4K\xe2\x89\xa4N1\xe2\x89\xa4K\xe2\x89\xa4N) - the index of the starting point.'
-b'Each of the next NN lines contain two integers, AiAi, BiBi (\xe2\x88\x92106\xe2\x89\xa4Ai,Bi\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4Ai,Bi\xe2\x89\xa4106) - coordinates of the i\xe2\x88\x92thi\xe2\x88\x92th point.'
-b'Output'
-b"The output contains one number - the shortest path to visit all given points starting from point KK. The absolute difference between your solution and the main solution shouldn't exceed 10\xe2\x88\x92610\xe2\x88\x926;"
-Tags
-brute force, geometry, math, shortest paths, *2700

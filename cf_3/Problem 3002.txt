@@ -1,8 +1,0 @@
-b'You are given a 4x4 grid. You play a game\xc2\xa0\xe2\x80\x94 there is a sequence of tiles, each of them is either 2x1 or 1x2. Your task is to consequently place all tiles from the given sequence in the grid. When tile is placed, each cell which is located in fully occupied row or column is deleted (cells are deleted at the same time independently). You can place tile in the grid at any position, the only condition is that tiles (and tile parts) should not overlap. Your goal is to proceed all given figures and avoid crossing at any time.'
-b'Input'
-b'The only line contains a string ss consisting of zeroes and ones (1\xe2\x89\xa4|s|\xe2\x89\xa410001\xe2\x89\xa4|s|\xe2\x89\xa41000). Zero describes vertical tile, one describes horizontal tile.'
-b'Output'
-b'Output |s||s| lines\xc2\xa0\xe2\x80\x94 for each tile you should output two positive integers r,cr,c, not exceeding 44, representing numbers of smallest row and column intersecting with it.'
-b'If there exist multiple solutions, print any of them.'
-Tags
-constructive algorithms, implementation, *1400

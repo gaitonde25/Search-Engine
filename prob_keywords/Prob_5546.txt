@@ -1,6 +1,0 @@
-*1700
-dp
-greedy
-tags
-wi
-wi

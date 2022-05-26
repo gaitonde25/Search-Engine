@@ -1,7 +1,0 @@
-b'You are given a square matrix of integer numbers. Rotate it 90 degrees clockwise (see examples for clarification of rotation).'
-b'Input'
-b'The input consists of n lines (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910, n is not given explicitly). Each of the lines contains n space-separated integers; j-th integer in i-th line corresponds to matrix element mij (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89mij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100).'
-b'Output'
-b'Output the rotated matrix in the same format as the input.'
-Tags
-*special problem, *2400

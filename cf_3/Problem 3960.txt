@@ -1,7 +1,0 @@
-b'You have a fraction . You need to find the first occurrence of digit c into decimal notation of the fraction after decimal point.'
-b'Input'
-b'The first contains three single positive integers a, b, c (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89<\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x899).'
-b'Output'
-b'Print position of the first occurrence of digit c into the fraction. Positions are numbered from 1 after decimal point. It there is no such position, print -1.'
-Tags
-math, number theory, *1300

@@ -1,9 +1,0 @@
-b'There are n points on a straight line, and the i-th point among them is located at xi. All these coordinates are distinct.'
-b'Determine the number m \xe2\x80\x94 the smallest number of points you should add on the line to make the distances between all neighboring points equal. '
-b'Input'
-b'The first line contains a single integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000) \xe2\x80\x94 the number of points.'
-b'The second line contains a sequence of integers x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the coordinates of the points. All these coordinates are distinct. The points can be given in an arbitrary order.'
-b'Output'
-b'Print a single integer m \xe2\x80\x94 the smallest number of points you should add on the line to make the distances between all neighboring points equal. '
-Tags
-*1800

@@ -1,9 +1,0 @@
-b'A ticket is a string consisting of six digits. A ticket is considered lucky if the sum of the first three digits is equal to the sum of the last three digits. Given a ticket, output if it is lucky or not. Note that a ticket can have leading zeroes.'
-b'Input'
-b'The first line of the input contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41031\xe2\x89\xa4t\xe2\x89\xa4103)\xc2\xa0\xe2\x80\x94 the number of testcases.'
-b'The description of each test consists of one line containing one string consisting of six digits.'
-b'Output'
-b'Output tt lines, each of which contains the answer to the corresponding test case. Output "YES" if the given ticket is lucky, and "NO" otherwise.'
-b'You can output the answer in any case (for example, the strings "yEs", "yes", "Yes" and "YES" will be recognized as a positive answer).'
-Tags
-implementation, *800

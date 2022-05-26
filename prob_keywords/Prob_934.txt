@@ -1,11 +1,9 @@
-*2700
+13⋅b+10013⋅b+100
 actual
 advance
 affect
 bb
 bb
-bthe
-byou
 case
 competition
 contest
@@ -19,7 +17,6 @@ declared
 declaring
 expressed
 goal
-greedy
 guess
 held
 holds
@@ -33,7 +30,6 @@ improv
 improv
 improv
 inputs
-interactive
 interactively
 interpretation
 izzy
@@ -45,7 +41,6 @@ izzy's
 maintains
 make
 making
-math
 matter
 mm
 nn
@@ -55,6 +50,7 @@ number
 outputs
 part
 participant
+participants
 participants
 participants
 participants
@@ -72,9 +68,9 @@ predictions
 predictions
 predictions
 predictions
-probabilities
 program
 program
+rated
 rated
 rated
 rated
@@ -83,7 +79,6 @@ rating
 receives
 regular
 smallest
-tags
 takes
 test
 unrated
@@ -103,3 +98,5 @@ write
 wrong
 wrong
 wrong
+—
+—

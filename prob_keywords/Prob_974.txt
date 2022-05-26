@@ -1,9 +1,9 @@
-*1700
+1≤ij≤n1≤ij≤n
+3-coloring
 aa
 adaptive
 adjacent
 adjacent
-algorithms
 alice
 alice
 alice
@@ -16,8 +16,7 @@ bob
 bob
 bob
 bob's
-bthe
-bthe
+b≠ab≠a
 call
 cell
 cell
@@ -40,7 +39,6 @@ conflict
 conflict
 conflicts
 considered
-constructive
 depend
 edge
 empty
@@ -50,14 +48,12 @@ full
 game
 game
 game
-games
 grid
 grid
 ii
 ijij
 infinite
 initially
-interactive
 interactive
 interactor
 jj
@@ -66,6 +62,7 @@ moment
 moves
 n2n2
 naming
+n×nn×n
 places
 play
 playing
@@ -78,7 +75,6 @@ row
 share
 strategy
 supply
-tags
 token
 tokens
 tokens

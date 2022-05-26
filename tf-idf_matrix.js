@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-// keywords file is read and not sorted(it was sorted aat time of creation) but there will be "" string in end so idf for that will be zero
+// keywords file is read and not sorted(it was sorted at time of creation) but there will be "" string in end so idf for that will be zero
 let keywords;
 fs.readFile("Keywords.txt", "utf8", (err, data) => {
   if (err) throw err;
@@ -83,9 +83,9 @@ let Magnitude = [];
 
 async function work() {
   const wait = await wait2sec();
-
+  const num_probs = 2000;
   //generate tf matrix
-  for (let i = 1; i <= 5573; i++) {
+  for (let i = 1; i <= num_probs; i++) {
     // get the key words of ith problem
     let prob_kwords = await readFile(`./prob_keywords/Prob_${i}.txt`);
     prob_kwords = prob_kwords.sort();

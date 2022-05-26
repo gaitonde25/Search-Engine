@@ -1,9 +1,0 @@
-b'You are given a positive integer nn.'
-b'Let S(x)S(x) be sum of digits in base 10 representation of xx, for example, S(123)=1+2+3=6S(123)=1+2+3=6, S(0)=0S(0)=0.'
-b'Your task is to find two integers a,ba,b, such that 0\xe2\x89\xa4a,b\xe2\x89\xa4n0\xe2\x89\xa4a,b\xe2\x89\xa4n, a+b=na+b=n and S(a)+S(b)S(a)+S(b) is the largest possible among all such pairs.'
-b'Input'
-b'The only line of input contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41012)(1\xe2\x89\xa4n\xe2\x89\xa41012).'
-b'Output'
-b'Print largest S(a)+S(b)S(a)+S(b) among all pairs of integers a,ba,b, such that 0\xe2\x89\xa4a,b\xe2\x89\xa4n0\xe2\x89\xa4a,b\xe2\x89\xa4n and a+b=na+b=n.'
-Tags
-greedy, *1100

@@ -1,8 +1,0 @@
-b'In the year 2420 humans have finally built a colony on Mars thanks to the work of Elon Tusk. There are 109+7109+7 cities arranged in a circle in this colony and none of them are connected yet. Elon Tusk wants to connect some of those cities using only roads of the same size in order to lower the production cost of those roads. Because of that he gave a list on N cites where some cites can appear more than once and Q queries that you need to answer. For the query you need to determine if it is possible to connect all the cities from LiLi to RiRi on that list using only roads of length DiDi. '
-b'Input'
-b'The first line contains two integers NN and QQ (1\xe2\x89\xa4N,Q\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4N,Q\xe2\x89\xa42\xe2\x8b\x85105 ) \xe2\x80\x94 the length of the array of cities and the number of queries you need to answer. '
-b'The second lines contains NN integers representing the array of cites. Next Q lines contain three integers L,RL,R and DD (1\xe2\x89\xa4Li,Ri\xe2\x89\xa4N1\xe2\x89\xa4Li,Ri\xe2\x89\xa4N, 0\xe2\x89\xa4Di\xe2\x89\xa4109+60\xe2\x89\xa4Di\xe2\x89\xa4109+6) \xe2\x80\x94 the range of cities that needs to be connected and the length of the road that you can use. '
-b'Output'
-b'The output contains Q lines. If it is possible to connect all the cities from the i-th query can be connected with roads of length DiDi the i-th line should contain the word "Yes", otherwise it should contain the word "No". '
-Tags
-hashing, *2700

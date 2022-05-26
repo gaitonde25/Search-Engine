@@ -2,10 +2,13 @@
 11s
 11s
 11s
+12√|00⟩+|11⟩12|00⟩+|11⟩
+12√|01⟩+|10⟩12|01⟩+|10⟩
 allowed
 allowed
 allowed
 array
+basis
 basis
 basis
 basis
@@ -47,11 +50,14 @@ output
 output
 parity
 parity
+parity
 parity=0parity=0
 parity=0parity=0
 parity=1parity=1
 parity=1parity=1
+parity∈{01}parity∈{01}
 pauli
+prepare
 prepare
 qs
 qubit[]
@@ -70,8 +76,9 @@ state
 states
 states
 states
+states
 superposition
-tags
+superposition
 takes
 task
 unit
@@ -79,4 +86,5 @@ versions
 versions
 {
 {
+|00⟩|00⟩
 }}

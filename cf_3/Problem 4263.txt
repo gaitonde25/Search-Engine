@@ -1,9 +1,0 @@
-b'Polycarp has a checkered sheet of paper of size n\xe2\x80\x89\xc3\x97\xe2\x80\x89m. Polycarp painted some of cells with black, the others remained white. Inspired by Malevich\'s "Black Square", Polycarp wants to paint minimum possible number of white cells with black so that all black cells form a square.'
-b"You are to determine the minimum possible number of cells needed to be painted black so that the black cells form a black square with sides parallel to the painting's sides. All the cells that do not belong to the square should be white. The square's side should have positive length."
-b'Input'
-b'The first line contains two integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the sizes of the sheet.'
-b"The next n lines contain m letters 'B' or 'W' each \xe2\x80\x94 the description of initial cells' colors. If a letter is 'B', then the corresponding cell is painted black, otherwise it is painted white."
-b'Output'
-b"Print the minimum number of cells needed to be painted black so that the black cells form a black square with sides parallel to the painting's sides. All the cells that do not belong to the square should be white. If it is impossible, print -1."
-Tags
-implementation, *1300

@@ -2,6 +2,8 @@ const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const queryController = require("./controllers/queryController");
+const detailPageController = require("./controllers/detailPageController");
+
 // express app
 const app = express();
 
@@ -35,14 +37,7 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Noodle", top10prob: [] });
 });
 
-app.get("/about", (req, res) => {
-  res.render("about", { title: "About" });
-});
-
-app.get("/create", (req, res) => {
-  res.render("create", { title: "Create" });
-});
-
+app.get("/Problem/:id", detailPageController.details);
 // post request for search
 app.post("/search", queryController.search);
 

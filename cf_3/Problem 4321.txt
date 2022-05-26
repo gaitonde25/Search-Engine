@@ -1,8 +1,0 @@
-b'You are given an undirected graph consisting of n vertices. Initially there are no edges in the graph. Also you are given q queries, each query either adds one undirected edge to the graph or removes it. After each query you have to check if the resulting graph is bipartite (that is, you can paint all vertices of the graph into two colors so that there is no edge connecting two vertices of the same color).'
-b'Input'
-b'The first line contains two integers n and q (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89q\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000).'
-b'Then q lines follow. ith line contains two numbers xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89<\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n). These numbers describe ith query: if there is an edge between vertices xi and yi, then remove it, otherwise add it.'
-b'Output'
-b'Print q lines. ith line must contain YES if the graph is bipartite after ith query, and NO otherwise.'
-Tags
-data structures, dsu, graphs, *2500

@@ -1,9 +1,0 @@
-b'Kyoya Ootori has a bag with n colored balls that are colored with k different colors. The colors are labeled from 1 to k. Balls of the same color are indistinguishable. He draws balls from the bag one by one until the bag is empty. He noticed that he drew the last ball of color i before drawing the last ball of color i\xe2\x80\x89+\xe2\x80\x891 for all i from 1 to k\xe2\x80\x89-\xe2\x80\x891. Now he wonders how many different ways this can happen. '
-b'Input'
-b'The first line of input will have one integer k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) the number of colors.'
-b'Then, k lines will follow. The i-th line will contain ci, the number of balls of the i-th color (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ci\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000).'
-b"The total number of balls doesn't exceed 1000."
-b'Output'
-b'A single integer, the number of ways that Kyoya can draw the balls from the bag as described in the statement, modulo 1\xe2\x80\x89000\xe2\x80\x89000\xe2\x80\x89007. '
-Tags
-combinatorics, dp, math, *1500

@@ -1,9 +1,0 @@
-b'Polycarp plays "Game 23". Initially he has a number nn and his goal is to transform it to mm. In one move, he can multiply nn by 22 or multiply nn by 33. He can perform any number of moves.'
-b'Print the number of moves needed to transform nn to mm. Print -1 if it is impossible to do so.'
-b"It is easy to prove that any way to transform nn to mm contains the same number of moves (i.e. number of moves doesn't depend on the way of transformation)."
-b'Input'
-b'The only line of the input contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x851081\xe2\x89\xa4n\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x85108).'
-b'Output'
-b'Print the number of moves to transform nn to mm, or -1 if there is no solution.'
-Tags
-implementation, math, *1000

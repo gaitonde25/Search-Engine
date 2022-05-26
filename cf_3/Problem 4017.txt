@@ -1,8 +1,0 @@
-b'Top-model Izabella participates in the competition. She wants to impress judges and show her mathematical skills.'
-b"Her problem is following: for given string, consisting of only 0 and 1, tell if it's possible to remove some digits in such a way, that remaining number is a representation of some positive integer, divisible by 64, in the binary numerical system."
-b'Input'
-b'In the only line given a non-empty binary string s with length up to 100.'
-b'Output'
-b"Print \xc2\xabyes\xc2\xbb (without quotes) if it's possible to remove digits required way and \xc2\xabno\xc2\xbb otherwise."
-Tags
-implementation, *1000

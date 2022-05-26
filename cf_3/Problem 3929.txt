@@ -1,8 +1,0 @@
-b'Let S(n) denote the number that represents the digits of n in sorted order. For example, S(1)\xe2\x80\x89=\xe2\x80\x891,\xe2\x80\x89S(5)\xe2\x80\x89=\xe2\x80\x895,\xe2\x80\x89S(50394)\xe2\x80\x89=\xe2\x80\x893459,\xe2\x80\x89S(353535)\xe2\x80\x89=\xe2\x80\x89333555.'
-b'Given a number X, compute  modulo 109\xe2\x80\x89+\xe2\x80\x897.'
-b'Input'
-b'The first line of input will contain the integer X (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89X\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910700).'
-b'Output'
-b'Print a single integer, the answer to the question.'
-Tags
-dp, math, *2800

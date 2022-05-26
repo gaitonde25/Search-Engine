@@ -1,8 +1,0 @@
-b'Way to go! Heidi now knows how many brains there must be for her to get one. But throwing herself in the midst of a clutch of hungry zombies is quite a risky endeavor. Hence Heidi wonders: what is the smallest number of brains that must be in the chest for her to get out at all (possibly empty-handed, but alive)?'
-b'The brain dinner night will evolve just as in the previous subtask: the same crowd is present, the N\xe2\x80\x89-\xe2\x80\x891 zombies have the exact same mindset as before and Heidi is to make the first proposal, which must be accepted by at least half of the attendees for her to survive.'
-b'Input'
-b'The only line of input contains one integer: N, the number of attendees (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
-b'Output'
-b'Output one integer: the smallest number of brains in the chest which allows Heidi to merely survive.'
-Tags
-*2300

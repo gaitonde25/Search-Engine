@@ -1,8 +1,0 @@
-b'Princess Heidi decided to give orders to all her K Rebel ship commanders in person. Unfortunately, she is currently travelling through hyperspace, and will leave it only at N specific moments t1,\xe2\x80\x89t2,\xe2\x80\x89...,\xe2\x80\x89tN. The meetings with commanders must therefore start and stop at those times. Namely, each commander will board her ship at some time ti and disembark at some later time tj. Of course, Heidi needs to meet with all commanders, and no two meetings can be held during the same time. Two commanders cannot even meet at the beginnings/endings of the hyperspace jumps, because too many ships in one position could give out their coordinates to the enemy. '
-b'Your task is to find minimum time that Princess Heidi has to spend on meetings, with her schedule satisfying the conditions above. '
-b'Input'
-b'The first line contains two integers K, N (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892K\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500000, K\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000). The second line contains N distinct integers t1,\xe2\x80\x89t2,\xe2\x80\x89...,\xe2\x80\x89tN (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) representing the times when Heidi leaves hyperspace.'
-b'Output'
-b'Output only one integer: the minimum time spent on meetings. '
-Tags
-binary search, dp, greedy, sortings, *2200

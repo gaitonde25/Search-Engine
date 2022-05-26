@@ -1,9 +1,0 @@
-b'You are given a positive decimal number x.'
-b'Your task is to convert it to the "simple exponential notation".'
-b'Let x\xe2\x80\x89=\xe2\x80\x89a\xc2\xb710b, where 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89<\xe2\x80\x8910, then in general case the "simple exponential notation" looks like "aEb". If b equals to zero, the part "Eb" should be skipped. If a is an integer, it should be written without decimal point. Also there should not be extra zeroes in a and b.'
-b'Input'
-b'The only line contains the positive decimal number x. The length of the line will not exceed 106. Note that you are given too large number, so you can\'t use standard built-in data types "float", "double" and other.'
-b'Output'
-b'Print the only line \xe2\x80\x94 the "simple exponential notation" of the given number x.'
-Tags
-implementation, strings, *1800

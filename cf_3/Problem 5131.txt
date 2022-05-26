@@ -1,8 +1,0 @@
-b'Students in a class are making towers of blocks. Each student makes a (non-zero) tower by stacking pieces lengthwise on top of each other. n of the students use pieces made of two blocks and m of the students use pieces made of three blocks.'
-b"The students don\xe2\x80\x99t want to use too many blocks, but they also want to be unique, so no two students\xe2\x80\x99 towers may contain the same number of blocks. Find the minimum height necessary for the tallest of the students' towers."
-b'Input'
-b'The first line of the input contains two space-separated integers n and m (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000, n\xe2\x80\x89+\xe2\x80\x89m\xe2\x80\x89>\xe2\x80\x890)\xc2\xa0\xe2\x80\x94 the number of students using two-block pieces and the number of students using three-block pieces, respectively.'
-b'Output'
-b'Print a single integer, denoting the minimum possible height of the tallest tower.'
-Tags
-brute force, greedy, math, number theory, *1600

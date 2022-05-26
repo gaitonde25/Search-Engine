@@ -1,9 +1,0 @@
-b'While walking down the street Vanya saw a label "Hide&Seek". Because he is a programmer, he used & as a bitwise AND for these two words represented as a integers in base 64 and got new word. Now Vanya thinks of some string s and wants to know the number of pairs of words of length |s| (length of s), such that their bitwise AND is equal to s. As this number can be large, output it modulo 109\xe2\x80\x89+\xe2\x80\x897.'
-b'To represent the string as a number in numeral system with base 64 Vanya uses the following rules:'
-b"  digits from '0' to '9' correspond to integers from 0 to 9;  letters from 'A' to 'Z' correspond to integers from 10 to 35;  letters from 'a' to 'z' correspond to integers from 36 to 61;  letter '-' correspond to integer 62;  letter '_' correspond to integer 63. "
-b'Input'
-b"The only line of the input contains a single word s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), consisting of digits, lowercase and uppercase English letters, characters '-' and '_'."
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of possible pairs of words, such that their bitwise AND is equal to string s modulo 109\xe2\x80\x89+\xe2\x80\x897.'
-Tags
-bitmasks, combinatorics, implementation, strings, *1500

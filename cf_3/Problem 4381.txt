@@ -1,7 +1,0 @@
-b'Whereas humans nowadays read fewer and fewer books on paper, book readership among marmots has surged. Heidi has expanded the library and is now serving longer request sequences.'
-b'Input'
-b'Same as the easy version, but the limits have changed: 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89400\xe2\x80\x89000.'
-b'Output'
-b'Same as the easy version.'
-Tags
-data structures, greedy, *1800

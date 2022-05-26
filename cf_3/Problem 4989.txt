@@ -1,7 +1,0 @@
-b'You are given an array of integers. Calculate the sum of its elements.'
-b'Input'
-b'The i-th line of the input contains an integer ai (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the i-th element of the array. The size of the array is between 1 and 10, inclusive. Note that the size of the array is not given explicitly!'
-b'Output'
-b'Output a single integer\xc2\xa0\xe2\x80\x94 the sum of the elements of the array.'
-Tags
-*special problem, *2000

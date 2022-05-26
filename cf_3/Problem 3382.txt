@@ -1,9 +1,0 @@
-b'You are given nn rectangles on a plane with coordinates of their bottom left and upper right points. Some (n\xe2\x88\x921)(n\xe2\x88\x921) of the given nn rectangles have some common point. A point belongs to a rectangle if this point is strictly inside the rectangle or belongs to its boundary.'
-b'Find any point with integer coordinates that belongs to at least (n\xe2\x88\x921)(n\xe2\x88\x921) given rectangles.'
-b'Input'
-b'The first line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41326742\xe2\x89\xa4n\xe2\x89\xa4132674) \xe2\x80\x94 the number of given rectangles.'
-b'Each the next nn lines contains four integers x1x1, y1y1, x2x2 and y2y2 (\xe2\x88\x92109\xe2\x89\xa4x1<x2\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4x1<x2\xe2\x89\xa4109, \xe2\x88\x92109\xe2\x89\xa4y1<y2\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4y1<y2\xe2\x89\xa4109) \xe2\x80\x94 the coordinates of the bottom left and upper right corners of a rectangle.'
-b'Output'
-b'Print two integers xx and yy \xe2\x80\x94 the coordinates of any point that belongs to at least (n\xe2\x88\x921)(n\xe2\x88\x921) given rectangles.'
-Tags
-geometry, implementation, sortings, *1600

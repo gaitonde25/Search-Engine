@@ -1,9 +1,0 @@
-b'InputThe input contains a single integer a (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8935).'
-b'OutputOutput a single integer.'
-b'ExamplesInputCopy3OutputCopy8InputCopy10OutputCopy1024'
-b'Input'
-b'The input contains a single integer a (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8935).'
-b'Output'
-b'Output a single integer.'
-Tags
-*special problem, *1900

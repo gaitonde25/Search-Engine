@@ -1,9 +1,0 @@
-b'You are given a tuple generator f(k)=(f(k)1,f(k)2,\xe2\x80\xa6,f(k)n)f(k)=(f1(k),f2(k),\xe2\x80\xa6,fn(k)), where f(k)i=(ai\xe2\x8b\x85f(k\xe2\x88\x921)i+bi)modpifi(k)=(ai\xe2\x8b\x85fi(k\xe2\x88\x921)+bi)modpi and f(0)=(x1,x2,\xe2\x80\xa6,xn)f(0)=(x1,x2,\xe2\x80\xa6,xn). Here xmodyxmody denotes the remainder of xx when divided by yy. All pipi are primes.'
-b'One can see that with fixed sequences xixi, yiyi, aiai the tuples f(k)f(k) starting from some index will repeat tuples with smaller indices. Calculate the maximum number of different tuples (from all f(k)f(k) for k\xe2\x89\xa50k\xe2\x89\xa50) that can be produced by this generator, if xixi, aiai, bibi are integers in the range [0,pi\xe2\x88\x921][0,pi\xe2\x88\x921] and can be chosen arbitrary. The answer can be large, so print the remainder it gives when divided by 109+7109+7'
-b'Input'
-b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the number of elements in the tuple.'
-b'The second line contains nn space separated prime numbers \xe2\x80\x94 the modules p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn (2\xe2\x89\xa4pi\xe2\x89\xa42\xe2\x8b\x851062\xe2\x89\xa4pi\xe2\x89\xa42\xe2\x8b\x85106).'
-b'Output'
-b'Print one integer \xe2\x80\x94 the maximum number of different tuples modulo 109+7109+7.'
-Tags
-number theory, *2900

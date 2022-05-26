@@ -1,8 +1,0 @@
-b'The HR manager was disappointed again. The last applicant failed the interview the same way as 24 previous ones. "Do I give such a hard task?" \xe2\x80\x94 the HR manager thought. "Just raise number 5 to the power of n and get last two digits of the number. Yes, of course, n can be rather big, and one cannot find the power using a calculator, but we need people who are able to think, not just follow the instructions."'
-b'Could you pass the interview in the machine vision company in IT City?'
-b'Input'
-b'The only line of the input contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb71018) \xe2\x80\x94 the power in which you need to raise number 5.'
-b'Output'
-b'Output the last two digits of 5n without spaces between them.'
-Tags
-number theory, *800

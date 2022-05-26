@@ -1,9 +1,0 @@
-b'You are given a positive integer nn greater or equal to 22. For every pair of integers aa and bb (2\xe2\x89\xa4|a|,|b|\xe2\x89\xa4n2\xe2\x89\xa4|a|,|b|\xe2\x89\xa4n), you can transform aa into bb if and only if there exists an integer xx such that 1<|x|1<|x| and (a\xe2\x8b\x85x=ba\xe2\x8b\x85x=b or b\xe2\x8b\x85x=ab\xe2\x8b\x85x=a), where |x||x| denotes the absolute value of xx.'
-b'After such a transformation, your score increases by |x||x| points and you are not allowed to transform aa into bb nor bb into aa anymore.'
-b'Initially, you have a score of 00. You can start at any integer and transform it as many times as you like. What is the maximum score you can achieve?'
-b'Input'
-b'A single line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa41000002\xe2\x89\xa4n\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the given integer described above.'
-b'Output'
-b'Print an only integer\xc2\xa0\xe2\x80\x94 the maximum score that can be achieved with the transformations. If it is not possible to perform even a single transformation for all possible starting integers, print 00.'
-Tags
-dfs and similar, graphs, implementation, math, *1800

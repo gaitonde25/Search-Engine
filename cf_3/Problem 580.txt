@@ -1,9 +1,0 @@
-b"Mr. Chanek has an integer represented by a string ss. Zero or more digits have been erased and are denoted by the character _. There are also zero or more digits marked by the character X, meaning they're the same digit."
-b'Mr. Chanek wants to count the number of possible integer ss, where ss is divisible by 2525. Of course, ss must not contain any leading zero. He can replace the character _ with any digit. He can also replace the character X with any digit, but it must be the same for every character X.'
-b'As a note, a leading zero is any 0 digit that comes before the first nonzero digit in a number string in positional notation. For example, 0025 has two leading zeroes. An exception is the integer zero, (0 has no leading zero, but 0000 has three leading zeroes).'
-b'Input'
-b'One line containing the string ss (1\xe2\x89\xa4|s|\xe2\x89\xa481\xe2\x89\xa4|s|\xe2\x89\xa48). The string ss consists of the characters 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, _, and X.'
-b'Output'
-b'Output an integer denoting the number of possible integer ss.'
-Tags
-brute force, dfs and similar, dp, *1800

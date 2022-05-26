@@ -14,8 +14,8 @@ const probSchema = new Schema({
     type: String,
     required: true,
   },
-  keywords: {
-    type: Array,
+  snippet: {
+    type: String,
     required: true,
   },
 });

@@ -1,8 +1,0 @@
-b'A few years ago Sajjad left his school and register to another one due to security reasons. Now he wishes to find Amir, one of his schoolmates and good friends.'
-b'There are n schools numerated from 1 to n. One can travel between each pair of them, to do so, he needs to buy a ticket. The ticker between schools i and j costs  and can be used multiple times. Help Sajjad to find the minimum cost he needs to pay for tickets to visit all schools. He can start and finish in any school.'
-b'Input'
-b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of schools.'
-b'Output'
-b'Print single integer: the minimum cost of tickets needed to visit all schools.'
-Tags
-constructive algorithms, greedy, math, *1000

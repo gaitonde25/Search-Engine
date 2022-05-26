@@ -1,9 +1,0 @@
-b'Ray lost his array and needs to find it by asking Omkar. Omkar is willing to disclose that the array has the following qualities:'
-b'  The array has nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) elements.  Every element in the array aiai is an integer in the range 1\xe2\x89\xa4ai\xe2\x89\xa4109.1\xe2\x89\xa4ai\xe2\x89\xa4109.  The array is sorted in nondecreasing order. '
-b'Ray is allowed to send Omkar a series of queries. A query consists of two integers, ll and rr such that 1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n. Omkar will respond with two integers, xx and ff. xx is the mode of the subarray from index ll to index rr inclusive. The mode of an array is defined by the number that appears the most frequently. If there are multiple numbers that appear the most number of times, the smallest such number is considered to be the mode. ff is the amount of times that xx appears in the queried subarray.'
-b"The array has kk (1\xe2\x89\xa4k\xe2\x89\xa4min(25000,n)1\xe2\x89\xa4k\xe2\x89\xa4min(25000,n)) distinct elements. However, due to Ray's sins, Omkar will not tell Ray what kk is. Ray is allowed to send at most 4k4k queries."
-b'Help Ray find his lost array.'
-b'Input'
-b'The only line of the input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105), which equals to the length of the array that you are trying to find.'
-Tags
-binary search, divide and conquer, interactive, *2700

@@ -1,9 +1,0 @@
-b'Alice and Bob always had hard time choosing restaurant for the dinner. Previously they performed Eenie Meenie Miney Mo game, but eventually as their restaurant list grew, they had to create a new game. This new game starts as they write restaurant names on NN cards and align the cards in one line. Before the game begins, they both choose starting card and starting direction they are going to. They take turns in order one after another. After each turn, they move one card in their current direction. If they reach the end or beginning of the line of cards they change direction. Once they meet in a card, the card is marked for removal and is removed the first moment they both leave the card.'
-b'  Example of how card is removed '
-b'They repeat this process until there is only one restaurant card left. Since there are a lot of restaurant cards, they are bored to simulate this process over and over and need your help to determine the last card that remains. Can you help them? '
-b'Input'
-b'The first line of the input is one integer TT (11 \xe2\x89\xa4\xe2\x89\xa4 TT \xe2\x89\xa4\xe2\x89\xa4 104104) representing number of test cases. Each test case contains 3 lines: The first line contains an integer NN representing initial number of cards. Next line contains two integer values A,BA,B (00 \xe2\x89\xa4\xe2\x89\xa4 A,BA,B < NN, 22 \xe2\x89\xa4\xe2\x89\xa4 NN \xe2\x89\xa4\xe2\x89\xa4 10181018) representing starting 0-based index of the card in the array. Last line contains two strings DA,DBDA,DB \xe2\x88\x88\xe2\x88\x88 {"left", "right"} representing starting direction of their movement.'
-b'Output'
-b'The output contains TT integer number \xe2\x80\x93 the 0-based index of the last card that remains for every test case in order.'
-Tags
-*3100

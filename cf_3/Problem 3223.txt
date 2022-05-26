@@ -1,8 +1,0 @@
-b'You have unlimited number of coins with values 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n. You want to select some set of coins having the total value of SS. '
-b'It is allowed to have multiple coins with the same value in the set. What is the minimum number of coins required to get sum SS?'
-b'Input'
-b'The only line of the input contains two integers nn and SS (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000, 1\xe2\x89\xa4S\xe2\x89\xa41091\xe2\x89\xa4S\xe2\x89\xa4109)'
-b'Output'
-b'Print exactly one integer\xc2\xa0\xe2\x80\x94 the minimum number of coins required to obtain sum SS.'
-Tags
-greedy, implementation, math, *800

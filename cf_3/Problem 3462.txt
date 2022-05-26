@@ -1,9 +1,0 @@
-b'This is an interactive problem.'
-b'Vasya and Vitya play a game. Vasya thought of two integers aa and bb from 11 to nn and Vitya tries to guess them. Each round he tells Vasya two numbers xx and yy from 11 to nn. If both x=ax=a and y=by=b then Vitya wins. Else Vasya must say one of the three phrases: '
-b'  xx is less than aa;  yy is less than bb;  xx is greater than aa or yy is greater than bb. '
-b"Vasya can't lie, but if multiple phrases are true, he may choose any of them. For example, if Vasya thought of numbers 22 and 44, then he answers with the phrase 33 to a query (3,4)(3,4), and he can answer with the phrase 11 or phrase 33 to a query (1,5)(1,5)."
-b'Help Vitya win in no more than 600600 rounds. '
-b'Input'
-b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018)\xc2\xa0\xe2\x80\x94 the upper limit of the numbers.'
-Tags
-binary search, interactive, *3000

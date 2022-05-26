@@ -1,9 +1,0 @@
-b'You are given a complete undirected graph with n vertices. A number ai is assigned to each vertex, and the weight of an edge between vertices i and j is equal to ai\xe2\x80\x89xor\xe2\x80\x89aj.'
-b'Calculate the weight of the minimum spanning tree in this graph.'
-b'Input'
-b'The first line contains n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200000) \xe2\x80\x94 the number of vertices in the graph.'
-b'The second line contains n integers a1, a2, ..., an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89<\xe2\x80\x89230) \xe2\x80\x94 the numbers assigned to the vertices.'
-b'Output'
-b'Print one number \xe2\x80\x94 the weight of the minimum spanning tree in the graph.'
-Tags
-bitmasks, constructive algorithms, data structures, *2300

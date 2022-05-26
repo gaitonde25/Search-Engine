@@ -1,8 +1,0 @@
-b'XYMXYM and CQXYM will prepare nn problems for Codeforces. The difficulty of the problem ii will be an integer aiai, where ai\xe2\x89\xa50ai\xe2\x89\xa50. The difficulty of the problems must satisfy ai+ai+1<mai+ai+1<m (1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n), and a1+an<ma1+an<m, where mm is a fixed integer. XYMXYM wants to know how many plans of the difficulty of the problems there are modulo 998244353998244353.'
-b'Two plans of difficulty aa and bb are different only if there is an integer ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) satisfying ai\xe2\x89\xa0biai\xe2\x89\xa0bi.'
-b'Input'
-b'A single line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4500002\xe2\x89\xa4n\xe2\x89\xa450000, 1\xe2\x89\xa4m\xe2\x89\xa41091\xe2\x89\xa4m\xe2\x89\xa4109).'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of different plans.'
-Tags
-combinatorics, fft, math, *3300

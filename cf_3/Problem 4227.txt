@@ -1,8 +1,0 @@
-b'Alice and Bob are playing a game with a string of characters, with Alice going first. The string consists n characters, each of which is one of the first k letters of the alphabet. On a player\xe2\x80\x99s turn, they can either arbitrarily permute the characters in the words, or delete exactly one character in the word (if there is at least one character). In addition, their resulting word cannot have appeared before throughout the entire game. The player unable to make a valid move loses the game.'
-b'Given n,\xe2\x80\x89k,\xe2\x80\x89p, find the number of words with exactly n characters consisting of the first k letters of the alphabet such that Alice will win if both Alice and Bob play optimally. Return this number modulo the prime number p.'
-b'Input'
-b'The first line of input will contain three integers n,\xe2\x80\x89k,\xe2\x80\x89p (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89250\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8926, 108\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109\xe2\x80\x89+\xe2\x80\x89100, p will be prime).'
-b'Output'
-b'Print a single integer, the number of winning words for Alice, modulo p.'
-Tags
-dp, games, *2800

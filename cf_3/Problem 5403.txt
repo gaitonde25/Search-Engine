@@ -1,8 +1,0 @@
-b'Gerald got a very curious hexagon for his birthday. The boy found out that all the angles of the hexagon are equal to . Then he measured the length of its sides, and found that each of them is equal to an integer number of centimeters. There the properties of the hexagon ended and Gerald decided to draw on it.'
-b'He painted a few lines, parallel to the sides of the hexagon. The lines split the hexagon into regular triangles with sides of 1 centimeter. Now Gerald wonders how many triangles he has got. But there were so many of them that Gerald lost the track of his counting. Help the boy count the triangles.'
-b'Input'
-b'The first and the single line of the input contains 6 space-separated integers a1,\xe2\x80\x89a2,\xe2\x80\x89a3,\xe2\x80\x89a4,\xe2\x80\x89a5 and a6 (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the lengths of the sides of the hexagons in centimeters in the clockwise order. It is guaranteed that the hexagon with the indicated properties and the exactly such sides exists.'
-b'Output'
-b'Print a single integer \xe2\x80\x94 the number of triangles with the sides of one 1 centimeter, into which the hexagon is split.'
-Tags
-brute force, geometry, math, *1600

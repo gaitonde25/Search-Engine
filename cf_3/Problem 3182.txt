@@ -1,7 +1,0 @@
-b'You are given two positive integers dd and ss. Find minimal positive integer nn which is divisible by dd and has sum of digits equal to ss.'
-b'Input'
-b'The first line contains two positive integers dd and ss (1\xe2\x89\xa4d\xe2\x89\xa4500,1\xe2\x89\xa4s\xe2\x89\xa450001\xe2\x89\xa4d\xe2\x89\xa4500,1\xe2\x89\xa4s\xe2\x89\xa45000) separated by space.'
-b'Output'
-b"Print the required number or -1 if it doesn't exist."
-Tags
-dp, graphs, number theory, shortest paths, *2200

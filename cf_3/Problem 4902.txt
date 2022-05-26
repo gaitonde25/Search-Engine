@@ -1,7 +1,0 @@
-b'Periodic decimal fraction is usually written as: [entire_part.non-periodic_part (period)]. Any simple fraction can be represented as a periodic decimal fraction and vice versa. For example, the decimal fraction 0.2(45) corresponds to a fraction 27\xe2\x80\x89/\xe2\x80\x89110. Your task is to convert the periodic fraction to a simple periodic fraction.'
-b'Input'
-b"The first line contains the periodic decimal fraction x (0\xe2\x80\x89<\xe2\x80\x89x\xe2\x80\x89<\xe2\x80\x891) in the format described in the statement. The total number of digits in the period and non-periodic part of the fraction does not exceed 8. Non-periodic part may be absent, the periodic part can't be absent (but it can be equal to any non-negative number)."
-b'Output'
-b'Print the representation of the fraction x as a simple fraction p\xe2\x80\x89/\xe2\x80\x89q, where p and q are mutually prime integers.'
-Tags
-*special problem, *1900

@@ -1,9 +1,0 @@
-b'There is a string ss of lowercase English letters. A cursor is positioned on one of the characters. The cursor can be moved with the following operation: choose a letter cc and a direction (left or right). The cursor is then moved to the closest occurence of cc in the chosen direction. If there is no letter cc in that direction, the cursor stays in place. For example, if s=abaabs=abaab with the cursor on the second character (a[b]aaba[b]aab), then:'
-b' moving to the closest letter aa to the left places the cursor on the first character ([a]baab[a]baab); moving to the closest letter aa to the right places the cursor the third character (ab[a]abab[a]ab); moving to the closest letter bb to the right places the cursor on the fifth character (abaa[b]abaa[b]); any other operation leaves the cursor in place.'
-b'Let dist(i,j)dist(i,j) be the smallest number of operations needed to move the cursor from the ii-th character to the jj-th character. Compute \xe2\x88\x91i=1n\xe2\x88\x91j=1ndist(i,j)\xe2\x88\x91i=1n\xe2\x88\x91j=1ndist(i,j).'
-b'Input'
-b'The only line contains a non-empty string ss of at most 105105 lowercase English letters.'
-b'Output'
-b'Print a single integer \xe2\x88\x91i=1n\xe2\x88\x91j=1ndist(i,j)\xe2\x88\x91i=1n\xe2\x88\x91j=1ndist(i,j).'
-Tags
-*3500

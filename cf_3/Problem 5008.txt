@@ -1,8 +1,0 @@
-b'You are given a complete undirected graph. For each pair of vertices you are given the length of the edge that connects them. Find the shortest paths between each pair of vertices in the graph and return the length of the longest of them.'
-b'Input'
-b'The first line of the input contains a single integer N (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910).'
-b'The following N lines each contain N space-separated integers. jth integer in ith line aij is the length of the edge that connects vertices i and j. aij\xe2\x80\x89=\xe2\x80\x89aji, aii\xe2\x80\x89=\xe2\x80\x890, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89aij\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100 for i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89j.'
-b'Output'
-b'Output the maximum length of the shortest path between any pair of vertices in the graph.'
-Tags
-*special problem, *2000

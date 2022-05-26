@@ -1,8 +1,0 @@
-b"Let's call an array of non-negative integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an a kk-extension for some non-negative integer kk if for all possible pairs of indices 1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n the inequality k\xe2\x8b\x85|i\xe2\x88\x92j|\xe2\x89\xa4min(ai,aj)k\xe2\x8b\x85|i\xe2\x88\x92j|\xe2\x89\xa4min(ai,aj) is satisfied. The expansion coefficient of the array aa is the maximal integer kk such that the array aa is a kk-extension. Any array is a 0-expansion, so the expansion coefficient always exists."
-b'You are given an array of non-negative integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Find its expansion coefficient.'
-b'Input'
-b'The first line contains one positive integer nn\xc2\xa0\xe2\x80\x94 the number of elements in the array aa (2\xe2\x89\xa4n\xe2\x89\xa43000002\xe2\x89\xa4n\xe2\x89\xa4300000). The next line contains nn non-negative integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, separated by spaces (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109).'
-b'Output'
-b'Print one non-negative integer\xc2\xa0\xe2\x80\x94 expansion coefficient of the array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an.'
-Tags
-implementation, math, *1300

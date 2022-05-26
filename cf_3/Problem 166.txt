@@ -1,9 +1,0 @@
-b'We say that a positive integer nn is kk-good for some positive integer kk if nn can be expressed as a sum of kk positive integers which give kk distinct remainders when divided by kk.'
-b'Given a positive integer nn, find some k\xe2\x89\xa52k\xe2\x89\xa52 so that nn is kk-good or tell that such a kk does not exist.'
-b'Input'
-b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases.'
-b'Each test case consists of one line with an integer nn (2\xe2\x89\xa4n\xe2\x89\xa410182\xe2\x89\xa4n\xe2\x89\xa41018).'
-b'Output'
-b'For each test case, print a line with a value of kk such that nn is kk-good (k\xe2\x89\xa52k\xe2\x89\xa52), or \xe2\x88\x921\xe2\x88\x921 if nn is not kk-good for any kk. If there are multiple valid values of kk, you can print any of them.'
-Tags
-constructive algorithms, math, number theory, *1900

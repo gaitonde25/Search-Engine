@@ -1,15 +1,4 @@
-algorithms
-baenar
+aenar
 characters
-consisting
-consisting
-constructive
 home
-input
-letters
-output
-string
-string
 string's
-strings
-tags

@@ -1,9 +1,0 @@
-b'Recently Vasya found a golden ticket \xe2\x80\x94 a sequence which consists of nn digits a1a2\xe2\x80\xa6ana1a2\xe2\x80\xa6an. Vasya considers a ticket to be lucky if it can be divided into two or more non-intersecting segments with equal sums. For example, ticket 350178350178 is lucky since it can be divided into three segments 350350, 1717 and 88: 3+5+0=1+7=83+5+0=1+7=8. Note that each digit of sequence should belong to exactly one segment.'
-b'Help Vasya! Tell him if the golden ticket he found is lucky or not.'
-b'Input'
-b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the number of digits in the ticket.'
-b'The second line contains nn digits a1a2\xe2\x80\xa6ana1a2\xe2\x80\xa6an (0\xe2\x89\xa4ai\xe2\x89\xa490\xe2\x89\xa4ai\xe2\x89\xa49) \xe2\x80\x94 the golden ticket. Digits are printed without spaces.'
-b'Output'
-b'If the golden ticket is lucky then print "YES", otherwise print "NO" (both case insensitive).'
-Tags
-implementation, *1300

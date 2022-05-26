@@ -1,9 +1,0 @@
-b'You are given two integers aa and mm. Calculate the number of integers xx such that 0\xe2\x89\xa4x<m0\xe2\x89\xa4x<m and gcd(a,m)=gcd(a+x,m)gcd(a,m)=gcd(a+x,m).'
-b'Note: gcd(a,b)gcd(a,b) is the greatest common divisor of aa and bb.'
-b'Input'
-b'The first line contains the single integer TT (1\xe2\x89\xa4T\xe2\x89\xa4501\xe2\x89\xa4T\xe2\x89\xa450) \xe2\x80\x94 the number of test cases.'
-b'Next TT lines contain test cases \xe2\x80\x94 one per line. Each line contains two integers aa and mm (1\xe2\x89\xa4a<m\xe2\x89\xa410101\xe2\x89\xa4a<m\xe2\x89\xa41010).'
-b'Output'
-b'Print TT integers \xe2\x80\x94 one per test case. For each test case print the number of appropriate xx-s.'
-Tags
-math, number theory, *1800

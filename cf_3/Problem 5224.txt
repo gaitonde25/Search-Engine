@@ -1,9 +1,0 @@
-b'There are n beacons located at distinct positions on a number line. The i-th beacon has position ai and power level bi. When the i-th beacon is activated, it destroys all beacons to its left (direction of decreasing coordinates) within distance bi inclusive. The beacon itself is not destroyed however. Saitama will activate the beacons one at a time from right to left. If a beacon is destroyed, it cannot be activated.'
-b"Saitama wants Genos to add a beacon strictly to the right of all the existing beacons, with any position and any power level, such that the least possible number of beacons are destroyed. Note that Genos's placement of the beacon means it will be the first beacon activated. Help Genos by finding the minimum number of beacons that could be destroyed."
-b'Input'
-b'The first line of input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000) \xe2\x80\x94 the initial number of beacons.'
-b'The i-th of next n lines contains two integers ai and bi (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the position and power level of the i-th beacon respectively. No two beacons will have the same position, so ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89aj if i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89j.'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum number of beacons that could be destroyed if exactly one beacon is added.'
-Tags
-binary search, dp, *1600

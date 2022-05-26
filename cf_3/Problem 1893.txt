@@ -1,9 +1,0 @@
-b'You are given two integers nn and kk. Your task is to find if nn can be represented as a sum of kk distinct positive odd (not divisible by 22) integers or not.'
-b'You have to answer tt independent test cases.'
-b'Input'
-b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105) \xe2\x80\x94 the number of test cases.'
-b'The next tt lines describe test cases. The only line of the test case contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa41071\xe2\x89\xa4n,k\xe2\x89\xa4107).'
-b'Output'
-b'For each test case, print the answer \xe2\x80\x94 "YES" (without quotes) if nn can be represented as a sum of kk distinct positive odd (not divisible by 22) integers and "NO" otherwise.'
-Tags
-math, *1100

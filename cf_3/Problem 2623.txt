@@ -1,8 +1,0 @@
-b'You have a given integer nn. Find the number of ways to fill all 3\xc3\x97n3\xc3\x97n tiles with the shape described in the picture below. Upon filling, no empty spaces are allowed. Shapes cannot overlap.'
-b'  This picture describes when n=4n=4. The left one is the shape and the right one is 3\xc3\x97n3\xc3\x97n tiles. '
-b'Input'
-b'The only line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa4601\xe2\x89\xa4n\xe2\x89\xa460)\xc2\xa0\xe2\x80\x94 the length.'
-b'Output'
-b'Print the number of ways to fill.'
-Tags
-dp, math, *1000

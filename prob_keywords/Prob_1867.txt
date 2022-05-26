@@ -1,6 +1,4 @@
 %2f
-*special
--50
 =
 =
 addementum
@@ -16,7 +14,6 @@ cis
 ciscis
 conscribementis
 conscribementis
-consists
 cumula
 da
 da
@@ -41,12 +38,7 @@ fac
 fac
 fodementum
 iii
-inclusive
-input
-input
-integer
-integers
-line
+lingua
 magna
 morde
 multiplicamentum
@@ -55,17 +47,15 @@ nextum
 nimis
 novumversum
 novumversum
-output
 perlegementum
 praestantiam
 praestantiam
 privamentum
-problem
-problem
 resulto
 resultum
 resultum
 resultum
+romana
 scribe
 scribe
 seqis
@@ -78,8 +68,6 @@ sic
 sic
 sic
 sic
-statement
-tags
 tum
 tum
 tum

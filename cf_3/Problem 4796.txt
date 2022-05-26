@@ -1,8 +1,0 @@
-b'You are given n points on a line with their coordinates xi. Find the point x so the sum of distances to the given points is minimal.'
-b'Input'
-b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105) \xe2\x80\x94 the number of points on the line.'
-b'The second line contains n integers xi (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the coordinates of the given n points.'
-b'Output'
-b'Print the only integer x \xe2\x80\x94 the position of the optimal point on the line. If there are several optimal points print the position of the leftmost one. It is guaranteed that the answer is always the integer.'
-Tags
-brute force, sortings, *1400

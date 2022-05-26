@@ -1,9 +1,0 @@
-b'Given an integer N, find two permutations:'
-b'  Permutation p of numbers from 1 to N such that pi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89i and pi\xe2\x80\x89&\xe2\x80\x89i\xe2\x80\x89=\xe2\x80\x890 for all i\xe2\x80\x89=\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89N.  Permutation q of numbers from 1 to N such that qi\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89i and qi\xe2\x80\x89&\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x890 for all i\xe2\x80\x89=\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89N. '
-b'& is the bitwise AND operation.'
-b'Input'
-b'The input consists of one line containing a single integer N (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105).'
-b'Output'
-b'For each subtask, if the required permutation doesn\'t exist, output a single line containing the word "NO"; otherwise output the word "YES" in the first line and N elements of the permutation, separated by spaces, in the second line. If there are several possible permutations in a subtask, output any of them.'
-Tags
-constructive algorithms, *2500

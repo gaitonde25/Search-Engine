@@ -1,9 +1,0 @@
-b"Yura is tasked to build a closed fence in shape of an arbitrary non-degenerate simple quadrilateral. He's already got three straight fence segments with known lengths aa, bb, and cc. Now he needs to find out some possible integer length dd of the fourth straight fence segment so that he can build the fence using these four segments. In other words, the fence should have a quadrilateral shape with side lengths equal to aa, bb, cc, and dd. Help Yura, find any possible length of the fourth side."
-b'A non-degenerate simple quadrilateral is such a quadrilateral that no three of its corners lie on the same line, and it does not cross itself.'
-b'Input'
-b'The first line contains a single integer tt\xc2\xa0\xe2\x80\x94 the number of test cases (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000). The next tt lines describe the test cases.'
-b'Each line contains three integers aa, bb, and cc\xc2\xa0\xe2\x80\x94 the lengths of the three fence segments (1\xe2\x89\xa4a,b,c\xe2\x89\xa41091\xe2\x89\xa4a,b,c\xe2\x89\xa4109).'
-b'Output'
-b'For each test case print a single integer dd\xc2\xa0\xe2\x80\x94 the length of the fourth fence segment that is suitable for building the fence. If there are multiple answers, print any. We can show that an answer always exists.'
-Tags
-geometry, math, *800

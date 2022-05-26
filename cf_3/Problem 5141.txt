@@ -1,8 +1,0 @@
-b"Let's define the transformation P of a sequence of integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an as b1,\xe2\x80\x89b2,\xe2\x80\x89...,\xe2\x80\x89bn, where bi\xe2\x80\x89=\xe2\x80\x89a1\xc2\xa0|\xc2\xa0a2\xc2\xa0|\xc2\xa0...\xc2\xa0|\xc2\xa0ai for all i\xe2\x80\x89=\xe2\x80\x891,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89n, where | is the bitwise OR operation."
-b'Vasya consequently applies the transformation P to all sequences of length n consisting of integers from 1 to 2k\xe2\x80\x89-\xe2\x80\x891 inclusive. He wants to know how many of these sequences have such property that their transformation is a strictly increasing sequence. Help him to calculate this number modulo 109\xe2\x80\x89+\xe2\x80\x897.'
-b'Input'
-b'The only line of the input contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8930\xe2\x80\x89000).'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the answer to the problem modulo 109\xe2\x80\x89+\xe2\x80\x897.'
-Tags
-combinatorics, dp, fft, math, *3300

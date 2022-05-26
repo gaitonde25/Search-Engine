@@ -1,8 +1,0 @@
-b'Aenar has an array aa consisting of nn integers.'
-b'Input'
-b'The first line is the integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100).'
-b'The second line contains nn integers aiai (0\xe2\x89\xa4ai\xe2\x89\xa439790\xe2\x89\xa4ai\xe2\x89\xa43979)\xc2\xa0\xe2\x80\x94 the contents of the array.'
-b'Output'
-b'Output a single number.'
-Tags
-implementation, math

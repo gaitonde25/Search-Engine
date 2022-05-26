@@ -1,8 +1,0 @@
-b'Once upon a time there was only one router in the well-known company Bmail. Years went by and over time new routers were purchased. Every time they bought a new router, they connected it to one of the routers bought before it. You are given the values pipi \xe2\x80\x94 the index of the router to which the ii-th router was connected after being purchased (pi<ipi<i).'
-b'There are nn routers in Boogle in total now. Print the sequence of routers on the path from the first to the nn-th router.'
-b'Input'
-b'The first line contains integer number nn (2\xe2\x89\xa4n\xe2\x89\xa42000002\xe2\x89\xa4n\xe2\x89\xa4200000) \xe2\x80\x94 the number of the routers. The following line contains n\xe2\x88\x921n\xe2\x88\x921 integers p2,p3,\xe2\x80\xa6,pnp2,p3,\xe2\x80\xa6,pn (1\xe2\x89\xa4pi<i1\xe2\x89\xa4pi<i), where pipi is equal to index of the router to which the ii-th was connected after purchase.'
-b'Output'
-b'Print the path from the 11-st to the nn-th router. It starts with 11 and ends with nn. All the elements in the path should be distinct.'
-Tags
-*special problem, dfs and similar, trees, *900

@@ -1,8 +1,0 @@
-b"Vanya is doing his maths homework. He has an expression of form , where x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xn are digits from 1 to 9, and sign  represents either a plus '+' or the multiplication sign '*'. Vanya needs to add one pair of brackets in this expression so that to maximize the value of the resulting expression."
-b'Input'
-b'The first line contains expression s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895001, |s| is odd), its odd positions only contain digits from 1 to 9, and even positions only contain signs \xe2\x80\x89+\xe2\x80\x89 and \xe2\x80\x89*\xe2\x80\x89. '
-b"The number of signs \xe2\x80\x89*\xe2\x80\x89 doesn't exceed 15."
-b'Output'
-b'In the first line print the maximum possible value of an expression.'
-Tags
-brute force, dp, expression parsing, greedy, implementation, strings, *2100

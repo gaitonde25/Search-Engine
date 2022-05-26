@@ -1,9 +1,0 @@
-b"For some array cc, let's denote a greedy subsequence as a sequence of indices p1p1, p2p2, ..., plpl such that 1\xe2\x89\xa4p1<p2<\xe2\x8b\xaf<pl\xe2\x89\xa4|c|1\xe2\x89\xa4p1<p2<\xe2\x8b\xaf<pl\xe2\x89\xa4|c|, and for each i\xe2\x88\x88[1,l\xe2\x88\x921]i\xe2\x88\x88[1,l\xe2\x88\x921], pi+1pi+1 is the minimum number such that pi+1>pipi+1>pi and c[pi+1]>c[pi]c[pi+1]>c[pi]."
-b'You are given an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. For each its subsegment of length kk, calculate the length of its longest greedy subsequence.'
-b'Input'
-b'The first line contains two integers nn and kk (1\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4k\xe2\x89\xa4n\xe2\x89\xa4106) \xe2\x80\x94 the length of array aa and the length of subsegments.'
-b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa4n1\xe2\x89\xa4ai\xe2\x89\xa4n) \xe2\x80\x94 array aa.'
-b'Output'
-b'Print n\xe2\x88\x92k+1n\xe2\x88\x92k+1 integers \xe2\x80\x94 the maximum lengths of greedy subsequences of each subsegment having length kk. The first number should correspond to subsegment a[1..k]a[1..k], the second \xe2\x80\x94 to subsegment a[2..k+1]a[2..k+1], and so on.'
-Tags
-data structures, dp, trees, *2400

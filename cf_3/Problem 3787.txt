@@ -1,8 +1,0 @@
-b'Given a string s, find the number of ways to split s to substrings such that if there are k substrings (p1,\xe2\x80\x89p2,\xe2\x80\x89p3,\xe2\x80\x89...,\xe2\x80\x89pk) in partition, then pi\xe2\x80\x89=\xe2\x80\x89pk\xe2\x80\x89-\xe2\x80\x89i\xe2\x80\x89+\xe2\x80\x891 for all i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k) and k is even.'
-b'Since the number of ways can be large, print it modulo 109\xe2\x80\x89+\xe2\x80\x897.'
-b'Input'
-b'The only line of input contains a string s (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106) of even length consisting of lowercase Latin letters. '
-b'Output'
-b'Print one integer, the number of ways of partitioning the string modulo 109\xe2\x80\x89+\xe2\x80\x897.'
-Tags
-dp, string suffix structures, strings, *2900

@@ -1,9 +1,0 @@
-b'Limak is an old brown bear. He often plays poker with his friends. Today they went to a casino. There are n players (including Limak himself) and right now all of them have bids on the table. i-th of them has bid with size ai dollars.'
-b'Each player can double his bid any number of times and triple his bid any number of times. The casino has a great jackpot for making all bids equal. Is it possible that Limak and his friends will win a jackpot?'
-b'Input'
-b'First line of input contains an integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105), the number of players.'
-b'The second line contains n integer numbers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the bids of players.'
-b'Output'
-b'Print "Yes" (without the quotes) if players can make their bids become equal, or "No" otherwise.'
-Tags
-implementation, math, number theory, *1300

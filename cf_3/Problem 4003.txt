@@ -1,9 +1,0 @@
-b'You have an array a with length n, you can perform operations. Each operation is like this: choose two adjacent elements from a, say x and y, and replace one of them with gcd(x,\xe2\x80\x89y), where gcd denotes the greatest common divisor.'
-b'What is the minimum number of operations you need to make all of the elements equal to 1?'
-b'Input'
-b'The first line of the input contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892000) \xe2\x80\x94 the number of elements in the array.'
-b'The second line contains n space separated integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the elements of the array.'
-b'Output'
-b'Print -1, if it is impossible to turn all numbers to 1. Otherwise, print the minimum number of operations needed to make all numbers equal to 1.'
-Tags
-brute force, dp, greedy, math, number theory, *1500

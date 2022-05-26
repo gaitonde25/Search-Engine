@@ -1,9 +1,0 @@
-b'Berland shop sells nn kinds of juices. Each juice has its price cici. Each juice includes some set of vitamins in it. There are three types of vitamins: vitamin "A", vitamin "B" and vitamin "C". Each juice can contain one, two or all three types of vitamins in it.'
-b'Petya knows that he needs all three types of vitamins to stay healthy. What is the minimum total price of juices that Petya has to buy to obtain all three vitamins? Petya obtains some vitamin if he buys at least one juice containing it and drinks it.'
-b'Input'
-b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000)(1\xe2\x89\xa4n\xe2\x89\xa41000) \xe2\x80\x94 the number of juices.'
-b'Each of the next nn lines contains an integer cici (1\xe2\x89\xa4ci\xe2\x89\xa4100000)(1\xe2\x89\xa4ci\xe2\x89\xa4100000) and a string sisi \xe2\x80\x94 the price of the ii-th juice and the vitamins it contains. String sisi contains from 11 to 33 characters, and the only possible characters are "A", "B" and "C". It is guaranteed that each letter appears no more than once in each string sisi. The order of letters in strings sisi is arbitrary.'
-b'Output'
-b'Print -1 if there is no way to obtain all three vitamins. Otherwise print the minimum total price of juices that Petya has to buy to obtain all three vitamins.'
-Tags
-bitmasks, brute force, dp, implementation, *1200

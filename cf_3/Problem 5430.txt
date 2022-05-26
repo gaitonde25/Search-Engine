@@ -1,7 +1,0 @@
-b'Vanya has a scales for weighing loads and weights of masses w0,\xe2\x80\x89w1,\xe2\x80\x89w2,\xe2\x80\x89...,\xe2\x80\x89w100 grams where w is some integer not less than 2 (exactly one weight of each nominal value). Vanya wonders whether he can weight an item with mass m using the given weights, if the weights can be put on both pans of the scales. Formally speaking, your task is to determine whether it is possible to place an item of mass m and some weights on the left pan of the scales, and some weights on the right pan of the scales so that the pans of the scales were in balance.'
-b'Input'
-b'The first line contains two integers w,\xe2\x80\x89m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89w\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the number defining the masses of the weights and the mass of the item.'
-b'Output'
-b"Print word 'YES' if the item can be weighted and 'NO' if it cannot."
-Tags
-brute force, dp, greedy, math, meet-in-the-middle, number theory, *1900

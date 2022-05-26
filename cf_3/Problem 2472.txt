@@ -1,8 +1,0 @@
-b'This is an interactive problem. Remember to flush your output while communicating with the testing program. You may use fflush(stdout) in C++, system.out.flush() in Java, stdout.flush() in Python or flush(output) in Pascal to flush the output. If you use some other programming language, consult its documentation. You may also refer to the guide on interactive problems: https://codeforces.com/blog/entry/45307.'
-b'The jury picked an integer xx not less than 00 and not greater than 214\xe2\x88\x921214\xe2\x88\x921. You have to guess this integer.'
-b'To do so, you may ask no more than 22 queries. Each query should consist of 100100 integer numbers a1a1, a2a2, ..., a100a100 (each integer should be not less than 00 and not greater than 214\xe2\x88\x921214\xe2\x88\x921). In response to your query, the jury will pick one integer ii (1\xe2\x89\xa4i\xe2\x89\xa41001\xe2\x89\xa4i\xe2\x89\xa4100) and tell you the value of ai\xe2\x8a\x95xai\xe2\x8a\x95x (the bitwise XOR of aiai and xx). There is an additional constraint on the queries: all 200200 integers you use in the queries should be distinct.'
-b'It is guaranteed that the value of xx is fixed beforehand in each test, but the choice of ii in every query may depend on the integers you send.'
-b'Output'
-b'To give the answer, your program should print one line !! xx with a line break in the end. After that, it should flush the output and terminate gracefully.'
-Tags
-bitmasks, interactive, math, *1900

@@ -1,9 +1,0 @@
-b'This is an interactive problem.'
-b'John and his imaginary friend play a game. There are nn lamps arranged in a circle. Lamps are numbered 11 through nn in clockwise order, that is, lamps ii and i+1i+1 are adjacent for any i=1,\xe2\x80\xa6,n\xe2\x88\x921i=1,\xe2\x80\xa6,n\xe2\x88\x921, and also lamps nn and 11 are adjacent. Initially all lamps are turned off.'
-b"John and his friend take turns, with John moving first. On his turn John can choose to terminate the game, or to make a move. To make a move, John can choose any positive number kk and turn any kk lamps of his choosing on. In response to this move, John's friend will choose kk consecutive lamps and turn all of them off (the lamps in the range that were off before this move stay off). Note that the value of kk is the same as John's number on his last move. For example, if n=5n=5 and John have just turned three lamps on, John's friend may choose to turn off lamps 1,2,31,2,3, or 2,3,42,3,4, or 3,4,53,4,5, or 4,5,14,5,1, or 5,1,25,1,2."
-b'After this, John may choose to terminate or move again, and so on. However, John can not make more than 104104 moves.'
-b"John wants to maximize the number of lamps turned on at the end of the game, while his friend wants to minimize this number. Your task is to provide a strategy for John to achieve optimal result. Your program will play interactively for John against the jury's interactor program playing for John's friend."
-b'Suppose there are nn lamps in the game. Let R(n)R(n) be the number of turned on lamps at the end of the game if both players act optimally. Your program has to terminate the game with at least R(n)R(n) turned on lamps within 104104 moves. Refer to Interaction section below for interaction details.'
-b'For technical reasons hacks for this problem are disabled.'
-Tags
-games, implementation, interactive, math, *2600

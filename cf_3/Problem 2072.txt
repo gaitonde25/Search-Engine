@@ -1,9 +1,0 @@
-b'An infinitely long Line Chillland Collider (LCC) was built in Chillland. There are nn pipes with coordinates xixi that are connected to LCC. When the experiment starts at time 0, ii-th proton flies from the ii-th pipe with speed vivi. It flies to the right with probability pipi and flies to the left with probability (1\xe2\x88\x92pi)(1\xe2\x88\x92pi). The duration of the experiment is determined as the time of the first collision of any two protons. In case there is no collision, the duration of the experiment is considered to be zero.'
-b'Find the expected value of the duration of the experiment.'
-b'Illustration for the first example'
-b'Input'
-b'The first line of input contains one integer nn\xc2\xa0\xe2\x80\x94 the number of pipes (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105). Each of the following nn lines contains three integers xixi, vivi, pipi\xc2\xa0\xe2\x80\x94 the coordinate of the ii-th pipe, the speed of the ii-th proton and the probability that the ii-th proton flies to the right in percentage points (\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109,1\xe2\x89\xa4v\xe2\x89\xa4106,0\xe2\x89\xa4pi\xe2\x89\xa4100\xe2\x88\x92109\xe2\x89\xa4xi\xe2\x89\xa4109,1\xe2\x89\xa4v\xe2\x89\xa4106,0\xe2\x89\xa4pi\xe2\x89\xa4100). It is guaranteed that all xixi are distinct and sorted in increasing order.'
-b'Output'
-b"It's possible to prove that the answer can always be represented as a fraction P/QP/Q, where PP is an integer and QQ is a natural number not divisible by 998244353998244353. In this case, print P\xe2\x8b\x85Q\xe2\x88\x921P\xe2\x8b\x85Q\xe2\x88\x921 modulo 998244353998244353."
-Tags
-data structures, math, matrices, probabilities, *3100

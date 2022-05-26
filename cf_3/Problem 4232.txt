@@ -1,9 +1,0 @@
-b'Vasya is studying number theory. He has denoted a function f(a,\xe2\x80\x89b) such that:'
-b'  f(a,\xe2\x80\x890)\xe2\x80\x89=\xe2\x80\x890;  f(a,\xe2\x80\x89b)\xe2\x80\x89=\xe2\x80\x891\xe2\x80\x89+\xe2\x80\x89f(a,\xe2\x80\x89b\xe2\x80\x89-\xe2\x80\x89gcd(a,\xe2\x80\x89b)), where gcd(a,\xe2\x80\x89b) is the greatest common divisor of a and b. '
-b'Vasya has two numbers x and y, and he wants to calculate f(x,\xe2\x80\x89y). He tried to do it by himself, but found out that calculating this function the way he wants to do that might take very long time. So he decided to ask you to implement a program that will calculate this function swiftly.'
-b'Input'
-b'The first line contains two integer numbers x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891012).'
-b'Output'
-b'Print f(x,\xe2\x80\x89y).'
-Tags
-binary search, implementation, math, *2100

@@ -1,9 +1,6 @@
-allowed
+--
 announcement
-applying
-binitially
 careful
-consisting
 consists
 contest
 decimal
@@ -151,7 +148,7 @@ digits
 digits
 digits
 digits
-digits
+explodes
 greater
 greater
 greater
@@ -192,21 +189,16 @@ greater
 greater
 greater
 greater
+http://codeforces.com/blog/entry/73543
 increases
-input
-input
-leading
+initially
 lock
 lock
+medium
 mix
 number
-number
-number
-operations
 operations
 order
-output
-output
 position
 position
 position
@@ -433,7 +425,6 @@ rotate
 rotate
 safe
 safe
-single
 statements
 sum
 sum
@@ -453,7 +444,7 @@ sum
 sum
 sum
 sum
-tags
+talking
 times
 times
 times
@@ -538,5 +529,3 @@ unlock
 unusual
 unusual
 xx
-xx
-zeroes

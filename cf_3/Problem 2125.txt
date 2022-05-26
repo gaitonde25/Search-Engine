@@ -1,9 +1,0 @@
-b'Consider a string ss of nn lowercase English letters. Let titi be the string obtained by replacing the ii-th character of ss with an asterisk character *. For example, when s=abcs=abc, we have t1=\xe2\x88\x97bct1=\xe2\x88\x97bc, t2=a\xe2\x88\x97ct2=a\xe2\x88\x97c, and t3=ab\xe2\x88\x97t3=ab\xe2\x88\x97.'
-b'Given a string ss, count the number of distinct strings of lowercase English letters and asterisks that occur as a substring of at least one string in the set {s,t1,\xe2\x80\xa6,tn}{s,t1,\xe2\x80\xa6,tn}. The empty string should be counted.'
-b"Note that *'s are just characters and do not play any special role as in, for example, regex matching."
-b'Input'
-b'The only line contains a string ss of nn lowercase English letters (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of distinct strings of s,t1,\xe2\x80\xa6,tns,t1,\xe2\x80\xa6,tn.'
-Tags
-string suffix structures, *3400

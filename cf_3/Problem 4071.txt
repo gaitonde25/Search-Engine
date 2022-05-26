@@ -1,8 +1,0 @@
-b"You are given a positive integer n. Let's build a graph on vertices 1,\xe2\x80\x892,\xe2\x80\x89...,\xe2\x80\x89n in such a way that there is an edge between vertices u and v if and only if . Let d(u,\xe2\x80\x89v) be the shortest distance between u and v, or 0 if there is no path between them. Compute the sum of values d(u,\xe2\x80\x89v) over all 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u\xe2\x80\x89<\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n."
-b'The gcd (greatest common divisor) of two positive integers is the maximum positive integer that divides both of the integers.'
-b'Input'
-b'Single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89107).'
-b'Output'
-b'Print the sum of d(u,\xe2\x80\x89v) over all 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u\xe2\x80\x89<\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n.'
-Tags
-data structures, number theory, *2700

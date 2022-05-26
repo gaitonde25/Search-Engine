@@ -1,9 +1,0 @@
-b'A pair of positive integers (a,b)(a,b) is called special if \xe2\x8c\x8aab\xe2\x8c\x8b=amodb\xe2\x8c\x8aab\xe2\x8c\x8b=amodb. Here, \xe2\x8c\x8aab\xe2\x8c\x8b\xe2\x8c\x8aab\xe2\x8c\x8b is the result of the integer division between aa and bb, while amodbamodb is its remainder.'
-b'You are given two integers xx and yy. Find the number of special pairs (a,b)(a,b) such that 1\xe2\x89\xa4a\xe2\x89\xa4x1\xe2\x89\xa4a\xe2\x89\xa4x and 1\xe2\x89\xa4b\xe2\x89\xa4y1\xe2\x89\xa4b\xe2\x89\xa4y.'
-b'Input'
-b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases.'
-b'The only line of the description of each test case contains two integers xx, yy (1\xe2\x89\xa4x,y\xe2\x89\xa41091\xe2\x89\xa4x,y\xe2\x89\xa4109).'
-b'Output'
-b'For each test case print the answer on a single line.'
-Tags
-binary search, brute force, math, number theory, *1700

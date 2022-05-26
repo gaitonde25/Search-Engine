@@ -1,11 +1,8 @@
-*3400
 acyclic
 acyclic
 add
 added
 answers
-bas
-bhaving
 called
 choose
 chose
@@ -13,6 +10,7 @@ chose
 combinatorial
 combinatorial
 cycles
+differentiating
 directed
 directed
 draw
@@ -52,7 +50,6 @@ hearing
 holding
 impossible
 infinitely
-interactive
 interactive
 left
 long
@@ -96,7 +93,6 @@ ss
 standard
 starting
 starting
-tags
 taking
 task
 theory

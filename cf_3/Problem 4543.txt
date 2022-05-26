@@ -1,9 +1,0 @@
-b'Misha and Vanya have played several table tennis sets. Each set consists of several serves, each serve is won by one of the players, he receives one point and the loser receives nothing. Once one of the players scores exactly k points, the score is reset and a new set begins.'
-b'Across all the sets Misha scored a points in total, and Vanya scored b points. Given this information, determine the maximum number of sets they could have played, or that the situation is impossible.'
-b'Note that the game consisted of several complete sets.'
-b'Input'
-b'The first line contains three space-separated integers k, a and b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a,\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, a\xe2\x80\x89+\xe2\x80\x89b\xe2\x80\x89>\xe2\x80\x890).'
-b'Output'
-b'If the situation is impossible, print a single number -1. Otherwise, print the maximum possible number of sets.'
-Tags
-math, *1200

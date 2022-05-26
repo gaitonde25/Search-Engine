@@ -1,9 +1,0 @@
-b'You are given two integers nn and mm. Find the MEXMEX of the sequence n\xe2\x8a\x950,n\xe2\x8a\x951,\xe2\x80\xa6,n\xe2\x8a\x95mn\xe2\x8a\x950,n\xe2\x8a\x951,\xe2\x80\xa6,n\xe2\x8a\x95m. Here, \xe2\x8a\x95\xe2\x8a\x95 is the bitwise XOR operator.'
-b"MEXMEX of the sequence of non-negative integers is the smallest non-negative integer that doesn't appear in this sequence. For example, MEX(0,1,2,4)=3MEX\xe2\x81\xa1(0,1,2,4)=3, and MEX(1,2021)=0MEX\xe2\x81\xa1(1,2021)=0. "
-b'Input'
-b'The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa4300001\xe2\x89\xa4t\xe2\x89\xa430000) \xc2\xa0\xe2\x80\x94 the number of test cases.'
-b'The first and only line of each test case contains two integers nn and mm (0\xe2\x89\xa4n,m\xe2\x89\xa41090\xe2\x89\xa4n,m\xe2\x89\xa4109).'
-b'Output'
-b'For each test case, print a single integer \xc2\xa0\xe2\x80\x94 the answer to the problem.'
-Tags
-binary search, bitmasks, greedy, implementation, *1800

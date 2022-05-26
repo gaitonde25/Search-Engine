@@ -1,9 +1,0 @@
-b'Paul is at the orchestra. The string section is arranged in an r\xe2\x80\x89\xc3\x97\xe2\x80\x89c rectangular grid and is filled with violinists with the exception of n violists. Paul really likes violas, so he would like to take a picture including at least k of them. Paul can take a picture of any axis-parallel rectangle in the orchestra. Count the number of possible pictures that Paul can take.'
-b'Two pictures are considered to be different if the coordinates of corresponding rectangles are different.'
-b'Input'
-b'The first line of input contains four space-separated integers r, c, n, k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r,\xe2\x80\x89c,\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the number of rows and columns of the string section, the total number of violas, and the minimum number of violas Paul would like in his photograph, respectively.'
-b'The next n lines each contain two integers xi and yi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c): the position of the i-th viola. It is guaranteed that no location appears more than once in the input.'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of photographs Paul can take which include at least k violas. '
-Tags
-brute force, implementation, *1100

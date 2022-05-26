@@ -1,7 +1,0 @@
-b'You are given an equation A\xe2\x80\x89*\xe2\x80\x89X\xe2\x80\x89+\xe2\x80\x89B\xe2\x80\x89*\xe2\x80\x89Y\xe2\x80\x89=\xe2\x80\x89C, A,\xe2\x80\x89B,\xe2\x80\x89C are positive integer coefficients, X and Y are variables which can have positive integer values only. Output the number of solutions of this equation and the solutions themselves.'
-b'Input'
-b'The only line of input contains integers A,\xe2\x80\x89B and C (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89A,\xe2\x80\x89B,\xe2\x80\x89C\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000), separated with spaces.'
-b'Output'
-b'In the first line of the output print the number of the solutions N. In the next N lines print the solutions, formatted as "XY", sorted in ascending order of X, one solution per line.'
-Tags
-*special problem, *1500

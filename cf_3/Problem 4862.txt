@@ -1,9 +1,0 @@
-b'According to rules of the Berland fashion, a jacket should be fastened by all the buttons except only one, but not necessarily it should be the last one. Also if the jacket has only one button, it should be fastened, so the jacket will not swinging open.'
-b'You are given a jacket with n buttons. Determine if it is fastened in a right way.'
-b'Input'
-b'The first line contains integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the number of buttons on the jacket.'
-b'The second line contains n integers ai (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891). The number ai\xe2\x80\x89=\xe2\x80\x890 if the i-th button is not fastened. Otherwise ai\xe2\x80\x89=\xe2\x80\x891.'
-b'Output'
-b'In the only line print the word "YES" if the jacket is fastened in a right way. Otherwise print the word "NO".'
-Tags
-implementation, *1000

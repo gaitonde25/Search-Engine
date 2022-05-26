@@ -1,9 +1,0 @@
-b"Leha plays a computer game, where is on each level is given a connected graph with n vertices and m edges. Graph can contain multiple edges, but can not contain self loops. Each vertex has an integer di, which can be equal to 0, 1 or \xe2\x80\x89-\xe2\x80\x891. To pass the level, he needs to find a \xc2\xabgood\xc2\xbb subset of edges of the graph or say, that it doesn't exist. Subset is called \xc2\xabgood\xc2\xbb, if by by leaving only edges from this subset in the original graph, we obtain the following: for every vertex i, di\xe2\x80\x89=\xe2\x80\x89\xe2\x80\x89-\xe2\x80\x891 or it's degree modulo 2 is equal to di. Leha wants to pass the game as soon as possible and ask you to help him. In case of multiple correct answers, print any of them."
-b'Input'
-b'The first line contains two integers n, m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105, n\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105) \xe2\x80\x94 number of vertices and edges.'
-b'The second line contains n integers d1,\xe2\x80\x89d2,\xe2\x80\x89...,\xe2\x80\x89dn (\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891) \xe2\x80\x94 numbers on the vertices.'
-b"Each of the next m lines contains two integers u and v (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) \xe2\x80\x94 edges. It's guaranteed, that graph in the input is connected."
-b'Output'
-b"Print \xe2\x80\x89-\xe2\x80\x891 in a single line, if solution doesn't exist. Otherwise in the first line k \xe2\x80\x94 number of edges in a subset. In the next k lines indexes of edges. Edges are numerated in order as they are given in the input, starting from 1."
-Tags
-constructive algorithms, data structures, dfs and similar, dp, graphs, *2100

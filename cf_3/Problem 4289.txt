@@ -1,9 +1,0 @@
-b'On one quiet day all of sudden Mister B decided to draw angle a on his field. Aliens have already visited his field and left many different geometric figures on it. One of the figures is regular convex n-gon (regular convex polygon with n sides).'
-b"That's why Mister B decided to use this polygon. Now Mister B must find three distinct vertices v1, v2, v3 such that the angle  (where v2 is the vertex of the angle, and v1 and v3 lie on its sides) is as close as possible to a. In other words, the value  should be minimum possible."
-b'If there are many optimal solutions, Mister B should be satisfied with any of them.'
-b'Input'
-b'First and only line contains two space-separated integers n and a (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89180)\xc2\xa0\xe2\x80\x94 the number of vertices in the polygon and the needed angle, in degrees.'
-b'Output'
-b'Print three space-separated integers: the vertices v1, v2, v3, which form . If there are multiple optimal solutions, print any of them. The vertices are numbered from 1 to n in clockwise order.'
-Tags
-constructive algorithms, geometry, math, *1300

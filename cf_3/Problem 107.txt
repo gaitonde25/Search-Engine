@@ -1,7 +1,0 @@
-b"Aenar should go to the string's home."
-b'Input'
-b'A string consisting of only 66 letters.'
-b'Output'
-b'A string consisting of only 66 characters.'
-Tags
-constructive algorithms, strings

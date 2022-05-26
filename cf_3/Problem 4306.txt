@@ -1,8 +1,0 @@
-b'Ivan likes to learn different things about numbers, but he is especially interested in really big numbers. Ivan thinks that a positive integer number x is really big if the difference between x and the sum of its digits (in decimal representation) is not less than s. To prove that these numbers may have different special properties, he wants to know how rare (or not rare) they are \xe2\x80\x94 in fact, he needs to calculate the quantity of really big numbers that are not greater than n.'
-b"Ivan tried to do the calculations himself, but soon realized that it's too difficult for him. So he asked you to help him in calculations."
-b'Input'
-b'The first (and the only) line contains two integers n and s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018).'
-b'Output'
-b'Print one integer \xe2\x80\x94 the quantity of really big numbers that are not greater than n.'
-Tags
-binary search, brute force, dp, math, *1600

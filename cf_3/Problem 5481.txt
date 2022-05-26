@@ -1,8 +1,0 @@
-b'There is an infinite sequence consisting of all positive integers in the increasing order: p\xe2\x80\x89=\xe2\x80\x89{1,\xe2\x80\x892,\xe2\x80\x893,\xe2\x80\x89...}. We performed n swap operations with this sequence. A swap(a,\xe2\x80\x89b) is an operation of swapping the elements of the sequence on positions a and b. Your task is to find the number of inversions in the resulting sequence, i.e. the number of such index pairs (i,\xe2\x80\x89j), that i\xe2\x80\x89<\xe2\x80\x89j and pi\xe2\x80\x89>\xe2\x80\x89pj.'
-b'Input'
-b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the number of swap operations applied to the sequence.'
-b'Each of the next n lines contains two integers ai and bi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai,\xe2\x80\x89bi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, ai\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89bi)\xc2\xa0\xe2\x80\x94 the arguments of the swap operation.'
-b'Output'
-b'Print a single integer \xe2\x80\x94 the number of inversions in the resulting sequence.'
-Tags
-binary search, data structures, implementation, sortings, trees, *2100

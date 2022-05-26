@@ -1,6 +1,7 @@
-*special
 -
 //
+12√|00⟩+|01⟩=12√|0⟩+|2⟩12|00⟩+|01⟩=12|0⟩+|2⟩
+12√|0−1mod22⟩+|2−1mod22⟩=12√|3⟩+|1⟩=12√|11⟩+|10⟩12|0−1mod22⟩+|2−1mod22⟩=12|3⟩+|1⟩=12|11⟩+|10⟩
 2n2n
 adj+ctl
 adj+ctl
@@ -18,6 +19,7 @@ code
 code
 controlled
 controlled
+decrement
 decrements
 defined
 element
@@ -58,7 +60,6 @@ operation
 operation
 output
 passed
-problem
 qubits
 qubits
 qubits
@@ -78,7 +79,6 @@ solve
 state
 state
 state
-tags
 transformed
 type
 unit

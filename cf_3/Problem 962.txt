@@ -1,9 +1,0 @@
-b'  '
-b'  '
-b'*The two images are equivalent, feel free to use either one.'
-b'Input'
-b'The input contains a single integer aa (\xe2\x88\x92100\xe2\x89\xa4a\xe2\x89\xa4100\xe2\x88\x92100\xe2\x89\xa4a\xe2\x89\xa4100).'
-b'Output'
-b'Output the result \xe2\x80\x93 an integer number.'
-Tags
-*special problem, math, *2200

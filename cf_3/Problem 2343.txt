@@ -1,8 +1,0 @@
-b"Ania has a large integer SS. Its decimal representation has length nn and doesn't contain any leading zeroes. Ania is allowed to change at most kk digits of SS. She wants to do it in such a way that SS still won't contain any leading zeroes and it'll be minimal possible. What integer will Ania finish with?"
-b'Input'
-b'The first line contains two integers nn and kk (1\xe2\x89\xa4n\xe2\x89\xa42000001\xe2\x89\xa4n\xe2\x89\xa4200000, 0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n) \xe2\x80\x94 the number of digits in the decimal representation of SS and the maximum allowed number of changed digits.'
-b"The second line contains the integer SS. It's guaranteed that SS has exactly nn digits and doesn't contain any leading zeroes."
-b'Output'
-b'Output the minimal possible value of SS which Ania can end with. Note that the resulting integer should also have nn digits.'
-Tags
-greedy, implementation, *1000

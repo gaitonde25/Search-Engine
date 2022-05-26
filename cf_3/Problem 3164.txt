@@ -1,8 +1,0 @@
-b'You are given two integers ll and rr (l\xe2\x89\xa4rl\xe2\x89\xa4r). Your task is to calculate the sum of numbers from ll to rr (including ll and rr) such that each number contains at most kk different digits, and print this sum modulo 998244353998244353.'
-b'For example, if k=1k=1 then you have to calculate all numbers from ll to rr such that each number is formed using only one digit. For l=10,r=50l=10,r=50 the answer is 11+22+33+44=11011+22+33+44=110.'
-b'Input'
-b'The only line of the input contains three integers ll, rr and kk (1\xe2\x89\xa4l\xe2\x89\xa4r<1018,1\xe2\x89\xa4k\xe2\x89\xa4101\xe2\x89\xa4l\xe2\x89\xa4r<1018,1\xe2\x89\xa4k\xe2\x89\xa410) \xe2\x80\x94 the borders of the segment and the maximum number of different digits.'
-b'Output'
-b'Print one integer \xe2\x80\x94 the sum of numbers from ll to rr such that each number contains at most kk different digits, modulo 998244353998244353.'
-Tags
-bitmasks, combinatorics, dp, math, *2300

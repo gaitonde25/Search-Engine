@@ -1,9 +1,0 @@
-b'You are given n\xe2\x80\x89\xc3\x97\xe2\x80\x89m table. Each cell of the table is colored white or black. Find the number of non-empty sets of cells such that:'
-b'  All cells in a set have the same color.  Every two cells in a set share row or column. '
-b'Input'
-b'The first line of input contains integers n and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950)\xc2\xa0\xe2\x80\x94 the number of rows and the number of columns correspondingly.'
-b'The next n lines of input contain descriptions of rows. There are m integers, separated by spaces, in each line. The number equals 0 if the corresponding cell is colored white and equals 1 if the corresponding cell is colored black.'
-b'Output'
-b'Output single integer \xc2\xa0\xe2\x80\x94 the number of non-empty sets from the problem description.'
-Tags
-combinatorics, math, *1300

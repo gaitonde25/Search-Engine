@@ -1,9 +1,0 @@
-b'Arkady has got an infinite plane painted in color 00. Then he draws nn rectangles filled with paint with sides parallel to the Cartesian coordinate axes, one after another. The color of the ii-th rectangle is ii (rectangles are enumerated from 11 to nn in the order he draws them). It is possible that new rectangles cover some of the previous ones completely or partially.'
-b'Count the number of different colors on the plane after Arkady draws all the rectangles.'
-b'Input'
-b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000)\xc2\xa0\xe2\x80\x94 the number of rectangles.'
-b'The ii-th of the next nn lines contains 44 integers x1x1, y1y1, x2x2 and y2y2 (\xe2\x88\x92109\xe2\x89\xa4x1<x2\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4x1<x2\xe2\x89\xa4109, \xe2\x88\x92109\xe2\x89\xa4y1<y2\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4y1<y2\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the coordinates of corners of the ii-th rectangle.'
-b'Output'
-b'In the single line print the number of different colors in the plane, including color 00.'
-Tags
-data structures, *3300

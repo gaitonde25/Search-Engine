@@ -1,9 +1,0 @@
-b'You are given matrix ss that contains nn rows and mm columns. Each element of a matrix is one of the 55 first Latin letters (in upper case).'
-b'For each kk (1\xe2\x89\xa4k\xe2\x89\xa451\xe2\x89\xa4k\xe2\x89\xa45) calculate the number of submatrices that contain exactly kk different letters. Recall that a submatrix of matrix ss is a matrix that can be obtained from ss after removing several (possibly zero) first rows, several (possibly zero) last rows, several (possibly zero) first columns, and several (possibly zero) last columns. If some submatrix can be obtained from ss in two or more ways, you have to count this submatrix the corresponding number of times.'
-b'Input'
-b'The first line contains two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa48001\xe2\x89\xa4n,m\xe2\x89\xa4800).'
-b'Then nn lines follow, each containing the string sisi (|si|=m|si|=m)\xc2\xa0\xe2\x80\x94 ii-th row of the matrix. '
-b'Output'
-b'For each kk (1\xe2\x89\xa4k\xe2\x89\xa451\xe2\x89\xa4k\xe2\x89\xa45) print one integer\xc2\xa0\xe2\x80\x94 the number of submatrices that contain exactly kk different letters.'
-Tags
-*special problem, bitmasks, data structures, dp

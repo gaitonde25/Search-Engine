@@ -1,9 +1,0 @@
-b'InputThe input contains two integers NN, MM (1\xe2\x89\xa4N\xe2\x89\xa41024,2\xe2\x89\xa4M\xe2\x89\xa4161\xe2\x89\xa4N\xe2\x89\xa41024,2\xe2\x89\xa4M\xe2\x89\xa416), separated by a single space.'
-b'OutputOutput "YES" or "NO".'
-b'ExamplesInputCopy2 3\nOutputCopyYES\nInputCopy3 2\nOutputCopyNO\nInputCopy33 16\nOutputCopyYES\nInputCopy26 5\nOutputCopyNO\n'
-b'Input'
-b'The input contains two integers NN, MM (1\xe2\x89\xa4N\xe2\x89\xa41024,2\xe2\x89\xa4M\xe2\x89\xa4161\xe2\x89\xa4N\xe2\x89\xa41024,2\xe2\x89\xa4M\xe2\x89\xa416), separated by a single space.'
-b'Output'
-b'Output "YES" or "NO".'
-Tags
-*special problem, number theory, *1800

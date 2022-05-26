@@ -1,9 +1,0 @@
-b'Suppose that you are in a campus and have to go for classes day by day. As you may see, when you hurry to a classroom, you surprisingly find that many seats there are already occupied. Today you and your friends went for class, and found out that some of the seats were occupied.'
-b"The classroom contains nn rows of seats and there are mm seats in each row. Then the classroom can be represented as an n\xc3\x97mn\xc3\x97m matrix. The character '.' represents an empty seat, while '*' means that the seat is occupied. You need to find kk consecutive empty seats in the same row or column and arrange those seats for you and your friends. Your task is to find the number of ways to arrange the seats. Two ways are considered different if sets of places that students occupy differs."
-b'Input'
-b'The first line contains three positive integers n,m,kn,m,k (1\xe2\x89\xa4n,m,k\xe2\x89\xa420001\xe2\x89\xa4n,m,k\xe2\x89\xa42000), where n,mn,m represent the sizes of the classroom and kk is the number of consecutive seats you need to find.'
-b"Each of the next nn lines contains mm characters '.' or '*'. They form a matrix representing the classroom, '.' denotes an empty seat, and '*' denotes an occupied seat."
-b'Output'
-b'A single number, denoting the number of ways to find kk empty seats in the same row or column.'
-Tags
-brute force, implementation, *1300

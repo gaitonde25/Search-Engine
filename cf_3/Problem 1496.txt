@@ -1,9 +1,0 @@
-b'Alice and Bob play a game. The game consists of several sets, and each set consists of several rounds. Each round is won either by Alice or by Bob, and the set ends when one of the players has won xx rounds in a row. For example, if Bob won five rounds in a row and x=2x=2, then two sets ends.'
-b'You know that Alice and Bob have already played nn rounds, and you know the results of some rounds. For each xx from 11 to nn, calculate the maximum possible number of sets that could have already finished if each set lasts until one of the players wins xx rounds in a row. It is possible that the last set is still not finished \xe2\x80\x94 in that case, you should not count it in the answer.'
-b'Input'
-b'The first line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41061\xe2\x89\xa4n\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the number of rounds.'
-b"The second line contains one string ss of length nn \xe2\x80\x94 the descriptions of rounds. If the ii-th element of the string is 0, then Alice won the ii-th round; if it is 1, then Bob won the ii-th round, and if it is ?, then you don't know who won the ii-th round."
-b'Output'
-b'In the only line print nn integers. The ii-th integer should be equal to the maximum possible number of sets that could have already finished if each set lasts until one of the players wins ii rounds in a row.'
-Tags
-binary search, data structures, dp, greedy, two pointers, *2500

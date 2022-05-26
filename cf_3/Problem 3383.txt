@@ -1,8 +1,0 @@
-b'Let s(x)s(x) be sum of digits in decimal representation of positive integer xx. Given two integers nn and mm, find some positive integers aa and bb such that '
-b'  s(a)\xe2\x89\xa5ns(a)\xe2\x89\xa5n,  s(b)\xe2\x89\xa5ns(b)\xe2\x89\xa5n,  s(a+b)\xe2\x89\xa4ms(a+b)\xe2\x89\xa4m. '
-b'Input'
-b'The only line of input contain two integers nn and mm (1\xe2\x89\xa4n,m\xe2\x89\xa411291\xe2\x89\xa4n,m\xe2\x89\xa41129).'
-b'Output'
-b'Print two lines, one for decimal representation of aa and one for decimal representation of bb. Both numbers must not contain leading zeros and must have length no more than 22302230.'
-Tags
-constructive algorithms, math, *1200

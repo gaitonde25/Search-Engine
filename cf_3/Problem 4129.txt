@@ -1,9 +1,0 @@
-b'For a given positive integer n denote its k-rounding as the minimum positive integer x, such that x ends with k or more zeros in base 10 and is divisible by n.'
-b'For example, 4-rounding of 375 is 375\xc2\xb780\xe2\x80\x89=\xe2\x80\x8930000. 30000 is the minimum integer such that it ends with 4 or more zeros and is divisible by 375.'
-b'Write a program that will perform the k-rounding of n.'
-b'Input'
-b'The only line contains two integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x898).'
-b'Output'
-b'Print the k-rounding of n.'
-Tags
-brute force, math, number theory, *1100

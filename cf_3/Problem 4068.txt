@@ -1,9 +1,0 @@
-b'You are given a string s consisting only of characters 0 and 1. A substring [l,\xe2\x80\x89r] of s is a string slsl\xe2\x80\x89+\xe2\x80\x891sl\xe2\x80\x89+\xe2\x80\x892... sr, and its length equals to r\xe2\x80\x89-\xe2\x80\x89l\xe2\x80\x89+\xe2\x80\x891. A substring is called balanced if the number of zeroes (0) equals to the number of ones in this substring.'
-b'You have to determine the length of the longest balanced substring of s.'
-b'Input'
-b'The first line contains n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000) \xe2\x80\x94 the number of characters in s.'
-b'The second line contains a string s consisting of exactly n characters. Only characters 0 and 1 can appear in s.'
-b'Output'
-b'If there is no non-empty balanced substring in s, print 0. Otherwise, print the length of the longest balanced substring.'
-Tags
-dp, implementation, *1500

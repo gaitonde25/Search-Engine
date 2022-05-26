@@ -1,9 +1,0 @@
-b"Vanya and his friends are walking along the fence of height h and they do not want the guard to notice them. In order to achieve this the height of each of the friends should not exceed h. If the height of some person is greater than h he can bend down and then he surely won't be noticed by the guard. The height of the i-th person is equal to ai."
-b'Consider the width of the person walking as usual to be equal to 1, while the width of the bent person is equal to 2. Friends want to talk to each other while walking, so they would like to walk in a single row. What is the minimum width of the road, such that friends can walk in a row and remain unattended by the guard?'
-b'Input'
-b'The first line of the input contains two integers n and h (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89h\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000)\xc2\xa0\xe2\x80\x94 the number of friends and the height of the fence, respectively.'
-b'The second line contains n integers ai (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892h), the i-th of them is equal to the height of the i-th person.'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum possible valid width of the road.'
-Tags
-implementation, *800

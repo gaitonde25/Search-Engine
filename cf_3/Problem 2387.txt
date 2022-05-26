@@ -1,9 +1,0 @@
-b'Sasha grew up and went to first grade. To celebrate this event her mother bought her a multiplication table MM with nn rows and nn columns such that Mij=ai\xe2\x8b\x85ajMij=ai\xe2\x8b\x85aj where a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an is some sequence of positive integers.'
-b'Of course, the girl decided to take it to school with her. But while she was having lunch, hooligan Grisha erased numbers on the main diagonal and threw away the array a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an. Help Sasha restore the array!'
-b'Input'
-b'The first line contains a single integer nn (3\xe2\xa9\xbdn\xe2\xa9\xbd1033\xe2\xa9\xbdn\xe2\xa9\xbd103), the size of the table. '
-b'The next nn lines contain nn integers each. The jj-th number of the ii-th line contains the number MijMij (1\xe2\x89\xa4Mij\xe2\x89\xa41091\xe2\x89\xa4Mij\xe2\x89\xa4109). The table has zeroes on the main diagonal, that is, Mii=0Mii=0.'
-b'Output'
-b'In a single line print nn integers, the original array a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41091\xe2\x89\xa4ai\xe2\x89\xa4109). It is guaranteed that an answer exists. If there are multiple answers, print any.'
-Tags
-math, number theory, *1300

@@ -1,7 +1,0 @@
-b'You are given 3 qubits which are guaranteed to be in one of the two states:'
-b' |\xcf\x880\xe2\x9f\xa9=13\xe2\x88\x9a(|100\xe2\x9f\xa9+\xcf\x89|010\xe2\x9f\xa9+\xcf\x892|001\xe2\x9f\xa9)|\xcf\x880\xe2\x9f\xa9=13(|100\xe2\x9f\xa9+\xcf\x89|010\xe2\x9f\xa9+\xcf\x892|001\xe2\x9f\xa9), or |\xcf\x881\xe2\x9f\xa9=13\xe2\x88\x9a(|100\xe2\x9f\xa9+\xcf\x892|010\xe2\x9f\xa9+\xcf\x89|001\xe2\x9f\xa9)|\xcf\x881\xe2\x9f\xa9=13(|100\xe2\x9f\xa9+\xcf\x892|010\xe2\x9f\xa9+\xcf\x89|001\xe2\x9f\xa9), where \xcf\x89=e2i\xcf\x80/3\xcf\x89=e2i\xcf\x80/3.'
-b'Your task is to perform necessary operations and measurements to figure out which state it was and to return 0 if it was |\xcf\x880\xe2\x9f\xa9|\xcf\x880\xe2\x9f\xa9 state or 1 if it was |\xcf\x881\xe2\x9f\xa9|\xcf\x881\xe2\x9f\xa9 state. The state of the qubits after the operations does not matter.'
-b'You have to implement an operation which takes an array of 3 qubits as an input and returns an integer. Your code should have the following signature:'
-b'namespace Solution {    open Microsoft.Quantum.Primitive;    open Microsoft.Quantum.Canon;    operation Solve (qs : Qubit[]) : Int {        // your code here    }}'
-Tags
-

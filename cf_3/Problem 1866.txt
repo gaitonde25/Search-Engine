@@ -1,8 +1,0 @@
-b'You are given a mysterious language (codenamed "UnknownX") available in "Custom Test" tab. Find out what this language is, and use it to solve the following problem.'
-b'You are given an integer input=1000\xe2\x88\x97n+modinput=1000\xe2\x88\x97n+mod (1\xe2\x89\xa4n,mod\xe2\x89\xa49991\xe2\x89\xa4n,mod\xe2\x89\xa4999). Calculate double factorial of nn modulo modmod.'
-b'Input'
-b'The input contains a single integer inputinput (1001\xe2\x89\xa4input\xe2\x89\xa49999991001\xe2\x89\xa4input\xe2\x89\xa4999999). You are guaranteed that inputmod1000\xe2\x89\xa00inputmod1000\xe2\x89\xa00.'
-b'Output'
-b'Output a single number.'
-Tags
-*special problem

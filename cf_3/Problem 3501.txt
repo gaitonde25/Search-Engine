@@ -1,8 +1,0 @@
-b'You are given N\xe2\x80\x89=\xe2\x80\x892k qubits (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x894) in zero state . Your task is to create a generalized W state on them. Generalized W state is an equal superposition of all basis states on N qubits that have Hamming weight equal to 1:'
-b''
-b'For example, for N\xe2\x80\x89=\xe2\x80\x891, .'
-b'You have to implement an operation which takes an array of N qubits as an input and has no output. The "output" of the operation is the state in which it leaves the qubits.'
-b'Your code should have the following signature:'
-b'namespace Solution {    open Microsoft.Quantum.Primitive;    open Microsoft.Quantum.Canon;    operation Solve (qs : Qubit[]) : ()    {        body        {            // your code here        }    }}'
-Tags
-*1900

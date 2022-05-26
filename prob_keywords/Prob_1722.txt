@@ -1,4 +1,6 @@
 //
+12√|110⟩+|001⟩x⊗|0⟩y=12√|3⟩+|4⟩x⊗|0⟩y12|110⟩+|001⟩x⊗|0⟩y=12|3⟩+|4⟩x⊗|0⟩y
+12√|3⟩x⊗|1⟩y+|4⟩x|0⟩y=12√|110⟩x⊗|1⟩y+|001⟩x|0⟩y12|3⟩x⊗|1⟩y+|4⟩x|0⟩y=12|110⟩x⊗|1⟩y+|001⟩x|0⟩y
 adj+ctl
 adj+ctl
 adjoint
@@ -27,6 +29,7 @@ controls
 defined
 divisible
 divisible
+divisible
 effect
 fx=1fx=1
 gate
@@ -49,6 +52,8 @@ nn
 notation
 note
 number
+number
+n≤8n≤8
 open
 operation
 operation
@@ -59,6 +64,7 @@ operation
 operation
 operation
 operation
+oracle
 oracle
 output
 output
@@ -92,7 +98,6 @@ states
 string
 string
 system
-tags
 transformation
 unit
 unitary
@@ -101,4 +106,7 @@ variants
 xx
 {
 {
+|x⟩|x⟩
+|x⟩|y⊕fx⟩|x⟩|y⊕fx⟩
+|y⟩|y⟩
 }}

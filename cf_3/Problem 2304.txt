@@ -1,9 +1,0 @@
-b'Ujan has been lazy lately, but now has decided to bring his yard to good shape. First, he decided to paint the path from his house to the gate.'
-b'The path consists of nn consecutive tiles, numbered from 11 to nn. Ujan will paint each tile in some color. He will consider the path aesthetic if for any two different tiles with numbers ii and jj, such that |j\xe2\x88\x92i||j\xe2\x88\x92i| is a divisor of nn greater than 11, they have the same color. Formally, the colors of two tiles with numbers ii and jj should be the same if |i\xe2\x88\x92j|>1|i\xe2\x88\x92j|>1 and nmod|i\xe2\x88\x92j|=0nmod|i\xe2\x88\x92j|=0 (where xmodyxmody is the remainder when dividing xx by yy).'
-b'Ujan wants to brighten up space. What is the maximum number of different colors that Ujan can use, so that the path is aesthetic?'
-b'Input'
-b'The first line of input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410121\xe2\x89\xa4n\xe2\x89\xa41012), the length of the path.'
-b'Output'
-b'Output a single integer, the maximum possible number of colors that the path can be painted in.'
-Tags
-constructive algorithms, math, number theory, *1500

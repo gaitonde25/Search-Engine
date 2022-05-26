@@ -1,9 +1,0 @@
-b'You are given array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Find the subsegment al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n) with maximum arithmetic mean 1r\xe2\x88\x92l+1\xe2\x88\x91i=lrai1r\xe2\x88\x92l+1\xe2\x88\x91i=lrai (in floating-point numbers, i.e. without any rounding).'
-b'If there are many such subsegments find the longest one.'
-b'Input'
-b'The first line contains single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105) \xe2\x80\x94 length of the array aa.'
-b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa41090\xe2\x89\xa4ai\xe2\x89\xa4109) \xe2\x80\x94 the array aa.'
-b'Output'
-b'Print the single integer \xe2\x80\x94 the length of the longest subsegment with maximum possible arithmetic mean.'
-Tags
-implementation, math, *1100

@@ -1,7 +1,0 @@
-b'There are three points marked on the coordinate plane. The goal is to make a simple polyline, without self-intersections and self-touches, such that it passes through all these points. Also, the polyline must consist of only segments parallel to the coordinate axes. You are to find the minimum number of segments this polyline may consist of.'
-b'Input'
-b'Each of the three lines of the input contains two integers. The i-th line contains integers xi and yi (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89xi,\xe2\x80\x89yi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the coordinates of the i-th point. It is guaranteed that all points are distinct.'
-b'Output'
-b'Print a single number\xc2\xa0\xe2\x80\x94 the minimum possible number of segments of the polyline.'
-Tags
-constructive algorithms, implementation, *1700

@@ -1,9 +1,0 @@
-b'Consider a permutation p1,p2,\xe2\x80\xa6pnp1,p2,\xe2\x80\xa6pn of integers from 1 to nn. We call a sub-segment pl,pl+1,\xe2\x80\xa6,pr\xe2\x88\x921,prpl,pl+1,\xe2\x80\xa6,pr\xe2\x88\x921,pr of the permutation an interval if it is a reordering of some set of consecutive integers. For example, the permutation (6,7,1,8,5,3,2,4)(6,7,1,8,5,3,2,4) has the intervals (6,7)(6,7), (5,3,2,4)(5,3,2,4), (3,2)(3,2), and others. '
-b'Each permutation has some trivial intervals\xc2\xa0\xe2\x80\x94 the full permutation itself and every single element. We call a permutation interval-free if it does not have non-trivial intervals. In other words, interval-free permutation does not have intervals of length between 2 and n\xe2\x88\x921n\xe2\x88\x921 inclusive. '
-b'Your task is to count the number of interval-free permutations of length nn modulo prime number pp. '
-b'Input'
-b'In the first line of the input there are two integers tt (1\xe2\x89\xa4t\xe2\x89\xa44001\xe2\x89\xa4t\xe2\x89\xa4400) and pp (108\xe2\x89\xa4p\xe2\x89\xa4109108\xe2\x89\xa4p\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of test cases to solve and the prime modulo. In each of the next tt lines there is one integer nn (1\xe2\x89\xa4n\xe2\x89\xa44001\xe2\x89\xa4n\xe2\x89\xa4400)\xc2\xa0\xe2\x80\x94 the length of the permutation. '
-b'Output'
-b'For each of tt test cases print a single integer\xc2\xa0\xe2\x80\x94 the number of interval-free permutations modulo pp. '
-Tags
-*2600

@@ -1,5 +1,7 @@
-*special
++
++
 //
+13–√|01⟩+|10⟩+|11⟩13|01⟩+|10⟩+|11⟩
 a1
 allowed
 allowed
@@ -26,7 +28,7 @@ output
 output
 pauli
 prepare
-problem
+prepare
 problem
 qs
 qubit[]
@@ -41,7 +43,7 @@ solve
 state
 state
 state
-tags
+state
 takes
 task
 task
@@ -51,4 +53,8 @@ versions
 winter
 {
 {
+|00⟩|00⟩
+|01\xe2\x9f\xa9
+|10\xe2\x9f\xa9
+|11\xe2\x9f\xa9
 }}

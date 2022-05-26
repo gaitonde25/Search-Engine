@@ -1,9 +1,0 @@
-b'You and your friends live in nn houses. Each house is located on a 2D plane, in a point with integer coordinates. There might be different houses located in the same point. The mayor of the city is asking you for places for the building of the Eastern exhibition. You have to find the number of places (points with integer coordinates), so that the summary distance from all the houses to the exhibition is minimal. The exhibition can be built in the same point as some house. The distance between two points (x1,y1)(x1,y1) and (x2,y2)(x2,y2) is |x1\xe2\x88\x92x2|+|y1\xe2\x88\x92y2||x1\xe2\x88\x92x2|+|y1\xe2\x88\x92y2|, where |x||x| is the absolute value of xx. '
-b'Input'
-b'First line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41000)(1\xe2\x89\xa4t\xe2\x89\xa41000) \xe2\x80\x94 the number of test cases.'
-b'The first line of each test case contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41000)(1\xe2\x89\xa4n\xe2\x89\xa41000). Next nn lines describe the positions of the houses (xi,yi)(xi,yi) (0\xe2\x89\xa4xi,yi\xe2\x89\xa4109)(0\xe2\x89\xa4xi,yi\xe2\x89\xa4109).'
-b"It's guaranteed that the sum of all nn does not exceed 10001000."
-b'Output'
-b'For each test case output a single integer - the number of different positions for the exhibition. The exhibition can be built in the same point as some house.'
-Tags
-binary search, geometry, shortest paths, sortings, *1500

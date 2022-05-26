@@ -1,9 +1,0 @@
-b"Kevin Sun wants to move his precious collection of n cowbells from Naperthrill to Exeter, where there is actually grass instead of corn. Before moving, he must pack his cowbells into k boxes of a fixed size. In order to keep his collection safe during transportation, he won't place more than two cowbells into a single box. Since Kevin wishes to minimize expenses, he is curious about the smallest size box he can use to pack his entire collection. "
-b'Kevin is a meticulous cowbell collector and knows that the size of his i-th (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) cowbell is an integer si. In fact, he keeps his cowbells sorted by size, so si\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89si for any i\xe2\x80\x89>\xe2\x80\x891. Also an expert packer, Kevin can fit one or two cowbells into a box of size s if and only if the sum of their sizes does not exceed s. Given this information, help Kevin determine the smallest s for which it is possible to put all of his cowbells into k boxes of size s.'
-b'Input'
-b'The first line of the input contains two space-separated integers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000), denoting the number of cowbells and the number of boxes, respectively.'
-b"The next line contains n space-separated integers s1,\xe2\x80\x89s2,\xe2\x80\x89...,\xe2\x80\x89sn (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89...\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89sn\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000), the sizes of Kevin's cowbells. It is guaranteed that the sizes si are given in non-decreasing order."
-b'Output'
-b'Print a single integer, the smallest s for which it is possible for Kevin to put all of his cowbells into k boxes of size s.'
-Tags
-binary search, greedy, *1400

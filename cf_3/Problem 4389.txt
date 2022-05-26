@@ -1,9 +1,0 @@
-b'Arkady plays Gardenscapes a lot. Arkady wants to build two new fountains. There are n available fountains, for each fountain its beauty and cost are known. There are two types of money in the game: coins and diamonds, so each fountain cost can be either in coins or diamonds. No money changes between the types are allowed.'
-b'Help Arkady to find two fountains with maximum total beauty so that he can buy both at the same time.'
-b'Input'
-b'The first line contains three integers n, c and d (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89c,\xe2\x80\x89d\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the number of fountains, the number of coins and diamonds Arkady has.'
-b'The next n lines describe fountains. Each of these lines contain two integers bi and pi (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bi,\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the beauty and the cost of the i-th fountain, and then a letter "C" or "D", describing in which type of money is the cost of fountain i: in coins or in diamonds, respectively.'
-b'Output'
-b"Print the maximum total beauty of exactly two fountains Arkady can build. If he can't build two fountains, print 0."
-Tags
-binary search, data structures, implementation, *1800

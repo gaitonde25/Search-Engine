@@ -1,9 +1,0 @@
-b'A permutation p of size n is an array such that every integer from 1 to n occurs exactly once in this array.'
-b"Let's call a permutation an almost identity permutation iff there exist at least n\xe2\x80\x89-\xe2\x80\x89k indices i (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89i\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n) such that pi\xe2\x80\x89=\xe2\x80\x89i."
-b'Your task is to count the number of almost identity permutations for given numbers n and k.'
-b'Input'
-b'The first line contains two integers n and k (4\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x894).'
-b'Output'
-b'Print the number of almost identity permutations for given n and k.'
-Tags
-combinatorics, dp, math, *1600

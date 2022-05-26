@@ -1,5 +1,6 @@
 -
 //
+2≤p≤82≤p≤8
 =
 adj+ctl
 adj+ctl
@@ -25,6 +26,7 @@ element
 encodes
 equivalent
 format
+fourier
 fourier
 generate
 global
@@ -71,6 +73,7 @@ qft
 qft1/p1/p
 qftle
 quantum
+quantum
 qubitarray
 qubits
 qubits
@@ -78,6 +81,7 @@ qubits
 register
 register
 required
+root
 signature
 signature
 significant
@@ -85,8 +89,8 @@ solution
 solution
 solve
 state
-tags
 times
+transform
 transform
 transformation
 type

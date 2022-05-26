@@ -1,9 +1,0 @@
-b'You are given a multiset (i.\xc2\xa0e. a set that can contain multiple equal integers) containing 2n2n integers. Determine if you can split it into exactly nn pairs (i.\xc2\xa0e. each element should be in exactly one pair) so that the sum of the two elements in each pair is odd (i.\xc2\xa0e. when divided by 22, the remainder is 11).'
-b'Input'
-b'The input consists of multiple test cases. The first line contains an integer tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100) \xe2\x80\x94 the number of test cases. The description of the test cases follows.'
-b'The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100).'
-b'The second line of each test case contains 2n2n integers a1,a2,\xe2\x80\xa6,a2na1,a2,\xe2\x80\xa6,a2n (0\xe2\x89\xa4ai\xe2\x89\xa41000\xe2\x89\xa4ai\xe2\x89\xa4100) \xe2\x80\x94 the numbers in the set.'
-b'Output'
-b'For each test case, print "Yes" if it can be split into exactly nn pairs so that the sum of the two elements in each pair is odd, and "No" otherwise. You can print each letter in any case.'
-Tags
-math, *800

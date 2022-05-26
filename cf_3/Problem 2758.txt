@@ -1,9 +1,0 @@
-b'Polycarp has guessed three positive integers aa, bb and cc. He keeps these numbers in secret, but he writes down four numbers on a board in arbitrary order \xe2\x80\x94 their pairwise sums (three numbers) and sum of all three numbers (one number). So, there are four numbers on a board in random order: a+ba+b, a+ca+c, b+cb+c and a+b+ca+b+c.'
-b'You have to guess three numbers aa, bb and cc using given numbers. Print three guessed integers in any order.'
-b'Pay attention that some given numbers aa, bb and cc can be equal (it is also possible that a=b=ca=b=c).'
-b'Input'
-b'The only line of the input contains four positive integers x1,x2,x3,x4x1,x2,x3,x4 (2\xe2\x89\xa4xi\xe2\x89\xa41092\xe2\x89\xa4xi\xe2\x89\xa4109) \xe2\x80\x94 numbers written on a board in random order. It is guaranteed that the answer exists for the given number x1,x2,x3,x4x1,x2,x3,x4.'
-b'Output'
-b'Print such positive integers aa, bb and cc that four numbers written on a board are values a+ba+b, a+ca+c, b+cb+c and a+b+ca+b+c written in some order. Print aa, bb and cc in any order. If there are several answers, you can print any. It is guaranteed that the answer exists.'
-Tags
-math, *800

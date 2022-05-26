@@ -1,14 +1,5 @@
-byou
-conquer
-divide
 find
-implementation
-input
-integer
-integer
-math
+mike's
 oeis
-output
-rr
 sequence
-tags
+sequence

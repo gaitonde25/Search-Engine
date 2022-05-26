@@ -1,7 +1,0 @@
-b'You are given a name of a month. Output the season of the year to which it belongs (based on Northern hemisphere).'
-b'Input'
-b'The input consists of a single string containing the name of one of the twelve months (January, February, March, April, May, June, July, August, September, October, November or December). The string is capitalized as given here.'
-b'Output'
-b'Output a single string \xe2\x80\x94 the season of the year to which the given month belongs (winter, spring, summer or autumn). The name of the season should be in lowercase.'
-Tags
-*special problem, *1900

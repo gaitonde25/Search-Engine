@@ -1,9 +1,0 @@
-b'The New Year tree is an infinite perfect binary tree rooted in the node 1. Each node v has two children: nodes indexed (2\xc2\xb7v) and (2\xc2\xb7v\xe2\x80\x89+\xe2\x80\x891).'
-b'  '
-b'Polar bears love decorating the New Year tree and Limak is no exception. As he is only a little bear, he was told to decorate only one simple path between some pair of nodes. Though he was given an opportunity to pick the pair himself! Now he wants to know the number of unordered pairs of indices (u,\xe2\x80\x89v) (u\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v), such that the sum of indices of all nodes along the simple path between u and v (including endpoints) is equal to s. Can you help him and count this value?'
-b'Input'
-b'The only line of the input contains a single integer s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89s\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891015).'
-b'Output'
-b'Print one integer, denoting the number of unordered pairs of nodes indices defining simple paths with the sum of indices of vertices equal to s.'
-Tags
-bitmasks, brute force, combinatorics, dp, *3200

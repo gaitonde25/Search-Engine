@@ -1,8 +1,0 @@
-b'Spongebob is already tired trying to reason his weird actions and calculations, so he simply asked you to find all pairs of n and m, such that there are exactly x distinct squares in the table consisting of n rows and m columns. For example, in a 3\xe2\x80\x89\xc3\x97\xe2\x80\x895 table there are 15 squares with side one, 8 squares with side two and 3 squares with side three. The total number of distinct squares in a 3\xe2\x80\x89\xc3\x97\xe2\x80\x895 table is 15\xe2\x80\x89+\xe2\x80\x898\xe2\x80\x89+\xe2\x80\x893\xe2\x80\x89=\xe2\x80\x8926.'
-b'Input'
-b'The first line of the input contains a single integer x (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018)\xc2\xa0\xe2\x80\x94 the number of squares inside the tables Spongebob is interested in.'
-b'Output'
-b'First print a single integer k\xc2\xa0\xe2\x80\x94 the number of tables with exactly x distinct squares inside.'
-b'Then print k pairs of integers describing the tables. Print the pairs in the order of increasing n, and in case of equality\xc2\xa0\xe2\x80\x94 in the order of increasing m.'
-Tags
-brute force, math, *1900

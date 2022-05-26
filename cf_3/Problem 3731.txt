@@ -1,9 +1,0 @@
-b'InputThe input contains a single integer a (10\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89999).'
-b'OutputOutput 0 or 1.'
-b'ExamplesInputCopy13OutputCopy1InputCopy927OutputCopy1InputCopy48OutputCopy0'
-b'Input'
-b'The input contains a single integer a (10\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89999).'
-b'Output'
-b'Output 0 or 1.'
-Tags
-math, *800

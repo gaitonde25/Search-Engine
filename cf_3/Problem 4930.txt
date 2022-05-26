@@ -1,9 +1,0 @@
-b'The girl Taylor has a beautiful calendar for the year y. In the calendar all days are given with their days of week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.'
-b'The calendar is so beautiful that she wants to know what is the next year after y when the calendar will be exactly the same. Help Taylor to find that year.'
-b'Note that leap years has 366 days. The year is leap if it is divisible by 400 or it is divisible by 4, but not by 100 (https://en.wikipedia.org/wiki/Leap_year).'
-b'Input'
-b"The only line contains integer y (1000\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89y\xe2\x80\x89<\xe2\x80\x89100'000) \xe2\x80\x94 the year of the calendar."
-b'Output'
-b"Print the only integer y' \xe2\x80\x94 the next year after y when the calendar will be the same. Note that you should find the first year after y with the same calendar."
-Tags
-implementation, *1600

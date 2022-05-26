@@ -1,7 +1,5 @@
 -std=c++11
 absolutely
-algorithms
-bthe
 bytes
 c++
 c++
@@ -10,7 +8,7 @@ compilable
 compile
 compilers
 compiles
-constructive
+cross-language
 exceed
 executable
 fast
@@ -19,15 +17,12 @@ file
 form
 freepascal
 gcc
-input
-input
 language
 language
 languages
 matter
-output
-output
 pascal
+program
 program
 program
 requirement
@@ -37,7 +32,6 @@ submission
 submit
 submitted
 successfully
-tags
 text
 text
 write

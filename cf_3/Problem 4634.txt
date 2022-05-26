@@ -1,9 +1,0 @@
-b'Hongcow is learning to spell! One day, his teacher gives him a word that he needs to learn to spell. Being a dutiful student, he immediately learns how to spell the word.'
-b'Hongcow has decided to try to make new words from this one. He starts by taking the word he just learned how to spell, and moves the last character of the word to the beginning of the word. He calls this a cyclic shift. He can apply cyclic shift many times. For example, consecutively applying cyclic shift operation to the word "abracadabra" Hongcow will get words "aabracadabr", "raabracadab" and so on.'
-b'Hongcow is now wondering how many distinct words he can generate by doing the cyclic shift arbitrarily many times. The initial string is also counted.'
-b'Input'
-b"The first line of input will be a single string s (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8950), the word Hongcow initially learns how to spell. The string s consists only of lowercase English letters ('a'\xe2\x80\x93'z')."
-b'Output'
-b'Output a single integer equal to the number of distinct strings that Hongcow can obtain by applying the cyclic shift arbitrarily many times to the given string.'
-Tags
-implementation, strings, *900

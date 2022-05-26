@@ -1,9 +1,0 @@
-b'This is an interactive problem.'
-b'There is a positive integer 1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109 that you have to guess.'
-b'In one query you can choose two positive integers a\xe2\x89\xa0ba\xe2\x89\xa0b. As an answer to this query you will get gcd(x+a,x+b)gcd(x+a,x+b), where gcd(n,m)gcd(n,m) is the greatest common divisor of the numbers nn and mm.'
-b'To guess one hidden number xx you are allowed to make no more than 3030 queries.'
-b'Input'
-b'The first line of input contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) denoting the number of test cases.'
-b'The integer xx that you have to guess satisfies the constraints: (1\xe2\x89\xa4x\xe2\x89\xa41091\xe2\x89\xa4x\xe2\x89\xa4109).'
-Tags
-bitmasks, chinese remainder theorem, constructive algorithms, games, interactive, math, number theory, *2000

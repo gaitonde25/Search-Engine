@@ -1,9 +1,0 @@
-b'A frog is initially at position 00 on the number line. The frog has two positive integers aa and bb. From a position kk, it can either jump to position k+ak+a or k\xe2\x88\x92bk\xe2\x88\x92b.'
-b"Let f(x)f(x) be the number of distinct integers the frog can reach if it never jumps on an integer outside the interval [0,x][0,x]. The frog doesn't need to visit all these integers in one trip, that is, an integer is counted if the frog can somehow reach it if it starts from 00."
-b'Given an integer mm, find \xe2\x88\x91mi=0f(i)\xe2\x88\x91i=0mf(i). That is, find the sum of all f(i)f(i) for ii from 00 to mm.'
-b'Input'
-b'The first line contains three integers m,a,bm,a,b (1\xe2\x89\xa4m\xe2\x89\xa4109,1\xe2\x89\xa4a,b\xe2\x89\xa41051\xe2\x89\xa4m\xe2\x89\xa4109,1\xe2\x89\xa4a,b\xe2\x89\xa4105).'
-b'Output'
-b'Print a single integer, the desired sum.'
-Tags
-dfs and similar, math, number theory, *2100

@@ -1,5 +1,5 @@
-*2100
-algorithms
+1≤q≤1031≤q≤103
+2≤n≤252≤n≤25
 ate
 axyaxy
 axyaxy
@@ -7,10 +7,7 @@ axyaxy
 axyaxy
 based
 beginning
-bitmasks
-bomkar
 bottom
-byour
 cell
 cell
 cell
@@ -31,13 +28,13 @@ column
 columns
 complete
 completed
-constructive
 corner
 corner
 crossed
 crosses
 denote
 determine
+duck
 duck
 duck
 duck
@@ -63,7 +60,6 @@ including
 independent
 integer
 interactive
-interactive
 journey
 journey
 journey
@@ -79,7 +75,6 @@ left
 left
 mass
 mastery
-math
 measure
 movement
 moving
@@ -92,6 +87,8 @@ nnnn
 nonnegative
 note
 number
+omkar
+omkar
 omkar
 omkar
 omkar
@@ -112,7 +109,6 @@ reproduce
 row
 rows
 start
-tags
 tasks
 thinks
 top

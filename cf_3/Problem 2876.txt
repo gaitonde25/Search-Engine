@@ -1,8 +1,0 @@
-b'A string is called bracket sequence if it does not contain any characters other than "(" and ")". A bracket sequence is called regular if it it is possible to obtain correct arithmetic expression by inserting characters "+" and "1" into this sequence. For example, "", "(())" and "()()" are regular bracket sequences; "))" and ")((" are bracket sequences (but not regular ones), and "(a)" and "(1)+(1)" are not bracket sequences at all.'
-b'You have a number of strings; each string is a bracket sequence of length 22. So, overall you have cnt1cnt1 strings "((", cnt2cnt2 strings "()", cnt3cnt3 strings ")(" and cnt4cnt4 strings "))". You want to write all these strings in some order, one after another; after that, you will get a long bracket sequence of length 2(cnt1+cnt2+cnt3+cnt4)2(cnt1+cnt2+cnt3+cnt4). You wonder: is it possible to choose some order of the strings you have such that you will get a regular bracket sequence? Note that you may not remove any characters or strings, and you may not add anything either.'
-b'Input'
-b'The input consists of four lines, ii-th of them contains one integer cnticnti (0\xe2\x89\xa4cnti\xe2\x89\xa41090\xe2\x89\xa4cnti\xe2\x89\xa4109).'
-b'Output'
-b'Print one integer: 11 if it is possible to form a regular bracket sequence by choosing the correct order of the given strings, 00 otherwise.'
-Tags
-greedy, implementation, *1100

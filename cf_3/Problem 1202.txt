@@ -1,8 +1,0 @@
-b'A robot is standing at the origin of the infinite two-dimensional plane. Each second the robot moves exactly 11 meter in one of the four cardinal directions: north, south, west, and east. For the first step the robot can choose any of the four directions, but then at the end of every second it has to turn 90 degrees left or right with respect to the direction it just moved in. For example, if the robot has just moved north or south, the next step it takes has to be either west or east, and vice versa.'
-b'The robot makes exactly nn steps from its starting position according to the rules above. How many different points can the robot arrive to at the end? The final orientation of the robot can be ignored.'
-b'Input'
-b'The only line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000)\xc2\xa0\xe2\x80\x94 the number of steps the robot makes.'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of different possible locations after exactly nn steps.'
-Tags
-dp, math, *1300

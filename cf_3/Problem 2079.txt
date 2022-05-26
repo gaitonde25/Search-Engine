@@ -1,9 +1,0 @@
-b'Today, as a friendship gift, Bakry gave Badawy nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an and challenged him to choose an integer XX such that the value max1\xe2\x89\xa4i\xe2\x89\xa4n(ai\xe2\x8a\x95X)max1\xe2\x89\xa4i\xe2\x89\xa4n(ai\xe2\x8a\x95X) is minimum possible, where \xe2\x8a\x95\xe2\x8a\x95 denotes the bitwise XOR operation.'
-b'As always, Badawy is too lazy, so you decided to help him and find the minimum possible value of max1\xe2\x89\xa4i\xe2\x89\xa4n(ai\xe2\x8a\x95X)max1\xe2\x89\xa4i\xe2\x89\xa4n(ai\xe2\x8a\x95X).'
-b'Input'
-b'The first line contains integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105).'
-b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (0\xe2\x89\xa4ai\xe2\x89\xa4230\xe2\x88\x9210\xe2\x89\xa4ai\xe2\x89\xa4230\xe2\x88\x921).'
-b'Output'
-b'Print one integer \xe2\x80\x94 the minimum possible value of max1\xe2\x89\xa4i\xe2\x89\xa4n(ai\xe2\x8a\x95X)max1\xe2\x89\xa4i\xe2\x89\xa4n(ai\xe2\x8a\x95X).'
-Tags
-bitmasks, brute force, dfs and similar, divide and conquer, dp, greedy, strings, trees, *1900

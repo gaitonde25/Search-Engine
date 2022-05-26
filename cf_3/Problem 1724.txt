@@ -1,8 +1,0 @@
-b'You are given an operation that implements a single-qubit unitary transformation: either the Y gate (possibly with an extra global phase of \xe2\x88\x921\xe2\x88\x921) or the sequence of Pauli Z and Pauli X gates (the Z gate applied first and the X gate applied second; possibly with an extra global phase of \xe2\x88\x921\xe2\x88\x921). The operation will have Adjoint and Controlled variants defined.'
-b'Your task is to perform necessary operations and measurements to figure out which unitary it was and to return'
-b'  0 if it was the Y gate,  1 if it was the \xe2\x88\x92\xe2\x88\x92XZ gate,  2 if it was the \xe2\x88\x92\xe2\x88\x92Y gate,  3 if it was the XZ gate. '
-b'You are allowed to apply the given operation and its adjoint/controlled variants at most three times.'
-b'You have to implement an operation which takes a single-qubit operation as an input and returns an integer. Your code should have the following signature:'
-b'namespace Solution {    open Microsoft.Quantum.Intrinsic;    operation Solve (unitary : (Qubit => Unit is Adj+Ctl)) : Int {        // your code here    }}'
-Tags
-

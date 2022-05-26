@@ -1,8 +1,0 @@
-b'You are given an array of n integers a1... an. The cost of a subsegment is the number of unordered pairs of distinct indices within the subsegment that contain equal elements. Split the given array into k non-intersecting non-empty subsegments so that the sum of their costs is minimum possible. Each element should be present in exactly one subsegment.'
-b'Input'
-b'The first line contains two integers n and k (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min (n,\xe2\x80\x8920)) \xc2\xa0\xe2\x80\x94 the length of the array and the number of segments you need to split the array into.'
-b'The next line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the elements of the array.'
-b'Output'
-b'Print single integer: the minimum possible total cost of resulting subsegments.'
-Tags
-divide and conquer, dp, *2500

@@ -1,8 +1,0 @@
-b'Given a positive integer nn. Find three distinct positive integers aa, bb, cc such that a+b+c=na+b+c=n and gcd(a,b)=cgcd\xe2\x81\xa1(a,b)=c, where gcd(x,y)gcd\xe2\x81\xa1(x,y) denotes the greatest common divisor (GCD) of integers xx and yy.'
-b'Input'
-b'The input consists of multiple test cases. The first line contains a single integer tt (1\xe2\x89\xa4t\xe2\x89\xa41051\xe2\x89\xa4t\xe2\x89\xa4105)\xc2\xa0\xe2\x80\x94 the number of test cases. Description of the test cases follows.'
-b'The first and only line of each test case contains a single integer nn (10\xe2\x89\xa4n\xe2\x89\xa410910\xe2\x89\xa4n\xe2\x89\xa4109).'
-b'Output'
-b'For each test case, output three distinct positive integers aa, bb, cc satisfying the requirements. If there are multiple solutions, you can print any. We can show that an answer always exists.'
-Tags
-brute force, constructive algorithms, math, number theory, *900

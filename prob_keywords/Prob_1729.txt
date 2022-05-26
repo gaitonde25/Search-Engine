@@ -11,11 +11,13 @@ array
 cnot
 cnot1212
 cnot2121
+cnots
 code
 code
 control
 controlled
 defined
+distinguish
 empty
 fail
 figure
@@ -58,7 +60,7 @@ solution
 solve
 swap
 swap
-tags
+swap
 takes
 target
 task
@@ -78,3 +80,5 @@ vice
 {
 {
 }}
+⊗
+⊗

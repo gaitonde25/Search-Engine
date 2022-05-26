@@ -9,6 +9,7 @@ code
 code
 controlled
 defined
+distinguish
 figure
 gate
 gate
@@ -16,6 +17,7 @@ gate
 gate
 gate
 gate
+gates
 gates
 identity
 implement
@@ -35,6 +37,7 @@ operation
 operation
 operations
 pauli
+pauli
 perform
 qubit
 return
@@ -44,7 +47,6 @@ single-qubit
 single-qubit
 solution
 solve
-tags
 takes
 task
 transformation

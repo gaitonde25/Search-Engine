@@ -1,9 +1,0 @@
-b"A sum of p rubles is charged from Arkady's mobile phone account every day in the morning. Among the following m days, there are n days when Arkady will top up the account: in the day di he will deposit ti rubles on his mobile phone account. Arkady will always top up the account before the daily payment will be done. There will be no other payments nor tops up in the following m days."
-b"Determine the number of days starting from the 1-st to the m-th such that the account will have a negative amount on it after the daily payment (i.\xc2\xa0e. in evening). Initially the account's balance is zero rubles."
-b'Input'
-b'The first line contains three integers n, p and m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89p\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m) \xe2\x80\x94 the number of days Arkady will top up the account, the amount of the daily payment, and the number of days you should check.'
-b'The i-th of the following n lines contains two integers di and ti (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89di\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ti\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 the index of the day when Arkady will make the i-th top up, and the amount he will deposit on this day. It is guaranteed that the indices of the days are distinct and are given in increasing order, i.\xc2\xa0e. di\xe2\x80\x89>\xe2\x80\x89di\xe2\x80\x89-\xe2\x80\x891 for all i from 2 to n.'
-b'Output'
-b'Print the number of days from the 1-st to the m-th such that the account will have a negative amount on it after the daily payment.'
-Tags
-*2000

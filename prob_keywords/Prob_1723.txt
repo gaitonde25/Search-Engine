@@ -1,4 +1,6 @@
 //
+12√|01⟩+|00⟩x⊗|0⟩y12|01⟩+|00⟩x⊗|0⟩y
+12√|01⟩x⊗|1⟩y+|00⟩x|0⟩y12|01⟩x⊗|1⟩y+|00⟩x|0⟩y
 adj+ctl
 adj+ctl
 adjoint
@@ -11,10 +13,12 @@ arbitrary
 array
 automatically
 balanced
+balanced
 based
 basis
 basis
 basis
+bit
 bit
 bit
 checks
@@ -49,6 +53,7 @@ nn
 note
 number
 number
+n≤10n≤10
 open
 operation
 operation
@@ -59,6 +64,7 @@ operation
 operation
 operation
 operation
+oracle
 oracle
 output
 output
@@ -90,8 +96,8 @@ state
 states
 string
 string
+string
 system
-tags
 transformation
 unit
 unitary
@@ -102,4 +108,7 @@ zeros
 zeros
 {
 {
+|x⟩|x⟩
+|x⟩|y⊕fx⟩|x⟩|y⊕fx⟩
+|y⟩|y⟩
 }}

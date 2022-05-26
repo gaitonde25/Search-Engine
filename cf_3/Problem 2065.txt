@@ -1,9 +1,0 @@
-b'You are given two integers nn and mm. Calculate the number of pairs of arrays (a,b)(a,b) such that:'
-b'  the length of both arrays is equal to mm;  each element of each array is an integer between 11 and nn (inclusive);  ai\xe2\x89\xa4biai\xe2\x89\xa4bi for any index ii from 11 to mm;  array aa is sorted in non-descending order;  array bb is sorted in non-ascending order. '
-b'As the result can be very large, you should print it modulo 109+7109+7.'
-b'Input'
-b'The only line contains two integers nn and mm (1\xe2\x89\xa4n\xe2\x89\xa410001\xe2\x89\xa4n\xe2\x89\xa41000, 1\xe2\x89\xa4m\xe2\x89\xa4101\xe2\x89\xa4m\xe2\x89\xa410).'
-b'Output'
-b'Print one integer \xe2\x80\x93 the number of arrays aa and bb satisfying the conditions described above modulo 109+7109+7.'
-Tags
-combinatorics, dp, *1600

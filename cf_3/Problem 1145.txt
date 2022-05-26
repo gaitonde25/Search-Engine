@@ -1,8 +1,0 @@
-b'This is an interactive problem.'
-b'nn people sitting in a circle are trying to shuffle a deck of cards. The players are numbered from 11 to nn, so that players ii and i+1i+1 are neighbours (as well as players 11 and nn). Each of them has exactly kk cards, where kk is even. The left neighbour of a player ii is player i\xe2\x88\x921i\xe2\x88\x921, and their right neighbour is player i+1i+1 (except for players 11 and nn, who are respective neighbours of each other).'
-b'Each turn the following happens: if a player has xx cards, they give \xe2\x8c\x8ax/2\xe2\x8c\x8b\xe2\x8c\x8ax/2\xe2\x8c\x8b to their neighbour on the left and \xe2\x8c\x88x/2\xe2\x8c\x89\xe2\x8c\x88x/2\xe2\x8c\x89 cards to their neighbour on the right. This happens for all players simultaneously.'
-b'However, one player pp is the impostor and they just give all their cards to their neighbour on the right. You know the number of players nn and the number of cards kk each player has initially, but pp is unknown to you. Your task is to determine the value of pp, by asking questions like "how many cards does player qq have?" for an index qq of your choice. After each question all players will make exactly one move and give their cards to their neighbours. You need to find the impostor by asking no more than 10001000 questions.'
-b'Input'
-b'The first line contains two integers nn and kk (4\xe2\x89\xa4n\xe2\x89\xa41054\xe2\x89\xa4n\xe2\x89\xa4105, 2\xe2\x89\xa4k\xe2\x89\xa41092\xe2\x89\xa4k\xe2\x89\xa4109, kk is even)\xc2\xa0\xe2\x80\x94 the number of players and the number of cards.'
-Tags
-binary search, brute force, constructive algorithms, interactive, *2500

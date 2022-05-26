@@ -1,9 +1,0 @@
-b'To quickly hire highly skilled specialists one of the new IT City companies made an unprecedented move. Every employee was granted a car, and an employee can choose one of four different car makes.'
-b"The parking lot before the office consists of one line of (2n\xe2\x80\x89-\xe2\x80\x892) parking spaces. Unfortunately the total number of cars is greater than the parking lot capacity. Furthermore even amount of cars of each make is greater than the amount of parking spaces! That's why there are no free spaces on the parking lot ever."
-b'Looking on the straight line of cars the company CEO thought that parking lot would be more beautiful if it contained exactly n successive cars of the same make. Help the CEO determine the number of ways to fill the parking lot this way.'
-b'Input'
-b'The only line of the input contains one integer n (3\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8930) \xe2\x80\x94 the amount of successive cars of the same make.'
-b'Output'
-b'Output one integer \xe2\x80\x94 the number of ways to fill the parking lot by cars of four makes using the described way.'
-Tags
-combinatorics, math, *1700

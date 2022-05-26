@@ -1,8 +1,0 @@
-b"You can perfectly predict the price of a certain stock for the next N days. You would like to profit on this knowledge, but only want to transact one share of stock per day. That is, each day you will either buy one share, sell one share, or do nothing. Initially you own zero shares, and you cannot sell shares when you don't own any. At the end of the N days you would like to again own zero shares, but want to have as much money as possible."
-b'Input'
-b'Input begins with an integer N (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89N\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x893\xc2\xb7105), the number of days.'
-b'Following this is a line with exactly N integers p1,\xe2\x80\x89p2,\xe2\x80\x89...,\xe2\x80\x89pN (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pi\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89106). The price of one share of stock on the i-th day is given by pi.'
-b'Output'
-b'Print the maximum amount of money you can end up with at the end of N days.'
-Tags
-constructive algorithms, data structures, greedy, *2400

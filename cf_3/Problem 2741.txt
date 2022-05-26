@@ -1,9 +1,0 @@
-b'You are given a permutation pp of nn integers 11, 22, ..., nn (a permutation is an array where each element from 11 to nn occurs exactly once).'
-b"Let's call some subsegment p[l,r]p[l,r] of this permutation special if pl+pr=maxi=lrpipl+pr=maxi=lrpi. Please calculate the number of special subsegments."
-b'Input'
-b'The first line contains one integer nn (3\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851053\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105).'
-b'The second line contains nn integers p1p1, p2p2, ..., pnpn (1\xe2\x89\xa4pi\xe2\x89\xa4n1\xe2\x89\xa4pi\xe2\x89\xa4n). All these integers are pairwise distinct.'
-b'Output'
-b'Print the number of special subsegments of the given permutation.'
-Tags
-data structures, divide and conquer, dsu, two pointers, *2200

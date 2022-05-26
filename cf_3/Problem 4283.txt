@@ -1,9 +1,0 @@
-b"Holidays have finished. Thanks to the help of the hacker Leha, Noora managed to enter the university of her dreams which is located in a town Pavlopolis. It's well known that universities provide students with dormitory for the period of university studies. Consequently Noora had to leave Vi\xc4\x8dkopolis and move to Pavlopolis. Thus Leha was left completely alone in a quiet town Vi\xc4\x8dkopolis. He almost even fell into a depression from boredom!"
-b'Leha came up with a task for himself to relax a little. He chooses two integers A and B and then calculates the greatest common divisor of integers "A factorial" and "B factorial". Formally the hacker wants to find out GCD(A!,\xe2\x80\x89B!). It\'s well known that the factorial of an integer x is a product of all positive integers less than or equal to x. Thus x!\xe2\x80\x89=\xe2\x80\x891\xc2\xb72\xc2\xb73\xc2\xb7...\xc2\xb7(x\xe2\x80\x89-\xe2\x80\x891)\xc2\xb7x. For example 4!\xe2\x80\x89=\xe2\x80\x891\xc2\xb72\xc2\xb73\xc2\xb74\xe2\x80\x89=\xe2\x80\x8924. Recall that GCD(x,\xe2\x80\x89y) is the largest positive integer q that divides (without a remainder) both x and y.'
-b"Leha has learned how to solve this task very effective. You are able to cope with it not worse, aren't you?"
-b'Input'
-b'The first and single line contains two integers A and B (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89A,\xe2\x80\x89B\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109,\xe2\x80\x89min(A,\xe2\x80\x89B)\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8912).'
-b'Output'
-b'Print a single integer denoting the greatest common divisor of integers A! and B!.'
-Tags
-implementation, math, number theory, *800

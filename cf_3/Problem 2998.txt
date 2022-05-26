@@ -1,9 +1,0 @@
-b"Let's define radix sum of number aa consisting of digits a1,\xe2\x80\xa6,aka1,\xe2\x80\xa6,ak and number bb consisting of digits b1,\xe2\x80\xa6,bkb1,\xe2\x80\xa6,bk(we add leading zeroes to the shorter number to match longer length) as number s(a,b)s(a,b) consisting of digits (a1+b1)mod10,\xe2\x80\xa6,(ak+bk)mod10(a1+b1)mod10,\xe2\x80\xa6,(ak+bk)mod10. The radix sum of several integers is defined as follows: s(t1,\xe2\x80\xa6,tn)=s(t1,s(t2,\xe2\x80\xa6,tn))s(t1,\xe2\x80\xa6,tn)=s(t1,s(t2,\xe2\x80\xa6,tn))"
-b'You are given an array x1,\xe2\x80\xa6,xnx1,\xe2\x80\xa6,xn. The task is to compute for each integer i(0\xe2\x89\xa4i<n)i(0\xe2\x89\xa4i<n) number of ways to consequently choose one of the integers from the array nn times, so that the radix sum of these integers is equal to ii. Calculate these values modulo 258258.'
-b'Input'
-b'The first line contains integer nn\xc2\xa0\xe2\x80\x94 the length of the array(1\xe2\x89\xa4n\xe2\x89\xa41000001\xe2\x89\xa4n\xe2\x89\xa4100000).'
-b'The second line contains nn integers x1,\xe2\x80\xa6xnx1,\xe2\x80\xa6xn\xc2\xa0\xe2\x80\x94 array elements(0\xe2\x89\xa4xi<1000000\xe2\x89\xa4xi<100000).'
-b'Output'
-b'Output nn integers y0,\xe2\x80\xa6,yn\xe2\x88\x921y0,\xe2\x80\xa6,yn\xe2\x88\x921\xc2\xa0\xe2\x80\x94 yiyi should be equal to corresponding number of ways modulo 258258.'
-Tags
-fft, math, number theory, *3400

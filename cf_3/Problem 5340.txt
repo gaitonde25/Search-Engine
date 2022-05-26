@@ -1,9 +1,0 @@
-b'You are given n numbers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an. You can perform at most k operations. For each operation you can multiply one of the numbers by x. We want to make  as large as possible, where  denotes the bitwise OR. '
-b'Find the maximum possible value of  after performing at most k operations optimally.'
-b'Input'
-b'The first line contains three integers n, k and x (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910, 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x898).'
-b'The second line contains n integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
-b'Output'
-b'Output the maximum value of a bitwise OR of sequence elements after performing operations.'
-Tags
-brute force, greedy, *1700

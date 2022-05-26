@@ -1,9 +1,0 @@
-b'You have a plate and you want to add some gilding to it. The plate is a rectangle that we split into w\xc3\x97hw\xc3\x97h cells. There should be kk gilded rings, the first one should go along the edge of the plate, the second one\xc2\xa0\xe2\x80\x94 22 cells away from the edge and so on. Each ring has a width of 11 cell. Formally, the ii-th of these rings should consist of all bordering cells on the inner rectangle of size (w\xe2\x88\x924(i\xe2\x88\x921))\xc3\x97(h\xe2\x88\x924(i\xe2\x88\x921))(w\xe2\x88\x924(i\xe2\x88\x921))\xc3\x97(h\xe2\x88\x924(i\xe2\x88\x921)).'
-b'  The picture corresponds to the third example. '
-b'Your task is to compute the number of cells to be gilded.'
-b'Input'
-b'The only line contains three integers ww, hh and kk (3\xe2\x89\xa4w,h\xe2\x89\xa41003\xe2\x89\xa4w,h\xe2\x89\xa4100, 1\xe2\x89\xa4k\xe2\x89\xa4\xe2\x8c\x8amin(n,m)+14\xe2\x8c\x8b1\xe2\x89\xa4k\xe2\x89\xa4\xe2\x8c\x8amin(n,m)+14\xe2\x8c\x8b, where \xe2\x8c\x8ax\xe2\x8c\x8b\xe2\x8c\x8ax\xe2\x8c\x8b denotes the number xx rounded down) \xe2\x80\x94 the number of rows, columns and the number of rings, respectively.'
-b'Output'
-b'Print a single positive integer\xc2\xa0\xe2\x80\x94 the number of cells to be gilded.'
-Tags
-implementation, math, *800

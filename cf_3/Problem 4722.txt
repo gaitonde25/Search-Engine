@@ -1,8 +1,0 @@
-b"In a new version of the famous Pinball game, one of the most important parts of the game field is a sequence of n bumpers. The bumpers are numbered with integers from 1 to n from left to right. There are two types of bumpers. They are denoted by the characters '<' and '>'. When the ball hits the bumper at position i it goes one position to the right (to the position i\xe2\x80\x89+\xe2\x80\x891) if the type of this bumper is '>', or one position to the left (to i\xe2\x80\x89-\xe2\x80\x891) if the type of the bumper at position i is '<'. If there is no such position, in other words if i\xe2\x80\x89-\xe2\x80\x891\xe2\x80\x89<\xe2\x80\x891 or i\xe2\x80\x89+\xe2\x80\x891\xe2\x80\x89>\xe2\x80\x89n, the ball falls from the game field."
-b"Depending on the ball's starting position, the ball may eventually fall from the game field or it may stay there forever. You are given a string representing the bumpers' types. Calculate the number of positions such that the ball will eventually fall from the game field if it starts at that position."
-b'Input'
-b"The first line of the input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200\xe2\x80\x89000)\xc2\xa0\xe2\x80\x94 the length of the sequence of bumpers. The second line contains the string, which consists of the characters '<' and '>'. The character at the i-th position of this string corresponds to the type of the i-th bumper."
-b'Output'
-b'Print one integer\xc2\xa0\xe2\x80\x94 the number of positions in the sequence such that the ball will eventually fall from the game field if it starts at that position.'
-Tags
-implementation, *1000

@@ -1,7 +1,0 @@
-b'We consider a positive integer perfect, if and only if the sum of its digits is exactly 1010. Given a positive integer kk, your task is to find the kk-th smallest perfect positive integer.'
-b'Input'
-b'A single line with a positive integer kk (1\xe2\x89\xa4k\xe2\x89\xa4100001\xe2\x89\xa4k\xe2\x89\xa410000).'
-b'Output'
-b'A single number, denoting the kk-th smallest perfect integer.'
-Tags
-binary search, brute force, dp, implementation, number theory, *1100

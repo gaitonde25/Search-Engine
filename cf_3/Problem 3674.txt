@@ -1,9 +1,0 @@
-b'One day Polycarp decided to rewatch his absolute favourite episode of well-known TV series "Tufurama". He was pretty surprised when he got results only for season 7 episode 3 with his search query of "Watch Tufurama season 3 episode 7 online full hd free". This got Polycarp confused \xe2\x80\x94 what if he decides to rewatch the entire series someday and won\'t be able to find the right episodes to watch? Polycarp now wants to count the number of times he will be forced to search for an episode using some different method.'
-b'TV series have n seasons (numbered 1 through n), the i-th season has ai episodes (numbered 1 through ai). Polycarp thinks that if for some pair of integers x and y (x\xe2\x80\x89<\xe2\x80\x89y) exist both season x episode y and season y episode x then one of these search queries will include the wrong results. Help Polycarp to calculate the number of such pairs!'
-b'Input'
-b'The first line contains one integer n (1\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the number of seasons.'
-b'The second line contains n integers separated by space a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109) \xe2\x80\x94 number of episodes in each season.'
-b'Output'
-b'Print one integer \xe2\x80\x94 the number of pairs x and y (x\xe2\x80\x89<\xe2\x80\x89y) such that there exist both season x episode y and season y episode x.'
-Tags
-data structures, *1900

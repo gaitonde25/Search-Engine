@@ -1,8 +1,0 @@
-b"Currently, XXOC's rap is a string consisting of zeroes, ones, and question marks. Unfortunately, haters gonna hate. They will write xx angry comments for every occurrence of subsequence 01 and yy angry comments for every occurrence of subsequence 10. You should replace all the question marks with 0 or 1 in such a way that the number of angry comments would be as small as possible."
-b'String bb is a subsequence of string aa, if it can be obtained by removing some characters from aa. Two occurrences of a subsequence are considered distinct if sets of positions of remaining characters are distinct.'
-b'Input'
-b"The first line contains string ss\xc2\xa0\xe2\x80\x94 XXOC's rap (1\xe2\x89\xa4|s|\xe2\x89\xa41051\xe2\x89\xa4|s|\xe2\x89\xa4105). The second line contains two integers xx and yy\xc2\xa0\xe2\x80\x94 the number of angry comments XXOC will recieve for every occurrence of 01 and 10 accordingly (0\xe2\x89\xa4x,y\xe2\x89\xa41060\xe2\x89\xa4x,y\xe2\x89\xa4106)."
-b'Output'
-b'Output a single integer\xc2\xa0\xe2\x80\x94 the minimum number of angry comments.'
-Tags
-brute force, greedy, implementation, strings, *2100

@@ -1,9 +1,0 @@
-b'You are given three integers aa, bb and xx. Your task is to construct a binary string ss of length n=a+bn=a+b such that there are exactly aa zeroes, exactly bb ones and exactly xx indices ii (where 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n) such that si\xe2\x89\xa0si+1si\xe2\x89\xa0si+1. It is guaranteed that the answer always exists.'
-b'For example, for the string "01010" there are four indices ii such that 1\xe2\x89\xa4i<n1\xe2\x89\xa4i<n and si\xe2\x89\xa0si+1si\xe2\x89\xa0si+1 (i=1,2,3,4i=1,2,3,4). For the string "111001" there are two such indices ii (i=3,5i=3,5).'
-b'Recall that binary string is a non-empty sequence of characters where each character is either 0 or 1.'
-b'Input'
-b'The first line of the input contains three integers aa, bb and xx (1\xe2\x89\xa4a,b\xe2\x89\xa4100,1\xe2\x89\xa4x<a+b)1\xe2\x89\xa4a,b\xe2\x89\xa4100,1\xe2\x89\xa4x<a+b).'
-b'Output'
-b'Print only one string ss, where ss is any binary string satisfying conditions described above. It is guaranteed that the answer always exists.'
-Tags
-constructive algorithms, *1300

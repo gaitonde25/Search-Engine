@@ -1,7 +1,6 @@
-*3300
+1≤rc≤x2c+y2c−−−−−−√−11≤rc≤xc2+yc2−1
 absolute
 advance
-binteractor
 center
 circle
 circle
@@ -16,13 +15,13 @@ distance
 exceed
 extend
 find
-geometry
 goal
 hidden
 integer
 integer
 interactive
 interactive
+interactor
 intersects
 origin
 parameters
@@ -35,13 +34,13 @@ ray
 ray
 rays
 rays
+rays
 rcrc
 rcrc
 rcrc
 result
 shoot
 shooting
-tags
 test
 values
 xcxc
@@ -50,3 +49,4 @@ xcycxcyc
 xqyqxqyq
 ycyc
 ycyc
+—

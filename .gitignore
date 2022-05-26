@@ -1,9 +1,15 @@
 node_modules/
 upload_prob.js
 upload_files.js
-Keywords3.txt
 rough.js
 Keywords.txt
 Magnitude.txt
 tf-idfMatrix.txt
 idfArray.txt
+Problem_names.txt
+Problem_urls.txt
+Problems/
+Problem_inputs/
+Problem_outputs/
+Problem_tags/
+prob_keywords/

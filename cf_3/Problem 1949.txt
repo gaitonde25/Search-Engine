@@ -1,8 +1,0 @@
-b'Your task is to calculate the number of arrays such that:'
-b'  each array contains nn elements;  each element is an integer from 11 to mm;  for each array, there is exactly one pair of equal elements;  for each array aa, there exists an index ii such that the array is strictly ascending before the ii-th element and strictly descending after it (formally, it means that aj<aj+1aj<aj+1, if j<ij<i, and aj>aj+1aj>aj+1, if j\xe2\x89\xa5ij\xe2\x89\xa5i). '
-b'Input'
-b'The first line contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa4m\xe2\x89\xa42\xe2\x8b\x85105).'
-b'Output'
-b'Print one integer \xe2\x80\x94 the number of arrays that meet all of the aforementioned conditions, taken modulo 998244353998244353.'
-Tags
-combinatorics, math, *1700

@@ -1,9 +1,0 @@
-b'We call a positive integer x a k-beautiful integer if and only if it is possible to split the multiset of its digits in the decimal representation into two subsets such that the difference between the sum of digits in one subset and the sum of digits in the other subset is less than or equal to k. Each digit should belong to exactly one subset after the split.'
-b'There are n queries for you. Each query is described with three integers l, r and k, which mean that you are asked how many integers x between l and r (inclusive) are k-beautiful.'
-b'Input'
-b'The first line contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895\xc2\xb7104), indicating the number of queries.'
-b'Each of the next n lines describes a query, containing three integers l, r and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89r\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018, 0\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x899).'
-b'Output'
-b'For each query print a single number\xc2\xa0\xe2\x80\x94 the answer to the query.'
-Tags
-dp, *3200

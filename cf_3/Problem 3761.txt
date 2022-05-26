@@ -1,8 +1,0 @@
-b'You are given a string s, initially consisting of n lowercase Latin letters. After that, you perform k operations with it, where . During i-th operation you must erase some substring of length exactly 2i\xe2\x80\x89-\xe2\x80\x891 from s.'
-b'Print the lexicographically minimal string you may obtain after performing k such operations.'
-b'Input'
-b'The only line contains one string s consisting of n lowercase Latin letters (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x895000).'
-b'Output'
-b'Print the lexicographically minimal string you may obtain after performing k operations.'
-Tags
-bitmasks, dp, greedy, *2700

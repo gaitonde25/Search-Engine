@@ -1,9 +1,0 @@
-b'You are given a binary string (i.\xe2\x80\x89e. a string consisting of characters 0 and/or 1) ss of length nn. You can perform the following operation with the string ss at most once: choose a substring (a contiguous subsequence) of ss having exactly kk characters 1 in it, and shuffle it (reorder the characters in the substring as you wish).'
-b'Calculate the number of different strings which can be obtained from ss by performing this operation at most once.'
-b'Input'
-b'The first line contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa450002\xe2\x89\xa4n\xe2\x89\xa45000; 0\xe2\x89\xa4k\xe2\x89\xa4n0\xe2\x89\xa4k\xe2\x89\xa4n).'
-b'The second line contains the string ss of length nn, consisting of characters 0 and/or 1.'
-b'Output'
-b'Print one integer \xe2\x80\x94 the number of different strings which can be obtained from ss by performing the described operation at most once. Since the answer can be large, output it modulo 998244353998244353.'
-Tags
-combinatorics, math, two pointers, *2000

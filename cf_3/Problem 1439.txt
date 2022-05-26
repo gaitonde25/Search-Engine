@@ -1,9 +1,0 @@
-b'You are given a positive integer nn. In one move, you can increase nn by one (i.e. make n:=n+1n:=n+1). Your task is to find the minimum number of moves you need to perform in order to make the sum of digits of nn be less than or equal to ss.'
-b'You have to answer tt independent test cases.'
-b'Input'
-b'The first line of the input contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x851041\xe2\x89\xa4t\xe2\x89\xa42\xe2\x8b\x85104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
-b'The only line of the test case contains two integers nn and ss (1\xe2\x89\xa4n\xe2\x89\xa410181\xe2\x89\xa4n\xe2\x89\xa41018; 1\xe2\x89\xa4s\xe2\x89\xa41621\xe2\x89\xa4s\xe2\x89\xa4162).'
-b'Output'
-b'For each test case, print the answer: the minimum number of moves you need to perform in order to make the sum of digits of nn be less than or equal to ss.'
-Tags
-greedy, math, *1500

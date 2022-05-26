@@ -1,9 +1,0 @@
-b'Petr is a detective in Braginsk. Somebody stole a huge amount of money from a bank and Petr is to catch him. Somebody told Petr that some luxurious car moves along the roads without stopping.'
-b'Petr knows that it is the robbers who drive the car. The roads in Braginsk are one-directional and each of them connects two intersections. Petr wants to select one intersection such that if the robbers continue to drive the roads indefinitely, they will sooner or later come to that intersection. The initial position of the robbers is unknown. Find such an intersection that fits the requirements.'
-b'Input'
-b'The first line of the input contains two integers nn and mm (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 2\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x851052\xe2\x89\xa4m\xe2\x89\xa45\xe2\x8b\x85105)\xc2\xa0\xe2\x80\x94 the number of intersections and the number of directed roads in Braginsk, respectively.'
-b'Each of the next mm lines contains two integers uiui and vivi (1\xe2\x89\xa4ui,vi\xe2\x89\xa4n1\xe2\x89\xa4ui,vi\xe2\x89\xa4n, ui\xe2\x89\xa0viui\xe2\x89\xa0vi)\xc2\xa0\xe2\x80\x94 the start and finish of the ii-th directed road. It is guaranteed that the robbers can move along the roads indefinitely.'
-b'Output'
-b'Print a single integer kk\xc2\xa0\xe2\x80\x94 the intersection Petr needs to choose. If there are multiple answers, print any. If there are no such intersections, print \xe2\x88\x921\xe2\x88\x921.'
-Tags
-dfs and similar, graphs, *2700

@@ -1,9 +1,0 @@
-b'You are given a directed graph consisting of n vertices and m edges (each edge is directed, so it can be traversed in only one direction). You are allowed to remove at most one edge from it.'
-b"Can you make this graph acyclic by removing at most one edge from it? A directed graph is called acyclic iff it doesn't contain any cycle (a non-empty path that starts and ends in the same vertex)."
-b'Input'
-b'The first line contains two integers n and m (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89500, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89min(n(n\xe2\x80\x89-\xe2\x80\x891),\xe2\x80\x89100000)) \xe2\x80\x94 the number of vertices and the number of edges, respectively.'
-b'Then m lines follow. Each line contains two integers u and v denoting a directed edge going from vertex u to vertex v (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89u,\xe2\x80\x89v\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n, u\xe2\x80\x89\xe2\x89\xa0\xe2\x80\x89v). Each ordered pair (u,\xe2\x80\x89v) is listed at most once (there is at most one directed edge from u to v).'
-b'Output'
-b'If it is possible to make this graph acyclic by removing at most one edge, print YES. Otherwise, print NO.'
-Tags
-dfs and similar, graphs, *2200

@@ -1,9 +1,0 @@
-b"Sasha is a very happy guy, that's why he is always on the move. There are nn cities in the country where Sasha lives. They are all located on one straight line, and for convenience, they are numbered from 11 to nn in increasing order. The distance between any two adjacent cities is equal to 11 kilometer. Since all roads in the country are directed, it's possible to reach the city yy from the city xx only if x<yx<y. "
-b'Once Sasha decided to go on a trip around the country and to visit all nn cities. He will move with the help of his car, Cheetah-2677. The tank capacity of this model is vv liters, and it spends exactly 11 liter of fuel for 11 kilometer of the way. At the beginning of the journey, the tank is empty. Sasha is located in the city with the number 11 and wants to get to the city with the number nn. There is a gas station in each city. In the ii-th city, the price of 11 liter of fuel is ii dollars. It is obvious that at any moment of time, the tank can contain at most vv liters of fuel.'
-b"Sasha doesn't like to waste money, that's why he wants to know what is the minimum amount of money is needed to finish the trip if he can buy fuel in any city he wants. Help him to figure it out!"
-b'Input'
-b'The first line contains two integers nn and vv (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100, 1\xe2\x89\xa4v\xe2\x89\xa41001\xe2\x89\xa4v\xe2\x89\xa4100) \xc2\xa0\xe2\x80\x94 the number of cities in the country and the capacity of the tank.'
-b'Output'
-b'Print one integer\xc2\xa0\xe2\x80\x94 the minimum amount of money that is needed to finish the trip.'
-Tags
-dp, greedy, math, *900

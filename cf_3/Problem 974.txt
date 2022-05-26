@@ -1,9 +1,0 @@
-b'This is an interactive problem.'
-b'Alice and Bob are playing a game. There is n\xc3\x97nn\xc3\x97n grid, initially empty. We refer to the cell in row ii and column jj by (i,j)(i,j) for 1\xe2\x89\xa4i,j\xe2\x89\xa4n1\xe2\x89\xa4i,j\xe2\x89\xa4n. There is an infinite supply of tokens that come in 33 colors labelled 11, 22, and 33.'
-b"The game proceeds with turns as follows. Each turn begins with Alice naming one of the three colors, let's call it aa. Then, Bob chooses a color b\xe2\x89\xa0ab\xe2\x89\xa0a, chooses an empty cell, and places a token of color bb on that cell."
-b'We say that there is a conflict if there exist two adjacent cells containing tokens of the same color. Two cells are considered adjacent if they share a common edge.'
-b'If at any moment there is a conflict, Alice wins. Otherwise, if n2n2 turns are completed (so that the grid becomes full) without any conflicts, Bob wins.'
-b'We have a proof that Bob has a winning strategy. Play the game as Bob and win.'
-b"The interactor is adaptive. That is, Alice's color choices can depend on Bob's previous moves."
-Tags
-constructive algorithms, games, interactive, *1700

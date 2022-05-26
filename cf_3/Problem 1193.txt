@@ -1,9 +1,0 @@
-b'You are given a positive number xx. Find the smallest positive integer number that has the sum of digits equal to xx and all digits are distinct (unique).'
-b'Input'
-b'The first line contains a single positive integer tt (1\xe2\x89\xa4t\xe2\x89\xa4501\xe2\x89\xa4t\xe2\x89\xa450)\xc2\xa0\xe2\x80\x94 the number of test cases in the test. Then tt test cases follow.'
-b'Each test case consists of a single integer number xx (1\xe2\x89\xa4x\xe2\x89\xa4501\xe2\x89\xa4x\xe2\x89\xa450).'
-b'Output'
-b'Output tt answers to the test cases:'
-b'  if a positive integer number with the sum of digits equal to xx and all digits are different exists, print the smallest such number;  otherwise print -1. '
-Tags
-brute force, greedy, math, *900

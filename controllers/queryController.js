@@ -1,4 +1,3 @@
-const fs = require("fs");
 const keyword_extractor = require("keyword-extractor");
 const Prob = require("../models/prob");
 const File = require("../models/file");
@@ -29,8 +28,9 @@ const search = async (req, res) => {
     res.redirect("./");
   }
 
+  // OPEN keywords file
+
   let keywords = await find_file("Keywords");
-  //console.log(typeof keywords, keywords);
   keywords = keywords.text.split("\n");
   // let keywords = fs.readFileSync("./Keywords.txt", "utf8").split("\n");
 
@@ -66,6 +66,8 @@ const search = async (req, res) => {
     qarr.push(count / qkwords.length);
   }
 
+  // OPEN idfArr file
+
   let idfArr = await find_file("idfArray");
   idfArr = idfArr.text.split("\n");
   // let idfArr = fs.readFileSync("./idfArray.txt", "utf8").split("\n");
@@ -78,9 +80,12 @@ const search = async (req, res) => {
   }
   Mag = Math.sqrt(Mag);
 
+  // OPEN tfidfMatrix
+
   let tfidfArr = await find_file("tf-idfMatrix");
   tfidfArr = tfidfArr.text.split("\n");
   // let tfidfArr = fs.readFileSync("./tf-idfMatrix.txt", "utf8").split("\n");
+
   const n = Number(tfidfArr[0].split(" ")[0]);
   const k = Number(tfidfArr[0].split(" ")[1]);
 
@@ -103,7 +108,8 @@ const search = async (req, res) => {
     tfIdfMatrix[ii][jj] = val;
   }
 
-  // read magnitudes
+  // OPEN magnitude file
+
   let prob_mag = await find_file("Magnitude");
   prob_mag = prob_mag.text.split("\n");
   // let prob_mag = fs.readFileSync("./Magnitude.txt", "utf8").split("\n");
@@ -128,30 +134,26 @@ const search = async (req, res) => {
     let prob_ind = similarity[i][0];
     let prob_mg = await find_prob(prob_ind - 1);
 
-    let prob_text = fs.readFileSync(`./cf_3/Problem ${prob_ind}.txt`, "utf8");
     let prob_name = prob_mg.name;
     const prob_url = prob_mg.url;
+    const snippet = prob_mg.snippet;
+
     // console.log(prob_name);
     //let prob_name = fs.readFileSync(`./Problem_names.txt`, "utf8").split("\n");
     // const prob_url = fs.readFileSync(`./Problem_urls.txt`, "utf8").split("\n");
 
     // remove b' ' from the name
     // prob_name = prob_name[prob_ind - 1];
-    prob_name = prob_name.slice(2, prob_name.length - 2);
+    // prob_name = prob_name.slice(2, prob_name.length - 2);
     // get snippet from prob_text
     // prob_text = prob_text.split("\n")[0];
-    prob_text = prob_text.slice(2, prob_text.length - 1);
-    if (typeof prob_text != undefined) {
-      if (prob_text.length > 100) {
-        prob_text = prob_text.slice(0, 100);
-      }
-    }
-    prob_text += "...";
+    // prob_text = prob_text.slice(2, prob_text.length - 1);
 
     let prob = {
+      id: prob_ind - 1,
       name: prob_name,
       url: prob_url,
-      snippet: prob_text,
+      snippet: snippet,
     };
     top10prob.push(prob);
     // console.log(" Name - ", prob_name[prob_ind - 1]);

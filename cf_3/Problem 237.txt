@@ -1,9 +1,0 @@
-b'You have an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an. Each element initially has value 00 and color 11. You are also given qq queries to perform: '
-b'  Color ll rr cc: Change the color of elements al,al+1,\xe2\x8b\xaf,aral,al+1,\xe2\x8b\xaf,ar to cc (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n, 1\xe2\x89\xa4c\xe2\x89\xa4n1\xe2\x89\xa4c\xe2\x89\xa4n).  Add cc xx: Add xx to values of all elements aiai (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) of color cc (1\xe2\x89\xa4c\xe2\x89\xa4n1\xe2\x89\xa4c\xe2\x89\xa4n, \xe2\x88\x92109\xe2\x89\xa4x\xe2\x89\xa4109\xe2\x88\x92109\xe2\x89\xa4x\xe2\x89\xa4109).  Query ii: Print aiai (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n). '
-b'Input'
-b'The first line of input contains two integers nn and qq (1\xe2\x89\xa4n,q\xe2\x89\xa41061\xe2\x89\xa4n,q\xe2\x89\xa4106)\xc2\xa0\xe2\x80\x94 the length of array aa and the number of queries you have to perform.'
-b'Each of the next qq lines contains the query given in the form described in the problem statement.'
-b'Output'
-b'Print the answers to the queries of the third type on separate lines.'
-Tags
-brute force, data structures, implementation, *2400

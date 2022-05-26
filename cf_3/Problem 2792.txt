@@ -1,9 +1,0 @@
-b'Let\'s call a string good if and only if it consists of only two types of letters\xc2\xa0\xe2\x80\x94 \'a\' and \'b\' and every two consecutive letters are distinct. For example "baba" and "aba" are good strings and "abb" is a bad string.'
-b'You have aa strings "a", bb strings "b" and cc strings "ab". You want to choose some subset of these strings and concatenate them in any arbitrarily order.'
-b'What is the length of the longest good string you can obtain this way?'
-b'Input'
-b'The first line contains three positive integers aa, bb, cc (1\xe2\x89\xa4a,b,c\xe2\x89\xa41091\xe2\x89\xa4a,b,c\xe2\x89\xa4109)\xc2\xa0\xe2\x80\x94 the number of strings "a", "b" and "ab" respectively.'
-b'Output'
-b'Print a single number\xc2\xa0\xe2\x80\x94 the maximum possible length of the good string you can obtain.'
-Tags
-greedy, *800

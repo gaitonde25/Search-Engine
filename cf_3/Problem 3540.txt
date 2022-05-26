@@ -1,9 +1,0 @@
-b"Allen is hosting a formal dinner party. 2n2n people come to the event in nn pairs (couples). After a night of fun, Allen wants to line everyone up for a final picture. The 2n2n people line up, but Allen doesn't like the ordering. Allen prefers if each pair occupies adjacent positions in the line, as this makes the picture more aesthetic."
-b'Help Allen find the minimum number of swaps of adjacent positions he must perform to make it so that each couple occupies adjacent positions in the line.'
-b'Input'
-b'The first line contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100), the number of pairs of people.'
-b'The second line contains 2n2n integers a1,a2,\xe2\x80\xa6,a2na1,a2,\xe2\x80\xa6,a2n. For each ii with 1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n, ii appears exactly twice. If aj=ak=iaj=ak=i, that means that the jj-th and kk-th people in the line form a couple.'
-b'Output'
-b'Output a single integer, representing the minimum number of adjacent swaps needed to line the people up so that each pair occupies adjacent positions.'
-Tags
-greedy, implementation, math, *1400

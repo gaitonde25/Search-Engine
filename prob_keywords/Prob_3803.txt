@@ -1,6 +1,0 @@
-*1700
-*special
-combinatorics
-math
-problem
-tags

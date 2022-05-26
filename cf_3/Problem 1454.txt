@@ -1,8 +1,0 @@
-b'This is an interactive problem.'
-b'We hid from you a permutation pp of length nn, consisting of the elements from 11 to nn. You want to guess it. To do that, you can give us 2 different indices ii and jj, and we will reply with pimodpjpimodpj (remainder of division pipi by pjpj).'
-b'We have enough patience to answer at most 2\xe2\x8b\x85n2\xe2\x8b\x85n queries, so you should fit in this constraint. Can you do it?'
-b'As a reminder, a permutation of length nn is an array consisting of nn distinct integers from 11 to nn in arbitrary order. For example, [2,3,1,5,4][2,3,1,5,4] is a permutation, but [1,2,2][1,2,2] is not a permutation (22 appears twice in the array) and [1,3,4][1,3,4] is also not a permutation (n=3n=3 but there is 44 in the array).'
-b'Input'
-b'The only line of the input contains a single integer nn (1\xe2\x89\xa4n\xe2\x89\xa41041\xe2\x89\xa4n\xe2\x89\xa4104) \xe2\x80\x94 length of the permutation.'
-Tags
-constructive algorithms, interactive, math, two pointers, *1600

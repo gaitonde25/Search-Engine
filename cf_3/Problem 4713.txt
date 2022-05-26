@@ -1,7 +1,0 @@
-b'This is an interactive problem. You should use flush operation after each printed line. For example, in C++ you should use fflush(stdout), in Java you should use System.out.flush(), and in Pascal\xc2\xa0\xe2\x80\x94 flush(output).'
-b'In this problem you should guess an array a which is unknown for you. The only information you have initially is the length n of the array a.'
-b'The only allowed action is to ask the sum of two elements by their indices. Formally, you can print two indices i and j (the indices should be distinct). Then your program should read the response: the single integer equals to ai\xe2\x80\x89+\xe2\x80\x89aj.'
-b'It is easy to prove that it is always possible to guess the array using at most n requests.'
-b'Write a program that will guess the array a by making at most n requests.'
-Tags
-constructive algorithms, interactive, math, *1400

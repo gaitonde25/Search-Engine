@@ -1,9 +1,0 @@
-b'Bachgold problem is very easy to formulate. Given a positive integer n represent it as a sum of maximum possible number of prime numbers. One can prove that such representation exists for any integer greater than 1.'
-b'Recall that integer k is called prime if it is greater than 1 and has exactly two positive integer divisors\xc2\xa0\xe2\x80\x94 1 and k. '
-b'Input'
-b'The only line of the input contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100\xe2\x80\x89000).'
-b'Output'
-b'The first line of the output contains a single integer k\xc2\xa0\xe2\x80\x94 maximum possible number of primes in representation.'
-b'The second line should contain k primes with their sum equal to n. You can print them in any order. If there are several optimal solution, print any of them.'
-Tags
-greedy, implementation, math, number theory, *800

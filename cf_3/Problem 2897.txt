@@ -1,9 +1,0 @@
-b'A positive integer aa is given. Baron Munchausen claims that he knows such a positive integer nn that if one multiplies nn by aa, the sum of its digits decreases aa times. In other words, S(an)=S(n)/aS(an)=S(n)/a, where S(x)S(x) denotes the sum of digits of the number xx. '
-b'Find out if what Baron told can be true.'
-b'Input'
-b'The only line contains a single integer aa (2\xe2\x89\xa4a\xe2\x89\xa41032\xe2\x89\xa4a\xe2\x89\xa4103).'
-b'Output'
-b'If there is no such number nn, print \xe2\x88\x921\xe2\x88\x921.'
-b'Otherwise print any appropriate positive integer nn. Your number must not consist of more than 5\xe2\x8b\x851055\xe2\x8b\x85105 digits. We can show that under given constraints either there is no answer, or there is an answer no longer than 5\xe2\x8b\x851055\xe2\x8b\x85105 digits.'
-Tags
-brute force, *2600

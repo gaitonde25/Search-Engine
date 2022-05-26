@@ -1,9 +1,0 @@
-b'Kolya is very absent-minded. Today his math teacher asked him to solve a simple problem with the equation a+1=ba+1=b with positive integers aa and bb, but Kolya forgot the numbers aa and bb. He does, however, remember that the first (leftmost) digit of aa was dada, and the first (leftmost) digit of bb was dbdb.'
-b'Can you reconstruct any equation a+1=ba+1=b that satisfies this property? It may be possible that Kolya misremembers the digits, and there is no suitable equation, in which case report so.'
-b'Input'
-b'The only line contains two space-separated digits dada and dbdb (1\xe2\x89\xa4da,db\xe2\x89\xa491\xe2\x89\xa4da,db\xe2\x89\xa49).'
-b'Output'
-b'If there is no equation a+1=ba+1=b with positive integers aa and bb such that the first digit of aa is dada, and the first digit of bb is dbdb, print a single number \xe2\x88\x921\xe2\x88\x921.'
-b'Otherwise, print any suitable aa and bb that both are positive and do not exceed 109109. It is guaranteed that if a solution exists, there also exists a solution with both numbers not exceeding 109109.'
-Tags
-math, *900

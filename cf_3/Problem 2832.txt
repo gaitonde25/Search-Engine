@@ -1,9 +1,0 @@
-b'A superhero fights with a monster. The battle consists of rounds, each of which lasts exactly nn minutes. After a round ends, the next round starts immediately. This is repeated over and over again.'
-b"Each round has the same scenario. It is described by a sequence of nn numbers: d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn (\xe2\x88\x92106\xe2\x89\xa4di\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4di\xe2\x89\xa4106). The ii-th element means that monster's hp (hit points) changes by the value didi during the ii-th minute of each round. Formally, if before the ii-th minute of a round the monster's hp is hh, then after the ii-th minute it changes to h:=h+dih:=h+di."
-b"The monster's initial hp is HH. It means that before the battle the monster has HH hit points. Print the first minute after which the monster dies. The monster dies if its hp is less than or equal to 00. Print -1 if the battle continues infinitely."
-b'Input'
-b"The first line contains two integers HH and nn (1\xe2\x89\xa4H\xe2\x89\xa410121\xe2\x89\xa4H\xe2\x89\xa41012, 1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105). The second line contains the sequence of integers d1,d2,\xe2\x80\xa6,dnd1,d2,\xe2\x80\xa6,dn (\xe2\x88\x92106\xe2\x89\xa4di\xe2\x89\xa4106\xe2\x88\x92106\xe2\x89\xa4di\xe2\x89\xa4106), where didi is the value to change monster's hp in the ii-th minute of a round."
-b'Output'
-b"Print -1 if the superhero can't kill the monster and the battle will last infinitely. Otherwise, print the positive integer kk such that kk is the first minute after which the monster is dead."
-Tags
-math, *1700

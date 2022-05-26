@@ -1,4 +1,10 @@
-*1700
+1≤i≤n1≤i≤n
+1≤i≤n1≤i≤n
+1≤k≤n1≤k≤n
+a0=an+1=+∞a0=an+1=+∞
+a1a2…ana1a2…an
+a1a2…ana1a2…an
+ai<min{ai−1ai+1}ai<min{ai−1ai+1}
 aiai
 allowed
 array
@@ -6,7 +12,6 @@ array
 arrays
 asked
 asked
-binary
 choose
 find
 find
@@ -26,15 +31,16 @@ integers
 integers
 interactive
 interactive
-interactive
 kk
 kk
 likes
 local
 local
 local
+local
 lot
 make
+minimum
 minimum
 minimum
 minimum
@@ -50,8 +56,5 @@ problem
 queries
 query
 response
-search
-search
+searching
 step
-tags
-ternary

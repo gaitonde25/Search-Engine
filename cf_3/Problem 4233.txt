@@ -1,9 +1,0 @@
-b"Let's call the roundness of the number the number of zeros to which it ends."
-b'You have an array of n numbers. You need to choose a subset of exactly k numbers so that the roundness of the product of the selected numbers will be maximum possible.'
-b'Input'
-b'The first line contains two integer numbers n and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89200,\xe2\x80\x891\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n).'
-b'The second line contains n space-separated integer numbers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018).'
-b'Output'
-b'Print maximal roundness of product of the chosen subset of length k.'
-Tags
-dp, math, *2100

@@ -1,9 +1,0 @@
-b'You are given two positive integer numbers a and b. Permute (change order) of the digits of a to construct maximal number not exceeding b. No number in input and/or output can start with the digit 0.'
-b'It is allowed to leave a as it is.'
-b'Input'
-b"The first line contains integer a (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018). The second line contains integer b (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89b\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891018). Numbers don't have leading zeroes. It is guaranteed that answer exists."
-b'Output'
-b"Print the maximum possible number that is a permutation of digits of a and is not greater than b. The answer can't have any leading zeroes. It is guaranteed that the answer exists."
-b'The number in the output should have exactly the same length as number a. It should be a permutation of digits of a.'
-Tags
-dp, greedy, *1700

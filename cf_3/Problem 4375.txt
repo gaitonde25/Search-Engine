@@ -1,7 +1,0 @@
-b'Thanks to your help, Heidi is confident that no one can fool her. She has now decided to post some fake news on the HC2 Facebook page. However, she wants to be able to communicate to the HC2 committee that the post is fake, using some secret phrase hidden in the post as a subsequence. To make this method foolproof, she wants the phrase to appear n times in the post. She is asking you to design a post (string) s and a hidden phrase p such that p appears in s as a subsequence exactly n times.'
-b'Input'
-b'The first and only line of input contains a single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000).'
-b'Output'
-b'The output should contain two nonempty strings s and p separated by a single space. Each string should be composed of letters (a-z and A-Z: both lowercase and uppercase are allowed) and have length at most 200. The number of occurrences of p in s as a subsequence should be exactly n. If there are many possible solutions, output any of them. It is guaranteed that at least one solution exists.'
-Tags
-constructive algorithms, strings, *2200

@@ -1,9 +1,0 @@
-b'You have been assigned to develop a filter for bad messages in the in-game chat. A message is a string SS of length nn, consisting of lowercase English letters and characters \')\'. The message is bad if the number of characters \')\' at the end of the string strictly greater than the number of remaining characters. For example, the string ")bc)))" has three parentheses at the end, three remaining characters, and is not considered bad.'
-b'Input'
-b'The first line contains the number of test cases tt (1\xe2\x89\xa4t\xe2\x89\xa41001\xe2\x89\xa4t\xe2\x89\xa4100). Description of the tt test cases follows.'
-b"The first line of each test case contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41001\xe2\x89\xa4n\xe2\x89\xa4100). The second line of each test case contains a string SS of length nn, consisting of lowercase English letters and characters ')'."
-b'Output'
-b'For each of tt test cases, print "Yes" if the string is bad. Otherwise, print "No".'
-b'You can print each letter in any case (upper or lower).'
-Tags
-implementation, *800

@@ -1,8 +1,0 @@
-b'Masha has three sticks of length aa, bb and cc centimeters respectively. In one minute Masha can pick one arbitrary stick and increase its length by one centimeter. She is not allowed to break sticks.'
-b"What is the minimum number of minutes she needs to spend increasing the stick's length in order to be able to assemble a triangle of positive area. Sticks should be used as triangle's sides (one stick for one side) and their endpoints should be located at triangle's vertices."
-b'Input'
-b'The only line contains tree integers aa, bb and cc (1\xe2\x89\xa4a,b,c\xe2\x89\xa41001\xe2\x89\xa4a,b,c\xe2\x89\xa4100)\xc2\xa0\xe2\x80\x94 the lengths of sticks Masha possesses.'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the minimum number of minutes that Masha needs to spend in order to be able to make the triangle of positive area from her sticks.'
-Tags
-brute force, geometry, math, *800

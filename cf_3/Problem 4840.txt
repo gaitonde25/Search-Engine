@@ -1,8 +1,0 @@
-b"On vacations n pupils decided to go on excursion and gather all together. They need to overcome the path with the length l meters. Each of the pupils will go with the speed equal to v1. To get to the excursion quickly, it was decided to rent a bus, which has seats for k people (it means that it can't fit more than k people at the same time) and the speed equal to v2. In order to avoid seasick, each of the pupils want to get into the bus no more than once."
-b'Determine the minimum time required for all n pupils to reach the place of excursion. Consider that the embarkation and disembarkation of passengers, as well as the reversal of the bus, take place immediately and this time can be neglected. '
-b'Input'
-b'The first line of the input contains five positive integers n, l, v1, v2 and k (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8910\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89l\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89v1\xe2\x80\x89<\xe2\x80\x89v2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n)\xc2\xa0\xe2\x80\x94 the number of pupils, the distance from meeting to the place of excursion, the speed of each pupil, the speed of bus and the number of seats in the bus. '
-b'Output'
-b"Print the real number\xc2\xa0\xe2\x80\x94 the minimum time in which all pupils can reach the place of excursion. Your answer will be considered correct if its absolute or relative error won't exceed 10\xe2\x80\x89-\xe2\x80\x896."
-Tags
-binary search, math, *1900

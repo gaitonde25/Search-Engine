@@ -1,9 +1,0 @@
-b'Petya has n integers: 1,\xe2\x80\x892,\xe2\x80\x893,\xe2\x80\x89...,\xe2\x80\x89n. He wants to split these integers in two non-empty groups in such a way that the absolute difference of sums of integers in each group is as small as possible. '
-b'Help Petya to split the integers. Each of n integers should be exactly in one group.'
-b'Input'
-b'The first line contains a single integer n (2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x8960\xe2\x80\x89000) \xe2\x80\x94 the number of integers Petya has.'
-b'Output'
-b'Print the smallest possible absolute difference in the first line.'
-b'In the second line print the size of the first group, followed by the integers in that group. You can print these integers in arbitrary order. If there are multiple answers, print any of them.'
-Tags
-constructive algorithms, graphs, math, *1300

@@ -1,6 +1,0 @@
-b"Jury picked a polynomial f(x)=a0+a1\xe2\x8b\x85x+a2\xe2\x8b\x85x2+\xe2\x8b\xaf+ak\xe2\x8b\x85xkf(x)=a0+a1\xe2\x8b\x85x+a2\xe2\x8b\x85x2+\xe2\x8b\xaf+ak\xe2\x8b\x85xk. k\xe2\x89\xa410k\xe2\x89\xa410 and all aiai are integer numbers and 0\xe2\x89\xa4ai<106+30\xe2\x89\xa4ai<106+3. It's guaranteed that there is at least one ii such that ai>0ai>0."
-b'Now jury wants you to find such an integer x0x0 that f(x0)\xe2\x89\xa10mod(106+3)f(x0)\xe2\x89\xa10mod(106+3) or report that there is not such x0x0.'
-b'You can ask no more than 5050 queries: you ask value xqxq and jury tells you value f(xq)mod(106+3)f(xq)mod(106+3).'
-b"Note that printing the answer doesn't count as a query."
-Tags
-brute force, interactive, math, *2200

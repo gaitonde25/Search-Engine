@@ -1,7 +1,0 @@
-b'To add insult to injury, the zombies have taken all but two drawings from Heidi! Please help her recover the Tree of Life from only these two drawings.'
-b'Input'
-b'The input format is the same as in the medium version, except that now the bound on n is 2\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000 and that k\xe2\x80\x89=\xe2\x80\x892.'
-b'Output'
-b'The same as in the medium version.'
-Tags
-trees, *3200

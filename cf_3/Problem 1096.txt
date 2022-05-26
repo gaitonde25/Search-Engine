@@ -1,9 +1,0 @@
-b'This is an interactive problem.'
-b'Homer likes arrays a lot and he wants to play a game with you. '
-b'Homer has hidden from you a permutation a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an of integers 11 to nn. You are asked to find any index kk (1\xe2\x89\xa4k\xe2\x89\xa4n1\xe2\x89\xa4k\xe2\x89\xa4n) which is a local minimum. '
-b'For an array a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an, an index ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) is said to be a local minimum if ai<min{ai\xe2\x88\x921,ai+1}ai<min{ai\xe2\x88\x921,ai+1}, where a0=an+1=+\xe2\x88\x9ea0=an+1=+\xe2\x88\x9e. An array is said to be a permutation of integers 11 to nn, if it contains all integers from 11 to nn exactly once.'
-b'Initially, you are only given the value of nn without any other information about this permutation.'
-b'At each interactive step, you are allowed to choose any ii (1\xe2\x89\xa4i\xe2\x89\xa4n1\xe2\x89\xa4i\xe2\x89\xa4n) and make a query with it. As a response, you will be given the value of aiai. '
-b'You are asked to find any index kk which is a local minimum after at most 100100 queries.'
-Tags
-binary search, interactive, ternary search, *1700

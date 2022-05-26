@@ -1,8 +1,0 @@
-b'You are given a string s consisting of lowercase Latin letters. Character c is called k-dominant iff each substring of s with length at least k contains this character c.'
-b'You have to find minimum k such that there exists at least one k-dominant character.'
-b'Input'
-b'The first line contains string s consisting of lowercase Latin letters (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89|s|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100000).'
-b'Output'
-b'Print one number \xe2\x80\x94 the minimum value of k such that there exists at least one k-dominant character.'
-Tags
-binary search, implementation, two pointers, *1400

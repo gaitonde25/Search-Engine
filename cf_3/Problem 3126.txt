@@ -1,9 +1,0 @@
-b'You are given array aa of length nn. You can choose one segment [l,r][l,r] (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4n) and integer value kk (positive, negative or even zero) and change al,al+1,\xe2\x80\xa6,aral,al+1,\xe2\x80\xa6,ar by kk each (i.e. ai:=ai+kai:=ai+k for each l\xe2\x89\xa4i\xe2\x89\xa4rl\xe2\x89\xa4i\xe2\x89\xa4r).'
-b'What is the maximum possible number of elements with value cc that can be obtained after one such operation?'
-b'Input'
-b'The first line contains two integers nn and cc (1\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4n\xe2\x89\xa45\xe2\x8b\x85105, 1\xe2\x89\xa4c\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4c\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 the length of array and the value cc to obtain.'
-b'The second line contains nn integers a1,a2,\xe2\x80\xa6,ana1,a2,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa45\xe2\x8b\x851051\xe2\x89\xa4ai\xe2\x89\xa45\xe2\x8b\x85105) \xe2\x80\x94 array aa.'
-b'Output'
-b'Print one integer \xe2\x80\x94 the maximum possible number of elements with value cc which can be obtained after performing operation described above.'
-Tags
-binary search, dp, greedy, *2000

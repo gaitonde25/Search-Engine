@@ -1,9 +1,0 @@
-b'You are given an integer number nn. The following algorithm is applied to it:'
-b'  if n=0n=0, then end algorithm;  find the smallest prime divisor dd of nn;  subtract dd from nn and go to step 11. '
-b'Determine the number of subtrations the algorithm will make.'
-b'Input'
-b'The only line contains a single integer nn (2\xe2\x89\xa4n\xe2\x89\xa410102\xe2\x89\xa4n\xe2\x89\xa41010).'
-b'Output'
-b'Print a single integer \xe2\x80\x94 the number of subtractions the algorithm will make.'
-Tags
-implementation, math, number theory, *1200

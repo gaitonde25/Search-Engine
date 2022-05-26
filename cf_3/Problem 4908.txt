@@ -1,9 +1,0 @@
-b'On the coordinate plane there is a square with sides parallel to the coordinate axes. The length of the square side is equal to a. The lower left corner of the square coincides with the point (0,\xe2\x80\x890) (the point of the origin). The upper right corner of the square has positive coordinates.'
-b'You are given a point with coordinates (x, y). Your task is to determine whether this point is located strictly inside the square, on its side, or strictly outside the square.'
-b'Input'
-b'The first line contains three integers a, x and y (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89a\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000, \xe2\x80\x89-\xe2\x80\x891000\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89x,\xe2\x80\x89y\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891000) \xe2\x80\x94 the length of the square side and the coordinates of the point which should be checked.'
-b'Output'
-b'Print one integer:'
-b'  0, if the point is located strictly inside the square;  1, if the point is located on the side of the square;  2, if the point is located strictly outside the square. '
-Tags
-*special problem, geometry, *1200

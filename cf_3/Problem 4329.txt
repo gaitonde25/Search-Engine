@@ -1,9 +1,0 @@
-b'On his trip to Luxor and Aswan, Sagheer went to a Nubian market to buy some souvenirs for his friends and relatives. The market has some strange rules. It contains n different items numbered from 1 to n. The i-th item has base cost ai Egyptian pounds. If Sagheer buys k items with indices x1,\xe2\x80\x89x2,\xe2\x80\x89...,\xe2\x80\x89xk, then the cost of item xj is axj\xe2\x80\x89+\xe2\x80\x89xj\xc2\xb7k for 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89j\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k. In other words, the cost of an item is equal to its base cost in addition to its index multiplied by the factor k.'
-b'Sagheer wants to buy as many souvenirs as possible without paying more than S Egyptian pounds. Note that he cannot buy a souvenir more than once. If there are many ways to maximize the number of souvenirs, he will choose the way that will minimize the total cost. Can you help him with this task?'
-b'Input'
-b"The first line contains two integers n and S (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105 and 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89S\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xc2\xa0\xe2\x80\x94 the number of souvenirs in the market and Sagheer's budget."
-b'The second line contains n space-separated integers a1,\xe2\x80\x89a2,\xe2\x80\x89...,\xe2\x80\x89an (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105)\xc2\xa0\xe2\x80\x94 the base costs of the souvenirs.'
-b'Output'
-b'On a single line, print two integers k, T\xc2\xa0\xe2\x80\x94 the maximum number of souvenirs Sagheer can buy and the minimum total cost to buy these k souvenirs.'
-Tags
-binary search, sortings, *1500

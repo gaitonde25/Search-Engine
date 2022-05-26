@@ -1,9 +1,0 @@
-b'You are given a sequence a consisting of n integers. You may partition this sequence into two sequences b and c in such a way that every element belongs exactly to one of these sequences. '
-b'Let B be the sum of elements belonging to b, and C be the sum of elements belonging to c (if some of these sequences is empty, then its sum is 0). What is the maximum possible value of B\xe2\x80\x89-\xe2\x80\x89C?'
-b'Input'
-b'The first line contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the number of elements in a.'
-b'The second line contains n integers a1, a2, ..., an (\xe2\x80\x89-\xe2\x80\x89100\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89100) \xe2\x80\x94 the elements of sequence a.'
-b'Output'
-b'Print the maximum possible value of B\xe2\x80\x89-\xe2\x80\x89C, where B is the sum of elements of sequence b, and C is the sum of elements of sequence c.'
-Tags
-greedy, *800

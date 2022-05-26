@@ -1,15 +1,13 @@
-*2400
 aa
 aa
 adjacent
 adjacent
 adjacent
-algorithms
+anti-theft
 artifacts
 back
 bb
 bb
-bitmasks
 budget
 build
 building
@@ -34,21 +32,16 @@ city
 column
 columns
 connects
-conquer
-constructive
 dabdab
 dabdab
-divide
 divided
 due
 exceed
-greedy
 grid
 happen
 initially
 integer
 integer
-interactive
 interactive
 kk
 leftmost
@@ -60,7 +53,6 @@ length
 lengths
 limitations
 location
-math
 matter
 mechanism
 move
@@ -71,6 +63,7 @@ occasionally
 occurred
 pair
 path
+planning
 positive
 problem
 reach
@@ -79,6 +72,7 @@ resets
 restrictions
 returned
 returned
+road
 road
 road
 road
@@ -98,7 +92,6 @@ steals
 stored
 storing
 strategy
-tags
 task
 thefts
 thefts
@@ -127,3 +120,4 @@ visits
 xx
 xx
 xx
+x⊕dabx⊕dab

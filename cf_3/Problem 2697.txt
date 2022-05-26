@@ -1,7 +1,0 @@
-b'This is an interactive problem. Remember to flush your output while communicating with the testing program. You may use fflush(stdout) in C++, system.out.flush() in Java, stdout.flush() in Python or flush(output) in Pascal to flush the output. If you use some other programming language, consult its documentation. You may also refer to the guide on interactive problems: https://codeforces.com/blog/entry/45307.'
-b'The jury guessed some array aa consisting of 66 integers. There are 66 special numbers \xe2\x80\x94 44, 88, 1515, 1616, 2323, 4242 \xe2\x80\x94 and each of these numbers occurs in aa exactly once (so, aa is some permutation of these numbers).'
-b"You don't know anything about their order, but you are allowed to ask up to 44 queries. In each query, you may choose two indices ii and jj (1\xe2\x89\xa4i,j\xe2\x89\xa461\xe2\x89\xa4i,j\xe2\x89\xa46, ii and jj are not necessarily distinct), and you will get the value of ai\xe2\x8b\x85ajai\xe2\x8b\x85aj in return."
-b'Can you guess the array aa?'
-b"The array aa is fixed beforehand in each test, the interaction program doesn't try to adapt to your queries."
-Tags
-brute force, divide and conquer, interactive, math, *1400

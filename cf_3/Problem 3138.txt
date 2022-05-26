@@ -1,9 +1,0 @@
-b'Chouti was doing a competitive programming competition. However, after having all the problems accepted, he got bored and decided to invent some small games.'
-b'He came up with the following game. The player has a positive integer nn. Initially the value of nn equals to vv and the player is able to do the following operation as many times as the player want (possibly zero): choose a positive integer xx that x<nx<n and xx is not a divisor of nn, then subtract xx from nn. The goal of the player is to minimize the value of nn in the end.'
-b'Soon, Chouti found the game trivial. Can you also beat the game?'
-b'Input'
-b'The input contains only one integer in the first line: vv (1\xe2\x89\xa4v\xe2\x89\xa41091\xe2\x89\xa4v\xe2\x89\xa4109), the initial value of nn.'
-b'Output'
-b'Output a single integer, the minimum value of nn the player can get.'
-Tags
-constructive algorithms, math, *800

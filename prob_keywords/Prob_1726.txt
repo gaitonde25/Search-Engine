@@ -1,4 +1,5 @@
 //
+001π≤θ≤099π001π≤θ≤099π
 =>
 adj+ctl
 adjoint
@@ -10,6 +11,7 @@ code
 code
 controlled
 defined
+distinguish
 double
 figure
 floating-point
@@ -40,12 +42,17 @@ qubit
 radians
 return
 returns
+ry\xce\xb8
+ryθryθ
+ryθryθ
+rz\xce\xb8
+rzθrzθ
+rzθrzθ
 signature
 single-qubit
 single-qubit
 solution
 solve
-tags
 takes
 task
 theta
@@ -61,3 +68,4 @@ variants
 {
 {
 }}
+θθ

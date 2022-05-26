@@ -1,8 +1,0 @@
-b'Kurt reaches nirvana when he finds the product of all the digits of some positive integer. Greater value of the product makes the nirvana deeper.'
-b'Help Kurt find the maximum possible product of digits among all integers from 11 to nn.'
-b'Input'
-b'The only input line contains the integer nn (1\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851091\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85109).'
-b'Output'
-b'Print the maximum product of digits among all integers from 11 to nn.'
-Tags
-brute force, math, number theory, *1200

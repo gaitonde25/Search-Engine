@@ -1,5 +1,6 @@
 -
 //
+2≤p≤21⋅1062≤p≤21⋅106
 =
 adj+ctl
 adj+ctl
@@ -22,6 +23,7 @@ element
 encodes
 equivalent
 format
+fourier
 fourier
 generate
 implement
@@ -58,11 +60,13 @@ operations
 operator
 output
 power
+power
 pp
 qft
 qft
 qftle
 qftpp
+quantum
 quantum
 qubitarray
 qubits
@@ -75,7 +79,7 @@ solution
 solution
 solve
 state
-tags
+transform
 transform
 transform
 type

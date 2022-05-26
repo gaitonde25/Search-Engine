@@ -1,8 +1,0 @@
-b"When Serezha was three years old, he was given a set of cards with letters for his birthday. They were arranged into words in the way which formed the boy's mother favorite number in binary notation. Serezha started playing with them immediately and shuffled them because he wasn't yet able to read. His father decided to rearrange them. Help him restore the original number, on condition that it was the maximum possible one. "
-b'Input'
-b"The first line contains a single integer nn (1\xe2\xa9\xbdn\xe2\xa9\xbd1051\xe2\xa9\xbdn\xe2\xa9\xbd105)\xc2\xa0\xe2\x80\x94 the length of the string. The second line contains a string consisting of English lowercase letters: 'z', 'e', 'r', 'o' and 'n'."
-b'It is guaranteed that it is possible to rearrange the letters in such a way that they form a sequence of words, each being either "zero" which corresponds to the digit 00 or "one" which corresponds to the digit 11.'
-b'Output'
-b'Print the maximum possible number in binary notation. Print binary digits separated by a space. The leading zeroes are allowed.'
-Tags
-implementation, sortings, strings, *800

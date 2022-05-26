@@ -1,8 +1,0 @@
-b'You are given nn positive integers a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an, and an integer k\xe2\x89\xa52k\xe2\x89\xa52. Count the number of pairs i,ji,j such that 1\xe2\x89\xa4i<j\xe2\x89\xa4n1\xe2\x89\xa4i<j\xe2\x89\xa4n, and there exists an integer xx such that ai\xe2\x8b\x85aj=xkai\xe2\x8b\x85aj=xk.'
-b'Input'
-b'The first line contains two integers nn and kk (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, 2\xe2\x89\xa4k\xe2\x89\xa41002\xe2\x89\xa4k\xe2\x89\xa4100).'
-b'The second line contains nn integers a1,\xe2\x80\xa6,ana1,\xe2\x80\xa6,an (1\xe2\x89\xa4ai\xe2\x89\xa41051\xe2\x89\xa4ai\xe2\x89\xa4105).'
-b'Output'
-b'Print a single integer\xc2\xa0\xe2\x80\x94 the number of suitable pairs.'
-Tags
-hashing, math, number theory, *1800

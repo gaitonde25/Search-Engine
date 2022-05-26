@@ -1,7 +1,5 @@
-*2700
-*special
+1≤c≤n1≤c≤n
 aim
-algorithms
 archie
 archie
 archie
@@ -11,11 +9,6 @@ archie's
 archie's
 assumes
 basis
-bbefore
-bher
-binary
-blinda
-bnow
 bought
 boyfriend
 cc
@@ -42,10 +35,10 @@ colorprevcolorprev
 colors
 colors
 colors
+colors
 comments
 compatible
 completely
-constructive
 critical
 current
 difference
@@ -73,9 +66,9 @@ hair
 hair
 hair
 integers
-interactive
 likes
 limited
+linda
 linda
 linda
 linda
@@ -102,7 +95,6 @@ pleased
 precise
 previous
 previous
-problem
 program
 proper
 reaction
@@ -110,7 +102,6 @@ reaction
 reactions
 ready
 regular
-search
 series
 series
 series
@@ -120,9 +111,13 @@ set
 sets
 smaller
 spotted
-tags
 time
 time
 values
 visual
 write
+|colornew−colorprev|<c|colornew−colorprev|<c
+|colornew−colorprev|≥c|colornew−colorprev|≥c
+—
+—
+—

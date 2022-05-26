@@ -1,9 +1,0 @@
-b"Let's define S(x)S(x) to be the sum of digits of number xx written in decimal system. For example, S(5)=5S(5)=5, S(10)=1S(10)=1, S(322)=7S(322)=7."
-b'We will call an integer xx interesting if S(x+1)<S(x)S(x+1)<S(x). In each test you will be given one integer nn. Your task is to calculate the number of integers xx such that 1\xe2\x89\xa4x\xe2\x89\xa4n1\xe2\x89\xa4x\xe2\x89\xa4n and xx is interesting.'
-b'Input'
-b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa410001\xe2\x89\xa4t\xe2\x89\xa41000) \xc2\xa0\xe2\x80\x94 number of test cases.'
-b'Then tt lines follow, the ii-th line contains one integer nn (1\xe2\x89\xa4n\xe2\x89\xa41091\xe2\x89\xa4n\xe2\x89\xa4109) for the ii-th test case.'
-b'Output'
-b'Print tt integers, the ii-th should be the answer for the ii-th test case.'
-Tags
-math, number theory, *800

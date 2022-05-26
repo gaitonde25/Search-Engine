@@ -1,6 +1,0 @@
-b'Carl has nn coins of various colors, and he would like to sort them into piles. The coins are labeled 1,2,\xe2\x80\xa6,n1,2,\xe2\x80\xa6,n, and each coin is exactly one of red, green, or blue. He would like to sort the coins into three different piles so one pile contains all red coins, one pile contains all green coins, and one pile contains all blue coins.'
-b"Unfortunately, Carl is colorblind, so this task is impossible for him. Luckily, he has a friend who can take a pair of coins and tell Carl if they are the same color or not. Using his friend, Carl believes he can now sort the coins. The order of the piles doesn't matter, as long as all same colored coins are in the one pile, and no two different colored coins are in the same pile."
-b'His friend will answer questions about multiple pairs of coins in batches, and will answer about all of those pairs in parallel. Each coin should be in at most one pair in each batch. The same coin can appear in different batches.'
-b'Carl can use only 77 batches. Help him find the piles of coins after sorting.'
-Tags
-interactive, *3000

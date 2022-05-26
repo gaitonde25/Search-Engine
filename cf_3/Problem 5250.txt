@@ -1,9 +1,0 @@
-b'You are given two arrays of integers a and b. For each element of the second array bj you should find the number of elements in array a that are less than or equal to the value bj.'
-b'Input'
-b'The first line contains two integers n,\xe2\x80\x89m (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n,\xe2\x80\x89m\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105) \xe2\x80\x94 the sizes of arrays a and b.'
-b'The second line contains n integers \xe2\x80\x94 the elements of array a (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89ai\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
-b'The third line contains m integers \xe2\x80\x94 the elements of array b (\xe2\x80\x89-\xe2\x80\x89109\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89bj\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109).'
-b'Output'
-b'Print m integers, separated by spaces: the j-th of which is equal to the number of such elements in array a that are less than or equal to the value bj.'
-Tags
-binary search, data structures, sortings, two pointers, *1300

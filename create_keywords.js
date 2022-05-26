@@ -4,11 +4,13 @@ const keyword_extractor = require("keyword-extractor");
 let keyWords = new Set();
 let probKeyWords = [];
 
-for (let i = 1; i <= 5573; i++) {
-  let filename = "./cf_3/Problem ";
+let names = fs.readFileSync("Problem_names.txt", "utf8").split("\n");
+for (let i = 1; i < names.length; i++) {
+  let filename = "./Problems/Problem_";
   filename += i;
   filename += ".txt";
   let data = fs.readFileSync(filename, "utf8");
+  data += names[i - 1];
   let keyWord = keyword_extractor.extract(data, {
     language: "english",
     remove_digits: true,
@@ -20,12 +22,7 @@ for (let i = 1; i <= 5573; i++) {
   let temp = "";
   keyWord.forEach((element) => {
     element = element.toLowerCase();
-    if (element.length < 30) {
-      if ((element[0] = "b" && element[1] == "'")) {
-        element = element.slice(2);
-      }
-      temp += element + " ";
-    }
+    temp += element + " ";
   });
   let keyWord2 = keyword_extractor.extract(temp, {
     language: "english",
@@ -37,18 +34,8 @@ for (let i = 1; i <= 5573; i++) {
 
   let p_keyWords = [];
   keyWord2.forEach((element) => {
-    if (element.length < 30) {
-      if ((element[0] = "b" && element[1] == "'")) {
-        element = element.slice(2);
-      }
-      if (element.split("\\").length < 3) {
-        keyWords.add(element);
-        p_keyWords.push(element);
-      }
-
-      // console.log(keyWords);
-      //console.log(element);
-    }
+    keyWords.add(element);
+    p_keyWords.push(element);
   });
   probKeyWords.push(p_keyWords);
 }

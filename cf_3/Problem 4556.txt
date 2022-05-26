@@ -1,9 +1,0 @@
-b'You are given two strings a and b. You have to remove the minimum possible number of consecutive (standing one after another) characters from string b in such a way that it becomes a subsequence of string a. It can happen that you will not need to remove any characters at all, or maybe you will have to remove all of the characters from b and make it empty.'
-b'Subsequence of string s is any such string that can be obtained by erasing zero or more characters (not necessarily consecutive) from string s.'
-b'Input'
-b'The first line contains string a, and the second line\xc2\xa0\xe2\x80\x94 string b. Both of these strings are nonempty and consist of lowercase letters of English alphabet. The length of each string is no bigger than 105 characters.'
-b'Output'
-b'On the first line output a subsequence of string a, obtained from b by erasing the minimum number of consecutive characters.'
-b'If the answer consists of zero characters, output \xc2\xab-\xc2\xbb (a minus sign).'
-Tags
-binary search, hashing, strings, two pointers, *2100

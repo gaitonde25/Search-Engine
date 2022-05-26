@@ -1,4 +1,4 @@
-*special
+-z
 -z
 -z
 //
@@ -12,6 +12,7 @@ code
 code
 controlled
 defined
+distinguish
 figure
 gate
 gate
@@ -35,7 +36,6 @@ operation
 operation
 operations
 perform
-problem
 qubit
 return
 returns
@@ -44,7 +44,6 @@ single-qubit
 single-qubit
 solution
 solve
-tags
 takes
 task
 transformation
@@ -57,3 +56,5 @@ variants
 {
 {
 }}
+−zα|0⟩+β|1⟩=−α|0⟩+β|1⟩−zα|0⟩+β|1⟩=−α|0⟩+β|1⟩
+−|0⟩⟨0|+|1⟩⟨1|−|0⟩⟨0|+|1⟩⟨1|

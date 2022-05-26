@@ -1,9 +1,0 @@
-b'Petya is having a party soon, and he has decided to invite his nn friends.'
-b'He wants to make invitations in the form of origami. For each invitation, he needs two red sheets, five green sheets, and eight blue sheets. The store sells an infinite number of notebooks of each color, but each notebook consists of only one color with kk sheets. That is, each notebook contains kk sheets of either red, green, or blue.'
-b'Find the minimum number of notebooks that Petya needs to buy to invite all nn of his friends.'
-b'Input'
-b"The first line contains two integers nn and kk (1\xe2\x89\xa4n,k\xe2\x89\xa41081\xe2\x89\xa4n,k\xe2\x89\xa4108)\xc2\xa0\xe2\x80\x94 the number of Petya's friends and the number of sheets in each notebook respectively."
-b'Output'
-b'Print one number\xc2\xa0\xe2\x80\x94 the minimum number of notebooks that Petya needs to buy.'
-Tags
-math, *800

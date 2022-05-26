@@ -1,9 +1,0 @@
-b'Reziba has many magic gems. Each magic gem can be split into MM normal gems. The amount of space each magic (and normal) gem takes is 11 unit. A normal gem cannot be split.'
-b'Reziba wants to choose a set of magic gems and split some of them, so the total space occupied by the resulting set of gems is NN units. If a magic gem is chosen and split, it takes MM units of space (since it is split into MM gems); if a magic gem is not split, it takes 11 unit.'
-b'How many different configurations of the resulting set of gems can Reziba have, such that the total amount of space taken is NN units? Print the answer modulo 10000000071000000007 (109+7109+7). Two configurations are considered different if the number of magic gems Reziba takes to form them differs, or the indices of gems Reziba has to split differ.'
-b'Input'
-b'The input contains a single line consisting of 22 integers NN and MM (1\xe2\x89\xa4N\xe2\x89\xa410181\xe2\x89\xa4N\xe2\x89\xa41018, 2\xe2\x89\xa4M\xe2\x89\xa41002\xe2\x89\xa4M\xe2\x89\xa4100).'
-b'Output'
-b'Print one integer, the total number of configurations of the resulting set of gems, given that the total amount of space taken is NN units. Print the answer modulo 10000000071000000007 (109+7109+7).'
-Tags
-dp, math, matrices, *2100

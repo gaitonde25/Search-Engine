@@ -1,9 +1,0 @@
-b"After a successful field test, Heidi is considering deploying a trap along some Corridor, possibly not the first one. She wants to avoid meeting the Daleks inside the Time Vortex, so for abundance of caution she considers placing the traps only along those Corridors that are not going to be used according to the current Daleks' plan \xe2\x80\x93 which is to use a minimum spanning tree of Corridors. Heidi knows that all energy requirements for different Corridors are now different, and that the Daleks have a single unique plan which they are intending to use."
-b'Your task is to calculate the number Emax(c)Emax(c), which is defined in the same way as in the easy version \xe2\x80\x93 i.e., the largest e\xe2\x89\xa4109e\xe2\x89\xa4109 such that if we changed the energy of corridor cc to ee, the Daleks might use it \xe2\x80\x93 but now for every corridor that Heidi considers. '
-b'Input'
-b'The first line: number nn of destinations, number mm of Time Corridors (2\xe2\x89\xa4n\xe2\x89\xa41052\xe2\x89\xa4n\xe2\x89\xa4105, n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4106n\xe2\x88\x921\xe2\x89\xa4m\xe2\x89\xa4106). The next mm lines: destinations aa, bb and energy ee (1\xe2\x89\xa4a,b\xe2\x89\xa4n1\xe2\x89\xa4a,b\xe2\x89\xa4n, a\xe2\x89\xa0ba\xe2\x89\xa0b, 0\xe2\x89\xa4e\xe2\x89\xa41090\xe2\x89\xa4e\xe2\x89\xa4109).'
-b'No pair {a,b}{a,b} will repeat. The graph is guaranteed to be connected. All energy requirements ee are distinct.'
-b'Output'
-b"Output m\xe2\x88\x92(n\xe2\x88\x921)m\xe2\x88\x92(n\xe2\x88\x921) lines, each containing one integer: Emax(ci)Emax(ci) for the ii-th Corridor cici from the input that is not part of the current Daleks' plan (minimum spanning tree)."
-Tags
-dfs and similar, graphs, shortest paths, trees, *2100

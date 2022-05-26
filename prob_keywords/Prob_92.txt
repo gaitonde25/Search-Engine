@@ -1,6 +1,3 @@
-*2200
-algorithms
-brute
 buried
 calculated
 call
@@ -16,7 +13,6 @@ cells
 cells
 cells
 chests
-constructive
 dig
 dig
 dig
@@ -25,13 +21,12 @@ distances
 find
 find
 find
-force
 found
-geometry
 grid
 grid
 hidden
 hidden
+hunt
 includes
 interactive
 interactive
@@ -39,7 +34,7 @@ interactor
 make
 manhattan
 manhattan
-math
+n×mn×m
 operation
 operation
 operations
@@ -59,10 +54,10 @@ scan
 scan
 solve
 sum
-tags
 task
 test
 total
+treasure
 treasure
 treasure
 treasure
@@ -70,3 +65,4 @@ treasures
 treasures
 treasures
 types
+|r1−r2|+|c1−c2||r1−r2|+|c1−c2|

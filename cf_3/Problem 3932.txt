@@ -1,9 +1,0 @@
-b'You are given three integers k, pa and pb.'
-b"You will construct a sequence with the following algorithm: Initially, start with the empty sequence. Each second, you do the following. With probability pa\xe2\x80\x89/\xe2\x80\x89(pa\xe2\x80\x89+\xe2\x80\x89pb), add 'a' to the end of the sequence. Otherwise (with probability pb\xe2\x80\x89/\xe2\x80\x89(pa\xe2\x80\x89+\xe2\x80\x89pb)), add 'b' to the end of the sequence."
-b"You stop once there are at least k subsequences that form 'ab'. Determine the expected number of times 'ab' is a subsequence in the resulting sequence. It can be shown that this can be represented by P\xe2\x80\x89/\xe2\x80\x89Q, where P and Q are coprime integers, and . Print the value of ."
-b'Input'
-b'The first line will contain three integers integer k,\xe2\x80\x89pa,\xe2\x80\x89pb (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89k\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000, 1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89pa,\xe2\x80\x89pb\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x891\xe2\x80\x89000\xe2\x80\x89000).'
-b'Output'
-b'Print a single integer, the answer to the problem.'
-Tags
-dp, math, probabilities, *2200

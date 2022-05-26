@@ -9,6 +9,7 @@ code
 code
 controlled
 defined
+distinguish
 figure
 gate
 gate
@@ -39,7 +40,6 @@ single-qubit
 single-qubit
 solution
 solve
-tags
 takes
 task
 transformation

@@ -1,9 +1,0 @@
-b"In the beginning of the new year Keivan decided to reverse his name. He doesn't like palindromes, so he changed Naviek to Navick."
-b'He is too selfish, so for a given n he wants to obtain a string of n characters, each of which is either \'a\', \'b\' or \'c\', with no palindromes of length 3 appearing in the string as a substring. For example, the strings "abc" and "abca" suit him, while the string "aba" doesn\'t. He also want the number of letters \'c\' in his string to be as little as possible.'
-b'Input'
-b'The first line contains single integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x892\xc2\xb7105)\xc2\xa0\xe2\x80\x94 the length of the string.'
-b'Output'
-b'Print the string that satisfies all the constraints.'
-b'If there are multiple answers, print any of them.'
-Tags
-constructive algorithms, *1000

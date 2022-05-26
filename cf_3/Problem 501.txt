@@ -1,9 +1,0 @@
-b'The elections in which three candidates participated have recently ended. The first candidate received aa votes, the second one received bb votes, the third one received cc votes. For each candidate, solve the following problem: how many votes should be added to this candidate so that he wins the election (i.e. the number of votes for this candidate was strictly greater than the number of votes for any other candidate)?'
-b'Please note that for each candidate it is necessary to solve this problem independently, i.e. the added votes for any candidate do not affect the calculations when getting the answer for the other two candidates.'
-b'Input'
-b'The first line contains one integer tt (1\xe2\x89\xa4t\xe2\x89\xa41041\xe2\x89\xa4t\xe2\x89\xa4104) \xe2\x80\x94 the number of test cases. Then tt test cases follow.'
-b'Each test case consists of one line containing three integers aa, bb, and cc (0\xe2\x89\xa4a,b,c\xe2\x89\xa41090\xe2\x89\xa4a,b,c\xe2\x89\xa4109).'
-b'Output'
-b'For each test case, output in a separate line three integers AA, BB, and CC (A,B,C\xe2\x89\xa50A,B,C\xe2\x89\xa50) separated by spaces \xe2\x80\x94 the answers to the problem for the first, second, and third candidate, respectively.'
-Tags
-math, *800

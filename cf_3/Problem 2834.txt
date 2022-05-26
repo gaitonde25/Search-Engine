@@ -1,9 +1,0 @@
-b'An array of integers p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn is called a permutation if it contains each number from 11 to nn exactly once. For example, the following arrays are permutations: [3,1,2][3,1,2], [1][1], [1,2,3,4,5][1,2,3,4,5] and [4,3,1,2][4,3,1,2]. The following arrays are not permutations: [2][2], [1,1][1,1], [2,3,4][2,3,4].'
-b'Polycarp invented a really cool permutation p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn of length nn. It is very disappointing, but he forgot this permutation. He only remembers the array q1,q2,\xe2\x80\xa6,qn\xe2\x88\x921q1,q2,\xe2\x80\xa6,qn\xe2\x88\x921 of length n\xe2\x88\x921n\xe2\x88\x921, where qi=pi+1\xe2\x88\x92piqi=pi+1\xe2\x88\x92pi.'
-b'Given nn and q=q1,q2,\xe2\x80\xa6,qn\xe2\x88\x921q=q1,q2,\xe2\x80\xa6,qn\xe2\x88\x921, help Polycarp restore the invented permutation.'
-b'Input'
-b'The first line contains the integer nn (2\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x851052\xe2\x89\xa4n\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x94 the length of the permutation to restore. The second line contains n\xe2\x88\x921n\xe2\x88\x921 integers q1,q2,\xe2\x80\xa6,qn\xe2\x88\x921q1,q2,\xe2\x80\xa6,qn\xe2\x88\x921 (\xe2\x88\x92n<qi<n\xe2\x88\x92n<qi<n).'
-b'Output'
-b'Print the integer -1 if there is no such permutation of length nn which corresponds to the given array qq. Otherwise, if it exists, print p1,p2,\xe2\x80\xa6,pnp1,p2,\xe2\x80\xa6,pn. Print any such permutation if there are many of them.'
-Tags
-math, *1500

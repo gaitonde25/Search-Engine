@@ -1,9 +1,0 @@
-b'You are given a string ss. You have to reverse it \xe2\x80\x94 that is, the first letter should become equal to the last letter before the reversal, the second letter should become equal to the second-to-last letter before the reversal \xe2\x80\x94 and so on. For example, if your goal is to reverse the string "abddea", you should get the string "aeddba". To accomplish your goal, you can swap the neighboring elements of the string. '
-b'Your task is to calculate the minimum number of swaps you have to perform to reverse the given string.'
-b'Input'
-b'The first line contains one integer nn (2\xe2\x89\xa4n\xe2\x89\xa42000002\xe2\x89\xa4n\xe2\x89\xa4200000) \xe2\x80\x94 the length of ss.'
-b'The second line contains ss \xe2\x80\x94 a string consisting of nn lowercase Latin letters.'
-b'Output'
-b'Print one integer \xe2\x80\x94 the minimum number of swaps of neighboring elements you have to perform to reverse the string.'
-Tags
-data structures, greedy, strings, *1900

@@ -1,9 +1,0 @@
-b"We are definitely not going to bother you with another generic story when Alice finds about an array or when Alice and Bob play some stupid game. This time you'll get a simple, plain text."
-b'First, let us define several things. We define function FF on the array AA such that F(i,1)=A[i]F(i,1)=A[i] and F(i,m)=A[F(i,m\xe2\x88\x921)]F(i,m)=A[F(i,m\xe2\x88\x921)] for m>1m>1. In other words, value F(i,m)F(i,m) represents composition A[...A[i]]A[...A[i]] applied mm times.'
-b'You are given an array of length NN with non-negative integers. You are expected to give an answer on QQ queries. Each query consists of two numbers \xe2\x80\x93 mm and yy. For each query determine how many xx exist such that F(x,m)=yF(x,m)=y.'
-b'Input'
-b'The first line contains one integer NN (1\xe2\x89\xa4N\xe2\x89\xa42\xe2\x8b\x85105)(1\xe2\x89\xa4N\xe2\x89\xa42\xe2\x8b\x85105) \xe2\x80\x93 the size of the array AA. The next line contains NN non-negative integers \xe2\x80\x93 the array AA itself (1\xe2\x89\xa4Ai\xe2\x89\xa4N)(1\xe2\x89\xa4Ai\xe2\x89\xa4N). The next line contains one integer QQ (1\xe2\x89\xa4Q\xe2\x89\xa4105)(1\xe2\x89\xa4Q\xe2\x89\xa4105) \xe2\x80\x93 the number of queries. Each of the next QQ lines contain two integers mm and yy (1\xe2\x89\xa4m\xe2\x89\xa41018,1\xe2\x89\xa4y\xe2\x89\xa4N)(1\xe2\x89\xa4m\xe2\x89\xa41018,1\xe2\x89\xa4y\xe2\x89\xa4N).'
-b'Output'
-b'Output exactly QQ lines with a single integer in each that represent the solution. Output the solutions in the order the queries were asked in.'
-Tags
-dfs and similar, *2900

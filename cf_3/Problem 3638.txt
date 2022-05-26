@@ -1,9 +1,0 @@
-b'Two-gram is an ordered pair (i.e. string of length two) of capital Latin letters. For example, "AZ", "AA", "ZA" \xe2\x80\x94 three distinct two-grams.'
-b'You are given a string ss consisting of nn capital Latin letters. Your task is to find any two-gram contained in the given string as a substring (i.e. two consecutive characters of the string) maximal number of times. For example, for string ss = "BBAABBBA" the answer is two-gram "BB", which contained in ss three times. In other words, find any most frequent two-gram.'
-b'Note that occurrences of the two-gram can overlap with each other.'
-b'Input'
-b'The first line of the input contains integer number nn (2\xe2\x89\xa4n\xe2\x89\xa41002\xe2\x89\xa4n\xe2\x89\xa4100) \xe2\x80\x94 the length of string ss. The second line of the input contains the string ss consisting of nn capital Latin letters.'
-b'Output'
-b'Print the only line containing exactly two capital Latin letters \xe2\x80\x94 any two-gram contained in the given string ss as a substring (i.e. two consecutive characters of the string) maximal number of times.'
-Tags
-implementation, strings, *900

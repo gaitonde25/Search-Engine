@@ -1,9 +1,0 @@
-b'You have two integers ll and rr. Find an integer xx which satisfies the conditions below:'
-b'  l\xe2\x89\xa4x\xe2\x89\xa4rl\xe2\x89\xa4x\xe2\x89\xa4r.  All digits of xx are different. '
-b'If there are multiple answers, print any of them.'
-b'Input'
-b'The first line contains two integers ll and rr (1\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa41051\xe2\x89\xa4l\xe2\x89\xa4r\xe2\x89\xa4105).'
-b'Output'
-b'If an answer exists, print any of them. Otherwise, print \xe2\x88\x921\xe2\x88\x921.'
-Tags
-brute force, implementation, *800

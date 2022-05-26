@@ -1,9 +1,0 @@
-b'You are given n points on Cartesian plane. Every point is a lattice point (i.\xe2\x80\x89e. both of its coordinates are integers), and all points are distinct.'
-b'You may draw two straight lines (not necessarily distinct). Is it possible to do this in such a way that every point lies on at least one of these lines?'
-b'Input'
-b'The first line contains one integer n (1\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89n\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89105) \xe2\x80\x94 the number of points you are given.'
-b'Then n lines follow, each line containing two integers xi and yi (|xi|,\xe2\x80\x89|yi|\xe2\x80\x89\xe2\x89\xa4\xe2\x80\x89109)\xe2\x80\x94 coordinates of i-th point. All n points are distinct.'
-b'Output'
-b'If it is possible to draw two straight lines in such a way that each of given points belongs to at least one of these lines, print YES. Otherwise, print NO.'
-Tags
-geometry, *2000

@@ -1,9 +1,0 @@
-b'You are given a positive (greater than zero) integer nn.'
-b"You have to represent nn as the sum of integers (possibly negative) consisting only of ones (digits '1'). For example, 24=11+11+1+124=11+11+1+1 and 102=111\xe2\x88\x9211+1+1102=111\xe2\x88\x9211+1+1. "
-b'Among all possible representations, you have to find the one that uses the minimum number of ones in total.'
-b'Input'
-b'The single line contains one integer nn (1\xe2\x89\xa4n<10501\xe2\x89\xa4n<1050).'
-b'Output'
-b'Print one integer xx \xe2\x80\x94 the minimum number of ones, such that there exist a representation of nn as the sum of integers (possibly negative) that uses xx ones in total.'
-Tags
-dp, greedy, shortest paths, *2900

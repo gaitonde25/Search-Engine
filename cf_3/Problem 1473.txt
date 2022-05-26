@@ -1,8 +1,0 @@
-b'The government of Treeland wants to build a new road network. There are 2N2N cities in Treeland. The unfinished plan of the road network already contains NN road segments, each of which connects two cities with a straight line. No two road segments have a common point (including their endpoints).  Your task is to determine N\xe2\x88\x921N\xe2\x88\x921 additional road segments satisfying the following conditions: '
-b'  Every new road segment must connect two cities with a straight line.  If two segments (new or old) have a common point, then this point must be an endpoint of both segments.  The road network connects all cities: for each pair of cities there is a path consisting of segments that connects the two cities. '
-b'Input'
-b'The first line of the standard input contains NN (2\xe2\x89\xa4N\xe2\x89\xa41052\xe2\x89\xa4N\xe2\x89\xa4105) \xe2\x80\x93 the number of existing road segments. Each of the following NN lines contains four integers: x1,y1,x2,y2x1,y1,x2,y2, where (x1,y1)(x1,y1) and (x2,y2)(x2,y2) are the coordinates of the endpoints of the segment (\xe2\x88\x92107\xe2\x89\xa4xi,yi\xe2\x89\xa4107)(\xe2\x88\x92107\xe2\x89\xa4xi,yi\xe2\x89\xa4107).'
-b'Output'
-b'The standard output must contain N\xe2\x88\x921N\xe2\x88\x921 lines, each of them containing four integers, x1,y1,x2,y2x1,y1,x2,y2, where (x1,y1)(x1,y1) and (x2,y2)(x2,y2) are the coordinates of the cities that are the endpoints of a new road segment. If there are multiple solutions, your program may output any of them.'
-Tags
-*special problem, geometry, sortings, *2900

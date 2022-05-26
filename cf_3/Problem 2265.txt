@@ -1,9 +1,0 @@
-b'You are developing a project to build a new data center. The data center will be a rectangle with an area of exactly nn square meters. Each side of the data center must be an integer.'
-b'Your goal is to minimize the impact of the external environment on the data center. For this reason, you want to minimize the length of the perimeter of the data center (that is, the sum of the lengths of its four sides).'
-b'What is the minimum perimeter of a rectangular data center with an area of exactly nn square meters, if the lengths of all its sides must be integers?'
-b'Input'
-b'The first and only line of the input contains an integer nn (1\xe2\x89\xa4n\xe2\x89\xa41051\xe2\x89\xa4n\xe2\x89\xa4105), where nn is the area of the data center in square meters.'
-b'Output'
-b'Print the required minimum perimeter in meters.'
-Tags
-brute force, implementation, *800

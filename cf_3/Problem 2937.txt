@@ -1,7 +1,0 @@
-b'You are given two qubits in state |00\xe2\x9f\xa9|00\xe2\x9f\xa9. Your task is to create the following state on them:'
-b'13\xe2\x80\x93\xe2\x88\x9a(|00\xe2\x9f\xa9+|01\xe2\x9f\xa9+|10\xe2\x9f\xa9)13(|00\xe2\x9f\xa9+|01\xe2\x9f\xa9+|10\xe2\x9f\xa9)'
-b'You have to implement an operation which takes an array of 2 qubits as an input and has no output. The "output" of your solution is the state in which it left the input qubits.'
-b'Your code should have the following signature:'
-b'namespace Solution {    open Microsoft.Quantum.Primitive;    open Microsoft.Quantum.Canon;    operation Solve (qs : Qubit[]) : Unit {        // your code here    }}'
-Tags
-
