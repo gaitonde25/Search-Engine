@@ -22,7 +22,8 @@
         </div>
       </div>
     </form>
-    <div class="problems">
+    <div id="load_prob"></div>
+    <div id="all_prob" class="problems">
       <% if(top10prob.length == 0){ %>
       <div class="no-result">
         <div class="man-search">
@@ -56,5 +57,19 @@
       <% }) } %>
     </div>
     <%- include('./partials/footer.ejs') %>
+
+    <script>
+      function _e(id) {
+        return document.getElementById(id);
+      }
+      _e("btn").addEventListener(
+        "click",
+        function () {
+          _e("all_prob").innerHTML = "";
+          _e("load_prob").innerHTML = "<h3>Loading...</h3>";
+        },
+        false
+      );
+    </script>
   </body>
 </html>

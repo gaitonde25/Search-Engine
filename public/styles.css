@@ -91,6 +91,11 @@ img {
   border-color: rgba(223, 225, 229, 0);
 }
 
+/* Problem loading css */
+#load_prob {
+  text-align: center;
+}
+
 /* Details page CSS */
 .details-page {
   padding: 1rem 8rem 3rem;
