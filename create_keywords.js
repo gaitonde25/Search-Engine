@@ -19,21 +19,21 @@ for (let i = 1; i < names.length; i++) {
   });
 
   // apply the extractor for 2nd time after removing the " b' " due to utf-encoding
-  let temp = "";
-  keyWord.forEach((element) => {
-    element = element.toLowerCase();
-    temp += element + " ";
-  });
-  let keyWord2 = keyword_extractor.extract(temp, {
-    language: "english",
-    remove_digits: true,
-    return_changed_case: true,
-    remove_duplicates: false,
-  });
+  // let temp = "";
+  // keyWord.forEach((element) => {
+  //   element = element.toLowerCase();
+  //   temp += element + " ";
+  // });
+  // let keyWord2 = keyword_extractor.extract(temp, {
+  //   language: "english",
+  //   remove_digits: true,
+  //   return_changed_case: true,
+  //   remove_duplicates: false,
+  // });
   //done
 
   let p_keyWords = [];
-  keyWord2.forEach((element) => {
+  keyWord.forEach((element) => {
     keyWords.add(element);
     p_keyWords.push(element);
   });

@@ -23,7 +23,7 @@ function find_file(name) {
 }
 
 const search = async (req, res) => {
-  // all the files are read only when search is made for 1st time
+  // all the files are read only once when search is made for 1st time
   if (flag == 0) {
     console.log("reading files");
     global.keywords = await find_file("Keywords");
@@ -125,7 +125,7 @@ const search = async (req, res) => {
   }
   Mag = Math.sqrt(Mag);
   console.log("Mag", Mag);
-  if (Mag == 0) {
+  if (!(Mag > 0)) {
     let top10prob = [{ error: "no prob" }];
     res.render("index", { title: "Noodle", top10prob });
   }

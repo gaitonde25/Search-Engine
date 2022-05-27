@@ -7,15 +7,6 @@ fs.readFile("Keywords.txt", "utf8", (err, data) => {
   keywords = data.split("\n");
 });
 
-function wait2sec() {
-  console.log("waiting ...");
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("done");
-    }, 2000);
-  });
-}
-
 function readFile(filename) {
   return new Promise((resolve) => {
     fs.readFile(filename, "utf8", (err, data) => {
@@ -82,7 +73,6 @@ let tfIdfMatrix = [];
 let Magnitude = [];
 
 async function work() {
-  const wait = await wait2sec();
   const num_probs = 2000;
   //generate tf matrix
   for (let i = 1; i <= num_probs; i++) {

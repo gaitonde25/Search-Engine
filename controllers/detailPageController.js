@@ -34,7 +34,6 @@ const details = async (req, res) => {
   prob_out = prob_out.slice(7, prob_out.length);
   let prob_tags = await find_file(`Prob_tag_${id + 1}`);
   prob_tags = prob_tags.text.split("\n");
-  console.log(prob_tags);
   return res.render("details", {
     name: prob_name,
     url: prob_url,
