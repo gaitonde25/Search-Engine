@@ -2,18 +2,26 @@
 <html lang="en">
   <%- include('./partials/head.ejs') %>
   <body>
-    <div>
-      <h1><%= name %></h1>
-      <a href="<%= url %>"> Link to the original problem</a>
-    </div>
+    <div class="details-page">
+      <div class="prob-title-link">
+        <h1><%= name %></h1>
+        <a href="<%= url %>"> Link to the original problem</a>
+      </div>
 
-    <p><%= text %></p>
-    <h2>INPUT</h2>
-    <p><%= input %></p>
-    <h2>OUTPUT</h2>
-    <p><%= output %></p>
-    <h2>TAGS</h2>
-    <p><%= Tags %></p>
+      <p class="dt-p"><%= text %></p>
+      <h2>INPUT</h2>
+      <p class="dt-p"><%= input %></p>
+      <h2>OUTPUT</h2>
+      <p class="dt-p"><%= output %></p>
+      <h2>TAGS</h2>
+      <div class="tags">
+        <% for(let i=0;i<tags.length-1;i++){ %>
+          <div class="tagbox">
+            <p><%= tags[i] %></p>
+          </div>
+        <% } %>
+      </div>
+    </div>
     <%- include('./partials/footer.ejs') %>
   </body>
 </html>

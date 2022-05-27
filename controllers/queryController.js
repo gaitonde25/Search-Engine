@@ -1,6 +1,14 @@
 const keyword_extractor = require("keyword-extractor");
 const Prob = require("../models/prob");
+const converter = require("number-to-words");
+const SpellChecker = require("simple-spellchecker");
 const File = require("../models/file");
+
+function find_prob(id) {
+  return Prob.findOne({
+    id: id,
+  });
+}
 
 function find_file(name) {
   return new Promise((resolve) => {
@@ -14,24 +22,61 @@ function find_file(name) {
   });
 }
 
-function find_prob(id) {
-  return Prob.findOne({
-    id: id,
-  });
-}
-
 const search = async (req, res) => {
+  // all the files are read only when search is made for 1st time
+  if (flag == 0) {
+    console.log("reading files");
+    global.keywords = await find_file("Keywords");
+    keywords = keywords.text.split("\n");
+
+    global.idfArr = await find_file("idfArray");
+    idfArr = idfArr.text.split("\n");
+
+    global.tfidfArr = await find_file("tf-idfMatrix");
+    tfidfArr = tfidfArr.text.split("\n");
+
+    global.prob_mag = await find_file("Magnitude");
+    prob_mag = prob_mag.text.split("\n");
+  }
+  flag = 1;
+
   let query = req.body.query;
   query = query.toLowerCase();
-  // console.log(" Query", query);
+  console.log(" Query", query);
   if (query.length == 0) {
     res.redirect("./");
   }
 
+  // find numbers in the query
+  const regex = /\d+/g;
+  const matches = query.match(regex);
+  // convert numbers to words and add it in query
+  if (matches != null) {
+    for (let i = 0; i < matches.length; i++) {
+      query += " " + converter.toWords(Number(matches[i]));
+    }
+  }
+
+  // add corrected words in query if there are any
+  const words = query.split(" ");
+  for (let i = 0; i < words.length; i++) {
+    const dictionary = SpellChecker.getDictionarySync("en-US");
+    const misspelled = !dictionary.spellCheck(words[i]);
+    if (misspelled) {
+      const suggestions = dictionary.getSuggestions(words[i]);
+      query += " " + suggestions[0];
+      // const size = Math.min(suggestions.length, 3);
+      // for (let j = 0; j < size; j++) {
+      //   query += " " + suggestions[j];
+      // }
+    }
+  }
+
+  console.log("updated", query);
   // OPEN keywords file
 
-  let keywords = await find_file("Keywords");
-  keywords = keywords.text.split("\n");
+  // let keywords = await find_file("Keywords");
+  // keywords = keywords.text.split("\n");
   // let keywords = fs.readFileSync("./Keywords.txt", "utf8").split("\n");
 
   // extract keywords from the query
@@ -68,8 +113,8 @@ const search = async (req, res) => {
 
   // OPEN idfArr file
 
-  let idfArr = await find_file("idfArray");
-  idfArr = idfArr.text.split("\n");
+  // let idfArr = await find_file("idfArray");
+  // idfArr = idfArr.text.split("\n");
   // let idfArr = fs.readFileSync("./idfArray.txt", "utf8").split("\n");
 
   // transform tf vector for query to tf-idf vector and also calculate magnitude of it
@@ -79,11 +124,15 @@ const search = async (req, res) => {
     Mag += qarr[i] * qarr[i];
   }
   Mag = Math.sqrt(Mag);
-
+  console.log("Mag", Mag);
+  if (Mag == 0) {
+    let top10prob = [{ error: "no prob" }];
+    res.render("index", { title: "Noodle", top10prob });
+  }
   // OPEN tfidfMatrix
 
-  let tfidfArr = await find_file("tf-idfMatrix");
-  tfidfArr = tfidfArr.text.split("\n");
+  // let tfidfArr = await find_file("tf-idfMatrix");
+  // tfidfArr = tfidfArr.text.split("\n");
   // let tfidfArr = fs.readFileSync("./tf-idfMatrix.txt", "utf8").split("\n");
 
   const n = Number(tfidfArr[0].split(" ")[0]);
@@ -110,8 +159,8 @@ const search = async (req, res) => {
 
   // OPEN magnitude file
 
-  let prob_mag = await find_file("Magnitude");
-  prob_mag = prob_mag.text.split("\n");
+  // let prob_mag = await find_file("Magnitude");
+  // prob_mag = prob_mag.text.split("\n");
   // let prob_mag = fs.readFileSync("./Magnitude.txt", "utf8").split("\n");
 
   // create similarity array

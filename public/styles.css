@@ -6,6 +6,10 @@ body {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.dt-p {
+  white-space: pre-line;
+  line-height: 2rem;
+}
 .site-title {
   margin: auto;
   width: 50%;
@@ -85,6 +89,23 @@ img {
 #btn:hover {
   box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
   border-color: rgba(223, 225, 229, 0);
+}
+
+/* Details page CSS */
+.details-page {
+  padding: 1rem 8rem 3rem;
+}
+.prob-title-link {
+  text-align: center;
+}
+.tags {
+  padding-bottom: 6rem;
+}
+.tagbox {
+  margin: 0.2rem 0.8rem;
+  padding: 0 1rem 0px 1rem;
+  background-color: #f0f0f0;
+  float: left;
 }
 
 .footer {

@@ -16,7 +16,10 @@ const dbURI =
   "mongodb+srv://babuRao:KPAUJrqrcVYBZhBQ@probs.vlvbx.mongodb.net/Top_problems?retryWrites=true&w=majority";
 mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then((result) => app.listen(PORT)) // Listen for req only after db has been connected
+  .then((result) => {
+    global.flag = 0;
+    app.listen(PORT); // Listen for req only after db has been connected
+  })
   .catch((err) => console.log(err));
 
 // register view engine

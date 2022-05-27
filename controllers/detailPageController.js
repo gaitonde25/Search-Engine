@@ -28,10 +28,13 @@ const details = async (req, res) => {
   prob_text = prob_text.text;
   let prob_inp = await find_file(`Prob_inp_${id + 1}`);
   prob_inp = prob_inp.text;
+  prob_inp = prob_inp.slice(6, prob_inp.length);
   let prob_out = await find_file(`Prob_out_${id + 1}`);
   prob_out = prob_out.text;
+  prob_out = prob_out.slice(7, prob_out.length);
   let prob_tags = await find_file(`Prob_tag_${id + 1}`);
-  prob_tags = prob_tags.text;
+  prob_tags = prob_tags.text.split("\n");
+  console.log(prob_tags);
   return res.render("details", {
     name: prob_name,
     url: prob_url,
@@ -39,7 +42,7 @@ const details = async (req, res) => {
     title: "Problem details",
     input: prob_inp,
     output: prob_out,
-    Tags: prob_tags,
+    tags: prob_tags,
   });
 };
 
